@@ -1,0 +1,9 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "n8n start"
+healthcheckPath = "/healthz"
+healthcheckTimeout = 30
+restartPolicyType = "always"
