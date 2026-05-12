@@ -74,4 +74,4 @@ feature competitor, SEO rules, prompt blog template.
 ## URL infrastruttura
 - GitHub Pages: https://gallo93.github.io/aliglobalshop
 - GitHub repo: https://github.com/Gallo93/aliglobalshop
-- n8n Railway: (da impostare dopo deploy)
+- n8n Railway: https://aliglobalshop-production.up.railway.app
