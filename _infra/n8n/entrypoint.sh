@@ -7,6 +7,8 @@ chmod 700 /home/node/.n8n
 
 if command -v su-exec >/dev/null 2>&1; then
   exec su-exec node "$@"
-else
+elif command -v gosu >/dev/null 2>&1; then
   exec gosu node "$@"
+else
+  exec runuser -u node -- "$@"
 fi
