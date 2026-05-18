@@ -6,7 +6,7 @@ Tutti i workflow dispatchano un GitHub Actions workflow nel repo `Gallo93/aliglo
 |---|----------|---------|---------------|------|
 | 01 | Fetch Products Daily | cron `0 1 * * *` (02:00 Europe/Rome) | `fetch_products.yml` | Aggiorna `_data/products/en/*.json` |
 | 02 | Update Prices (6h) | cron `0 */6 * * *` | `update_prices.yml` | Aggiorna prezzi + Resend alert |
-| 03 | Build Site (webhook) | webhook POST `/webhook/build-site` | `pages.yml` | Rebuild site on demand |
+| 03 | Build Site (webhook) | webhook POST `/webhook/build-site` | `deploy.yml` | Rebuild site on demand |
 | 04 | Flash Sale (hourly) | cron `0 * * * *` | `flash_sale.yml` | Aggiorna `_data/flash-sale/en.json` |
 | 05 | Fetch Coupons Daily | cron `0 5 * * *` (06:00 Europe/Rome) | `fetch_coupons.yml` | Aggiorna `_data/coupons/en.json` |
 
