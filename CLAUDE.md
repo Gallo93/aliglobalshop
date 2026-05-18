@@ -16,7 +16,7 @@ Commissioni affiliate 3–9% per vendita generata. Zero magazzino, zero spedizio
 ```
 FASE 0  → Obsidian vault (fatto)
 FASE 1  → GitHub + Railway + n8n + verifica API (fatto)
-FASE 2  → Fetch prodotti EN → JSON → immagini su Cloudinary
+FASE 2  → Fetch prodotti EN → JSON → immagini su Cloudinary (fatto)
 FASE 3  → 5 workflow n8n (fetch, prezzi, build, flash-sale, coupon)
 FASE 4  → Template HTML EN + build.py + blog AI (2 articoli/die)
 FASE 5  → Staging OK 3gg → ACQUISTO DOMINIO → live EN
@@ -59,7 +59,7 @@ SITE_URL=https://gallo93.github.io/aliglobalshop
 ## Fasi completate
 - [x] FASE 0 — Vault Obsidian
 - [x] FASE 1 — Infrastruttura
-- [ ] FASE 2 — Primo fetch EN
+- [x] FASE 2 — Primo fetch EN
 - [ ] FASE 3 — Workflow n8n
 - [ ] FASE 4 — Template + Blog AI
 - [ ] FASE 5 — Dominio + Live EN
