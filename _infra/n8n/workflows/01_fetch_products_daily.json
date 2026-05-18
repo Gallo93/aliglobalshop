@@ -5,14 +5,11 @@
       "parameters": {
         "rule": {
           "interval": [
-            {
-              "field": "cronExpression",
-              "expression": "0 1 * * *"
-            }
+            { "field": "cronExpression", "expression": "0 1 * * *" }
           ]
         }
       },
-      "id": "a1111111-1111-1111-1111-111111111111",
+      "id": "trig11111-1111-1111-1111-111111111111",
       "name": "Schedule 02:00 Rome",
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
@@ -22,10 +19,11 @@
       "parameters": {
         "method": "POST",
         "url": "https://api.github.com/repos/Gallo93/aliglobalshop/actions/workflows/fetch_products.yml/dispatches",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
-            { "name": "Authorization", "value": "Bearer ={{$env.GITHUB_TOKEN}}" },
             { "name": "Accept", "value": "application/vnd.github.v3+json" },
             { "name": "User-Agent", "value": "n8n-aliglobalshop" }
           ]
@@ -35,11 +33,14 @@
         "jsonBody": "={\"ref\": \"main\"}",
         "options": {}
       },
-      "id": "a2222222-2222-2222-2222-222222222222",
+      "id": "http12222-2222-2222-2222-222222222222",
       "name": "Dispatch fetch_products.yml",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [520, 300]
+      "position": [520, 300],
+      "credentials": {
+        "httpHeaderAuth": { "id": "USwcldHXwp1fbqKM", "name": "GitHub Actions Dispatch" }
+      }
     }
   ],
   "connections": {
@@ -47,8 +48,5 @@
       "main": [[{ "node": "Dispatch fetch_products.yml", "type": "main", "index": 0 }]]
     }
   },
-  "settings": {
-    "timezone": "Europe/Rome",
-    "executionOrder": "v1"
-  }
+  "settings": { "timezone": "Europe/Rome", "executionOrder": "v1" }
 }
