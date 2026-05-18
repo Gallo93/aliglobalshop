@@ -1,0 +1,33 @@
+name: Fetch Coupons
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'  # 06:00 Europe/Rome = 05:00 UTC
+
+jobs:
+  coupons:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Fetch coupons
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+        run: python _scripts/fetch_coupons.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/coupons/
+          git diff --staged --quiet || git commit -m "chore: update coupons [skip ci]"
+          git push
