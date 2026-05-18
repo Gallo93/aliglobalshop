@@ -7,8 +7,7 @@ Commissioni affiliate 3–9% per vendita generata. Zero magazzino, zero spedizio
 - **Frontend:** HTML statico generato da `_scripts/build.py`
 - **Hosting:** GitHub Pages (deploy via GitHub Actions su ogni push)
 - **Automation:** n8n self-hosted su Railway
-- **CDN/DNS:** Cloudflare (cache, SSL, R2 per immagini)
-- **Images:** Cloudflare R2 — tutte le immagini re-hosted in WebP
+- **Images:** Cloudinary (free tier) — tutte le immagini re-hosted in WebP, CDN globale
 - **Products:** AliExpress Affiliate API (`portals.aliexpress.com`)
 - **AI Content:** Anthropic API `claude-sonnet-4-20250514` — blog + traduzioni
 - **Email:** Resend (free tier) — price drop alerts
@@ -16,8 +15,8 @@ Commissioni affiliate 3–9% per vendita generata. Zero magazzino, zero spedizio
 ## Ordine costruzione — NON deviare
 ```
 FASE 0  → Obsidian vault (fatto)
-FASE 1  → GitHub + Railway + n8n + Cloudflare R2 + verifica API
-FASE 2  → Fetch prodotti EN → JSON → immagini su R2
+FASE 1  → GitHub + Railway + n8n + verifica API (fatto)
+FASE 2  → Fetch prodotti EN → JSON → immagini su Cloudinary
 FASE 3  → 5 workflow n8n (fetch, prezzi, build, flash-sale, coupon)
 FASE 4  → Template HTML EN + build.py + blog AI (2 articoli/die)
 FASE 5  → Staging OK 3gg → ACQUISTO DOMINIO → live EN
@@ -45,8 +44,7 @@ assets/css/ js/ img/
 ```
 ALIEXPRESS_APP_KEY, ALIEXPRESS_APP_SECRET, ALIEXPRESS_TRACKING_ID
 ANTHROPIC_API_KEY
-CF_R2_ACCOUNT_ID, CF_R2_ACCESS_KEY_ID, CF_R2_SECRET_ACCESS_KEY
-CF_R2_BUCKET_NAME=aliglobalshop-images
+CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET
 RESEND_API_KEY
 SITE_URL=https://gallo93.github.io/aliglobalshop
 ```
@@ -70,8 +68,3 @@ SITE_URL=https://gallo93.github.io/aliglobalshop
 ## Dettagli completi
 Vedi `docs/piano-progetto.md` per schema JSON prodotto, endpoint API, workflow n8n,
 feature competitor, SEO rules, prompt blog template.
-
-## URL infrastruttura
-- GitHub Pages: https://gallo93.github.io/aliglobalshop
-- GitHub repo: https://github.com/Gallo93/aliglobalshop
-- n8n Railway: https://aliglobalshop-production.up.railway.app
