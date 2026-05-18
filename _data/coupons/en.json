@@ -1,4 +1,16 @@
 {
-  "updated_at": null,
-  "items": []
+  "updated_at": "2026-05-18T20:12:22Z",
+  "min_discount_pct": 30,
+  "products": [
+    {
+      "product_id": "1005009565813143",
+      "title": "#For Coupon also available after discount az180 galvalume steel plate 0.45 galvalume steel coil sglc570",
+      "slug": "for-coupon-also-available-after-discount-az180-galvalume-ste",
+      "price": "123.23",
+      "original_price": "1232.31",
+      "discount_pct": 90,
+      "affiliate_url": "https://www.aliexpress.com/item/1005009565813143.html?pdp_npi=6%40dis%21USD%211232.31%21123.23%21%21%218354.64%21835.46%21%40210152bd17791351418498998e107d%2112000049479625794%21affd%21%21%21%211%210%21",
+      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sa60969cf66b743e081edf9281d8a8971j.jpg"
+    }
+  ]
 }
