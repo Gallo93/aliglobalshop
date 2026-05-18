@@ -38,9 +38,10 @@ NICHES = {
 }
 
 
-def _sign(method: str, params: dict) -> str:
+def _sign(params: dict) -> str:
+    # method included in params, sign excluded - no prefix
     sorted_pairs = sorted(params.items())
-    sign_str = method + "".join(f"{k}{v}" for k, v in sorted_pairs)
+    sign_str = "".join(f"{k}{v}" for k, v in sorted_pairs)
     return hmac.new(APP_SECRET.encode("utf-8"), sign_str.encode("utf-8"), hashlib.sha256).hexdigest().upper()
 
 
@@ -68,11 +69,11 @@ def upload_image(image_url: str, product_id: str) -> str:
 
 
 def fetch_products(keyword: str, page_size: int = 20) -> list:
-    method = "aliexpress.affiliate.hotproduct.query"
     params = {
         "app_key": APP_KEY,
         "format": "json",
         "keywords": keyword,
+        "method": "aliexpress.affiliate.hotproduct.query",
         "page_size": str(page_size),
         "sign_method": "sha256",
         "target_currency": "USD",
@@ -83,8 +84,7 @@ def fetch_products(keyword: str, page_size: int = 20) -> list:
     if TRACKING_ID:
         params["tracking_id"] = TRACKING_ID
 
-    params["sign"] = _sign(method, params)
-    params["method"] = method
+    params["sign"] = _sign(params)
 
     try:
         resp = requests.get(API_URL, params=params, timeout=30)
@@ -115,7 +115,6 @@ def build_product(raw: dict, niche: str, hosted_image: str) -> dict:
 
     rating_str = raw.get("evaluate_rate", "0%")
     try:
-        # AliExpress returns "95.6%" → convert to 0-5 scale
         rating = round(float(str(rating_str).strip("%")) / 20, 1)
     except (ValueError, AttributeError):
         rating = None
@@ -163,7 +162,7 @@ def main():
         out_path = OUTPUT_DIR / f"{niche}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(output, f, ensure_ascii=False, indent=2)
-        print(f"  → {len(products)} prodotti → {out_path}")
+        print(f"  -> {len(products)} prodotti -> {out_path}")
         time.sleep(1)
 
 
