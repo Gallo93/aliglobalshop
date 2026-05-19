@@ -173,6 +173,28 @@ def article_card_html(article: dict, site_url: str) -> str:
     )
 
 
+def related_products_section_html(
+    category_slug: str, products_by_cat: dict, site_url: str, limit: int = 4
+) -> str:
+    """Build a 'Related products' block for blog posts, pulled from the matching category."""
+    if not category_slug or category_slug not in products_by_cat:
+        return ""
+    products = products_by_cat[category_slug].get("products", [])[:limit]
+    if not products:
+        return ""
+    cat_name = CATEGORY_NAMES.get(category_slug, category_slug.title())
+    cards = "".join(product_card_html(p, category_slug, site_url) for p in products)
+    return (
+        f'<section class="related-products">'
+        f'<h2 class="related-products__title">Top {cat_name} deals right now</h2>'
+        f'<div class="product-grid">{cards}</div>'
+        f'<p class="related-products__cta">'
+        f'<a class="btn-cta" href="{site_url}/en/{category_slug}/">'
+        f'Browse all {cat_name} deals →</a></p>'
+        f'</section>'
+    )
+
+
 def base_context(site_url: str) -> dict:
     return {
         "site_title": SITE_TITLE,
@@ -272,10 +294,15 @@ def build_blog_index(site_url: str, articles: list) -> None:
     write_file(OUTPUT_DIR / "blog" / "index.html", render(tpl, ctx))
 
 
-def build_blog_posts(site_url: str, articles: list) -> None:
+def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> None:
     tpl = load_template("blog-post.html")
     for article in articles:
         slug = article.get("slug", "")
+        category_slug = article.get("category", "")
+        related_section = related_products_section_html(
+            category_slug, products_by_cat, site_url, limit=4
+        )
+        og_image = f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
         ctx = base_context(site_url)
         ctx.update({
             "canonical_url": f"{site_url}/en/blog/{slug}/",
@@ -286,7 +313,10 @@ def build_blog_posts(site_url: str, articles: list) -> None:
             "meta_description": esc(article.get("meta_desc", article.get("meta_description", ""))),
             "content_html": article.get("content_html", article.get("content", "")),
             "reading_time_min": esc(article.get("reading_time_min", 5)),
-            "og_image": f"{site_url}{DEFAULT_OG_IMAGE_PATH}",
+            "og_image": og_image,
+            "category_slug": esc(category_slug),
+            "category_name": esc(CATEGORY_NAMES.get(category_slug, category_slug.title())),
+            "related_products_section": related_section,
         })
         write_file(
             OUTPUT_DIR / "blog" / slug / "index.html",
@@ -432,7 +462,7 @@ def main() -> None:
     build_categories(site_url, products_by_cat)
     build_products(site_url, products_by_cat)
     build_blog_index(site_url, articles)
-    build_blog_posts(site_url, articles)
+    build_blog_posts(site_url, articles, products_by_cat)
     build_flash_sale(site_url, flash_deals, flash_updated)
     build_coupons(site_url, coupons, coupons_updated)
     build_static_pages(site_url)

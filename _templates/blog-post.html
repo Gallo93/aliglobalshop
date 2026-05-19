@@ -44,12 +44,17 @@
 
   <main class="container article">
     <article>
-      <h1 class="article__title">{{title}}</h1>
-      <p class="article__meta"><time datetime="{{date}}">{{date}}</time> · {{reading_time_min}} min read</p>
+      <header class="article__header">
+        <h1 class="article__title">{{title}}</h1>
+        <p class="article__meta"><time datetime="{{date}}">{{date}}</time> &middot; {{reading_time_min}} min read &middot; <a href="{{site_url}}/en/{{category_slug}}/">{{category_name}}</a></p>
+        <img class="article__hero" src="{{og_image}}" alt="{{title}}" width="1200" height="400" loading="eager" onerror="this.style.display='none'">
+      </header>
       <div class="article__body">
         {{content_html}}
       </div>
     </article>
+
+    {{related_products_section}}
   </main>
 
   <footer class="footer">
@@ -66,8 +71,8 @@
   <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
     <p>We use cookies to improve your experience. <a href="{{site_url}}/en/privacy/">Learn more</a></p>
     <div class="cookie-banner__actions">
-      <button id="cookie-accept" class="btn-cta btn--sm">Accept</button>
-      <button id="cookie-decline" class="btn--ghost btn--sm">Decline</button>
+      <button id="cookie-accept" class="btn btn--cta btn--sm">Accept</button>
+      <button id="cookie-decline" class="btn btn--ghost btn--sm">Decline</button>
     </div>
   </div>
   <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
