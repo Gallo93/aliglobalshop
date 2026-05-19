@@ -3,12 +3,22 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="{{site_url}}/site.webmanifest">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{category_name}} Deals on AliExpress | {{site_title}}</title>
   <meta name="description" content="Top {{category_name}} deals on AliExpress, hand-picked and updated daily. Verified prices, ratings and coupons.">
   <link rel="canonical" href="{{site_url}}/en/{{category_slug}}/">
+  <link rel="alternate" hreflang="en" href="{{site_url}}/en/{{category_slug}}/">
+  <link rel="alternate" hreflang="x-default" href="{{site_url}}/en/{{category_slug}}/">
   <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
   <link rel="preconnect" href="https://res.cloudinary.com">
+  <meta property="og:title" content="{{category_name}} Deals on AliExpress">
+  <meta property="og:description" content="Top {{category_name}} deals on AliExpress, hand-picked and updated daily.">
+  <meta property="og:image" content="{{site_url}}/assets/img/og-default.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{site_url}}/en/{{category_slug}}/">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{site_url}}/en/"},{"@type":"ListItem","position":2,"name":"{{category_name}}","item":"{{site_url}}/en/{{category_slug}}/"}]}</script>
 </head>
 <body>
@@ -42,9 +52,23 @@
   <footer class="footer">
     <div class="footer__inner">
       <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+      <nav class="footer__links">
+        <a href="{{site_url}}/en/about/">About</a>
+        <a href="{{site_url}}/en/contact/">Contact</a>
+        <a href="{{site_url}}/en/privacy/">Privacy</a>
+      </nav>
     </div>
   </footer>
 
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+    <p>We use cookies to improve your experience. <a href="{{site_url}}/en/privacy/">Learn more</a></p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-accept" class="btn-cta btn--sm">Accept</button>
+      <button id="cookie-decline" class="btn--ghost btn--sm">Decline</button>
+    </div>
+  </div>
+
   <script defer src="{{site_url}}/assets/js/countdown.js"></script>
+  <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
 </body>
 </html>

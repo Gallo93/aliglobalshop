@@ -1,5 +1,12 @@
 """
-Fetch prodotti da AliExpress Affiliate API → upload immagini su Cloudinary → salva JSON
+Fetch prodotti da AliExpress Affiliate API -> upload immagini su Cloudinary -> salva JSON.
+
+Miglioramenti:
+- Keyword specifiche per nicchia (5 ognuna)
+- Score normalizzato (cap a 5000 vendite)
+- Blacklist regex con word boundaries
+- Filtri prezzo/sconto
+- Cache API con TTL 24h (UNIX timestamp)
 """
 import hashlib
 import hmac
@@ -18,6 +25,8 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).parent.parent
 OUTPUT_DIR = BASE_DIR / "_data" / "products" / "en"
+CACHE_DIR = BASE_DIR / "_data" / "cache"
+CACHE_TTL = 86400  # 24h
 
 APP_KEY = os.getenv("ALIEXPRESS_APP_KEY", "")
 APP_SECRET = os.getenv("ALIEXPRESS_APP_SECRET", "")
@@ -31,18 +40,55 @@ cloudinary.config(
 )
 
 NICHES = {
-    "electronics": "electronics",
-    "smart-home": "smart home",
-    "sport": "sports outdoor",
-    "gadgets": "gadgets",
+    "electronics": [
+        "wireless earbuds bluetooth",
+        "bluetooth speaker portable",
+        "led strip lights smart",
+        "smartwatch fitness tracker",
+        "phone case iphone",
+    ],
+    "smart-home": [
+        "smart wifi plug",
+        "smart led bulb wifi",
+        "robot vacuum cleaner wifi",
+        "wifi security camera indoor",
+        "smart home sensor zigbee",
+    ],
+    "sport": [
+        "fitness resistance bands set",
+        "yoga mat non slip",
+        "cycling accessories helmet",
+        "water bottle sports insulated",
+        "jump rope fitness",
+    ],
+    "gadgets": [
+        "portable power bank 20000mah",
+        "usb hub multiport",
+        "magnetic phone mount car",
+        "mini projector portable",
+        "wireless charging pad fast",
+    ],
 }
+
+BLACKLIST_PATTERNS = [re.compile(p, re.I) for p in [
+    r"\bcar\b", r"\btruck\b", r"\brv\b", r"\bcamper\b", r"\bmotorcycle\b",
+    r"\bshock absorber\b", r"\btrailer\b", r"\bfreezer\b", r"\bcigar\b",
+    r"\bindustrial\b", r"\bforklift\b", r"\bboiler\b", r"\bautomotive\b",
+]]
+
+MAX_PRICE_USD = 200.0
+MIN_DISCOUNT_PCT = 5.0
+SALES_CAP = 5000
 
 
 def _sign(params: dict) -> str:
-    # method included in params, sign excluded - no prefix
     sorted_pairs = sorted(params.items())
     sign_str = "".join(f"{k}{v}" for k, v in sorted_pairs)
-    return hmac.new(APP_SECRET.encode("utf-8"), sign_str.encode("utf-8"), hashlib.sha256).hexdigest().upper()
+    return hmac.new(
+        APP_SECRET.encode("utf-8"),
+        sign_str.encode("utf-8"),
+        hashlib.sha256,
+    ).hexdigest().upper()
 
 
 def slugify(text: str) -> str:
@@ -53,7 +99,13 @@ def slugify(text: str) -> str:
     return text[:60]
 
 
+def _kw_cache_key(keyword: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", keyword.lower()).strip("-")
+
+
 def upload_image(image_url: str, product_id: str) -> str:
+    if not image_url or "placeholder" in image_url.lower():
+        return ""
     try:
         result = cloudinary.uploader.upload(
             image_url,
@@ -61,6 +113,7 @@ def upload_image(image_url: str, product_id: str) -> str:
             format="webp",
             overwrite=False,
             resource_type="image",
+            transformation=[{"width": 600, "height": 600, "crop": "limit", "quality": "auto"}],
         )
         return result["secure_url"]
     except Exception as e:
@@ -68,12 +121,26 @@ def upload_image(image_url: str, product_id: str) -> str:
         return image_url
 
 
-def fetch_products(keyword: str, page_size: int = 20) -> list:
+def fetch_products(keyword: str, page_size: int = 30) -> list:
+    """Fetch con cache TTL 24h."""
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache_file = CACHE_DIR / f"{_kw_cache_key(keyword)}.json"
+
+    if cache_file.exists():
+        try:
+            cached = json.loads(cache_file.read_text(encoding="utf-8"))
+            if time.time() - cached.get("timestamp", 0) < CACHE_TTL:
+                print(f"  [cache] {keyword}")
+                return cached.get("data", [])
+        except Exception:
+            pass
+
     params = {
         "app_key": APP_KEY,
         "format": "json",
         "keywords": keyword,
         "method": "aliexpress.affiliate.hotproduct.query",
+        "page_no": "1",
         "page_size": str(page_size),
         "sign_method": "sha256",
         "target_currency": "USD",
@@ -95,7 +162,15 @@ def fetch_products(keyword: str, page_size: int = 20) -> list:
             .get("resp_result", {})
         )
         if result.get("resp_code") == 200:
-            return result.get("result", {}).get("products", {}).get("product", [])
+            raw = result.get("result", {}).get("products", {}).get("product", [])
+            try:
+                cache_file.write_text(
+                    json.dumps({"timestamp": time.time(), "data": raw}, ensure_ascii=False),
+                    encoding="utf-8",
+                )
+            except Exception as e:
+                print(f"  [WARN] cache write failed: {e}")
+            return raw
         print(f"  [WARN] API error {result.get('resp_code')}: {result.get('resp_msg')}")
         return []
     except Exception as e:
@@ -103,38 +178,98 @@ def fetch_products(keyword: str, page_size: int = 20) -> list:
         return []
 
 
+def _parse_float(value, default=0.0) -> float:
+    try:
+        if value is None:
+            return default
+        return float(str(value).replace(",", "").replace("%", "").strip() or default)
+    except (ValueError, TypeError):
+        return default
+
+
+def _parse_int(value, default=0) -> int:
+    try:
+        if value is None:
+            return default
+        return int(float(str(value).replace(",", "").strip() or default))
+    except (ValueError, TypeError):
+        return default
+
+
+def score_product(p: dict) -> float:
+    sales = min(_parse_int(p.get("lastest_volume") or p.get("volume", 0)), SALES_CAP)
+    discount = _parse_float(p.get("discount", "0"))
+    rating_raw = _parse_float(p.get("evaluate_rate", "0"))
+    rating = rating_raw / 20.0  # 0-100% -> 0-5
+    return (sales / SALES_CAP * 0.6) + (discount / 100.0 * 0.3) + (rating / 5.0 * 0.1)
+
+
+def is_blacklisted(title: str) -> bool:
+    return any(p.search(title) for p in BLACKLIST_PATTERNS)
+
+
 def build_product(raw: dict, niche: str, hosted_image: str) -> dict:
     product_id = str(raw.get("product_id", ""))
     title = raw.get("product_title", "")
-
-    discount_str = raw.get("discount", "0%")
-    try:
-        discount_pct = int(str(discount_str).strip("%"))
-    except (ValueError, AttributeError):
-        discount_pct = 0
-
-    rating_str = raw.get("evaluate_rate", "0%")
-    try:
-        rating = round(float(str(rating_str).strip("%")) / 20, 1)
-    except (ValueError, AttributeError):
-        rating = None
+    discount_pct = _parse_int(str(raw.get("discount", "0")).strip("%"))
+    rating_raw = _parse_float(str(raw.get("evaluate_rate", "0")).strip("%"))
+    rating = round(rating_raw / 20.0, 1) if rating_raw else None
+    price = _parse_float(raw.get("target_sale_price") or raw.get("sale_price", "0"))
+    original = _parse_float(raw.get("target_original_price") or raw.get("original_price", price))
 
     now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     return {
         "product_id": product_id,
         "title": title,
         "slug": slugify(title),
-        "price": raw.get("target_sale_price"),
-        "original_price": raw.get("target_original_price"),
+        "price": round(price, 2) if price else raw.get("target_sale_price"),
+        "original_price": round(original, 2) if original else raw.get("target_original_price"),
         "discount_pct": discount_pct,
         "affiliate_url": raw.get("product_detail_url", ""),
         "image_url": hosted_image,
         "category": niche,
         "rating": rating,
-        "reviews_count": raw.get("lastest_volume"),
+        "reviews_count": _parse_int(raw.get("lastest_volume", 0)),
+        "sales_volume": _parse_int(raw.get("lastest_volume") or raw.get("volume", 0)),
+        "score": round(score_product(raw), 4),
+        "price_history": [],
         "fetched_at": now,
         "updated_at": now,
     }
+
+
+def fetch_niche(niche: str, keywords: list) -> list:
+    seen_ids = set()
+    raw_pool = []
+    for kw in keywords:
+        print(f"  keyword: {kw}")
+        raw_pool.extend(fetch_products(kw))
+        time.sleep(0.3)
+
+    filtered = []
+    for p in raw_pool:
+        pid = str(p.get("product_id", ""))
+        if not pid or pid in seen_ids:
+            continue
+        title = p.get("product_title", "")
+        if not title or is_blacklisted(title):
+            continue
+        image_url = p.get("product_main_image_url", "")
+        if not image_url or "placeholder" in image_url.lower():
+            continue
+
+        price = _parse_float(p.get("target_sale_price") or p.get("sale_price", "0"))
+        if price <= 0 or price > MAX_PRICE_USD:
+            continue
+        discount_pct = _parse_float(str(p.get("discount", "0")).strip("%"))
+        if discount_pct < MIN_DISCOUNT_PCT:
+            continue
+
+        seen_ids.add(pid)
+        filtered.append(p)
+
+    scored = sorted(filtered, key=score_product, reverse=True)[:20]
+    return scored
 
 
 def main():
@@ -143,11 +278,11 @@ def main():
     if not APP_KEY or not APP_SECRET:
         raise SystemExit("[ERROR] ALIEXPRESS_APP_KEY / ALIEXPRESS_APP_SECRET mancanti in .env")
 
-    for niche, keyword in NICHES.items():
-        print(f"Fetching '{keyword}'...")
-        raw_list = fetch_products(keyword)
+    for niche, keywords in NICHES.items():
+        print(f"\n[{niche}] fetching {len(keywords)} keywords...")
+        top = fetch_niche(niche, keywords)
         products = []
-        for raw in raw_list:
+        for raw in top:
             product_id = str(raw.get("product_id", ""))
             image_url = raw.get("product_main_image_url", "")
             hosted = upload_image(image_url, product_id) if image_url else ""

@@ -3,14 +3,21 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="{{site_url}}/site.webmanifest">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{title}} | {{site_title}}</title>
   <meta name="description" content="{{meta_description}}">
   <link rel="canonical" href="{{site_url}}/en/blog/{{slug}}/">
+  <link rel="alternate" hreflang="en" href="{{site_url}}/en/blog/{{slug}}/">
+  <link rel="alternate" hreflang="x-default" href="{{site_url}}/en/blog/{{slug}}/">
   <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
   <meta property="og:title" content="{{title}}">
   <meta property="og:description" content="{{meta_description}}">
+  <meta property="og:image" content="{{og_image}}">
   <meta property="og:type" content="article">
+  <meta property="og:url" content="{{site_url}}/en/blog/{{slug}}/">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"{{title}}","datePublished":"{{date}}","author":{"@type":"Organization","name":"{{site_title}}"},"publisher":{"@type":"Organization","name":"{{site_title}}","logo":{"@type":"ImageObject","url":"{{site_url}}/assets/img/logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"{{site_url}}/en/blog/{{slug}}/"}}</script>
 </head>
 <body>
@@ -48,7 +55,21 @@
   <footer class="footer">
     <div class="footer__inner">
       <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+      <nav class="footer__links">
+        <a href="{{site_url}}/en/about/">About</a>
+        <a href="{{site_url}}/en/contact/">Contact</a>
+        <a href="{{site_url}}/en/privacy/">Privacy</a>
+      </nav>
     </div>
   </footer>
+
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+    <p>We use cookies to improve your experience. <a href="{{site_url}}/en/privacy/">Learn more</a></p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-accept" class="btn-cta btn--sm">Accept</button>
+      <button id="cookie-decline" class="btn--ghost btn--sm">Decline</button>
+    </div>
+  </div>
+  <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
 </body>
 </html>

@@ -3,12 +3,22 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="{{site_url}}/site.webmanifest">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{site_title}} — Best AliExpress Deals, Coupons & Flash Sales</title>
   <meta name="description" content="{{site_description}}">
   <link rel="canonical" href="{{site_url}}/en/">
+  <link rel="alternate" hreflang="en" href="{{site_url}}/en/">
+  <link rel="alternate" hreflang="x-default" href="{{site_url}}/en/">
   <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
   <link rel="preconnect" href="https://res.cloudinary.com">
+  <meta property="og:title" content="{{site_title}} — Best AliExpress Deals">
+  <meta property="og:description" content="{{site_description}}">
+  <meta property="og:image" content="{{site_url}}/assets/img/og-default.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{site_url}}/en/">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{site_title}}","url":"{{site_url}}/en/","inLanguage":"en","potentialAction":{"@type":"SearchAction","target":"{{site_url}}/en/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"{{site_title}}","url":"{{site_url}}/en/","logo":"{{site_url}}/assets/img/logo.svg"}</script>
 </head>
@@ -75,6 +85,15 @@
     </div>
   </footer>
 
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+    <p>We use cookies to improve your experience. <a href="{{site_url}}/en/privacy/">Learn more</a></p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-accept" class="btn-cta btn--sm">Accept</button>
+      <button id="cookie-decline" class="btn--ghost btn--sm">Decline</button>
+    </div>
+  </div>
+
   <script defer src="{{site_url}}/assets/js/countdown.js"></script>
+  <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
 </body>
 </html>

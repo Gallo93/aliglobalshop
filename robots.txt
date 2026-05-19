@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gallo93.github.io/aliglobalshop/sitemap.xml

@@ -1,0 +1,21 @@
+{
+  "name": "AliGlobalShop",
+  "short_name": "AliGlobal",
+  "description": "Best AliExpress deals, updated daily.",
+  "icons": [
+    {
+      "src": "/aliglobalshop/assets/img/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/aliglobalshop/assets/img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "theme_color": "#e44d26",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/aliglobalshop/en/"
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#e44d26"/>
+  <rect x="40" y="40" width="1120" height="550" rx="12" fill="#1a1a1a"/>
+  <text x="600" y="280" font-family="system-ui,sans-serif" font-size="80" font-weight="700" fill="#ffffff" text-anchor="middle">AliGlobalShop</text>
+  <text x="600" y="370" font-family="system-ui,sans-serif" font-size="36" fill="#e44d26" text-anchor="middle">Best AliExpress Deals — Updated Daily</text>
+  <text x="600" y="430" font-family="system-ui,sans-serif" font-size="24" fill="rgba(255,255,255,0.6)" text-anchor="middle">gallo93.github.io/aliglobalshop</text>
+</svg>

@@ -21,6 +21,7 @@ SITE_DESCRIPTION = (
     "Curated AliExpress deals, live flash sales and working coupons — updated every day."
 )
 DEFAULT_SHIPPING_DAYS = "7-25"
+DEFAULT_OG_IMAGE_PATH = "/assets/img/og-default.svg"
 
 CATEGORY_NAMES = {
     "electronics": "Electronics",
@@ -28,6 +29,12 @@ CATEGORY_NAMES = {
     "sport": "Sport",
     "gadgets": "Gadgets",
 }
+
+STATIC_PAGES = [
+    ("privacy", "Privacy Policy"),
+    ("about", "About AliGlobalShop"),
+    ("contact", "Contact Us"),
+]
 
 
 def load_json(path: Path, default=None):
@@ -181,6 +188,7 @@ def build_home(site_url: str, flash_deals: list, articles: list) -> None:
     blog_html = "".join(article_card_html(a, site_url) for a in articles[:6])
     ctx = base_context(site_url)
     ctx.update({
+        "canonical_url": f"{site_url}/en/",
         "flash_preview_html": flash_html or "<p>No flash deals right now.</p>",
         "blog_preview_html": blog_html or "<p>No articles yet — stay tuned.</p>",
     })
@@ -193,6 +201,7 @@ def build_categories(site_url: str, products_by_cat: dict) -> None:
         products = data.get("products", [])
         ctx = base_context(site_url)
         ctx.update({
+            "canonical_url": f"{site_url}/en/{slug}/",
             "category_name": CATEGORY_NAMES.get(slug, slug.title()),
             "category_slug": slug,
             "products_html": "".join(product_card_html(p, slug, site_url) for p in products),
@@ -221,16 +230,20 @@ def build_products(site_url: str, products_by_cat: dict) -> None:
             json.dumps(price_history, ensure_ascii=False)
             .replace('"', "&quot;")
         )
+        product_slug = product.get("slug", "")
+        og_image = product.get("image_url") or f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
         ctx = base_context(site_url)
         ctx.update({
+            "canonical_url": f"{site_url}/en/{cat_slug}/{product_slug}/",
             "title": esc(product.get("title", "")),
             "title_short": esc(short_title(product.get("title", ""), 60)),
             "meta_description": esc(meta_desc_from_product(product)),
             "category_slug": cat_slug,
             "category_name": CATEGORY_NAMES.get(cat_slug, cat_slug.title()),
-            "slug": esc(product.get("slug", "")),
+            "slug": esc(product_slug),
             "product_id": esc(product.get("product_id", "")),
             "image_url": esc(product.get("image_url", "")),
+            "og_image": esc(og_image),
             "price": esc(product.get("price", "")),
             "original_price": esc(product.get("original_price", "")),
             "discount_pct": esc(product.get("discount_pct", 0)),
@@ -243,7 +256,7 @@ def build_products(site_url: str, products_by_cat: dict) -> None:
             "related_products_html": related_html,
         })
         write_file(
-            OUTPUT_DIR / cat_slug / product.get("slug", "item") / "index.html",
+            OUTPUT_DIR / cat_slug / product_slug / "index.html",
             render(tpl, ctx),
         )
 
@@ -251,6 +264,7 @@ def build_products(site_url: str, products_by_cat: dict) -> None:
 def build_blog_index(site_url: str, articles: list) -> None:
     tpl = load_template("blog-index.html")
     ctx = base_context(site_url)
+    ctx["canonical_url"] = f"{site_url}/en/blog/"
     ctx["articles_html"] = (
         "".join(article_card_html(a, site_url) for a in articles)
         or "<p>No articles yet.</p>"
@@ -261,18 +275,21 @@ def build_blog_index(site_url: str, articles: list) -> None:
 def build_blog_posts(site_url: str, articles: list) -> None:
     tpl = load_template("blog-post.html")
     for article in articles:
+        slug = article.get("slug", "")
         ctx = base_context(site_url)
         ctx.update({
+            "canonical_url": f"{site_url}/en/blog/{slug}/",
             "title": esc(article.get("title", "")),
             "title_short": esc(short_title(article.get("title", ""), 60)),
-            "slug": esc(article.get("slug", "")),
+            "slug": esc(slug),
             "date": esc(article.get("date", "")),
             "meta_description": esc(article.get("meta_desc", article.get("meta_description", ""))),
             "content_html": article.get("content_html", article.get("content", "")),
             "reading_time_min": esc(article.get("reading_time_min", 5)),
+            "og_image": f"{site_url}{DEFAULT_OG_IMAGE_PATH}",
         })
         write_file(
-            OUTPUT_DIR / "blog" / article.get("slug", "post") / "index.html",
+            OUTPUT_DIR / "blog" / slug / "index.html",
             render(tpl, ctx),
         )
 
@@ -281,6 +298,7 @@ def build_flash_sale(site_url: str, flash_deals: list, updated_at: str) -> None:
     tpl = load_template("flash-sale.html")
     ctx = base_context(site_url)
     ctx.update({
+        "canonical_url": f"{site_url}/en/flash-sale/",
         "deals_html": (
             "".join(deal_card_html(d, site_url) for d in flash_deals)
             or "<p>No flash deals right now.</p>"
@@ -295,6 +313,7 @@ def build_coupons(site_url: str, coupons: list, updated_at: str) -> None:
     tpl = load_template("coupon-page.html")
     ctx = base_context(site_url)
     ctx.update({
+        "canonical_url": f"{site_url}/en/coupons/",
         "coupons_html": (
             "".join(coupon_card_html(c) for c in coupons)
             or "<p>No active coupons right now.</p>"
@@ -305,6 +324,25 @@ def build_coupons(site_url: str, coupons: list, updated_at: str) -> None:
     write_file(OUTPUT_DIR / "coupons" / "index.html", render(tpl, ctx))
 
 
+def build_static_pages(site_url: str) -> None:
+    for slug, title in STATIC_PAGES:
+        tpl_path = TEMPLATES_DIR / f"{slug}.html"
+        if not tpl_path.exists():
+            print(f"  [warn] template {slug}.html missing, skip")
+            continue
+        tpl = tpl_path.read_text(encoding="utf-8")
+        ctx = base_context(site_url)
+        ctx.update({
+            "canonical_url": f"{site_url}/en/{slug}/",
+            "title": title,
+            "lang": "en",
+        })
+        out_dir = OUTPUT_DIR / slug
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / "index.html").write_text(render(tpl, ctx), encoding="utf-8")
+        print(f"  -> en/{slug}/index.html")
+
+
 def build_sitemap(site_url: str, products_by_cat: dict, articles: list) -> None:
     today = datetime.now(timezone.utc).date().isoformat()
     urls = [
@@ -313,6 +351,8 @@ def build_sitemap(site_url: str, products_by_cat: dict, articles: list) -> None:
         f"{site_url}/en/coupons/",
         f"{site_url}/en/blog/",
     ]
+    for slug, _ in STATIC_PAGES:
+        urls.append(f"{site_url}/en/{slug}/")
     for slug in products_by_cat:
         urls.append(f"{site_url}/en/{slug}/")
         for p in products_by_cat[slug].get("products", []):
@@ -395,6 +435,7 @@ def main() -> None:
     build_blog_posts(site_url, articles)
     build_flash_sale(site_url, flash_deals, flash_updated)
     build_coupons(site_url, coupons, coupons_updated)
+    build_static_pages(site_url)
     build_sitemap(site_url, products_by_cat, articles)
 
     print("[build] done")
