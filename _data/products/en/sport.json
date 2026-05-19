@@ -1,7 +1,22 @@
 {
   "niche": "sport",
-  "updated_at": "2026-05-19T03:41:55Z",
+  "updated_at": "2026-05-19T05:07:02Z",
   "products": [
+    {
+      "product_id": "1005011693427895",
+      "title": "Gym Men Running Sets Outdoor Cycling Sports Tops Compression Pants Breathable Jogger Training Fitness Suits Quick Dry Tracksuits",
+      "slug": "gym-men-running-sets-outdoor-cycling-sports-tops-compression",
+      "price": "32.40",
+      "original_price": "51.39",
+      "discount_pct": 36,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011693427895.html?pdp_npi=6%40dis%21USD%2151.39%2132.40%21%21%21347.48%21219.08%21%40210152bd17791672118311737e0f54%2112000056263790903%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779167212/products/1005011693427895.webp",
+      "category": "sport",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "fetched_at": "2026-05-19T05:06:53Z",
+      "updated_at": "2026-05-19T05:06:53Z"
+    },
     {
       "product_id": "1005012050434735",
       "title": "Spring and autumn new men's casual jacket + sweatpants two-piece set, fashionable outdoor jogging zipper men's sports hoodie set",
@@ -9,28 +24,13 @@
       "price": "19.16",
       "original_price": "39.93",
       "discount_pct": 52,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012050434735.html?pdp_npi=6%40dis%21USD%2139.82%2119.11%21%21%21270.00%21129.60%21%402140d36217791347386807311e0df0%2112000057368079959%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012050434735.html?pdp_npi=6%40dis%21USD%2139.93%2119.16%21%21%21270.00%21129.60%21%40210152bd17791672118311737e0f54%2112000057368079959%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779134739/products/1005012050434735.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:40Z",
-      "updated_at": "2026-05-19T03:41:55Z"
-    },
-    {
-      "product_id": "1005010383861094",
-      "title": "Outdoor Ride Sports Men's T Shirt Quick Dry Comfortable Top Fashion Motorcycle Clothing Autumn Casual O-neck Long Sleeve T-shirt",
-      "slug": "outdoor-ride-sports-mens-t-shirt-quick-dry-comfortable-top-f",
-      "price": "4.13",
-      "original_price": "15.23",
-      "discount_pct": 72,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010383861094.html?pdp_npi=6%40dis%21USD%2115.19%214.12%21%21%21102.98%2127.97%21%402140d36217791347386807311e0df0%2112000052224015321%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130329/products/1005010383861094.webp",
-      "category": "sport",
-      "rating": 3.8,
-      "reviews_count": 96,
-      "fetched_at": "2026-05-18T20:05:40Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:53Z",
+      "updated_at": "2026-05-19T05:06:53Z"
     },
     {
       "product_id": "1005011689341590",
@@ -39,13 +39,13 @@
       "price": "255.57",
       "original_price": "255.57",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011689341590.html?pdp_npi=6%40dis%21USD%21254.88%21254.88%21%21%211727.98%211727.98%21%402140d36217791347386807311e0df0%2112000056254478666%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011689341590.html?pdp_npi=6%40dis%21USD%21255.57%21255.57%21%21%211727.98%211727.98%21%40210152bd17791672118311737e0f54%2112000056254478666%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130331/products/1005011689341590.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:41Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:54Z",
+      "updated_at": "2026-05-19T05:06:54Z"
     },
     {
       "product_id": "1005011569383998",
@@ -54,13 +54,13 @@
       "price": "731.26",
       "original_price": "731.26",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011569383998.html?pdp_npi=6%40dis%21USD%21729.28%21729.28%21%21%214944.30%214944.30%21%402140d36217791347386807311e0df0%2112000055945987335%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011569383998.html?pdp_npi=6%40dis%21USD%21731.26%21731.26%21%21%214944.30%214944.30%21%40210152bd17791672118311737e0f54%2112000055945987335%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130332/products/1005011569383998.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:41Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:54Z",
+      "updated_at": "2026-05-19T05:06:54Z"
     },
     {
       "product_id": "1005011866272769",
@@ -69,13 +69,13 @@
       "price": "4.73",
       "original_price": "19.52",
       "discount_pct": 75,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011866272769.html?pdp_npi=6%40dis%21USD%2119.47%214.72%21%21%21132.00%2132.01%21%402140d36217791347386807311e0df0%2112000056827034663%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011866272769.html?pdp_npi=6%40dis%21USD%2119.52%214.73%21%21%21132.00%2132.01%21%40210152bd17791672118311737e0f54%2112000056827034663%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130333/products/1005011866272769.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:42Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:54Z",
+      "updated_at": "2026-05-19T05:06:54Z"
     },
     {
       "product_id": "1005011569594140",
@@ -84,13 +84,13 @@
       "price": "7177.44",
       "original_price": "7177.44",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011569594140.html?pdp_npi=6%40dis%21USD%217158.03%217158.03%21%21%2148529.00%2148529.00%21%402140d36217791347386807311e0df0%2112000055945939341%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011569594140.html?pdp_npi=6%40dis%21USD%217177.44%217177.44%21%21%2148529.00%2148529.00%21%40210152bd17791672118311737e0f54%2112000055945939341%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130334/products/1005011569594140.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:42Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:55Z",
+      "updated_at": "2026-05-19T05:06:55Z"
     },
     {
       "product_id": "1005010757946172",
@@ -99,13 +99,13 @@
       "price": "532.77",
       "original_price": "532.77",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010757946172.html?pdp_npi=6%40dis%21USD%21531.32%21531.32%21%21%213602.20%213602.20%21%402140d36217791347386807311e0df0%2112000053411503716%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010757946172.html?pdp_npi=6%40dis%21USD%21532.77%21532.77%21%21%213602.20%213602.20%21%40210152bd17791672118311737e0f54%2112000053411503716%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130336/products/1005010757946172.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:43Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:55Z",
+      "updated_at": "2026-05-19T05:06:55Z"
     },
     {
       "product_id": "1005012055375917",
@@ -114,13 +114,13 @@
       "price": "2.36",
       "original_price": "8.73",
       "discount_pct": 73,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012055375917.html?pdp_npi=6%40dis%21USD%218.70%212.35%21%21%2159.00%2115.93%21%402140d36217791347386807311e0df0%2112000057392893948%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012055375917.html?pdp_npi=6%40dis%21USD%218.73%212.36%21%21%2159.00%2115.93%21%40210152bd17791672118311737e0f54%2112000057392893948%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130339/products/1005012055375917.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:43Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:56Z",
+      "updated_at": "2026-05-19T05:06:56Z"
     },
     {
       "product_id": "1005012221055343",
@@ -129,13 +129,13 @@
       "price": "4.89",
       "original_price": "17.46",
       "discount_pct": 72,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012221055343.html?pdp_npi=6%40dis%21USD%2117.42%214.88%21%21%21118.07%2133.06%21%402140d36217791347386807311e0df0%2112000057815324116%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012221055343.html?pdp_npi=6%40dis%21USD%2117.46%214.89%21%21%21118.07%2133.06%21%40210152bd17791672118311737e0f54%2112000057815324116%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130340/products/1005012221055343.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 12,
-      "fetched_at": "2026-05-18T20:05:44Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:56Z",
+      "updated_at": "2026-05-19T05:06:56Z"
     },
     {
       "product_id": "1005011917628743",
@@ -144,13 +144,13 @@
       "price": "11.26",
       "original_price": "23.46",
       "discount_pct": 52,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011917628743.html?pdp_npi=6%40dis%21USD%2123.40%2111.23%21%21%21158.62%2176.14%21%402140d36217791347386807311e0df0%2112000057012047275%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011917628743.html?pdp_npi=6%40dis%21USD%2123.46%2111.26%21%21%21158.62%2176.14%21%40210152bd17791672118311737e0f54%2112000057012047275%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130342/products/1005011917628743.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 2,
-      "fetched_at": "2026-05-18T20:05:44Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:57Z",
+      "updated_at": "2026-05-19T05:06:57Z"
     },
     {
       "product_id": "1005011842521605",
@@ -159,13 +159,13 @@
       "price": "11.26",
       "original_price": "23.46",
       "discount_pct": 52,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011842521605.html?pdp_npi=6%40dis%21USD%2123.40%2111.23%21%21%21158.62%2176.14%21%402140d36217791347386807311e0df0%2112000056758453001%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011842521605.html?pdp_npi=6%40dis%21USD%2123.46%2111.26%21%21%21158.62%2176.14%21%40210152bd17791672118311737e0f54%2112000056758453001%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130343/products/1005011842521605.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 4,
-      "fetched_at": "2026-05-18T20:05:45Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:57Z",
+      "updated_at": "2026-05-19T05:06:57Z"
     },
     {
       "product_id": "1005010765814440",
@@ -174,13 +174,13 @@
       "price": "220.95",
       "original_price": "220.95",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010765814440.html?pdp_npi=6%40dis%21USD%21220.35%21220.35%21%21%211493.92%211493.92%21%402140d36217791347386807311e0df0%2112000053434181967%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010765814440.html?pdp_npi=6%40dis%21USD%21220.95%21220.95%21%21%211493.92%211493.92%21%40210152bd17791672118311737e0f54%2112000053434181967%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130345/products/1005010765814440.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:45Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:58Z",
+      "updated_at": "2026-05-19T05:06:58Z"
     },
     {
       "product_id": "1005012240593166",
@@ -189,13 +189,13 @@
       "price": "4.27",
       "original_price": "12.95",
       "discount_pct": 67,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012240593166.html?pdp_npi=6%40dis%21USD%2112.91%214.26%21%21%2187.55%2128.88%21%402140d36217791347386807311e0df0%2112000057838073102%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012240593166.html?pdp_npi=6%40dis%21USD%2112.95%214.27%21%21%2187.55%2128.88%21%40210152bd17791672118311737e0f54%2112000057838073102%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130346/products/1005012240593166.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 1,
-      "fetched_at": "2026-05-18T20:05:46Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:58Z",
+      "updated_at": "2026-05-19T05:06:58Z"
     },
     {
       "product_id": "1005011824710297",
@@ -204,13 +204,13 @@
       "price": "27.26",
       "original_price": "28.10",
       "discount_pct": 3,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011824710297.html?pdp_npi=6%40dis%21USD%2128.02%2127.18%21%21%21190.00%21184.30%21%402140d36217791347386807311e0df0%2112000056693715412%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011824710297.html?pdp_npi=6%40dis%21USD%2128.10%2127.26%21%21%21190.00%21184.30%21%40210152bd17791672118311737e0f54%2112000056693715412%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130348/products/1005011824710297.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:47Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:59Z",
+      "updated_at": "2026-05-19T05:06:59Z"
     },
     {
       "product_id": "1005012240553315",
@@ -219,13 +219,13 @@
       "price": "6.32",
       "original_price": "19.19",
       "discount_pct": 67,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012240553315.html?pdp_npi=6%40dis%21USD%2119.14%216.32%21%21%21129.78%2142.81%21%402140d36217791347386807311e0df0%2112000057838101626%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012240553315.html?pdp_npi=6%40dis%21USD%2119.19%216.32%21%21%21129.78%2142.81%21%40210152bd17791672118311737e0f54%2112000057838101626%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130349/products/1005012240553315.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 1,
-      "fetched_at": "2026-05-18T20:05:47Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:06:59Z",
+      "updated_at": "2026-05-19T05:06:59Z"
     },
     {
       "product_id": "1005012260373427",
@@ -234,13 +234,13 @@
       "price": "2.75",
       "original_price": "18.93",
       "discount_pct": 85,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012260373427.html?pdp_npi=6%40dis%21USD%2118.88%212.74%21%21%21128.00%2118.62%21%402140d36217791347386807311e0df0%2112000057898897361%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012260373427.html?pdp_npi=6%40dis%21USD%2118.93%212.75%21%21%21128.00%2118.62%21%40210152bd17791672118311737e0f54%2112000057898897361%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130350/products/1005012260373427.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:47Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:07:00Z",
+      "updated_at": "2026-05-19T05:07:00Z"
     },
     {
       "product_id": "1005011922533840",
@@ -249,13 +249,13 @@
       "price": "2425.21",
       "original_price": "2425.21",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011922533840.html?pdp_npi=6%40dis%21USD%212418.65%212418.65%21%21%2116397.60%2116397.60%21%402140d36217791347386807311e0df0%2112000057045740054%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011922533840.html?pdp_npi=6%40dis%21USD%212425.21%212425.21%21%21%2116397.60%2116397.60%21%40210152bd17791672118311737e0f54%2112000057045740054%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130351/products/1005011922533840.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:48Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:07:00Z",
+      "updated_at": "2026-05-19T05:07:00Z"
     },
     {
       "product_id": "1005011873406981",
@@ -264,13 +264,13 @@
       "price": "14.59",
       "original_price": "44.22",
       "discount_pct": 67,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011873406981.html?pdp_npi=6%40dis%21USD%2144.10%2114.55%21%21%21299.00%2198.67%21%402140d36217791347386807311e0df0%2112000056844258117%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011873406981.html?pdp_npi=6%40dis%21USD%2144.22%2114.59%21%21%21299.00%2198.67%21%40210152bd17791672118311737e0f54%2112000056844258117%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130352/products/1005011873406981.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:49Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:07:01Z",
+      "updated_at": "2026-05-19T05:07:01Z"
     },
     {
       "product_id": "1005012190917875",
@@ -279,13 +279,13 @@
       "price": "11.22",
       "original_price": "23.37",
       "discount_pct": 52,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012190917875.html?pdp_npi=6%40dis%21USD%2123.30%2111.18%21%21%21158.00%2175.84%21%402140d36217791347386807311e0df0%2112000057721449873%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012190917875.html?pdp_npi=6%40dis%21USD%2123.37%2111.22%21%21%21158.00%2175.84%21%40210152bd17791672118311737e0f54%2112000057721449873%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130353/products/1005012190917875.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:49Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:07:01Z",
+      "updated_at": "2026-05-19T05:07:01Z"
     },
     {
       "product_id": "1005010757781447",
@@ -294,13 +294,13 @@
       "price": "514.26",
       "original_price": "514.26",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010757781447.html?pdp_npi=6%40dis%21USD%21512.87%21512.87%21%21%213477.10%213477.10%21%402140d36217791347386807311e0df0%2112000053411744260%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010757781447.html?pdp_npi=6%40dis%21USD%21514.26%21514.26%21%21%213477.10%213477.10%21%40210152bd17791672118311737e0f54%2112000053411744260%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130355/products/1005010757781447.webp",
       "category": "sport",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:50Z",
-      "updated_at": "2026-05-19T03:41:55Z"
+      "fetched_at": "2026-05-19T05:07:02Z",
+      "updated_at": "2026-05-19T05:07:02Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-05-19T03:41:49Z",
+  "updated_at": "2026-05-19T05:06:38Z",
   "products": [
     {
       "product_id": "1005009896941801",
@@ -9,13 +9,13 @@
       "price": "26.38",
       "original_price": "57.35",
       "discount_pct": 54,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009896941801.html?pdp_npi=6%40dis%21USD%2157.20%2126.31%21%21%21387.79%21178.38%21%402140da8b17791347120988609e1036%2112000050510369432%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005009896941801.html?pdp_npi=6%40dis%21USD%2157.35%2126.38%21%21%21387.79%21178.38%21%402140da8b17791671877357026e10fc%2112000050510369432%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130269/products/1005009896941801.webp",
       "category": "electronics",
       "rating": 3.0,
       "reviews_count": 5,
-      "fetched_at": "2026-05-18T20:05:13Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:29Z",
+      "updated_at": "2026-05-19T05:06:29Z"
     },
     {
       "product_id": "1005010404626373",
@@ -24,13 +24,13 @@
       "price": "1217.16",
       "original_price": "1963.16",
       "discount_pct": 38,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010404626373.html?pdp_npi=6%40dis%21USD%211957.85%211213.87%21%21%2113273.57%218229.61%21%402140da8b17791347120988609e1036%2112000052298764459%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010404626373.html?pdp_npi=6%40dis%21USD%211963.16%211217.16%21%21%2113273.57%218229.61%21%402140da8b17791671877357026e10fc%2112000052298764459%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130270/products/1005010404626373.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:13Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:29Z",
+      "updated_at": "2026-05-19T05:06:29Z"
     },
     {
       "product_id": "1005011967633785",
@@ -39,13 +39,13 @@
       "price": "4.33",
       "original_price": "4.40",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011967633785.html?pdp_npi=6%40dis%21USD%214.39%214.32%21%21%2129.74%2129.29%21%402140da8b17791347120988609e1036%2112000057157139712%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011967633785.html?pdp_npi=6%40dis%21USD%214.40%214.33%21%21%2129.74%2129.29%21%402140da8b17791671877357026e10fc%2112000057157139712%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779134713/products/1005011967633785.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 3,
-      "fetched_at": "2026-05-18T20:05:14Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:30Z",
+      "updated_at": "2026-05-19T05:06:30Z"
     },
     {
       "product_id": "1005009940067199",
@@ -54,13 +54,13 @@
       "price": "4.42",
       "original_price": "4.42",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009940067199.html?pdp_npi=6%40dis%21USD%214.42%214.42%21%21%214.42%214.42%21%402140da8b17791347120988609e1036%2112000050632632350%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005009940067199.html?pdp_npi=6%40dis%21USD%214.42%214.42%21%21%214.42%214.42%21%402140da8b17791671877357026e10fc%2112000050632632350%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130272/products/1005009940067199.webp",
       "category": "electronics",
       "rating": 5.0,
       "reviews_count": 12,
-      "fetched_at": "2026-05-18T20:05:14Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:30Z",
+      "updated_at": "2026-05-19T05:06:30Z"
     },
     {
       "product_id": "1005012085033335",
@@ -69,13 +69,13 @@
       "price": "1316.41",
       "original_price": "1513.12",
       "discount_pct": 13,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012085033335.html?pdp_npi=6%40dis%21USD%211509.03%211312.86%21%21%2110230.73%218900.74%21%402140da8b17791347120988609e1036%2112000057491474841%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012085033335.html?pdp_npi=6%40dis%21USD%211513.12%211316.41%21%21%2110230.73%218900.74%21%402140da8b17791671877357026e10fc%2112000057491474841%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130273/products/1005012085033335.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:15Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:31Z",
+      "updated_at": "2026-05-19T05:06:31Z"
     },
     {
       "product_id": "1005012061860916",
@@ -84,13 +84,13 @@
       "price": "1258.89",
       "original_price": "1339.24",
       "discount_pct": 6,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012061860916.html?pdp_npi=6%40dis%21USD%211335.62%211255.48%21%21%219055.05%218511.75%21%402140da8b17791347120988609e1036%2112000057417254338%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012061860916.html?pdp_npi=6%40dis%21USD%211339.24%211258.89%21%21%219055.05%218511.75%21%402140da8b17791671877357026e10fc%2112000057417254338%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130278/products/1005012061860916.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:16Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:31Z",
+      "updated_at": "2026-05-19T05:06:31Z"
     },
     {
       "product_id": "1005010528491784",
@@ -99,13 +99,13 @@
       "price": "2.71",
       "original_price": "2.87",
       "discount_pct": 5,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010528491784.html?pdp_npi=6%40dis%21USD%212.87%212.71%21%21%212.87%212.71%21%402140da8b17791347120988609e1036%2112000052708112540%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010528491784.html?pdp_npi=6%40dis%21USD%212.87%212.71%21%21%212.87%212.71%21%402140da8b17791671877357026e10fc%2112000052708112540%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130371/products/1005010528491784.webp",
       "category": "electronics",
       "rating": 4.3,
       "reviews_count": 73,
-      "fetched_at": "2026-05-18T20:05:16Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:31Z",
+      "updated_at": "2026-05-19T05:06:31Z"
     },
     {
       "product_id": "1005012058577793",
@@ -114,13 +114,13 @@
       "price": "1297.36",
       "original_price": "1380.17",
       "discount_pct": 6,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012058577793.html?pdp_npi=6%40dis%21USD%211376.44%211293.85%21%21%219331.81%218771.90%21%402140da8b17791347120988609e1036%2112000057416842707%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012058577793.html?pdp_npi=6%40dis%21USD%211380.17%211297.36%21%21%219331.81%218771.90%21%402140da8b17791671877357026e10fc%2112000057416842707%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130280/products/1005012058577793.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:17Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:32Z",
+      "updated_at": "2026-05-19T05:06:32Z"
     },
     {
       "product_id": "1005011907290212",
@@ -129,13 +129,13 @@
       "price": "1699.40",
       "original_price": "1699.40",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011907290212.html?pdp_npi=6%40dis%21USD%211694.81%211694.81%21%21%2111490.21%2111490.21%21%402140da8b17791347120988609e1036%2112000056965811653%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011907290212.html?pdp_npi=6%40dis%21USD%211699.40%211699.40%21%21%2111490.21%2111490.21%21%402140da8b17791671877357026e10fc%2112000056965811653%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130281/products/1005011907290212.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:17Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:32Z",
+      "updated_at": "2026-05-19T05:06:32Z"
     },
     {
       "product_id": "1005010560421518",
@@ -144,13 +144,13 @@
       "price": "1617.97",
       "original_price": "1617.97",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010560421518.html?pdp_npi=6%40dis%21USD%211613.60%211613.60%21%21%2110939.64%2110939.64%21%402140da8b17791347120988609e1036%2112000052814105400%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010560421518.html?pdp_npi=6%40dis%21USD%211617.97%211617.97%21%21%2110939.64%2110939.64%21%402140da8b17791671877357026e10fc%2112000052814105400%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130283/products/1005010560421518.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:18Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:33Z",
+      "updated_at": "2026-05-19T05:06:33Z"
     },
     {
       "product_id": "1005012111507387",
@@ -159,28 +159,13 @@
       "price": "1298.86",
       "original_price": "2094.93",
       "discount_pct": 38,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012111507387.html?pdp_npi=6%40dis%21USD%212089.26%211295.34%21%21%2114164.47%218781.97%21%402140da8b17791347120988609e1036%2112000057538243647%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012111507387.html?pdp_npi=6%40dis%21USD%212094.93%211298.86%21%21%2114164.47%218781.97%21%402140da8b17791671877357026e10fc%2112000057538243647%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130284/products/1005012111507387.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:18Z",
-      "updated_at": "2026-05-19T03:41:49Z"
-    },
-    {
-      "product_id": "1005010449632546",
-      "title": "MIDI Electric Blowpipe Portable Bluetooth Electronic Wind Instrument Elderly People Beginners Electric Sax Adults Practice Sachs",
-      "slug": "midi-electric-blowpipe-portable-bluetooth-electronic-wind-in",
-      "price": "136.46",
-      "original_price": "284.28",
-      "discount_pct": 52,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010449632546.html?pdp_npi=6%40dis%21USD%21283.51%21136.09%21%21%211922.10%21922.61%21%402140da8b17791347120988609e1036%2112000052449442187%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130285/products/1005010449632546.webp",
-      "category": "electronics",
-      "rating": 0.0,
-      "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:19Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:33Z",
+      "updated_at": "2026-05-19T05:06:33Z"
     },
     {
       "product_id": "1005012094141893",
@@ -189,13 +174,13 @@
       "price": "4.28",
       "original_price": "4.35",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012094141893.html?pdp_npi=6%40dis%21USD%214.34%214.28%21%21%2129.41%2128.97%21%402140da8b17791347120988609e1036%2112000057496305321%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012094141893.html?pdp_npi=6%40dis%21USD%214.35%214.28%21%21%2129.41%2128.97%21%402140da8b17791671877357026e10fc%2112000057496305321%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130286/products/1005012094141893.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 2,
-      "fetched_at": "2026-05-18T20:05:19Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:34Z",
+      "updated_at": "2026-05-19T05:06:34Z"
     },
     {
       "product_id": "1005011871611939",
@@ -204,13 +189,28 @@
       "price": "5.35",
       "original_price": "5.35",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011871611939.html?pdp_npi=6%40dis%21USD%215.34%215.34%21%21%2136.18%2136.18%21%402140da8b17791347120988609e1036%2112000056844808466%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011871611939.html?pdp_npi=6%40dis%21USD%215.35%215.35%21%21%2136.18%2136.18%21%402140da8b17791671877357026e10fc%2112000056844808466%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130287/products/1005011871611939.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 1,
-      "fetched_at": "2026-05-18T20:05:20Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:34Z",
+      "updated_at": "2026-05-19T05:06:34Z"
+    },
+    {
+      "product_id": "1005011957889706",
+      "title": "Jack Skellington Black Art Disney Case For iPhone 17 16 15 14 13 12 11 Pro Max Plus Cover For iPhone 17 Pro 17E Air 16e Funda",
+      "slug": "jack-skellington-black-art-disney-case-for-iphone-17-16-15-1",
+      "price": "4.31",
+      "original_price": "4.38",
+      "discount_pct": 1,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011957889706.html?pdp_npi=6%40dis%21USD%214.38%214.31%21%21%2129.64%2129.19%21%402140da8b17791671877357026e10fc%2112000057140020451%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130288/products/1005011957889706.webp",
+      "category": "electronics",
+      "rating": 5.0,
+      "reviews_count": 6,
+      "fetched_at": "2026-05-19T05:06:35Z",
+      "updated_at": "2026-05-19T05:06:35Z"
     },
     {
       "product_id": "1005010397694164",
@@ -219,13 +219,13 @@
       "price": "1020.76",
       "original_price": "1962.99",
       "discount_pct": 48,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010397694164.html?pdp_npi=6%40dis%21USD%211957.68%211017.99%21%21%2113272.40%216901.65%21%402140da8b17791347120988609e1036%2112000052277885418%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010397694164.html?pdp_npi=6%40dis%21USD%211962.99%211020.76%21%21%2113272.40%216901.65%21%402140da8b17791671877357026e10fc%2112000052277885418%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130289/products/1005010397694164.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:20Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:35Z",
+      "updated_at": "2026-05-19T05:06:35Z"
     },
     {
       "product_id": "1005010492411671",
@@ -234,13 +234,13 @@
       "price": "110.39",
       "original_price": "229.98",
       "discount_pct": 52,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010492411671.html?pdp_npi=6%40dis%21USD%21229.36%21110.09%21%21%211554.98%21746.39%21%402140da8b17791347120988609e1036%2112000052584096266%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010492411671.html?pdp_npi=6%40dis%21USD%21229.98%21110.39%21%21%211554.98%21746.39%21%402140da8b17791671877357026e10fc%2112000052584096266%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130291/products/1005010492411671.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:21Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:36Z",
+      "updated_at": "2026-05-19T05:06:36Z"
     },
     {
       "product_id": "1005011653858284",
@@ -249,13 +249,28 @@
       "price": "900.70",
       "original_price": "900.70",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011653858284.html?pdp_npi=6%40dis%21USD%21898.26%21898.26%21%21%216089.90%216089.90%21%402140da8b17791347120988609e1036%2112000056155941980%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011653858284.html?pdp_npi=6%40dis%21USD%21900.70%21900.70%21%21%216089.90%216089.90%21%402140da8b17791671877357026e10fc%2112000056155941980%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130292/products/1005011653858284.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:21Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:36Z",
+      "updated_at": "2026-05-19T05:06:36Z"
+    },
+    {
+      "product_id": "1005011949800048",
+      "title": "Spiderman Miles Morales Gwen Marvel Comics Case For Apple iPhone 17E 15 16 14 13 12 11 17 Pro Max 17 Air 16 Plus 16E Phone Cover",
+      "slug": "spiderman-miles-morales-gwen-marvel-comics-case-for-apple-ip",
+      "price": "4.33",
+      "original_price": "4.40",
+      "discount_pct": 1,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011949800048.html?pdp_npi=6%40dis%21USD%214.40%214.33%21%21%2129.74%2129.29%21%402140da8b17791671877357026e10fc%2112000057112400591%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130379/products/1005011949800048.webp",
+      "category": "electronics",
+      "rating": 0.0,
+      "reviews_count": 7,
+      "fetched_at": "2026-05-19T05:06:37Z",
+      "updated_at": "2026-05-19T05:06:37Z"
     },
     {
       "product_id": "1005012129456680",
@@ -264,13 +279,13 @@
       "price": "924.78",
       "original_price": "1075.32",
       "discount_pct": 14,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012129456680.html?pdp_npi=6%40dis%21USD%211072.41%21922.27%21%21%217270.58%216252.70%21%402140da8b17791347120988609e1036%2112000057590638062%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012129456680.html?pdp_npi=6%40dis%21USD%211075.32%21924.78%21%21%217270.58%216252.70%21%402140da8b17791671877357026e10fc%2112000057590638062%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130293/products/1005012129456680.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:22Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:37Z",
+      "updated_at": "2026-05-19T05:06:37Z"
     },
     {
       "product_id": "1005011540001031",
@@ -279,28 +294,13 @@
       "price": "589.91",
       "original_price": "842.73",
       "discount_pct": 30,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011540001031.html?pdp_npi=6%40dis%21USD%21840.45%21588.31%21%21%215697.99%213988.59%21%402140da8b17791347120988609e1036%2112000055864073643%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011540001031.html?pdp_npi=6%40dis%21USD%21842.73%21589.91%21%21%215697.99%213988.59%21%402140da8b17791671877357026e10fc%2112000055864073643%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130294/products/1005011540001031.webp",
       "category": "electronics",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:22Z",
-      "updated_at": "2026-05-19T03:41:49Z"
-    },
-    {
-      "product_id": "1005010333944098",
-      "title": "All-Metal Smart Fingerprint And Remote Control Electronic Lock For Car RV Used Sprinter Model Wireless Lock",
-      "slug": "all-metal-smart-fingerprint-and-remote-control-electronic-lo",
-      "price": "145.03",
-      "original_price": "157.64",
-      "discount_pct": 8,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010333944098.html?pdp_npi=6%40dis%21USD%21157.21%21144.63%21%21%211065.86%21980.59%21%402140da8b17791347120988609e1036%2112000052011293184%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130296/products/1005010333944098.webp",
-      "category": "electronics",
-      "rating": 0.0,
-      "reviews_count": 0,
-      "fetched_at": "2026-05-18T20:05:23Z",
-      "updated_at": "2026-05-19T03:41:49Z"
+      "fetched_at": "2026-05-19T05:06:38Z",
+      "updated_at": "2026-05-19T05:06:38Z"
     }
   ]
 }
