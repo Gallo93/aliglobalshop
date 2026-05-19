@@ -39,7 +39,7 @@ Write a complete blog article in valid HTML (body content only, no <html>/<head>
 
 STRICT REQUIREMENTS:
 - title: max 43 chars (the page template adds " | AliGlobalShop" making it 60 total), must include primary keyword and current year ({year})
-- meta_description: max 155 chars, must include primary keyword
+- meta_desc: max 155 chars, must include primary keyword
 - slug: lowercase hyphens only, max 60 chars, ASCII, include primary keyword and year
 - lang: "en"
 - category: match the CATEGORY field above
@@ -68,9 +68,9 @@ OUTPUT FORMAT — respond ONLY with valid JSON (no markdown, no code fences):
   "title": "...",
   "slug": "...",
   "date": "...",
-  "content": "<h1>...</h1><p>...</p>...",
+  "content_html": "<h1>...</h1><p>...</p>...",
   "lang": "en",
-  "meta_description": "...",
+  "meta_desc": "...",
   "category": "..."
 }}"""
 
