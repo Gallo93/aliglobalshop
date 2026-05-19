@@ -115,8 +115,13 @@ def product_card_html(product: dict, category_slug: str, site_url: str) -> str:
 
 
 def deal_card_html(deal: dict, site_url: str) -> str:
-    category_slug = esc(deal.get("category", ""))
-    href = f"{site_url}/en/{category_slug}/{esc(deal.get('slug',''))}/"
+    category_slug = deal.get("category", "")
+    if category_slug:
+        href = f"{site_url}/en/{category_slug}/{esc(deal.get('slug', ''))}/"
+        link_rel = ""
+    else:
+        href = esc(deal.get("affiliate_url", f"{site_url}/en/flash-sale/"))
+        link_rel = ' rel="nofollow sponsored"'
     img = esc(deal.get("image_url", ""))
     title = esc(deal.get("title", ""))
     price = esc(deal.get("price", ""))
@@ -127,14 +132,14 @@ def deal_card_html(deal: dict, site_url: str) -> str:
     countdown = f'<span data-expires="{expires}"></span>' if expires else ""
     return (
         '<article class="product-card">'
-        f'<a href="{href}" class="product-card__img">'
+        f'<a href="{href}"{link_rel} class="product-card__img">'
         f'<img src="{img}" alt="{title}" width="300" height="300" loading="lazy" decoding="async"></a>'
         '<div class="product-card__body">'
-        f'<h3 class="product-card__title"><a href="{href}">{title}</a></h3>'
+        f'<h3 class="product-card__title"><a href="{href}"{link_rel}>{title}</a></h3>'
         f'<div class="product-card__price"><span class="price">${price}</span>'
         f'<span class="price--old">${original}</span>{disc_html}</div>'
         f'<p class="product-card__meta">Ends in: {countdown}</p>'
-        f'<a class="btn-cta product-card__cta" href="{href}">Grab it →</a>'
+        f'<a class="btn-cta product-card__cta" href="{href}"{link_rel}>Grab it →</a>'
         "</div></article>"
     )
 
@@ -425,12 +430,14 @@ def load_articles() -> list:
 
 def load_flash_deals() -> tuple:
     data = load_json(DATA_DIR / "flash-sale" / "en.json", default={})
-    return data.get("deals", []), data.get("updated_at", "")
+    deals = data.get("deals", data.get("products", []))
+    return deals, data.get("updated_at", "")
 
 
 def load_coupons() -> tuple:
     data = load_json(DATA_DIR / "coupons" / "en.json", default={})
-    return data.get("coupons", []), data.get("updated_at", "")
+    coupons = data.get("coupons", data.get("products", []))
+    return coupons, data.get("updated_at", "")
 
 
 def clean_output() -> None:
