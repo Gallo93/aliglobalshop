@@ -271,7 +271,6 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
 .grid--products { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .grid--cats { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
 .grid--posts { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
-.grid--coupons { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 
 /* === PRODUCT CARDS === */
 .product-card,
@@ -402,23 +401,18 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
 .grid--posts time, .grid--posts .meta { color: var(--gray); font-size: 0.85rem; }
 
 /* === COUPON CARDS === */
-.grid--coupons > * {
-  border: 2px dashed var(--orange);
-  border-radius: var(--radius-sm);
-  padding: 1.25rem;
-  background: #fff8f4;
-}
-.grid--coupons h3 { color: var(--orange); margin-bottom: 0.4rem; }
-.grid--coupons code {
+.coupon-badge {
   display: inline-block;
-  background: var(--white);
-  border: 1px solid var(--gray-lighter);
-  border-radius: 6px;
-  padding: 0.4rem 0.75rem;
-  font-family: 'SFMono-Regular', Menlo, monospace;
+  background: #16a34a;
+  color: var(--white);
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 0.8rem;
   font-weight: 700;
-  margin: 0.4rem 0;
+  margin-left: 0.4rem;
+  vertical-align: middle;
 }
+.grid--coupons { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 
 .see-more {
   text-align: center;

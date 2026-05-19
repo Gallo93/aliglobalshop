@@ -145,20 +145,27 @@ def deal_card_html(deal: dict, site_url: str) -> str:
 
 
 def coupon_card_html(coupon: dict) -> str:
-    code = coupon.get("code", "")
-    code_js = code.replace("'", "\\'")
-    description = esc(coupon.get("description", ""))
-    min_spend = coupon.get("min_spend")
-    expires = esc(coupon.get("expires_at", ""))
-    min_html = f"<p>Min. spend: ${esc(min_spend)}</p>" if min_spend else ""
-    exp_html = f'<p>Expires: <span data-expires="{expires}"></span></p>' if expires else ""
+    title = esc(coupon.get("title", ""))
+    href = esc(coupon.get("affiliate_url", ""))
+    img = esc(coupon.get("image_url", ""))
+    price = esc(coupon.get("price", ""))
+    original = esc(coupon.get("original_price", ""))
+    disc = coupon.get("discount_pct") or 0
+    rating = coupon.get("rating") or 0
+    disc_html = (
+        f'<span class="price--off coupon-badge">-{int(disc)}% OFF</span>' if disc else ""
+    )
     return (
-        '<article class="coupon-card">'
-        f'<div class="coupon-card__code">{esc(code)}</div>'
-        f'<p>{description}</p>{min_html}{exp_html}'
-        f'<button type="button" class="coupon-card__copy" '
-        f'onclick="navigator.clipboard.writeText(\'{code_js}\');this.textContent=\'Copied!\';">'
-        "Copy code</button></article>"
+        '<article class="product-card coupon-card">'
+        f'<a href="{href}" rel="nofollow sponsored" class="product-card__img">'
+        f'<img src="{img}" alt="{title}" width="300" height="300" loading="lazy" decoding="async"></a>'
+        '<div class="product-card__body">'
+        f'<h3 class="product-card__title"><a href="{href}" rel="nofollow sponsored">{title}</a></h3>'
+        f'<div class="product-card__price"><span class="price">${price}</span>'
+        f'<span class="price--old">${original}</span>{disc_html}</div>'
+        f'<p class="product-card__meta">Rating: {rating}/5</p>'
+        f'<a class="btn-cta product-card__cta" href="{href}" rel="nofollow sponsored">Get deal →</a>'
+        "</div></article>"
     )
 
 
