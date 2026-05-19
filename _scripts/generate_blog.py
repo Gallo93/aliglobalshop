@@ -29,6 +29,7 @@ AFFILIATE_DISCLAIMER = (
 )
 
 PROMPT = """You are an expert SEO copywriter for aliglobalshop.com, an AliExpress affiliate site.
+CURRENT YEAR: {year}
 KEYWORD TARGET: {primary_keyword}
 SEARCH INTENT: {intent}
 TONE: Friendly, practical, authoritative. Not salesy.
@@ -38,6 +39,7 @@ Write an article of 900-1200 words following these rules:
 - 3-5 H2 sections with practical tips or comparisons
 - FAQ section with 3-5 Q&A
 - Soft CTA at the end pointing readers to the relevant category on the site
+- Always use the current year ({year}) in the title and content where relevant — never write a past year
 
 STRICT CONTENT RULES — violations will cause rejection:
 - NO invented statistics or percentages (e.g. "burns 40% more calories", "99% of users agree")
@@ -51,9 +53,9 @@ OUTPUT JSON only (no markdown fences, no commentary):
 {{"title":"...","meta_desc":"...","slug":"...","content_html":"...","tags":[...],"category":"{category}","reading_time_min":N}}
 
 Rules for output fields:
-- title: max 60 chars, includes primary keyword
+- title: max 60 chars, includes primary keyword, uses current year ({year})
 - meta_desc: max 155 chars, actionable
-- slug: lowercase, hyphen-separated, max 60 chars, ASCII only
+- slug: lowercase, hyphen-separated, max 60 chars, ASCII only, use {year} not previous years
 - content_html: valid HTML using only <h2> <h3> <p> <ul> <ol> <li> <strong> <em> tags
 - reading_time_min: integer (words / 200)
 """
@@ -135,8 +137,10 @@ def main() -> None:
         print("[blog] calendar is empty — nothing to do.", file=sys.stderr)
         sys.exit(1)
 
-    print(f"[blog] generating article for: {topic['topic']}")
+    current_year = date.today().year
+    print(f"[blog] generating article for: {topic['topic']} (year={current_year})")
     prompt = PROMPT.format(
+        year=current_year,
         primary_keyword=topic["primary_keyword"],
         intent=topic.get("intent", "informational"),
         category=topic.get("category", ""),
