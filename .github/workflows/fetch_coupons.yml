@@ -24,10 +24,9 @@ jobs:
           ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
           ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
         run: python _scripts/fetch_coupons.py
-      - name: Commit if changed
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/coupons/
-          git diff --staged --quiet || git commit -m "chore: update coupons [skip ci]"
-          git push
+          git add _data/
+          git diff --staged --quiet || (git commit -m "chore: update coupons [skip ci]" && git pull --rebase origin main && git push)
