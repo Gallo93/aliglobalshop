@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-05-19T15:28:37Z",
+  "updated_at": "2026-05-19T15:35:57Z",
   "min_discount_pct": 30,
   "products": [
+    {
+      "product_id": "1005012194627841",
+      "title": "Macrame Cord 3mm - Macrame Rope for Crafting Knotting Wall Hangings and Home Decor - 60% Cotton 40% Viscose and Polyester Soft",
+      "slug": "macrame-cord-3mm-macrame-rope-for-crafting-knotting-wall-han",
+      "price": "10.97",
+      "original_price": "43.87",
+      "discount_pct": 75,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012194627841.html?pdp_npi=6%40dis%21USD%2143.87%2110.97%21%21%2143.87%2110.97%21%40212a7b8d17792049354261106e11df%2112000057729947130%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204944/coupons/1005012194627841.webp"
+    },
+    {
+      "product_id": "1005012194831022",
+      "title": "Polyester Soft Macrame Cord 2.5-3mm 191 Yards x 1/9 inc Turkish Polyester Rope Braided Macrame Yarn for DIY Crafts Plant Hanger",
+      "slug": "polyester-soft-macrame-cord-25-3mm-191-yards-x-19-inc-turkis",
+      "price": "26.11",
+      "original_price": "104.44",
+      "discount_pct": 75,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012194831022.html?pdp_npi=6%40dis%21USD%21104.44%2126.11%21%21%21104.44%2126.11%21%40212a7b8d17792049354261106e11df%2112000057748680929%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204946/coupons/1005012194831022.webp"
+    },
+    {
+      "product_id": "1005010318857523",
+      "title": "3mm Cotton Macrame Cord  Rope Colored Cotton Thread Macrame Materials DIY Crafts Crochet String for Christmas Wedding Home Décor",
+      "slug": "3mm-cotton-macrame-cord-rope-colored-cotton-thread-macrame-m",
+      "price": "15.50",
+      "original_price": "49.99",
+      "discount_pct": 69,
+      "affiliate_url": "https://www.aliexpress.com/item/1005010318857523.html?pdp_npi=6%40dis%21USD%2149.99%2115.50%21%21%21338.00%21104.78%21%40212a7b8d17792049354261106e11df%2112000051934787478%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204946/coupons/1005010318857523.webp"
+    },
     {
       "product_id": "1005005799747129",
       "title": "1pc 130mm Metal Copper Menmory Wire Collar Hoop",
@@ -9,48 +39,8 @@
       "price": "2.98",
       "original_price": "8.52",
       "discount_pct": 65,
-      "affiliate_url": "https://www.aliexpress.com/item/1005005799747129.html?pdp_npi=6%40dis%21USD%218.52%212.98%21%21%2157.63%2120.17%21%40212a7b8d17792045100576846e0f4c%2112000034394237592%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/S0c0d9449175945f584f1ba12800688a0A.jpg"
-    },
-    {
-      "product_id": "1005007915384328",
-      "title": "20pcs/lot 15-40mm Metal Key Rings Round Flat Line Split Rings Keyring for Jewelry Making Keychain DIY Findings",
-      "slug": "20pcslot-15-40mm-metal-key-rings-round-flat-line-split-rings",
-      "price": "2.74",
-      "original_price": "7.84",
-      "discount_pct": 65,
-      "affiliate_url": "https://www.aliexpress.com/item/1005007915384328.html?pdp_npi=6%40dis%21USD%217.84%212.74%21%21%2153.04%2118.56%21%40212a7b8d17792045100576846e0f4c%2112000042826381571%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb27dfa0129c54afb88de7839789eb57dX.jpg"
-    },
-    {
-      "product_id": "1005012165526759",
-      "title": "Sexy Two Piece Swimsuit for Women V Neck Adjustable Straps High Cut Bathing Suit Beachwear",
-      "slug": "sexy-two-piece-swimsuit-for-women-v-neck-adjustable-straps-h",
-      "price": "19.89",
-      "original_price": "52.34",
-      "discount_pct": 62,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012165526759.html?pdp_npi=6%40dis%21USD%2152.34%2119.89%21%21%21353.89%21134.48%21%402141149b17792045055354312e0bfb%2112000057675150602%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb62a6d134b74a05a7a71a58001adfcdz.jpg"
-    },
-    {
-      "product_id": "1005012148351632",
-      "title": "Chiffon Material Beach Dress UPF Protection Sheer Fabric Swimsuit Coverups Breathable Quick-Dry Gradient Color Bikini Cover Up",
-      "slug": "chiffon-material-beach-dress-upf-protection-sheer-fabric-swi",
-      "price": "4.82",
-      "original_price": "11.75",
-      "discount_pct": 59,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012148351632.html?pdp_npi=6%40dis%21USD%2111.75%214.82%21%21%2179.43%2132.57%21%402141149b17792045055354312e0bfb%2112000057642356063%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sd8f905e6ea544931bc8c9e4a69721f9eM.jpg"
-    },
-    {
-      "product_id": "1005005722206476",
-      "title": "One Piece Solid Swimsuit Skirt Women Conservative Push Up with Pad Swimming Dress Swimwear Bathing Suit Beach Wear Monokini",
-      "slug": "one-piece-solid-swimsuit-skirt-women-conservative-push-up-wi",
-      "price": "5.80",
-      "original_price": "13.80",
-      "discount_pct": 58,
-      "affiliate_url": "https://www.aliexpress.com/item/1005005722206476.html?pdp_npi=6%40dis%21USD%2113.80%215.80%21%21%2113.80%215.80%21%402141149b17792045055354312e0bfb%2112000034118484779%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/S1faffe5e8d4d48e58556cab1dde027256.jpg"
+      "affiliate_url": "https://www.aliexpress.com/item/1005005799747129.html?pdp_npi=6%40dis%21USD%218.52%212.98%21%21%2157.63%2120.17%21%402141149b17792049397637688e0b14%2112000034394237592%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204948/coupons/1005005799747129.webp"
     },
     {
       "product_id": "1005008568402273",
@@ -59,8 +49,8 @@
       "price": "26.31",
       "original_price": "63.43",
       "discount_pct": 58,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008568402273.html?pdp_npi=6%40dis%21USD%2163.43%2126.31%21%21%21428.87%21177.88%21%402141149b17792045143416630e0c38%2112000045767989832%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/S03f0cb58c2d048529d674b17a1b962b5W.jpg"
+      "affiliate_url": "https://www.aliexpress.com/item/1005008568402273.html?pdp_npi=6%40dis%21USD%2163.43%2126.31%21%21%21428.87%21177.88%21%40212a7b8d17792049430962294e11df%2112000045767989832%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204949/coupons/1005008568402273.webp"
     },
     {
       "product_id": "1005012188833385",
@@ -69,8 +59,8 @@
       "price": "19.52",
       "original_price": "47.15",
       "discount_pct": 58,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012188833385.html?pdp_npi=6%40dis%21USD%2147.15%2119.52%21%21%21318.83%21131.99%21%402141149b17792045143416630e0c38%2112000057735258956%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb8ca5b88627747198c2a7d44eacc66e0n.jpg"
+      "affiliate_url": "https://www.aliexpress.com/item/1005012188833385.html?pdp_npi=6%40dis%21USD%2147.15%2119.52%21%21%21318.83%21131.99%21%40212a7b8d17792049430962294e11df%2112000057735258956%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204949/coupons/1005012188833385.webp"
     },
     {
       "product_id": "1005008762457614",
@@ -79,28 +69,8 @@
       "price": "5.39",
       "original_price": "11.98",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008762457614.html?pdp_npi=6%40dis%21USD%2111.98%215.39%21%21%2111.98%215.39%21%402141149b17792045143416630e0c38%2112000046561743858%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/S57d559ebde3d4097882b4f4588a47c7c4.jpg"
-    },
-    {
-      "product_id": "1005011776064230",
-      "title": "2026 Mesh Swimsuit Women One Piece Black Strappy Large Plus Big Size Swimwear Female Bathers Bathing Swimming Swim Suit 0XL-5XL",
-      "slug": "2026-mesh-swimsuit-women-one-piece-black-strappy-large-plus-",
-      "price": "18.36",
-      "original_price": "39.92",
-      "discount_pct": 54,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011776064230.html?pdp_npi=6%40dis%21USD%2139.92%2118.36%21%21%2139.92%2118.36%21%402141149b17792045055354312e0bfb%2112000056511557269%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/S83c139fbba614b658acfaf3c81be841bp.jpg"
-    },
-    {
-      "product_id": "1005009269135473",
-      "title": "925 Silver Earring Hooks for Jewelry Making 300pcs DIY Hypoallergenic Gold Earring Findings with Jump Rings Earring Backs Kit",
-      "slug": "925-silver-earring-hooks-for-jewelry-making-300pcs-diy-hypoa",
-      "price": "4.12",
-      "original_price": "9.12",
-      "discount_pct": 54,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009269135473.html?pdp_npi=6%40dis%21USD%219.12%214.12%21%21%2161.65%2127.83%21%40212a7b8d17792045100576846e0f4c%2112000048552044912%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sc5b1b0e9e8a34def8f43604d2609d520b.jpg"
+      "affiliate_url": "https://www.aliexpress.com/item/1005008762457614.html?pdp_npi=6%40dis%21USD%2111.98%215.39%21%21%2111.98%215.39%21%40212a7b8d17792049430962294e11df%2112000046561743858%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204951/coupons/1005008762457614.webp"
     },
     {
       "product_id": "1005008730114622",
@@ -109,8 +79,8 @@
       "price": "5.58",
       "original_price": "12.36",
       "discount_pct": 54,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008730114622.html?pdp_npi=6%40dis%21USD%2112.36%215.58%21%21%2183.60%2137.76%21%402141149b17792045143416630e0c38%2112000046443175000%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sfed33e8efcbc411ea605faf14485280an.jpg"
+      "affiliate_url": "https://www.aliexpress.com/item/1005008730114622.html?pdp_npi=6%40dis%21USD%2112.36%215.58%21%21%2183.60%2137.76%21%40212a7b8d17792049430962294e11df%2112000046443175000%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204952/coupons/1005008730114622.webp"
     },
     {
       "product_id": "1005008555896822",
@@ -119,8 +89,38 @@
       "price": "4.70",
       "original_price": "9.99",
       "discount_pct": 53,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.70%21%21%219.99%214.70%21%402151fd2c17792045124466093e0f58%2112000045695796771%21affd%21%21%21%211%210%21",
-      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/S18297ec46d5c452e8599de21fa5bdc37s.jpg"
+      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.70%21%21%219.99%214.70%21%40214114e317792049416261066e0e74%2112000045695796771%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204953/coupons/1005008555896822.webp"
+    },
+    {
+      "product_id": "1005009330391341",
+      "title": "DUX DUCIS Foldable Bluetooth 5.0 Keyboard with Touchpad & Phone Holder For Phones Tablets PC iOS Android Windows Mac",
+      "slug": "dux-ducis-foldable-bluetooth-50-keyboard-with-touchpad-phone",
+      "price": "35.52",
+      "original_price": "75.58",
+      "discount_pct": 53,
+      "affiliate_url": "https://www.aliexpress.com/item/1005009330391341.html?pdp_npi=6%40dis%21USD%2175.58%2135.52%21%21%21511.05%21240.19%21%40212a7b8d17792049430962294e11df%2112000048776505506%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204954/coupons/1005009330391341.webp"
+    },
+    {
+      "product_id": "1005008990299801",
+      "title": "Bluetooth 5.2 Keyboard Wireless Mini Keyboard Rechargeable Keyboard with 2.4G Wireless Voice Control Air Mouse for TV BOX Laptop",
+      "slug": "bluetooth-52-keyboard-wireless-mini-keyboard-rechargeable-ke",
+      "price": "8.83",
+      "original_price": "19.15",
+      "discount_pct": 53,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008990299801.html?pdp_npi=6%40dis%21USD%2119.15%218.83%21%21%21129.51%2159.74%21%40212a7b8d17792049430962294e11df%2112000047658499418%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204955/coupons/1005008990299801.webp"
+    },
+    {
+      "product_id": "1005009845039834",
+      "title": "Bluetooth 12 Key 2-knob USB Programming Macro Custom Keyboard Game Console Mechanical Keyboard Photoshop Hot Swappable Keyboard",
+      "slug": "bluetooth-12-key-2-knob-usb-programming-macro-custom-keyboar",
+      "price": "22.21",
+      "original_price": "48.13",
+      "discount_pct": 53,
+      "affiliate_url": "https://www.aliexpress.com/item/1005009845039834.html?pdp_npi=6%40dis%21USD%2148.13%2122.21%21%21%21325.44%21150.21%21%40212a7b8d17792049430962294e11df%2112000050342284074%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204956/coupons/1005009845039834.webp"
     }
   ]
 }
