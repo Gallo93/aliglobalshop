@@ -98,7 +98,7 @@ def meta_desc_from_product(product: dict) -> str:
 
 
 def product_card_html(product: dict, category_slug: str, site_url: str) -> str:
-    href = f"{site_url}/en/{category_slug}/{esc(product.get('slug',''))}/"
+    href = f"{site_url}/en/{category_slug}/{esc(product.get('slug', ''))}/"
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
     price = esc(product.get("price", ""))
@@ -181,21 +181,31 @@ def article_card_html(article: dict, site_url: str) -> str:
     title = esc(article.get("title", ""))
     date = esc(article.get("date", ""))
     meta_desc = esc(article.get("meta_desc", article.get("meta_description", "")))
+    category = article.get("category", "")
+    cat_name = CATEGORY_NAMES.get(category, category.replace("-", " ").title()) if category else ""
+    img = esc(article.get("image_url", ""))
+    href = f"{site_url}/en/blog/{slug}/"
+    img_html = (
+        f'<a href="{href}"><img class="blog-card__img" src="{img}" alt="{title}" '
+        f'width="400" height="220" loading="lazy" decoding="async"></a>'
+    ) if img else ""
+    cat_html = f'<p class="blog-card__cat">{cat_name}</p>' if cat_name else ""
     return (
-        '<article class="product-card">'
-        '<div class="product-card__body">'
-        f'<h3 class="product-card__title"><a href="{site_url}/en/blog/{slug}/">{title}</a></h3>'
+        f'<article class="blog-card">'
+        f'{img_html}'
+        f'<div class="blog-card__body">'
+        f'{cat_html}'
+        f'<h3 class="blog-card__title"><a href="{href}">{title}</a></h3>'
+        f'<p class="blog-card__excerpt">{meta_desc}</p>'
         f'<p class="product-card__meta"><time datetime="{date}">{date}</time></p>'
-        f'<p>{meta_desc}</p>'
-        f'<a class="btn-cta product-card__cta" href="{site_url}/en/blog/{slug}/">Read →</a>'
-        "</div></article>"
+        f'</div>'
+        f'</article>'
     )
 
 
 def related_products_section_html(
     category_slug: str, products_by_cat: dict, site_url: str, limit: int = 4
 ) -> str:
-    """Build a 'Related products' block for blog posts, pulled from the matching category."""
     if not category_slug or category_slug not in products_by_cat:
         return ""
     products = products_by_cat[category_slug].get("products", [])[:limit]
@@ -208,7 +218,7 @@ def related_products_section_html(
         f'<h2 class="related-products__title">Top {cat_name} deals right now</h2>'
         f'<div class="product-grid">{cards}</div>'
         f'<p class="related-products__cta">'
-        f'<a class="btn-cta" href="{site_url}/en/{category_slug}//">'
+        f'<a class="btn-cta" href="{site_url}/en/{category_slug}/">'
         f'Browse all {cat_name} deals →</a></p>'
         f'</section>'
     )
@@ -406,9 +416,9 @@ def build_sitemap(site_url: str, products_by_cat: dict, articles: list) -> None:
     for slug in products_by_cat:
         urls.append(f"{site_url}/en/{slug}/")
         for p in products_by_cat[slug].get("products", []):
-            urls.append(f"{site_url}/en/{slug}/{p.get('slug','')}/")
+            urls.append(f"{site_url}/en/{slug}/{p.get('slug', '')}/")
     for a in articles:
-        urls.append(f"{site_url}/en/blog/{a.get('slug','')}/")
+        urls.append(f"{site_url}/en/blog/{a.get('slug', '')}/")
     body = "\n".join(
         f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>" for u in urls
     )
