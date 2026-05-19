@@ -11,6 +11,7 @@
   --shadow: 0 2px 12px rgba(0,0,0,0.08);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+[hidden] { display: none !important; }
 body { background: var(--light); color: var(--text); font-family: system-ui,-apple-system,sans-serif; line-height: 1.6; }
 img { max-width: 100%; height: auto; }
 a { color: inherit; }
@@ -43,7 +44,7 @@ a { color: inherit; }
 .hero__stat span { font-size: 0.75rem; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 0.05em; }
 
 /* === BUTTONS === */
-.btn-cta { display: inline-block; background: var(--orange); color: #fff; padding: 13px 26px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 0.95rem; transition: all 0.2s; border: 2px solid var(--orange); }
+.btn-cta { display: inline-block; background: var(--orange); color: #fff; padding: 13px 26px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 0.95rem; transition: all 0.2s; border: 2px solid var(--orange); cursor: pointer; }
 .btn-cta:hover { background: #c43d1a; box-shadow: 0 0 20px rgba(228,77,38,0.4); transform: translateY(-1px); }
 .btn-cta--ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,0.5); }
 .btn-cta--ghost:hover { background: rgba(255,255,255,0.1); box-shadow: none; }
@@ -65,8 +66,6 @@ a { color: inherit; }
 .section--cats { padding: 4rem 1.5rem; background: var(--light-2); }
 .grid--cats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; max-width: 1100px; margin: 0 auto; }
 @media (min-width: 640px) { .grid--cats { grid-template-columns: repeat(4, 1fr); } }
-
-/* Category card base */
 .cat-card { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1.75rem 1rem; border-radius: 16px; text-decoration: none; color: #fff; font-weight: 700; text-align: center; transition: all 0.25s; position: relative; overflow: hidden; min-height: 130px; }
 .cat-card:hover { transform: translateY(-4px) scale(1.03); box-shadow: 0 12px 30px rgba(0,0,0,0.2); }
 .cat-card--electronics { background: linear-gradient(135deg, #1a2a4a 0%, #0a1628 100%); }
@@ -120,9 +119,9 @@ a { color: inherit; }
 /* === FLASH SALE === */
 .section--flash { padding: 4rem 0; background: linear-gradient(135deg, #1a1a1a 0%, #2d0a00 100%); color: #fff; }
 .section--flash .section__title { color: #fff; }
-.flash-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,100,0,0.3); border-radius: 12px; overflow: hidden; transition: all 0.2s; }
+.flash-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,100,0,0.3); border-radius: 12px; overflow: hidden; transition: all 0.2s; position: relative; }
 .flash-card:hover { border-color: var(--orange); transform: translateY(-2px); }
-.flash-card__img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: rgba(255,255,255,0.05); }
+.flash-card__img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
 .flash-card__body { padding: 0.75rem; }
 .flash-card__title { font-size: 0.82rem; color: rgba(255,255,255,0.9); margin-bottom: 0.4rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .flash-card__price { font-size: 1.1rem; font-weight: 800; color: var(--orange); }
@@ -176,7 +175,7 @@ a { color: inherit; }
 .article { max-width: 740px; margin: 0 auto; padding: 3rem 1.5rem; }
 .article__title { font-size: 2rem; font-weight: 900; margin-bottom: 0.75rem; line-height: 1.2; }
 .article__meta { font-size: 0.82rem; color: var(--text-2); margin-bottom: 2rem; }
-.article__body { font-size: 1rem; line-height: 1.8; color: var(--text); }
+.article__body { font-size: 1rem; line-height: 1.8; }
 .article__body h2 { font-size: 1.4rem; font-weight: 800; margin: 2rem 0 0.75rem; }
 .article__body h3 { font-size: 1.15rem; font-weight: 700; margin: 1.5rem 0 0.5rem; }
 .article__body p { margin-bottom: 1rem; }
@@ -199,12 +198,12 @@ a { color: inherit; }
 .cat-hero__title { font-size: 2rem; font-weight: 900; }
 .cat-hero__desc { font-size: 1rem; color: rgba(255,255,255,0.7); margin-top: 0.5rem; }
 
-/* === RESPONSIVE HELPERS === */
+/* === RESPONSIVE === */
 @media (max-width: 480px) {
   .hero { padding: 3rem 1rem; min-height: 45vh; }
   .hero__title { font-size: 2rem; }
   .hero__stats { gap: 1rem; }
-  .section--cats, .section--products, .section--trust, .section--blog { padding: 2.5rem 1rem; }
+  .section--cats, .section--trust { padding: 2.5rem 1rem; }
   .footer__cols { grid-template-columns: 1fr 1fr; }
   .nav__links a { font-size: 0.78rem; padding: 5px 6px; }
 }
