@@ -30,6 +30,13 @@ CATEGORY_NAMES = {
     "gadgets": "Gadgets",
 }
 
+CATEGORY_PARTICLES = {
+    "electronics": "electric",
+    "smart-home": "glow",
+    "sport": "streak",
+    "gadgets": "glitch",
+}
+
 STATIC_PAGES = [
     ("privacy", "Privacy Policy"),
     ("about", "About AliGlobalShop"),
@@ -201,7 +208,7 @@ def related_products_section_html(
         f'<h2 class="related-products__title">Top {cat_name} deals right now</h2>'
         f'<div class="product-grid">{cards}</div>'
         f'<p class="related-products__cta">'
-        f'<a class="btn-cta" href="{site_url}/en/{category_slug}/">'
+        f'<a class="btn-cta" href="{site_url}/en/{category_slug}//">'
         f'Browse all {cat_name} deals →</a></p>'
         f'</section>'
     )
@@ -274,6 +281,7 @@ def build_products(site_url: str, products_by_cat: dict) -> None:
             "meta_description": esc(meta_desc_from_product(product)),
             "category_slug": cat_slug,
             "category_name": CATEGORY_NAMES.get(cat_slug, cat_slug.title()),
+            "category_particle_effect": CATEGORY_PARTICLES.get(cat_slug, "electric"),
             "slug": esc(product_slug),
             "product_id": esc(product.get("product_id", "")),
             "image_url": esc(product.get("image_url", "")),
