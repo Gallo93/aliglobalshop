@@ -32,33 +32,47 @@ PROMPT = """You are an expert SEO copywriter for aliglobalshop.com, an AliExpres
 CURRENT YEAR: {year}
 KEYWORD TARGET: {primary_keyword}
 SEARCH INTENT: {intent}
-TONE: Friendly, practical, authoritative. Not salesy.
+CATEGORY: {category}
+CATEGORY URL: {category_url}
 
-Write an article of 900-1200 words following these rules:
-- Intro that answers the question immediately (no vague preamble)
-- 3-5 H2 sections with practical tips or comparisons
-- FAQ section with 3-5 Q&A
-- Soft CTA at the end pointing readers to the relevant category on the site
-- Always use the current year ({year}) in the title and content where relevant — never write a past year
+Write a complete blog article in valid HTML (body content only, no <html>/<head>/<body> tags).
 
-STRICT CONTENT RULES — violations will cause rejection:
-- NO invented statistics or percentages (e.g. "burns 40% more calories", "99% of users agree")
-- NO medical or health claims (e.g. "improves sleep", "reduces joint pain", "boosts metabolism")
-- NO specific price claims in the article body (prices change daily)
-- NO fabricated user reviews or testimonials
-- NO superlatives without factual backing ("world's best", "#1 rated")
-- Keep claims conservative and verifiable
+STRICT REQUIREMENTS:
+- title: max 43 chars (the page template adds " | AliGlobalShop" making it 60 total), must include primary keyword and current year ({year})
+- meta_description: max 155 chars, must include primary keyword
+- slug: lowercase hyphens only, max 60 chars, ASCII, include primary keyword and year
+- lang: "en"
+- category: match the CATEGORY field above
 
-OUTPUT JSON only (no markdown fences, no commentary):
-{{"title":"...","meta_desc":"...","slug":"...","content_html":"...","tags":[...],"category":"{category}","reading_time_min":N}}
+CONTENT STRUCTURE (use exactly this order):
+1. <h1> — same as title, includes primary keyword
+2. Intro paragraph (80-120 words) — hook + pain point + promise
+3. <h2> — must include a variation of the primary keyword "{primary_keyword}"
+4. 2-3 paragraphs (150-200 words each) with practical tips, comparisons, buying advice
+5. Include 1-2 internal links to the category page: <a href="{category_url}">browse all {category} deals</a>
+6. <h2>FAQ — includes primary keyword in heading text
+7. FAQ section: wrap in <div class="faq"> — use <details><summary>Question?</summary><p>Answer (2-3 sentences).</p></details> for EACH question. Minimum 3 questions.
+8. <h2>Final Verdict (includes keyword)
+9. Conclusion paragraph (60-80 words)
 
-Rules for output fields:
-- title: max 60 chars, includes primary keyword, uses current year ({year})
-- meta_desc: max 155 chars, actionable
-- slug: lowercase, hyphen-separated, max 60 chars, ASCII only, use {year} not previous years
-- content_html: valid HTML using only <h2> <h3> <p> <ul> <ol> <li> <strong> <em> tags
-- reading_time_min: integer (words / 200)
-"""
+SEO RULES:
+- Use primary keyword "{primary_keyword}" naturally 4-6 times in the body text
+- All <h2> headings must contain the primary keyword or a close variant
+- All external links to AliExpress must have rel="nofollow sponsored"
+- No keyword stuffing — write for humans first
+- Use specific numbers, prices (in USD), and years ({year}) to increase CTR
+- Do NOT mention any competitor sites (Amazon, eBay, Temu, etc.)
+
+OUTPUT FORMAT — respond ONLY with valid JSON (no markdown, no code fences):
+{{
+  "title": "...",
+  "slug": "...",
+  "date": "...",
+  "content": "<h1>...</h1><p>...</p>...",
+  "lang": "en",
+  "meta_description": "...",
+  "category": "..."
+}}"""
 
 
 def load_calendar() -> list:
@@ -139,11 +153,13 @@ def main() -> None:
 
     current_year = date.today().year
     print(f"[blog] generating article for: {topic['topic']} (year={current_year})")
+    cat_slug = topic.get("category", "").lower().replace(" ", "-")
     prompt = PROMPT.format(
         year=current_year,
         primary_keyword=topic["primary_keyword"],
         intent=topic.get("intent", "informational"),
         category=topic.get("category", ""),
+        category_url=f"/en/{cat_slug}/",
     )
     raw = call_anthropic(prompt)
     raw = strip_code_fences(raw)
