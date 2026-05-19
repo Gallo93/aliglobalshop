@@ -50,7 +50,7 @@
   </div>
 
   <main class="container">
-    <article class="article">
+    <article class="article" data-particles="ink">
       <h1 class="article__title">{{title}}</h1>
       <p class="article__meta"><time datetime="{{date}}">{{date}}</time> &middot; {{reading_time_min}} min read &middot; <a href="{{site_url}}/en/{{category_slug}}/">{{category_name}}</a></p>
       <div class="article__body">
@@ -64,7 +64,7 @@
   <footer class="footer">
     <div class="footer__cols container">
       <div class="footer__brand">
-        <a href="{{site_url}}/en/"><strong>Ali<span>Global</span>Shop</strong></a>
+        <a href="{{site_url}}/en/"><strong>AliGlobal<span>Shop</span></strong></a>
         <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy — at no extra cost to you.</p>
       </div>
       <div class="footer__col">
@@ -103,10 +103,11 @@
   <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
     <p>We use cookies to improve your experience. <a href="{{site_url}}/en/privacy/">Learn more</a></p>
     <div class="cookie-banner__actions">
-      <button id="cookie-accept" class="btn btn--cta btn--sm">Accept</button>
-      <button id="cookie-decline" class="btn btn--ghost btn--sm">Decline</button>
+      <button id="cookie-accept" class="btn-cta btn--sm">Accept</button>
+      <button id="cookie-decline" class="btn--ghost btn--sm">Decline</button>
     </div>
   </div>
   <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
+  <script defer src="{{site_url}}/assets/js/particles.js"></script>
 </body>
 </html>

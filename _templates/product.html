@@ -46,7 +46,7 @@
 
   <main class="container product">
     <article class="product__layout">
-      <div class="product__media">
+      <div class="product__media" data-particles="{{category_particle_effect}}">
         <img src="{{image_url}}" alt="{{title}}" width="600" height="600" loading="lazy" decoding="async">
       </div>
       <div class="product__info">
@@ -106,7 +106,7 @@
   <footer class="footer">
     <div class="footer__cols container">
       <div class="footer__brand">
-        <a href="{{site_url}}/en/"><strong>Ali<span>Global</span>Shop</strong></a>
+        <a href="{{site_url}}/en/"><strong>AliGlobal<span>Shop</span></strong></a>
         <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy — at no extra cost to you.</p>
       </div>
       <div class="footer__col">
@@ -153,5 +153,6 @@
   <script defer src="{{site_url}}/assets/js/countdown.js"></script>
   <script defer src="{{site_url}}/assets/js/price-chart.js"></script>
   <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
+  <script defer src="{{site_url}}/assets/js/particles.js"></script>
 </body>
 </html>
