@@ -526,17 +526,10 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
 }
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
   margin-bottom: 1.25rem;
 }
-.product-grid .product-card img {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-}
-.product-grid .product-card__title { font-size: 0.8rem; }
-.product-grid .product-card__price { font-size: 1rem; }
-.product-grid .product-card .btn-cta { font-size: 0.8rem; padding: 0.5rem; }
 .related-products__cta {
   text-align: center;
   margin-top: 1rem;
