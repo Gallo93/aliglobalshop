@@ -45,13 +45,41 @@
   </main>
 
   <footer class="footer">
-    <div class="footer__inner">
-      <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
-      <nav class="footer__links">
-        <a href="{{site_url}}/en/about/">About</a>
-        <a href="{{site_url}}/en/contact/">Contact</a>
-        <a href="{{site_url}}/en/privacy/">Privacy</a>
-      </nav>
+    <div class="footer__cols container">
+      <div class="footer__brand">
+        <a href="{{site_url}}/en/"><strong>Ali<span>Global</span>Shop</strong></a>
+        <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy — at no extra cost to you.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Shop</h4>
+        <nav>
+          <a href="{{site_url}}/en/electronics/">📱 Electronics</a>
+          <a href="{{site_url}}/en/smart-home/">🏠 Smart Home</a>
+          <a href="{{site_url}}/en/sport/">🏃 Sport</a>
+          <a href="{{site_url}}/en/gadgets/">🎮 Gadgets</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>Save</h4>
+        <nav>
+          <a href="{{site_url}}/en/flash-sale/">⚡ Flash Sale</a>
+          <a href="{{site_url}}/en/coupons/">🏷️ Coupons</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>Info</h4>
+        <nav>
+          <a href="{{site_url}}/en/blog/">📝 Blog</a>
+          <a href="{{site_url}}/en/about/">About</a>
+          <a href="{{site_url}}/en/contact/">Contact</a>
+          <a href="{{site_url}}/en/privacy/">Privacy</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+      </div>
     </div>
   </footer>
 

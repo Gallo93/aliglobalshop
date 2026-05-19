@@ -38,11 +38,26 @@
     </div>
   </header>
 
+  <div class="ticker" aria-hidden="true">
+    <span class="ticker__inner">
+      <span class="ticker__item">🔥 Deals updated every 6 hours</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">✅ Hand-picked — no dropshipping garbage</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">⚡ Flash sales — limited stock, ends soon</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">🏷️ Stack coupon codes with already-discounted prices</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">🌍 Free shipping to 100+ countries</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">🔥 Deals updated every 6 hours</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">✅ Hand-picked — no dropshipping garbage</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">⚡ Flash sales — limited stock, ends soon</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">🏷️ Stack coupon codes with already-discounted prices</span><span class="ticker__sep">◆</span>
+      <span class="ticker__item">🌍 Free shipping to 100+ countries</span><span class="ticker__sep">◆</span>
+    </span>
+  </div>
+
   <section class="hero" style="background-image: linear-gradient(135deg, rgba(22,33,62,0.88) 0%, rgba(26,26,46,0.82) 100%), url('{{site_url}}/assets/img/og-default.jpg');">
     <div class="hero__inner">
       <span class="hero__badge">✦ Updated daily</span>
-      <h1 class="hero__title">Find the best deals<br>on AliGlobalShop, updated daily</h1>
-      <p class="hero__sub">Top-rated products, live flash sales and working coupons.<br>All in one place. Always free.</p>
+      <h1 class="hero__title">The cleanest way<br>to shop AliExpress.</h1>
+      <p class="hero__sub">We read 40,000+ listings weekly so you don't have to.<br>Real markdowns, real ratings — no dropshipping garbage.</p>
       <div class="hero__ctas">
         <a class="btn-cta" href="{{site_url}}/en/flash-sale/">⚡ See today's flash deals</a>
         <a class="btn-cta btn-cta--ghost" href="{{site_url}}/en/electronics/">Browse products →</a>
@@ -60,10 +75,26 @@
     <section class="section--cats container" aria-labelledby="cats">
       <h2 id="cats" class="section__title" data-animate>Shop by category</h2>
       <div class="grid grid--cats" data-animate>
-        <a class="cat-card" href="{{site_url}}/en/electronics/"><span class="cat-card__icon">📱</span><span class="cat-card__label">Electronics</span></a>
-        <a class="cat-card" href="{{site_url}}/en/smart-home/"><span class="cat-card__icon">🏠</span><span class="cat-card__label">Smart Home</span></a>
-        <a class="cat-card" href="{{site_url}}/en/sport/"><span class="cat-card__icon">🏃</span><span class="cat-card__label">Sport</span></a>
-        <a class="cat-card" href="{{site_url}}/en/gadgets/"><span class="cat-card__icon">🎮</span><span class="cat-card__label">Gadgets</span></a>
+        <a class="cat-card cat-card--electronics" href="{{site_url}}/en/electronics/">
+          <span class="cat-card__icon">📱</span>
+          <span class="cat-card__label">Electronics</span>
+          <span class="cat-card__sub">Phones &amp; audio</span>
+        </a>
+        <a class="cat-card cat-card--smart-home" href="{{site_url}}/en/smart-home/">
+          <span class="cat-card__icon">🏠</span>
+          <span class="cat-card__label">Smart Home</span>
+          <span class="cat-card__sub">Lights · plugs · IoT</span>
+        </a>
+        <a class="cat-card cat-card--sport" href="{{site_url}}/en/sport/">
+          <span class="cat-card__icon">🏃</span>
+          <span class="cat-card__label">Sport</span>
+          <span class="cat-card__sub">Fitness &amp; outdoors</span>
+        </a>
+        <a class="cat-card cat-card--gadgets" href="{{site_url}}/en/gadgets/">
+          <span class="cat-card__icon">🎮</span>
+          <span class="cat-card__label">Gadgets</span>
+          <span class="cat-card__sub">Toys for the desk</span>
+        </a>
       </div>
     </section>
 
@@ -87,24 +118,76 @@
       </div>
     </section>
 
-    <section class="section--trust">
+    <section class="section--trust" aria-label="Why trust us">
       <div class="container trust-strip" data-animate>
-        <div class="trust-item">🔒 <span>Secure affiliate links</span></div>
-        <div class="trust-item">✅ <span>Hand-picked products</span></div>
-        <div class="trust-item">💸 <span>Best prices tracked</span></div>
-        <div class="trust-item">🌍 <span>Ships worldwide</span></div>
+        <div class="trust-tile">
+          <div class="trust-tile__icon">🔒</div>
+          <div class="trust-tile__body">
+            <strong>Secure checkout <span class="trust-tile__badge">SSL</span></strong>
+            <p>All purchases happen on AliExpress over HTTPS. We never touch your card.</p>
+          </div>
+        </div>
+        <div class="trust-tile">
+          <div class="trust-tile__icon">✅</div>
+          <div class="trust-tile__body">
+            <strong>Hand-picked deals <span class="trust-tile__badge">HUMAN</span></strong>
+            <p>Every listing is vetted by our editors. No dropshipping rebrands.</p>
+          </div>
+        </div>
+        <div class="trust-tile">
+          <div class="trust-tile__icon">💸</div>
+          <div class="trust-tile__body">
+            <strong>Best price guarantee <span class="trust-tile__badge">TRACKED</span></strong>
+            <p>We track 90-day price history and only post real markdowns.</p>
+          </div>
+        </div>
+        <div class="trust-tile">
+          <div class="trust-tile__icon">🌍</div>
+          <div class="trust-tile__body">
+            <strong>Ships worldwide <span class="trust-tile__badge">100+</span></strong>
+            <p>Free shipping in 100+ countries from AliExpress warehouses.</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="footer__inner">
-      <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
-      <nav class="footer__links">
-        <a href="{{site_url}}/en/about/">About</a>
-        <a href="{{site_url}}/en/contact/">Contact</a>
-        <a href="{{site_url}}/en/privacy/">Privacy</a>
-      </nav>
+    <div class="footer__cols container">
+      <div class="footer__brand">
+        <a href="{{site_url}}/en/"><strong>Ali<span>Global</span>Shop</strong></a>
+        <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy — at no extra cost to you.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Shop</h4>
+        <nav>
+          <a href="{{site_url}}/en/electronics/">📱 Electronics</a>
+          <a href="{{site_url}}/en/smart-home/">🏠 Smart Home</a>
+          <a href="{{site_url}}/en/sport/">🏃 Sport</a>
+          <a href="{{site_url}}/en/gadgets/">🎮 Gadgets</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>Save</h4>
+        <nav>
+          <a href="{{site_url}}/en/flash-sale/">⚡ Flash Sale</a>
+          <a href="{{site_url}}/en/coupons/">🏷️ Coupons</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>Info</h4>
+        <nav>
+          <a href="{{site_url}}/en/blog/">📝 Blog</a>
+          <a href="{{site_url}}/en/about/">About</a>
+          <a href="{{site_url}}/en/contact/">Contact</a>
+          <a href="{{site_url}}/en/privacy/">Privacy</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+      </div>
     </div>
   </footer>
 
