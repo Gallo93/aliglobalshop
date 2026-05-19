@@ -23,7 +23,7 @@ AFFILIATE_DISCLAIMER = (
     '<p class="article-disclaimer">'
     '<em>Affiliate disclosure: AliGlobalShop earns a commission on qualifying purchases '
     'made through links on this page, at no extra cost to you. '
-    'Prices and availability are subject to change — always check the product page for the current price. '
+    'Prices and availability are subject to change, always check the product page for the current price. '
     'This article is for informational purposes only and does not constitute professional advice.'
     '</em></p>'
 )
@@ -43,15 +43,16 @@ STRICT REQUIREMENTS:
 - slug: lowercase hyphens only, max 60 chars, ASCII, include primary keyword and year
 - lang: "en"
 - category: match the CATEGORY field above
+- NEVER use em-dashes (—). Use commas, colons, or rephrase instead.
 
 CONTENT STRUCTURE (use exactly this order):
-1. <h1> — same as title, includes primary keyword
-2. Intro paragraph (80-120 words) — hook + pain point + promise
-3. <h2> — must include a variation of the primary keyword "{primary_keyword}"
+1. <h1> matching title, includes primary keyword
+2. Intro paragraph (80-120 words): hook + pain point + promise
+3. <h2> must include a variation of the primary keyword "{primary_keyword}"
 4. 2-3 paragraphs (150-200 words each) with practical tips, comparisons, buying advice
 5. Include 1-2 internal links to the category page: <a href="{category_url}">browse all {category} deals</a>
-6. <h2>FAQ — includes primary keyword in heading text
-7. FAQ section: wrap in <div class="faq"> — use <details><summary>Question?</summary><p>Answer (2-3 sentences).</p></details> for EACH question. Minimum 3 questions.
+6. <h2>FAQ section that includes primary keyword in heading text
+7. FAQ section: wrap in <div class="faq"> and use <details><summary>Question?</summary><p>Answer (2-3 sentences).</p></details> for EACH question. Minimum 3 questions.
 8. <h2>Final Verdict (includes keyword)
 9. Conclusion paragraph (60-80 words)
 
@@ -59,11 +60,12 @@ SEO RULES:
 - Use primary keyword "{primary_keyword}" naturally 4-6 times in the body text
 - All <h2> headings must contain the primary keyword or a close variant
 - All external links to AliExpress must have rel="nofollow sponsored"
-- No keyword stuffing — write for humans first
+- No keyword stuffing. Write for humans first.
 - Use specific numbers, prices (in USD), and years ({year}) to increase CTR
 - Do NOT mention any competitor sites (Amazon, eBay, Temu, etc.)
+- NEVER use em-dashes (—) anywhere in title, meta_desc, or content_html. Use commas, colons, periods, or rephrase instead.
 
-OUTPUT FORMAT — respond ONLY with valid JSON (no markdown, no code fences):
+OUTPUT FORMAT: respond ONLY with valid JSON (no markdown, no code fences):
 {{
   "title": "...",
   "slug": "...",
@@ -142,13 +144,13 @@ def main() -> None:
     idx, topic = pick_next_topic(items)
 
     if topic is None:
-        print("[blog] all topics used — resetting calendar for next cycle.")
+        print("[blog] all topics used. Resetting calendar for next cycle.")
         items = reset_calendar(items)
         save_calendar(items)
         idx, topic = pick_next_topic(items)
 
     if topic is None:
-        print("[blog] calendar is empty — nothing to do.", file=sys.stderr)
+        print("[blog] calendar is empty, nothing to do.", file=sys.stderr)
         sys.exit(1)
 
     current_year = date.today().year
@@ -191,7 +193,7 @@ def main() -> None:
     items[idx]["used"] = True
     items[idx]["used_at"] = today
     save_calendar(items)
-    print(f"[blog] calendar updated — marked topic #{idx} as used.")
+    print(f"[blog] calendar updated. Marked topic #{idx} as used.")
 
 
 if __name__ == "__main__":
