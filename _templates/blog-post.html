@@ -42,22 +42,27 @@
     <span aria-current="page">{{title_short}}</span>
   </nav>
 
-  <div class="article-hero">
+  <!-- full-width article hero -->
+  <div class="article-hero" data-particles="ink">
     <div class="article-hero__inner">
-      <img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="140" height="28" loading="eager">
-      <span class="article-hero__tag">{{category_name}}</span>
+      <a class="article-hero__cat" href="{{site_url}}/en/{{category_slug}}/">{{category_name}}</a>
+      <h1 class="article-hero__title">{{title}}</h1>
+      <p class="article-hero__meta">
+        <time datetime="{{date}}">{{date}}</time>
+        &middot; {{reading_time_min}} min read
+      </p>
     </div>
   </div>
 
-  <main class="container">
-    <article class="article" data-particles="ink">
-      <h1 class="article__title">{{title}}</h1>
-      <p class="article__meta"><time datetime="{{date}}">{{date}}</time> &middot; {{reading_time_min}} min read &middot; <a href="{{site_url}}/en/{{category_slug}}/">{{category_name}}</a></p>
-      <div class="article__body">
+  <main>
+    <!-- reading column 740px -->
+    <div class="article-wrapper">
+      <div class="article__content">
         {{content_html}}
       </div>
-    </article>
+    </div>
 
+    <!-- full-width related products -->
     {{related_products_section}}
   </main>
 
