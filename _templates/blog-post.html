@@ -42,13 +42,17 @@
     <span aria-current="page">{{title_short}}</span>
   </nav>
 
-  <main class="container article">
-    <article>
-      <header class="article__header">
-        <h1 class="article__title">{{title}}</h1>
-        <p class="article__meta"><time datetime="{{date}}">{{date}}</time> &middot; {{reading_time_min}} min read &middot; <a href="{{site_url}}/en/{{category_slug}}/">{{category_name}}</a></p>
-        <img class="article__hero" src="{{og_image}}" alt="{{title}}" width="1200" height="400" loading="eager" onerror="this.style.display='none'">
-      </header>
+  <div class="article-hero">
+    <div class="article-hero__inner">
+      <img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="140" height="28" loading="eager">
+      <span class="article-hero__tag">{{category_name}}</span>
+    </div>
+  </div>
+
+  <main class="container">
+    <article class="article">
+      <h1 class="article__title">{{title}}</h1>
+      <p class="article__meta"><time datetime="{{date}}">{{date}}</time> &middot; {{reading_time_min}} min read &middot; <a href="{{site_url}}/en/{{category_slug}}/">{{category_name}}</a></p>
       <div class="article__body">
         {{content_html}}
       </div>

@@ -123,6 +123,30 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
   opacity: 0.9;
 }
 
+/* === ARTICLE HERO BANNER === */
+.article-hero {
+  background: linear-gradient(135deg, var(--dark-3) 0%, var(--dark-2) 100%);
+  padding: 1.5rem 1rem;
+}
+.article-hero__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.article-hero__tag {
+  display: inline-block;
+  background: var(--orange);
+  color: var(--white);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 4px;
+}
+
 /* === BUTTONS === */
 .btn-cta {
   display: inline-block;
@@ -445,13 +469,79 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
 .faq details p { margin: 0 0.5rem 0.85rem; color: var(--gray); }
 
 /* === ARTICLE === */
-.article__title { font-size: 2rem; margin: 1rem 0 0.5rem; }
-.article__meta { color: var(--gray); font-size: 0.9rem; margin-bottom: 1.5rem; }
-.article__body { font-size: 1.05rem; line-height: 1.7; max-width: 720px; }
-.article__body h2 { font-size: 1.5rem; margin: 2rem 0 0.75rem; }
-.article__body h3 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem; }
-.article__body p { margin: 0 0 1rem; }
+.article {
+  padding: 1.5rem 0 3rem;
+}
+.article__title {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
+  line-height: 1.2;
+}
+.article__meta {
+  color: var(--gray);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--gray-lighter);
+}
+.article__body {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+.article__body h2 {
+  font-size: 1.5rem;
+  margin: 2.5rem 0 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--gray-lighter);
+}
+.article__body h3 { font-size: 1.2rem; margin: 1.75rem 0 0.5rem; }
+.article__body p { margin: 0 0 1.1rem; }
+.article__body ul, .article__body ol { padding-left: 1.5rem; margin: 0 0 1rem; }
+.article__body li { margin-bottom: 0.4rem; }
+.article__body strong { color: var(--dark); }
 .article__body img { border-radius: var(--radius-sm); margin: 1rem 0; }
+.article-disclaimer {
+  margin-top: 2.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--light-2);
+  border-left: 3px solid var(--gray-lighter);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.85rem;
+  color: var(--gray);
+  line-height: 1.5;
+}
+
+/* === RELATED PRODUCTS (blog) === */
+.related-products {
+  margin: 3rem 0 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--gray-lighter);
+}
+.related-products__title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--orange);
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.product-grid .product-card img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.product-grid .product-card__title { font-size: 0.8rem; }
+.product-grid .product-card__price { font-size: 1rem; }
+.product-grid .product-card .btn-cta { font-size: 0.8rem; padding: 0.5rem; }
+.related-products__cta {
+  text-align: center;
+  margin-top: 1rem;
+}
+.related-products__cta .btn-cta { font-size: 0.95rem; }
 
 /* === FOOTER === */
 .footer {
@@ -483,6 +573,7 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
   .section__title { font-size: 1.25rem; margin: 2rem 0 1rem; }
   .nav__links { gap: 0.15rem 0.5rem; width: 100%; justify-content: flex-start; overflow-x: auto; }
   .nav__links a { font-size: 0.85rem; padding: 0.35rem 0.4rem; white-space: nowrap; }
+  .article__title { font-size: 1.6rem; }
 }
 
 @media (max-width: 600px) {
@@ -492,11 +583,13 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
   .product__title { font-size: 1.35rem; }
   .product__price .price { font-size: 1.45rem; }
   .footer__inner { flex-direction: column; text-align: center; }
+  .product-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 420px) {
   .grid--products { grid-template-columns: 1fr; }
   .grid--cats { grid-template-columns: 1fr; }
+  .product-grid { grid-template-columns: 1fr 1fr; }
 }
 
 /* === COOKIE BANNER === */
