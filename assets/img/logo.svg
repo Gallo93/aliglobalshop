@@ -4,5 +4,5 @@
   <line x1="6" y1="22" x2="38" y2="22" stroke="#e44d26" stroke-width="2"/>
   <line x1="9" y1="14" x2="35" y2="14" stroke="#e44d26" stroke-width="1.5"/>
   <line x1="9" y1="30" x2="35" y2="30" stroke="#e44d26" stroke-width="1.5"/>
-  <text x="50" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#1a1a1a">AliGlobal<tspan fill="#e44d26">Shop</tspan></text>
+  <text x="50" y="28" font-family="system-ui,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#ffffff">AliGlobal<tspan fill="#e44d26">Shop</tspan></text>
 </svg>
