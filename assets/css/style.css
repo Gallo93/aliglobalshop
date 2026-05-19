@@ -582,7 +582,7 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
 @media (max-width: 420px) {
   .grid--products { grid-template-columns: 1fr; }
   .grid--cats { grid-template-columns: 1fr; }
-  .product-grid { grid-template-columns: 1fr 1fr; }
+  .product-grid { grid-template-columns: 1fr; }
 }
 
 /* === COOKIE BANNER === */
