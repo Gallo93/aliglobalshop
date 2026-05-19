@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{site_title}} — Best AliExpress Deals, Coupons & Flash Sales</title>
+  <meta name="description" content="{{site_description}}">
+  <link rel="canonical" href="{{site_url}}/en/">
+  <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
+  <link rel="preconnect" href="https://res.cloudinary.com">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{site_title}}","url":"{{site_url}}/en/","inLanguage":"en","potentialAction":{"@type":"SearchAction","target":"{{site_url}}/en/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"{{site_title}}","url":"{{site_url}}/en/","logo":"{{site_url}}/assets/img/logo.png"}</script>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="{{site_url}}/en/">{{site_title}}</a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="{{site_url}}/en/electronics/">Electronics</a>
+        <a href="{{site_url}}/en/smart-home/">Smart Home</a>
+        <a href="{{site_url}}/en/sport/">Sport</a>
+        <a href="{{site_url}}/en/gadgets/">Gadgets</a>
+        <a href="{{site_url}}/en/flash-sale/">Flash Sale</a>
+        <a href="{{site_url}}/en/coupons/">Coupons</a>
+        <a href="{{site_url}}/en/blog/">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title">Curated AliExpress deals, updated every day</h1>
+      <p class="hero__sub">Top-rated products, live flash sales and working coupons — all in one place.</p>
+      <a class="btn-cta" href="{{site_url}}/en/flash-sale/">See today's flash deals →</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section aria-labelledby="cats">
+      <h2 id="cats" class="section__title">Browse by category</h2>
+      <div class="grid grid--cats">
+        <a class="cat-card" href="{{site_url}}/en/electronics/"><span>Electronics</span></a>
+        <a class="cat-card" href="{{site_url}}/en/smart-home/"><span>Smart Home</span></a>
+        <a class="cat-card" href="{{site_url}}/en/sport/"><span>Sport</span></a>
+        <a class="cat-card" href="{{site_url}}/en/gadgets/"><span>Gadgets</span></a>
+      </div>
+    </section>
+
+    <section aria-labelledby="flash">
+      <h2 id="flash" class="section__title">Flash Sale — ending soon</h2>
+      <div class="grid grid--products">
+        {{flash_preview_html}}
+      </div>
+      <p class="see-more"><a href="{{site_url}}/en/flash-sale/">See all flash deals →</a></p>
+    </section>
+
+    <section aria-labelledby="blog">
+      <h2 id="blog" class="section__title">Latest from the blog</h2>
+      <div class="grid grid--posts">
+        {{blog_preview_html}}
+      </div>
+      <p class="see-more"><a href="{{site_url}}/en/blog/">All articles →</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+      <nav class="footer__links">
+        <a href="{{site_url}}/en/about/">About</a>
+        <a href="{{site_url}}/en/contact/">Contact</a>
+        <a href="{{site_url}}/en/privacy/">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script defer src="{{site_url}}/assets/js/countdown.js"></script>
+</body>
+</html>

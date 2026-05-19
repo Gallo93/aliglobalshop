@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{category_name}} Deals on AliExpress | {{site_title}}</title>
+  <meta name="description" content="Top {{category_name}} deals on AliExpress, hand-picked and updated daily. Verified prices, ratings and coupons.">
+  <link rel="canonical" href="{{site_url}}/en/{{category_slug}}/">
+  <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
+  <link rel="preconnect" href="https://res.cloudinary.com">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{site_url}}/en/"},{"@type":"ListItem","position":2,"name":"{{category_name}}","item":"{{site_url}}/en/{{category_slug}}/"}]}</script>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="{{site_url}}/en/">{{site_title}}</a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="{{site_url}}/en/electronics/">Electronics</a>
+        <a href="{{site_url}}/en/smart-home/">Smart Home</a>
+        <a href="{{site_url}}/en/sport/">Sport</a>
+        <a href="{{site_url}}/en/gadgets/">Gadgets</a>
+        <a href="{{site_url}}/en/flash-sale/">Flash Sale</a>
+        <a href="{{site_url}}/en/coupons/">Coupons</a>
+        <a href="{{site_url}}/en/blog/">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{site_url}}/en/">Home</a> <span>/</span> <span aria-current="page">{{category_name}}</span>
+  </nav>
+
+  <main class="container">
+    <h1 class="page__title">{{category_name}} deals</h1>
+    <p class="page__lede">Updated {{updated_at}} · {{products_count}} products</p>
+    <div class="grid grid--products">
+      {{products_html}}
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+    </div>
+  </footer>
+
+  <script defer src="{{site_url}}/assets/js/countdown.js"></script>
+</body>
+</html>
