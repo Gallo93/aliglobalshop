@@ -1,6 +1,7 @@
 """Generate one SEO blog article via Anthropic API and save JSON in _data/blog/en/.
 
 Reads next unused topic from _data/blog-calendar-en.json, marks it used after success.
+When all topics are used, resets the calendar and starts over.
 """
 import json
 import os
@@ -18,21 +19,43 @@ CALENDAR_PATH = BASE_DIR / "_data" / "blog-calendar-en.json"
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514")
 
-PROMPT = """You are an expert SEO copywriter for aliglobalshop.com.
+AFFILIATE_DISCLAIMER = (
+    '<p class="article-disclaimer">'
+    '<em>Affiliate disclosure: AliGlobalShop earns a commission on qualifying purchases '
+    'made through links on this page, at no extra cost to you. '
+    'Prices and availability are subject to change — always check the product page for the current price. '
+    'This article is for informational purposes only and does not constitute professional advice.'
+    '</em></p>'
+)
+
+PROMPT = """You are an expert SEO copywriter for aliglobalshop.com, an AliExpress affiliate site.
 KEYWORD TARGET: {primary_keyword}
 SEARCH INTENT: {intent}
 TONE: Friendly, practical, authoritative. Not salesy.
-Write an article of 900-1200 words with:
-- SEO Title (max 60 chars)
-- Meta Description (max 155 chars)
-- Intro answering the question immediately
-- 3-5 H2 sections
-- FAQ (3-5 Q&A)
-- Soft CTA at end
-OUTPUT JSON only: {{"title":"...","meta_desc":"...","slug":"...","content_html":"...","tags":[...],"category":"{category}","reading_time_min":N}}
-The slug must be lowercase, hyphen-separated, max 60 chars, ASCII only.
-The content_html must be valid HTML using <h2>, <h3>, <p>, <ul>, <ol>, <li>, <strong>, <em> only.
-Return only the JSON object — no markdown fences, no commentary.
+
+Write an article of 900-1200 words following these rules:
+- Intro that answers the question immediately (no vague preamble)
+- 3-5 H2 sections with practical tips or comparisons
+- FAQ section with 3-5 Q&A
+- Soft CTA at the end pointing readers to the relevant category on the site
+
+STRICT CONTENT RULES — violations will cause rejection:
+- NO invented statistics or percentages (e.g. "burns 40% more calories", "99% of users agree")
+- NO medical or health claims (e.g. "improves sleep", "reduces joint pain", "boosts metabolism")
+- NO specific price claims in the article body (prices change daily)
+- NO fabricated user reviews or testimonials
+- NO superlatives without factual backing ("world's best", "#1 rated")
+- Keep claims conservative and verifiable
+
+OUTPUT JSON only (no markdown fences, no commentary):
+{{"title":"...","meta_desc":"...","slug":"...","content_html":"...","tags":[...],"category":"{category}","reading_time_min":N}}
+
+Rules for output fields:
+- title: max 60 chars, includes primary keyword
+- meta_desc: max 155 chars, actionable
+- slug: lowercase, hyphen-separated, max 60 chars, ASCII only
+- content_html: valid HTML using only <h2> <h3> <p> <ul> <ol> <li> <strong> <em> tags
+- reading_time_min: integer (words / 200)
 """
 
 
@@ -54,6 +77,14 @@ def pick_next_topic(items: list):
         if not item.get("used"):
             return i, item
     return None, None
+
+
+def reset_calendar(items: list) -> list:
+    """Mark all topics unused so the cycle restarts."""
+    for item in items:
+        item["used"] = False
+        item.pop("used_at", None)
+    return items
 
 
 def strip_code_fences(text: str) -> str:
@@ -93,9 +124,16 @@ def slugify(text: str, limit: int = 60) -> str:
 def main() -> None:
     items = load_calendar()
     idx, topic = pick_next_topic(items)
+
     if topic is None:
-        print("[blog] no unused topics left in calendar — nothing to do.")
-        return
+        print("[blog] all topics used — resetting calendar for next cycle.")
+        items = reset_calendar(items)
+        save_calendar(items)
+        idx, topic = pick_next_topic(items)
+
+    if topic is None:
+        print("[blog] calendar is empty — nothing to do.", file=sys.stderr)
+        sys.exit(1)
 
     print(f"[blog] generating article for: {topic['topic']}")
     prompt = PROMPT.format(
@@ -112,6 +150,10 @@ def main() -> None:
         print(f"[blog] invalid JSON from API: {exc}", file=sys.stderr)
         print(raw[:500], file=sys.stderr)
         sys.exit(4)
+
+    # Append affiliate disclaimer to content
+    content = article.get("content_html", "")
+    article["content_html"] = content + "\n" + AFFILIATE_DISCLAIMER
 
     today = date.today().isoformat()
     slug = slugify(article.get("slug") or article.get("title", ""))
