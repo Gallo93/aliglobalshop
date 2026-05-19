@@ -41,6 +41,9 @@ BLACKLIST_PATTERNS = [re.compile(p, re.I) for p in [
     r"\bcar\b", r"\btruck\b", r"\brv\b", r"\bcamper\b", r"\bmotorcycle\b",
     r"\bautomotive\b", r"\bforklift\b", r"\bindustrial\b", r"\bboiler\b",
     r"\bsteel\b", r"\bgalvalume\b", r"\bcoil\b",
+    r"\bswimsuit\b", r"\bswimwear\b", r"\bbikini\b", r"\bdress\b",
+    r"\bskirt\b", r"\bjewelry\b", r"\bjewellery\b", r"\bnecklace\b",
+    r"\bbracelet\b", r"\bearring\b", r"\bwig\b", r"\bfashion\b",
 ]]
 
 cloudinary.config(
