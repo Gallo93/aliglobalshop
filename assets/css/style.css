@@ -80,7 +80,7 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
   font-weight: 800;
   font-size: 1.1rem;
 }
-.nav__logo img { display: block; height: 32px; width: auto; }
+.nav__logo img { display: block; height: 40px; width: auto; }
 .nav__links {
   display: flex;
   flex-wrap: wrap;
@@ -539,7 +539,7 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
   font-size: 1.25rem;
   font-weight: 700;
 }
-.faq details[open] summary::after { content: '−'; }
+.faq details[open] summary::after { content: '\2212'; }
 .faq details p { margin: 0 0.5rem 0.85rem; color: var(--gray); }
 
 /* === ARTICLE === */
