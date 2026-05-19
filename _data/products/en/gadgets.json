@@ -1,36 +1,21 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-05-19T05:07:14Z",
+  "updated_at": "2026-05-19T09:41:04Z",
   "products": [
     {
-      "product_id": "1005011964033651",
-      "title": "Disney Princess Snow White Painting Case For iPhone 17 16 15 14 13 12 11 Pro Max Plus Cover For iPhone 17 Pro 17E Air 16e Funda",
-      "slug": "disney-princess-snow-white-painting-case-for-iphone-17-16-15",
-      "price": "4.31",
-      "original_price": "4.38",
-      "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011964033651.html?pdp_npi=6%40dis%21USD%214.38%214.31%21%21%2129.64%2129.19%21%4021013cc017791672240915907e10fe%2112000057143949709%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130359/products/1005011964033651.webp",
-      "category": "gadgets",
-      "rating": 4.0,
-      "reviews_count": 9,
-      "fetched_at": "2026-05-19T05:07:04Z",
-      "updated_at": "2026-05-19T05:07:04Z"
-    },
-    {
-      "product_id": "1005010361342879",
-      "title": "Simple Pink Vertical Striped Lichee Pattern Phone Case For iPhone 17 16 15 14 13 12 11 Pro Max XS XR X 16E 16 Plus 17 Air Cover",
-      "slug": "simple-pink-vertical-striped-lichee-pattern-phone-case-for-i",
-      "price": "3.08",
-      "original_price": "3.26",
+      "product_id": "1005009913559339",
+      "title": "Butterfly Leopard Print Phone Case For iPhone 17 16 14 13 11 12 15 Pro Max Air 16E 8 7 Plus XR SE Tempered Glass Silicone Cover ",
+      "slug": "butterfly-leopard-print-phone-case-for-iphone-17-16-14-13-11",
+      "price": "5.45",
+      "original_price": "5.74",
       "discount_pct": 5,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010361342879.html?pdp_npi=6%40dis%21USD%213.26%213.08%21%21%213.26%213.08%21%4021013cc017791672240915907e10fe%2112000052131157007%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779167225/products/1005010361342879.webp",
+      "affiliate_url": "https://www.aliexpress.com/item/1005009913559339.html?pdp_npi=6%40dis%21USD%215.74%215.45%21%21%215.74%215.45%21%40212a7b8d17791836550915512e0ecf%2112000050559484175%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130361/products/1005009913559339.webp",
       "category": "gadgets",
-      "rating": 4.8,
-      "reviews_count": 753,
-      "fetched_at": "2026-05-19T05:07:05Z",
-      "updated_at": "2026-05-19T05:07:05Z"
+      "rating": 4.6,
+      "reviews_count": 91,
+      "fetched_at": "2026-05-19T09:40:56Z",
+      "updated_at": "2026-05-19T09:40:56Z"
     },
     {
       "product_id": "1005011967633785",
@@ -39,13 +24,28 @@
       "price": "4.33",
       "original_price": "4.40",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011967633785.html?pdp_npi=6%40dis%21USD%214.40%214.33%21%21%2129.74%2129.29%21%4021013cc017791672240915907e10fe%2112000057157139712%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011967633785.html?pdp_npi=6%40dis%21USD%214.40%214.33%21%21%2129.74%2129.29%21%40212a7b8d17791836550915512e0ecf%2112000057157139712%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779134713/products/1005011967633785.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 3,
-      "fetched_at": "2026-05-19T05:07:06Z",
-      "updated_at": "2026-05-19T05:07:06Z"
+      "fetched_at": "2026-05-19T09:40:56Z",
+      "updated_at": "2026-05-19T09:40:56Z"
+    },
+    {
+      "product_id": "1005011860730622",
+      "title": "Luxury One P-Piece Luffy Art For Apple iPhone 17 16 15 14 13 12 XR XS X Pro Max Plus Liquid Left Rope Soft Phone Case",
+      "slug": "luxury-one-p-piece-luffy-art-for-apple-iphone-17-16-15-14-13",
+      "price": "4.15",
+      "original_price": "4.15",
+      "discount_pct": 0,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011860730622.html?pdp_npi=6%40dis%21USD%214.15%214.15%21%21%214.15%214.15%21%40212a7b8d17791836550915512e0ecf%2112000056799605345%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130362/products/1005011860730622.webp",
+      "category": "gadgets",
+      "rating": 0.0,
+      "reviews_count": 2,
+      "fetched_at": "2026-05-19T09:40:57Z",
+      "updated_at": "2026-05-19T09:40:57Z"
     },
     {
       "product_id": "1005010705269087",
@@ -54,13 +54,13 @@
       "price": "2.30",
       "original_price": "4.60",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010705269087.html?pdp_npi=6%40dis%21USD%214.60%212.30%21%21%2131.13%2115.56%21%4021013cc017791672240915907e10fe%2112000053248206922%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010705269087.html?pdp_npi=6%40dis%21USD%214.60%212.30%21%21%2131.13%2115.56%21%40212a7b8d17791836550915512e0ecf%2112000053248206922%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130363/products/1005010705269087.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 3,
-      "fetched_at": "2026-05-19T05:07:06Z",
-      "updated_at": "2026-05-19T05:07:06Z"
+      "fetched_at": "2026-05-19T09:40:57Z",
+      "updated_at": "2026-05-19T09:40:57Z"
     },
     {
       "product_id": "1005010123336558",
@@ -69,13 +69,13 @@
       "price": "3.03",
       "original_price": "3.21",
       "discount_pct": 5,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010123336558.html?pdp_npi=6%40dis%21USD%213.21%213.03%21%21%213.21%213.03%21%4021013cc017791672240915907e10fe%2112000051220762883%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010123336558.html?pdp_npi=6%40dis%21USD%213.21%213.03%21%21%213.21%213.03%21%40212a7b8d17791836550915512e0ecf%2112000051220762883%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130365/products/1005010123336558.webp",
       "category": "gadgets",
       "rating": 4.8,
       "reviews_count": 27,
-      "fetched_at": "2026-05-19T05:07:07Z",
-      "updated_at": "2026-05-19T05:07:07Z"
+      "fetched_at": "2026-05-19T09:40:58Z",
+      "updated_at": "2026-05-19T09:40:58Z"
     },
     {
       "product_id": "1005009940067199",
@@ -84,13 +84,13 @@
       "price": "4.42",
       "original_price": "4.42",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009940067199.html?pdp_npi=6%40dis%21USD%214.42%214.42%21%21%214.42%214.42%21%4021013cc017791672240915907e10fe%2112000050632632350%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005009940067199.html?pdp_npi=6%40dis%21USD%214.42%214.42%21%21%214.42%214.42%21%40212a7b8d17791836550915512e0ecf%2112000050632632350%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130272/products/1005009940067199.webp",
       "category": "gadgets",
       "rating": 5.0,
       "reviews_count": 12,
-      "fetched_at": "2026-05-19T05:07:07Z",
-      "updated_at": "2026-05-19T05:07:07Z"
+      "fetched_at": "2026-05-19T09:40:58Z",
+      "updated_at": "2026-05-19T09:40:58Z"
     },
     {
       "product_id": "1005009783361604",
@@ -99,28 +99,28 @@
       "price": "3.03",
       "original_price": "3.21",
       "discount_pct": 5,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009783361604.html?pdp_npi=6%40dis%21USD%213.21%213.03%21%21%213.21%213.03%21%4021013cc017791672240915907e10fe%2112000050144227871%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005009783361604.html?pdp_npi=6%40dis%21USD%213.21%213.03%21%21%213.21%213.03%21%40212a7b8d17791836550915512e0ecf%2112000050144227871%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779134756/products/1005009783361604.webp",
       "category": "gadgets",
       "rating": 5.0,
       "reviews_count": 94,
-      "fetched_at": "2026-05-19T05:07:07Z",
-      "updated_at": "2026-05-19T05:07:07Z"
+      "fetched_at": "2026-05-19T09:40:58Z",
+      "updated_at": "2026-05-19T09:40:58Z"
     },
     {
-      "product_id": "1005011830021913",
-      "title": "Trendy Daisy Bee Floral Clear Phone Case for iPhone 17 16 Pro Max 15 Pro 14 13 12 11 17Air 16E X XR XS 7 8 Plus Shockproof Cover",
-      "slug": "trendy-daisy-bee-floral-clear-phone-case-for-iphone-17-16-pr",
-      "price": "3.35",
-      "original_price": "3.37",
+      "product_id": "1005010217235130",
+      "title": "For Wireless Charging Magnetic Phone Case for iPhone 17 13 12 14 15 16 Pro Max 11 16E 16 Plus 17 Air With Black Love Heart Cover",
+      "slug": "for-wireless-charging-magnetic-phone-case-for-iphone-17-13-1",
+      "price": "3.50",
+      "original_price": "3.53",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011830021913.html?pdp_npi=6%40dis%21USD%213.37%213.35%21%21%213.37%213.35%21%4021013cc017791672240915907e10fe%2112000056724864954%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130368/products/1005011830021913.webp",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010217235130.html?pdp_npi=6%40dis%21USD%213.53%213.50%21%21%213.53%213.50%21%40212a7b8d17791836550915512e0ecf%2112000051560052102%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779183659/products/1005010217235130.webp",
       "category": "gadgets",
-      "rating": 0.0,
-      "reviews_count": 5,
-      "fetched_at": "2026-05-19T05:07:08Z",
-      "updated_at": "2026-05-19T05:07:08Z"
+      "rating": 4.5,
+      "reviews_count": 202,
+      "fetched_at": "2026-05-19T09:40:59Z",
+      "updated_at": "2026-05-19T09:40:59Z"
     },
     {
       "product_id": "1005011862854417",
@@ -129,13 +129,13 @@
       "price": "4.21",
       "original_price": "4.21",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011862854417.html?pdp_npi=6%40dis%21USD%214.21%214.21%21%21%214.21%214.21%21%4021013cc017791672240915907e10fe%2112000056804537768%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011862854417.html?pdp_npi=6%40dis%21USD%214.21%214.21%21%21%214.21%214.21%21%40212a7b8d17791836550915512e0ecf%2112000056804537768%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130369/products/1005011862854417.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 1,
-      "fetched_at": "2026-05-19T05:07:09Z",
-      "updated_at": "2026-05-19T05:07:09Z"
+      "fetched_at": "2026-05-19T09:40:59Z",
+      "updated_at": "2026-05-19T09:40:59Z"
     },
     {
       "product_id": "1005012080108709",
@@ -144,13 +144,13 @@
       "price": "4.20",
       "original_price": "4.27",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012080108709.html?pdp_npi=6%40dis%21USD%214.27%214.20%21%21%2128.86%2128.42%21%4021013cc017791672240915907e10fe%2112000057471098690%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012080108709.html?pdp_npi=6%40dis%21USD%214.27%214.20%21%21%2128.86%2128.42%21%40212a7b8d17791836550915512e0ecf%2112000057471098690%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130370/products/1005012080108709.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 7,
-      "fetched_at": "2026-05-19T05:07:09Z",
-      "updated_at": "2026-05-19T05:07:09Z"
+      "fetched_at": "2026-05-19T09:41:00Z",
+      "updated_at": "2026-05-19T09:41:00Z"
     },
     {
       "product_id": "1005010528491784",
@@ -159,13 +159,28 @@
       "price": "2.71",
       "original_price": "2.87",
       "discount_pct": 5,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010528491784.html?pdp_npi=6%40dis%21USD%212.87%212.71%21%21%212.87%212.71%21%4021013cc017791672240915907e10fe%2112000052708112540%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010528491784.html?pdp_npi=6%40dis%21USD%212.87%212.71%21%21%212.87%212.71%21%40212a7b8d17791836550915512e0ecf%2112000052708112540%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130371/products/1005010528491784.webp",
       "category": "gadgets",
       "rating": 4.3,
-      "reviews_count": 73,
-      "fetched_at": "2026-05-19T05:07:10Z",
-      "updated_at": "2026-05-19T05:07:10Z"
+      "reviews_count": 74,
+      "fetched_at": "2026-05-19T09:41:00Z",
+      "updated_at": "2026-05-19T09:41:00Z"
+    },
+    {
+      "product_id": "1005012008231043",
+      "title": "The B-Batmans Art Phone Case For iPhone 17E 11 12 13 14 15 16 17 Pro Max Fundas 17 Air 15 Plus 16e 13 Mini Silicone Back Cover",
+      "slug": "the-b-batmans-art-phone-case-for-iphone-17e-11-12-13-14-15-1",
+      "price": "4.34",
+      "original_price": "4.40",
+      "discount_pct": 1,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012008231043.html?pdp_npi=6%40dis%21USD%214.40%214.34%21%21%2129.73%2129.30%21%40212a7b8d17791836550915512e0ecf%2112000057264851006%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130372/products/1005012008231043.webp",
+      "category": "gadgets",
+      "rating": 5.0,
+      "reviews_count": 4,
+      "fetched_at": "2026-05-19T09:41:01Z",
+      "updated_at": "2026-05-19T09:41:01Z"
     },
     {
       "product_id": "1005011874672402",
@@ -174,13 +189,13 @@
       "price": "5.02",
       "original_price": "5.02",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011874672402.html?pdp_npi=6%40dis%21USD%215.02%215.02%21%21%2133.95%2133.95%21%4021013cc017791672240915907e10fe%2112000056838525032%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011874672402.html?pdp_npi=6%40dis%21USD%215.02%215.02%21%21%2133.95%2133.95%21%40212a7b8d17791836550915512e0ecf%2112000056838525032%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130373/products/1005011874672402.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 6,
-      "fetched_at": "2026-05-19T05:07:10Z",
-      "updated_at": "2026-05-19T05:07:10Z"
+      "fetched_at": "2026-05-19T09:41:01Z",
+      "updated_at": "2026-05-19T09:41:01Z"
     },
     {
       "product_id": "1005012140444763",
@@ -189,13 +204,13 @@
       "price": "12.21",
       "original_price": "19.08",
       "discount_pct": 36,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012140444763.html?pdp_npi=6%40dis%21USD%2119.08%2112.21%21%21%21129.00%2182.56%21%4021013cc017791672240915907e10fe%2112000057665004956%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012140444763.html?pdp_npi=6%40dis%21USD%2119.08%2112.21%21%21%21129.00%2182.56%21%40212a7b8d17791836550915512e0ecf%2112000057665004956%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130375/products/1005012140444763.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 0,
-      "fetched_at": "2026-05-19T05:07:10Z",
-      "updated_at": "2026-05-19T05:07:10Z"
+      "fetched_at": "2026-05-19T09:41:01Z",
+      "updated_at": "2026-05-19T09:41:01Z"
     },
     {
       "product_id": "1005012094141893",
@@ -204,13 +219,13 @@
       "price": "4.28",
       "original_price": "4.35",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012094141893.html?pdp_npi=6%40dis%21USD%214.35%214.28%21%21%2129.41%2128.97%21%4021013cc017791672240915907e10fe%2112000057496305321%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012094141893.html?pdp_npi=6%40dis%21USD%214.35%214.28%21%21%2129.41%2128.97%21%40212a7b8d17791836550915512e0ecf%2112000057496305321%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130286/products/1005012094141893.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 2,
-      "fetched_at": "2026-05-19T05:07:11Z",
-      "updated_at": "2026-05-19T05:07:11Z"
+      "fetched_at": "2026-05-19T09:41:02Z",
+      "updated_at": "2026-05-19T09:41:02Z"
     },
     {
       "product_id": "1005011871611939",
@@ -219,13 +234,13 @@
       "price": "5.35",
       "original_price": "5.35",
       "discount_pct": 0,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011871611939.html?pdp_npi=6%40dis%21USD%215.35%215.35%21%21%2136.18%2136.18%21%4021013cc017791672240915907e10fe%2112000056844808466%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011871611939.html?pdp_npi=6%40dis%21USD%215.35%215.35%21%21%2136.18%2136.18%21%40212a7b8d17791836550915512e0ecf%2112000056844808466%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130287/products/1005011871611939.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 1,
-      "fetched_at": "2026-05-19T05:07:11Z",
-      "updated_at": "2026-05-19T05:07:11Z"
+      "fetched_at": "2026-05-19T09:41:02Z",
+      "updated_at": "2026-05-19T09:41:02Z"
     },
     {
       "product_id": "1005011957889706",
@@ -234,13 +249,13 @@
       "price": "4.31",
       "original_price": "4.38",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011957889706.html?pdp_npi=6%40dis%21USD%214.38%214.31%21%21%2129.64%2129.19%21%4021013cc017791672240915907e10fe%2112000057140020451%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011957889706.html?pdp_npi=6%40dis%21USD%214.38%214.31%21%21%2129.64%2129.19%21%40212a7b8d17791836550915512e0ecf%2112000057140020451%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130288/products/1005011957889706.webp",
       "category": "gadgets",
       "rating": 5.0,
       "reviews_count": 6,
-      "fetched_at": "2026-05-19T05:07:11Z",
-      "updated_at": "2026-05-19T05:07:11Z"
+      "fetched_at": "2026-05-19T09:41:02Z",
+      "updated_at": "2026-05-19T09:41:02Z"
     },
     {
       "product_id": "1005011967204447",
@@ -249,13 +264,13 @@
       "price": "4.33",
       "original_price": "4.40",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011967204447.html?pdp_npi=6%40dis%21USD%214.40%214.33%21%21%2129.74%2129.29%21%4021013cc017791672240915907e10fe%2112000057144471716%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011967204447.html?pdp_npi=6%40dis%21USD%214.40%214.33%21%21%2129.74%2129.29%21%40212a7b8d17791836550915512e0ecf%2112000057144471716%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779167232/products/1005011967204447.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 5,
-      "fetched_at": "2026-05-19T05:07:12Z",
-      "updated_at": "2026-05-19T05:07:12Z"
+      "fetched_at": "2026-05-19T09:41:03Z",
+      "updated_at": "2026-05-19T09:41:03Z"
     },
     {
       "product_id": "1005011958713016",
@@ -264,13 +279,13 @@
       "price": "4.42",
       "original_price": "4.49",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011958713016.html?pdp_npi=6%40dis%21USD%214.49%214.42%21%21%2130.35%2129.89%21%4021013cc017791672240915907e10fe%2112000057142674192%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011958713016.html?pdp_npi=6%40dis%21USD%214.49%214.42%21%21%2130.35%2129.89%21%40212a7b8d17791836550915512e0ecf%2112000057142674192%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130378/products/1005011958713016.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 6,
-      "fetched_at": "2026-05-19T05:07:13Z",
-      "updated_at": "2026-05-19T05:07:13Z"
+      "fetched_at": "2026-05-19T09:41:03Z",
+      "updated_at": "2026-05-19T09:41:03Z"
     },
     {
       "product_id": "1005011949800048",
@@ -279,28 +294,13 @@
       "price": "4.33",
       "original_price": "4.40",
       "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011949800048.html?pdp_npi=6%40dis%21USD%214.40%214.33%21%21%2129.74%2129.29%21%4021013cc017791672240915907e10fe%2112000057112400591%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011949800048.html?pdp_npi=6%40dis%21USD%214.40%214.33%21%21%2129.74%2129.29%21%40212a7b8d17791836550915512e0ecf%2112000057112400591%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779130379/products/1005011949800048.webp",
       "category": "gadgets",
       "rating": 0.0,
       "reviews_count": 7,
-      "fetched_at": "2026-05-19T05:07:13Z",
-      "updated_at": "2026-05-19T05:07:13Z"
-    },
-    {
-      "product_id": "1005011964928698",
-      "title": "Spiderman Marvel Eye Phone Case For iPhone 11 12 13 14 15 16 17 Pro Max 16e 17E 17 Air Plus 13 Mini Shockproof Fundas Back Cover",
-      "slug": "spiderman-marvel-eye-phone-case-for-iphone-11-12-13-14-15-16",
-      "price": "4.52",
-      "original_price": "4.59",
-      "discount_pct": 1,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011964928698.html?pdp_npi=6%40dis%21USD%214.59%214.52%21%21%2131.06%2130.56%21%4021013cc017791672240915907e10fe%2112000057151448833%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779134763/products/1005011964928698.webp",
-      "category": "gadgets",
-      "rating": 4.0,
-      "reviews_count": 15,
-      "fetched_at": "2026-05-19T05:07:13Z",
-      "updated_at": "2026-05-19T05:07:13Z"
+      "fetched_at": "2026-05-19T09:41:04Z",
+      "updated_at": "2026-05-19T09:41:04Z"
     }
   ]
 }
