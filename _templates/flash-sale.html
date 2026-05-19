@@ -37,8 +37,12 @@
   </header>
 
   <main class="container">
-    <h1 class="page__title">⚡ Flash Sale</h1>
-    <p class="page__lede">Updated {{updated_at}} · {{deals_count}} deals live now</p>
+    <div class="flash-banner" data-particles="fire">
+      <div>
+        <h1 class="page__title" style="margin:0">⚡ Flash Sale</h1>
+        <p class="page__lede" style="margin:0.25rem 0 0">Updated {{updated_at}} · {{deals_count}} deals live now</p>
+      </div>
+    </div>
     <div class="grid grid--products">
       {{deals_html}}
     </div>
@@ -47,7 +51,7 @@
   <footer class="footer">
     <div class="footer__cols container">
       <div class="footer__brand">
-        <a href="{{site_url}}/en/"><strong>Ali<span>Global</span>Shop</strong></a>
+        <a href="{{site_url}}/en/"><strong>AliGlobal<span>Shop</span></strong></a>
         <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy — at no extra cost to you.</p>
       </div>
       <div class="footer__col">
@@ -93,5 +97,6 @@
 
   <script defer src="{{site_url}}/assets/js/countdown.js"></script>
   <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
+  <script defer src="{{site_url}}/assets/js/particles.js"></script>
 </body>
 </html>
