@@ -21,7 +21,7 @@ SITE_DESCRIPTION = (
     "Curated AliExpress deals, live flash sales and working coupons — updated every day."
 )
 DEFAULT_SHIPPING_DAYS = "7-25"
-DEFAULT_OG_IMAGE_PATH = "/assets/img/og-default.svg"
+DEFAULT_OG_IMAGE_PATH = "/assets/img/og-default.jpg"
 
 CATEGORY_NAMES = {
     "electronics": "Electronics",
