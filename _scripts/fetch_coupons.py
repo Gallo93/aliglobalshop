@@ -1,6 +1,7 @@
 """
-Fetch prodotti con alto sconto da AliExpress Affiliate API.
-Output: _data/coupons/en.json — prodotti con discount > 30%, immagini su Cloudinary.
+Fetch heavily discounted products from AliExpress Affiliate API.
+Represents "coupon deals" — products with high discount percentage.
+Output: _data/coupons/en.json
 """
 import hashlib
 import hmac
@@ -26,21 +27,20 @@ TRACKING_ID = os.getenv("ALIEXPRESS_TRACKING_ID", "")
 API_URL = "https://api-sg.aliexpress.com/sync"
 
 KEYWORDS = [
-    "electronics accessories deal",
-    "smart home discount",
-    "sport fitness sale",
-    "phone case discount",
-    "gadgets clearance",
+    "electronics accessories discount",
+    "smart home device sale",
+    "sport fitness equipment deal",
+    "phone case cover clearance",
+    "gadgets accessories cheap",
 ]
-TOP_N = 12
 MAX_PRICE_USD = 100.0
 MIN_DISCOUNT_PCT = 30
+TOP_N = 12
 
 BLACKLIST_PATTERNS = [re.compile(p, re.I) for p in [
     r"\bcar\b", r"\btruck\b", r"\brv\b", r"\bcamper\b", r"\bmotorcycle\b",
-    r"\bshock absorber\b", r"\btrailer\b", r"\bfreezer\b", r"\bcigar\b",
-    r"\bindustrial\b", r"\bforklift\b", r"\bboiler\b", r"\bautomotive\b",
-    r"\bsteel\b", r"\bgalvalume\b", r"\bcoil\b", r"\bplate\b",
+    r"\bautomotive\b", r"\bforklift\b", r"\bindustrial\b", r"\bboiler\b",
+    r"\bsteel\b", r"\bgalvalume\b", r"\bcoil\b",
 ]]
 
 cloudinary.config(
@@ -64,27 +64,14 @@ def slugify(text: str) -> str:
     return text[:60]
 
 
-def _parse_float(value, default=0.0) -> float:
+def parse_price(val) -> float:
     try:
-        return float(str(value).replace(",", "").replace("%", "").strip() or default)
-    except (ValueError, TypeError):
-        return default
-
-
-def _parse_int(value, default=0) -> int:
-    try:
-        return int(float(str(value).replace(",", "").strip() or default))
-    except (ValueError, TypeError):
-        return default
-
-
-def is_blacklisted(title: str) -> bool:
-    return any(p.search(title) for p in BLACKLIST_PATTERNS)
+        return float(str(val or "0").replace(",", "").split()[0])
+    except (ValueError, AttributeError):
+        return 0.0
 
 
 def upload_image(image_url: str, product_id: str) -> str:
-    if not image_url or "placeholder" in image_url.lower():
-        return image_url
     try:
         result = cloudinary.uploader.upload(
             image_url,
@@ -92,7 +79,6 @@ def upload_image(image_url: str, product_id: str) -> str:
             format="webp",
             overwrite=False,
             resource_type="image",
-            transformation=[{"width": 600, "height": 600, "crop": "limit", "quality": "auto"}],
         )
         return result["secure_url"]
     except Exception as e:
@@ -127,21 +113,28 @@ def fetch_hot_products(keyword: str, page_size: int = 30) -> list:
         )
         if result.get("resp_code") == 200:
             return result.get("result", {}).get("products", {}).get("product", [])
-        print(f"  [WARN] API {result.get('resp_code')}: {result.get('resp_msg')}")
+        print(f"  [WARN] API error {result.get('resp_code')}: {result.get('resp_msg')}")
         return []
     except Exception as e:
-        print(f"  [ERROR] fetch failed '{keyword}': {e}")
+        print(f"  [ERROR] fetch failed for '{keyword}': {e}")
         return []
+
+
+def is_blacklisted(title: str) -> bool:
+    return any(p.search(title) for p in BLACKLIST_PATTERNS)
 
 
 def build_entry(raw: dict, hosted_image: str) -> dict:
-    product_id = str(raw.get("product_id", ""))
     title = raw.get("product_title", "")
-    discount_pct = _parse_int(str(raw.get("discount", "0")).strip("%"))
-    rating_raw = _parse_float(str(raw.get("evaluate_rate", "0")).strip("%"))
-    rating = round(rating_raw / 20.0, 1) if rating_raw else None
+
+    discount_str = raw.get("discount", "0%")
+    try:
+        discount_pct = int(str(discount_str).strip("%"))
+    except (ValueError, AttributeError):
+        discount_pct = 0
+
     return {
-        "product_id": product_id,
+        "product_id": str(raw.get("product_id", "")),
         "title": title,
         "slug": slugify(title),
         "price": raw.get("target_sale_price"),
@@ -149,8 +142,6 @@ def build_entry(raw: dict, hosted_image: str) -> dict:
         "discount_pct": discount_pct,
         "affiliate_url": raw.get("product_detail_url", ""),
         "image_url": hosted_image,
-        "rating": rating,
-        "reviews_count": _parse_int(raw.get("lastest_volume", 0)),
     }
 
 
@@ -160,40 +151,49 @@ def main():
     if not APP_KEY or not APP_SECRET:
         raise SystemExit("[ERROR] ALIEXPRESS_APP_KEY / ALIEXPRESS_APP_SECRET mancanti in .env")
 
+    print("Fetching coupon deals from multiple keywords...")
     seen_ids = set()
-    pool = []
+    candidates = []
 
-    for kw in KEYWORDS:
-        print(f"  keyword: {kw}")
-        raw_list = fetch_hot_products(kw)
+    for keyword in KEYWORDS:
+        print(f"  keyword: '{keyword}'")
+        raw_list = fetch_hot_products(keyword)
         for raw in raw_list:
-            pid = str(raw.get("product_id", ""))
-            if not pid or pid in seen_ids:
+            product_id = str(raw.get("product_id", ""))
+            if product_id in seen_ids:
                 continue
+            seen_ids.add(product_id)
+
             title = raw.get("product_title", "")
-            if not title or is_blacklisted(title):
+            if is_blacklisted(title):
                 continue
-            price = _parse_float(raw.get("target_sale_price") or raw.get("sale_price", "0"))
-            if price <= 0 or price > MAX_PRICE_USD:
-                continue
-            discount_pct = _parse_int(str(raw.get("discount", "0")).strip("%"))
+
+            discount_str = raw.get("discount", "0%")
+            try:
+                discount_pct = int(str(discount_str).strip("%"))
+            except (ValueError, AttributeError):
+                discount_pct = 0
             if discount_pct < MIN_DISCOUNT_PCT:
                 continue
-            image_url = raw.get("product_main_image_url", "")
-            if not image_url or "placeholder" in image_url.lower():
-                continue
-            seen_ids.add(pid)
-            pool.append(raw)
-        time.sleep(0.3)
 
-    pool.sort(key=lambda r: _parse_int(str(r.get("discount", "0")).strip("%")), reverse=True)
-    pool = pool[:TOP_N]
+            price = parse_price(raw.get("target_sale_price", "0"))
+            if price <= 0 or price > MAX_PRICE_USD:
+                continue
+
+            if not raw.get("product_main_image_url"):
+                continue
+
+            candidates.append(raw)
+        time.sleep(0.5)
+
+    candidates.sort(key=lambda r: int(str(r.get("discount", "0%")).strip("%") or 0), reverse=True)
+    selected = candidates[:TOP_N]
 
     products = []
-    for raw in pool:
-        pid = str(raw.get("product_id", ""))
+    for raw in selected:
+        product_id = str(raw.get("product_id", ""))
         image_url = raw.get("product_main_image_url", "")
-        hosted = upload_image(image_url, pid) if image_url else ""
+        hosted = upload_image(image_url, product_id) if image_url else ""
         products.append(build_entry(raw, hosted))
         time.sleep(0.2)
 

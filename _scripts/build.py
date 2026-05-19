@@ -144,26 +144,26 @@ def deal_card_html(deal: dict, site_url: str) -> str:
     )
 
 
-def coupon_card_html(coupon: dict) -> str:
-    title = esc(coupon.get("title", ""))
-    href = esc(coupon.get("affiliate_url", ""))
+def coupon_card_html(coupon: dict, site_url: str) -> str:
     img = esc(coupon.get("image_url", ""))
+    title = esc(coupon.get("title", ""))
     price = esc(coupon.get("price", ""))
     original = esc(coupon.get("original_price", ""))
     disc = coupon.get("discount_pct") or 0
-    rating = coupon.get("rating") or 0
-    disc_html = (
-        f'<span class="price--off coupon-badge">-{int(disc)}% OFF</span>' if disc else ""
-    )
-    return (
-        '<article class="product-card coupon-card">'
+    href = esc(coupon.get("affiliate_url", f"{site_url}/en/coupons/"))
+    disc_html = f'<span class="coupon-badge">-{int(disc)}% OFF</span>' if disc else ""
+    img_html = (
         f'<a href="{href}" rel="nofollow sponsored" class="product-card__img">'
         f'<img src="{img}" alt="{title}" width="300" height="300" loading="lazy" decoding="async"></a>'
+    ) if img else ""
+    return (
+        '<article class="product-card">'
+        f'{img_html}'
         '<div class="product-card__body">'
+        f'{disc_html}'
         f'<h3 class="product-card__title"><a href="{href}" rel="nofollow sponsored">{title}</a></h3>'
         f'<div class="product-card__price"><span class="price">${price}</span>'
-        f'<span class="price--old">${original}</span>{disc_html}</div>'
-        f'<p class="product-card__meta">Rating: {rating}/5</p>'
+        f'<span class="price--old">${original}</span></div>'
         f'<a class="btn-cta product-card__cta" href="{href}" rel="nofollow sponsored">Get deal →</a>'
         "</div></article>"
     )
@@ -357,7 +357,7 @@ def build_coupons(site_url: str, coupons: list, updated_at: str) -> None:
     ctx.update({
         "canonical_url": f"{site_url}/en/coupons/",
         "coupons_html": (
-            "".join(coupon_card_html(c) for c in coupons)
+            "".join(coupon_card_html(c, site_url) for c in coupons)
             or "<p>No active coupons right now.</p>"
         ),
         "coupons_count": str(len(coupons)),

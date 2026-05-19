@@ -342,6 +342,17 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
   margin-left: 0.4rem;
   vertical-align: middle;
 }
+.coupon-badge {
+  display: inline-block;
+  background: #16a34a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.4rem;
+}
 .product-card .btn-cta {
   margin-top: auto;
   width: 100%;
@@ -400,18 +411,7 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; margin: 0 0 0.5rem; }
 .grid--posts h3 { font-size: 1.05rem; margin-bottom: 0.4rem; }
 .grid--posts time, .grid--posts .meta { color: var(--gray); font-size: 0.85rem; }
 
-/* === COUPON CARDS === */
-.coupon-badge {
-  display: inline-block;
-  background: #16a34a;
-  color: var(--white);
-  border-radius: 4px;
-  padding: 3px 8px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  margin-left: 0.4rem;
-  vertical-align: middle;
-}
+/* === COUPON GRID === */
 .grid--coupons { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 
 .see-more {
