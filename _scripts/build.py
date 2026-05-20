@@ -43,6 +43,8 @@ STATIC_PAGES = [
     ("contact", "Contact Us"),
 ]
 
+LOW_PRIORITY_PAGES = {"privacy", "about", "contact"}
+
 
 def load_json(path: Path, default=None):
     if not path.exists():
@@ -403,6 +405,14 @@ def build_static_pages(site_url: str) -> None:
         print(f"  -> en/{slug}/index.html")
 
 
+def _sitemap_priority(url: str, site_url: str) -> str:
+    path = url[len(site_url):] if url.startswith(site_url) else url
+    for slug in LOW_PRIORITY_PAGES:
+        if path.rstrip("/").endswith(f"/en/{slug}"):
+            return "0.1"
+    return "0.7"
+
+
 def build_sitemap(site_url: str, products_by_cat: dict, articles: list) -> None:
     today = datetime.now(timezone.utc).date().isoformat()
     urls = [
@@ -420,7 +430,9 @@ def build_sitemap(site_url: str, products_by_cat: dict, articles: list) -> None:
     for a in articles:
         urls.append(f"{site_url}/en/blog/{a.get('slug', '')}/")
     body = "\n".join(
-        f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>" for u in urls
+        f"  <url><loc>{u}</loc><lastmod>{today}</lastmod>"
+        f"<priority>{_sitemap_priority(u, site_url)}</priority></url>"
+        for u in urls
     )
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
