@@ -1,12 +1,12 @@
 {
   "niche": "sport",
-  "updated_at": "2026-05-19T22:00:21Z",
+  "updated_at": "2026-05-20T03:42:53Z",
   "products": [
     {
       "product_id": "1005004369037597",
       "title": "FEIJIAN Stainless Steel Thermos Bottle 1000ml Sports Flask Vacuum Insulated Water Bottle Leak Proof BPA Free",
       "slug": "feijian-stainless-steel-thermos-bottle-1000ml-sports-flask-v",
-      "price": "16.43",
+      "price": "17.48",
       "original_price": "46.00",
       "discount_pct": 64,
       "affiliate_url": "https://www.aliexpress.com/item/1005004369037597.html?pdp_npi=6%40dis%21USD%2146.00%2116.43%21%21%2146.00%2116.43%21%402151fd3a17791921713014605e0b56%2112000033102107935%21affd%21%21%21%211%210%21",
@@ -18,7 +18,7 @@
       "score": 0.3243,
       "price_history": [],
       "fetched_at": "2026-05-19T12:02:55Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "32286722941",
@@ -36,14 +36,14 @@
       "score": 0.3095,
       "price_history": [],
       "fetched_at": "2026-05-19T12:02:56Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005006374334605",
       "title": "Solid Color Sports Yoga Headband Sweat-absorbing Band Running Fitness Headband Elastic Band Headband ScarfWomen's headband elast",
       "slug": "solid-color-sports-yoga-headband-sweat-absorbing-band-runnin",
       "price": "1.11",
-      "original_price": "3.17",
+      "original_price": "3.16",
       "discount_pct": 65,
       "affiliate_url": "https://www.aliexpress.com/item/1005006374334605.html?pdp_npi=6%40dis%21USD%213.17%211.11%21%21%2121.42%217.50%21%402151fca717791921658393382e1003%2112000036944173921%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192176/products/1005006374334605.webp",
@@ -54,14 +54,14 @@
       "score": 0.2816,
       "price_history": [],
       "fetched_at": "2026-05-19T12:02:57Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005008099905053",
       "title": "820ml Pure Titanium Insulated Kettle/Thermos Cup,Double Layer Vacuum Flasks,Large Capacity Outdoor Drinkware,Sports Water Bottle",
       "slug": "820ml-pure-titanium-insulated-kettlethermos-cupdouble-layer-",
-      "price": "76.47",
-      "original_price": "182.09",
+      "price": "76.27",
+      "original_price": "181.60",
       "discount_pct": 58,
       "affiliate_url": "https://www.aliexpress.com/item/1005008099905053.html?pdp_npi=6%40dis%21USD%21182.09%2176.47%21%21%211231.20%21517.10%21%402151fd3a17791921713014605e0b56%2112000043741709798%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192178/products/1005008099905053.webp",
@@ -72,7 +72,7 @@
       "score": 0.2748,
       "price_history": [],
       "fetched_at": "2026-05-19T12:02:58Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005010786413625",
@@ -90,14 +90,14 @@
       "score": 0.2747,
       "price_history": [],
       "fetched_at": "2026-05-19T12:02:59Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005010382664758",
       "title": "BATFOX Mountain Bike Helmet Can install a sports camera Electric Cycling Gear Safety Cap Men Women bat fox MTB Bicycle Helmets",
       "slug": "batfox-mountain-bike-helmet-can-install-a-sports-camera-elec",
-      "price": "35.34",
-      "original_price": "72.12",
+      "price": "35.25",
+      "original_price": "71.93",
       "discount_pct": 51,
       "affiliate_url": "https://www.aliexpress.com/item/1005010382664758.html?pdp_npi=6%40dis%21USD%2172.12%2135.34%21%21%21487.66%21238.95%21%400b8ded7b17791921693688040e0d65%2112000052222922302%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192180/products/1005010382664758.webp",
@@ -108,14 +108,14 @@
       "score": 0.2595,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:00Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005010448157767",
       "title": "For X.WED2/Pro WRL/XR2/R3R/VILIJORD Helmet Chin Brace Cycling Accessories for Gopro Insta360 Sports Camera Helmet Chin Stand",
       "slug": "for-xwed2pro-wrlxr2r3rvilijord-helmet-chin-brace-cycling-acc",
-      "price": "16.86",
-      "original_price": "34.40",
+      "price": "16.81",
+      "original_price": "34.30",
       "discount_pct": 51,
       "affiliate_url": "https://www.aliexpress.com/item/1005010448157767.html?pdp_npi=6%40dis%21USD%2134.40%2116.86%21%21%21232.57%21113.96%21%400b8ded7b17791921693688040e0d65%2112000052444167694%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192181/products/1005010448157767.webp",
@@ -126,14 +126,14 @@
       "score": 0.2546,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:01Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005005574287092",
       "title": "Hot Sale 480ML Insulated Thermals Milk&Coffee Cup18/8 Stainless Steel Thermos Straw Water Bottle Gradient Sports Vacuum Flask",
       "slug": "hot-sale-480ml-insulated-thermals-milkcoffee-cup188-stainles",
-      "price": "7.75",
-      "original_price": "15.49",
+      "price": "7.72",
+      "original_price": "15.44",
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005005574287092.html?pdp_npi=6%40dis%21USD%2115.49%217.75%21%21%21104.70%2152.35%21%402151fd3a17791921713014605e0b56%2112000033606413709%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192182/products/1005005574287092.webp",
@@ -144,7 +144,7 @@
       "score": 0.25,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:02Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005008088518121",
@@ -162,14 +162,14 @@
       "score": 0.2477,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:04Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005006588685488",
       "title": "Non-slip Extra Thick 15mm Yoga Mat  Men Women Fitness NBR Soft Mat Tasteless Gym Household Exercise Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
-      "price": "23.02",
-      "original_price": "41.85",
+      "price": "22.96",
+      "original_price": "41.74",
       "discount_pct": 45,
       "affiliate_url": "https://www.aliexpress.com/item/1005006588685488.html?pdp_npi=6%40dis%21USD%2141.85%2123.02%21%21%21282.96%21155.63%21%40214114e317791921677598314e1245%2112000037742070491%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192184/products/1005006588685488.webp",
@@ -180,7 +180,7 @@
       "score": 0.2362,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:05Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005008288264518",
@@ -198,7 +198,7 @@
       "score": 0.2211,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:06Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005005807293081",
@@ -216,7 +216,7 @@
       "score": 0.2192,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:07Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005008813902899",
@@ -234,7 +234,7 @@
       "score": 0.2177,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:08Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005007132184922",
@@ -252,7 +252,7 @@
       "score": 0.215,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:09Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005003674465001",
@@ -270,14 +270,14 @@
       "score": 0.214,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:10Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005011781529854",
       "title": "Universal Bicycle Baseball Cap Helmets Electric Cycling Safety Helmet with Adjustable Strap for Adults Bicycle Accessories",
       "slug": "universal-bicycle-baseball-cap-helmets-electric-cycling-safe",
-      "price": "8.16",
-      "original_price": "26.33",
+      "price": "8.14",
+      "original_price": "26.26",
       "discount_pct": 69,
       "affiliate_url": "https://www.aliexpress.com/item/1005011781529854.html?pdp_npi=6%40dis%21USD%2126.33%218.16%21%21%21178.00%2155.18%21%400b8ded7b17791921693688040e0d65%2112000056542294809%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192190/products/1005011781529854.webp",
@@ -288,7 +288,7 @@
       "score": 0.207,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:11Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "32264958496",
@@ -306,7 +306,7 @@
       "score": 0.1801,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:12Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005003568008959",
@@ -324,7 +324,7 @@
       "score": 0.18,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:13Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005010120032939",
@@ -342,14 +342,14 @@
       "score": 0.1725,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:14Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     },
     {
       "product_id": "1005011965003364",
       "title": "Extra Thick Non Slip Yoga Mat Shock Absorbing Extra Wide Pilates Fitness Workout Mat Home Gym Women Men Eco Friendly Pink",
       "slug": "extra-thick-non-slip-yoga-mat-shock-absorbing-extra-wide-pil",
-      "price": "6.87",
-      "original_price": "14.93",
+      "price": "6.85",
+      "original_price": "14.89",
       "discount_pct": 54,
       "affiliate_url": "https://www.aliexpress.com/item/1005011965003364.html?pdp_npi=6%40dis%21USD%2114.93%216.87%21%21%21100.94%2146.43%21%40214114e317791921677598314e1245%2112000057161782827%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192195/products/1005011965003364.webp",
@@ -360,7 +360,7 @@
       "score": 0.1622,
       "price_history": [],
       "fetched_at": "2026-05-19T12:03:15Z",
-      "updated_at": "2026-05-19T19:53:52Z"
+      "updated_at": "2026-05-20T03:42:53Z"
     }
   ]
 }
