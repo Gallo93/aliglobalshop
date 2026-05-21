@@ -1,13 +1,13 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-05-21T22:00:16Z",
+  "updated_at": "2026-05-21T23:01:07Z",
   "products": [
     {
       "product_id": "1005006634832058",
       "title": "UGREEN Steam Deck Dock 4K60Hz 9 Ports RJ45 PD100W USB C HUB Compatible with Steam Deck ROG Ally LEGION Go iPhone 15 Pro/Pro Max",
       "slug": "ugreen-steam-deck-dock-4k60hz-9-ports-rj45-pd100w-usb-c-hub-",
-      "price": "42.89",
-      "original_price": "73.32",
+      "price": 42.89,
+      "original_price": 73.32,
       "discount_pct": 41,
       "affiliate_url": "https://www.aliexpress.com/item/1005006634832058.html?pdp_npi=6%40dis%21USD%2173.32%2142.89%21%21%2173.32%2142.89%21%40212a7b8d17793180884111821e107c%2112000053261315371%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192207/products/1005006634832058.webp",
@@ -17,15 +17,15 @@
       "sales_volume": 1823,
       "score": 0.4393,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:18Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:00:57Z",
+      "updated_at": "2026-05-21T23:00:57Z"
     },
     {
       "product_id": "1005011795391651",
       "title": "20000mAh Magnetic Power Bank PD 22.5W Wireless Fast Charger For Magsafe Portable Auxiliary Battery For iPhone Air 17",
       "slug": "20000mah-magnetic-power-bank-pd-225w-wireless-fast-charger-f",
-      "price": "23.20",
-      "original_price": "74.85",
+      "price": 23.14,
+      "original_price": 74.65,
       "discount_pct": 69,
       "affiliate_url": "https://www.aliexpress.com/item/1005011795391651.html?pdp_npi=6%40dis%21USD%2174.65%2123.14%21%21%21506.09%21156.89%21%400b8ded7b17793180864713875e0f76%2112000056595947022%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192208/products/1005011795391651.webp",
@@ -35,15 +35,15 @@
       "sales_volume": 83,
       "score": 0.3149,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:18Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:00:57Z",
+      "updated_at": "2026-05-21T23:00:57Z"
     },
     {
       "product_id": "1005011981593933",
       "title": "Hichain PD65W Power Bank 20000mAh Built-in USB-C Cable Multifunctional Phone Charger For Laptop Earphones Tablets Other Device",
       "slug": "hichain-pd65w-power-bank-20000mah-built-in-usb-c-cable-multi",
-      "price": "42.25",
-      "original_price": "93.89",
+      "price": 42.14,
+      "original_price": 93.64,
       "discount_pct": 55,
       "affiliate_url": "https://www.aliexpress.com/item/1005011981593933.html?pdp_npi=6%40dis%21USD%2193.64%2142.14%21%21%21634.84%21285.68%21%400b8ded7b17793180864713875e0f76%2112000057208922820%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779318096/products/1005011981593933.webp",
@@ -53,15 +53,15 @@
       "sales_volume": 4,
       "score": 0.2655,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:19Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:00:58Z",
+      "updated_at": "2026-05-21T23:00:58Z"
     },
     {
       "product_id": "1005009210852728",
       "title": "Essager 65W 20000mAh Power Bank PD Fast Charge Type C Quick Charge Portable Powerbank External Battery for iPhone MacBook Laptop",
       "slug": "essager-65w-20000mah-power-bank-pd-fast-charge-type-c-quick-",
-      "price": "40.98",
-      "original_price": "88.05",
+      "price": 40.98,
+      "original_price": 88.05,
       "discount_pct": 53,
       "affiliate_url": "https://www.aliexpress.com/item/1005009210852728.html?pdp_npi=6%40dis%21USD%2188.05%2140.98%21%21%2188.05%2140.98%21%400b8ded7b17793180864713875e0f76%2112000048323107522%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192209/products/1005009210852728.webp",
@@ -71,15 +71,15 @@
       "sales_volume": 44,
       "score": 0.2626,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:19Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:00:58Z",
+      "updated_at": "2026-05-21T23:00:58Z"
     },
     {
       "product_id": "1005007587741414",
       "title": "BYINTEK Full HD Mini Projector LOVE U4 1080P 4K Video 5G WIFI Android Auto Focus Portable Smart Projectors  Home Theater Cinema",
       "slug": "byintek-full-hd-mini-projector-love-u4-1080p-4k-video-5g-wif",
-      "price": "135.40",
-      "original_price": "300.89",
+      "price": 135.4,
+      "original_price": 300.89,
       "discount_pct": 55,
       "affiliate_url": "https://www.aliexpress.com/item/1005007587741414.html?pdp_npi=6%40dis%21USD%21300.89%21135.40%21%21%21300.89%21135.40%21%400b8ded7b17793180923036464e0fc9%2112000041404889110%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192210/products/1005007587741414.webp",
@@ -89,15 +89,15 @@
       "sales_volume": 13,
       "score": 0.2616,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:20Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:00:59Z",
+      "updated_at": "2026-05-21T23:00:59Z"
     },
     {
       "product_id": "1005010731285437",
       "title": "2025 New CCC Certified 20000mAh 74Wh 120W טעינה מהירה Type C Digital Display Magnetic Power Bank for iOS Android",
       "slug": "2025-new-ccc-certified-20000mah-74wh-120w-type-c-digital-dis",
-      "price": "17.76",
-      "original_price": "37.78",
+      "price": 17.71,
+      "original_price": 37.68,
       "discount_pct": 53,
       "affiliate_url": "https://www.aliexpress.com/item/1005010731285437.html?pdp_npi=6%40dis%21USD%2137.68%2117.71%21%21%21255.44%21120.06%21%400b8ded7b17793180864713875e0f76%2112000053340230792%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192211/products/1005010731285437.webp",
@@ -107,15 +107,15 @@
       "sales_volume": 13,
       "score": 0.2606,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:20Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:00:59Z",
+      "updated_at": "2026-05-21T23:00:59Z"
     },
     {
       "product_id": "1005012005036058",
       "title": "New Portable Power Bank 20000mAh External Battery Charger Cases Fast Charging Digital Display for iphone Series Samsung Xiaomi",
       "slug": "new-portable-power-bank-20000mah-external-battery-charger-ca",
-      "price": "6.38",
-      "original_price": "13.57",
+      "price": 6.36,
+      "original_price": 13.53,
       "discount_pct": 53,
       "affiliate_url": "https://www.aliexpress.com/item/1005012005036058.html?pdp_npi=6%40dis%21USD%2113.53%216.36%21%21%2191.73%2143.11%21%400b8ded7b17793180864713875e0f76%2112000057248341543%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192212/products/1005012005036058.webp",
@@ -125,15 +125,15 @@
       "sales_volume": 5,
       "score": 0.2596,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:20Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:00Z",
+      "updated_at": "2026-05-21T23:01:00Z"
     },
     {
       "product_id": "1005012124060756",
       "title": "Power Bank 50000mAh 30000mAh 20000mAh 10000mAh for IPhone Android Phone High - Quality and Large - Capacity Mobile Power Bank",
       "slug": "power-bank-50000mah-30000mah-20000mah-10000mah-for-iphone-an",
-      "price": "22.44",
-      "original_price": "44.88",
+      "price": 22.38,
+      "original_price": 44.76,
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005012124060756.html?pdp_npi=6%40dis%21USD%2144.76%2122.38%21%21%21303.48%21151.74%21%400b8ded7b17793180864713875e0f76%2112000057560677909%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192212/products/1005012124060756.webp",
@@ -143,15 +143,15 @@
       "sales_volume": 29,
       "score": 0.2535,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:21Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:00Z",
+      "updated_at": "2026-05-21T23:01:00Z"
     },
     {
       "product_id": "1005010000531819",
       "title": "20000mAh Mini Power Bank Built in 4 Cable Portable Charger Cute Pet Cartoon Makeup Mirror Powerbank External Battery Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
-      "price": "11.47",
-      "original_price": "22.95",
+      "price": 11.45,
+      "original_price": 22.89,
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005010000531819.html?pdp_npi=6%40dis%21USD%2122.89%2111.45%21%21%21155.18%2177.59%21%400b8ded7b17793180864713875e0f76%2112000050805091472%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779318100/products/1005010000531819.webp",
@@ -161,15 +161,15 @@
       "sales_volume": 17,
       "score": 0.252,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:21Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:01Z",
+      "updated_at": "2026-05-21T23:01:01Z"
     },
     {
       "product_id": "1005012002690751",
       "title": "20000mAh Large Capacity Mobile Power Bank with 4-wire Fast Charging Charger Portable External Battery for iphone Xiaomi Samsung",
       "slug": "20000mah-large-capacity-mobile-power-bank-with-4-wire-fast-c",
-      "price": "8.31",
-      "original_price": "16.62",
+      "price": 8.29,
+      "original_price": 16.58,
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005012002690751.html?pdp_npi=6%40dis%21USD%2116.58%218.29%21%21%21112.39%2156.19%21%400b8ded7b17793180864713875e0f76%2112000057242989940%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192213/products/1005012002690751.webp",
@@ -179,15 +179,15 @@
       "sales_volume": 15,
       "score": 0.2518,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:22Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:01Z",
+      "updated_at": "2026-05-21T23:01:01Z"
     },
     {
       "product_id": "1005007395412166",
       "title": "Power Bank 20000mAh Wireless Charger Powerbank Built in Cable Portable Charger for iPhone 15 Samsung S23 Huawei Xiaomi Poverbank",
       "slug": "power-bank-20000mah-wireless-charger-powerbank-built-in-cabl",
-      "price": "18.69",
-      "original_price": "37.38",
+      "price": 18.64,
+      "original_price": 37.28,
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005007395412166.html?pdp_npi=6%40dis%21USD%2137.28%2118.64%21%21%21252.72%21126.36%21%400b8ded7b17793180864713875e0f76%2112000040571456584%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192214/products/1005007395412166.webp",
@@ -197,15 +197,15 @@
       "sales_volume": 12,
       "score": 0.2514,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:22Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:02Z",
+      "updated_at": "2026-05-21T23:01:02Z"
     },
     {
       "product_id": "1005009719691767",
       "title": "New 65W 20000mAh 145W 20800mAh PD Quick Charge FCP Powerbank Portable External Charger for Smartphone Laptop for IPhone Tablet",
       "slug": "new-65w-20000mah-145w-20800mah-pd-quick-charge-fcp-powerbank",
-      "price": "104.81",
-      "original_price": "209.63",
+      "price": 104.54,
+      "original_price": 209.07,
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005009719691767.html?pdp_npi=6%40dis%21USD%21209.07%21104.54%21%21%211417.40%21708.70%21%400b8ded7b17793180864713875e0f76%2112000057969175089%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192215/products/1005009719691767.webp",
@@ -215,15 +215,15 @@
       "sales_volume": 6,
       "score": 0.2507,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:23Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:02Z",
+      "updated_at": "2026-05-21T23:01:02Z"
     },
     {
       "product_id": "1005010617846135",
       "title": "20000mAh 10000mAh Power Bank with Large Capacity Fiber Texture Case Design Thin and Easy To Carry Dual Input",
       "slug": "20000mah-10000mah-power-bank-with-large-capacity-fiber-textu",
-      "price": "19.24",
-      "original_price": "38.48",
+      "price": 19.18,
+      "original_price": 38.37,
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005010617846135.html?pdp_npi=6%40dis%21USD%2138.37%2119.18%21%21%21260.15%21130.07%21%400b8ded7b17793180864713875e0f76%2112000053009978670%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192216/products/1005010617846135.webp",
@@ -233,15 +233,15 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:23Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:03Z",
+      "updated_at": "2026-05-21T23:01:03Z"
     },
     {
       "product_id": "1005006536808127",
       "title": "65W 20000mAh Power Bank  PD Quick Charge FCP SCP Powerbank Portable External Charger for Laptop Tablet iPhone Samsung Huawei",
       "slug": "65w-20000mah-power-bank-pd-quick-charge-fcp-scp-powerbank-po",
-      "price": "42.82",
-      "original_price": "69.07",
+      "price": 42.82,
+      "original_price": 69.07,
       "discount_pct": 38,
       "affiliate_url": "https://www.aliexpress.com/item/1005006536808127.html?pdp_npi=6%40dis%21USD%2169.07%2142.82%21%21%2169.07%2142.82%21%400b8ded7b17793180864713875e0f76%2112000056769472930%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192217/products/1005006536808127.webp",
@@ -251,15 +251,15 @@
       "sales_volume": 221,
       "score": 0.2371,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:24Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:03Z",
+      "updated_at": "2026-05-21T23:01:03Z"
     },
     {
       "product_id": "1005010401185659",
       "title": "5V 2A Power Bank 20000mAh for Heated Vest Jacket Air Conditioning Clothing External Battery Power Bank for Xiaomi iPhone Charger",
       "slug": "5v-2a-power-bank-20000mah-for-heated-vest-jacket-air-conditi",
-      "price": "11.13",
-      "original_price": "20.23",
+      "price": 11.09,
+      "original_price": 20.17,
       "discount_pct": 45,
       "affiliate_url": "https://www.aliexpress.com/item/1005010401185659.html?pdp_npi=6%40dis%21USD%2120.17%2111.09%21%21%21136.77%2175.22%21%400b8ded7b17793180864713875e0f76%2112000052287025285%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192218/products/1005010401185659.webp",
@@ -269,15 +269,15 @@
       "sales_volume": 7,
       "score": 0.2358,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:24Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:04Z",
+      "updated_at": "2026-05-21T23:01:04Z"
     },
     {
       "product_id": "1005007390539177",
       "title": "For IPhone 15 14 13 Huawei Xiaomi Poverbank 20000mAh Folding Solar Power Bank with 3 Solar Panel Qi Wireless Charger Powerbank",
       "slug": "for-iphone-15-14-13-huawei-xiaomi-poverbank-20000mah-folding",
-      "price": "42.95",
-      "original_price": "91.39",
+      "price": 42.83,
+      "original_price": 91.14,
       "discount_pct": 53,
       "affiliate_url": "https://www.aliexpress.com/item/1005007390539177.html?pdp_npi=6%40dis%21USD%2191.14%2142.83%21%21%21617.92%21290.42%21%400b8ded7b17793180864713875e0f76%2112000040554685019%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192220/products/1005007390539177.webp",
@@ -287,15 +287,15 @@
       "sales_volume": 7,
       "score": 0.2315,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:25Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:05Z",
+      "updated_at": "2026-05-21T23:01:05Z"
     },
     {
       "product_id": "1005004204383810",
       "title": "Universal Portable Mini Flexible Tripod 2 Section Holder for Projector Camera Desktop Tripod Stand Mount for Mobile Phone",
       "slug": "universal-portable-mini-flexible-tripod-2-section-holder-for",
-      "price": "1.48",
-      "original_price": "2.60",
+      "price": 1.48,
+      "original_price": 2.6,
       "discount_pct": 43,
       "affiliate_url": "https://www.aliexpress.com/item/1005004204383810.html?pdp_npi=6%40dis%21USD%212.60%211.48%21%21%212.60%211.48%21%400b8ded7b17793180923036464e0fc9%2112000028368988917%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192219/products/1005004204383810.webp",
@@ -305,15 +305,15 @@
       "sales_volume": 86,
       "score": 0.2309,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:25Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:05Z",
+      "updated_at": "2026-05-21T23:01:05Z"
     },
     {
       "product_id": "1005009589681770",
       "title": "20000mAh Power Bank for Heated Vest Jacket Air Condition Clothes Powerbank with 7.4V DC Port Bateria for iphone All Smartphones",
       "slug": "20000mah-power-bank-for-heated-vest-jacket-air-condition-clo",
-      "price": "13.62",
-      "original_price": "23.89",
+      "price": 13.58,
+      "original_price": 23.83,
       "discount_pct": 43,
       "affiliate_url": "https://www.aliexpress.com/item/1005009589681770.html?pdp_npi=6%40dis%21USD%2123.83%2113.58%21%21%21161.53%2192.07%21%400b8ded7b17793180864713875e0f76%2112000049554222437%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779318105/products/1005009589681770.webp",
@@ -323,15 +323,15 @@
       "sales_volume": 9,
       "score": 0.2301,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:25Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:06Z",
+      "updated_at": "2026-05-21T23:01:06Z"
     },
     {
       "product_id": "1005007646050752",
       "title": "Hagibis USB C HUB Type-C Docking Station Individual On/Off Switches With LED Display 10Gbps USB C Splitter for Macbook Pro Air",
       "slug": "hagibis-usb-c-hub-type-c-docking-station-individual-onoff-sw",
-      "price": "27.49",
-      "original_price": "49.99",
+      "price": 27.49,
+      "original_price": 49.99,
       "discount_pct": 45,
       "affiliate_url": "https://www.aliexpress.com/item/1005007646050752.html?pdp_npi=6%40dis%21USD%2149.99%2127.49%21%21%2149.99%2127.49%21%40212a7b8d17793180884111821e107c%2112000041639634221%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192221/products/1005007646050752.webp",
@@ -341,15 +341,15 @@
       "sales_volume": 50,
       "score": 0.2277,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:26Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:06Z",
+      "updated_at": "2026-05-21T23:01:06Z"
     },
     {
       "product_id": "1005008580130624",
       "title": "A20 Hub USB Farm Mainboard 20-port Docking Station Motherboard WiFi Circuit Board Stable Performance Soft and Hard Row Optional",
       "slug": "a20-hub-usb-farm-mainboard-20-port-docking-station-motherboa",
-      "price": "46.27",
-      "original_price": "77.12",
+      "price": 46.27,
+      "original_price": 77.12,
       "discount_pct": 40,
       "affiliate_url": "https://www.aliexpress.com/item/1005008580130624.html?pdp_npi=6%40dis%21USD%2177.12%2146.27%21%21%2177.12%2146.27%21%40212a7b8d17793180884111821e107c%2112000045817120245%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192223/products/1005008580130624.webp",
@@ -359,8 +359,8 @@
       "sales_volume": 20,
       "score": 0.2224,
       "price_history": [],
-      "fetched_at": "2026-05-21T05:13:26Z",
-      "updated_at": "2026-05-21T19:55:47Z"
+      "fetched_at": "2026-05-21T23:01:07Z",
+      "updated_at": "2026-05-21T23:01:07Z"
     }
   ]
 }
