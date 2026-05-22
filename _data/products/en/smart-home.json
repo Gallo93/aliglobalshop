@@ -1,13 +1,13 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-05-22T22:00:15Z",
+  "updated_at": "2026-05-22T23:00:48Z",
   "products": [
     {
       "product_id": "33022569739",
       "title": "Robot Vacuum Cleaner ABIR X6PRO ,Visual Navigation,APP Virtual Barrier,6000PA Suction,Smart Home Mop,Floor Carpet Washing Tool",
       "slug": "robot-vacuum-cleaner-abir-x6pro-visual-navigationapp-virtual",
-      "price": "176.89",
-      "original_price": "490.00",
+      "price": 176.89,
+      "original_price": 490.0,
       "discount_pct": 63,
       "affiliate_url": "https://www.aliexpress.com/item/33022569739.html?pdp_npi=6%40dis%21USD%21490.00%21176.89%21%21%21490.00%21176.89%21%40214114e317794264276575823e0eb9%2112000032843603958%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779318049/products/33022569739.webp",
@@ -17,15 +17,15 @@
       "sales_volume": 348,
       "score": 0.3232,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:13Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:38Z",
+      "updated_at": "2026-05-22T23:00:38Z"
     },
     {
       "product_id": "1005009654029579",
       "title": "Tuya Zigbee Wireless Door Windows Sensor mini Smart Home Wireless Door Detector Door Open Closed Alarm System for Alexa",
       "slug": "tuya-zigbee-wireless-door-windows-sensor-mini-smart-home-wir",
-      "price": "6.16",
-      "original_price": "6.49",
+      "price": 6.16,
+      "original_price": 6.49,
       "discount_pct": 5,
       "affiliate_url": "https://www.aliexpress.com/item/1005009654029579.html?pdp_npi=6%40dis%21USD%216.49%216.16%21%21%2143.93%2141.67%21%402141149b17794264313486409e11bb%2112000049780668882%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192140/products/1005009654029579.webp",
@@ -35,15 +35,15 @@
       "sales_volume": 1740,
       "score": 0.3207,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:14Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:39Z",
+      "updated_at": "2026-05-22T23:00:39Z"
     },
     {
       "product_id": "1005008710290057",
       "title": "Smar 3MP Wireless CCTV Security Camera System PTZ Wifi Outdoor Surveillance Kit Alarm 6CH NVR Home Security Night Vision Set",
       "slug": "smar-3mp-wireless-cctv-security-camera-system-ptz-wifi-outdo",
-      "price": "76.60",
-      "original_price": "212.77",
+      "price": 76.6,
+      "original_price": 212.77,
       "discount_pct": 64,
       "affiliate_url": "https://www.aliexpress.com/item/1005008710290057.html?pdp_npi=6%40dis%21USD%21212.77%2176.60%21%21%21212.77%2176.60%21%40212a7b8d17794264296977627e0fd7%2112000046417510328%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192141/products/1005008710290057.webp",
@@ -53,15 +53,15 @@
       "sales_volume": 28,
       "score": 0.2929,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:14Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:39Z",
+      "updated_at": "2026-05-22T23:00:39Z"
     },
     {
       "product_id": "1005008549967382",
       "title": "14.4V 6000mah For iRobot Roomba 500 NI-MH Replacement Battery For iRobot Roomba 500 530 510 770 600 700 800 900 Vacuum Cleaner",
       "slug": "144v-6000mah-for-irobot-roomba-500-ni-mh-replacement-battery",
-      "price": "18.08",
-      "original_price": "43.05",
+      "price": 18.08,
+      "original_price": 43.05,
       "discount_pct": 58,
       "affiliate_url": "https://www.aliexpress.com/item/1005008549967382.html?pdp_npi=6%40dis%21USD%2143.05%2118.08%21%21%2143.05%2118.08%21%40214114e317794264276575823e0eb9%2112000045695609620%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192142/products/1005008549967382.webp",
@@ -71,15 +71,15 @@
       "sales_volume": 188,
       "score": 0.285,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:15Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:40Z",
+      "updated_at": "2026-05-22T23:00:40Z"
     },
     {
       "product_id": "1005005429173220",
       "title": "LIECTROUX L200 Robot Vacuum Cleaner & Wet Mop Combo,Smart Mapping,WiFi App,4KPa,Brushless Motor, Electric control water tank",
       "slug": "liectroux-l200-robot-vacuum-cleaner-wet-mop-combosmart-mappi",
-      "price": "135.00",
-      "original_price": "450.00",
+      "price": 135.0,
+      "original_price": 450.0,
       "discount_pct": 70,
       "affiliate_url": "https://www.aliexpress.com/item/1005005429173220.html?pdp_npi=6%40dis%21USD%21450.00%21135.00%21%21%21450.00%21135.00%21%40214114e317794264276575823e0eb9%2112000053416513952%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779318052/products/1005005429173220.webp",
@@ -89,15 +89,15 @@
       "sales_volume": 3,
       "score": 0.2704,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:15Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:40Z",
+      "updated_at": "2026-05-22T23:00:40Z"
     },
     {
       "product_id": "1005008342015974",
       "title": "2025 New Carply Ai Box Android13 & Android Auto 3In1 Multimedia Smart Box Built-in Netflix YouTube 5GHz Wifi BT5.0 Plug & Play",
       "slug": "2025-new-carply-ai-box-android13-android-auto-3in1-multimedi",
-      "price": "38.95",
-      "original_price": "88.52",
+      "price": 38.95,
+      "original_price": 88.52,
       "discount_pct": 56,
       "affiliate_url": "https://www.aliexpress.com/item/1005008342015974.html?pdp_npi=6%40dis%21USD%2188.52%2138.95%21%21%21598.94%21263.53%21%400b8ded7b17794264231157414e11eb%2112000044663529121%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192143/products/1005008342015974.webp",
@@ -107,15 +107,15 @@
       "sales_volume": 8,
       "score": 0.269,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:16Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:41Z",
+      "updated_at": "2026-05-22T23:00:41Z"
     },
     {
       "product_id": "1005008952159162",
       "title": "5000mAh i7 Battery Replacement for iRobot Roomba e and i Series i7+ e5 7150 7550 i3 3150 i3+ 3550 i4 4150 i4 Accessories 14.4V",
       "slug": "5000mah-i7-battery-replacement-for-irobot-roomba-e-and-i-ser",
-      "price": "38.68",
-      "original_price": "84.09",
+      "price": 38.68,
+      "original_price": 84.09,
       "discount_pct": 54,
       "affiliate_url": "https://www.aliexpress.com/item/1005008952159162.html?pdp_npi=6%40dis%21USD%2184.09%2138.68%21%21%21568.94%21261.71%21%40214114e317794264276575823e0eb9%2112000047338539524%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192146/products/1005008952159162.webp",
@@ -125,15 +125,15 @@
       "sales_volume": 11,
       "score": 0.2633,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:16Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:41Z",
+      "updated_at": "2026-05-22T23:00:41Z"
     },
     {
       "product_id": "1005005604363467",
       "title": "Camnsmart Tuya 5MP Alexa Wifi Bulb Camera E27 Google Home Wireless CCTV Outdoor Video Surveillance  Security Support Onvif NVR",
       "slug": "camnsmart-tuya-5mp-alexa-wifi-bulb-camera-e27-google-home-wi",
-      "price": "39.99",
-      "original_price": "79.98",
+      "price": 39.99,
+      "original_price": 79.98,
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005005604363467.html?pdp_npi=6%40dis%21USD%2179.98%2139.99%21%21%2179.98%2139.99%21%40214114e317794264254307562e11b1%2112000033728409420%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192151/products/1005005604363467.webp",
@@ -143,15 +143,15 @@
       "sales_volume": 32,
       "score": 0.2467,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:17Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:42Z",
+      "updated_at": "2026-05-22T23:00:42Z"
     },
     {
       "product_id": "1005010463738860",
       "title": "Yoosee 5MP WiFi Security PTZ Indoor IP Camera 3MP Smart Home Safety Color Night Vision Siren Alarm Humanoid Detection Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
-      "price": "24.66",
-      "original_price": "44.84",
+      "price": 24.66,
+      "original_price": 44.84,
       "discount_pct": 45,
       "affiliate_url": "https://www.aliexpress.com/item/1005010463738860.html?pdp_npi=6%40dis%21USD%2144.84%2124.66%21%21%2144.84%2124.66%21%40212a7b8d17794264296977627e0fd7%2112000052496847442%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192153/products/1005010463738860.webp",
@@ -161,15 +161,15 @@
       "sales_volume": 57,
       "score": 0.2418,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:17Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:42Z",
+      "updated_at": "2026-05-22T23:00:42Z"
     },
     {
       "product_id": "1005005807578430",
       "title": "SIXWGH Tuya Smart Extension Cord Socket WiFi EU Plug Outlet Power Monitoring Timming 4 USB Charging Ports Google Home Alexa",
       "slug": "sixwgh-tuya-smart-extension-cord-socket-wifi-eu-plug-outlet-",
-      "price": "6.24",
-      "original_price": "12.00",
+      "price": 6.24,
+      "original_price": 12.0,
       "discount_pct": 48,
       "affiliate_url": "https://www.aliexpress.com/item/1005005807578430.html?pdp_npi=6%40dis%21USD%2112.00%216.24%21%21%2112.00%216.24%21%400b8ded7b17794264231157414e11eb%2112000034420995624%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192154/products/1005005807578430.webp",
@@ -179,15 +179,15 @@
       "sales_volume": 17,
       "score": 0.2405,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:18Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:43Z",
+      "updated_at": "2026-05-22T23:00:43Z"
     },
     {
       "product_id": "1005010590468953",
       "title": "8MP HD Wifi Surveillance PTZ Camera Outdoor 4K Dual Lens Dual Screen Human Detection IP Security Protection Camera CCTV Video",
       "slug": "8mp-hd-wifi-surveillance-ptz-camera-outdoor-4k-dual-lens-dua",
-      "price": "15.57",
-      "original_price": "36.01",
+      "price": 16.56,
+      "original_price": 36.01,
       "discount_pct": 54,
       "affiliate_url": "https://www.aliexpress.com/item/1005010590468953.html?pdp_npi=6%40dis%21USD%2136.01%2116.56%21%21%2136.01%2116.56%21%40212a7b8d17794264296977627e0fd7%2112000052914419640%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192157/products/1005010590468953.webp",
@@ -197,15 +197,15 @@
       "sales_volume": 54,
       "score": 0.2374,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:18Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:44Z",
+      "updated_at": "2026-05-22T23:00:44Z"
     },
     {
       "product_id": "1005004774956386",
       "title": "BroadLink RM4 Pro IR WiFi RF Switch Universal Remote Control Smart Controller HTS2 Sensor Works With Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
-      "price": "30.26",
-      "original_price": "51.29",
+      "price": 30.26,
+      "original_price": 51.29,
       "discount_pct": 41,
       "affiliate_url": "https://www.aliexpress.com/item/1005004774956386.html?pdp_npi=6%40dis%21USD%2151.29%2130.26%21%21%2151.29%2130.26%21%400b8ded7b17794264231157414e11eb%2112000034262510607%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192156/products/1005004774956386.webp",
@@ -215,15 +215,15 @@
       "sales_volume": 101,
       "score": 0.232,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:19Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:44Z",
+      "updated_at": "2026-05-22T23:00:44Z"
     },
     {
       "product_id": "4000143784956",
       "title": "HEIMAN Zigbee Smoke Detector – Fire Alarm Sensor, High Sensitivity, Smart Home System, Safety Protection, Free Shipping",
       "slug": "heiman-zigbee-smoke-detector-fire-alarm-sensor-high-sensitiv",
-      "price": "26.79",
-      "original_price": "39.99",
+      "price": 26.79,
+      "original_price": 39.99,
       "discount_pct": 33,
       "affiliate_url": "https://www.aliexpress.com/item/4000143784956.html?pdp_npi=6%40dis%21USD%2139.99%2126.79%21%21%2139.99%2126.79%21%402141149b17794264313486409e11bb%2112000051052494182%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192158/products/4000143784956.webp",
@@ -233,15 +233,15 @@
       "sales_volume": 246,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:19Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:45Z",
+      "updated_at": "2026-05-22T23:00:45Z"
     },
     {
       "product_id": "1005009306467710",
       "title": "4MP HD 5G WiFi PTZ Camera Auto Tracking Cry Detector Home Indoor Security CCTV Surveillance Cameras Baby Monitor",
       "slug": "4mp-hd-5g-wifi-ptz-camera-auto-tracking-cry-detector-home-in",
-      "price": "10.67",
-      "original_price": "20.00",
+      "price": 10.67,
+      "original_price": 20.0,
       "discount_pct": 46,
       "affiliate_url": "https://www.aliexpress.com/item/1005009306467710.html?pdp_npi=6%40dis%21USD%2120.00%2110.67%21%21%2120.00%2110.67%21%40212a7b8d17794264296977627e0fd7%2112000048687486580%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192159/products/1005009306467710.webp",
@@ -251,15 +251,15 @@
       "sales_volume": 84,
       "score": 0.2237,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:20Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:45Z",
+      "updated_at": "2026-05-22T23:00:45Z"
     },
     {
       "product_id": "1005004779246205",
       "title": "Tuya Zigbee 3.0 Smart Door Window Sensor Zigbee2MQTT Detectors Security Protection Smart Life APP Control Via Alexa Google Home",
       "slug": "tuya-zigbee-30-smart-door-window-sensor-zigbee2mqtt-detector",
-      "price": "8.28",
-      "original_price": "13.80",
+      "price": 8.28,
+      "original_price": 13.8,
       "discount_pct": 40,
       "affiliate_url": "https://www.aliexpress.com/item/1005004779246205.html?pdp_npi=6%40dis%21USD%2113.80%218.28%21%21%2113.80%218.28%21%402141149b17794264313486409e11bb%2112000030453490901%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192161/products/1005004779246205.webp",
@@ -269,15 +269,15 @@
       "sales_volume": 11,
       "score": 0.2163,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:20Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:46Z",
+      "updated_at": "2026-05-22T23:00:46Z"
     },
     {
       "product_id": "1005006118602003",
       "title": "MOES Smart EU/US/UK Plug Matter WiFi Socket 15/16A Timer Outlet Power Monitor Support TUYA  Apple Homekit with Google Home Alexa",
       "slug": "moes-smart-euusuk-plug-matter-wifi-socket-1516a-timer-outlet",
-      "price": "14.29",
-      "original_price": "21.65",
+      "price": 14.29,
+      "original_price": 21.65,
       "discount_pct": 34,
       "affiliate_url": "https://www.aliexpress.com/item/1005006118602003.html?pdp_npi=6%40dis%21USD%2121.65%2114.29%21%21%2121.65%2114.29%21%400b8ded7b17794264231157414e11eb%2112000035837124947%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192163/products/1005006118602003.webp",
@@ -287,15 +287,15 @@
       "sales_volume": 11,
       "score": 0.2033,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:20Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:46Z",
+      "updated_at": "2026-05-22T23:00:46Z"
     },
     {
       "product_id": "1005004966987077",
       "title": "Zigbee Dimmable Magnetic Track Pendant Light LED WiFi Tuya Corner Lamp Smart Speaker Voice Control Rail Right Angle Floodlight",
       "slug": "zigbee-dimmable-magnetic-track-pendant-light-led-wifi-tuya-c",
-      "price": "27.72",
-      "original_price": "46.20",
+      "price": 27.72,
+      "original_price": 46.2,
       "discount_pct": 40,
       "affiliate_url": "https://www.aliexpress.com/item/1005004966987077.html?pdp_npi=6%40dis%21USD%2146.20%2127.72%21%21%2146.20%2127.72%21%40214114e317794264254307562e11b1%2112000031184349149%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779426441/products/1005004966987077.webp",
@@ -305,15 +305,15 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:22Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:47Z",
+      "updated_at": "2026-05-22T23:00:47Z"
     },
     {
       "product_id": "1005003568997399",
       "title": "Shelly Pro 4PM Four Channels Relay LAN Wifi Switch Suitable For Home Facility Automation With Remote Control Power Metering",
       "slug": "shelly-pro-4pm-four-channels-relay-lan-wifi-switch-suitable-",
-      "price": "118.10",
-      "original_price": "166.34",
+      "price": 118.1,
+      "original_price": 166.34,
       "discount_pct": 29,
       "affiliate_url": "https://www.aliexpress.com/item/1005003568997399.html?pdp_npi=6%40dis%21USD%21166.34%21118.10%21%21%21166.34%21118.10%21%400b8ded7b17794264231157414e11eb%2112000026333719852%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779426442/products/1005003568997399.webp",
@@ -323,15 +323,15 @@
       "sales_volume": 106,
       "score": 0.1997,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:23Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:47Z",
+      "updated_at": "2026-05-22T23:00:47Z"
     },
     {
       "product_id": "1005008650696927",
       "title": "for Volvo S90 V90 XC60 2016-2025 Dash Cam Front Rear Camera DVR Plug and Play Video Recorder Night Vision Parking 2160P Parking",
       "slug": "for-volvo-s90-v90-xc60-2016-2025-dash-cam-front-rear-camera-",
-      "price": "116.07",
-      "original_price": "173.24",
+      "price": 116.07,
+      "original_price": 173.24,
       "discount_pct": 33,
       "affiliate_url": "https://www.aliexpress.com/item/1005008650696927.html?pdp_npi=6%40dis%21USD%21173.24%21116.07%21%21%211172.14%21785.33%21%40212a7b8d17794264296977627e0fd7%2112000046098071676%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779426443/products/1005008650696927.webp",
@@ -341,15 +341,15 @@
       "sales_volume": 1,
       "score": 0.1991,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:24Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:48Z",
+      "updated_at": "2026-05-22T23:00:48Z"
     },
     {
       "product_id": "1005004883431928",
       "title": "Outdoor Tuya Wifi LED Smart Wall Lamps 10W Cube RGB App Dimmable Sconce Waterproof Garden Alexa Google Home Wall Light AC85-265V",
       "slug": "outdoor-tuya-wifi-led-smart-wall-lamps-10w-cube-rgb-app-dimm",
-      "price": "18.48",
-      "original_price": "31.33",
+      "price": 18.48,
+      "original_price": 31.33,
       "discount_pct": 41,
       "affiliate_url": "https://www.aliexpress.com/item/1005004883431928.html?pdp_npi=6%40dis%21USD%2131.33%2118.48%21%21%2131.33%2118.48%21%40214114e317794264254307562e11b1%2112000030881641630%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779426445/products/1005004883431928.webp",
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.1983,
       "price_history": [],
-      "fetched_at": "2026-05-22T05:07:25Z",
-      "updated_at": "2026-05-22T19:48:52Z"
+      "fetched_at": "2026-05-22T23:00:48Z",
+      "updated_at": "2026-05-22T23:00:48Z"
     }
   ]
 }
