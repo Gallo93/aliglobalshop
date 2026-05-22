@@ -1,66 +1,46 @@
 {
-  "updated_at": "2026-05-21T08:34:05Z",
+  "updated_at": "2026-05-22T03:00:34Z",
   "min_discount_pct": 30,
   "products": [
     {
-      "product_id": "1005012227794949",
-      "title": "240W 2-in-1 Folding Phone Charger & Data Cable with Type-C - Fast Charging, Multi-Angle Adjustable Bracket & Clip- Stand",
-      "slug": "240w-2-in-1-folding-phone-charger-data-cable-with-type-c-fas",
-      "price": "1.14",
-      "original_price": "3.80",
-      "discount_pct": 70,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012227794949.html?pdp_npi=6%40dis%21USD%213.80%211.14%21%21%2125.71%217.71%21%402151fce817793524283756118e0e31%2112000057802789930%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779332427/coupons/1005012227794949.webp"
-    },
-    {
-      "product_id": "1005008057413519",
-      "title": "LED Dual USB 5V 2.4A Micro/Type-C USB Mobile Power Bank 18650 Charging Module Lithium Battery Charger Board Circuit Protection",
-      "slug": "led-dual-usb-5v-24a-microtype-c-usb-mobile-power-bank-18650-",
-      "price": "5.89",
-      "original_price": "17.86",
-      "discount_pct": 67,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008057413519.html?pdp_npi=6%40dis%21USD%2117.86%215.89%21%21%21120.79%2139.86%21%402151fce817793524283756118e0e31%2112000043480823079%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779332428/coupons/1005008057413519.webp"
-    },
-    {
-      "product_id": "1005005799747129",
-      "title": "1pc 130mm Metal Copper Menmory Wire Collar Hoop",
-      "slug": "1pc-130mm-metal-copper-menmory-wire-collar-hoop",
-      "price": "2.98",
-      "original_price": "8.52",
+      "product_id": "1005006712095866",
+      "title": "Jumping Meters 2-8T Princess Girls Dresses For Summer Children's Clothing Striped Unicorn Baby Birthday Dresses Kids Costume",
+      "slug": "jumping-meters-2-8t-princess-girls-dresses-for-summer-childr",
+      "price": "10.97",
+      "original_price": "31.34",
       "discount_pct": 65,
-      "affiliate_url": "https://www.aliexpress.com/item/1005005799747129.html?pdp_npi=6%40dis%21USD%218.52%212.98%21%21%2157.63%2120.17%21%400b8ded7b17793524331488844e10c4%2112000034394237592%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204948/coupons/1005005799747129.webp"
+      "affiliate_url": "https://www.aliexpress.com/item/1005006712095866.html?pdp_npi=6%40dis%21USD%2131.34%2110.97%21%21%21211.91%2174.17%21%402140da8b17794188168618636e1096%2112000038450799024%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418826/coupons/1005006712095866.webp"
     },
     {
-      "product_id": "1005008295009333",
-      "title": "6 in 1 Circle Box Multi Usb Charging Adapter Cable Kit USB Charge Cable Travel Adapters For Traveling",
-      "slug": "6-in-1-circle-box-multi-usb-charging-adapter-cable-kit-usb-c",
-      "price": "0.83",
-      "original_price": "2.23",
-      "discount_pct": 63,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008295009333.html?pdp_npi=6%40dis%21USD%212.23%210.83%21%21%212.23%210.83%21%402151fce817793524283756118e0e31%2112000044522683289%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779332430/coupons/1005008295009333.webp"
+      "product_id": "1005006888383989",
+      "title": "Jumping Meters 2-7T Summer Girls Dresses Rainbow Beading Short Sleeve Dots Party Children's Clothes Toddler Frocks Costume",
+      "slug": "jumping-meters-2-7t-summer-girls-dresses-rainbow-beading-sho",
+      "price": "11.37",
+      "original_price": "32.50",
+      "discount_pct": 65,
+      "affiliate_url": "https://www.aliexpress.com/item/1005006888383989.html?pdp_npi=6%40dis%21USD%2132.50%2111.37%21%21%21219.75%2176.91%21%402140da8b17794188168618636e1096%2112000038762841010%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418827/coupons/1005006888383989.webp"
     },
     {
-      "product_id": "1005012300574623",
-      "title": "USB Flash Drive Case Storage Case Holder Storage Bag USB Flash Drive Electronic Accessories Organizer For USB Flash 【AliS8】",
-      "slug": "usb-flash-drive-case-storage-case-holder-storage-bag-usb-fla",
-      "price": "4.94",
-      "original_price": "12.66",
-      "discount_pct": 61,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012300574623.html?pdp_npi=6%40dis%21USD%2112.66%214.94%21%21%2185.60%2133.38%21%402151fce817793524283756118e0e31%2112000057992007350%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779332430/coupons/1005012300574623.webp"
+      "product_id": "1005008097247918",
+      "title": "Jumping Meters  2-7 Years Summer Princess Baby Girls Dresses Dots Ice Cream Applique Party Birthday Kids Short Sleeve Frocks",
+      "slug": "jumping-meters-2-7-years-summer-princess-baby-girls-dresses-",
+      "price": "10.29",
+      "original_price": "28.58",
+      "discount_pct": 64,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008097247918.html?pdp_npi=6%40dis%21USD%2128.58%2110.29%21%21%21193.27%2169.58%21%402140da8b17794188168618636e1096%2112000043718903893%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418828/coupons/1005008097247918.webp"
     },
     {
-      "product_id": "1005010259712234",
-      "title": "Four-Dimensional Space Supercube Creative Abyss Night Parts Assembly Electronic DIY Engineering Soldering Practice Kit Gift",
-      "slug": "four-dimensional-space-supercube-creative-abyss-night-parts-",
-      "price": "7.03",
-      "original_price": "17.15",
+      "product_id": "1005010278593660",
+      "title": "2026 NEW 180 MX Motocross Jersey and Pants Race Combo Enduro DH Dirt Bike Gear Set Off-road MTB ATV Moto Suit",
+      "slug": "2026-new-180-mx-motocross-jersey-and-pants-race-combo-enduro",
+      "price": "53.97",
+      "original_price": "129.46",
       "discount_pct": 58,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010259712234.html?pdp_npi=6%40dis%21USD%2117.15%217.03%21%21%21115.96%2147.55%21%402151fce817793524283756118e0e31%2112000051698951815%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779332431/coupons/1005010259712234.webp"
+      "affiliate_url": "https://www.aliexpress.com/item/1005010278593660.html?pdp_npi=6%40dis%21USD%21129.46%2153.97%21%21%21875.34%21364.93%21%4021013cc617794188208327444e0eb1%2112000052642996534%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418828/coupons/1005010278593660.webp"
     },
     {
       "product_id": "1005008568402273",
@@ -69,7 +49,7 @@
       "price": "26.31",
       "original_price": "63.43",
       "discount_pct": 58,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008568402273.html?pdp_npi=6%40dis%21USD%2163.43%2126.31%21%21%21428.87%21177.88%21%40214114e317793524377258503e112d%2112000045767989832%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008568402273.html?pdp_npi=6%40dis%21USD%2163.43%2126.31%21%21%21428.87%21177.88%21%402140da8b17794188246351806e1096%2112000045767989832%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204949/coupons/1005008568402273.webp"
     },
     {
@@ -79,18 +59,8 @@
       "price": "19.52",
       "original_price": "47.15",
       "discount_pct": 58,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012188833385.html?pdp_npi=6%40dis%21USD%2147.15%2119.52%21%21%21318.83%21131.99%21%40214114e317793524377258503e112d%2112000057735258956%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012188833385.html?pdp_npi=6%40dis%21USD%2147.15%2119.52%21%21%21318.83%21131.99%21%402140da8b17794188246351806e1096%2112000057735258956%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204949/coupons/1005012188833385.webp"
-    },
-    {
-      "product_id": "1005012095796789",
-      "title": "USB-C Super Fast Charging Charger with Foldable Phone Stand & Braided Fast Charging Cable",
-      "slug": "usb-c-super-fast-charging-charger-with-foldable-phone-stand-",
-      "price": "2.06",
-      "original_price": "4.69",
-      "discount_pct": 56,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012095796789.html?pdp_npi=6%40dis%21USD%214.69%212.06%21%21%2131.70%2113.95%21%402151fce817793524283756118e0e31%2112000057508278118%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779332433/coupons/1005012095796789.webp"
     },
     {
       "product_id": "1005012198573494",
@@ -99,7 +69,7 @@
       "price": "4.36",
       "original_price": "10.09",
       "discount_pct": 56,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012198573494.html?pdp_npi=6%40dis%21USD%2110.09%214.36%21%21%2168.19%2129.42%21%40214114e317793524377258503e112d%2112000057756004122%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012198573494.html?pdp_npi=6%40dis%21USD%2110.09%214.36%21%21%2168.19%2129.42%21%402140da8b17794188246351806e1096%2112000057756004122%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779246029/coupons/1005012198573494.webp"
     },
     {
@@ -109,7 +79,7 @@
       "price": "4.15",
       "original_price": "9.22",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012249135505.html?pdp_npi=6%40dis%21USD%219.22%214.15%21%21%2162.35%2128.06%21%40214114e317793524377258503e112d%2112000057865321643%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012249135505.html?pdp_npi=6%40dis%21USD%219.22%214.15%21%21%2162.35%2128.06%21%402140da8b17794188246351806e1096%2112000057865321643%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779246030/coupons/1005012249135505.webp"
     },
     {
@@ -119,8 +89,38 @@
       "price": "5.39",
       "original_price": "11.98",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008762457614.html?pdp_npi=6%40dis%21USD%2111.98%215.39%21%21%2111.98%215.39%21%40214114e317793524377258503e112d%2112000046561743858%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008762457614.html?pdp_npi=6%40dis%21USD%2111.98%215.39%21%21%2111.98%215.39%21%402140da8b17794188246351806e1096%2112000046561743858%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204951/coupons/1005008762457614.webp"
+    },
+    {
+      "product_id": "1005010119957659",
+      "title": "2026 For Haigen Deegan Motocross Gear Set MX Jersey Set Moto Suit Off Road Dirt Bike Combo",
+      "slug": "2026-for-haigen-deegan-motocross-gear-set-mx-jersey-set-moto",
+      "price": "55.11",
+      "original_price": "119.80",
+      "discount_pct": 54,
+      "affiliate_url": "https://www.aliexpress.com/item/1005010119957659.html?pdp_npi=6%40dis%21USD%21119.80%2155.11%21%21%21810.03%21372.61%21%4021013cc617794188208327444e0eb1%2112000051211361718%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418832/coupons/1005010119957659.webp"
+    },
+    {
+      "product_id": "1005012279365133",
+      "title": "2026.5 Prime Pro Motocross Gear Set Enduro Jersey and Pants MX Race Combo DH Dirt Bike Gear Set Off-road ATV Moto Suit",
+      "slug": "20265-prime-pro-motocross-gear-set-enduro-jersey-and-pants-m",
+      "price": "62.94",
+      "original_price": "133.91",
+      "discount_pct": 53,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012279365133.html?pdp_npi=6%40dis%21USD%21133.91%2162.94%21%21%21905.43%21425.55%21%4021013cc617794188208327444e0eb1%2112000057952175997%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418833/coupons/1005012279365133.webp"
+    },
+    {
+      "product_id": "1005008555896822",
+      "title": "Clearance Sale Leather for Magsafe Phone Case for Apple iPhone 13 Pro Max 13 Mini Bracket Magnetic Back Cover with Card Holder",
+      "slug": "clearance-sale-leather-for-magsafe-phone-case-for-apple-ipho",
+      "price": "4.70",
+      "original_price": "9.99",
+      "discount_pct": 53,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.70%21%21%219.99%214.70%21%402140d36217794188230274950e0f7f%2112000045695796771%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204953/coupons/1005008555896822.webp"
     }
   ]
 }
