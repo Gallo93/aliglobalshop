@@ -101,7 +101,6 @@ def meta_desc_from_product(product: dict) -> str:
 
 
 def product_card_html(product: dict, category_slug: str, site_url: str) -> str:
-    href = f"{site_url}/en/{category_slug}/{esc(product.get('slug', ''))}/ "
     href = f"{site_url}/en/{category_slug}/{esc(product.get('slug', ''))}/"
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
@@ -222,7 +221,6 @@ def related_products_section_html(
         f'<h2 class="related-products__title">Top {cat_name} deals right now</h2>'
         f'<div class="product-grid">{cards}</div>'
         f'<p class="related-products__cta">'
-        f'<a class="btn-cta" href="{site_url}/en/{category_slug}/ ">'
         f'<a class="btn-cta" href="{site_url}/en/{category_slug}/">'
         f'Browse all {cat_name} deals →</a></p>'
         f'</section>'
