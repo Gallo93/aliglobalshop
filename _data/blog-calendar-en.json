@@ -52,7 +52,8 @@
     "primary_keyword": "is aliexpress safe uk",
     "category": "gadgets",
     "intent": "informational",
-    "used": false
+    "used": true,
+    "used_at": "2026-05-22"
   },
   {
     "topic": "Best AliExpress smartwatches under $50: 2026 picks",
