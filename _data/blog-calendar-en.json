@@ -60,7 +60,8 @@
     "primary_keyword": "best aliexpress smartwatches under 50",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-05-22"
   },
   {
     "topic": "Smart bulbs and plugs on AliExpress: which brands to trust",
