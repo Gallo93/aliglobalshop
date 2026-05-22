@@ -1,4 +1,5 @@
-"""Static site generator for AliGlobalShop EN.
+"""
+Static site generator for AliGlobalShop EN.
 
 Reads JSON in _data/ + templates in _templates/, writes HTML in en/.
 Uses str.replace for {{KEY}} placeholders — no Jinja.
@@ -100,6 +101,7 @@ def meta_desc_from_product(product: dict) -> str:
 
 
 def product_card_html(product: dict, category_slug: str, site_url: str) -> str:
+    href = f"{site_url}/en/{category_slug}/{esc(product.get('slug', ''))}/ "
     href = f"{site_url}/en/{category_slug}/{esc(product.get('slug', ''))}/"
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
@@ -220,10 +222,31 @@ def related_products_section_html(
         f'<h2 class="related-products__title">Top {cat_name} deals right now</h2>'
         f'<div class="product-grid">{cards}</div>'
         f'<p class="related-products__cta">'
+        f'<a class="btn-cta" href="{site_url}/en/{category_slug}/ ">'
         f'<a class="btn-cta" href="{site_url}/en/{category_slug}/">'
         f'Browse all {cat_name} deals →</a></p>'
         f'</section>'
     )
+
+
+def _extract_faq_schema(content_html: str) -> str:
+    """Build FAQPage JSON-LD from <details>/<summary> pairs in blog content."""
+    pairs = re.findall(
+        r'<summary[^>]*>(.*?)</summary>\s*<(?:p|div)[^>]*>(.*?)</(?:p|div)>',
+        content_html, re.DOTALL | re.IGNORECASE
+    )
+    if not pairs:
+        return ''
+    items = [
+        {
+            "@type": "Question",
+            "name": re.sub(r'<[^>]+>', '', q).strip(),
+            "acceptedAnswer": {"@type": "Answer", "text": re.sub(r'<[^>]+>', '', a).strip()}
+        }
+        for q, a in pairs
+    ]
+    schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": items}
+    return f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
 
 
 def base_context(site_url: str) -> dict:
@@ -289,7 +312,7 @@ def build_products(site_url: str, products_by_cat: dict) -> None:
         ctx.update({
             "canonical_url": f"{site_url}/en/{cat_slug}/{product_slug}/",
             "title": esc(product.get("title", "")),
-            "title_short": esc(short_title(product.get("title", ""), 60)),
+            "title_short": esc(short_title(product.get("title", ""), 43)),
             "meta_description": esc(meta_desc_from_product(product)),
             "category_slug": cat_slug,
             "category_name": CATEGORY_NAMES.get(cat_slug, cat_slug.title()),
@@ -335,6 +358,11 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
             category_slug, products_by_cat, site_url, limit=4
         )
         og_image = f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
+        content_html = article.get("content_html", article.get("content", ""))
+        # strip any <h1> the AI may have added — template already renders the title as H1
+        content_html = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content_html, flags=re.IGNORECASE)
+        content_html = re.sub(r'</h1>', '</h2>', content_html, flags=re.IGNORECASE)
+        faq_schema_html = _extract_faq_schema(content_html)
         ctx = base_context(site_url)
         ctx.update({
             "canonical_url": f"{site_url}/en/blog/{slug}/",
@@ -343,12 +371,13 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
             "slug": esc(slug),
             "date": esc(article.get("date", "")),
             "meta_description": esc(article.get("meta_desc", article.get("meta_description", ""))),
-            "content_html": article.get("content_html", article.get("content", "")),
+            "content_html": content_html,
             "reading_time_min": esc(article.get("reading_time_min", 5)),
             "og_image": og_image,
             "category_slug": esc(category_slug),
             "category_name": esc(CATEGORY_NAMES.get(category_slug, category_slug.title())),
             "related_products_section": related_section,
+            "faq_schema_html": faq_schema_html,
         })
         write_file(
             OUTPUT_DIR / "blog" / slug / "index.html",
