@@ -39,6 +39,19 @@ CATEGORY_PARTICLES = {
     "gadgets": "glitch",
 }
 
+_SPECIFIC_PRODUCT_TERMS = [
+    (re.compile(r'\bearbuds?\b|\bearphone\b|\bheadphone\b|\bheadset\b', re.I),
+     ["earbuds", "earphone", "headphone", "headset", "airpod"]),
+    (re.compile(r'\bvacuum\b', re.I),
+     ["vacuum"]),
+    (re.compile(r'\bbulbs?\b', re.I),
+     ["bulb"]),
+    (re.compile(r'\bsmartwatche?s?\b|\bsmart\s+watch\b', re.I),
+     ["smartwatch", "smart watch"]),
+    (re.compile(r'\bhome\s+gym\b|\bgym\s+equipment\b|\bdumbbell\b|\btreadmill\b', re.I),
+     ["gym", "dumbbell", "treadmill", "barbell", "kettlebell"]),
+]
+
 STATIC_PAGES = [
     ("privacy", "Privacy Policy"),
     ("about", "About AliGlobalShop"),
@@ -222,16 +235,22 @@ def article_card_html(article: dict, site_url: str) -> str:
 
 
 def related_products_section_html(
-    category_slug: str, products_by_cat: dict, site_url: str, limit: int = 4, max_price: float = None
+    category_slug: str, products_by_cat: dict, site_url: str, limit: int = 4, max_price: float = None, topic_kws=None
 ) -> str:
     if not category_slug or category_slug not in products_by_cat:
         return ""
     all_products = products_by_cat[category_slug].get("products", [])
+    candidates = all_products
+    if topic_kws:
+        _topic_pat = re.compile('|'.join(re.escape(k) for k in topic_kws), re.IGNORECASE)
+        _topic_matches = [p for p in all_products if _topic_pat.search(p.get("title", ""))]
+        if len(_topic_matches) < 2:
+            return ""
+        candidates = _topic_matches
     if max_price is not None:
-        filtered = [p for p in all_products if _price_val(p) <= max_price]
-        products = filtered[:limit] if len(filtered) >= 2 else all_products[:limit]
-    else:
-        products = all_products[:limit]
+        _price_filtered = [p for p in candidates if _price_val(p) <= max_price]
+        candidates = _price_filtered if len(_price_filtered) >= 2 else candidates
+    products = candidates[:limit]
     if not products:
         return ""
     cat_name = CATEGORY_NAMES.get(category_slug, category_slug.title())
@@ -413,8 +432,15 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
         title = article.get("title", "")
         primary_kw = article.get("primary_keyword", "")
         max_price = _extract_price_ceiling(title) or _extract_price_ceiling(primary_kw)
+        combined = f"{title} {primary_kw}"
+        topic_kws = None
+        for _detect_pat, _filter_kws in _SPECIFIC_PRODUCT_TERMS:
+            if _detect_pat.search(combined):
+                topic_kws = _filter_kws
+                break
         related_section = related_products_section_html(
-            category_slug, products_by_cat, site_url, limit=4, max_price=max_price
+            category_slug, products_by_cat, site_url, limit=4,
+            max_price=max_price, topic_kws=topic_kws
         )
         og_image = f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
         content_html = article.get("content_html", article.get("content", ""))
