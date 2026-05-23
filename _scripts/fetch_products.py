@@ -44,8 +44,8 @@ NICHES = {
         "wireless earbuds bluetooth",
         "bluetooth speaker portable",
         "led strip lights smart",
-        "smartwatch fitness tracker",
-        "phone case iphone",
+        "power bank fast charging",
+        "wireless charging pad",
     ],
     "smart-home": [
         "smart wifi plug",
@@ -75,6 +75,31 @@ BLACKLIST_PATTERNS = [re.compile(p, re.I) for p in [
     r"\bshock absorber\b", r"\btrailer\b", r"\bfreezer\b", r"\bcigar\b",
     r"\bindustrial\b", r"\bforklift\b", r"\bboiler\b", r"\bautomotive\b",
 ]]
+
+TYPE_PATTERNS = {
+    "watch": re.compile(r"\bsmartwatch\b|\bsmart watch\b|\bwatch\b", re.I),
+    "earbuds": re.compile(r"\bearbuds\b|\bearphone\b|\bheadphone\b|\bheadset\b|\bairpod", re.I),
+    "phone_case": re.compile(r"\bphone case\b|\bcase.*iphone\b|\biphone.*case\b", re.I),
+    "speaker": re.compile(r"\bspeaker\b", re.I),
+}
+MAX_PER_TYPE = 3
+
+def cap_per_type(products: list) -> list:
+    counts: dict = {}
+    result = []
+    for p in products:
+        title = p.get("product_title", p.get("title", ""))
+        ptype = None
+        for t, pat in TYPE_PATTERNS.items():
+            if pat.search(title):
+                ptype = t
+                break
+        if ptype:
+            if counts.get(ptype, 0) >= MAX_PER_TYPE:
+                continue
+            counts[ptype] = counts.get(ptype, 0) + 1
+        result.append(p)
+    return result
 
 MAX_PRICE_USD = 200.0
 MIN_DISCOUNT_PCT = 5.0
@@ -268,7 +293,7 @@ def fetch_niche(niche: str, keywords: list) -> list:
         seen_ids.add(pid)
         filtered.append(p)
 
-    scored = sorted(filtered, key=score_product, reverse=True)[:20]
+    scored = cap_per_type(sorted(filtered, key=score_product, reverse=True))[:20]
     return scored
 
 
