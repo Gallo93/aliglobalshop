@@ -1,85 +1,7 @@
 {
-  "updated_at": "2026-05-23T18:00:28Z",
-  "expires_at": "2026-05-23T19:00:23Z",
+  "updated_at": "2026-05-23T19:00:32Z",
+  "expires_at": "2026-05-23T20:00:24Z",
   "products": [
-    {
-      "product_id": "1005010297517694",
-      "title": "2025 New Watch 5 Pro Fashion Sports Smart Watch Men 1.52'' Full Touch Screen Heart Rate GPS Track Sport Fitness Call SmartWatch",
-      "slug": "2025-new-watch-5-pro-fashion-sports-smart-watch-men-152-full",
-      "price": "31.60",
-      "original_price": "351.07",
-      "discount_pct": 91,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010297517694.html?pdp_npi=6%40dis%21USD%21351.07%2131.60%21%21%212375.28%21213.78%21%40210152bd17795592174623534e0e29%2112000051836751596%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204507/flash-sale/1005010297517694.webp",
-      "rating": 4.8,
-      "reviews_count": 5,
-      "expires_at": "2026-05-23T19:00:23Z"
-    },
-    {
-      "product_id": "1005012285245209",
-      "title": "Tuya WiFi Smart Light Switch Glass Touch Control Fireproof No Neutral Wire Required Remote Control Alexa Google Home Compatible",
-      "slug": "tuya-wifi-smart-light-switch-glass-touch-control-fireproof-n",
-      "price": "4.71",
-      "original_price": "47.06",
-      "discount_pct": 90,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012285245209.html?pdp_npi=6%40dis%21USD%2147.06%214.71%21%21%2147.06%214.71%21%4021013cc617795592153722985e11eb%2112000057988474636%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204515/flash-sale/1005012285245209.webp",
-      "rating": 0.0,
-      "reviews_count": 0,
-      "expires_at": "2026-05-23T19:00:23Z"
-    },
-    {
-      "product_id": "1005012093132454",
-      "title": "Smart WiFi Thermohygrometer with 2 Remote Sensors, Smart Life APP Control, Works with Alexa Google Home Yandex Alice, Wireless T",
-      "slug": "smart-wifi-thermohygrometer-with-2-remote-sensors-smart-life",
-      "price": "14.64",
-      "original_price": "91.52",
-      "discount_pct": 84,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012093132454.html?pdp_npi=6%40dis%21USD%2191.52%2114.64%21%21%21619.24%2199.08%21%4021013cc617795592153722985e11eb%2112000057488179195%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204509/flash-sale/1005012093132454.webp",
-      "rating": 0.0,
-      "reviews_count": 1,
-      "expires_at": "2026-05-23T19:00:23Z"
-    },
-    {
-      "product_id": "1005012258087808",
-      "title": "Super A3 For New Pro 3 ANC TWS Wireless Bluetooth Earphones Pro 3 Cancellation Headset Cancellation Earbuds for iOS Android",
-      "slug": "super-a3-for-new-pro-3-anc-tws-wireless-bluetooth-earphones-",
-      "price": "16.22",
-      "original_price": "85.40",
-      "discount_pct": 81,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012258087808.html?pdp_npi=6%40dis%21USD%2185.40%2116.22%21%21%21577.83%21109.79%21%4021013cc617795592153722985e11eb%2112000057909726117%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204510/flash-sale/1005012258087808.webp",
-      "rating": 0.0,
-      "reviews_count": 3,
-      "expires_at": "2026-05-23T19:00:23Z"
-    },
-    {
-      "product_id": "1005012093428168",
-      "title": "Smart WiFi Wall Light Switch/Mobile App Control/White /Black/ Luxury Tempered Glass Panel/1/2/3/4 Gang /Neutral Wire Required",
-      "slug": "smart-wifi-wall-light-switchmobile-app-controlwhite-black-lu",
-      "price": "7.73",
-      "original_price": "40.68",
-      "discount_pct": 81,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012093428168.html?pdp_npi=6%40dis%21USD%2140.68%217.73%21%21%21275.22%2152.29%21%4021013cc617795592153722985e11eb%2112000057504294153%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779214049/flash-sale/1005012093428168.webp",
-      "rating": 0.0,
-      "reviews_count": 5,
-      "expires_at": "2026-05-23T19:00:23Z"
-    },
-    {
-      "product_id": "1005010406153200",
-      "title": "2025 Men's Smart Watch with Wireless Calling, Dual Straps (Stainless Steel+Silicone), Step Counter Flashlight & Message Reminder",
-      "slug": "2025-mens-smart-watch-with-wireless-calling-dual-straps-stai",
-      "price": "8.33",
-      "original_price": "45.21",
-      "discount_pct": 81,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010406153200.html?pdp_npi=6%40dis%21USD%2145.21%218.33%21%21%21305.91%2156.36%21%4021013cc617795592153722985e11eb%2112000052302453450%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204512/flash-sale/1005010406153200.webp",
-      "rating": 4.2,
-      "reviews_count": 188,
-      "expires_at": "2026-05-23T19:00:23Z"
-    },
     {
       "product_id": "1005008663863645",
       "title": "2025 New Built-in Dual-band GPS Smart Watch Men Smartwatch Compass Altimeter Barometric 5ATM IP69K Waterproof AMOLED HD Watche",
@@ -87,11 +9,11 @@
       "price": "42.84",
       "original_price": "214.20",
       "discount_pct": 80,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%40210152bd17795592174623534e0e29%2112000046147626295%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%402140d36217795628190532946e123a%2112000046147626295%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
       "rating": 5.0,
       "reviews_count": 1,
-      "expires_at": "2026-05-23T19:00:23Z"
+      "expires_at": "2026-05-23T20:00:24Z"
     },
     {
       "product_id": "1005012159681036",
@@ -100,24 +22,11 @@
       "price": "12.68",
       "original_price": "54.19",
       "discount_pct": 76,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.19%2112.68%21%21%21366.66%2185.80%21%40210152bd17795592174623534e0e29%2112000057669786535%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.19%2112.68%21%21%21366.66%2185.80%21%402140d36217795628190532946e123a%2112000057669786535%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
       "rating": 0.0,
       "reviews_count": 27,
-      "expires_at": "2026-05-23T19:00:23Z"
-    },
-    {
-      "product_id": "1005012172541245",
-      "title": "Tuya Zigbee Smart Temperature Humidity Sensor Indoor Hygrometer Thermometer Home Automation Real-time Data Works With Alexa",
-      "slug": "tuya-zigbee-smart-temperature-humidity-sensor-indoor-hygrome",
-      "price": "5.57",
-      "original_price": "21.41",
-      "discount_pct": 74,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012172541245.html?pdp_npi=6%40dis%21USD%2121.41%215.57%21%21%21144.87%2137.67%21%4021013cc617795592153722985e11eb%2112000057697428361%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204516/flash-sale/1005012172541245.webp",
-      "rating": 0.0,
-      "reviews_count": 2,
-      "expires_at": "2026-05-23T19:00:23Z"
+      "expires_at": "2026-05-23T20:00:24Z"
     },
     {
       "product_id": "1005008264604373",
@@ -126,11 +35,102 @@
       "price": "35.36",
       "original_price": "121.93",
       "discount_pct": 71,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%40210152bd17795592174623534e0e29%2112000044412070783%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402140d36217795628190532946e123a%2112000044412070783%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
       "rating": 4.5,
       "reviews_count": 11,
-      "expires_at": "2026-05-23T19:00:23Z"
+      "expires_at": "2026-05-23T20:00:24Z"
+    },
+    {
+      "product_id": "1005008777514905",
+      "title": "Meross Matter Smart DIY Wi-Fi Switch with Energy Monitor Remote and Voice Control Support Homekit",
+      "slug": "meross-matter-smart-diy-wi-fi-switch-with-energy-monitor-rem",
+      "price": "14.39",
+      "original_price": "35.97",
+      "discount_pct": 60,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008777514905.html?pdp_npi=6%40dis%21USD%2135.97%2114.39%21%21%2135.97%2114.39%21%40210152bd17795628170148102e10e0%2112000046628520559%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562826/flash-sale/1005008777514905.webp",
+      "rating": 4.6,
+      "reviews_count": 130,
+      "expires_at": "2026-05-23T20:00:24Z"
+    },
+    {
+      "product_id": "1005012223355500",
+      "title": "Tuya WiFi Smart Temperature Humidity Sensor Smart Life APP Remote Monitoring Alexa Google Home Voice Control",
+      "slug": "tuya-wifi-smart-temperature-humidity-sensor-smart-life-app-r",
+      "price": "6.73",
+      "original_price": "15.64",
+      "discount_pct": 57,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012223355500.html?pdp_npi=6%40dis%21USD%2115.64%216.73%21%21%21105.80%2145.49%21%40210152bd17795628170148102e10e0%2112000057855717488%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562826/flash-sale/1005012223355500.webp",
+      "rating": 0.0,
+      "reviews_count": 6,
+      "expires_at": "2026-05-23T20:00:24Z"
+    },
+    {
+      "product_id": "1005011895480025",
+      "title": "MOES Tuya WiFi Water Timer Smart Valve Controller Brass Inlet&Outlet IP65 Waterproof  APP Voice Control Work With Alexa Google",
+      "slug": "moes-tuya-wifi-water-timer-smart-valve-controller-brass-inle",
+      "price": "61.00",
+      "original_price": "135.55",
+      "discount_pct": 55,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011895480025.html?pdp_npi=6%40dis%21USD%21135.55%2161.00%21%21%21917.11%21412.70%21%40210152bd17795628170148102e10e0%2112000057613352980%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562828/flash-sale/1005011895480025.webp",
+      "rating": 0.0,
+      "reviews_count": 1,
+      "expires_at": "2026-05-23T20:00:24Z"
+    },
+    {
+      "product_id": "1005011724105665",
+      "title": "Multifunctional Mini Portable Bluetooth Radio Music Player Built-in Speaker DSP FM Stereo Radios Alarm Clock Rechargeable",
+      "slug": "multifunctional-mini-portable-bluetooth-radio-music-player-b",
+      "price": "17.67",
+      "original_price": "39.28",
+      "discount_pct": 55,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.28%2117.67%21%21%21265.79%21119.61%21%4021013cc617795628210513533e1290%2112000056360671631%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562829/flash-sale/1005011724105665.webp",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "expires_at": "2026-05-23T20:00:24Z"
+    },
+    {
+      "product_id": "1005010711638892",
+      "title": "Tuya Zigbee Smart Human Presence Sensor 24G mmWave Radar 20ft Motion Sensor / 15ft Static Detection Alexa Google Assistant Voice",
+      "slug": "tuya-zigbee-smart-human-presence-sensor-24g-mmwave-radar-20f",
+      "price": "19.47",
+      "original_price": "41.42",
+      "discount_pct": 53,
+      "affiliate_url": "https://www.aliexpress.com/item/1005010711638892.html?pdp_npi=6%40dis%21USD%2141.42%2119.47%21%21%21280.26%21131.72%21%40210152bd17795628170148102e10e0%2112000053272613589%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562830/flash-sale/1005010711638892.webp",
+      "rating": 4.4,
+      "reviews_count": 20,
+      "expires_at": "2026-05-23T20:00:24Z"
+    },
+    {
+      "product_id": "1005008885206416",
+      "title": "MOES Tuya ZigBee Smart battery Water Gas Valve Controller Automatic Low Power Consumption Voice Control with Alexa Google Home",
+      "slug": "moes-tuya-zigbee-smart-battery-water-gas-valve-controller-au",
+      "price": "35.65",
+      "original_price": "72.76",
+      "discount_pct": 51,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008885206416.html?pdp_npi=6%40dis%21USD%2172.76%2135.65%21%21%21492.31%21241.23%21%40210152bd17795628170148102e10e0%2112000047104621121%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562830/flash-sale/1005008885206416.webp",
+      "rating": 4.8,
+      "reviews_count": 502,
+      "expires_at": "2026-05-23T20:00:24Z"
+    },
+    {
+      "product_id": "1005012275959767",
+      "title": "SONOFF NSPanel Pro Gen2 Dual Channel Relay Smart Home Control Panel 86 Type Relay ZB 3.0 Matter Bridge Compatibility Apple Home",
+      "slug": "sonoff-nspanel-pro-gen2-dual-channel-relay-smart-home-contro",
+      "price": "149.90",
+      "original_price": "299.80",
+      "discount_pct": 50,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012275959767.html?pdp_npi=6%40dis%21USD%21299.80%21149.90%21%21%21299.80%21149.90%21%40210152bd17795628170148102e10e0%2112000057991774517%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562831/flash-sale/1005012275959767.webp",
+      "rating": 0.0,
+      "reviews_count": 1,
+      "expires_at": "2026-05-23T20:00:24Z"
     }
   ]
 }
