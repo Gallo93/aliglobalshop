@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-23T06:35:02Z",
-  "expires_at": "2026-05-23T07:34:57Z",
+  "updated_at": "2026-05-23T07:00:30Z",
+  "expires_at": "2026-05-23T08:00:26Z",
   "products": [
     {
       "product_id": "1005010297517694",
@@ -9,11 +9,11 @@
       "price": "31.60",
       "original_price": "351.07",
       "discount_pct": 91,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010297517694.html?pdp_npi=6%40dis%21USD%21351.07%2131.60%21%21%212375.28%21213.78%21%402141149b17795180928082557e1281%2112000051836751596%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010297517694.html?pdp_npi=6%40dis%21USD%21351.07%2131.60%21%21%212375.28%21213.78%21%402151fce817795196203094042e0f9a%2112000051836751596%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204507/flash-sale/1005010297517694.webp",
       "rating": 4.8,
       "reviews_count": 5,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "expires_at": "2026-05-23T08:00:26Z"
     },
     {
       "product_id": "1005012285245209",
@@ -22,11 +22,11 @@
       "price": "4.71",
       "original_price": "47.06",
       "discount_pct": 90,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012285245209.html?pdp_npi=6%40dis%21USD%2147.06%214.71%21%21%2147.06%214.71%21%402151fce817795180912154311e11ab%2112000057988474636%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012285245209.html?pdp_npi=6%40dis%21USD%2147.06%214.71%21%21%2147.06%214.71%21%402151fd3a17795196183506455e0f27%2112000057988474636%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204515/flash-sale/1005012285245209.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "expires_at": "2026-05-23T08:00:26Z"
     },
     {
       "product_id": "1005012093132454",
@@ -35,24 +35,11 @@
       "price": "14.64",
       "original_price": "91.52",
       "discount_pct": 84,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012093132454.html?pdp_npi=6%40dis%21USD%2191.52%2114.64%21%21%21619.24%2199.08%21%402151fce817795180912154311e11ab%2112000057488179195%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012093132454.html?pdp_npi=6%40dis%21USD%2191.52%2114.64%21%21%21619.24%2199.08%21%402151fd3a17795196183506455e0f27%2112000057488179195%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204509/flash-sale/1005012093132454.webp",
       "rating": 0.0,
       "reviews_count": 1,
-      "expires_at": "2026-05-23T07:34:57Z"
-    },
-    {
-      "product_id": "1005008663863645",
-      "title": "2025 New Built-in Dual-band GPS Smart Watch Men Smartwatch Compass Altimeter Barometric 5ATM IP69K Waterproof AMOLED HD Watche",
-      "slug": "2025-new-built-in-dual-band-gps-smart-watch-men-smartwatch-c",
-      "price": "38.56",
-      "original_price": "214.20",
-      "discount_pct": 82,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2138.56%21%21%21214.20%2138.56%21%402141149b17795180928082557e1281%2112000046147626295%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
-      "rating": 5.0,
-      "reviews_count": 1,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "expires_at": "2026-05-23T08:00:26Z"
     },
     {
       "product_id": "1005012258087808",
@@ -61,11 +48,11 @@
       "price": "16.22",
       "original_price": "85.40",
       "discount_pct": 81,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012258087808.html?pdp_npi=6%40dis%21USD%2185.40%2116.22%21%21%21577.83%21109.79%21%402151fce817795180912154311e11ab%2112000057909726117%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012258087808.html?pdp_npi=6%40dis%21USD%2185.40%2116.22%21%21%21577.83%21109.79%21%402151fd3a17795196183506455e0f27%2112000057909726117%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204510/flash-sale/1005012258087808.webp",
       "rating": 0.0,
       "reviews_count": 2,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "expires_at": "2026-05-23T08:00:26Z"
     },
     {
       "product_id": "1005012093428168",
@@ -74,24 +61,37 @@
       "price": "7.73",
       "original_price": "40.68",
       "discount_pct": 81,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012093428168.html?pdp_npi=6%40dis%21USD%2140.68%217.73%21%21%21275.22%2152.29%21%402151fce817795180912154311e11ab%2112000057504294153%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012093428168.html?pdp_npi=6%40dis%21USD%2140.68%217.73%21%21%21275.22%2152.29%21%402151fd3a17795196183506455e0f27%2112000057504294153%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779214049/flash-sale/1005012093428168.webp",
       "rating": 0.0,
       "reviews_count": 5,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "expires_at": "2026-05-23T08:00:26Z"
     },
     {
       "product_id": "1005010406153200",
       "title": "2025 Men's Smart Watch with Wireless Calling, Dual Straps (Stainless Steel+Silicone), Step Counter Flashlight & Message Reminder",
       "slug": "2025-mens-smart-watch-with-wireless-calling-dual-straps-stai",
-      "price": "8.44",
+      "price": "8.33",
       "original_price": "45.21",
       "discount_pct": 81,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010406153200.html?pdp_npi=6%40dis%21USD%2145.21%218.44%21%21%21305.91%2157.10%21%402151fce817795180912154311e11ab%2112000052302453450%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010406153200.html?pdp_npi=6%40dis%21USD%2145.21%218.33%21%21%21305.91%2156.36%21%402151fd3a17795196183506455e0f27%2112000052302453450%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204512/flash-sale/1005010406153200.webp",
       "rating": 4.2,
       "reviews_count": 188,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "expires_at": "2026-05-23T08:00:26Z"
+    },
+    {
+      "product_id": "1005008663863645",
+      "title": "2025 New Built-in Dual-band GPS Smart Watch Men Smartwatch Compass Altimeter Barometric 5ATM IP69K Waterproof AMOLED HD Watche",
+      "slug": "2025-new-built-in-dual-band-gps-smart-watch-men-smartwatch-c",
+      "price": "42.84",
+      "original_price": "214.20",
+      "discount_pct": 80,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%402151fce817795196203094042e0f9a%2112000046147626295%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
+      "rating": 5.0,
+      "reviews_count": 1,
+      "expires_at": "2026-05-23T08:00:26Z"
     },
     {
       "product_id": "1005012159681036",
@@ -100,11 +100,11 @@
       "price": "12.68",
       "original_price": "54.19",
       "discount_pct": 76,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.19%2112.68%21%21%21366.66%2185.80%21%402141149b17795180928082557e1281%2112000057669786535%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.19%2112.68%21%21%21366.66%2185.80%21%402151fce817795196203094042e0f9a%2112000057669786535%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
       "rating": 0.0,
       "reviews_count": 26,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "expires_at": "2026-05-23T08:00:26Z"
     },
     {
       "product_id": "1005012172541245",
@@ -113,24 +113,24 @@
       "price": "5.57",
       "original_price": "21.41",
       "discount_pct": 74,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012172541245.html?pdp_npi=6%40dis%21USD%2121.41%215.57%21%21%21144.87%2137.67%21%402151fce817795180912154311e11ab%2112000057697428361%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012172541245.html?pdp_npi=6%40dis%21USD%2121.41%215.57%21%21%21144.87%2137.67%21%402151fd3a17795196183506455e0f27%2112000057697428361%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204516/flash-sale/1005012172541245.webp",
       "rating": 0.0,
       "reviews_count": 2,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "expires_at": "2026-05-23T08:00:26Z"
     },
     {
-      "product_id": "1005012254596852",
-      "title": "Smart Auto Stop Charging Adapter 140W Fast Charging Statio Anti-Scratch Auto Power-Off Protect Battery Prevent Overcharging",
-      "slug": "smart-auto-stop-charging-adapter-140w-fast-charging-statio-a",
-      "price": "9.26",
-      "original_price": "30.24",
-      "discount_pct": 69,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012254596852.html?pdp_npi=6%40dis%21USD%2130.24%219.26%21%21%21204.60%2162.63%21%402151fce817795180912154311e11ab%2112000057867879110%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779220844/flash-sale/1005012254596852.webp",
-      "rating": 0.0,
-      "reviews_count": 3,
-      "expires_at": "2026-05-23T07:34:57Z"
+      "product_id": "1005008264604373",
+      "title": "North Edge T-Rex Ultra GPS Smart Watch 5 ATM Waterproof Built-in Dual-band GNSS Compass Military Sport Smartwatch Men 2025 New",
+      "slug": "north-edge-t-rex-ultra-gps-smart-watch-5-atm-waterproof-buil",
+      "price": "35.36",
+      "original_price": "121.93",
+      "discount_pct": 71,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402151fce817795196203094042e0f9a%2112000044412070783%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
+      "rating": 4.5,
+      "reviews_count": 11,
+      "expires_at": "2026-05-23T08:00:26Z"
     }
   ]
 }
