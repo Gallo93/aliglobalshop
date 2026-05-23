@@ -8,6 +8,7 @@ import html
 import json
 import re
 import shutil
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -340,10 +341,48 @@ def build_blog_index(site_url: str, articles: list) -> None:
     tpl = load_template("blog-index.html")
     ctx = base_context(site_url)
     ctx["canonical_url"] = f"{site_url}/en/blog/"
+
+    RECENT_COUNT = 7
+    recent_articles = articles[:RECENT_COUNT]
+    older_articles = articles[RECENT_COUNT:]
+
+    # Build archive section
+    if older_articles:
+        archive: dict = {}
+        for a in older_articles:
+            month_key = a.get("date", "")[:7]  # "2026-05"
+            if month_key not in archive:
+                archive[month_key] = []
+            archive[month_key].append(a)
+
+        archive_items_html = ""
+        for month_key in sorted(archive.keys(), reverse=True):
+            arts = archive[month_key]
+            try:
+                month_label = datetime.strptime(month_key, "%Y-%m").strftime("%B %Y")
+            except Exception:
+                month_label = month_key
+            count = len(arts)
+            items = ""
+            for a in arts:
+                slug = esc(a.get("slug", ""))
+                title = esc(a.get("title", ""))
+                date = esc(a.get("date", ""))
+                cat = a.get("category", "")
+                cat_name = CATEGORY_NAMES.get(cat, cat.replace("-", " ").title()) if cat else ""
+                href = f"{site_url}/en/blog/{slug}/"
+                items += f'<div class="archive-item"><a href="{href}">{title}</a><span class="archive-item__meta">{date} · {cat_name}</span></div>'
+            archive_items_html += f'<div class="archive-month"><h3 class="archive-month__heading">{month_label} · {count} article{"s" if count != 1 else ""}</h3><div class="archive-list">{items}</div></div>'
+
+        archive_section_html = f'<section class="archive-section"><h2 class="archive-section__title">Archive</h2>{archive_items_html}</section>'
+    else:
+        archive_section_html = ""
+
     ctx["articles_html"] = (
-        "".join(article_card_html(a, site_url) for a in articles)
+        "".join(article_card_html(a, site_url) for a in recent_articles)
         or "<p>No articles yet.</p>"
     )
+    ctx["archive_section_html"] = archive_section_html
     write_file(OUTPUT_DIR / "blog" / "index.html", render(tpl, ctx))
 
 
