@@ -91,6 +91,20 @@ def short_title(title: str, limit: int = 60) -> str:
     return title[: limit - 1].rstrip() + "…"
 
 
+def _price_val(product: dict) -> float:
+    try:
+        return float(product.get("price", 9999) or 9999)
+    except (TypeError, ValueError):
+        return 9999.0
+
+
+def _extract_price_ceiling(text: str):
+    m = re.search(r'\bunder\s+\$?(\d+(?:\.\d+)?)', text, re.IGNORECASE)
+    if m:
+        return float(m.group(1))
+    return None
+
+
 def meta_desc_from_product(product: dict) -> str:
     base = product.get("title", "")
     price = product.get("price")
@@ -208,11 +222,16 @@ def article_card_html(article: dict, site_url: str) -> str:
 
 
 def related_products_section_html(
-    category_slug: str, products_by_cat: dict, site_url: str, limit: int = 4
+    category_slug: str, products_by_cat: dict, site_url: str, limit: int = 4, max_price: float = None
 ) -> str:
     if not category_slug or category_slug not in products_by_cat:
         return ""
-    products = products_by_cat[category_slug].get("products", [])[:limit]
+    all_products = products_by_cat[category_slug].get("products", [])
+    if max_price is not None:
+        filtered = [p for p in all_products if _price_val(p) <= max_price]
+        products = filtered[:limit] if len(filtered) >= 2 else all_products[:limit]
+    else:
+        products = all_products[:limit]
     if not products:
         return ""
     cat_name = CATEGORY_NAMES.get(category_slug, category_slug.title())
@@ -391,8 +410,11 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
     for article in articles:
         slug = article.get("slug", "")
         category_slug = article.get("category", "")
+        title = article.get("title", "")
+        primary_kw = article.get("primary_keyword", "")
+        max_price = _extract_price_ceiling(title) or _extract_price_ceiling(primary_kw)
         related_section = related_products_section_html(
-            category_slug, products_by_cat, site_url, limit=4
+            category_slug, products_by_cat, site_url, limit=4, max_price=max_price
         )
         og_image = f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
         content_html = article.get("content_html", article.get("content", ""))
