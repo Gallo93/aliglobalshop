@@ -263,6 +263,63 @@ def build_product(raw: dict, niche: str, hosted_image: str) -> dict:
     }
 
 
+_ARTICLE_TOPIC_PATTERNS = [
+    re.compile(r'\bearbuds?\b|\bearphone\b|\bheadphone\b|\bheadset\b', re.I),
+    re.compile(r'\bvacuum\b', re.I),
+    re.compile(r'\bbulbs?\b', re.I),
+    re.compile(r'\bsmartwatche?s?\b|\bsmart\s+watch\b', re.I),
+    re.compile(r'\bhome\s+gym\b|\bgym\s+equipment\b|\bdumbbell\b|\btreadmill\b', re.I),
+]
+
+
+def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
+    if not blog_dir.exists():
+        return
+    article_output_dir.mkdir(parents=True, exist_ok=True)
+    for article_file in sorted(blog_dir.glob("*.json")):
+        try:
+            article = json.loads(article_file.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        slug = article.get("slug", "")
+        primary_kw = article.get("primary_keyword", "")
+        title = article.get("title", "")
+        combined = f"{title} {primary_kw}"
+        if not slug or not primary_kw:
+            continue
+        if not any(pat.search(combined) for pat in _ARTICLE_TOPIC_PATTERNS):
+            continue
+        cache_file = article_output_dir / f"{slug}.json"
+        if cache_file.exists():
+            try:
+                cached = json.loads(cache_file.read_text(encoding="utf-8"))
+                if time.time() - cached.get("timestamp", 0) < CACHE_TTL:
+                    print(f"  [article cache] {slug}")
+                    continue
+            except Exception:
+                pass
+        print(f"  [article fetch] {slug} — kw: {primary_kw}")
+        raw = fetch_products(primary_kw, page_size=20)
+        if not raw:
+            continue
+        products = []
+        for r in raw[:8]:
+            product_id = str(r.get("product_id", ""))
+            image_url = r.get("product_main_image_url", "")
+            hosted = upload_image(image_url, f"art-{product_id}") if image_url else ""
+            products.append(build_product(r, article.get("category", ""), hosted))
+            time.sleep(0.1)
+        data = {
+            "timestamp": time.time(),
+            "slug": slug,
+            "updated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "products": products,
+        }
+        cache_file.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  -> {len(products)} prodotti per articolo {slug}")
+        time.sleep(0.5)
+
+
 def fetch_niche(niche: str, keywords: list) -> list:
     seen_ids = set()
     raw_pool = []
@@ -324,6 +381,12 @@ def main():
             json.dump(output, f, ensure_ascii=False, indent=2)
         print(f"  -> {len(products)} prodotti -> {out_path}")
         time.sleep(1)
+
+    print("\n[article products] fetching article-specific products...")
+    fetch_article_products(
+        BASE_DIR / "_data" / "blog" / "en",
+        OUTPUT_DIR / "_article",
+    )
 
 
 if __name__ == "__main__":
