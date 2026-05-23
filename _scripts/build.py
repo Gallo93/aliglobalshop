@@ -426,6 +426,16 @@ def build_blog_index(site_url: str, articles: list) -> None:
 
 def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> None:
     tpl = load_template("blog-post.html")
+
+    # Carica prodotti articolo-specifici (fetchati on-demand da fetch_products.py)
+    _article_products: dict = {}
+    _article_dir = DATA_DIR / "products" / "en" / "_article"
+    if _article_dir.exists():
+        for _f in _article_dir.glob("*.json"):
+            _d = load_json(_f, default={"products": []})
+            if _d:
+                _article_products[_f.stem] = _d
+
     for article in articles:
         slug = article.get("slug", "")
         category_slug = article.get("category", "")
@@ -442,6 +452,11 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
             category_slug, products_by_cat, site_url, limit=4,
             max_price=max_price, topic_kws=topic_kws
         )
+        # Fallback: prodotti fetchati on-demand per articoli con topic specifico
+        if not related_section and topic_kws is not None and slug in _article_products:
+            related_section = related_products_section_html(
+                slug, _article_products, site_url, limit=4, max_price=max_price
+            )
         og_image = f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
         content_html = article.get("content_html", article.get("content", ""))
         # strip any <h1> the AI may have added — template already renders the title as H1
