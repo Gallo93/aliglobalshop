@@ -18,6 +18,7 @@
   <meta property="og:image" content="{{site_url}}/assets/img/og-default.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{site_url}}/en/coupons/">
+  {{faq_schema_html}}
 </head>
 <body>
   <header class="nav">
@@ -39,11 +40,13 @@
   </header>
 
   <main class="container">
-    <h1 class="page__title">🏷️ Top Discounts</h1>
-    <p class="page__lede">Exclusive discounts automatically applied at checkout · Updated {{updated_at}} · {{coupons_count}} active deals</p>
+    <h1 class="page__title">🏷️ AliExpress Coupon Codes &amp; Top Discounts</h1>
+    <p class="page__lede">Discounts applied automatically at checkout · Updated {{updated_at}} · {{coupons_count}} active deals</p>
+    <div class="page__intro">{{coupons_intro_html}}</div>
     <div class="grid grid--coupons">
       {{coupons_html}}
     </div>
+    <div class="page-guide">{{coupons_guide_html}}</div>
   </main>
 
   <footer class="footer">

@@ -19,6 +19,7 @@
   <meta property="og:image" content="{{site_url}}/assets/img/og-default.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{site_url}}/en/flash-sale/">
+  {{faq_schema_html}}
 </head>
 <body>
   <header class="nav">
@@ -46,9 +47,11 @@
         <p class="page__lede" style="margin:0.25rem 0 0">Updated {{updated_at}} · {{deals_count}} deals live now</p>
       </div>
     </div>
+    <div class="page__intro">{{flash_intro_html}}</div>
     <div class="grid grid--products">
       {{deals_html}}
     </div>
+    <div class="page-guide">{{flash_guide_html}}</div>
   </main>
 
   <footer class="footer">

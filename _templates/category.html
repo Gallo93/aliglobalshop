@@ -20,6 +20,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{site_url}}/en/{{category_slug}}/">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{site_url}}/en/"},{"@type":"ListItem","position":2,"name":"{{category_name}}","item":"{{site_url}}/en/{{category_slug}}/"}]}</script>
+  {{faq_schema_html}}
 </head>
 <body>
   <header class="nav">
@@ -45,11 +46,13 @@
   </nav>
 
   <main class="container">
-    <h1 class="page__title">{{category_name}} deals</h1>
+    <h1 class="page__title">{{category_h1}}</h1>
     <p class="page__lede">Updated {{updated_at}} · {{products_count}} products</p>
+    <div class="page__intro">{{category_intro_html}}</div>
     <div class="grid grid--products">
       {{products_html}}
     </div>
+    <div class="page-guide">{{category_guide_html}}</div>
   </main>
 
   <footer class="footer">
