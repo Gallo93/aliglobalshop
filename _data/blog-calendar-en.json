@@ -92,7 +92,8 @@
     "primary_keyword": "aliexpress yoga gear",
     "category": "sport",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-05-24"
   },
   {
     "topic": "Travel gadgets from AliExpress every traveler should own",
