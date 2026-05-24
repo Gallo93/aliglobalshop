@@ -48,22 +48,23 @@ STRICT REQUIREMENTS:
 CONTENT STRUCTURE (use exactly this order):
 1. <h1> matching title, includes primary keyword
 2. Intro paragraph (80-120 words): hook + pain point + promise
-3. <h2> must include a variation of the primary keyword "{primary_keyword}"
+3. <h2> uses a natural variation of the topic, NOT the exact keyword phrase
 4. 2-3 paragraphs (150-200 words each) with practical tips, comparisons, buying advice
 5. Include 1-2 internal links to the category page: <a href="{category_url}">browse all {category} deals</a>
-6. <h2>FAQ section that includes primary keyword in heading text
+6. <h2> FAQ heading uses conversational language (e.g. "Common Questions Answered"), not the exact keyword
 7. FAQ section: wrap in <div class="faq"> and use <details><summary>Question?</summary><p>Answer (2-3 sentences).</p></details> for EACH question. Minimum 3 questions.
-8. <h2>Final Verdict (includes keyword)
+8. <h2> Final Verdict or Conclusion (may include keyword once)
 9. Conclusion paragraph (60-80 words)
 
-SEO RULES:
-- Use primary keyword "{primary_keyword}" naturally 4-6 times in the body text
-- All <h2> headings must contain the primary keyword or a close variant
+SEO RULES — FOLLOW EXACTLY:
+- The EXACT phrase "{primary_keyword}" must appear AT MOST 3 times in the entire article (title + all headings + all body text combined). Count carefully before outputting.
+- For every additional mention beyond those 3, use a natural synonym or variant instead (examples: for "aliexpress smart bulbs" use "these WiFi bulbs", "smart lighting options", "color-changing LEDs"; for "robot vacuum" use "the cleaner", "this model", "automated cleaning").
+- ONLY ONE H2 heading may contain the exact keyword phrase. All other H2 headings must use natural language variants.
+- Never repeat the same sentence structure or idea in different words just to fill space. Every sentence must add new, useful information.
 - All external links to AliExpress must have rel="nofollow sponsored"
-- No keyword stuffing. Write for humans first.
 - Use specific numbers, prices (in USD), and years ({year}) to increase CTR
 - Do NOT mention any competitor sites (Amazon, eBay, Temu, etc.)
-- NEVER use em-dashes (—) anywhere in title, meta_desc, or content_html. Use commas, colons, periods, or rephrase instead.
+- NEVER use em-dashes (—) anywhere in the article. Use commas, colons, periods, or rephrase instead.
 
 OUTPUT FORMAT: respond ONLY with valid JSON (no markdown, no code fences):
 {{
@@ -73,7 +74,8 @@ OUTPUT FORMAT: respond ONLY with valid JSON (no markdown, no code fences):
   "content_html": "<h1>...</h1><p>...</p>...",
   "lang": "en",
   "meta_desc": "...",
-  "category": "..."
+  "category": "...",
+  "primary_keyword": "{primary_keyword}"
 }}"""
 
 
