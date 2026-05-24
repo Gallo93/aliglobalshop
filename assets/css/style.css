@@ -316,3 +316,16 @@ a { color: inherit; }
   .nav--open .nav__hamburger span:nth-child(2) { opacity: 0; }
   .nav--open .nav__hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 }
+
+/* === PAGE INTRO & GUIDE === */
+.page__intro { max-width: 820px; margin: 1.5rem auto 2rem; }
+.page__intro p { line-height: 1.75; color: var(--text-secondary, #ccc); margin: 0; }
+.page-guide { max-width: 820px; margin: 3rem auto 0; padding-bottom: 3rem; }
+.page-guide h2 { font-size: 1.35rem; font-weight: 700; margin: 2rem 0 0.75rem; color: var(--text); }
+.page-guide p { line-height: 1.75; color: var(--text-secondary, #ccc); margin-bottom: 0.9rem; }
+.page-guide .faq details { border: 1px solid var(--border, rgba(255,255,255,0.1)); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 0.5rem; }
+.page-guide .faq summary { cursor: pointer; font-weight: 600; color: var(--text); list-style: none; }
+.page-guide .faq summary::-webkit-details-marker { display: none; }
+.page-guide .faq summary::before { content: "+ "; color: var(--orange); font-weight: 700; }
+.page-guide details[open] summary::before { content: "- "; }
+.page-guide .faq details p { margin: 0.5rem 0 0; font-size: 0.95rem; }

@@ -52,6 +52,69 @@ _SPECIFIC_PRODUCT_TERMS = [
      ["gym", "dumbbell", "treadmill", "barbell", "kettlebell"]),
 ]
 
+CATEGORY_SEO = {
+    "electronics": {
+        "h1": "Best Electronics Deals on AliExpress",
+        "intro": "<p>From wireless earbuds and Bluetooth speakers to LED strip lights and fast-charging power banks, our Electronics section brings you the highest-rated gadgets on AliExpress, hand-picked and updated every day. Every product is scored by sales volume, discount percentage, and buyer ratings so you always see the best value first. Prices are refreshed every 24 hours and all items include international shipping with AliExpress Buyer Protection.</p>",
+        "guide_h2": "How to Pick the Best Electronics on AliExpress",
+        "guide_body": "<p>Sort by discount first to spot deals where the original price has been cut 30% or more. Check the seller rating — anything above 97% positive feedback is a reliable indicator of quality. For electronics, prioritize items with at least 500 reviews: a large review base means real-world testing by buyers in your country.</p><p>Pay attention to compatibility details. Verify that chargers list 100-240 V input (universal voltage) and that wireless devices state the Bluetooth version. Items with detailed specification tables and real buyer photos in the reviews are usually worth the extra minute of research before purchasing.</p>",
+        "faq_h2": "Electronics on AliExpress: Common Questions",
+        "faqs": [
+            ("Are AliExpress electronics reliable?", "Quality varies by seller. Stick to shops with 97%+ positive ratings and at least 1,000 orders. Most top-ranked electronics come with a 12-month warranty and Buyer Protection that covers returns if the item does not match the description."),
+            ("How long does electronics shipping take?", "Standard shipping from China takes 10-25 days to most countries. Many sellers offer AliExpress Standard Shipping in 7-15 days. Delivery times have improved significantly for US, UK, and EU buyers in 2025-2026."),
+            ("Can I return electronics bought on AliExpress?", "Yes. AliExpress Buyer Protection covers disputes for up to 15 days after delivery. Open a dispute in the app if the item arrives damaged or not as described, and AliExpress will mediate a refund or replacement."),
+        ],
+    },
+    "smart-home": {
+        "h1": "Best Smart Home Deals on AliExpress",
+        "intro": "<p>Automate your home without the premium price tag. Our Smart Home section covers Wi-Fi plugs, LED smart bulbs, robot vacuums, indoor security cameras, and Zigbee sensors — all sourced from top-rated AliExpress sellers and updated daily. Whether you run a Google Home, Amazon Alexa, or Apple HomeKit setup, you will find compatible devices here at a fraction of retail cost. Every product includes verified ratings and current pricing updated every 24 hours.</p>",
+        "guide_h2": "How to Build a Smart Home with AliExpress Devices",
+        "guide_body": "<p>Start with a smart plug or a Wi-Fi bulb — both are under $10 and work with every major voice assistant. Once you are comfortable with the app, expand to sensors and cameras. Zigbee devices require a hub (often $15-25) but offer better battery life and local processing than Wi-Fi-only alternatives for larger setups.</p><p>Always check the app name in the product description. Most AliExpress smart home devices use the Tuya Smart or Smart Life app, which integrates with Alexa, Google Home, and Apple Home via third-party bridges. Avoid products with no app name listed in the specifications.</p>",
+        "faq_h2": "Smart Home on AliExpress: Common Questions",
+        "faqs": [
+            ("Do AliExpress smart home devices work with Alexa and Google Home?", "Most do, through the Tuya Smart platform. Look for 'Works with Alexa' or 'Google Home compatible' in the product title or description. Setup usually takes under 5 minutes once the device is paired with the Tuya Smart app."),
+            ("Are AliExpress smart devices safe to use on my Wi-Fi network?", "Place them on a dedicated IoT Wi-Fi network to isolate them from your main devices — most modern routers support this. Reputable sellers use standard Tuya firmware with regular security updates."),
+            ("What smart home hub works best with AliExpress Zigbee devices?", "The Sonoff Zigbee 3.0 USB Dongle Plus, also available on AliExpress, is a popular low-cost hub compatible with Home Assistant. For Wi-Fi devices, no hub is needed at all."),
+        ],
+    },
+    "sport": {
+        "h1": "Best Sport &amp; Fitness Deals on AliExpress",
+        "intro": "<p>Equip your workouts without overspending. Our Sport section features resistance bands, non-slip yoga mats, cycling accessories, insulated water bottles, and jump ropes from top-rated AliExpress sellers, ranked by sales volume, discount, and buyer satisfaction. All items ship internationally and are covered by AliExpress Buyer Protection. The product list is refreshed every 24 hours so the prices and availability you see are always current.</p>",
+        "guide_h2": "How to Buy Sport Equipment on AliExpress",
+        "guide_body": "<p>For resistance bands and yoga mats, check the material specification: natural latex bands last significantly longer than TPE alternatives. Yoga mats should list thickness (6 mm or more is ideal) and surface texture. Seller photos showing real use and close-ups of the material are a good sign of a trustworthy listing.</p><p>Cycling gear and helmets require special attention to sizing. Most AliExpress listings include detailed size charts — measure your head circumference before ordering. For safety-critical items like helmets, confirm that the listing mentions CE or CPSC certification in the product description.</p>",
+        "faq_h2": "Sport &amp; Fitness on AliExpress: Common Questions",
+        "faqs": [
+            ("Are AliExpress resistance bands worth buying?", "Yes, especially for home workouts. Bands from top sellers with 4.5+ ratings and 1,000+ orders are durable and match gym-branded alternatives at 3-5x the price. Look for natural latex material and a set with multiple resistance levels."),
+            ("Can I trust AliExpress helmet safety ratings?", "Check for CE EN1078 (EU) or CPSC (US) certification mentioned in the product description. Listings with official certification logos and test report photos are generally reliable. Avoid helmets with no certification information listed."),
+            ("What is the return policy for sport equipment on AliExpress?", "AliExpress Buyer Protection covers items that arrive damaged or not as described within 15 days of delivery. Photograph everything at unboxing to have evidence for any dispute, especially for larger items."),
+        ],
+    },
+    "gadgets": {
+        "h1": "Best Gadgets &amp; Tech Deals on AliExpress",
+        "intro": "<p>Discover the latest tech accessories and everyday carry essentials at unbeatable prices. Our Gadgets section features high-capacity power banks, multi-port USB hubs, magnetic phone mounts, mini projectors, and wireless charging pads — sourced from verified AliExpress sellers and refreshed daily. Every product is ranked by real buyer ratings and sales volume so the most popular picks surface first. All items include AliExpress Buyer Protection and international shipping.</p>",
+        "guide_h2": "How to Find the Best Gadgets on AliExpress",
+        "guide_body": "<p>For power banks, check the actual capacity in watt-hours (Wh) rather than the milliamp-hour (mAh) claim alone, as voltage conversion means a 20,000 mAh bank at 3.7 V delivers about 74 Wh. Fast charging support (18W, 20W, or 33W) is worth a few extra dollars for significantly faster top-ups.</p><p>USB hubs and multi-port chargers should list individual port wattage. A hub advertising 100W shared across 4 ports may only deliver 18W per port. Check the detailed spec table or the verified Q&amp;A section for real output figures before purchasing.</p>",
+        "faq_h2": "Gadgets on AliExpress: Common Questions",
+        "faqs": [
+            ("Are AliExpress power banks allowed on planes?", "Most airlines allow power banks up to 100 Wh in carry-on luggage without approval. A 20,000 mAh at 3.7 V bank is approximately 74 Wh, within the standard limit. Always check your airline's policy before travelling."),
+            ("Do AliExpress gadgets come with a warranty?", "Most top-rated sellers offer a 12-month warranty and respond to after-sales issues through the AliExpress messaging system. Buyer Protection provides an additional safety net for the first 15 days after delivery."),
+            ("What USB-C gadgets are compatible with iPhone 15 and newer?", "All iPhone 15 and later models use USB-C, so any USB-C hub, charger, or cable on AliExpress will be physically compatible. For fast charging, look for USB Power Delivery (PD) support with at least 20W output."),
+        ],
+    },
+}
+
+FLASH_SALE_FAQ = [
+    ("Do flash sale prices include free shipping?", "Most flash sale items offer free standard shipping (10-20 days). AliExpress Standard Shipping (7-15 days) is included on many deals. Expedited options are usually available for an extra fee shown on the product page."),
+    ("Can I return a flash sale item?", "Yes. AliExpress Buyer Protection applies to all purchases regardless of whether the item was on sale. Open a dispute within 15 days of delivery if the item is not as described or arrives damaged."),
+    ("How often are flash sale deals updated?", "This page is refreshed daily. AliExpress itself rotates flash sale inventory continuously, so returning throughout the day may reveal new deals not available at your last visit."),
+]
+
+COUPONS_FAQ = [
+    ("Do I need a coupon code for these discounts?", "No. All discounts shown on this page are applied automatically at checkout. The reduced price is already active on the product page — clicking our link takes you directly to the discounted listing."),
+    ("Are these discounts available in all countries?", "Most AliExpress discounts are global, but prices may vary slightly by region due to currency conversion and local promotions. Shipping costs and availability depend on your delivery country."),
+    ("How do I find even more discounts on AliExpress?", "Check the AliExpress app daily for free platform coupons in the Coupons section. New user coupons offer up to $24 off first orders. Seller coupons appear on individual shop pages and can be stacked with existing discounts."),
+]
+
 STATIC_PAGES = [
     ("privacy", "Privacy Policy"),
     ("about", "About AliGlobalShop"),
@@ -286,6 +349,15 @@ def _extract_faq_schema(content_html: str) -> str:
     return f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
 
 
+def _build_faq_schema(faqs: list) -> str:
+    items = [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+        for q, a in faqs
+    ]
+    schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": items}
+    return f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
+
+
 def base_context(site_url: str) -> dict:
     return {
         "site_title": SITE_TITLE,
@@ -313,10 +385,26 @@ def build_categories(site_url: str, products_by_cat: dict) -> None:
     for slug, data in products_by_cat.items():
         products = data.get("products", [])
         ctx = base_context(site_url)
+        seo = CATEGORY_SEO.get(slug, {})
+        faqs = seo.get("faqs", [])
+        guide_html = (
+            f'<h2>{seo["guide_h2"]}</h2>{seo["guide_body"]}'
+            f'<h2>{seo["faq_h2"]}</h2>'
+            f'<div class="faq">'
+            + "".join(
+                f'<details><summary>{q}</summary><p>{a}</p></details>'
+                for q, a in faqs
+            )
+            + "</div>"
+        ) if seo else ""
         ctx.update({
             "canonical_url": f"{site_url}/en/{slug}/",
             "category_name": CATEGORY_NAMES.get(slug, slug.title()),
             "category_slug": slug,
+            "category_h1": seo.get("h1", f"{CATEGORY_NAMES.get(slug, slug.title())} Deals on AliExpress"),
+            "category_intro_html": seo.get("intro", ""),
+            "category_guide_html": guide_html,
+            "faq_schema_html": _build_faq_schema(faqs) if faqs else "",
             "products_html": "".join(product_card_html(p, slug, site_url) for p in products),
             "products_count": str(len(products)),
             "updated_at": esc(data.get("updated_at", "")),
@@ -488,6 +576,18 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
 def build_flash_sale(site_url: str, flash_deals: list, updated_at: str) -> None:
     tpl = load_template("flash-sale.html")
     ctx = base_context(site_url)
+    flash_guide_html = (
+        '<h2>How AliExpress Flash Sales Work</h2>'
+        '<p>Flash sale prices are set for a fixed window, usually 24-72 hours. Once the timer hits zero, the product returns to its regular price. The discount is applied automatically at checkout with no coupon code needed. Some items sell out before the timer expires if demand is high, so acting within the first few hours maximizes your chances.</p>'
+        '<p>Combine flash sale prices with AliExpress platform coupons collected in the app for extra savings. A $5 platform coupon stacked on top of a 40% flash sale discount can bring the effective price well below what you would find anywhere else online.</p>'
+        '<h2>Flash Sale: Common Questions</h2>'
+        '<div class="faq">'
+        + "".join(
+            f'<details><summary>{q}</summary><p>{a}</p></details>'
+            for q, a in FLASH_SALE_FAQ
+        )
+        + "</div>"
+    )
     ctx.update({
         "canonical_url": f"{site_url}/en/flash-sale/",
         "deals_html": (
@@ -496,6 +596,9 @@ def build_flash_sale(site_url: str, flash_deals: list, updated_at: str) -> None:
         ),
         "deals_count": str(len(flash_deals)),
         "updated_at": esc(updated_at),
+        "flash_intro_html": "<p>AliExpress flash sales offer steep discounts on popular products for a limited time only. Every deal on this page includes a live countdown timer so you know exactly how long the price holds. Our list is refreshed automatically, pulling only items with a verified discount of 30% or more, a minimum 4-star rating, and proven sales volume. Bookmark this page or check back daily to catch the best drops before they expire.</p>",
+        "flash_guide_html": flash_guide_html,
+        "faq_schema_html": _build_faq_schema(FLASH_SALE_FAQ),
     })
     write_file(OUTPUT_DIR / "flash-sale" / "index.html", render(tpl, ctx))
 
@@ -503,6 +606,18 @@ def build_flash_sale(site_url: str, flash_deals: list, updated_at: str) -> None:
 def build_coupons(site_url: str, coupons: list, updated_at: str) -> None:
     tpl = load_template("coupon-page.html")
     ctx = base_context(site_url)
+    coupons_guide_html = (
+        '<h2>How AliExpress Discounts Work</h2>'
+        '<p>AliExpress offers several types of savings: seller coupons (applied per shop), platform coupons (collected in the app and valid store-wide), and SuperDeals (permanent deep discounts that do not expire). The products on this page primarily feature SuperDeals and high-discount listings where the reduced price is the standard sale price, not a short-term flash promotion.</p>'
+        '<p>To maximize savings, collect free platform coupons in the AliExpress app before checkout. A $3-5 platform coupon stacked on top of an already-discounted product can save you more than buying a flash sale item without a coupon.</p>'
+        '<h2>AliExpress Discounts: Common Questions</h2>'
+        '<div class="faq">'
+        + "".join(
+            f'<details><summary>{q}</summary><p>{a}</p></details>'
+            for q, a in COUPONS_FAQ
+        )
+        + "</div>"
+    )
     ctx.update({
         "canonical_url": f"{site_url}/en/coupons/",
         "coupons_html": (
@@ -511,6 +626,9 @@ def build_coupons(site_url: str, coupons: list, updated_at: str) -> None:
         ),
         "coupons_count": str(len(coupons)),
         "updated_at": esc(updated_at),
+        "coupons_intro_html": "<p>Every product listed here has been marked down 50% or more from its original price, with the discount applied automatically when you reach checkout — no code needed. Our selection is curated from AliExpress SuperDeals and high-discount listings, hand-checked for verified seller ratings and genuine price reductions. The list is refreshed daily so the savings you see are always current, never outdated promotions from weeks ago.</p>",
+        "coupons_guide_html": coupons_guide_html,
+        "faq_schema_html": _build_faq_schema(COUPONS_FAQ),
     })
     write_file(OUTPUT_DIR / "coupons" / "index.html", render(tpl, ctx))
 
