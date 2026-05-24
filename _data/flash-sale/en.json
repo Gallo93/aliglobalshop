@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-24T05:02:36Z",
-  "expires_at": "2026-05-24T06:02:31Z",
+  "updated_at": "2026-05-24T06:00:34Z",
+  "expires_at": "2026-05-24T07:00:25Z",
   "products": [
     {
       "product_id": "1005008663863645",
@@ -9,11 +9,11 @@
       "price": "42.84",
       "original_price": "214.20",
       "discount_pct": 80,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%4021013cc617795989470403836e102d%2112000046147626295%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%4021013cc617796024204585540e11eb%2112000046147626295%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
       "rating": 5.0,
       "reviews_count": 1,
-      "expires_at": "2026-05-24T06:02:31Z"
+      "expires_at": "2026-05-24T07:00:25Z"
     },
     {
       "product_id": "1005012159681036",
@@ -22,11 +22,11 @@
       "price": "12.68",
       "original_price": "54.19",
       "discount_pct": 76,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.19%2112.68%21%21%21366.66%2185.80%21%4021013cc617795989470403836e102d%2112000057669786535%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.19%2112.68%21%21%21366.66%2185.80%21%4021013cc617796024204585540e11eb%2112000057669786535%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
       "rating": 0.0,
       "reviews_count": 27,
-      "expires_at": "2026-05-24T06:02:31Z"
+      "expires_at": "2026-05-24T07:00:25Z"
     },
     {
       "product_id": "1005008264604373",
@@ -35,50 +35,24 @@
       "price": "35.36",
       "original_price": "121.93",
       "discount_pct": 71,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%4021013cc617795989470403836e102d%2112000044412070783%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%4021013cc617796024204585540e11eb%2112000044412070783%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
       "rating": 4.5,
       "reviews_count": 11,
-      "expires_at": "2026-05-24T06:02:31Z"
+      "expires_at": "2026-05-24T07:00:25Z"
     },
     {
-      "product_id": "1005008777514905",
-      "title": "Meross Matter Smart DIY Wi-Fi Switch with Energy Monitor Remote and Voice Control Support Homekit",
-      "slug": "meross-matter-smart-diy-wi-fi-switch-with-energy-monitor-rem",
-      "price": "14.39",
-      "original_price": "35.97",
-      "discount_pct": 60,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008777514905.html?pdp_npi=6%40dis%21USD%2135.97%2114.39%21%21%2135.97%2114.39%21%40210152bd17795989454245022e0ef1%2112000046628520559%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562826/flash-sale/1005008777514905.webp",
-      "rating": 4.6,
-      "reviews_count": 129,
-      "expires_at": "2026-05-24T06:02:31Z"
-    },
-    {
-      "product_id": "1005012223355500",
-      "title": "Tuya WiFi Smart Temperature Humidity Sensor Smart Life APP Remote Monitoring Alexa Google Home Voice Control",
-      "slug": "tuya-wifi-smart-temperature-humidity-sensor-smart-life-app-r",
-      "price": "6.73",
-      "original_price": "15.64",
-      "discount_pct": 57,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012223355500.html?pdp_npi=6%40dis%21USD%2115.64%216.73%21%21%21105.80%2145.49%21%40210152bd17795989454245022e0ef1%2112000057855717488%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562826/flash-sale/1005012223355500.webp",
-      "rating": 0.0,
-      "reviews_count": 6,
-      "expires_at": "2026-05-24T06:02:31Z"
-    },
-    {
-      "product_id": "1005011895480025",
-      "title": "MOES Tuya WiFi Water Timer Smart Valve Controller Brass Inlet&Outlet IP65 Waterproof  APP Voice Control Work With Alexa Google",
-      "slug": "moes-tuya-wifi-water-timer-smart-valve-controller-brass-inle",
-      "price": "61.00",
-      "original_price": "135.55",
-      "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011895480025.html?pdp_npi=6%40dis%21USD%21135.55%2161.00%21%21%21917.11%21412.70%21%40210152bd17795989454245022e0ef1%2112000057613352980%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562828/flash-sale/1005011895480025.webp",
-      "rating": 0.0,
-      "reviews_count": 1,
-      "expires_at": "2026-05-24T06:02:31Z"
+      "product_id": "1005009270310828",
+      "title": "Wireless  Multi-mode Smart Gateway ZigBee Bluetooth Mesh Hub Work with Tuya Smart life App Voice Control via Alexa Google Home",
+      "slug": "wireless-multi-mode-smart-gateway-zigbee-bluetooth-mesh-hub-",
+      "price": "17.80",
+      "original_price": "43.33",
+      "discount_pct": 58,
+      "affiliate_url": "https://www.aliexpress.com/item/1005009270310828.html?pdp_npi=6%40dis%21USD%2143.33%2117.80%21%21%21293.19%21120.46%21%402101611117796024186415219e104d%2112000048559164362%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779602427/flash-sale/1005009270310828.webp",
+      "rating": 4.8,
+      "reviews_count": 1424,
+      "expires_at": "2026-05-24T07:00:25Z"
     },
     {
       "product_id": "1005011724105665",
@@ -87,50 +61,76 @@
       "price": "17.67",
       "original_price": "39.28",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.28%2117.67%21%21%21265.79%21119.61%21%4021013cc017795989488377770e0f57%2112000056360671631%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.28%2117.67%21%21%21265.79%21119.61%21%40210152bd17796024222627181e0fd7%2112000056360671631%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562829/flash-sale/1005011724105665.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-24T06:02:31Z"
+      "expires_at": "2026-05-24T07:00:25Z"
     },
     {
-      "product_id": "1005010711638892",
-      "title": "Tuya Zigbee Smart Human Presence Sensor 24G mmWave Radar 20ft Motion Sensor / 15ft Static Detection Alexa Google Assistant Voice",
-      "slug": "tuya-zigbee-smart-human-presence-sensor-24g-mmwave-radar-20f",
-      "price": "19.47",
-      "original_price": "41.42",
+      "product_id": "1005006358855935",
+      "title": "Smart Switch Tuya Smart Life 2 CH RF 12V 24V 7-32V AC DC Wifi Switch Work with Alexa Google Home",
+      "slug": "smart-switch-tuya-smart-life-2-ch-rf-12v-24v-7-32v-ac-dc-wif",
+      "price": "4.36",
+      "original_price": "9.27",
       "discount_pct": 53,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010711638892.html?pdp_npi=6%40dis%21USD%2141.42%2119.47%21%21%21280.26%21131.72%21%40210152bd17795989454245022e0ef1%2112000053272613589%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562830/flash-sale/1005010711638892.webp",
-      "rating": 4.4,
-      "reviews_count": 20,
-      "expires_at": "2026-05-24T06:02:31Z"
+      "affiliate_url": "https://www.aliexpress.com/item/1005006358855935.html?pdp_npi=6%40dis%21USD%219.27%214.36%21%21%2162.71%2129.47%21%402101611117796024186415219e104d%2112000036882835778%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779602428/flash-sale/1005006358855935.webp",
+      "rating": 5.0,
+      "reviews_count": 31,
+      "expires_at": "2026-05-24T07:00:25Z"
     },
     {
-      "product_id": "1005008885206416",
-      "title": "MOES Tuya ZigBee Smart battery Water Gas Valve Controller Automatic Low Power Consumption Voice Control with Alexa Google Home",
-      "slug": "moes-tuya-zigbee-smart-battery-water-gas-valve-controller-au",
-      "price": "35.65",
-      "original_price": "72.76",
-      "discount_pct": 51,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008885206416.html?pdp_npi=6%40dis%21USD%2172.76%2135.65%21%21%21492.31%21241.23%21%40210152bd17795989454245022e0ef1%2112000047104621121%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562830/flash-sale/1005008885206416.webp",
+      "product_id": "1005005625247295",
+      "title": "MOES New Multi-mode Smart Gateway ZigBee Bluetooth Mesh Hub Work with Tuya Smart App Voice Control via Alexa Google Home",
+      "slug": "moes-new-multi-mode-smart-gateway-zigbee-bluetooth-mesh-hub-",
+      "price": "20.34",
+      "original_price": "43.50",
+      "discount_pct": 53,
+      "affiliate_url": "https://www.aliexpress.com/item/1005005625247295.html?pdp_npi=6%40dis%21USD%2143.50%2120.34%21%21%21294.34%21137.66%21%402101611117796024186415219e104d%2112000033819849921%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779602429/flash-sale/1005005625247295.webp",
       "rating": 4.8,
-      "reviews_count": 496,
-      "expires_at": "2026-05-24T06:02:31Z"
+      "reviews_count": 1449,
+      "expires_at": "2026-05-24T07:00:25Z"
     },
     {
-      "product_id": "1005012275959767",
-      "title": "SONOFF NSPanel Pro Gen2 Dual Channel Relay Smart Home Control Panel 86 Type Relay ZB 3.0 Matter Bridge Compatibility Apple Home",
-      "slug": "sonoff-nspanel-pro-gen2-dual-channel-relay-smart-home-contro",
-      "price": "149.90",
-      "original_price": "299.80",
-      "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012275959767.html?pdp_npi=6%40dis%21USD%21299.80%21149.90%21%21%21299.80%21149.90%21%40210152bd17795989454245022e0ef1%2112000057991774517%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562831/flash-sale/1005012275959767.webp",
+      "product_id": "1005012029123201",
+      "title": "LIGE Fashion 1.83\" HD Screen Smart Watch For Men Women Bluetooth Call Sports Fitness Heart rate Blood Oxygen Monitor Smartwatch",
+      "slug": "lige-fashion-183-hd-screen-smart-watch-for-men-women-bluetoo",
+      "price": "15.09",
+      "original_price": "31.43",
+      "discount_pct": 52,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012029123201.html?pdp_npi=6%40dis%21USD%2131.43%2115.09%21%21%21212.63%21102.06%21%402101611117796024186415219e104d%2112000057323005475%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779602430/flash-sale/1005012029123201.webp",
       "rating": 0.0,
-      "reviews_count": 1,
-      "expires_at": "2026-05-24T06:02:31Z"
+      "reviews_count": 0,
+      "expires_at": "2026-05-24T07:00:25Z"
+    },
+    {
+      "product_id": "1005010114407852",
+      "title": "SANKESONG Tuya Smart 3D Face Door Lock Security Camera Monitor Intelligent Fingerprint Password Biometric Dual Battery",
+      "slug": "sankesong-tuya-smart-3d-face-door-lock-security-camera-monit",
+      "price": "126.50",
+      "original_price": "263.54",
+      "discount_pct": 52,
+      "affiliate_url": "https://www.aliexpress.com/item/1005010114407852.html?pdp_npi=6%40dis%21USD%21263.54%21126.50%21%21%211783.10%21855.89%21%402101611117796024186415219e104d%2112000051192141913%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779602431/flash-sale/1005010114407852.webp",
+      "rating": 5.0,
+      "reviews_count": 18,
+      "expires_at": "2026-05-24T07:00:25Z"
+    },
+    {
+      "product_id": "1005008765257974",
+      "title": "BOXUXING 2026 New Smart Watch Men Watch 5 Pro AMOLED HD Screen Bluetooth Call GPS Trajectory NFC Heart Rate Compass SmartWatches",
+      "slug": "boxuxing-2026-new-smart-watch-men-watch-5-pro-amoled-hd-scre",
+      "price": "29.95",
+      "original_price": "61.12",
+      "discount_pct": 51,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008765257974.html?pdp_npi=6%40dis%21USD%2161.12%2129.95%21%21%21413.53%21202.63%21%402101611117796024186415219e104d%2112000046588044901%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779602433/flash-sale/1005008765257974.webp",
+      "rating": 4.3,
+      "reviews_count": 41,
+      "expires_at": "2026-05-24T07:00:25Z"
     }
   ]
 }
