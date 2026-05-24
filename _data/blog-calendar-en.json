@@ -84,7 +84,8 @@
     "primary_keyword": "aliexpress bike accessories",
     "category": "sport",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-05-24"
   },
   {
     "topic": "AliExpress yoga and pilates gear: what is worth buying",
