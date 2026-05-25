@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-25T17:07:55Z",
-  "expires_at": "2026-05-25T18:07:50Z",
+  "updated_at": "2026-05-25T18:00:30Z",
+  "expires_at": "2026-05-25T19:00:25Z",
   "products": [
     {
       "product_id": "1005010475447999",
@@ -9,11 +9,24 @@
       "price": "74.17",
       "original_price": "741.64",
       "discount_pct": 90,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010475447999.html?pdp_npi=6%40dis%21USD%21741.64%2174.17%21%21%215004.29%21500.43%21%402151fca717797288645694400e1009%2112000052533355981%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010475447999.html?pdp_npi=6%40dis%21USD%21741.64%2174.17%21%21%215004.29%21500.43%21%400b8ded7b17797320201277704e12b0%2112000052533355981%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779624089/flash-sale/1005010475447999.webp",
       "rating": 5.0,
       "reviews_count": 2,
-      "expires_at": "2026-05-25T18:07:50Z"
+      "expires_at": "2026-05-25T19:00:25Z"
+    },
+    {
+      "product_id": "1005012159681036",
+      "title": "G28 Women Smart Watch Female Smartwatch Elegant Wristband Heart Rate Monitoring Alarm Clock Reminder Sports Fitness Band",
+      "slug": "g28-women-smart-watch-female-smartwatch-elegant-wristband-he",
+      "price": "12.72",
+      "original_price": "54.34",
+      "discount_pct": 76,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.34%2112.72%21%21%21366.66%2185.80%21%400b8ded7b17797320201277704e12b0%2112000057669786535%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
+      "rating": 0.0,
+      "reviews_count": 27,
+      "expires_at": "2026-05-25T19:00:25Z"
     },
     {
       "product_id": "1005008264604373",
@@ -22,11 +35,11 @@
       "price": "35.36",
       "original_price": "121.93",
       "discount_pct": 71,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402151fca717797288645694400e1009%2112000044412070783%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%400b8ded7b17797320201277704e12b0%2112000044412070783%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
       "rating": 4.5,
       "reviews_count": 11,
-      "expires_at": "2026-05-25T18:07:50Z"
+      "expires_at": "2026-05-25T19:00:25Z"
     },
     {
       "product_id": "1005008777514905",
@@ -35,11 +48,24 @@
       "price": "14.39",
       "original_price": "35.97",
       "discount_pct": 60,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008777514905.html?pdp_npi=6%40dis%21USD%2135.97%2114.39%21%21%2135.97%2114.39%21%402151fd3a17797288622723430e0dfe%2112000046628520559%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008777514905.html?pdp_npi=6%40dis%21USD%2135.97%2114.39%21%21%2135.97%2114.39%21%402151fca717797320180895444e0ec5%2112000046628520559%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779606029/flash-sale/1005008777514905.webp",
       "rating": 4.6,
       "reviews_count": 130,
-      "expires_at": "2026-05-25T18:07:50Z"
+      "expires_at": "2026-05-25T19:00:25Z"
+    },
+    {
+      "product_id": "1005011788504352",
+      "title": "Zigbee Or WiFi Tuya Smart Water Valve Water Meter Water Flow Rate Consumption Temperature Display Smart Life Control Irrigation",
+      "slug": "zigbee-or-wifi-tuya-smart-water-valve-water-meter-water-flow",
+      "price": "104.83",
+      "original_price": "232.96",
+      "discount_pct": 55,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011788504352.html?pdp_npi=6%40dis%21USD%21232.96%21104.83%21%21%211571.94%21707.37%21%402151fca717797320180895444e0ec5%2112000056561788703%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779732027/flash-sale/1005011788504352.webp",
+      "rating": 4.5,
+      "reviews_count": 67,
+      "expires_at": "2026-05-25T19:00:25Z"
     },
     {
       "product_id": "1005011895480025",
@@ -48,11 +74,11 @@
       "price": "61.17",
       "original_price": "135.92",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011895480025.html?pdp_npi=6%40dis%21USD%21135.92%2161.17%21%21%21917.11%21412.70%21%402151fd3a17797288622723430e0dfe%2112000057613352980%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011895480025.html?pdp_npi=6%40dis%21USD%21135.92%2161.17%21%21%21917.11%21412.70%21%402151fca717797320180895444e0ec5%2112000057613352980%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779606031/flash-sale/1005011895480025.webp",
       "rating": 0.0,
       "reviews_count": 1,
-      "expires_at": "2026-05-25T18:07:50Z"
+      "expires_at": "2026-05-25T19:00:25Z"
     },
     {
       "product_id": "1005011724105665",
@@ -61,11 +87,11 @@
       "price": "17.73",
       "original_price": "39.39",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.39%2117.73%21%21%21265.79%21119.61%21%400b8ded7b17797288667077994e1159%2112000056360671631%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.39%2117.73%21%21%21265.79%21119.61%21%402151fd3a17797320221912630e100e%2112000056360671631%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562829/flash-sale/1005011724105665.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-25T18:07:50Z"
+      "expires_at": "2026-05-25T19:00:25Z"
     },
     {
       "product_id": "1005010711638892",
@@ -74,24 +100,11 @@
       "price": "19.52",
       "original_price": "41.53",
       "discount_pct": 53,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010711638892.html?pdp_npi=6%40dis%21USD%2141.53%2119.52%21%21%21280.26%21131.72%21%402151fd3a17797288622723430e0dfe%2112000053272613589%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005010711638892.html?pdp_npi=6%40dis%21USD%2141.53%2119.52%21%21%21280.26%21131.72%21%402151fca717797320180895444e0ec5%2112000053272613589%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779606032/flash-sale/1005010711638892.webp",
       "rating": 4.4,
       "reviews_count": 20,
-      "expires_at": "2026-05-25T18:07:50Z"
-    },
-    {
-      "product_id": "1005008885206416",
-      "title": "MOES Tuya ZigBee Smart battery Water Gas Valve Controller Automatic Low Power Consumption Voice Control with Alexa Google Home",
-      "slug": "moes-tuya-zigbee-smart-battery-water-gas-valve-controller-au",
-      "price": "35.75",
-      "original_price": "72.96",
-      "discount_pct": 51,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008885206416.html?pdp_npi=6%40dis%21USD%2172.96%2135.75%21%21%21492.31%21241.23%21%402151fd3a17797288622723430e0dfe%2112000047104621121%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779606032/flash-sale/1005008885206416.webp",
-      "rating": 4.8,
-      "reviews_count": 496,
-      "expires_at": "2026-05-25T18:07:50Z"
+      "expires_at": "2026-05-25T19:00:25Z"
     },
     {
       "product_id": "1005012275959767",
@@ -100,11 +113,11 @@
       "price": "149.90",
       "original_price": "299.80",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012275959767.html?pdp_npi=6%40dis%21USD%21299.80%21149.90%21%21%21299.80%21149.90%21%402151fd3a17797288622723430e0dfe%2112000057991774517%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012275959767.html?pdp_npi=6%40dis%21USD%21299.80%21149.90%21%21%21299.80%21149.90%21%402151fca717797320180895444e0ec5%2112000057991774517%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779609628/flash-sale/1005012275959767.webp",
       "rating": 0.0,
       "reviews_count": 3,
-      "expires_at": "2026-05-25T18:07:50Z"
+      "expires_at": "2026-05-25T19:00:25Z"
     },
     {
       "product_id": "1005007576284267",
@@ -113,24 +126,11 @@
       "price": "26.90",
       "original_price": "53.80",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005007576284267.html?pdp_npi=6%40dis%21USD%2153.80%2126.90%21%21%2153.80%2126.90%21%402151fd3a17797288622723430e0dfe%2112000041367328946%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005007576284267.html?pdp_npi=6%40dis%21USD%2153.80%2126.90%21%21%2153.80%2126.90%21%402151fca717797320180895444e0ec5%2112000041367328946%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779611499/flash-sale/1005007576284267.webp",
       "rating": 4.8,
       "reviews_count": 1886,
-      "expires_at": "2026-05-25T18:07:50Z"
-    },
-    {
-      "product_id": "1005010247999051",
-      "title": "1-2 PCS SONOFF SWV BSP Thread Standard Zigbee Smart Water Valve IP55 Sprinkler Controller Home Automate Irrigation Alexa Google",
-      "slug": "1-2-pcs-sonoff-swv-bsp-thread-standard-zigbee-smart-water-va",
-      "price": "26.90",
-      "original_price": "53.80",
-      "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010247999051.html?pdp_npi=6%40dis%21USD%2153.80%2126.90%21%21%2153.80%2126.90%21%402151fd3a17797288622723430e0dfe%2112000051672512285%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779728430/flash-sale/1005010247999051.webp",
-      "rating": 5.0,
-      "reviews_count": 655,
-      "expires_at": "2026-05-25T18:07:50Z"
+      "expires_at": "2026-05-25T19:00:25Z"
     }
   ]
 }
