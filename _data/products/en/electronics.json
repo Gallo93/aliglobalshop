@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-05-26T16:00:15Z",
+  "updated_at": "2026-05-26T20:11:02Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -18,14 +18,14 @@
       "score": 0.3258,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:25Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005011795391651",
       "title": "20000mAh Magnetic Power Bank PD 22.5W Wireless Fast Charger For Magsafe Portable Auxiliary Battery For iPhone Air 17",
       "slug": "20000mah-magnetic-power-bank-pd-225w-wireless-fast-charger-f",
-      "price": "23.98",
-      "original_price": "74.95",
+      "price": "23.31",
+      "original_price": "72.84",
       "discount_pct": 68,
       "affiliate_url": "https://www.aliexpress.com/item/1005011795391651.html?pdp_npi=6%40dis%21USD%2175.00%2124.00%21%21%21506.09%21161.95%21%402140d36117796866860735424e101d%2112000056595947022%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192208/products/1005011795391651.webp",
@@ -36,7 +36,7 @@
       "score": 0.3127,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:26Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005009017398891",
@@ -54,7 +54,7 @@
       "score": 0.2766,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:26Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005010680358865",
@@ -72,7 +72,7 @@
       "score": 0.2754,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:27Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005012002690751",
@@ -90,7 +90,7 @@
       "score": 0.2518,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:27Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005012003970031",
@@ -108,7 +108,7 @@
       "score": 0.2502,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:28Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005010660256913",
@@ -126,7 +126,7 @@
       "score": 0.2499,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:28Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005011544110376",
@@ -144,7 +144,7 @@
       "score": 0.2391,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:29Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005011532019654",
@@ -162,7 +162,7 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:29Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005011532039236",
@@ -180,7 +180,7 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:30Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005011532141899",
@@ -198,7 +198,7 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:30Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005009873262361",
@@ -216,7 +216,7 @@
       "score": 0.2097,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:30Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005012229118016",
@@ -234,7 +234,7 @@
       "score": 0.2062,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:31Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005010107182757",
@@ -252,7 +252,7 @@
       "score": 0.2033,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:32Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005008172692579",
@@ -270,7 +270,7 @@
       "score": 0.191,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:32Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "33007923484",
@@ -288,7 +288,7 @@
       "score": 0.1864,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:33Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005005632971536",
@@ -306,7 +306,7 @@
       "score": 0.1797,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:33Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005011724105665",
@@ -324,7 +324,7 @@
       "score": 0.165,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:34Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005010159116358",
@@ -342,7 +342,7 @@
       "score": 0.1621,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:34Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     },
     {
       "product_id": "1005010253348075",
@@ -360,7 +360,7 @@
       "score": 0.1589,
       "price_history": [],
       "fetched_at": "2026-05-26T05:07:34Z",
-      "updated_at": "2026-05-26T16:00:15Z"
+      "updated_at": "2026-05-26T20:11:02Z"
     }
   ]
 }
