@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-26T07:00:29Z",
-  "expires_at": "2026-05-26T08:00:24Z",
+  "updated_at": "2026-05-26T07:51:36Z",
+  "expires_at": "2026-05-26T08:51:30Z",
   "products": [
     {
       "product_id": "1005008663863645",
@@ -9,11 +9,11 @@
       "price": "42.84",
       "original_price": "214.20",
       "discount_pct": 80,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%402140da8b17797788184322891e10d8%2112000046147626295%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%4021013cc017797818836743207e10e2%2112000046147626295%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
       "rating": 5.0,
       "reviews_count": 1,
-      "expires_at": "2026-05-26T08:00:24Z"
+      "expires_at": "2026-05-26T08:51:30Z"
     },
     {
       "product_id": "1005012159681036",
@@ -22,11 +22,11 @@
       "price": "12.71",
       "original_price": "54.30",
       "discount_pct": 76,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.30%2112.71%21%21%21366.66%2185.80%21%402140da8b17797788184322891e10d8%2112000057669786535%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.30%2112.71%21%21%21366.66%2185.80%21%4021013cc017797818836743207e10e2%2112000057669786535%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
       "rating": 0.0,
       "reviews_count": 27,
-      "expires_at": "2026-05-26T08:00:24Z"
+      "expires_at": "2026-05-26T08:51:30Z"
     },
     {
       "product_id": "1005008264604373",
@@ -35,50 +35,11 @@
       "price": "35.36",
       "original_price": "121.93",
       "discount_pct": 71,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402140da8b17797788184322891e10d8%2112000044412070783%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%4021013cc017797818836743207e10e2%2112000044412070783%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
       "rating": 4.5,
       "reviews_count": 11,
-      "expires_at": "2026-05-26T08:00:24Z"
-    },
-    {
-      "product_id": "1005008777514905",
-      "title": "Meross Matter Smart DIY Wi-Fi Switch with Energy Monitor Remote and Voice Control Support Homekit",
-      "slug": "meross-matter-smart-diy-wi-fi-switch-with-energy-monitor-rem",
-      "price": "14.39",
-      "original_price": "35.97",
-      "discount_pct": 60,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008777514905.html?pdp_npi=6%40dis%21USD%2135.97%2114.39%21%21%2135.97%2114.39%21%40210152bd17797788165158434e101a%2112000046628520559%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779606029/flash-sale/1005008777514905.webp",
-      "rating": 4.6,
-      "reviews_count": 131,
-      "expires_at": "2026-05-26T08:00:24Z"
-    },
-    {
-      "product_id": "1005011788504352",
-      "title": "Zigbee Or WiFi Tuya Smart Water Valve Water Meter Water Flow Rate Consumption Temperature Display Smart Life Control Irrigation",
-      "slug": "zigbee-or-wifi-tuya-smart-water-valve-water-meter-water-flow",
-      "price": "98.47",
-      "original_price": "232.80",
-      "discount_pct": 57,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011788504352.html?pdp_npi=6%40dis%21USD%21232.80%2198.47%21%21%211571.94%21664.90%21%40210152bd17797788165158434e101a%2112000056561788703%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779732027/flash-sale/1005011788504352.webp",
-      "rating": 4.5,
-      "reviews_count": 69,
-      "expires_at": "2026-05-26T08:00:24Z"
-    },
-    {
-      "product_id": "1005011895480025",
-      "title": "MOES Tuya WiFi Water Timer Smart Valve Controller Brass Inlet&Outlet IP65 Waterproof  APP Voice Control Work With Alexa Google",
-      "slug": "moes-tuya-wifi-water-timer-smart-valve-controller-brass-inle",
-      "price": "61.12",
-      "original_price": "135.82",
-      "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011895480025.html?pdp_npi=6%40dis%21USD%21135.82%2161.12%21%21%21917.11%21412.70%21%40210152bd17797788165158434e101a%2112000057613352980%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779606031/flash-sale/1005011895480025.webp",
-      "rating": 0.0,
-      "reviews_count": 1,
-      "expires_at": "2026-05-26T08:00:24Z"
+      "expires_at": "2026-05-26T08:51:30Z"
     },
     {
       "product_id": "1005011724105665",
@@ -87,50 +48,89 @@
       "price": "17.71",
       "original_price": "39.36",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.36%2117.71%21%21%21265.79%21119.61%21%402140d36217797788206812815e1175%2112000056360671631%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.36%2117.71%21%21%21265.79%21119.61%21%4021013cc017797818864051698e103e%2112000056360671631%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562829/flash-sale/1005011724105665.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-26T08:00:24Z"
+      "expires_at": "2026-05-26T08:51:30Z"
     },
     {
-      "product_id": "1005010711638892",
-      "title": "Tuya Zigbee Smart Human Presence Sensor 24G mmWave Radar 20ft Motion Sensor / 15ft Static Detection Alexa Google Assistant Voice",
-      "slug": "tuya-zigbee-smart-human-presence-sensor-24g-mmwave-radar-20f",
-      "price": "19.51",
-      "original_price": "41.51",
-      "discount_pct": 53,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010711638892.html?pdp_npi=6%40dis%21USD%2141.51%2119.51%21%21%21280.26%21131.72%21%40210152bd17797788165158434e101a%2112000053272613589%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779606032/flash-sale/1005010711638892.webp",
-      "rating": 4.4,
-      "reviews_count": 20,
-      "expires_at": "2026-05-26T08:00:24Z"
-    },
-    {
-      "product_id": "1005012275959767",
-      "title": "SONOFF NSPanel Pro Gen2 Dual Channel Relay Smart Home Control Panel 86 Type Relay ZB 3.0 Matter Bridge Compatibility Apple Home",
-      "slug": "sonoff-nspanel-pro-gen2-dual-channel-relay-smart-home-contro",
-      "price": "149.90",
-      "original_price": "299.80",
+      "product_id": "1005012339878698",
+      "title": "High Power Portable Bluetooth Speaker Outdoor K Song Live Music Audio Box",
+      "slug": "high-power-portable-bluetooth-speaker-outdoor-k-song-live-mu",
+      "price": "48.83",
+      "original_price": "97.65",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012275959767.html?pdp_npi=6%40dis%21USD%21299.80%21149.90%21%21%21299.80%21149.90%21%40210152bd17797788165158434e101a%2112000057991774517%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779609628/flash-sale/1005012275959767.webp",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012339878698.html?pdp_npi=6%40dis%21USD%2197.65%2148.83%21%21%21659.34%21329.67%21%4021013cc017797818864051698e103e%2112000058132636134%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779728431/flash-sale/1005012339878698.webp",
       "rating": 0.0,
-      "reviews_count": 3,
-      "expires_at": "2026-05-26T08:00:24Z"
+      "reviews_count": 0,
+      "expires_at": "2026-05-26T08:51:30Z"
     },
     {
-      "product_id": "1005007576284267",
-      "title": "SONOFF SWV Zigbee 3.0 Smart Water Valve IP55 Sprinkler Controller Home Automate Irrigation Compatible with eWeLink Alexa Google",
-      "slug": "sonoff-swv-zigbee-30-smart-water-valve-ip55-sprinkler-contro",
-      "price": "26.90",
-      "original_price": "53.80",
+      "product_id": "1005012333523839",
+      "title": "Outdoor Riding Bluetooth Speaker Fixed Bracket TF Card TWS Heavy Bass Portable Audio",
+      "slug": "outdoor-riding-bluetooth-speaker-fixed-bracket-tf-card-tws-h",
+      "price": "17.82",
+      "original_price": "35.64",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005007576284267.html?pdp_npi=6%40dis%21USD%2153.80%2126.90%21%21%2153.80%2126.90%21%40210152bd17797788165158434e101a%2112000041367328946%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779611499/flash-sale/1005007576284267.webp",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012333523839.html?pdp_npi=6%40dis%21USD%2135.64%2117.82%21%21%21240.63%21120.31%21%4021013cc017797818864051698e103e%2112000058129284557%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781892/flash-sale/1005012333523839.webp",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "expires_at": "2026-05-26T08:51:30Z"
+    },
+    {
+      "product_id": "1005003696509258",
+      "title": "9D Tempered Glass For Xiaomi Mi band 7 6 5 Screen Protector Film For Miband 6 5 Smart Watchband Protective Cover Strap Bracelet",
+      "slug": "9d-tempered-glass-for-xiaomi-mi-band-7-6-5-screen-protector-",
+      "price": "2.20",
+      "original_price": "4.15",
+      "discount_pct": 47,
+      "affiliate_url": "https://www.aliexpress.com/item/1005003696509258.html?pdp_npi=6%40dis%21USD%214.15%212.20%21%21%214.15%212.20%21%4021013cc017797818836743207e10e2%2112000026843193300%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781893/flash-sale/1005003696509258.webp",
+      "rating": 4.7,
+      "reviews_count": 11,
+      "expires_at": "2026-05-26T08:51:30Z"
+    },
+    {
+      "product_id": "1005011544110376",
+      "title": "Misa D-Death N-Note Minimalist Transparent Case for Airpods Pro 3 2 1  4 Cute Cartoon  Japanese Airpod Cases TPU Earphone Cover",
+      "slug": "misa-d-death-n-note-minimalist-transparent-case-for-airpods-",
+      "price": "2.63",
+      "original_price": "3.98",
+      "discount_pct": 34,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%402140d36217797818793901970e0f00%2112000055876481242%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781894/flash-sale/1005011544110376.webp",
       "rating": 4.8,
-      "reviews_count": 1879,
-      "expires_at": "2026-05-26T08:00:24Z"
+      "reviews_count": 337,
+      "expires_at": "2026-05-26T08:51:30Z"
+    },
+    {
+      "product_id": "1005005965888560",
+      "title": "Z30 Pro Smart Watch Men Women Waterproof Wrist Watches 1.43\" AMOLED Smartwatch Men Fitness Bracelet Local Music Wristwatch Clock",
+      "slug": "z30-pro-smart-watch-men-women-waterproof-wrist-watches-143-a",
+      "price": "42.51",
+      "original_price": "62.52",
+      "discount_pct": 32,
+      "affiliate_url": "https://www.aliexpress.com/item/1005005965888560.html?pdp_npi=6%40dis%21USD%2162.52%2142.51%21%21%21422.18%21287.08%21%4021013cc017797818836743207e10e2%2112000035097753928%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781895/flash-sale/1005005965888560.webp",
+      "rating": 5.0,
+      "reviews_count": 3,
+      "expires_at": "2026-05-26T08:51:30Z"
+    },
+    {
+      "product_id": "1005004267045931",
+      "title": "Natural Stone Beaded Bracelet Set Elastic Rope Bracelet 3Pcs/Set  For Women Men Agates Howlites Handmade Bangle Jewelry Healing",
+      "slug": "natural-stone-beaded-bracelet-set-elastic-rope-bracelet-3pcs",
+      "price": "1.03",
+      "original_price": "1.47",
+      "discount_pct": 30,
+      "affiliate_url": "https://www.aliexpress.com/item/1005004267045931.html?pdp_npi=6%40dis%21USD%211.47%211.03%21%21%211.47%211.03%21%4021013cc017797818836743207e10e2%2112000028626705978%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781895/flash-sale/1005004267045931.webp",
+      "rating": 5.0,
+      "reviews_count": 10,
+      "expires_at": "2026-05-26T08:51:30Z"
     }
   ]
 }
