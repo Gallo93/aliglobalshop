@@ -1,13 +1,13 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-05-25T23:00:25Z",
+  "updated_at": "2026-05-26T03:42:28Z",
   "products": [
     {
       "product_id": "4001142960865",
       "title": "LED Strip Light ,RGB 5050/SMD3535, Flexible Ribbon, DIY Led Light Strip RGB  Tape Diode DC 12V bluetooth Christmas lights",
       "slug": "led-strip-light-rgb-5050smd3535-flexible-ribbon-diy-led-ligh",
-      "price": 12.56,
-      "original_price": 46.52,
+      "price": "12.56",
+      "original_price": "46.52",
       "discount_pct": 73,
       "affiliate_url": "https://www.aliexpress.com/item/4001142960865.html?pdp_npi=6%40dis%21USD%2146.52%2112.56%21%21%2146.52%2112.56%21%4021013cc017796866840255343e10e4%2112000032209723795%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192107/products/4001142960865.webp",
@@ -18,14 +18,14 @@
       "score": 0.3258,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:15Z",
-      "updated_at": "2026-05-25T23:00:15Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005011795391651",
       "title": "20000mAh Magnetic Power Bank PD 22.5W Wireless Fast Charger For Magsafe Portable Auxiliary Battery For iPhone Air 17",
       "slug": "20000mah-magnetic-power-bank-pd-225w-wireless-fast-charger-f",
-      "price": 24.0,
-      "original_price": 75.0,
+      "price": "23.98",
+      "original_price": "74.95",
       "discount_pct": 68,
       "affiliate_url": "https://www.aliexpress.com/item/1005011795391651.html?pdp_npi=6%40dis%21USD%2175.00%2124.00%21%21%21506.09%21161.95%21%402140d36117796866860735424e101d%2112000056595947022%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192208/products/1005011795391651.webp",
@@ -36,14 +36,14 @@
       "score": 0.3127,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:16Z",
-      "updated_at": "2026-05-25T23:00:16Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005009017398891",
       "title": "10000mAh Slim Mini Power Bank for MagSafe,Magnetic Wireless Fast Charger Stand 20W Portable External Battery For iPhone Samsung",
       "slug": "10000mah-slim-mini-power-bank-for-magsafemagnetic-wireless-f",
-      "price": 19.08,
-      "original_price": 36.0,
+      "price": "19.08",
+      "original_price": "36.00",
       "discount_pct": 47,
       "affiliate_url": "https://www.aliexpress.com/item/1005009017398891.html?pdp_npi=6%40dis%21USD%2136.00%2119.08%21%21%2136.00%2119.08%21%402140d36117796866860735424e101d%2112000047597272229%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779686690/products/1005009017398891.webp",
@@ -54,14 +54,14 @@
       "score": 0.2766,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:16Z",
-      "updated_at": "2026-05-25T23:00:16Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005010680358865",
       "title": "66W 100000mAh Power Bank Fast Charging PD 22W Portable Mini PowerBank for iPhone 17 16 15 Xiaomi External Battery Charger",
       "slug": "66w-100000mah-power-bank-fast-charging-pd-22w-portable-mini-",
-      "price": 12.91,
-      "original_price": 30.73,
+      "price": "12.90",
+      "original_price": "30.71",
       "discount_pct": 58,
       "affiliate_url": "https://www.aliexpress.com/item/1005010680358865.html?pdp_npi=6%40dis%21USD%2130.73%2112.91%21%21%21207.36%2187.09%21%402140d36117796866860735424e101d%2112000053174571041%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577223/products/1005010680358865.webp",
@@ -72,14 +72,14 @@
       "score": 0.2754,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:17Z",
-      "updated_at": "2026-05-25T23:00:17Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005012002690751",
       "title": "20000mAh Large Capacity Mobile Power Bank with 4-wire Fast Charging Charger Portable External Battery for iphone Xiaomi Samsung",
       "slug": "20000mah-large-capacity-mobile-power-bank-with-4-wire-fast-c",
-      "price": 8.33,
-      "original_price": 16.66,
+      "price": "8.32",
+      "original_price": "16.64",
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005012002690751.html?pdp_npi=6%40dis%21USD%2116.66%218.33%21%21%21112.39%2156.19%21%402140d36117796866860735424e101d%2112000057242989940%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192213/products/1005012002690751.webp",
@@ -90,14 +90,14 @@
       "score": 0.2518,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:17Z",
-      "updated_at": "2026-05-25T23:00:17Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005012003970031",
       "title": "New 50000mA Magnetic Portable Power Bank 25W Wireless Fast Charger for Magsafe External Battery Charger Cases for iphone Samsung",
       "slug": "new-50000ma-magnetic-portable-power-bank-25w-wireless-fast-c",
-      "price": 8.69,
-      "original_price": 17.39,
+      "price": "8.69",
+      "original_price": "17.38",
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005012003970031.html?pdp_npi=6%40dis%21USD%2117.39%218.69%21%21%21117.37%2158.68%21%402140d36117796866860735424e101d%2112000057245827367%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577225/products/1005012003970031.webp",
@@ -108,14 +108,14 @@
       "score": 0.2502,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:18Z",
-      "updated_at": "2026-05-25T23:00:18Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005010660256913",
       "title": "High-Capacity 400W Portable Power Station 192Wh LiFePO4 Battery AC 220V Solar Generator Fast Charge Power Bank for Camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
-      "price": 151.73,
-      "original_price": 303.45,
+      "price": "151.62",
+      "original_price": "303.24",
       "discount_pct": 50,
       "affiliate_url": "https://www.aliexpress.com/item/1005010660256913.html?pdp_npi=6%40dis%21USD%21303.45%21151.73%21%21%212047.54%211023.77%21%402140d36117796866860735424e101d%2112000053106995145%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779686693/products/1005010660256913.webp",
@@ -126,14 +126,14 @@
       "score": 0.2499,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:18Z",
-      "updated_at": "2026-05-25T23:00:18Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005011544110376",
       "title": "Misa D-Death N-Note Minimalist Transparent Case for Airpods Pro 3 2 1  4 Cute Cartoon  Japanese Airpod Cases TPU Earphone Cover",
       "slug": "misa-d-death-n-note-minimalist-transparent-case-for-airpods-",
-      "price": 2.63,
-      "original_price": 3.98,
+      "price": "2.63",
+      "original_price": "3.98",
       "discount_pct": 34,
       "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%4021013cc017796866792474923e10e4%2112000055876481242%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192110/products/1005011544110376.webp",
@@ -144,14 +144,14 @@
       "score": 0.2391,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:19Z",
-      "updated_at": "2026-05-25T23:00:19Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005011532019654",
       "title": "For XPENG G7 wireless charging pad, central control silicone cup pad",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
-      "price": 12.67,
-      "original_price": 42.24,
+      "price": "12.66",
+      "original_price": "42.21",
       "discount_pct": 70,
       "affiliate_url": "https://www.aliexpress.com/item/1005011532019654.html?pdp_npi=6%40dis%21USD%2142.24%2112.67%21%21%21285.00%2185.50%21%4021013cc017796866881855628e10e4%2112000055841693241%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577227/products/1005011532019654.webp",
@@ -162,14 +162,14 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:19Z",
-      "updated_at": "2026-05-25T23:00:19Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005011532039236",
       "title": "For Geely Galaxy M9 silicone wireless charging pad, central control phone pad, anti slip",
       "slug": "for-geely-galaxy-m9-silicone-wireless-charging-pad-central-c",
-      "price": 8.89,
-      "original_price": 29.64,
+      "price": "8.89",
+      "original_price": "29.62",
       "discount_pct": 70,
       "affiliate_url": "https://www.aliexpress.com/item/1005011532039236.html?pdp_npi=6%40dis%21USD%2129.64%218.89%21%21%21200.00%2160.00%21%4021013cc017796866881855628e10e4%2112000055840752668%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577229/products/1005011532039236.webp",
@@ -180,14 +180,14 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:20Z",
-      "updated_at": "2026-05-25T23:00:20Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005011532141899",
       "title": "FOR ZEEKR 9X Silicone wireless charging pad, central control phone pad, anti slip modification accessories, interior decoration",
       "slug": "for-zeekr-9x-silicone-wireless-charging-pad-central-control-",
-      "price": 8.36,
-      "original_price": 27.86,
+      "price": "8.35",
+      "original_price": "27.84",
       "discount_pct": 70,
       "affiliate_url": "https://www.aliexpress.com/item/1005011532141899.html?pdp_npi=6%40dis%21USD%2127.86%218.36%21%21%21188.00%2156.40%21%4021013cc017796866881855628e10e4%2112000055843011398%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779686696/products/1005011532141899.webp",
@@ -198,14 +198,14 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:20Z",
-      "updated_at": "2026-05-25T23:00:20Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005009873262361",
       "title": "Original 120W Powerbank 50000mAh Mobile External Spare Battery Portable Charger Super Fast Charging For iPhone Xiaomi Power Bank",
       "slug": "original-120w-powerbank-50000mah-mobile-external-spare-batte",
-      "price": 17.58,
-      "original_price": 29.3,
+      "price": "17.58",
+      "original_price": "29.30",
       "discount_pct": 40,
       "affiliate_url": "https://www.aliexpress.com/item/1005009873262361.html?pdp_npi=6%40dis%21USD%2129.30%2117.58%21%21%2129.30%2117.58%21%402140d36117796866860735424e101d%2112000050437437563%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577230/products/1005009873262361.webp",
@@ -216,14 +216,14 @@
       "score": 0.2097,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:21Z",
-      "updated_at": "2026-05-25T23:00:21Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005012229118016",
       "title": "For Xiaomi Original 500000mAh Powerbank External Spare Battery Portable Charger For iPhone Samsung Super Fast Charging PowerBank",
       "slug": "for-xiaomi-original-500000mah-powerbank-external-spare-batte",
-      "price": 20.16,
-      "original_price": 31.01,
+      "price": "20.16",
+      "original_price": "31.01",
       "discount_pct": 35,
       "affiliate_url": "https://www.aliexpress.com/item/1005012229118016.html?pdp_npi=6%40dis%21USD%2131.01%2120.16%21%21%2131.01%2120.16%21%402140d36117796866860735424e101d%2112000057804879450%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779686697/products/1005012229118016.webp",
@@ -234,14 +234,14 @@
       "score": 0.2062,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:21Z",
-      "updated_at": "2026-05-25T23:00:21Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005010107182757",
       "title": "40W Fast Charging Protable 10000mAh PowerBank Gallium Nitride With 70cm Retractable Type-C Cable for iPhone 17 16 Xiaomi Huawei",
       "slug": "40w-fast-charging-protable-10000mah-powerbank-gallium-nitrid",
-      "price": 33.99,
-      "original_price": 48.56,
+      "price": "33.99",
+      "original_price": "48.56",
       "discount_pct": 30,
       "affiliate_url": "https://www.aliexpress.com/item/1005010107182757.html?pdp_npi=6%40dis%21USD%2148.56%2133.99%21%21%2148.56%2133.99%21%402140d36117796866860735424e101d%2112000051171038324%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577231/products/1005010107182757.webp",
@@ -252,14 +252,14 @@
       "score": 0.2033,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:22Z",
-      "updated_at": "2026-05-25T23:00:22Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005008172692579",
       "title": "1PCS For JBL Charge5 ND Motherboard USB Charging Charge 5 Board",
       "slug": "1pcs-for-jbl-charge5-nd-motherboard-usb-charging-charge-5-bo",
-      "price": 48.96,
-      "original_price": 69.94,
+      "price": "48.93",
+      "original_price": "69.90",
       "discount_pct": 30,
       "affiliate_url": "https://www.aliexpress.com/item/1005008172692579.html?pdp_npi=6%40dis%21USD%2169.94%2148.96%21%21%21471.96%21330.37%21%402140d36217796866814772053e10f1%2112000044097825637%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192115/products/1005008172692579.webp",
@@ -270,14 +270,14 @@
       "score": 0.191,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:22Z",
-      "updated_at": "2026-05-25T23:00:22Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "33007923484",
       "title": "EVA Hard Portable Protective Carrying Box Cover Storage Speaker Case Bag for MARSHALL Stockwell Bluetooth Speaker Accessories",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
-      "price": 12.49,
-      "original_price": 17.85,
+      "price": "12.49",
+      "original_price": "17.85",
       "discount_pct": 30,
       "affiliate_url": "https://www.aliexpress.com/item/33007923484.html?pdp_npi=6%40dis%21USD%2117.85%2112.49%21%21%2117.85%2112.49%21%402140d36217796866814772053e10f1%2167048766260%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192120/products/33007923484.webp",
@@ -288,14 +288,14 @@
       "score": 0.1864,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:23Z",
-      "updated_at": "2026-05-25T23:00:23Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005005632971536",
       "title": "WL-Box2 LED WIFI Controller Smart Wireless 2.4GHz Gateway Voice WiFi rgb Controller Tuya For Mi Boxer LED Bulb Strip Light Lamp",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
-      "price": 15.54,
-      "original_price": 21.0,
+      "price": "15.54",
+      "original_price": "21.00",
       "discount_pct": 26,
       "affiliate_url": "https://www.aliexpress.com/item/1005005632971536.html?pdp_npi=6%40dis%21USD%2121.00%2115.54%21%21%2121.00%2115.54%21%4021013cc017796866840255343e10e4%2112000033821913694%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192124/products/1005005632971536.webp",
@@ -306,14 +306,14 @@
       "score": 0.1797,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:23Z",
-      "updated_at": "2026-05-25T23:00:23Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005011724105665",
       "title": "Multifunctional Mini Portable Bluetooth Radio Music Player Built-in Speaker DSP FM Stereo Radios Alarm Clock Rechargeable",
       "slug": "multifunctional-mini-portable-bluetooth-radio-music-player-b",
-      "price": 17.73,
-      "original_price": 39.39,
+      "price": "17.71",
+      "original_price": "39.36",
       "discount_pct": 55,
       "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.39%2117.73%21%21%21265.79%21119.61%21%402140d36217796866814772053e10f1%2112000056360671631%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192127/products/1005011724105665.webp",
@@ -324,14 +324,14 @@
       "score": 0.165,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:24Z",
-      "updated_at": "2026-05-25T23:00:24Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005010159116358",
       "title": "20000mAh Mini Power Bank 22.5W Fast Charging Mobile Phone Charger for iPhone Xiaomi Samsung Powerbank with Cable Spare Battery",
       "slug": "20000mah-mini-power-bank-225w-fast-charging-mobile-phone-cha",
-      "price": 24.6,
-      "original_price": 53.48,
+      "price": "24.59",
+      "original_price": "53.45",
       "discount_pct": 54,
       "affiliate_url": "https://www.aliexpress.com/item/1005010159116358.html?pdp_npi=6%40dis%21USD%2153.48%2124.60%21%21%21360.88%21166.00%21%402140d36117796866860735424e101d%2112000051370251639%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779426486/products/1005010159116358.webp",
@@ -342,14 +342,14 @@
       "score": 0.1621,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:24Z",
-      "updated_at": "2026-05-25T23:00:24Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     },
     {
       "product_id": "1005010253348075",
       "title": "for Audi A6L A7 c7 wireless charging plate 2012-2018 double type-c 65W fast charging pad mobile phone charge holder accessories",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
-      "price": 47.52,
-      "original_price": 99.0,
+      "price": "47.52",
+      "original_price": "99.00",
       "discount_pct": 52,
       "affiliate_url": "https://www.aliexpress.com/item/1005010253348075.html?pdp_npi=6%40dis%21USD%2199.00%2147.52%21%21%2199.00%2147.52%21%4021013cc017796866881855628e10e4%2112000051689894987%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577236/products/1005010253348075.webp",
@@ -360,7 +360,7 @@
       "score": 0.1589,
       "price_history": [],
       "fetched_at": "2026-05-25T23:00:25Z",
-      "updated_at": "2026-05-25T23:00:25Z"
+      "updated_at": "2026-05-26T03:42:28Z"
     }
   ]
 }
