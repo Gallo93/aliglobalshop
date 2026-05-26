@@ -1,126 +1,46 @@
 {
-  "updated_at": "2026-05-26T03:00:39Z",
+  "updated_at": "2026-05-26T08:33:22Z",
   "min_discount_pct": 30,
   "products": [
     {
-      "product_id": "1005008329895514",
-      "title": "40Pcs Set New Paint Printing BB Clip Children's Broken Hairpin Metal Side Little Girl Hair Accessories Hairpin",
-      "slug": "40pcs-set-new-paint-printing-bb-clip-childrens-broken-hairpi",
-      "price": "5.56",
-      "original_price": "17.92",
-      "discount_pct": 69,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008329895514.html?pdp_npi=6%40dis%21USD%2117.92%215.56%21%21%21120.91%2137.48%21%40214114e317797644208615358e0f5f%2112000044620703400%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764429/coupons/1005008329895514.webp"
+      "product_id": "1005008555896822",
+      "title": "Clearance Sale Leather for Magsafe Phone Case for Apple iPhone 13 Pro Max 13 Mini Bracket Magnetic Back Cover with Card Holder",
+      "slug": "clearance-sale-leather-for-magsafe-phone-case-for-apple-ipho",
+      "price": "4.99",
+      "original_price": "9.99",
+      "discount_pct": 50,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.99%21%21%219.99%214.99%21%402140d36117797843954377294e1187%2112000045695796771%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784398/coupons/1005008555896822.webp"
     },
     {
-      "product_id": "1005006444743321",
-      "title": "Portable Automatic Cigarette Case Metal Cigarette Holder Box For 10pcs King Size Men‘s Smoking Gifts (Lighter Not Included)",
-      "slug": "portable-automatic-cigarette-case-metal-cigarette-holder-box",
-      "price": "6.06",
-      "original_price": "17.55",
-      "discount_pct": 65,
-      "affiliate_url": "https://www.aliexpress.com/item/1005006444743321.html?pdp_npi=6%40dis%21USD%2117.55%216.06%21%21%21118.43%2140.88%21%402151fd3a17797644285312219e0e61%2112000037190292642%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764430/coupons/1005006444743321.webp"
+      "product_id": "1005009100661981",
+      "title": "Clearance Sale Luxury Lychee Genuine Cowhide Leather Phone Case for iPhone 13 14 15 16 Pro Max 13Pro Shockproof Back Cover",
+      "slug": "clearance-sale-luxury-lychee-genuine-cowhide-leather-phone-c",
+      "price": "3.40",
+      "original_price": "6.81",
+      "discount_pct": 50,
+      "affiliate_url": "https://www.aliexpress.com/item/1005009100661981.html?pdp_npi=6%40dis%21USD%216.81%213.40%21%21%2146.00%2123.00%21%402140d36117797843954377294e1187%2112000047916953514%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784400/coupons/1005009100661981.webp"
     },
     {
-      "product_id": "1005007231844270",
-      "title": "1PC 3 in 1 Magic Trio Peeler Set Slicer Shredder Peeler Julienne Cutter Multi Peel Blade Zesters Grater Kitchen Tool",
-      "slug": "1pc-3-in-1-magic-trio-peeler-set-slicer-shredder-peeler-juli",
-      "price": "5.62",
-      "original_price": "15.77",
-      "discount_pct": 64,
-      "affiliate_url": "https://www.aliexpress.com/item/1005007231844270.html?pdp_npi=6%40dis%21USD%2115.77%215.62%21%21%21106.38%2137.90%21%402151fd3a17797644285312219e0e61%2112000039892881057%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764432/coupons/1005007231844270.webp"
+      "product_id": "1005008784045572",
+      "title": "Clearance Sale Leather for Magsafe Phone Case for Apple iPhone 13 Pro Max 13Mini Bracket Magnetic Back Cover with Card Holder",
+      "slug": "clearance-sale-leather-for-magsafe-phone-case-for-apple-ipho",
+      "price": "8.99",
+      "original_price": "17.98",
+      "discount_pct": 50,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008784045572.html?pdp_npi=6%40dis%21USD%2117.98%218.99%21%21%2117.98%218.99%21%402140d36117797843954377294e1187%2112000046651634493%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784401/coupons/1005008784045572.webp"
     },
     {
-      "product_id": "1005012325757714",
-      "title": "Kawaii Pitaya Squishy Squeeze Stress Ball Funny Sensory Fidget Toy Anti-Stress Mood Relief Vent Portable Decompression Gadget",
-      "slug": "kawaii-pitaya-squishy-squeeze-stress-ball-funny-sensory-fidg",
-      "price": "3.59",
-      "original_price": "9.97",
-      "discount_pct": 64,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012325757714.html?pdp_npi=6%40dis%21USD%219.97%213.59%21%21%2167.26%2124.21%21%402151fd3a17797644285312219e0e61%2112000058087887560%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764433/coupons/1005012325757714.webp"
-    },
-    {
-      "product_id": "1005012248733139",
-      "title": "3-in-1 Peeling Knife With Serrated Edge Vegetable Peeler Handle Integrated Bottle Opener Dishwasher Safe For Kitchen Efficiency",
-      "slug": "3-in-1-peeling-knife-with-serrated-edge-vegetable-peeler-han",
-      "price": "4.39",
-      "original_price": "11.63",
-      "discount_pct": 62,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012248733139.html?pdp_npi=6%40dis%21USD%2111.63%214.39%21%21%2178.49%2129.66%21%402151fd3a17797644285312219e0e61%2112000057863749770%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764433/coupons/1005012248733139.webp"
-    },
-    {
-      "product_id": "1005010011824465",
-      "title": "10/20/30pcs mixed pack of light pink heart-shaped and bow-shaped hair clips | Suitable for girls as party or holiday gifts.",
-      "slug": "102030pcs-mixed-pack-of-light-pink-heart-shaped-and-bow-shap",
-      "price": "3.05",
-      "original_price": "6.75",
-      "discount_pct": 54,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010011824465.html?pdp_npi=6%40dis%21USD%216.75%213.05%21%21%2145.57%2120.58%21%40214114e317797644208615358e0f5f%2112000050837352361%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764434/coupons/1005010011824465.webp"
-    },
-    {
-      "product_id": "1005010278593660",
-      "title": "2026 NEW 180 MX Motocross Jersey and Pants Race Combo Enduro DH Dirt Bike Gear Set Off-road MTB ATV Moto Suit",
-      "slug": "2026-new-180-mx-motocross-jersey-and-pants-race-combo-enduro",
-      "price": "59.68",
-      "original_price": "129.73",
-      "discount_pct": 54,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010278593660.html?pdp_npi=6%40dis%21USD%21129.73%2159.68%21%21%21875.34%21402.66%21%402141149b17797644247597973e0ee4%2112000052642996534%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418828/coupons/1005010278593660.webp"
-    },
-    {
-      "product_id": "1005012070474079",
-      "title": "2026 NEW MX Motocross Jersey and Pants Race Combo Enduro DH Dirt Bike Gear Set Off-road MTB ATV Moto Suit QWH1",
-      "slug": "2026-new-mx-motocross-jersey-and-pants-race-combo-enduro-dh-",
-      "price": "57.78",
-      "original_price": "125.61",
-      "discount_pct": 54,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012070474079.html?pdp_npi=6%40dis%21USD%21125.61%2157.78%21%21%21847.55%21389.87%21%402141149b17797644247597973e0ee4%2112000057426755686%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764436/coupons/1005012070474079.webp"
-    },
-    {
-      "product_id": "1005010119957659",
-      "title": "2026 For Haigen Deegan Motocross Gear Set MX Jersey Set Moto Suit Off Road Dirt Bike Combo",
-      "slug": "2026-for-haigen-deegan-motocross-gear-set-mx-jersey-set-moto",
-      "price": "55.22",
-      "original_price": "120.05",
-      "discount_pct": 54,
-      "affiliate_url": "https://www.aliexpress.com/item/1005010119957659.html?pdp_npi=6%40dis%21USD%21120.05%2155.22%21%21%21810.03%21372.61%21%402141149b17797644247597973e0ee4%2112000051211361718%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418832/coupons/1005010119957659.webp"
-    },
-    {
-      "product_id": "1005012279365133",
-      "title": "2026.5 Prime Pro Motocross Gear Set Enduro Jersey and Pants MX Race Combo DH Dirt Bike Gear Set Off-road ATV Moto Suit",
-      "slug": "20265-prime-pro-motocross-gear-set-enduro-jersey-and-pants-m",
-      "price": "63.06",
-      "original_price": "134.18",
-      "discount_pct": 53,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012279365133.html?pdp_npi=6%40dis%21USD%21134.18%2163.06%21%21%21905.43%21425.55%21%402141149b17797644247597973e0ee4%2112000057952175997%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779418833/coupons/1005012279365133.webp"
-    },
-    {
-      "product_id": "1005011850450844",
-      "title": "Candy Color Ball Hair Ties for Girls Cute Princess Long Elastic Hair Rope Colorful Beaded Ponytail Holders Kids Baby Hair Bands",
-      "slug": "candy-color-ball-hair-ties-for-girls-cute-princess-long-elas",
-      "price": "4.66",
-      "original_price": "9.79",
-      "discount_pct": 52,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011850450844.html?pdp_npi=6%40dis%21USD%219.79%214.66%21%21%2166.04%2131.42%21%40214114e317797644208615358e0f5f%2112000056778192740%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764438/coupons/1005011850450844.webp"
-    },
-    {
-      "product_id": "1005011911212797",
-      "title": "Butter Cutter Slicer Box Butter Dish With Lid And Knife For Easy Cutting And Storage Refrigerated Butter Container Butter Box",
-      "slug": "butter-cutter-slicer-box-butter-dish-with-lid-and-knife-for-",
-      "price": "11.78",
-      "original_price": "24.05",
-      "discount_pct": 51,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011911212797.html?pdp_npi=6%40dis%21USD%2124.05%2111.78%21%21%21162.29%2179.52%21%402151fd3a17797644285312219e0e61%2112000056992818603%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779764438/coupons/1005011911212797.webp"
+      "product_id": "1005008542451706",
+      "title": "BroadLink RM4 Mini Universal IR Remote Control Switch Wifi Smart Wireless Bluetooth Controller HTS2 Sensor For Alexa Google Home",
+      "slug": "broadlink-rm4-mini-universal-ir-remote-control-switch-wifi-s",
+      "price": "16.11",
+      "original_price": "25.57",
+      "discount_pct": 37,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008542451706.html?pdp_npi=6%40dis%21USD%2125.57%2116.11%21%21%2125.57%2116.11%21%402140d33617797843923852015e114b%2112000045637448924%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784402/coupons/1005008542451706.webp"
     }
   ]
 }
