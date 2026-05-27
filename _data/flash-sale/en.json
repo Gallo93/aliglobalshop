@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-27T21:57:26Z",
-  "expires_at": "2026-05-27T22:57:21Z",
+  "updated_at": "2026-05-27T22:00:43Z",
+  "expires_at": "2026-05-27T23:00:39Z",
   "products": [
     {
       "product_id": "1005008663863645",
@@ -9,11 +9,11 @@
       "price": "42.84",
       "original_price": "214.20",
       "discount_pct": 80,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%402101611117799190368495462e0e1c%2112000046147626295%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%402151fce817799192339714051e0ffe%2112000046147626295%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
       "rating": 5.0,
       "reviews_count": 1,
-      "expires_at": "2026-05-27T22:57:21Z"
+      "expires_at": "2026-05-27T23:00:39Z"
     },
     {
       "product_id": "1005008264604373",
@@ -22,24 +22,76 @@
       "price": "35.36",
       "original_price": "121.93",
       "discount_pct": 71,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402101611117799190368495462e0e1c%2112000044412070783%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402151fce817799192339714051e0ffe%2112000044412070783%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
       "rating": 4.5,
       "reviews_count": 11,
-      "expires_at": "2026-05-27T22:57:21Z"
+      "expires_at": "2026-05-27T23:00:39Z"
     },
     {
-      "product_id": "1005012159681036",
-      "title": "G28 Women Smart Watch Female Smartwatch Elegant Wristband Heart Rate Monitoring Alarm Clock Reminder Sports Fitness Band",
-      "slug": "g28-women-smart-watch-female-smartwatch-elegant-wristband-he",
-      "price": "18.59",
-      "original_price": "54.34",
-      "discount_pct": 65,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.34%2118.59%21%21%21366.66%21125.40%21%402101611117799190368495462e0e1c%2112000057669786535%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
+      "product_id": "1005011724105665",
+      "title": "Multifunctional Mini Portable Bluetooth Radio Music Player Built-in Speaker DSP FM Stereo Radios Alarm Clock Rechargeable",
+      "slug": "multifunctional-mini-portable-bluetooth-radio-music-player-b",
+      "price": "17.73",
+      "original_price": "39.39",
+      "discount_pct": 55,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.39%2117.73%21%21%21265.79%21119.61%21%402151fce817799192360782663e1169%2112000056360671631%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562829/flash-sale/1005011724105665.webp",
       "rating": 0.0,
-      "reviews_count": 27,
-      "expires_at": "2026-05-27T22:57:21Z"
+      "reviews_count": 0,
+      "expires_at": "2026-05-27T23:00:39Z"
+    },
+    {
+      "product_id": "1005003816455175",
+      "title": "Fashion Magnetic Hematite Beads Bracelet Men Nature 4-20mm Reiki Healing Energy Stone Bracelets for Women Protect Health Jewelry",
+      "slug": "fashion-magnetic-hematite-beads-bracelet-men-nature-4-20mm-r",
+      "price": "2.68",
+      "original_price": "5.36",
+      "discount_pct": 50,
+      "affiliate_url": "https://www.aliexpress.com/item/1005003816455175.html?pdp_npi=6%40dis%21USD%215.36%212.68%21%21%215.36%212.68%21%402151fce817799192339714051e0ffe%2112000027260077721%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779809747/flash-sale/1005003816455175.webp",
+      "rating": 4.4,
+      "reviews_count": 177,
+      "expires_at": "2026-05-27T23:00:39Z"
+    },
+    {
+      "product_id": "1005012339878698",
+      "title": "High Power Portable Bluetooth Speaker Outdoor K Song Live Music Audio Box",
+      "slug": "high-power-portable-bluetooth-speaker-outdoor-k-song-live-mu",
+      "price": "48.85",
+      "original_price": "97.71",
+      "discount_pct": 50,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012339878698.html?pdp_npi=6%40dis%21USD%2197.71%2148.85%21%21%21659.34%21329.67%21%402151fce817799192360782663e1169%2112000058132636134%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779728431/flash-sale/1005012339878698.webp",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "expires_at": "2026-05-27T23:00:39Z"
+    },
+    {
+      "product_id": "1005012333523839",
+      "title": "Outdoor Riding Bluetooth Speaker Fixed Bracket TF Card TWS Heavy Bass Portable Audio",
+      "slug": "outdoor-riding-bluetooth-speaker-fixed-bracket-tf-card-tws-h",
+      "price": "17.83",
+      "original_price": "35.66",
+      "discount_pct": 50,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012333523839.html?pdp_npi=6%40dis%21USD%2135.66%2117.83%21%21%21240.63%21120.31%21%402151fce817799192360782663e1169%2112000058129284557%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781892/flash-sale/1005012333523839.webp",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "expires_at": "2026-05-27T23:00:39Z"
+    },
+    {
+      "product_id": "1005003696509258",
+      "title": "9D Tempered Glass For Xiaomi Mi band 7 6 5 Screen Protector Film For Miband 6 5 Smart Watchband Protective Cover Strap Bracelet",
+      "slug": "9d-tempered-glass-for-xiaomi-mi-band-7-6-5-screen-protector-",
+      "price": "2.20",
+      "original_price": "4.15",
+      "discount_pct": 47,
+      "affiliate_url": "https://www.aliexpress.com/item/1005003696509258.html?pdp_npi=6%40dis%21USD%214.15%212.20%21%21%214.15%212.20%21%402151fce817799192339714051e0ffe%2112000026843193300%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781893/flash-sale/1005003696509258.webp",
+      "rating": 4.7,
+      "reviews_count": 11,
+      "expires_at": "2026-05-27T23:00:39Z"
     },
     {
       "product_id": "1005011544110376",
@@ -48,11 +100,11 @@
       "price": "2.63",
       "original_price": "3.98",
       "discount_pct": 34,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%402140d33617799190327406360e1064%2112000055876481242%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%402151fd3a17799192300265757e0ee5%2112000055876481242%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781894/flash-sale/1005011544110376.webp",
       "rating": 4.8,
       "reviews_count": 340,
-      "expires_at": "2026-05-27T22:57:21Z"
+      "expires_at": "2026-05-27T23:00:39Z"
     },
     {
       "product_id": "1005005965888560",
@@ -61,50 +113,24 @@
       "price": "42.55",
       "original_price": "62.57",
       "discount_pct": 32,
-      "affiliate_url": "https://www.aliexpress.com/item/1005005965888560.html?pdp_npi=6%40dis%21USD%2162.57%2142.55%21%21%21422.18%21287.08%21%402101611117799190368495462e0e1c%2112000035097753928%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005005965888560.html?pdp_npi=6%40dis%21USD%2162.57%2142.55%21%21%21422.18%21287.08%21%402151fce817799192339714051e0ffe%2112000035097753928%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781895/flash-sale/1005005965888560.webp",
       "rating": 5.0,
       "reviews_count": 3,
-      "expires_at": "2026-05-27T22:57:21Z"
+      "expires_at": "2026-05-27T23:00:39Z"
     },
     {
-      "product_id": "32956836148",
-      "title": "Mi Band 5 6 Strap for Xiaomi Mi Band 6 Bracelet Genuine Leather Wristband for Xiao Mi Miband 6 NFC Miband 5 Wrist Strap",
-      "slug": "mi-band-5-6-strap-for-xiaomi-mi-band-6-bracelet-genuine-leat",
-      "price": "5.99",
-      "original_price": "8.32",
-      "discount_pct": 28,
-      "affiliate_url": "https://www.aliexpress.com/item/32956836148.html?pdp_npi=6%40dis%21USD%218.32%215.99%21%21%218.32%215.99%21%402101611117799190368495462e0e1c%2110000015022461643%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779919044/flash-sale/32956836148.webp",
-      "rating": 4.7,
-      "reviews_count": 5,
-      "expires_at": "2026-05-27T22:57:21Z"
-    },
-    {
-      "product_id": "1005002280628749",
-      "title": "12 Channel DMX Decoder DC5V-24V LED RGB Strip Controller 12CH DMX512 decoder high power 60A DMX dimmer driver",
-      "slug": "12-channel-dmx-decoder-dc5v-24v-led-rgb-strip-controller-12c",
-      "price": "37.10",
-      "original_price": "49.47",
-      "discount_pct": 25,
-      "affiliate_url": "https://www.aliexpress.com/item/1005002280628749.html?pdp_npi=6%40dis%21USD%2149.47%2137.10%21%21%21333.81%21250.36%21%402140d33617799190402276820e1064%2112000019897884505%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779919045/flash-sale/1005002280628749.webp",
-      "rating": 0.0,
-      "reviews_count": 15,
-      "expires_at": "2026-05-27T22:57:21Z"
-    },
-    {
-      "product_id": "1005012327079554",
-      "title": "BIGTREETECH Panda Status P2 Smart LED Light Strip For Bambu Lab P2S/X2D 3D Printer RGB Light Bar Real-Time Print Status Warning",
-      "slug": "bigtreetech-panda-status-p2-smart-led-light-strip-for-bambu-",
-      "price": "32.99",
-      "original_price": "41.24",
-      "discount_pct": 20,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012327079554.html?pdp_npi=6%40dis%21USD%2141.24%2132.99%21%21%2141.24%2132.99%21%402140d33617799190402276820e1064%2112000058156082665%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779919045/flash-sale/1005012327079554.webp",
-      "rating": 0.0,
-      "reviews_count": 0,
-      "expires_at": "2026-05-27T22:57:21Z"
+      "product_id": "1005008172692579",
+      "title": "1PCS For JBL Charge5 ND Motherboard USB Charging Charge 5 Board",
+      "slug": "1pcs-for-jbl-charge5-nd-motherboard-usb-charging-charge-5-bo",
+      "price": "48.96",
+      "original_price": "69.94",
+      "discount_pct": 30,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008172692579.html?pdp_npi=6%40dis%21USD%2169.94%2148.96%21%21%21471.96%21330.37%21%402151fce817799192360782663e1169%2112000044097825637%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779814831/flash-sale/1005008172692579.webp",
+      "rating": 5.0,
+      "reviews_count": 8,
+      "expires_at": "2026-05-27T23:00:39Z"
     }
   ]
 }
