@@ -12,7 +12,8 @@
     "primary_keyword": "aliexpress smart home gadgets",
     "category": "smart-home",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-05-27"
   },
   {
     "topic": "AliExpress fitness deals: best home gym equipment 2026",
