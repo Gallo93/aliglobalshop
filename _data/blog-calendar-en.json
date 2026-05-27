@@ -20,7 +20,8 @@
     "primary_keyword": "aliexpress home gym equipment",
     "category": "sport",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-05-27"
   },
   {
     "topic": "Cool AliExpress gadgets under $10 for everyday life",
