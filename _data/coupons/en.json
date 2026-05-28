@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T08:40:01Z",
+  "updated_at": "2026-05-28T03:00:30Z",
   "min_discount_pct": 30,
   "products": [
     {
@@ -9,7 +9,7 @@
       "price": "4.99",
       "original_price": "9.99",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.99%21%21%219.99%214.99%21%40212a7b8d17798711962825373e11e7%2112000045695796771%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.99%21%21%219.99%214.99%21%402141149b17799372244677433e11dc%2112000045695796771%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784398/coupons/1005008555896822.webp"
     },
     {
@@ -19,7 +19,7 @@
       "price": "3.41",
       "original_price": "6.82",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009100661981.html?pdp_npi=6%40dis%21USD%216.82%213.41%21%21%2146.00%2123.00%21%40212a7b8d17798711962825373e11e7%2112000047916953514%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005009100661981.html?pdp_npi=6%40dis%21USD%216.82%213.41%21%21%2146.00%2123.00%21%402141149b17799372244677433e11dc%2112000047916953514%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784400/coupons/1005009100661981.webp"
     },
     {
@@ -29,7 +29,7 @@
       "price": "8.99",
       "original_price": "17.98",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008784045572.html?pdp_npi=6%40dis%21USD%2117.98%218.99%21%21%2117.98%218.99%21%40212a7b8d17798711962825373e11e7%2112000046651634493%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008784045572.html?pdp_npi=6%40dis%21USD%2117.98%218.99%21%21%2117.98%218.99%21%402141149b17799372244677433e11dc%2112000046651634493%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784401/coupons/1005008784045572.webp"
     },
     {
@@ -39,7 +39,7 @@
       "price": "16.11",
       "original_price": "25.57",
       "discount_pct": 37,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008542451706.html?pdp_npi=6%40dis%21USD%2125.57%2116.11%21%21%2125.57%2116.11%21%40212a7b8d17798711922303162e103a%2112000045637448924%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008542451706.html?pdp_npi=6%40dis%21USD%2125.57%2116.11%21%21%2125.57%2116.11%21%402151fce817799372210686461e0f9a%2112000045637448924%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784402/coupons/1005008542451706.webp"
     }
   ]
