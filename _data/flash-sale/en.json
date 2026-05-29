@@ -1,7 +1,46 @@
 {
-  "updated_at": "2026-05-29T22:00:32Z",
-  "expires_at": "2026-05-29T23:00:23Z",
+  "updated_at": "2026-05-29T23:00:28Z",
+  "expires_at": "2026-05-30T00:00:22Z",
   "products": [
+    {
+      "product_id": "1005008663863645",
+      "title": "2025 New Built-in Dual-band GPS Smart Watch Men Smartwatch Compass Altimeter Barometric 5ATM IP69K Waterproof AMOLED HD Watche",
+      "slug": "2025-new-built-in-dual-band-gps-smart-watch-men-smartwatch-c",
+      "price": "42.84",
+      "original_price": "214.20",
+      "discount_pct": 80,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%402151fd2c17800956169684607e1183%2112000046147626295%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
+      "rating": 5.0,
+      "reviews_count": 1,
+      "expires_at": "2026-05-30T00:00:22Z"
+    },
+    {
+      "product_id": "1005008264604373",
+      "title": "North Edge T-Rex Ultra GPS Smart Watch 5 ATM Waterproof Built-in Dual-band GNSS Compass Military Sport Smartwatch Men 2025 New",
+      "slug": "north-edge-t-rex-ultra-gps-smart-watch-5-atm-waterproof-buil",
+      "price": "35.36",
+      "original_price": "121.93",
+      "discount_pct": 71,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402151fd2c17800956169684607e1183%2112000044412070783%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
+      "rating": 4.5,
+      "reviews_count": 11,
+      "expires_at": "2026-05-30T00:00:22Z"
+    },
+    {
+      "product_id": "1005012159681036",
+      "title": "G28 Women Smart Watch Female Smartwatch Elegant Wristband Heart Rate Monitoring Alarm Clock Reminder Sports Fitness Band",
+      "slug": "g28-women-smart-watch-female-smartwatch-elegant-wristband-he",
+      "price": "18.62",
+      "original_price": "54.45",
+      "discount_pct": 65,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.45%2118.62%21%21%21366.66%21125.40%21%402151fd2c17800956169684607e1183%2112000057669786535%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
+      "rating": 0.0,
+      "reviews_count": 27,
+      "expires_at": "2026-05-30T00:00:22Z"
+    },
     {
       "product_id": "1005011724105665",
       "title": "Multifunctional Mini Portable Bluetooth Radio Music Player Built-in Speaker DSP FM Stereo Radios Alarm Clock Rechargeable",
@@ -9,11 +48,11 @@
       "price": "17.76",
       "original_price": "39.47",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.47%2117.76%21%21%21265.79%21119.61%21%4021013cc617800920203853430e0f27%2112000056360671631%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.47%2117.76%21%21%21265.79%21119.61%21%402141149b17800956195556962e0f49%2112000056360671631%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562829/flash-sale/1005011724105665.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-29T23:00:23Z"
+      "expires_at": "2026-05-30T00:00:22Z"
     },
     {
       "product_id": "1005012339878698",
@@ -22,11 +61,11 @@
       "price": "48.95",
       "original_price": "97.91",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012339878698.html?pdp_npi=6%40dis%21USD%2197.91%2148.95%21%21%21659.34%21329.67%21%4021013cc617800920203853430e0f27%2112000058132636134%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012339878698.html?pdp_npi=6%40dis%21USD%2197.91%2148.95%21%21%21659.34%21329.67%21%402141149b17800956195556962e0f49%2112000058132636134%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779728431/flash-sale/1005012339878698.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-29T23:00:23Z"
+      "expires_at": "2026-05-30T00:00:22Z"
     },
     {
       "product_id": "1005012333523839",
@@ -35,11 +74,24 @@
       "price": "17.86",
       "original_price": "35.73",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012333523839.html?pdp_npi=6%40dis%21USD%2135.73%2117.86%21%21%21240.63%21120.31%21%4021013cc617800920203853430e0f27%2112000058129284557%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012333523839.html?pdp_npi=6%40dis%21USD%2135.73%2117.86%21%21%21240.63%21120.31%21%402141149b17800956195556962e0f49%2112000058129284557%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781892/flash-sale/1005012333523839.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-29T23:00:23Z"
+      "expires_at": "2026-05-30T00:00:22Z"
+    },
+    {
+      "product_id": "1005003696509258",
+      "title": "9D Tempered Glass For Xiaomi Mi band 7 6 5 Screen Protector Film For Miband 6 5 Smart Watchband Protective Cover Strap Bracelet",
+      "slug": "9d-tempered-glass-for-xiaomi-mi-band-7-6-5-screen-protector-",
+      "price": "2.20",
+      "original_price": "4.15",
+      "discount_pct": 47,
+      "affiliate_url": "https://www.aliexpress.com/item/1005003696509258.html?pdp_npi=6%40dis%21USD%214.15%212.20%21%21%214.15%212.20%21%402151fd2c17800956169684607e1183%2112000026843193300%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781893/flash-sale/1005003696509258.webp",
+      "rating": 4.7,
+      "reviews_count": 11,
+      "expires_at": "2026-05-30T00:00:22Z"
     },
     {
       "product_id": "1005011544110376",
@@ -48,89 +100,37 @@
       "price": "2.63",
       "original_price": "3.98",
       "discount_pct": 34,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%40210152bd17800920146554994e1185%2112000055876481242%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%402151fca717800956131992927e1064%2112000055876481242%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781894/flash-sale/1005011544110376.webp",
       "rating": 4.8,
       "reviews_count": 346,
-      "expires_at": "2026-05-29T23:00:23Z"
+      "expires_at": "2026-05-30T00:00:22Z"
     },
     {
-      "product_id": "1005008172692579",
-      "title": "1PCS For JBL Charge5 ND Motherboard USB Charging Charge 5 Board",
-      "slug": "1pcs-for-jbl-charge5-nd-motherboard-usb-charging-charge-5-bo",
-      "price": "49.06",
-      "original_price": "70.09",
-      "discount_pct": 30,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008172692579.html?pdp_npi=6%40dis%21USD%2170.09%2149.06%21%21%21471.96%21330.37%21%4021013cc617800920203853430e0f27%2112000044097825637%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779814831/flash-sale/1005008172692579.webp",
+      "product_id": "1005005965888560",
+      "title": "Z30 Pro Smart Watch Men Women Waterproof Wrist Watches 1.43\" AMOLED Smartwatch Men Fitness Bracelet Local Music Wristwatch Clock",
+      "slug": "z30-pro-smart-watch-men-women-waterproof-wrist-watches-143-a",
+      "price": "42.63",
+      "original_price": "62.69",
+      "discount_pct": 32,
+      "affiliate_url": "https://www.aliexpress.com/item/1005005965888560.html?pdp_npi=6%40dis%21USD%2162.69%2142.63%21%21%21422.18%21287.08%21%402151fd2c17800956169684607e1183%2112000035097753928%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781895/flash-sale/1005005965888560.webp",
       "rating": 5.0,
-      "reviews_count": 8,
-      "expires_at": "2026-05-29T23:00:23Z"
+      "reviews_count": 3,
+      "expires_at": "2026-05-30T00:00:22Z"
     },
     {
-      "product_id": "33007923484",
-      "title": "EVA Hard Portable Protective Carrying Box Cover Storage Speaker Case Bag for MARSHALL Stockwell Bluetooth Speaker Accessories",
-      "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
-      "price": "12.49",
-      "original_price": "17.85",
-      "discount_pct": 30,
-      "affiliate_url": "https://www.aliexpress.com/item/33007923484.html?pdp_npi=6%40dis%21USD%2117.85%2112.49%21%21%2117.85%2112.49%21%4021013cc617800920203853430e0f27%2167048766260%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779814833/flash-sale/33007923484.webp",
-      "rating": 4.8,
-      "reviews_count": 12,
-      "expires_at": "2026-05-29T23:00:23Z"
-    },
-    {
-      "product_id": "1005012273956325",
-      "title": "Shanshui with DSP12V Battery High Power 300W Square Dance Bluetooth Power Amplifier Board Portable Tie Rod Mobile Speaker",
-      "slug": "shanshui-with-dsp12v-battery-high-power-300w-square-dance-bl",
-      "price": "69.40",
-      "original_price": "99.15",
-      "discount_pct": 30,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012273956325.html?pdp_npi=6%40dis%21USD%2199.15%2169.40%21%21%21667.70%21467.39%21%4021013cc617800920203853430e0f27%2112000057925769350%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780092028/flash-sale/1005012273956325.webp",
-      "rating": 0.0,
-      "reviews_count": 0,
-      "expires_at": "2026-05-29T23:00:23Z"
-    },
-    {
-      "product_id": "1005002280628749",
-      "title": "12 Channel DMX Decoder DC5V-24V LED RGB Strip Controller 12CH DMX512 decoder high power 60A DMX dimmer driver",
-      "slug": "12-channel-dmx-decoder-dc5v-24v-led-rgb-strip-controller-12c",
-      "price": "37.18",
-      "original_price": "49.57",
-      "discount_pct": 25,
-      "affiliate_url": "https://www.aliexpress.com/item/1005002280628749.html?pdp_npi=6%40dis%21USD%2149.57%2137.18%21%21%21333.81%21250.36%21%402140da8b17800920223663410e0e8d%2112000019897884505%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779919045/flash-sale/1005002280628749.webp",
-      "rating": 0.0,
-      "reviews_count": 15,
-      "expires_at": "2026-05-29T23:00:23Z"
-    },
-    {
-      "product_id": "4000474029008",
-      "title": "RGB 3IN1 Waterproof LED PIXEL BAR Light 48x0.5W SMD Strip Light DMX 512 Artnet Control DJ Disco Stage Party Par Lighting Effect",
-      "slug": "rgb-3in1-waterproof-led-pixel-bar-light-48x05w-smd-strip-lig",
-      "price": "70.42",
-      "original_price": "92.65",
-      "discount_pct": 24,
-      "affiliate_url": "https://www.aliexpress.com/item/4000474029008.html?pdp_npi=6%40dis%21USD%2192.65%2170.42%21%21%21623.88%21474.15%21%402140da8b17800920223663410e0e8d%2110000001912994783%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780092029/flash-sale/4000474029008.webp",
-      "rating": 0.0,
-      "reviews_count": 0,
-      "expires_at": "2026-05-29T23:00:23Z"
-    },
-    {
-      "product_id": "1005007968294898",
-      "title": "Portable Smart 4K Projector Mini Home Theater Android  Outdoor Wifi Bluetooth LED Video Game Phone Cinema Speaker",
-      "slug": "portable-smart-4k-projector-mini-home-theater-android-outdoo",
-      "price": "84.01",
-      "original_price": "105.01",
-      "discount_pct": 20,
-      "affiliate_url": "https://www.aliexpress.com/item/1005007968294898.html?pdp_npi=6%40dis%21USD%21105.01%2184.01%21%21%21707.15%21565.72%21%4021013cc617800920203853430e0f27%2112000043067443933%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780092031/flash-sale/1005007968294898.webp",
-      "rating": 1.0,
-      "reviews_count": 1,
-      "expires_at": "2026-05-29T23:00:23Z"
+      "product_id": "1005009096789995",
+      "title": "Custom Photo Bracelet for Men Personalized Picture Bracelet Leather Engraved Name Bracelet Jewelry Gift for Men Boy Husband",
+      "slug": "custom-photo-bracelet-for-men-personalized-picture-bracelet-",
+      "price": "7.48",
+      "original_price": "11.01",
+      "discount_pct": 32,
+      "affiliate_url": "https://www.aliexpress.com/item/1005009096789995.html?pdp_npi=6%40dis%21USD%2111.01%217.48%21%21%2174.16%2150.35%21%402151fd2c17800956169684607e1183%2112000047900238351%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779994831/flash-sale/1005009096789995.webp",
+      "rating": 4.7,
+      "reviews_count": 100,
+      "expires_at": "2026-05-30T00:00:22Z"
     }
   ]
 }
