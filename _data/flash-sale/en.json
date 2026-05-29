@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-29T01:00:31Z",
-  "expires_at": "2026-05-29T02:00:24Z",
+  "updated_at": "2026-05-29T02:00:33Z",
+  "expires_at": "2026-05-29T03:00:27Z",
   "products": [
     {
       "product_id": "1005008663863645",
@@ -9,11 +9,11 @@
       "price": "42.84",
       "original_price": "214.20",
       "discount_pct": 80,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%402101611117800164182077855e0f45%2112000046147626295%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%402151fce817800200209431028e10c4%2112000046147626295%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
       "rating": 5.0,
       "reviews_count": 1,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "expires_at": "2026-05-29T03:00:27Z"
     },
     {
       "product_id": "1005008264604373",
@@ -22,11 +22,24 @@
       "price": "35.36",
       "original_price": "121.93",
       "discount_pct": 71,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402101611117800164182077855e0f45%2112000044412070783%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%402151fce817800200209431028e10c4%2112000044412070783%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
       "rating": 4.5,
       "reviews_count": 11,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "expires_at": "2026-05-29T03:00:27Z"
+    },
+    {
+      "product_id": "1005012159681036",
+      "title": "G28 Women Smart Watch Female Smartwatch Elegant Wristband Heart Rate Monitoring Alarm Clock Reminder Sports Fitness Band",
+      "slug": "g28-women-smart-watch-female-smartwatch-elegant-wristband-he",
+      "price": "18.60",
+      "original_price": "54.38",
+      "discount_pct": 65,
+      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.38%2118.60%21%21%21366.66%21125.40%21%402151fce817800200209431028e10c4%2112000057669786535%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
+      "rating": 0.0,
+      "reviews_count": 27,
+      "expires_at": "2026-05-29T03:00:27Z"
     },
     {
       "product_id": "1005011724105665",
@@ -35,24 +48,11 @@
       "price": "17.74",
       "original_price": "39.42",
       "discount_pct": 55,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.42%2117.74%21%21%21265.79%21119.61%21%4021013cc017800164206031263e0ffc%2112000056360671631%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.42%2117.74%21%21%21265.79%21119.61%21%40212a7b8d17800200230873533e0e8d%2112000056360671631%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562829/flash-sale/1005011724105665.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-29T02:00:24Z"
-    },
-    {
-      "product_id": "1005003816455175",
-      "title": "Fashion Magnetic Hematite Beads Bracelet Men Nature 4-20mm Reiki Healing Energy Stone Bracelets for Women Protect Health Jewelry",
-      "slug": "fashion-magnetic-hematite-beads-bracelet-men-nature-4-20mm-r",
-      "price": "2.68",
-      "original_price": "5.36",
-      "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005003816455175.html?pdp_npi=6%40dis%21USD%215.36%212.68%21%21%215.36%212.68%21%402101611117800164182077855e0f45%2112000027260077721%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779809747/flash-sale/1005003816455175.webp",
-      "rating": 4.4,
-      "reviews_count": 184,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "expires_at": "2026-05-29T03:00:27Z"
     },
     {
       "product_id": "1005012339878698",
@@ -61,11 +61,11 @@
       "price": "48.89",
       "original_price": "97.78",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012339878698.html?pdp_npi=6%40dis%21USD%2197.78%2148.89%21%21%21659.34%21329.67%21%4021013cc017800164206031263e0ffc%2112000058132636134%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012339878698.html?pdp_npi=6%40dis%21USD%2197.78%2148.89%21%21%21659.34%21329.67%21%40212a7b8d17800200230873533e0e8d%2112000058132636134%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779728431/flash-sale/1005012339878698.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "expires_at": "2026-05-29T03:00:27Z"
     },
     {
       "product_id": "1005012333523839",
@@ -74,24 +74,24 @@
       "price": "17.85",
       "original_price": "35.69",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012333523839.html?pdp_npi=6%40dis%21USD%2135.69%2117.85%21%21%21240.63%21120.31%21%4021013cc017800164206031263e0ffc%2112000058129284557%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012333523839.html?pdp_npi=6%40dis%21USD%2135.69%2117.85%21%21%21240.63%21120.31%21%40212a7b8d17800200230873533e0e8d%2112000058129284557%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781892/flash-sale/1005012333523839.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "expires_at": "2026-05-29T03:00:27Z"
     },
     {
-      "product_id": "1005009174515153",
-      "title": "Custom Picture Text Bracelet Watch Band Stainless Steel Link Bracelet Custom Engraving Photo/Text/Name Bracelet Jewelry for Men",
-      "slug": "custom-picture-text-bracelet-watch-band-stainless-steel-link",
-      "price": "6.97",
-      "original_price": "12.68",
-      "discount_pct": 45,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009174515153.html?pdp_npi=6%40dis%21USD%2112.68%216.97%21%21%2185.53%2147.04%21%402101611117800164182077855e0f45%2112000048197341884%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780016428/flash-sale/1005009174515153.webp",
+      "product_id": "1005003696509258",
+      "title": "9D Tempered Glass For Xiaomi Mi band 7 6 5 Screen Protector Film For Miband 6 5 Smart Watchband Protective Cover Strap Bracelet",
+      "slug": "9d-tempered-glass-for-xiaomi-mi-band-7-6-5-screen-protector-",
+      "price": "2.20",
+      "original_price": "4.15",
+      "discount_pct": 47,
+      "affiliate_url": "https://www.aliexpress.com/item/1005003696509258.html?pdp_npi=6%40dis%21USD%214.15%212.20%21%21%214.15%212.20%21%402151fce817800200209431028e10c4%2112000026843193300%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781893/flash-sale/1005003696509258.webp",
       "rating": 4.7,
-      "reviews_count": 29,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "reviews_count": 11,
+      "expires_at": "2026-05-29T03:00:27Z"
     },
     {
       "product_id": "1005011544110376",
@@ -100,11 +100,11 @@
       "price": "2.63",
       "original_price": "3.98",
       "discount_pct": 34,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%402101611117800164135317039e0e1c%2112000055876481242%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%40212a7b8d17800200162947008e1184%2112000055876481242%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781894/flash-sale/1005011544110376.webp",
       "rating": 4.8,
       "reviews_count": 344,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "expires_at": "2026-05-29T03:00:27Z"
     },
     {
       "product_id": "1005005965888560",
@@ -113,11 +113,11 @@
       "price": "42.57",
       "original_price": "62.61",
       "discount_pct": 32,
-      "affiliate_url": "https://www.aliexpress.com/item/1005005965888560.html?pdp_npi=6%40dis%21USD%2162.61%2142.57%21%21%21422.18%21287.08%21%402101611117800164182077855e0f45%2112000035097753928%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005005965888560.html?pdp_npi=6%40dis%21USD%2162.61%2142.57%21%21%21422.18%21287.08%21%402151fce817800200209431028e10c4%2112000035097753928%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781895/flash-sale/1005005965888560.webp",
       "rating": 5.0,
       "reviews_count": 3,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "expires_at": "2026-05-29T03:00:27Z"
     },
     {
       "product_id": "1005009096789995",
@@ -126,11 +126,11 @@
       "price": "7.47",
       "original_price": "11.00",
       "discount_pct": 32,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009096789995.html?pdp_npi=6%40dis%21USD%2111.00%217.47%21%21%2174.16%2150.35%21%402101611117800164182077855e0f45%2112000047900238351%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005009096789995.html?pdp_npi=6%40dis%21USD%2111.00%217.47%21%21%2174.16%2150.35%21%402151fce817800200209431028e10c4%2112000047900238351%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779994831/flash-sale/1005009096789995.webp",
       "rating": 4.7,
       "reviews_count": 100,
-      "expires_at": "2026-05-29T02:00:24Z"
+      "expires_at": "2026-05-29T03:00:27Z"
     }
   ]
 }
