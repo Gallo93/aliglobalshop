@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T03:00:27Z",
+  "updated_at": "2026-05-29T08:42:57Z",
   "min_discount_pct": 30,
   "products": [
     {
@@ -9,7 +9,7 @@
       "price": "4.99",
       "original_price": "9.99",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.99%21%21%219.99%214.99%21%40212a7b8d17800236223926189e0fb6%2112000045695796771%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.99%21%21%219.99%214.99%21%4021013cc017800441736898995e1132%2112000045695796771%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784398/coupons/1005008555896822.webp"
     },
     {
@@ -17,9 +17,9 @@
       "title": "Clearance Sale Luxury Lychee Genuine Cowhide Leather Phone Case for iPhone 13 14 15 16 Pro Max 13Pro Shockproof Back Cover",
       "slug": "clearance-sale-luxury-lychee-genuine-cowhide-leather-phone-c",
       "price": "3.41",
-      "original_price": "6.82",
+      "original_price": "6.83",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009100661981.html?pdp_npi=6%40dis%21USD%216.82%213.41%21%21%2146.00%2123.00%21%40212a7b8d17800236223926189e0fb6%2112000047916953514%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005009100661981.html?pdp_npi=6%40dis%21USD%216.83%213.41%21%21%2146.00%2123.00%21%4021013cc017800441736898995e1132%2112000047916953514%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784400/coupons/1005009100661981.webp"
     },
     {
@@ -29,7 +29,7 @@
       "price": "8.99",
       "original_price": "17.98",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008784045572.html?pdp_npi=6%40dis%21USD%2117.98%218.99%21%21%2117.98%218.99%21%40212a7b8d17800236223926189e0fb6%2112000046651634493%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008784045572.html?pdp_npi=6%40dis%21USD%2117.98%218.99%21%21%2117.98%218.99%21%4021013cc017800441736898995e1132%2112000046651634493%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784401/coupons/1005008784045572.webp"
     },
     {
@@ -39,7 +39,7 @@
       "price": "16.11",
       "original_price": "25.57",
       "discount_pct": 37,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008542451706.html?pdp_npi=6%40dis%21USD%2125.57%2116.11%21%21%2125.57%2116.11%21%402151fd2c17800236181293412e0e4b%2112000045637448924%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005008542451706.html?pdp_npi=6%40dis%21USD%2125.57%2116.11%21%21%2125.57%2116.11%21%40210152bd17800441701698387e0e2c%2112000045637448924%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784402/coupons/1005008542451706.webp"
     }
   ]
