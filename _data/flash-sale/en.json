@@ -1,7 +1,33 @@
 {
-  "updated_at": "2026-05-31T15:00:31Z",
-  "expires_at": "2026-05-31T16:00:26Z",
+  "updated_at": "2026-05-31T16:00:27Z",
+  "expires_at": "2026-05-31T17:00:23Z",
   "products": [
+    {
+      "product_id": "1005008663863645",
+      "title": "2025 New Built-in Dual-band GPS Smart Watch Men Smartwatch Compass Altimeter Barometric 5ATM IP69K Waterproof AMOLED HD Watche",
+      "slug": "2025-new-built-in-dual-band-gps-smart-watch-men-smartwatch-c",
+      "price": "42.84",
+      "original_price": "214.20",
+      "discount_pct": 80,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008663863645.html?pdp_npi=6%40dis%21USD%21214.20%2142.84%21%21%21214.20%2142.84%21%4021013cc617802432180472128e0f27%2112000046147626295%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779204511/flash-sale/1005008663863645.webp",
+      "rating": 5.0,
+      "reviews_count": 1,
+      "expires_at": "2026-05-31T17:00:23Z"
+    },
+    {
+      "product_id": "1005008264604373",
+      "title": "North Edge T-Rex Ultra GPS Smart Watch 5 ATM Waterproof Built-in Dual-band GNSS Compass Military Sport Smartwatch Men 2025 New",
+      "slug": "north-edge-t-rex-ultra-gps-smart-watch-5-atm-waterproof-buil",
+      "price": "35.36",
+      "original_price": "121.93",
+      "discount_pct": 71,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008264604373.html?pdp_npi=6%40dis%21USD%21121.93%2135.36%21%21%21121.93%2135.36%21%4021013cc617802432180472128e0f27%2112000044412070783%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
+      "rating": 4.5,
+      "reviews_count": 12,
+      "expires_at": "2026-05-31T17:00:23Z"
+    },
     {
       "product_id": "1005012159681036",
       "title": "G28 Women Smart Watch Female Smartwatch Elegant Wristband Heart Rate Monitoring Alarm Clock Reminder Sports Fitness Band",
@@ -9,11 +35,24 @@
       "price": "18.62",
       "original_price": "54.45",
       "discount_pct": 65,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.45%2118.62%21%21%21366.66%21125.40%21%402140d36117802396219227750e1133%2112000057669786535%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012159681036.html?pdp_npi=6%40dis%21USD%2154.45%2118.62%21%21%21366.66%21125.40%21%4021013cc617802432180472128e0f27%2112000057669786535%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779235723/flash-sale/1005012159681036.webp",
       "rating": 0.0,
       "reviews_count": 27,
-      "expires_at": "2026-05-31T16:00:26Z"
+      "expires_at": "2026-05-31T17:00:23Z"
+    },
+    {
+      "product_id": "1005011724105665",
+      "title": "Multifunctional Mini Portable Bluetooth Radio Music Player Built-in Speaker DSP FM Stereo Radios Alarm Clock Rechargeable",
+      "slug": "multifunctional-mini-portable-bluetooth-radio-music-player-b",
+      "price": "17.76",
+      "original_price": "39.47",
+      "discount_pct": 55,
+      "affiliate_url": "https://www.aliexpress.com/item/1005011724105665.html?pdp_npi=6%40dis%21USD%2139.47%2117.76%21%21%21265.79%21119.61%21%40210152bd17802432199606999e1122%2112000056360671631%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779562829/flash-sale/1005011724105665.webp",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "expires_at": "2026-05-31T17:00:23Z"
     },
     {
       "product_id": "1005012339878698",
@@ -22,11 +61,11 @@
       "price": "48.95",
       "original_price": "97.91",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012339878698.html?pdp_npi=6%40dis%21USD%2197.91%2148.95%21%21%21659.34%21329.67%21%402140da8b17802396240977630e1168%2112000058132636134%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012339878698.html?pdp_npi=6%40dis%21USD%2197.91%2148.95%21%21%21659.34%21329.67%21%40210152bd17802432199606999e1122%2112000058132636134%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779728431/flash-sale/1005012339878698.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-31T16:00:26Z"
+      "expires_at": "2026-05-31T17:00:23Z"
     },
     {
       "product_id": "1005012333523839",
@@ -35,11 +74,11 @@
       "price": "17.86",
       "original_price": "35.73",
       "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012333523839.html?pdp_npi=6%40dis%21USD%2135.73%2117.86%21%21%21240.63%21120.31%21%402140da8b17802396240977630e1168%2112000058129284557%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005012333523839.html?pdp_npi=6%40dis%21USD%2135.73%2117.86%21%21%21240.63%21120.31%21%40210152bd17802432199606999e1122%2112000058129284557%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781892/flash-sale/1005012333523839.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-05-31T16:00:26Z"
+      "expires_at": "2026-05-31T17:00:23Z"
     },
     {
       "product_id": "1005003696509258",
@@ -48,24 +87,11 @@
       "price": "2.20",
       "original_price": "4.15",
       "discount_pct": 47,
-      "affiliate_url": "https://www.aliexpress.com/item/1005003696509258.html?pdp_npi=6%40dis%21USD%214.15%212.20%21%21%214.15%212.20%21%402140d36117802396219227750e1133%2112000026843193300%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005003696509258.html?pdp_npi=6%40dis%21USD%214.15%212.20%21%21%214.15%212.20%21%4021013cc617802432180472128e0f27%2112000026843193300%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780210826/flash-sale/1005003696509258.webp",
       "rating": 4.7,
       "reviews_count": 11,
-      "expires_at": "2026-05-31T16:00:26Z"
-    },
-    {
-      "product_id": "1005004071096627",
-      "title": "Feng Shui Black Obsidian Stone Beads Bracelet Wristband Good Luck Mantra Bead Wealth Onyx Matte Agates Obsidian Bangles",
-      "slug": "feng-shui-black-obsidian-stone-beads-bracelet-wristband-good",
-      "price": "2.22",
-      "original_price": "3.70",
-      "discount_pct": 40,
-      "affiliate_url": "https://www.aliexpress.com/item/1005004071096627.html?pdp_npi=6%40dis%21USD%213.70%212.22%21%21%213.70%212.22%21%402140d36117802396219227750e1133%2112000027942025419%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780238821/flash-sale/1005004071096627.webp",
-      "rating": 4.4,
-      "reviews_count": 11,
-      "expires_at": "2026-05-31T16:00:26Z"
+      "expires_at": "2026-05-31T17:00:23Z"
     },
     {
       "product_id": "1005007345087924",
@@ -74,11 +100,11 @@
       "price": "11.30",
       "original_price": "17.38",
       "discount_pct": 35,
-      "affiliate_url": "https://www.aliexpress.com/item/1005007345087924.html?pdp_npi=6%40dis%21USD%2117.38%2111.30%21%21%2117.38%2111.30%21%402140d36117802396178494940e0e4e%2112000045347099242%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005007345087924.html?pdp_npi=6%40dis%21USD%2117.38%2111.30%21%21%2117.38%2111.30%21%402140d33617802432141743843e0e54%2112000045347099242%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780167629/flash-sale/1005007345087924.webp",
       "rating": 4.6,
       "reviews_count": 43,
-      "expires_at": "2026-05-31T16:00:26Z"
+      "expires_at": "2026-05-31T17:00:23Z"
     },
     {
       "product_id": "1005011544110376",
@@ -87,11 +113,11 @@
       "price": "2.63",
       "original_price": "3.98",
       "discount_pct": 34,
-      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%402140d36117802396178494940e0e4e%2112000055876481242%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005011544110376.html?pdp_npi=6%40dis%21USD%213.98%212.63%21%21%213.98%212.63%21%402140d33617802432141743843e0e54%2112000055876481242%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781894/flash-sale/1005011544110376.webp",
       "rating": 4.8,
       "reviews_count": 346,
-      "expires_at": "2026-05-31T16:00:26Z"
+      "expires_at": "2026-05-31T17:00:23Z"
     },
     {
       "product_id": "1005005965888560",
@@ -100,37 +126,11 @@
       "price": "42.63",
       "original_price": "62.69",
       "discount_pct": 32,
-      "affiliate_url": "https://www.aliexpress.com/item/1005005965888560.html?pdp_npi=6%40dis%21USD%2162.69%2142.63%21%21%21422.18%21287.08%21%402140d36117802396219227750e1133%2112000035097753928%21affd%21%21%21%211%210%21",
+      "affiliate_url": "https://www.aliexpress.com/item/1005005965888560.html?pdp_npi=6%40dis%21USD%2162.69%2142.63%21%21%21422.18%21287.08%21%4021013cc617802432180472128e0f27%2112000035097753928%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779781895/flash-sale/1005005965888560.webp",
       "rating": 5.0,
       "reviews_count": 3,
-      "expires_at": "2026-05-31T16:00:26Z"
-    },
-    {
-      "product_id": "1005005908649618",
-      "title": "3x4mm Faceted Crystal Beads Bracelet Colorful Round Glass Couple Beaded Elastic Charm Bracelets Anniversary Wristband Gift",
-      "slug": "3x4mm-faceted-crystal-beads-bracelet-colorful-round-glass-co",
-      "price": "3.76",
-      "original_price": "5.37",
-      "discount_pct": 30,
-      "affiliate_url": "https://www.aliexpress.com/item/1005005908649618.html?pdp_npi=6%40dis%21USD%215.37%213.76%21%21%215.37%213.76%21%402140d36117802396219227750e1133%2112000034802422944%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780238824/flash-sale/1005005908649618.webp",
-      "rating": 5.0,
-      "reviews_count": 12,
-      "expires_at": "2026-05-31T16:00:26Z"
-    },
-    {
-      "product_id": "1005012371442792",
-      "title": "​Newest Portable Wireless Bluetooth-compateble Sound-Transmitting Fabric Pouches for JBL BOOMBOX 4 Speaker storage bag",
-      "slug": "newest-portable-wireless-bluetooth-compateble-sound-transmit",
-      "price": "42.41",
-      "original_price": "60.59",
-      "discount_pct": 30,
-      "affiliate_url": "https://www.aliexpress.com/item/1005012371442792.html?pdp_npi=6%40dis%21USD%2160.59%2142.41%21%21%21408.00%21285.60%21%402140da8b17802396240977630e1168%2112000058192047468%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780238825/flash-sale/1005012371442792.webp",
-      "rating": 0.0,
-      "reviews_count": 0,
-      "expires_at": "2026-05-31T16:00:26Z"
+      "expires_at": "2026-05-31T17:00:23Z"
     }
   ]
 }
