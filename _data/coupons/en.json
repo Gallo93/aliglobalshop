@@ -1,46 +1,56 @@
 {
-  "updated_at": "2026-06-01T03:00:25Z",
+  "updated_at": "2026-06-01T10:22:13Z",
   "min_discount_pct": 30,
   "products": [
     {
       "product_id": "1005008555896822",
       "title": "Clearance Sale Leather for Magsafe Phone Case for Apple iPhone 13 Pro Max 13 Mini Bracket Magnetic Back Cover with Card Holder",
       "slug": "clearance-sale-leather-for-magsafe-phone-case-for-apple-ipho",
-      "price": "4.99",
+      "price": "4.10",
       "original_price": "9.99",
-      "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.99%21%21%219.99%214.99%21%402140d36117802828209722031e105e%2112000045695796771%21affd%21%21%21%211%210%21",
+      "discount_pct": 59,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008555896822.html?pdp_npi=6%40dis%21USD%219.99%214.10%21%21%219.99%214.10%21%402151fd2c17803093277236849e0e49%2112000045695796771%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784398/coupons/1005008555896822.webp"
-    },
-    {
-      "product_id": "1005009100661981",
-      "title": "Clearance Sale Luxury Lychee Genuine Cowhide Leather Phone Case for iPhone 13 14 15 16 Pro Max 13Pro Shockproof Back Cover",
-      "slug": "clearance-sale-luxury-lychee-genuine-cowhide-leather-phone-c",
-      "price": "3.41",
-      "original_price": "6.83",
-      "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005009100661981.html?pdp_npi=6%40dis%21USD%216.83%213.41%21%21%2146.00%2123.00%21%402140d36117802828209722031e105e%2112000047916953514%21affd%21%21%21%211%210%21",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784400/coupons/1005009100661981.webp"
     },
     {
       "product_id": "1005008784045572",
       "title": "Clearance Sale Leather for Magsafe Phone Case for Apple iPhone 13 Pro Max 13Mini Bracket Magnetic Back Cover with Card Holder",
       "slug": "clearance-sale-leather-for-magsafe-phone-case-for-apple-ipho",
-      "price": "8.99",
+      "price": "8.09",
       "original_price": "17.98",
-      "discount_pct": 50,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008784045572.html?pdp_npi=6%40dis%21USD%2117.98%218.99%21%21%2117.98%218.99%21%402140d36117802828209722031e105e%2112000046651634493%21affd%21%21%21%211%210%21",
+      "discount_pct": 55,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008784045572.html?pdp_npi=6%40dis%21USD%2117.98%218.09%21%21%2117.98%218.09%21%402151fd2c17803093277236849e0e49%2112000046651634493%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784401/coupons/1005008784045572.webp"
+    },
+    {
+      "product_id": "1005009100661981",
+      "title": "Clearance Sale Luxury Lychee Genuine Cowhide Leather Phone Case for iPhone 13 14 15 16 Pro Max 13Pro Shockproof Back Cover",
+      "slug": "clearance-sale-luxury-lychee-genuine-cowhide-leather-phone-c",
+      "price": "3.42",
+      "original_price": "6.84",
+      "discount_pct": 50,
+      "affiliate_url": "https://www.aliexpress.com/item/1005009100661981.html?pdp_npi=6%40dis%21USD%216.84%213.42%21%21%2146.00%2123.00%21%402151fd2c17803093277236849e0e49%2112000047916953514%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784400/coupons/1005009100661981.webp"
     },
     {
       "product_id": "1005008542451706",
       "title": "BroadLink RM4 Mini Universal IR Remote Control Switch Wifi Smart Wireless Bluetooth Controller HTS2 Sensor For Alexa Google Home",
       "slug": "broadlink-rm4-mini-universal-ir-remote-control-switch-wifi-s",
-      "price": "16.11",
+      "price": "13.55",
       "original_price": "25.57",
-      "discount_pct": 37,
-      "affiliate_url": "https://www.aliexpress.com/item/1005008542451706.html?pdp_npi=6%40dis%21USD%2125.57%2116.11%21%21%2125.57%2116.11%21%402140d36117802828172881113e1062%2112000045637448924%21affd%21%21%21%211%210%21",
+      "discount_pct": 47,
+      "affiliate_url": "https://www.aliexpress.com/item/1005008542451706.html?pdp_npi=6%40dis%21USD%2125.57%2113.55%21%21%2125.57%2113.55%21%402141149b17803093233905297e0f48%2112000045637448924%21affd%21%21%21%211%210%21",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779784402/coupons/1005008542451706.webp"
+    },
+    {
+      "product_id": "1005004463538572",
+      "title": "Clearance Sale Genuine Cowhide Leather Phone Case for Samsung Galaxy Z Flip 3 Flip3 Ring Lanyard Shockproof Separate Back Cover",
+      "slug": "clearance-sale-genuine-cowhide-leather-phone-case-for-samsun",
+      "price": "7.08",
+      "original_price": "12.03",
+      "discount_pct": 41,
+      "affiliate_url": "https://www.aliexpress.com/item/1005004463538572.html?pdp_npi=6%40dis%21USD%2112.03%217.08%21%21%2112.03%217.08%21%402151fd2c17803093277236849e0e49%2112000029257082795%21affd%21%21%21%211%210%21",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780309332/coupons/1005004463538572.webp"
     }
   ]
 }
