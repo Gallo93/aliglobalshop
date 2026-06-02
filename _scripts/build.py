@@ -674,6 +674,8 @@ def build_sitemap(site_url: str, products_by_cat: dict, articles: list) -> None:
         urls.append(f"{site_url}/en/{slug}/")
     for a in articles:
         urls.append(f"{site_url}/en/blog/{a.get('slug', '')}/")
+    seen = set()
+    urls = [u for u in urls if not (u in seen or seen.add(u))]
     body = "\n".join(
         f"  <url><loc>{u}</loc><lastmod>{today}</lastmod>"
         f"<priority>{_sitemap_priority(u, site_url)}</priority></url>"
@@ -694,6 +696,100 @@ def build_robots(site_url: str) -> None:
         f"Sitemap: {site_url}/sitemap.xml\n"
     )
     write_file(BASE_DIR / "robots.txt", content)
+
+
+def build_404(site_url: str) -> None:
+    tpl = """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Page not found | {{site_title}}</title>
+  <meta name="description" content="The page you were looking for does not exist or has moved.">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{site_url}}/en/">
+  <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="{{site_url}}/en/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="{{site_url}}/en/electronics/">&#128241; Electronics</a>
+        <a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a>
+        <a href="{{site_url}}/en/sport/">&#127939; Sport</a>
+        <a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a>
+        <a href="{{site_url}}/en/flash-sale/">&#9889; Flash Sale</a>
+        <a href="{{site_url}}/en/coupons/">&#127991; Top Discounts</a>
+        <a href="{{site_url}}/en/blog/">&#128221; Blog</a>
+      </nav>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="legal-page">
+      <h1>Page not found</h1>
+      <p>Sorry, the page you were looking for does not exist or has moved. The deal may have expired, or the link might be broken.</p>
+      <p><a class="btn-cta" href="{{site_url}}/en/">Back to homepage &#8594;</a></p>
+      <h2>Browse our categories</h2>
+      <nav>
+        <p><a href="{{site_url}}/en/electronics/">&#128241; Electronics</a></p>
+        <p><a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a></p>
+        <p><a href="{{site_url}}/en/sport/">&#127939; Sport</a></p>
+        <p><a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a></p>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__cols container">
+      <div class="footer__brand">
+        <a href="{{site_url}}/en/"><strong>AliGlobal<span>Shop</span></strong></a>
+        <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy, at no extra cost to you.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Shop</h4>
+        <nav>
+          <a href="{{site_url}}/en/electronics/">&#128241; Electronics</a>
+          <a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a>
+          <a href="{{site_url}}/en/sport/">&#127939; Sport</a>
+          <a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>Save</h4>
+        <nav>
+          <a href="{{site_url}}/en/flash-sale/">&#9889; Flash Sale</a>
+          <a href="{{site_url}}/en/coupons/">&#127991; Top Discounts</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>Info</h4>
+        <nav>
+          <a href="{{site_url}}/en/blog/">&#128221; Blog</a>
+          <a href="{{site_url}}/en/about/">About</a>
+          <a href="{{site_url}}/en/contact/">Contact</a>
+          <a href="{{site_url}}/en/privacy/">Privacy</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+      </div>
+    </div>
+  </footer>
+  <script defer src="{{site_url}}/assets/js/main.js"></script>
+</body>
+</html>
+"""
+    write_file(BASE_DIR / "404.html", render(tpl, base_context(site_url)))
 
 
 def load_products() -> dict:
@@ -766,6 +862,7 @@ def main() -> None:
     build_static_pages(site_url)
     build_sitemap(site_url, products_by_cat, articles)
     build_robots(site_url)
+    build_404(site_url)
 
     print("[build] done")
 
