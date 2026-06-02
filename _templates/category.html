@@ -23,6 +23,7 @@
   {{faq_schema_html}}
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="nav">
     <div class="nav__inner">
       <a class="nav__logo" href="{{site_url}}/en/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
@@ -45,7 +46,7 @@
     <a href="{{site_url}}/en/">Home</a> <span>/</span> <span aria-current="page">{{category_name}}</span>
   </nav>
 
-  <main class="container">
+  <main class="container" id="main">
     <h1 class="page__title">{{category_h1}}</h1>
     <p class="page__lede">Updated {{updated_at}} · {{products_count}} products</p>
     <div class="page__intro">{{category_intro_html}}</div>
