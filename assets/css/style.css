@@ -246,6 +246,7 @@ a { color: inherit; }
 .article__content details summary::-webkit-details-marker { display: none; }
 .article__content details[open] summary { border-bottom: 1px solid var(--border); }
 .article__content details p { padding: 0.75rem 1rem; margin: 0; color: var(--text-2); }
+.article__ai-disclosure, .article__affiliate-disclosure { max-width: 1100px; margin: 0.5rem auto 0; padding: 0 2rem; font-size: 0.8rem; color: var(--color-muted); line-height: 1.6; }
 
 /* === LEGAL PAGES (privacy, about, contact) === */
 .legal-page { max-width: 740px; margin: 3rem auto; padding: 0 1.5rem 4rem; }
