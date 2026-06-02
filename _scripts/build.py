@@ -672,8 +672,6 @@ def build_sitemap(site_url: str, products_by_cat: dict, articles: list) -> None:
         urls.append(f"{site_url}/en/{slug}/")
     for slug in products_by_cat:
         urls.append(f"{site_url}/en/{slug}/")
-        for p in products_by_cat[slug].get("products", []):
-            urls.append(f"{site_url}/en/{slug}/{p.get('slug', '')}/")
     for a in articles:
         urls.append(f"{site_url}/en/blog/{a.get('slug', '')}/")
     body = "\n".join(
@@ -687,6 +685,15 @@ def build_sitemap(site_url: str, products_by_cat: dict, articles: list) -> None:
         f"{body}\n</urlset>\n"
     )
     write_file(BASE_DIR / "sitemap.xml", xml)
+
+
+def build_robots(site_url: str) -> None:
+    content = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        f"Sitemap: {site_url}/sitemap.xml\n"
+    )
+    write_file(BASE_DIR / "robots.txt", content)
 
 
 def load_products() -> dict:
@@ -735,7 +742,7 @@ def clean_output() -> None:
 
 def main() -> None:
     config = load_json(CONFIG_PATH, default={})
-    site_url = config.get("site_url", "https://gallo93.github.io/aliglobalshop").rstrip("/")
+    site_url = config.get("site_url", "https://aliglobalshop.net").rstrip("/")
     print(f"[build] site_url={site_url}")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -758,6 +765,7 @@ def main() -> None:
     build_coupons(site_url, coupons, coupons_updated)
     build_static_pages(site_url)
     build_sitemap(site_url, products_by_cat, articles)
+    build_robots(site_url)
 
     print("[build] done")
 
