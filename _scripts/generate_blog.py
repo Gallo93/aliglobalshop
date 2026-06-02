@@ -141,6 +141,20 @@ def slugify(text: str, limit: int = 60) -> str:
     return text[:limit].rstrip("-") or "article"
 
 
+def slug_exists(slug: str) -> bool:
+    """True se esiste già un articolo con questo slug, a prescindere dalla data nel filename."""
+    if not BLOG_DIR.exists():
+        return False
+    for path in BLOG_DIR.glob("*.json"):
+        try:
+            with open(path, encoding="utf-8") as f:
+                if json.load(f).get("slug") == slug:
+                    return True
+        except (json.JSONDecodeError, OSError):
+            continue
+    return False
+
+
 def main() -> None:
     items = load_calendar()
     idx, topic = pick_next_topic(items)
@@ -182,6 +196,15 @@ def main() -> None:
     today = date.today().isoformat()
     slug = slugify(article.get("slug") or article.get("title", ""))
     article["slug"] = slug
+
+    if slug_exists(slug):
+        print(f"[blog] [skip] slug already present: {slug}")
+        items[idx]["used"] = True
+        items[idx]["used_at"] = today
+        save_calendar(items)
+        print(f"[blog] calendar advanced past duplicate topic #{idx}.")
+        return
+
     article["date"] = today
     article.setdefault("category", topic.get("category", ""))
     article.setdefault("primary_keyword", topic["primary_keyword"])
