@@ -17,7 +17,12 @@ BLOG_DIR = BASE_DIR / "_data" / "blog" / "en"
 CALENDAR_PATH = BASE_DIR / "_data" / "blog-calendar-en.json"
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
-MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514")
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
+
+# Exit codes
+EXIT_API_ERROR = 3
+EXIT_INVALID_JSON = 4
+EXIT_NO_CREDIT = 5
 
 AFFILIATE_DISCLAIMER = (
     '<p class="article-disclaimer">'
@@ -115,6 +120,15 @@ def strip_code_fences(text: str) -> str:
     return text.strip()
 
 
+def _is_credit_error(exc: Exception) -> bool:
+    """True se l'errore indica credito Anthropic esaurito/insufficiente."""
+    text = str(exc).lower()
+    if "credit balance is too low" in text or "insufficient" in text:
+        return True
+    status = getattr(exc, "status_code", None)
+    return status in (402,)
+
+
 def call_anthropic(prompt: str) -> str:
     if not ANTHROPIC_API_KEY:
         print("[blog] missing ANTHROPIC_API_KEY", file=sys.stderr)
@@ -127,8 +141,15 @@ def call_anthropic(prompt: str) -> str:
             messages=[{"role": "user", "content": prompt}],
         )
     except Exception as exc:
-        print(f"[blog] anthropic call failed: {exc}", file=sys.stderr)
-        sys.exit(3)
+        if _is_credit_error(exc):
+            print(
+                "[blog] CREDITO ANTHROPIC ESAURITO - ricaricare su "
+                "console.anthropic.com (nessun articolo generato).",
+                file=sys.stderr,
+            )
+            sys.exit(EXIT_NO_CREDIT)
+        print(f"[blog] chiamata Anthropic fallita ({type(exc).__name__}): {exc}", file=sys.stderr)
+        sys.exit(EXIT_API_ERROR)
     return "".join(
         block.text for block in msg.content if getattr(block, "type", "") == "text"
     )
@@ -187,7 +208,7 @@ def main() -> None:
     except json.JSONDecodeError as exc:
         print(f"[blog] invalid JSON from API: {exc}", file=sys.stderr)
         print(raw[:500], file=sys.stderr)
-        sys.exit(4)
+        sys.exit(EXIT_INVALID_JSON)
 
     # Append affiliate disclaimer to content
     content = article.get("content_html", "")
