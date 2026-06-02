@@ -250,7 +250,7 @@ def build_product(raw: dict, niche: str, hosted_image: str) -> dict:
         "price": round(price, 2) if price else raw.get("target_sale_price"),
         "original_price": round(original, 2) if original else raw.get("target_original_price"),
         "discount_pct": discount_pct,
-        "affiliate_url": raw.get("product_detail_url", ""),
+        "affiliate_url": raw.get("promotion_link") or raw.get("product_detail_url", ""),
         "image_url": hosted_image,
         "category": niche,
         "rating": rating,

@@ -147,7 +147,7 @@ def build_entry(raw: dict, hosted_image: str, expires_at_iso: str) -> dict:
         "price": raw.get("target_sale_price"),
         "original_price": raw.get("target_original_price"),
         "discount_pct": discount_pct,
-        "affiliate_url": raw.get("product_detail_url", ""),
+        "affiliate_url": raw.get("promotion_link") or raw.get("product_detail_url", ""),
         "image_url": hosted_image,
         "rating": rating,
         "reviews_count": raw.get("lastest_volume"),
