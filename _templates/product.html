@@ -89,6 +89,10 @@
         <input id="pd-email" name="email" type="email" required placeholder="you@example.com">
         <label class="sr-only" for="pd-target">Target price (USD)</label>
         <input id="pd-target" name="target_price" type="number" min="0.01" step="0.01" required placeholder="Target price">
+        <label class="price-drop__consent" for="pd-consent">
+          <input id="pd-consent" name="consent" type="checkbox" value="yes" required>
+          <span>I agree to the <a href="{{site_url}}/en/privacy/">Privacy Policy</a> and to receive a price-drop email about this product.</span>
+        </label>
         <button type="submit" class="btn-cta btn-cta--alt">Notify me</button>
       </form>
     </section>
