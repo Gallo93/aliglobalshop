@@ -55,7 +55,7 @@ a { color: inherit; }
 .btn-cta:hover { background: var(--orange-cta-hover); border-color: var(--orange-cta-hover); box-shadow: 0 0 20px rgba(228,77,38,0.4); transform: translateY(-1px); }
 .btn-cta--ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,0.5); }
 .btn-cta--ghost:hover { background: rgba(255,255,255,0.1); box-shadow: none; }
-.btn-cta--outline { background: transparent; color: var(--orange); border-color: var(--orange); }
+.btn-cta--outline { background: transparent; color: var(--orange-cta); border-color: var(--orange-cta); }
 .btn-cta--outline:hover { background: var(--orange); color: #fff; }
 .btn-cta--sm, .btn--sm { padding: 8px 16px; font-size: 0.85rem; }
 .btn-cta--alt { background: var(--dark); color: #fff; border-color: var(--dark); }

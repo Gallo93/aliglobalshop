@@ -167,6 +167,18 @@ def short_title(title: str, limit: int = 60) -> str:
     return title[: limit - 1].rstrip() + "…"
 
 
+def alt_text(title: str, limit: int = 125) -> str:
+    """Alt text trimmed to a word boundary, never cutting a word in half."""
+    if not title:
+        return ""
+    if len(title) <= limit:
+        return title
+    cut = title[:limit].rstrip()
+    if " " in cut:
+        cut = cut[: cut.rfind(" ")].rstrip()
+    return cut
+
+
 def _price_val(product: dict) -> float:
     try:
         return float(product.get("price", 9999) or 9999)
@@ -195,6 +207,7 @@ def product_card_html(product: dict, category_slug: str, site_url: str) -> str:
     href = f"{site_url}/en/{category_slug}/{esc(product.get('slug', ''))}/"
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
+    alt = esc(alt_text(product.get("title", "")))
     price = esc(product.get("price", ""))
     original = esc(product.get("original_price", ""))
     disc = product.get("discount_pct") or 0
@@ -204,7 +217,7 @@ def product_card_html(product: dict, category_slug: str, site_url: str) -> str:
     return (
         '<article class="product-card">'
         f'<a href="{href}" class="product-card__img">'
-        f'<img src="{img}" alt="{title}" width="300" height="300" loading="lazy" decoding="async"></a>'
+        f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
         '<div class="product-card__body">'
         f'<h3 class="product-card__title"><a href="{href}">{title}</a></h3>'
         f'<div class="product-card__price"><span class="price">${price}</span>'
@@ -225,6 +238,7 @@ def deal_card_html(deal: dict, site_url: str) -> str:
         link_rel = ' rel="nofollow sponsored"'
     img = esc(deal.get("image_url", ""))
     title = esc(deal.get("title", ""))
+    alt = esc(alt_text(deal.get("title", "")))
     price = esc(deal.get("price", ""))
     original = esc(deal.get("original_price", ""))
     disc = deal.get("discount_pct") or 0
@@ -234,7 +248,7 @@ def deal_card_html(deal: dict, site_url: str) -> str:
     return (
         '<article class="product-card">'
         f'<a href="{href}"{link_rel} class="product-card__img">'
-        f'<img src="{img}" alt="{title}" width="300" height="300" loading="lazy" decoding="async"></a>'
+        f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
         '<div class="product-card__body">'
         f'<h3 class="product-card__title"><a href="{href}"{link_rel}>{title}</a></h3>'
         f'<div class="product-card__price"><span class="price">${price}</span>'
@@ -248,6 +262,7 @@ def deal_card_html(deal: dict, site_url: str) -> str:
 def coupon_card_html(coupon: dict, site_url: str) -> str:
     img = esc(coupon.get("image_url", ""))
     title = esc(coupon.get("title", ""))
+    alt = esc(alt_text(coupon.get("title", "")))
     price = esc(coupon.get("price", ""))
     original = esc(coupon.get("original_price", ""))
     disc = coupon.get("discount_pct") or 0
@@ -255,7 +270,7 @@ def coupon_card_html(coupon: dict, site_url: str) -> str:
     disc_html = f'<span class="coupon-badge">-{int(disc)}% OFF</span>' if disc else ""
     img_html = (
         f'<a href="{href}" rel="nofollow sponsored" class="product-card__img">'
-        f'<img src="{img}" alt="{title}" width="300" height="300" loading="lazy" decoding="async"></a>'
+        f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
     ) if img else ""
     return (
         '<article class="product-card">'
@@ -278,9 +293,10 @@ def article_card_html(article: dict, site_url: str) -> str:
     category = article.get("category", "")
     cat_name = CATEGORY_NAMES.get(category, category.replace("-", " ").title()) if category else ""
     img = esc(article.get("image_url", ""))
+    alt = esc(alt_text(article.get("title", "")))
     href = f"{site_url}/en/blog/{slug}/"
     img_html = (
-        f'<a href="{href}"><img class="blog-card__img" src="{img}" alt="{title}" '
+        f'<a href="{href}"><img class="blog-card__img" src="{img}" alt="{alt}" '
         f'width="400" height="220" loading="lazy" decoding="async"></a>'
     ) if img else ""
     cat_html = f'<p class="blog-card__cat">{cat_name}</p>' if cat_name else ""
@@ -445,6 +461,7 @@ def build_products(site_url: str, products_by_cat: dict) -> None:
             "slug": esc(product_slug),
             "product_id": esc(product.get("product_id", "")),
             "image_url": esc(product.get("image_url", "")),
+            "image_alt": esc(alt_text(product.get("title", ""))),
             "og_image": esc(og_image),
             "price": esc(product.get("price", "")),
             "original_price": esc(product.get("original_price", "")),
@@ -512,6 +529,33 @@ def build_blog_index(site_url: str, articles: list) -> None:
     write_file(OUTPUT_DIR / "blog" / "index.html", render(tpl, ctx))
 
 
+def related_articles_section_html(current: dict, articles: list, site_url: str, limit: int = 3) -> str:
+    """Pick related articles: same category first, then most recent, excluding self."""
+    current_slug = current.get("slug", "")
+    current_cat = current.get("category", "")
+    pool = [a for a in articles if a.get("slug", "") != current_slug]
+    same_cat = [a for a in pool if a.get("category", "") == current_cat and current_cat]
+    picked = list(same_cat[:limit])
+    if len(picked) < limit:
+        picked_slugs = {a.get("slug", "") for a in picked}
+        for a in pool:
+            if a.get("slug", "") in picked_slugs:
+                continue
+            picked.append(a)
+            picked_slugs.add(a.get("slug", ""))
+            if len(picked) >= limit:
+                break
+    if not picked:
+        return ""
+    cards = "".join(article_card_html(a, site_url) for a in picked)
+    return (
+        '<section class="related-articles">'
+        '<h2 class="related-articles__title">Related articles</h2>'
+        f'<div class="grid grid--posts">{cards}</div>'
+        '</section>'
+    )
+
+
 def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> None:
     tpl = load_template("blog-post.html")
 
@@ -551,6 +595,7 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
         content_html = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content_html, flags=re.IGNORECASE)
         content_html = re.sub(r'</h1>', '</h2>', content_html, flags=re.IGNORECASE)
         faq_schema_html = _extract_faq_schema(content_html)
+        related_articles_html = related_articles_section_html(article, articles, site_url, limit=3)
         ctx = base_context(site_url)
         ctx.update({
             "canonical_url": f"{site_url}/en/blog/{slug}/",
@@ -565,6 +610,7 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
             "category_slug": esc(category_slug),
             "category_name": esc(CATEGORY_NAMES.get(category_slug, category_slug.title())),
             "related_products_section": related_section,
+            "related_articles_html": related_articles_html,
             "faq_schema_html": faq_schema_html,
         })
         write_file(
@@ -714,6 +760,7 @@ def build_404(site_url: str) -> None:
   <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="nav">
     <div class="nav__inner">
       <a class="nav__logo" href="{{site_url}}/en/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
@@ -732,7 +779,7 @@ def build_404(site_url: str) -> None:
     </div>
   </header>
 
-  <main class="container">
+  <main class="container" id="main">
     <div class="legal-page">
       <h1>Page not found</h1>
       <p>Sorry, the page you were looking for does not exist or has moved. The deal may have expired, or the link might be broken.</p>
