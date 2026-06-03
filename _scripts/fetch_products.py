@@ -293,10 +293,11 @@ _KW_STOPWORDS = {
 # Termini che indicano un ACCESSORIO/ricambio, non il dispositivo vero e proprio.
 # pad/pads e strap esclusi di proposito: i robot vacuum legittimi hanno 'mop pad'
 # e gli smartwatch veri hanno 'strap/band' nel titolo.
-# stickers/labels/sealing/packing/wrapping/wrap/seal box: materiale da imballo.
+# stickers/labels/sealing/packing/wrapping/seal box: materiale da imballo.
+# 'wrap' secco escluso di proposito: 'hand/wrist/knee wrap' sono attrezzi gym veri.
 _ACCESSORY_PATTERN = re.compile(
     r'\b(?:case|cover|pouch|cushion|foam|sponge|tips?|eartips?|ear\s+tips?|'
-    r'holder|stand|skin|stickers?|labels?|sealing|packing|wrapping|wrap|seal\s+box|'
+    r'holder|stand|skin|stickers?|labels?|sealing|packing|wrapping|seal\s+box|'
     r'protector|screen\s+protector|replacement|spare|'
     r'battery|charger|dock|cable|glass|lens|bumper|crystal|repair|accessor(?:y|ies))\b',
     re.I,
