@@ -264,11 +264,23 @@ def build_product(raw: dict, niche: str, hosted_image: str) -> dict:
 
 
 _ARTICLE_TOPIC_PATTERNS = [
-    re.compile(r'\bearbuds?\b|\bearphone\b|\bheadphone\b|\bheadset\b', re.I),
+    re.compile(r'\bearbuds?\b|\bearphones?\b|\bheadphones?\b|\bheadset\b|\btws\b|\bairpods?\b', re.I),
     re.compile(r'\bvacuum\b', re.I),
-    re.compile(r'\bbulbs?\b', re.I),
-    re.compile(r'\bsmartwatche?s?\b|\bsmart\s+watch\b', re.I),
-    re.compile(r'\bhome\s+gym\b|\bgym\s+equipment\b|\bdumbbell\b|\btreadmill\b', re.I),
+    re.compile(
+        r'\bbulbs?\b|\blamps?\b|\bdownlights?\b|\bspotlights?\b|\bchandeliers?\b|'
+        r'\b(?:down|ceiling|pendant|spot|led)\s+lights?\b',
+        re.I,
+    ),
+    re.compile(
+        r'\bsmartwatche?s?\b|\bsmart\s+watch\b|\bsmartband\b|\bfitness\s+tracker\b|\bwristwatch\b',
+        re.I,
+    ),
+    re.compile(
+        r'\bhome\s+gym\b|\bgym\s+(?:equipment|bench|stall)\b|\bdumbbell\b|\bbarbell\b|'
+        r'\bkettlebell\b|\btreadmill\b|\bpull[\s-]?up\b|\bsit[\s-]?up\b|'
+        r'\bswedish\s+ladder\b|\bweight(?:lifting|s)?\b|\bfitness\s+equipment\b',
+        re.I,
+    ),
 ]
 
 # Parole rumore rimosse dalla keyword di ricerca per renderla pertinente
@@ -288,6 +300,19 @@ _ACCESSORY_PATTERN = re.compile(
     re.I,
 )
 
+# Categorie adiacenti off-topic da scartare negli article-products.
+# 'board' MAI da solo (spezzerebbe 'sit-up board'/'supine board' del home-gym):
+# solo dopo decoder/receiver/audio/circuit/bluetooth.
+# 'box' ristretto (watch/storage/jewelry/display) per non colpire 'charging box'
+# degli earbuds ne 'plyo box'/'jump box' del gym.
+_OFFTOPIC_PATTERN = re.compile(
+    r'\bpower\s*bank\b|\bpowerbank\b|\btransmitter\b|\breceiver\b|\bdecoder\b|'
+    r'\b(?:decoder|receiver|audio|circuit|bluetooth)\s+board\b|'
+    r'\badapter\b|\bmodule\b|\bsafe\b|\bcabinet\b|\bstorage\b|\bwinder\b|\borganizer\b|'
+    r'\b(?:watch|storage|jewelry|display)\s+box\b',
+    re.I,
+)
+
 
 def _clean_search_kw(text: str) -> str:
     """Deriva una keyword di ricerca pertinente rimuovendo parole rumore,
@@ -297,20 +322,19 @@ def _clean_search_kw(text: str) -> str:
     return " ".join(kept).strip()
 
 
-def _is_relevant(title: str, keywords: list, topic_pattern) -> bool:
-    """Un prodotto e' pertinente se il titolo matcha il pattern-tema
-    dell'articolo oppure contiene almeno una keyword significativa."""
-    if not title:
-        return False
-    if topic_pattern is not None and topic_pattern.search(title):
-        return True
-    title_low = title.lower()
-    return any(kw in title_low for kw in keywords)
+def _is_relevant(title: str, topic_pattern) -> bool:
+    """Pertinente solo se il titolo matcha il pattern-tema (core) dell'articolo."""
+    return bool(title) and topic_pattern is not None and bool(topic_pattern.search(title))
 
 
 def _is_accessory(title: str) -> bool:
     """True se il titolo indica un accessorio/ricambio invece del dispositivo."""
     return bool(title) and bool(_ACCESSORY_PATTERN.search(title))
+
+
+def _is_offtopic(title: str) -> bool:
+    """True se il titolo appartiene a una categoria adiacente fuori tema."""
+    return bool(title) and bool(_OFFTOPIC_PATTERN.search(title))
 
 
 def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
@@ -345,7 +369,6 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
                 pass
 
         search_kw = _clean_search_kw(primary_kw) or _clean_search_kw(title)
-        kw_words = [w for w in search_kw.split() if len(w) >= 3]
         print(f"  [article fetch] {slug} -- search kw: '{search_kw}'")
         raw = fetch_products(search_kw, page_size=30)
         if not raw:
@@ -356,7 +379,8 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             r for r in raw
             if not is_blacklisted(r.get("product_title", ""))
             and not _is_accessory(r.get("product_title", ""))
-            and _is_relevant(r.get("product_title", ""), kw_words, topic_pattern)
+            and not _is_offtopic(r.get("product_title", ""))
+            and _is_relevant(r.get("product_title", ""), topic_pattern)
         ]
         relevant.sort(key=score_product, reverse=True)
 
@@ -374,8 +398,9 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             products.append(build_product(r, article.get("category", ""), hosted))
             time.sleep(0.1)
 
-        if not products:
-            print(f"  [WARN] 0 prodotti pertinenti per '{slug}' -- sezione related vuota")
+        if len(products) < 2:
+            print(f"  [WARN] <2 prodotti pertinenti per '{slug}' -- sezione related vuota")
+            products = []
 
         data = {
             "timestamp": time.time(),
