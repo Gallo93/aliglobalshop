@@ -278,6 +278,16 @@ _KW_STOPWORDS = {
     "with", "vs", "2024", "2025", "2026", "2027",
 }
 
+# Termini che indicano un ACCESSORIO/ricambio, non il dispositivo vero e proprio.
+# pad/pads e strap esclusi di proposito: i robot vacuum legittimi hanno 'mop pad'
+# e gli smartwatch veri hanno 'strap/band' nel titolo.
+_ACCESSORY_PATTERN = re.compile(
+    r'\b(?:case|cover|pouch|cushion|foam|sponge|tips?|eartips?|ear\s+tips?|'
+    r'holder|stand|skin|sticker|protector|screen\s+protector|replacement|spare|'
+    r'battery|charger|dock|cable|glass|lens|bumper|crystal|repair|accessor(?:y|ies))\b',
+    re.I,
+)
+
 
 def _clean_search_kw(text: str) -> str:
     """Deriva una keyword di ricerca pertinente rimuovendo parole rumore,
@@ -296,6 +306,11 @@ def _is_relevant(title: str, keywords: list, topic_pattern) -> bool:
         return True
     title_low = title.lower()
     return any(kw in title_low for kw in keywords)
+
+
+def _is_accessory(title: str) -> bool:
+    """True se il titolo indica un accessorio/ricambio invece del dispositivo."""
+    return bool(title) and bool(_ACCESSORY_PATTERN.search(title))
 
 
 def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
@@ -340,6 +355,7 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
         relevant = [
             r for r in raw
             if not is_blacklisted(r.get("product_title", ""))
+            and not _is_accessory(r.get("product_title", ""))
             and _is_relevant(r.get("product_title", ""), kw_words, topic_pattern)
         ]
         relevant.sort(key=score_product, reverse=True)
