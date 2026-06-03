@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{nf_title}} | {{site_title}}</title>
+  <meta name="description" content="{{nf_meta_desc}}">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{site_url}}/{{lang}}/">
+  <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">{{t_skip_to_content}}</a>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="{{site_url}}/{{lang}}/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
+      <nav class="nav__links" aria-label="{{t_aria_primary}}">
+        <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
+        <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
+        <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
+        <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
+        <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
+        <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
+        <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
+      </nav>
+      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <div class="legal-page">
+      <h1>{{nf_h1}}</h1>
+      <p>{{nf_body}}</p>
+      <p><a class="btn-cta" href="{{site_url}}/{{lang}}/">{{nf_back_home}}</a></p>
+      <h2>{{nf_browse_categories}}</h2>
+      <nav>
+        <p><a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a></p>
+        <p><a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a></p>
+        <p><a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a></p>
+        <p><a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a></p>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__cols container">
+      <div class="footer__brand">
+        <a href="{{site_url}}/{{lang}}/"><strong>AliGlobal<span>Shop</span></strong></a>
+        <p>{{t_footer_tagline}}</p>
+      </div>
+      <div class="footer__col">
+        <h4>{{t_footer_shop}}</h4>
+        <nav>
+          <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
+          <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
+          <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
+          <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>{{t_footer_save}}</h4>
+        <nav>
+          <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
+          <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>{{t_footer_info}}</h4>
+        <nav>
+          <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
+          <a href="{{site_url}}/{{lang}}/about/">{{t_footer_about}}</a>
+          <a href="{{site_url}}/{{lang}}/contact/">{{t_footer_contact}}</a>
+          <a href="{{site_url}}/{{lang}}/privacy/">{{t_footer_privacy}}</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; {{year}} {{site_title}}. {{t_footer_copyright}}</p>
+      </div>
+    </div>
+  </footer>
+  <script defer src="{{site_url}}/assets/js/main.js"></script>
+</body>
+</html>
