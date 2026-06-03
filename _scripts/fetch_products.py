@@ -303,13 +303,13 @@ _ACCESSORY_PATTERN = re.compile(
 # Categorie adiacenti off-topic da scartare negli article-products.
 # 'board' MAI da solo (spezzerebbe 'sit-up board'/'supine board' del home-gym):
 # solo dopo decoder/receiver/audio/circuit/bluetooth.
-# 'box' ristretto (watch/storage/jewelry/display) per non colpire 'charging box'
-# degli earbuds ne 'plyo box'/'jump box' del gym.
+# 'box' ristretto (watch/storage/jewelry/jewellery/display/gift) per non colpire
+# 'charging box' degli earbuds ne 'plyo box'/'jump box' del gym.
 _OFFTOPIC_PATTERN = re.compile(
     r'\bpower\s*bank\b|\bpowerbank\b|\btransmitter\b|\breceiver\b|\bdecoder\b|'
     r'\b(?:decoder|receiver|audio|circuit|bluetooth)\s+board\b|'
     r'\badapter\b|\bmodule\b|\bsafe\b|\bcabinet\b|\bstorage\b|\bwinder\b|\borganizer\b|'
-    r'\b(?:watch|storage|jewelry|display)\s+box\b',
+    r'\b(?:watch|storage|jewelry|jewellery|display|gift)\s+box\b',
     re.I,
 )
 
