@@ -580,14 +580,17 @@ def build_blog_posts(site_url: str, articles: list, products_by_cat: dict) -> No
             if _detect_pat.search(combined):
                 topic_kws = _filter_kws
                 break
-        related_section = related_products_section_html(
-            category_slug, products_by_cat, site_url, limit=4,
-            max_price=max_price, topic_kws=topic_kws
-        )
-        # Fallback: prodotti fetchati on-demand per articoli con topic specifico
-        if not related_section and topic_kws is not None and slug in _article_products:
+        # Priorita' ai prodotti articolo-specifici (curati a tema dal fetch),
+        # categoria come fallback.
+        related_section = ""
+        if slug in _article_products and _article_products[slug].get("products"):
             related_section = related_products_section_html(
                 slug, _article_products, site_url, limit=4, max_price=max_price
+            )
+        if not related_section:
+            related_section = related_products_section_html(
+                category_slug, products_by_cat, site_url, limit=4,
+                max_price=max_price, topic_kws=topic_kws
             )
         og_image = f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
         content_html = article.get("content_html", article.get("content", ""))
