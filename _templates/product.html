@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{lang}}">
 <head>
   <meta charset="utf-8">
   <meta name="robots" content="noindex, follow">
@@ -10,42 +10,41 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{title_short}} | {{site_title}}</title>
   <meta name="description" content="{{meta_description}}">
-  <link rel="canonical" href="{{site_url}}/en/{{category_slug}}/{{slug}}/">
-  <link rel="alternate" hreflang="en" href="{{site_url}}/en/{{category_slug}}/{{slug}}/">
-  <link rel="alternate" hreflang="x-default" href="{{site_url}}/en/{{category_slug}}/{{slug}}/">
+  <link rel="canonical" href="{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/">
+  {{hreflang_alternates}}
   <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
   <link rel="preconnect" href="https://res.cloudinary.com">
   <meta property="og:title" content="{{title}}">
   <meta property="og:description" content="{{meta_description}}">
   <meta property="og:image" content="{{og_image}}">
   <meta property="og:type" content="product">
-  <meta property="og:url" content="{{site_url}}/en/{{category_slug}}/{{slug}}/">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"{{title}}","image":"{{image_url}}","sku":"{{product_id}}","aggregateRating":{"@type":"AggregateRating","ratingValue":"{{rating}}","reviewCount":"{{reviews_count}}"},"offers":{"@type":"Offer","priceCurrency":"USD","price":"{{price}}","availability":"https://schema.org/InStock","url":"{{affiliate_url}}"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{site_url}}/en/"},{"@type":"ListItem","position":2,"name":"{{category_name}}","item":"{{site_url}}/en/{{category_slug}}/"},{"@type":"ListItem","position":3,"name":"{{title}}","item":"{{site_url}}/en/{{category_slug}}/{{slug}}/"}]}</script>
+  <meta property="og:url" content="{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"{{title}}","image":"{{image_url}}","sku":"{{product_id}}","aggregateRating":{"@type":"AggregateRating","ratingValue":"{{rating}}","reviewCount":"{{reviews_count}}"},"offers":{"@type":"Offer","priceCurrency":"{{currency_code}}","price":"{{price}}","availability":"https://schema.org/InStock","url":"{{affiliate_url}}"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"{{t_breadcrumb_home}}","item":"{{site_url}}/{{lang}}/"},{"@type":"ListItem","position":2,"name":"{{category_name}}","item":"{{site_url}}/{{lang}}/{{category_slug}}/"},{"@type":"ListItem","position":3,"name":"{{title}}","item":"{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/"}]}</script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">{{t_skip_to_content}}</a>
   <header class="nav">
     <div class="nav__inner">
-      <a class="nav__logo" href="{{site_url}}/en/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
-      <nav class="nav__links" aria-label="Primary">
-        <a href="{{site_url}}/en/electronics/">&#128241; Electronics</a>
-        <a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a>
-        <a href="{{site_url}}/en/sport/">&#127939; Sport</a>
-        <a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a>
-        <a href="{{site_url}}/en/flash-sale/">&#9889; Flash Sale</a>
-        <a href="{{site_url}}/en/coupons/">&#127991; Top Discounts</a>
-        <a href="{{site_url}}/en/blog/">&#128221; Blog</a>
+      <a class="nav__logo" href="{{site_url}}/{{lang}}/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
+      <nav class="nav__links" aria-label="{{t_aria_primary}}">
+        <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
+        <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
+        <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
+        <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
+        <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
+        <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
+        <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
       </nav>
-      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="{{site_url}}/en/">Home</a> <span>/</span>
-    <a href="{{site_url}}/en/{{category_slug}}/">{{category_name}}</a> <span>/</span>
+  <nav class="breadcrumbs" aria-label="{{t_aria_breadcrumb}}">
+    <a href="{{site_url}}/{{lang}}/">{{t_breadcrumb_home}}</a> <span>/</span>
+    <a href="{{site_url}}/{{lang}}/{{category_slug}}/">{{category_name}}</a> <span>/</span>
     <span aria-current="page">{{title_short}}</span>
   </nav>
 
@@ -57,56 +56,56 @@
       <div class="product__info">
         <h1 class="product__title">{{title}}</h1>
         <div class="product__price">
-          <span class="price">${{price}}</span>
-          <span class="price--old">${{original_price}}</span>
+          <span class="price">{{currency_symbol}}{{price}}</span>
+          <span class="price--old">{{currency_symbol}}{{original_price}}</span>
           <span class="price--off">-{{discount_pct}}%</span>
         </div>
-        <p class="product__evidence">Orders: {{orders_count}}+ &middot; Rating: {{rating}}/5 ({{reviews_count}} reviews)</p>
-        <p class="product__shipping">Ships to UK: ~{{shipping_days}} days &middot; Free shipping</p>
+        <p class="product__evidence">{{p_orders}}: {{orders_count}}+ &middot; {{p_rating}}: {{rating}}/5 ({{reviews_count}} {{p_reviews}})</p>
+        <p class="product__shipping">{{p_ships_to}}: ~{{shipping_days}} {{p_ships_days}} &middot; {{p_free_shipping}}</p>
 
-        <a href="{{affiliate_url}}" rel="nofollow sponsored" target="_blank" class="btn-cta">Get This Deal on AliExpress &#8594;</a>
-        <p class="product__affiliate-note">Affiliate link: we may earn a small commission at no extra cost to you.</p>
+        <a href="{{affiliate_url}}" rel="nofollow sponsored" target="_blank" class="btn-cta">{{p_cta}}</a>
+        <p class="product__affiliate-note">{{p_affiliate_note}}</p>
 
-        <ul class="trust-badges" aria-label="Buyer protections">
-          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 4 6v6c0 5 3.5 9.3 8 10 4.5-.7 8-5 8-10V6l-8-4z"/></svg><span>Buyer Protection</span></li>
-          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 10 9 10"/></svg><span>Free Returns</span></li>
-          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span>Secure Payment</span></li>
-          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="8 12 11 15 16 9"/></svg><span>Verified Seller</span></li>
+        <ul class="trust-badges" aria-label="{{t_aria_buyer_protections}}">
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 4 6v6c0 5 3.5 9.3 8 10 4.5-.7 8-5 8-10V6l-8-4z"/></svg><span>{{p_badge_buyer_protection}}</span></li>
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 10 9 10"/></svg><span>{{p_badge_free_returns}}</span></li>
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span>{{p_badge_secure_payment}}</span></li>
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="8 12 11 15 16 9"/></svg><span>{{p_badge_verified_seller}}</span></li>
         </ul>
       </div>
     </article>
 
     <section class="price-history" aria-labelledby="ph">
-      <h2 id="ph" class="section__title">Price history</h2>
-      <div id="price-chart" class="price-history-chart" data-history="{{price_history_json}}" aria-label="Price history chart"></div>
+      <h2 id="ph" class="section__title">{{p_price_history}}</h2>
+      <div id="price-chart" class="price-history-chart" data-history="{{price_history_json}}" aria-label="{{t_aria_price_history_chart}}"></div>
     </section>
 
     <section class="price-drop" aria-labelledby="pd">
-      <h2 id="pd" class="section__title">Get notified on price drops</h2>
+      <h2 id="pd" class="section__title">{{p_price_drop_title}}</h2>
       <form class="price-drop__form" action="https://aliglobalshop-production.up.railway.app/webhook/price-alert" method="post">
         <input type="hidden" name="product_id" value="{{product_id}}">
-        <input type="hidden" name="product_url" value="{{site_url}}/en/{{category_slug}}/{{slug}}/">
-        <label class="sr-only" for="pd-email">Email</label>
-        <input id="pd-email" name="email" type="email" required placeholder="you@example.com">
-        <label class="sr-only" for="pd-target">Target price (USD)</label>
-        <input id="pd-target" name="target_price" type="number" min="0.01" step="0.01" required placeholder="Target price">
+        <input type="hidden" name="product_url" value="{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/">
+        <label class="sr-only" for="pd-email">{{p_form_email_label}}</label>
+        <input id="pd-email" name="email" type="email" required placeholder="{{p_form_email_placeholder}}">
+        <label class="sr-only" for="pd-target">{{p_form_target_label}}</label>
+        <input id="pd-target" name="target_price" type="number" min="0.01" step="0.01" required placeholder="{{p_form_target_placeholder}}">
         <label class="price-drop__consent" for="pd-consent">
           <input id="pd-consent" name="consent" type="checkbox" value="yes" required>
-          <span>I agree to the <a href="{{site_url}}/en/privacy/">Privacy Policy</a> and to receive a price-drop email about this product.</span>
+          <span>{{p_form_consent}}</span>
         </label>
-        <button type="submit" class="btn-cta btn-cta--alt">Notify me</button>
+        <button type="submit" class="btn-cta btn-cta--alt">{{p_form_submit}}</button>
       </form>
     </section>
 
     <section class="faq" aria-labelledby="faq">
-      <h2 id="faq" class="section__title">FAQ</h2>
-      <details><summary>Is this price the real discount?</summary><p>Yes. We cross-check the price against the AliExpress public listing every day and store the history above.</p></details>
-      <details><summary>How long does shipping take?</summary><p>Most listings ship in 7&#8211;25 days depending on the warehouse. Faster options are shown on the AliExpress page.</p></details>
-      <details><summary>Are returns supported?</summary><p>AliExpress Buyer Protection covers returns within the protection period. Always check the seller&#39;s return policy before buying.</p></details>
+      <h2 id="faq" class="section__title">{{p_faq_title}}</h2>
+      <details><summary>{{p_faq_q1}}</summary><p>{{p_faq_a1}}</p></details>
+      <details><summary>{{p_faq_q2}}</summary><p>{{p_faq_a2}}</p></details>
+      <details><summary>{{p_faq_q3}}</summary><p>{{p_faq_a3}}</p></details>
     </section>
 
     <section class="related" aria-labelledby="rel">
-      <h2 id="rel" class="section__title">Related products</h2>
+      <h2 id="rel" class="section__title">{{p_related_products}}</h2>
       <div class="grid grid--products">
         {{related_products_html}}
       </div>
@@ -116,47 +115,47 @@
   <footer class="footer">
     <div class="footer__cols container">
       <div class="footer__brand">
-        <a href="{{site_url}}/en/"><strong>AliGlobal<span>Shop</span></strong></a>
-        <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy, at no extra cost to you.</p>
+        <a href="{{site_url}}/{{lang}}/"><strong>AliGlobal<span>Shop</span></strong></a>
+        <p>{{t_footer_tagline}}</p>
       </div>
       <div class="footer__col">
-        <h4>Shop</h4>
+        <h4>{{t_footer_shop}}</h4>
         <nav>
-          <a href="{{site_url}}/en/electronics/">&#128241; Electronics</a>
-          <a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a>
-          <a href="{{site_url}}/en/sport/">&#127939; Sport</a>
-          <a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a>
+          <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
+          <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
+          <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
+          <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
         </nav>
       </div>
       <div class="footer__col">
-        <h4>Save</h4>
+        <h4>{{t_footer_save}}</h4>
         <nav>
-          <a href="{{site_url}}/en/flash-sale/">&#9889; Flash Sale</a>
-          <a href="{{site_url}}/en/coupons/">&#127991; Top Discounts</a>
+          <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
+          <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
         </nav>
       </div>
       <div class="footer__col">
-        <h4>Info</h4>
+        <h4>{{t_footer_info}}</h4>
         <nav>
-          <a href="{{site_url}}/en/blog/">&#128221; Blog</a>
-          <a href="{{site_url}}/en/about/">About</a>
-          <a href="{{site_url}}/en/contact/">Contact</a>
-          <a href="{{site_url}}/en/privacy/">Privacy</a>
+          <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
+          <a href="{{site_url}}/{{lang}}/about/">{{t_footer_about}}</a>
+          <a href="{{site_url}}/{{lang}}/contact/">{{t_footer_contact}}</a>
+          <a href="{{site_url}}/{{lang}}/privacy/">{{t_footer_privacy}}</a>
         </nav>
       </div>
     </div>
     <div class="footer__bottom">
       <div class="container">
-        <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+        <p>&copy; {{year}} {{site_title}}. {{t_footer_copyright}}</p>
       </div>
     </div>
   </footer>
 
-  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
-    <p>We use cookies to improve your experience. <a href="{{site_url}}/en/privacy/">Learn more</a></p>
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="{{t_aria_cookie_consent}}">
+    <p>{{t_cookie_text}} <a href="{{site_url}}/{{lang}}/privacy/">{{t_cookie_learn_more}}</a></p>
     <div class="cookie-banner__actions">
-      <button id="cookie-accept" class="btn-cta btn--sm">Accept</button>
-      <button id="cookie-decline" class="btn--ghost btn--sm">Decline</button>
+      <button id="cookie-accept" class="btn-cta btn--sm">{{t_cookie_accept}}</button>
+      <button id="cookie-decline" class="btn--ghost btn--sm">{{t_cookie_decline}}</button>
     </div>
   </div>
 

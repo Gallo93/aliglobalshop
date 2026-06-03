@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{lang}}">
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
@@ -9,53 +9,52 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{title}} | {{site_title}}</title>
   <meta name="description" content="{{meta_description}}">
-  <link rel="canonical" href="{{site_url}}/en/blog/{{slug}}/">
-  <link rel="alternate" hreflang="en" href="{{site_url}}/en/blog/{{slug}}/">
-  <link rel="alternate" hreflang="x-default" href="{{site_url}}/en/blog/{{slug}}/">
+  <link rel="canonical" href="{{site_url}}/{{lang}}/blog/{{slug}}/">
+  {{hreflang_alternates}}
   <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
   <meta property="og:title" content="{{title}}">
   <meta property="og:description" content="{{meta_description}}">
   <meta property="og:image" content="{{og_image}}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{{site_url}}/en/blog/{{slug}}/">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"{{title}}","datePublished":"{{date}}","author":{"@type":"Organization","name":"{{site_title}}"},"publisher":{"@type":"Organization","name":"{{site_title}}","logo":{"@type":"ImageObject","url":"{{site_url}}/assets/img/logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"{{site_url}}/en/blog/{{slug}}/"}}</script>
+  <meta property="og:url" content="{{site_url}}/{{lang}}/blog/{{slug}}/">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"{{title}}","datePublished":"{{date}}","author":{"@type":"Organization","name":"{{site_title}}"},"publisher":{"@type":"Organization","name":"{{site_title}}","logo":{"@type":"ImageObject","url":"{{site_url}}/assets/img/logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"{{site_url}}/{{lang}}/blog/{{slug}}/"}}</script>
   {{faq_schema_html}}
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">{{t_skip_to_content}}</a>
   <header class="nav">
     <div class="nav__inner">
-      <a class="nav__logo" href="{{site_url}}/en/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
-      <nav class="nav__links" aria-label="Primary">
-        <a href="{{site_url}}/en/electronics/">&#128241; Electronics</a>
-        <a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a>
-        <a href="{{site_url}}/en/sport/">&#127939; Sport</a>
-        <a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a>
-        <a href="{{site_url}}/en/flash-sale/">&#9889; Flash Sale</a>
-        <a href="{{site_url}}/en/coupons/">&#127991; Top Discounts</a>
-        <a href="{{site_url}}/en/blog/">&#128221; Blog</a>
+      <a class="nav__logo" href="{{site_url}}/{{lang}}/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
+      <nav class="nav__links" aria-label="{{t_aria_primary}}">
+        <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
+        <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
+        <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
+        <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
+        <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
+        <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
+        <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
       </nav>
-      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="{{site_url}}/en/">Home</a> <span>/</span>
-    <a href="{{site_url}}/en/blog/">Blog</a> <span>/</span>
+  <nav class="breadcrumbs" aria-label="{{t_aria_breadcrumb}}">
+    <a href="{{site_url}}/{{lang}}/">{{t_breadcrumb_home}}</a> <span>/</span>
+    <a href="{{site_url}}/{{lang}}/blog/">{{t_breadcrumb_blog}}</a> <span>/</span>
     <span aria-current="page">{{title_short}}</span>
   </nav>
 
   <!-- full-width article hero -->
   <div class="article-hero" data-particles="ink">
     <div class="article-hero__inner">
-      <a class="article-hero__cat" href="{{site_url}}/en/{{category_slug}}/">{{category_name}}</a>
+      <a class="article-hero__cat" href="{{site_url}}/{{lang}}/{{category_slug}}/">{{category_name}}</a>
       <h1 class="article-hero__title">{{title}}</h1>
       <p class="article-hero__meta">
         <time datetime="{{date}}">{{date}}</time>
-        &middot; {{reading_time_min}} min read
-        &middot; <span class="article-hero__ai-note">AI-assisted content</span>
+        &middot; {{reading_time_min}} {{bp_min_read}}
+        &middot; <span class="article-hero__ai-note">{{bp_ai_note}}</span>
       </p>
     </div>
   </div>
@@ -66,8 +65,8 @@
       <div class="article__content">
         {{content_html}}
       </div>
-      <p class="article__ai-disclosure">This article was written with AI assistance. All product recommendations are based on publicly available AliExpress data.</p>
-      <p class="article__affiliate-disclosure">Some links are affiliate links; we may earn a commission at no extra cost to you.</p>
+      <p class="article__ai-disclosure">{{bp_ai_disclosure}}</p>
+      <p class="article__affiliate-disclosure">{{bp_affiliate_disclosure}}</p>
     </div>
 
     <!-- full-width related products -->
@@ -80,47 +79,47 @@
   <footer class="footer">
     <div class="footer__cols container">
       <div class="footer__brand">
-        <a href="{{site_url}}/en/"><strong>AliGlobal<span>Shop</span></strong></a>
-        <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy, at no extra cost to you.</p>
+        <a href="{{site_url}}/{{lang}}/"><strong>AliGlobal<span>Shop</span></strong></a>
+        <p>{{t_footer_tagline}}</p>
       </div>
       <div class="footer__col">
-        <h4>Shop</h4>
+        <h4>{{t_footer_shop}}</h4>
         <nav>
-          <a href="{{site_url}}/en/electronics/">&#128241; Electronics</a>
-          <a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a>
-          <a href="{{site_url}}/en/sport/">&#127939; Sport</a>
-          <a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a>
+          <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
+          <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
+          <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
+          <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
         </nav>
       </div>
       <div class="footer__col">
-        <h4>Save</h4>
+        <h4>{{t_footer_save}}</h4>
         <nav>
-          <a href="{{site_url}}/en/flash-sale/">&#9889; Flash Sale</a>
-          <a href="{{site_url}}/en/coupons/">&#127991; Top Discounts</a>
+          <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
+          <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
         </nav>
       </div>
       <div class="footer__col">
-        <h4>Info</h4>
+        <h4>{{t_footer_info}}</h4>
         <nav>
-          <a href="{{site_url}}/en/blog/">&#128221; Blog</a>
-          <a href="{{site_url}}/en/about/">About</a>
-          <a href="{{site_url}}/en/contact/">Contact</a>
-          <a href="{{site_url}}/en/privacy/">Privacy</a>
+          <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
+          <a href="{{site_url}}/{{lang}}/about/">{{t_footer_about}}</a>
+          <a href="{{site_url}}/{{lang}}/contact/">{{t_footer_contact}}</a>
+          <a href="{{site_url}}/{{lang}}/privacy/">{{t_footer_privacy}}</a>
         </nav>
       </div>
     </div>
     <div class="footer__bottom">
       <div class="container">
-        <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+        <p>&copy; {{year}} {{site_title}}. {{t_footer_copyright}}</p>
       </div>
     </div>
   </footer>
 
-  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
-    <p>We use cookies to improve your experience. <a href="{{site_url}}/en/privacy/">Learn more</a></p>
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="{{t_aria_cookie_consent}}">
+    <p>{{t_cookie_text}} <a href="{{site_url}}/{{lang}}/privacy/">{{t_cookie_learn_more}}</a></p>
     <div class="cookie-banner__actions">
-      <button id="cookie-accept" class="btn-cta btn--sm">Accept</button>
-      <button id="cookie-decline" class="btn--ghost btn--sm">Decline</button>
+      <button id="cookie-accept" class="btn-cta btn--sm">{{t_cookie_accept}}</button>
+      <button id="cookie-decline" class="btn--ghost btn--sm">{{t_cookie_decline}}</button>
     </div>
   </div>
   <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
