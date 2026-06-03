@@ -293,11 +293,11 @@ _KW_STOPWORDS = {
 # Termini che indicano un ACCESSORIO/ricambio, non il dispositivo vero e proprio.
 # pad/pads e strap esclusi di proposito: i robot vacuum legittimi hanno 'mop pad'
 # e gli smartwatch veri hanno 'strap/band' nel titolo.
-# stickers/labels/sealing/packing/wrapping/seal box: materiale da imballo.
+# stickers/labels/sealing/packing/wrapping: materiale da imballo.
 # 'wrap' secco escluso di proposito: 'hand/wrist/knee wrap' sono attrezzi gym veri.
 _ACCESSORY_PATTERN = re.compile(
     r'\b(?:case|cover|pouch|cushion|foam|sponge|tips?|eartips?|ear\s+tips?|'
-    r'holder|stand|skin|stickers?|labels?|sealing|packing|wrapping|seal\s+box|'
+    r'holder|stand|skin|stickers?|labels?|sealing|packing|wrapping|'
     r'protector|screen\s+protector|replacement|spare|'
     r'battery|charger|dock|cable|glass|lens|bumper|crystal|repair|accessor(?:y|ies))\b',
     re.I,
@@ -306,13 +306,13 @@ _ACCESSORY_PATTERN = re.compile(
 # Categorie adiacenti off-topic da scartare negli article-products.
 # 'board' MAI da solo (spezzerebbe 'sit-up board'/'supine board' del home-gym):
 # solo dopo decoder/receiver/audio/circuit/bluetooth.
-# 'box' ristretto (watch/storage/jewelry/jewellery/display/gift) per non colpire
-# 'charging box' degli earbuds ne 'plyo box'/'jump box' del gym.
+# 'box' ristretto (watch/storage/jewelry/jewellery/display/gift/seal) per non
+# colpire 'charging box' degli earbuds ne 'plyo box'/'jump box' del gym.
 _OFFTOPIC_PATTERN = re.compile(
     r'\bpower\s*bank\b|\bpowerbank\b|\btransmitter\b|\breceiver\b|\bdecoder\b|'
     r'\b(?:decoder|receiver|audio|circuit|bluetooth)\s+board\b|'
     r'\badapter\b|\bmodule\b|\bsafe\b|\bcabinet\b|\bstorage\b|\bwinder\b|\borganizer\b|'
-    r'\b(?:watch|storage|jewelry|jewellery|display|gift)\s+box\b',
+    r'\b(?:watch|storage|jewelry|jewellery|display|gift|seal)\s+box\b',
     re.I,
 )
 
