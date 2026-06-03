@@ -44,7 +44,8 @@
     "primary_keyword": "aliexpress flash sale vs superdeals",
     "category": "electronics",
     "intent": "informational",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-03"
   },
   {
     "topic": "Is AliExpress safe in the UK? A 2026 buyer's guide",
