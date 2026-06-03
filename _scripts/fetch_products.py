@@ -271,6 +271,32 @@ _ARTICLE_TOPIC_PATTERNS = [
     re.compile(r'\bhome\s+gym\b|\bgym\s+equipment\b|\bdumbbell\b|\btreadmill\b', re.I),
 ]
 
+# Parole rumore rimosse dalla keyword di ricerca per renderla pertinente
+_KW_STOPWORDS = {
+    "aliexpress", "reviews", "review", "guide", "guides", "best", "top",
+    "picks", "pick", "under", "the", "a", "an", "and", "or", "for",
+    "with", "vs", "2024", "2025", "2026", "2027",
+}
+
+
+def _clean_search_kw(text: str) -> str:
+    """Deriva una keyword di ricerca pertinente rimuovendo parole rumore,
+    anni e cifre (es. prezzi) dal primary_keyword/title."""
+    words = re.findall(r"[a-z0-9]+", text.lower())
+    kept = [w for w in words if w not in _KW_STOPWORDS and not w.isdigit()]
+    return " ".join(kept).strip()
+
+
+def _is_relevant(title: str, keywords: list, topic_pattern) -> bool:
+    """Un prodotto e' pertinente se il titolo matcha il pattern-tema
+    dell'articolo oppure contiene almeno una keyword significativa."""
+    if not title:
+        return False
+    if topic_pattern is not None and topic_pattern.search(title):
+        return True
+    title_low = title.lower()
+    return any(kw in title_low for kw in keywords)
+
 
 def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
     if not blog_dir.exists():
@@ -287,7 +313,11 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
         combined = f"{title} {primary_kw}"
         if not slug or not primary_kw:
             continue
-        if not any(pat.search(combined) for pat in _ARTICLE_TOPIC_PATTERNS):
+        topic_pattern = next(
+            (pat for pat in _ARTICLE_TOPIC_PATTERNS if pat.search(combined)),
+            None,
+        )
+        if topic_pattern is None:
             continue
         cache_file = article_output_dir / f"{slug}.json"
         if cache_file.exists():
@@ -298,17 +328,39 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
                     continue
             except Exception:
                 pass
-        print(f"  [article fetch] {slug} — kw: {primary_kw}")
-        raw = fetch_products(primary_kw, page_size=20)
+
+        search_kw = _clean_search_kw(primary_kw) or _clean_search_kw(title)
+        kw_words = [w for w in search_kw.split() if len(w) >= 3]
+        print(f"  [article fetch] {slug} -- search kw: '{search_kw}'")
+        raw = fetch_products(search_kw, page_size=30)
         if not raw:
+            print(f"  [WARN] nessun risultato API per '{slug}' (kw: {search_kw})")
             continue
+
+        relevant = [
+            r for r in raw
+            if not is_blacklisted(r.get("product_title", ""))
+            and _is_relevant(r.get("product_title", ""), kw_words, topic_pattern)
+        ]
+        relevant.sort(key=score_product, reverse=True)
+
         products = []
-        for r in raw[:8]:
+        seen_ids = set()
+        for r in relevant:
+            if len(products) >= 6:
+                break
             product_id = str(r.get("product_id", ""))
+            if not product_id or product_id in seen_ids:
+                continue
+            seen_ids.add(product_id)
             image_url = r.get("product_main_image_url", "")
             hosted = upload_image(image_url, f"art-{product_id}") if image_url else ""
             products.append(build_product(r, article.get("category", ""), hosted))
             time.sleep(0.1)
+
+        if not products:
+            print(f"  [WARN] 0 prodotti pertinenti per '{slug}' -- sezione related vuota")
+
         data = {
             "timestamp": time.time(),
             "slug": slug,
@@ -316,7 +368,7 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             "products": products,
         }
         cache_file.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"  -> {len(products)} prodotti per articolo {slug}")
+        print(f"  -> {len(products)} prodotti pertinenti per articolo {slug}")
         time.sleep(0.5)
 
 
