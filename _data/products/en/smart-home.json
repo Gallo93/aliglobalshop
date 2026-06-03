@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-06-03T06:08:36Z",
+  "updated_at": "2026-06-03T08:26:42Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1949,
       "score": 0.4089,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:25Z",
-      "updated_at": "2026-06-03T06:08:25Z"
+      "fetched_at": "2026-06-03T08:26:30Z",
+      "updated_at": "2026-06-03T08:26:30Z"
     },
     {
       "product_id": "1005008710290057",
@@ -35,8 +35,8 @@
       "sales_volume": 25,
       "score": 0.2986,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:26Z",
-      "updated_at": "2026-06-03T06:08:26Z"
+      "fetched_at": "2026-06-03T08:26:30Z",
+      "updated_at": "2026-06-03T08:26:30Z"
     },
     {
       "product_id": "1005008109628276",
@@ -53,8 +53,8 @@
       "sales_volume": 4,
       "score": 0.2865,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:26Z",
-      "updated_at": "2026-06-03T06:08:26Z"
+      "fetched_at": "2026-06-03T08:26:31Z",
+      "updated_at": "2026-06-03T08:26:31Z"
     },
     {
       "product_id": "1005004274068542",
@@ -71,8 +71,8 @@
       "sales_volume": 4,
       "score": 0.2715,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:27Z",
-      "updated_at": "2026-06-03T06:08:27Z"
+      "fetched_at": "2026-06-03T08:26:31Z",
+      "updated_at": "2026-06-03T08:26:31Z"
     },
     {
       "product_id": "1005010590468953",
@@ -89,8 +89,8 @@
       "sales_volume": 80,
       "score": 0.2695,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:27Z",
-      "updated_at": "2026-06-03T06:08:27Z"
+      "fetched_at": "2026-06-03T08:26:32Z",
+      "updated_at": "2026-06-03T08:26:32Z"
     },
     {
       "product_id": "1005001394925942",
@@ -107,8 +107,8 @@
       "sales_volume": 9,
       "score": 0.2684,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:28Z",
-      "updated_at": "2026-06-03T06:08:28Z"
+      "fetched_at": "2026-06-03T08:26:32Z",
+      "updated_at": "2026-06-03T08:26:32Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,8 +125,8 @@
       "sales_volume": 31,
       "score": 0.2616,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:29Z",
-      "updated_at": "2026-06-03T06:08:29Z"
+      "fetched_at": "2026-06-03T08:26:33Z",
+      "updated_at": "2026-06-03T08:26:33Z"
     },
     {
       "product_id": "1005005807578430",
@@ -143,8 +143,8 @@
       "sales_volume": 16,
       "score": 0.2554,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:29Z",
-      "updated_at": "2026-06-03T06:08:29Z"
+      "fetched_at": "2026-06-03T08:26:33Z",
+      "updated_at": "2026-06-03T08:26:33Z"
     },
     {
       "product_id": "1005008952159162",
@@ -161,8 +161,8 @@
       "sales_volume": 11,
       "score": 0.2513,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:30Z",
-      "updated_at": "2026-06-03T06:08:30Z"
+      "fetched_at": "2026-06-03T08:26:34Z",
+      "updated_at": "2026-06-03T08:26:34Z"
     },
     {
       "product_id": "1005003462342443",
@@ -179,8 +179,8 @@
       "sales_volume": 613,
       "score": 0.2491,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:30Z",
-      "updated_at": "2026-06-03T06:08:30Z"
+      "fetched_at": "2026-06-03T08:26:34Z",
+      "updated_at": "2026-06-03T08:26:34Z"
     },
     {
       "product_id": "1005009306467710",
@@ -197,8 +197,8 @@
       "sales_volume": 89,
       "score": 0.2483,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:31Z",
-      "updated_at": "2026-06-03T06:08:31Z"
+      "fetched_at": "2026-06-03T08:26:35Z",
+      "updated_at": "2026-06-03T08:26:35Z"
     },
     {
       "product_id": "1005004774956386",
@@ -215,8 +215,8 @@
       "sales_volume": 110,
       "score": 0.2425,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:31Z",
-      "updated_at": "2026-06-03T06:08:31Z"
+      "fetched_at": "2026-06-03T08:26:35Z",
+      "updated_at": "2026-06-03T08:26:35Z"
     },
     {
       "product_id": "4000143784956",
@@ -233,8 +233,8 @@
       "sales_volume": 265,
       "score": 0.2396,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:32Z",
-      "updated_at": "2026-06-03T06:08:32Z"
+      "fetched_at": "2026-06-03T08:26:36Z",
+      "updated_at": "2026-06-03T08:26:36Z"
     },
     {
       "product_id": "1005010463738860",
@@ -251,8 +251,8 @@
       "sales_volume": 63,
       "score": 0.2276,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:32Z",
-      "updated_at": "2026-06-03T06:08:32Z"
+      "fetched_at": "2026-06-03T08:26:37Z",
+      "updated_at": "2026-06-03T08:26:37Z"
     },
     {
       "product_id": "1005004966987077",
@@ -269,8 +269,8 @@
       "sales_volume": 1,
       "score": 0.2271,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:33Z",
-      "updated_at": "2026-06-03T06:08:33Z"
+      "fetched_at": "2026-06-03T08:26:39Z",
+      "updated_at": "2026-06-03T08:26:39Z"
     },
     {
       "product_id": "1005003568997399",
@@ -287,8 +287,8 @@
       "sales_volume": 113,
       "score": 0.2246,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:33Z",
-      "updated_at": "2026-06-03T06:08:33Z"
+      "fetched_at": "2026-06-03T08:26:39Z",
+      "updated_at": "2026-06-03T08:26:39Z"
     },
     {
       "product_id": "1005004779246205",
@@ -305,8 +305,8 @@
       "sales_volume": 12,
       "score": 0.2164,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:34Z",
-      "updated_at": "2026-06-03T06:08:34Z"
+      "fetched_at": "2026-06-03T08:26:39Z",
+      "updated_at": "2026-06-03T08:26:39Z"
     },
     {
       "product_id": "1005006118602003",
@@ -323,8 +323,8 @@
       "sales_volume": 7,
       "score": 0.2118,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:35Z",
-      "updated_at": "2026-06-03T06:08:35Z"
+      "fetched_at": "2026-06-03T08:26:40Z",
+      "updated_at": "2026-06-03T08:26:40Z"
     },
     {
       "product_id": "4001041588925",
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.2116,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:35Z",
-      "updated_at": "2026-06-03T06:08:35Z"
+      "fetched_at": "2026-06-03T08:26:41Z",
+      "updated_at": "2026-06-03T08:26:41Z"
     },
     {
       "product_id": "1005011962938074",
@@ -359,8 +359,8 @@
       "sales_volume": 3,
       "score": 0.2104,
       "price_history": [],
-      "fetched_at": "2026-06-03T06:08:36Z",
-      "updated_at": "2026-06-03T06:08:36Z"
+      "fetched_at": "2026-06-03T08:26:41Z",
+      "updated_at": "2026-06-03T08:26:41Z"
     }
   ]
 }
