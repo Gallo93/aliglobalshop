@@ -39,6 +39,19 @@ def collect_active_ids() -> set:
             except Exception as e:
                 print(f"[warn] cannot parse {f}: {e}")
 
+    # Immagini prodotto-articolo: public_id = products/art-<product_id>
+    article_dir = products_dir / "_article"
+    if article_dir.exists():
+        for f in article_dir.glob("*.json"):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+                for p in data.get("products", []):
+                    pid = str(p.get("product_id", ""))
+                    if pid:
+                        active.add(f"art-{pid}")
+            except Exception as e:
+                print(f"[warn] cannot parse {f}: {e}")
+
     flash_path = DATA_DIR / "flash-sale" / "en.json"
     if flash_path.exists():
         try:
