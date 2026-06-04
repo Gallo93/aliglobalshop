@@ -27,13 +27,18 @@ FASE 6  → Espansione lingue: IT → ES → DE → FR (una alla volta)
 ## Struttura cartelle
 ```
 _data/products/en/        → JSON prodotti per categoria
+_data/products/it/        → prodotti tradotti IT (title IT, prezzi EUR)
 _data/blog/en/            → articoli blog (yyyy-mm-dd-slug.json)
+_data/blog/it/            → articoli blog tradotti IT
 _data/flash-sale/en.json  → SuperDeals con timestamp scadenza
 _data/coupons/en.json     → coupon codes aggiornati daily
-_data/config.json         → lingue attive, nicchie, site_url
+_data/i18n/               → dizionari stringhe UI per lingua (en.json, it.json)
+_data/config.json         → lingue attive, nicchie, site_url, currencies, fx_rates
 _templates/               → template HTML (product, category, blog-post, home…)
-_scripts/                 → build.py, fetch_products.py, generate_blog.py, update_prices.py
+_templates/it/            → static pages IT (about, contact, privacy)
+_scripts/                 → build.py, fetch_products.py, generate_blog.py, update_prices.py, translate_content.py
 en/                       → sito EN generato (prima lingua)
+it/                       → sito IT generato
 assets/css/ js/ img/
 ```
 
@@ -56,6 +61,10 @@ SITE_URL=https://gallo93.github.io/aliglobalshop
 - Slug: lowercase, trattini, max 60 chars, solo ASCII
 - JSON date: ISO8601 — valori mancanti: `null`
 
+## Convenzioni i18n
+- **Regola d'oro EN:** con `config.languages = ["en"]` l'output `en/` deve restare byte-identico. Le stringhe UI vivono in `_data/i18n/en.json` (fonte di verità); le altre lingue fanno overlay con fallback EN.
+- **Traduzioni:** `_scripts/translate_content.py` (argostranslate EN→IT) traduce prodotti e blog, converte i prezzi in EUR via `fx_rates` (config.json, override env `FX_RATE_<CUR>`) e ripunta i link interni `/en/`→`/it/`. Cache hash in `_data/.translate_cache.json`: ritraduce solo se il sorgente EN cambia, quindi i fix manuali ai titoli IT sopravvivono finché il sorgente EN resta invariato.
+
 ## Fasi completate
 - [x] FASE 0 — Vault Obsidian
 - [x] FASE 1 — Infrastruttura
@@ -63,7 +72,7 @@ SITE_URL=https://gallo93.github.io/aliglobalshop
 - [x] FASE 3 — Workflow n8n
 - [ ] FASE 4 — Template + Blog AI
 - [ ] FASE 5 — Dominio + Live EN
-- [ ] FASE 6 — IT / ES / DE / FR
+- [x] FASE 6 — IT live (2026-06-04) · ES/DE/FR da fare
 
 ## Dettagli completi
 Vedi `docs/piano-progetto.md` per schema JSON prodotto, endpoint API, workflow n8n,
