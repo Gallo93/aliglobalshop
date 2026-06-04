@@ -6,7 +6,8 @@
   "currency": "USD",
   "currencies": {
     "en": "USD",
-    "it": "EUR"
+    "it": "EUR",
+    "es": "EUR"
   },
   "fx_rates": {
     "EUR": 0.92
