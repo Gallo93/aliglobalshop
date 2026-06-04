@@ -36,11 +36,31 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python _scripts/generate_blog.py
 
+      - name: Translate content to IT
+        run: |
+          if jq -e '.languages | index("it")' _data/config.json > /dev/null; then
+            echo "IT active: installing argostranslate + en_it package"
+            pip install argostranslate
+            python - <<'PY'
+import argostranslate.package as pkg
+pkg.update_package_index()
+available = pkg.get_available_packages()
+match = next((p for p in available if p.from_code == "en" and p.to_code == "it"), None)
+if match is None:
+    raise SystemExit("en->it argos package not found in index")
+pkg.install_from_path(match.download())
+print("installed en->it argos package")
+PY
+            python _scripts/translate_content.py --lang it
+          else
+            echo "IT not active in config.languages, skipping translation"
+          fi
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/blog/ _data/blog-calendar-en.json
+          git add _data/blog/ _data/blog-calendar-en.json _data/products/it _data/.translate_cache.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
