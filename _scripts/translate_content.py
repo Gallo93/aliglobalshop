@@ -8,6 +8,14 @@ Sources translated:
      (fields: title, meta_desc / meta_description; content_html translating
       only HTML text nodes, never attributes such as href/src/class).
 
+Internal site links inside blog content_html are repointed from /en/ to the
+target language: an href starting with "/en/" or "<site_url>/en/" becomes
+"/<lang>/" / "<site_url>/<lang>/". Slugs are identical across languages so the
+target path is always guaranteed. External links (e.g. aliexpress.com) and any
+href that does not start with one of those two internal prefixes are left
+untouched. This is a deterministic path-prefix rewrite, not a translation, and
+it is idempotent (a "/it/" link is not matched again).
+
 Prices, URLs, slugs, product ids and image URLs are never touched. Slugs stay
 identical, so translated files keep the same file names as their EN source.
 
@@ -24,6 +32,7 @@ overwriting any existing translation.
 """
 import argparse
 import hashlib
+import html
 import json
 import sys
 from html.parser import HTMLParser
@@ -31,6 +40,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "_data"
+CONFIG_PATH = DATA_DIR / "config.json"
 CACHE_PATH = DATA_DIR / ".translate_cache.json"
 
 SOURCE_LANG = "en"
@@ -92,25 +102,62 @@ def get_translator(from_lang: str, to_lang: str):
     return _translate
 
 
-class _HTMLTextTranslator(HTMLParser):
-    """Re-emit the HTML unchanged except for translated text nodes."""
+def rewrite_internal_href(href: str, lang: str, site_url: str) -> str:
+    """Repoint internal /en/ links to /<lang>/; leave everything else as-is."""
+    if not href:
+        return href
+    src_prefix = f"/{SOURCE_LANG}/"
+    dst_prefix = f"/{lang}/"
+    if site_url:
+        site_src = f"{site_url}{src_prefix}"
+        if href.startswith(site_src):
+            return f"{site_url}{dst_prefix}" + href[len(site_src):]
+    if href.startswith(src_prefix):
+        return dst_prefix + href[len(src_prefix):]
+    return href
 
-    def __init__(self, translate):
+
+class _HTMLTextTranslator(HTMLParser):
+    """Re-emit the HTML unchanged except for translated text nodes.
+
+    For <a> tags the start tag is rebuilt from the parsed attrs so that an
+    internal /en/ href can be repointed to /<lang>/; every other tag is
+    re-emitted verbatim via get_starttag_text() to preserve markup exactly.
+    """
+
+    def __init__(self, translate, lang: str, site_url: str):
         super().__init__(convert_charrefs=False)
         self._translate = translate
+        self._lang = lang
+        self._site_url = site_url
         self._out = []
         self._skip_depth = 0
 
     def result(self) -> str:
         return "".join(self._out)
 
+    def _emit_starttag(self, tag, attrs, self_closing: bool):
+        if tag != "a":
+            self._out.append(self.get_starttag_text())
+            return
+        parts = [f"<{tag}"]
+        for name, value in attrs:
+            if value is None:
+                parts.append(f" {name}")
+                continue
+            if name == "href":
+                value = rewrite_internal_href(value, self._lang, self._site_url)
+            parts.append(f' {name}="{html.escape(value, quote=True)}"')
+        parts.append("/>" if self_closing else ">")
+        self._out.append("".join(parts))
+
     def handle_starttag(self, tag, attrs):
-        self._out.append(self.get_starttag_text())
+        self._emit_starttag(tag, attrs, self_closing=False)
         if tag in _SKIP_TEXT_TAGS:
             self._skip_depth += 1
 
     def handle_startendtag(self, tag, attrs):
-        self._out.append(self.get_starttag_text())
+        self._emit_starttag(tag, attrs, self_closing=True)
 
     def handle_endtag(self, tag):
         if tag in _SKIP_TEXT_TAGS and self._skip_depth > 0:
@@ -144,8 +191,8 @@ class _HTMLTextTranslator(HTMLParser):
         self._out.append(f"<!{decl}>")
 
 
-def translate_html(html_str: str, translate) -> str:
-    parser = _HTMLTextTranslator(translate)
+def translate_html(html_str: str, translate, lang: str, site_url: str) -> str:
+    parser = _HTMLTextTranslator(translate, lang, site_url)
     parser.feed(html_str)
     parser.close()
     return parser.result()
@@ -183,7 +230,7 @@ def translate_products_file(src_path: Path, dst_path: Path, translate,
 
 
 def translate_blog_file(src_path: Path, dst_path: Path, lang: str, translate,
-                        cache: dict, force: bool) -> bool:
+                        site_url: str, cache: dict, force: bool) -> bool:
     data = load_json(src_path)
     if data is None:
         return False
@@ -209,7 +256,7 @@ def translate_blog_file(src_path: Path, dst_path: Path, lang: str, translate,
                 print(f"  [warn] {desc_key} translation failed: {exc}")
     if out.get("content_html"):
         try:
-            out["content_html"] = translate_html(out["content_html"], translate)
+            out["content_html"] = translate_html(out["content_html"], translate, lang, site_url)
         except Exception as exc:
             print(f"  [warn] content_html translation failed, keeping source: {exc}")
     write_json(dst_path, out)
@@ -233,6 +280,9 @@ def run(lang: str, force: bool) -> int:
     if lang == SOURCE_LANG:
         print(f"[translate] nothing to do for source language '{lang}'")
         return 0
+
+    config = load_json(CONFIG_PATH, default={}) or {}
+    site_url = config.get("site_url", "").rstrip("/")
 
     translate = get_translator(SOURCE_LANG, lang)
     if translate is None:
@@ -258,7 +308,7 @@ def run(lang: str, force: bool) -> int:
         for src_path in sorted(blog_src.glob("*.json")):
             dst_path = DATA_DIR / "blog" / lang / src_path.name
             try:
-                if translate_blog_file(src_path, dst_path, lang, translate, cache, force):
+                if translate_blog_file(src_path, dst_path, lang, translate, site_url, cache, force):
                     changed += 1
             except Exception as exc:
                 print(f"  [warn] failed {src_path.name}: {exc}")
