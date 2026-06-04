@@ -36,25 +36,30 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python _scripts/generate_blog.py
 
-      - name: Translate content to IT
+      - name: Translate content to active languages
         run: |
-          if jq -e '.languages | index("it")' _data/config.json > /dev/null; then
-            echo "IT active: installing argostranslate + en_it package"
-            pip install argostranslate
-            python - <<'PY'
+          langs=$(jq -r '.languages[] | select(. != "en")' _data/config.json)
+          if [ -z "$langs" ]; then
+            echo "No non-en languages active in config.languages, skipping translation"
+            exit 0
+          fi
+          pip install argostranslate
+          for lang in $langs; do
+            echo "$lang active: installing argos en->$lang package"
+            LANG_CODE="$lang" python - <<'PY'
+import os
 import argostranslate.package as pkg
+lang = os.environ["LANG_CODE"]
 pkg.update_package_index()
 available = pkg.get_available_packages()
-match = next((p for p in available if p.from_code == "en" and p.to_code == "it"), None)
+match = next((p for p in available if p.from_code == "en" and p.to_code == lang), None)
 if match is None:
-    raise SystemExit("en->it argos package not found in index")
+    raise SystemExit(f"en->{lang} argos package not found in index")
 pkg.install_from_path(match.download())
-print("installed en->it argos package")
+print(f"installed en->{lang} argos package")
 PY
-            python _scripts/translate_content.py --lang it
-          else
-            echo "IT not active in config.languages, skipping translation"
-          fi
+            python _scripts/translate_content.py --lang "$lang"
+          done
 
       - name: Commit and push
         run: |
