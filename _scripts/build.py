@@ -27,6 +27,16 @@ SITE_DESCRIPTION = (
 DEFAULT_SHIPPING_DAYS = "7-25"
 DEFAULT_OG_IMAGE_PATH = "/assets/img/og-default.jpg"
 
+# Flag emoji + short code per language, used by the nav language switcher.
+# A language with no entry here falls back to its i18n _meta locale_name.
+LANG_FLAGS = {
+    "en": "&#127468;&#127463;",
+    "it": "&#127470;&#127481;",
+    "es": "&#127466;&#127480;",
+    "de": "&#127465;&#127466;",
+    "fr": "&#127467;&#127479;",
+}
+
 CATEGORY_PARTICLES = {
     "electronics": "electric",
     "smart-home": "glow",
@@ -356,6 +366,42 @@ def hreflang_alternates(site_url: str, path: str, languages: list, default_lang:
     return "\n  ".join(lines)
 
 
+def lang_label(lng: str) -> str:
+    """Flag emoji + short uppercase code for a language, used in the switcher.
+    Falls back to the i18n _meta locale_name when no flag is mapped."""
+    flag = LANG_FLAGS.get(lng)
+    if flag:
+        return f"{flag} {lng.upper()}"
+    return load_i18n(lng).get("_meta", {}).get("locale_name", lng.upper())
+
+
+def lang_switcher_html(site_url: str, current_lang: str, path: str, languages: list) -> str:
+    """Nav language switcher pointing at the same page (identical slug) in each
+    active language. The current language is rendered as a non-link span.
+    `path` is the page path after `/{lang}/`, e.g. "", "electronics/",
+    "blog/some-slug/"."""
+    if len(languages) < 2:
+        return ""
+    items = []
+    for lng in languages:
+        label = lang_label(lng)
+        if lng == current_lang:
+            items.append(
+                f'<span class="lang-switcher__item lang-switcher__item--current" '
+                f'aria-current="true">{label}</span>'
+            )
+        else:
+            items.append(
+                f'<a class="lang-switcher__item" href="{site_url}/{lng}/{path}" '
+                f'hreflang="{lng}">{label}</a>'
+            )
+    return (
+        '<div class="lang-switcher" role="group" aria-label="Language">'
+        + "".join(items)
+        + "</div>"
+    )
+
+
 def base_context(site_url: str, lang: str, T: dict, languages: list, default_lang: str) -> dict:
     ctx = {
         "site_title": SITE_TITLE,
@@ -363,6 +409,7 @@ def base_context(site_url: str, lang: str, T: dict, languages: list, default_lan
         "site_url": site_url,
         "lang": lang,
         "year": str(datetime.now(timezone.utc).year),
+        "lang_switcher_html": "",
     }
     for key, value in T.get("ui", {}).items():
         ctx[f"t_{key}"] = value
@@ -382,6 +429,7 @@ def build_home(site_url: str, lang: str, T: dict, out_dir: Path,
     ctx.update({
         "canonical_url": f"{site_url}/{lang}/",
         "hreflang_alternates": hreflang_alternates(site_url, "", languages, default_lang),
+        "lang_switcher_html": lang_switcher_html(site_url, lang, "", languages),
         "flash_preview_html": flash_html or f'<p>{T["ui"].get("no_flash_deals", "")}</p>',
         "blog_preview_html": blog_html or f'<p>{T["ui"].get("no_articles_home", "")}</p>',
     })
@@ -412,6 +460,7 @@ def build_categories(site_url: str, lang: str, T: dict, out_dir: Path,
         ctx.update({
             "canonical_url": f"{site_url}/{lang}/{slug}/",
             "hreflang_alternates": hreflang_alternates(site_url, f"{slug}/", languages, default_lang),
+            "lang_switcher_html": lang_switcher_html(site_url, lang, f"{slug}/", languages),
             "title": cat_t.get("title", "{category_name} Deals on AliExpress | {site_title}").format(
                 category_name=cat_name, site_title=SITE_TITLE),
             "meta_description": cat_t.get("meta_desc", "").format(category_name=cat_name),
@@ -469,6 +518,8 @@ def build_products(site_url: str, lang: str, T: dict, out_dir: Path,
             "canonical_url": f"{site_url}/{lang}/{cat_slug}/{product_slug}/",
             "hreflang_alternates": hreflang_alternates(
                 site_url, f"{cat_slug}/{product_slug}/", languages, default_lang),
+            "lang_switcher_html": lang_switcher_html(
+                site_url, lang, f"{cat_slug}/{product_slug}/", languages),
             "currency_symbol": sym,
             "currency_code": ccode,
             "title": esc(product.get("title", "")),
@@ -507,6 +558,7 @@ def build_blog_index(site_url: str, lang: str, T: dict, out_dir: Path,
     ctx = base_context(site_url, lang, T, languages, default_lang)
     ctx["canonical_url"] = f"{site_url}/{lang}/blog/"
     ctx["hreflang_alternates"] = hreflang_alternates(site_url, "blog/", languages, default_lang)
+    ctx["lang_switcher_html"] = lang_switcher_html(site_url, lang, "blog/", languages)
     ctx["title"] = bi.get("title", "").format(site_title=SITE_TITLE)
     ctx["meta_description"] = bi.get("meta_desc", "")
     ctx["blog_h1"] = bi.get("h1", "")
@@ -634,6 +686,7 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
         ctx.update({
             "canonical_url": f"{site_url}/{lang}/blog/{slug}/",
             "hreflang_alternates": hreflang_alternates(site_url, f"blog/{slug}/", languages, default_lang),
+            "lang_switcher_html": lang_switcher_html(site_url, lang, f"blog/{slug}/", languages),
             "title": esc(article.get("title", "")),
             "title_short": esc(short_title(article.get("title", ""), 60)),
             "slug": esc(slug),
@@ -682,6 +735,7 @@ def build_flash_sale(site_url: str, lang: str, T: dict, out_dir: Path,
     ctx.update({
         "canonical_url": f"{site_url}/{lang}/flash-sale/",
         "hreflang_alternates": hreflang_alternates(site_url, "flash-sale/", languages, default_lang),
+        "lang_switcher_html": lang_switcher_html(site_url, lang, "flash-sale/", languages),
         "deals_html": (
             "".join(deal_card_html(d, site_url, lang, T) for d in flash_deals)
             or f'<p>{T["ui"].get("no_flash_deals", "")}</p>'
@@ -724,6 +778,7 @@ def build_coupons(site_url: str, lang: str, T: dict, out_dir: Path,
     ctx.update({
         "canonical_url": f"{site_url}/{lang}/coupons/",
         "hreflang_alternates": hreflang_alternates(site_url, "coupons/", languages, default_lang),
+        "lang_switcher_html": lang_switcher_html(site_url, lang, "coupons/", languages),
         "coupons_html": (
             "".join(coupon_card_html(c, site_url, lang, T) for c in coupons)
             or f'<p>{T["ui"].get("no_coupons", "")}</p>'
@@ -751,6 +806,7 @@ def build_static_pages(site_url: str, lang: str, T: dict, out_dir: Path,
         ctx.update({
             "canonical_url": f"{site_url}/{lang}/{slug}/",
             "hreflang_alternates": hreflang_alternates(site_url, f"{slug}/", languages, default_lang),
+            "lang_switcher_html": lang_switcher_html(site_url, lang, f"{slug}/", languages),
         })
         page_out = out_dir / slug
         page_out.mkdir(parents=True, exist_ok=True)
@@ -806,7 +862,7 @@ def build_robots(site_url: str) -> None:
     write_file(BASE_DIR / "robots.txt", content)
 
 
-def build_404(site_url: str, default_lang: str, T: dict) -> None:
+def build_404(site_url: str, default_lang: str, T: dict, languages: list) -> None:
     nf = T.get("notfound", {})
     ui = T.get("ui", {})
     tpl = load_template("404.html")
@@ -815,6 +871,7 @@ def build_404(site_url: str, default_lang: str, T: dict) -> None:
         "site_url": site_url,
         "lang": default_lang,
         "year": str(datetime.now(timezone.utc).year),
+        "lang_switcher_html": lang_switcher_html(site_url, default_lang, "", languages),
         "nf_title": nf.get("title", "Page not found"),
         "nf_meta_desc": nf.get("meta_desc", ""),
         "nf_h1": nf.get("h1", "Page not found"),
@@ -954,7 +1011,7 @@ def main() -> None:
 
     build_sitemap(site_url, languages, sitemap_products, sitemap_articles)
     build_robots(site_url)
-    build_404(site_url, default_lang, load_i18n(default_lang))
+    build_404(site_url, default_lang, load_i18n(default_lang), languages)
     build_root_index(site_url, languages, default_lang)
 
     print("[build] done")
