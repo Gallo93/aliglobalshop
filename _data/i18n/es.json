@@ -1,0 +1,318 @@
+{
+  "_meta": {
+    "lang": "es",
+    "currency": "EUR",
+    "currency_symbol": "&euro;",
+    "ship_country": "Espa&ntilde;a",
+    "locale_name": "Espa&ntilde;ol"
+  },
+  "ui": {
+    "skip_to_content": "Ir al contenido",
+    "aria_primary": "Principal",
+    "aria_open_menu": "Abrir men&uacute;",
+    "aria_breadcrumb": "Ruta de navegaci&oacute;n",
+    "aria_cookie_consent": "Consentimiento de cookies",
+    "aria_why_trust": "Por qu&eacute; confiar en nosotros",
+    "aria_buyer_protections": "Protecciones del comprador",
+    "aria_price_history_chart": "Gr&aacute;fico del historial de precios",
+    "nav_electronics": "Electr&oacute;nica",
+    "nav_smart_home": "Hogar Inteligente",
+    "nav_sport": "Deporte",
+    "nav_gadgets": "Gadgets",
+    "nav_flash_sale": "Ofertas Flash",
+    "nav_top_discounts": "Mejores Descuentos",
+    "nav_blog": "Blog",
+    "footer_shop": "Tienda",
+    "footer_save": "Ahorra",
+    "footer_info": "Info",
+    "footer_about": "Qui&eacute;nes somos",
+    "footer_contact": "Contacto",
+    "footer_privacy": "Privacidad",
+    "footer_tagline": "Un agregador de ofertas de AliExpress financiado por los lectores. Ganamos una peque&ntilde;a comisi&oacute;n cuando compras, sin coste adicional para ti.",
+    "footer_copyright": "Aviso de afiliaci&oacute;n: ganamos comisiones por las compras elegibles en AliExpress.",
+    "cookie_text": "Usamos cookies para mejorar tu experiencia.",
+    "cookie_learn_more": "M&aacute;s informaci&oacute;n",
+    "cookie_accept": "Aceptar",
+    "cookie_decline": "Rechazar",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_blog": "Blog",
+    "card_rating": "Valoraci&oacute;n",
+    "card_reviews": "rese&ntilde;as",
+    "card_see_deal": "Ver oferta →",
+    "card_ends_in": "Termina en",
+    "card_grab_it": "Comprar ahora →",
+    "card_off": "DESCUENTO",
+    "card_get_deal": "Aprovechar la oferta →",
+    "no_flash_deals": "No hay ofertas flash en este momento.",
+    "no_articles_home": "A&uacute;n no hay art&iacute;culos, vuelve pronto.",
+    "no_articles": "A&uacute;n no hay art&iacute;culos.",
+    "no_coupons": "No hay cupones activos en este momento."
+  },
+  "home": {
+    "title": "Las mejores ofertas, cupones y ofertas flash de AliExpress",
+    "og_title": "Las mejores ofertas de AliExpress",
+    "ticker_updated": "Ofertas actualizadas cada 6 horas",
+    "ticker_handpicked": "Seleccionadas a mano, sin basura de dropshipping",
+    "ticker_flash": "Ofertas flash: stock limitado, terminan pronto",
+    "ticker_stack": "Acumula los cupones sobre precios ya rebajados",
+    "ticker_shipping": "Env&iacute;o gratis a m&aacute;s de 100 pa&iacute;ses",
+    "hero_badge": "Actualizado a diario",
+    "hero_title_pre": "Compras que <br>cobran ",
+    "hero_title_em": "vida.",
+    "hero_sub": "AliGlobalShop selecciona m&aacute;s de 40.000 productos de AliExpress cada semana. Cada categor&iacute;a tiene su propio ambiente.",
+    "hero_cta_flash": "Ver las ofertas flash de hoy",
+    "hero_cta_browse": "Explorar productos &#8594;",
+    "hero_stat_categories": "Categor&iacute;as",
+    "hero_stat_daily_strong": "A diario",
+    "hero_stat_daily": "Actualizado auto",
+    "hero_stat_free_strong": "Gratis",
+    "hero_stat_free": "Sin registro",
+    "hero_stat_cashback": "Cashback verificado",
+    "section_shop_by_category": "Compra por categor&iacute;a",
+    "cat_electronics_sub": "Tel&eacute;fonos y audio",
+    "cat_smart_home_sub": "Luces &middot; enchufes &middot; IoT",
+    "cat_sport_sub": "Fitness y aire libre",
+    "cat_gadgets_sub": "Gadgets de escritorio",
+    "section_flash_ending": "Ofertas flash, terminando pronto",
+    "see_all_flash": "Ver todas las ofertas flash &#8594;",
+    "section_from_blog": "Del blog",
+    "all_articles": "Todos los art&iacute;culos &#8594;",
+    "trust_secure_title": "Pago seguro",
+    "trust_secure_body": "Todas las compras se realizan en AliExpress mediante HTTPS. Nunca tocamos tu tarjeta.",
+    "trust_handpicked_title": "Ofertas seleccionadas a mano",
+    "trust_handpicked_body": "Cada producto es verificado por la redacci&oacute;n. Sin rebrands de dropshipping.",
+    "trust_bestprice_title": "Garant&iacute;a del mejor precio",
+    "trust_bestprice_body": "Seguimos el historial de precios de 90 d&iacute;as y solo publicamos rebajas reales.",
+    "trust_ships_title": "Env&iacute;o mundial",
+    "trust_ships_body": "Env&iacute;o gratis a m&aacute;s de 100 pa&iacute;ses desde los almacenes de AliExpress."
+  },
+  "category": {
+    "title": "Ofertas de {category_name} en AliExpress | {site_title}",
+    "meta_desc": "Las mejores ofertas de {category_name} en AliExpress, seleccionadas a mano y actualizadas a diario. Precios, valoraciones y cupones verificados.",
+    "og_title": "Ofertas de {category_name} en AliExpress",
+    "og_desc": "Las mejores ofertas de {category_name} en AliExpress, seleccionadas a mano y actualizadas a diario.",
+    "lede_updated": "Actualizado",
+    "lede_products": "productos",
+    "related_title": "Mejores ofertas de {category_name} ahora",
+    "related_browse": "Explorar todas las ofertas de {category_name} →"
+  },
+  "product": {
+    "orders": "Pedidos",
+    "rating": "Valoraci&oacute;n",
+    "reviews": "rese&ntilde;as",
+    "ships_to": "Env&iacute;o a {ship_country}",
+    "ships_days": "d&iacute;as",
+    "free_shipping": "Env&iacute;o gratis",
+    "cta": "Consigue esta oferta en AliExpress &#8594;",
+    "affiliate_note": "Enlace de afiliado: podemos ganar una peque&ntilde;a comisi&oacute;n sin coste adicional para ti.",
+    "badge_buyer_protection": "Protecci&oacute;n al comprador",
+    "badge_free_returns": "Devoluciones gratis",
+    "badge_secure_payment": "Pago seguro",
+    "badge_verified_seller": "Vendedor verificado",
+    "price_history": "Historial de precios",
+    "price_drop_title": "Recibe avisos de bajadas de precio",
+    "form_email_label": "Email",
+    "form_email_placeholder": "tu@ejemplo.com",
+    "form_target_label": "Precio objetivo ({currency})",
+    "form_target_placeholder": "Precio objetivo",
+    "form_consent": "Acepto la <a href=\"{site_url}/{lang}/privacy/\">Pol&iacute;tica de Privacidad</a> y recibir un email sobre la bajada de precio de este producto.",
+    "form_submit": "Av&iacute;same",
+    "faq_title": "Preguntas frecuentes",
+    "faq_q1": "&iquest;Este precio es el descuento real?",
+    "faq_a1": "S&iacute;. Comprobamos el precio frente al anuncio p&uacute;blico de AliExpress cada d&iacute;a y guardamos el historial m&aacute;s arriba.",
+    "faq_q2": "&iquest;Cu&aacute;nto tarda el env&iacute;o?",
+    "faq_a2": "La mayor&iacute;a de los productos se env&iacute;an en 7&#8211;25 d&iacute;as seg&uacute;n el almac&eacute;n. Las opciones m&aacute;s r&aacute;pidas se indican en la p&aacute;gina de AliExpress.",
+    "faq_q3": "&iquest;Se admiten devoluciones?",
+    "faq_a3": "La Protecci&oacute;n al Comprador de AliExpress cubre las devoluciones dentro del periodo de protecci&oacute;n. Consulta siempre la pol&iacute;tica de devoluci&oacute;n del vendedor antes de comprar.",
+    "related_products": "Productos relacionados",
+    "meta_only": "solo",
+    "meta_on_aliexpress": "en AliExpress"
+  },
+  "blog_index": {
+    "title": "Blog: gu&iacute;as de compra y ofertas de AliExpress | {site_title}",
+    "meta_desc": "Gu&iacute;as de compra de AliExpress, rese&ntilde;as de productos y ofertas seleccionadas. Encuentra los mejores productos a los precios m&aacute;s bajos, actualizadas a diario.",
+    "h1": "Gu&iacute;as de compra y ofertas de AliExpress",
+    "lede": "Rese&ntilde;as de expertos, gu&iacute;as de compra y las mejores ofertas en AliExpress, actualizadas cada d&iacute;a.",
+    "archive_title": "Archivo",
+    "article_singular": "art&iacute;culo",
+    "article_plural": "art&iacute;culos"
+  },
+  "blog_post": {
+    "min_read": "min de lectura",
+    "ai_note": "Contenido asistido por IA",
+    "ai_disclosure": "Este art&iacute;culo se ha escrito con la asistencia de IA. Todas las recomendaciones de productos se basan en datos de AliExpress disponibles p&uacute;blicamente.",
+    "affiliate_disclosure": "Algunos enlaces son enlaces de afiliado; podemos ganar una comisi&oacute;n sin coste adicional para ti.",
+    "related_articles": "Art&iacute;culos relacionados"
+  },
+  "flash": {
+    "title": "Ofertas Flash: ofertas de AliExpress por tiempo limitado | {site_title}",
+    "meta_desc": "Ofertas flash de AliExpress en directo con temporizadores de cuenta atr&aacute;s. Date prisa, estas ofertas terminan pronto.",
+    "og_title": "Ofertas Flash: ofertas de AliExpress por tiempo limitado",
+    "og_desc": "Ofertas flash de AliExpress en directo con temporizadores de cuenta atr&aacute;s.",
+    "h1": "Ofertas Flash",
+    "lede_updated": "Actualizado",
+    "lede_deals": "ofertas activas ahora",
+    "intro_html": "<p>Las ofertas flash de AliExpress ofrecen descuentos enormes en productos populares, pero solo durante un tiempo limitado. Cada oferta de esta p&aacute;gina incluye un temporizador de cuenta atr&aacute;s en directo, as&iacute; sabes exactamente cu&aacute;nto tiempo se mantiene el precio. Nuestra lista se actualiza autom&aacute;ticamente e incluye solo art&iacute;culos con un descuento verificado del 30% o m&aacute;s, una valoraci&oacute;n m&iacute;nima de 4 estrellas y un volumen de ventas comprobado. Guarda esta p&aacute;gina en favoritos o vuelve cada d&iacute;a para cazar las mejores rebajas antes de que caduquen.</p>",
+    "guide_h2_1": "C&oacute;mo funcionan las ofertas flash de AliExpress",
+    "guide_p1": "Los precios de las ofertas flash se fijan para una ventana de tiempo predefinida, normalmente de 24 a 72 horas. Cuando el temporizador llega a cero, el producto vuelve a su precio normal. El descuento se aplica autom&aacute;ticamente al finalizar la compra, sin necesidad de c&oacute;digos de cupones. Algunos art&iacute;culos se agotan antes de que termine el temporizador si la demanda es alta, as&iacute; que actuar en las primeras horas aumenta tus posibilidades.",
+    "guide_p2": "Combina los precios de las ofertas flash con los cupones de plataforma de AliExpress que se obtienen en la app para ahorrar a&uacute;n m&aacute;s. Un cupón de plataforma de 5&euro; acumulado sobre un descuento flash del 40% puede dejar el precio efectivo muy por debajo de cualquier otra oferta en internet.",
+    "guide_h2_2": "Ofertas flash: preguntas frecuentes",
+    "faqs": [
+      [
+        "&iquest;Los precios de las ofertas flash incluyen el env&iacute;o gratis?",
+        "La mayor&iacute;a de los art&iacute;culos en oferta flash ofrecen env&iacute;o est&aacute;ndar gratuito (10-20 d&iacute;as). El Env&iacute;o Est&aacute;ndar de AliExpress (7-15 d&iacute;as) est&aacute; incluido en muchas ofertas. Las opciones expr&eacute;s suelen estar disponibles con un coste adicional indicado en la p&aacute;gina del producto."
+      ],
+      [
+        "&iquest;Puedo devolver un art&iacute;culo en oferta flash?",
+        "S&iacute;. La Protecci&oacute;n al Comprador de AliExpress se aplica a todas las compras, independientemente de si el art&iacute;culo estaba en oferta. Abre una disputa dentro de los 15 d&iacute;as posteriores a la entrega si el art&iacute;culo no coincide con la descripci&oacute;n o llega da&ntilde;ado."
+      ],
+      [
+        "&iquest;Con qu&eacute; frecuencia se actualizan las ofertas flash?",
+        "Esta p&aacute;gina se actualiza cada d&iacute;a. El propio AliExpress rota continuamente el inventario de ofertas flash, as&iacute; que volver a lo largo del d&iacute;a puede revelar nuevas ofertas que no estaban disponibles en tu &uacute;ltima visita."
+      ]
+    ]
+  },
+  "coupons": {
+    "title": "Mejores Descuentos: 50%+ de descuento en AliExpress | {site_title}",
+    "meta_desc": "Los mejores descuentos en AliExpress: productos con 50%+ de descuento, seleccionados cada d&iacute;a. Ofertas exclusivas aplicadas autom&aacute;ticamente al finalizar la compra.",
+    "og_title": "Mejores Descuentos: 50%+ de descuento en AliExpress",
+    "og_desc": "Descuentos exclusivos aplicados autom&aacute;ticamente al finalizar la compra. Las mejores rebajas de AliExpress, actualizadas a diario.",
+    "h1": "🏷️ C&oacute;digos de cupones y mejores descuentos de AliExpress",
+    "lede": "Descuentos aplicados autom&aacute;ticamente al finalizar la compra",
+    "lede_updated": "Actualizado",
+    "lede_deals": "ofertas activas",
+    "intro_html": "<p>Cada producto que aparece aqu&iacute; se ha rebajado un 50% o m&aacute;s respecto a su precio original, con el descuento aplicado autom&aacute;ticamente cuando llegas a la pantalla de pago, sin ning&uacute;n c&oacute;digo. Nuestra selecci&oacute;n se elabora a partir de los SuperDeals y los anuncios con grandes descuentos de AliExpress, verificados a mano para garantizar valoraciones fiables del vendedor y reducciones de precio reales. La lista se actualiza cada d&iacute;a, as&iacute; que los ahorros que ves est&aacute;n siempre vigentes, nunca promociones caducadas de hace semanas.</p>",
+    "guide_h2_1": "C&oacute;mo funcionan los descuentos de AliExpress",
+    "guide_p1": "AliExpress ofrece varios tipos de ahorro: cupones del vendedor (aplicados por tienda), cupones de plataforma (obtenidos en la app y v&aacute;lidos en toda la tienda) y SuperDeals (descuentos profundos permanentes que no caducan). Los productos de esta p&aacute;gina presentan sobre todo SuperDeals y anuncios con grandes descuentos, donde el precio reducido es el precio de venta est&aacute;ndar, no una promoci&oacute;n flash de corta duraci&oacute;n.",
+    "guide_p2": "Para maximizar el ahorro, obt&eacute;n los cupones de plataforma gratuitos en la app de AliExpress antes de pagar. Un cup&oacute;n de plataforma de 3-5&euro; acumulado sobre un producto ya rebajado puede ahorrarte m&aacute;s que comprar un art&iacute;culo en oferta flash sin cup&oacute;n.",
+    "guide_h2_2": "Descuentos de AliExpress: preguntas frecuentes",
+    "faqs": [
+      [
+        "&iquest;Necesito un c&oacute;digo de cup&oacute;n para estos descuentos?",
+        "No. Todos los descuentos que se muestran en esta p&aacute;gina se aplican autom&aacute;ticamente al finalizar la compra. El precio reducido ya est&aacute; activo en la p&aacute;gina del producto, as&iacute; que al hacer clic en nuestro enlace llegas directamente al anuncio con descuento."
+      ],
+      [
+        "&iquest;Estos descuentos est&aacute;n disponibles en todos los pa&iacute;ses?",
+        "La mayor&iacute;a de los descuentos de AliExpress son globales, pero los precios pueden variar ligeramente por regi&oacute;n debido a la conversi&oacute;n de divisas y a las promociones locales. Los costes de env&iacute;o y la disponibilidad dependen de tu pa&iacute;s de entrega."
+      ],
+      [
+        "&iquest;C&oacute;mo encuentro a&uacute;n m&aacute;s descuentos en AliExpress?",
+        "Consulta cada d&iacute;a la app de AliExpress para ver los cupones de plataforma gratuitos en la secci&oacute;n Cupones. Los cupones para nuevos usuarios ofrecen hasta 24&euro; de descuento en los primeros pedidos. Los cupones del vendedor aparecen en las p&aacute;ginas de cada tienda y se pueden acumular con los descuentos existentes."
+      ]
+    ]
+  },
+  "notfound": {
+    "title": "P&aacute;gina no encontrada",
+    "meta_desc": "La p&aacute;gina que buscabas no existe o se ha movido.",
+    "h1": "P&aacute;gina no encontrada",
+    "body": "Lo sentimos, la p&aacute;gina que buscabas no existe o se ha movido. Puede que la oferta haya caducado o que el enlace est&eacute; roto.",
+    "back_home": "Volver al inicio &#8594;",
+    "browse_categories": "Explora las categor&iacute;as"
+  },
+  "category_names": {
+    "electronics": "Electr&oacute;nica",
+    "smart-home": "Hogar Inteligente",
+    "sport": "Deporte",
+    "gadgets": "Gadgets"
+  },
+  "months": {
+    "01": "Enero",
+    "02": "Febrero",
+    "03": "Marzo",
+    "04": "Abril",
+    "05": "Mayo",
+    "06": "Junio",
+    "07": "Julio",
+    "08": "Agosto",
+    "09": "Septiembre",
+    "10": "Octubre",
+    "11": "Noviembre",
+    "12": "Diciembre"
+  },
+  "category_seo": {
+    "electronics": {
+      "h1": "Las mejores ofertas de electr&oacute;nica en AliExpress",
+      "intro": "<p>Desde auriculares inal&aacute;mbricos y altavoces Bluetooth hasta tiras de luces LED y bater&iacute;as externas de carga r&aacute;pida, nuestra secci&oacute;n de Electr&oacute;nica te trae los gadgets mejor valorados de AliExpress, seleccionados a mano y actualizados cada d&iacute;a. Cada producto se punt&uacute;a seg&uacute;n el volumen de ventas, el porcentaje de descuento y las valoraciones de los compradores, as&iacute; siempre ves primero la mejor relaci&oacute;n calidad-precio. Los precios se actualizan cada 24 horas y todos los art&iacute;culos incluyen env&iacute;o internacional con la Protecci&oacute;n al Comprador de AliExpress.</p>",
+      "guide_h2": "C&oacute;mo elegir la mejor electr&oacute;nica en AliExpress",
+      "guide_body": "<p>Ordena primero por descuento para detectar las ofertas en las que el precio original se ha recortado un 30% o m&aacute;s. Comprueba la valoraci&oacute;n del vendedor: cualquier valoraci&oacute;n positiva superior al 97% es un indicador fiable de calidad. Para la electr&oacute;nica, prioriza los art&iacute;culos con al menos 500 rese&ntilde;as, porque una base amplia de rese&ntilde;as significa pruebas reales por parte de compradores de tu pa&iacute;s.</p><p>Presta atenci&oacute;n a los detalles de compatibilidad. Verifica que los cargadores indiquen una entrada de 100-240 V (voltaje universal) y que los dispositivos inal&aacute;mbricos especifiquen la versi&oacute;n de Bluetooth. Los art&iacute;culos con tablas t&eacute;cnicas detalladas y fotos reales de los compradores en las rese&ntilde;as suelen valer el minuto extra de investigaci&oacute;n antes de comprar.</p>",
+      "faq_h2": "Electr&oacute;nica en AliExpress: preguntas frecuentes",
+      "faqs": [
+        [
+          "&iquest;Es fiable la electr&oacute;nica de AliExpress?",
+          "La calidad var&iacute;a seg&uacute;n el vendedor. Apuesta por tiendas con valoraciones positivas del 97%+ y al menos 1.000 pedidos. La mayor&iacute;a de la electr&oacute;nica mejor posicionada incluye una garant&iacute;a de 12 meses y la Protecci&oacute;n al Comprador que cubre las devoluciones si el art&iacute;culo no coincide con la descripci&oacute;n."
+        ],
+        [
+          "&iquest;Cu&aacute;nto tarda el env&iacute;o de la electr&oacute;nica?",
+          "El env&iacute;o est&aacute;ndar desde China tarda de 10 a 25 d&iacute;as a la mayor&iacute;a de los pa&iacute;ses. Muchos vendedores ofrecen el Env&iacute;o Est&aacute;ndar de AliExpress en 7-15 d&iacute;as. Los plazos de entrega han mejorado mucho para los compradores de EE. UU., Reino Unido y la UE en 2025-2026."
+        ],
+        [
+          "&iquest;Puedo devolver la electr&oacute;nica comprada en AliExpress?",
+          "S&iacute;. La Protecci&oacute;n al Comprador de AliExpress cubre las disputas hasta 15 d&iacute;as despu&eacute;s de la entrega. Abre una disputa en la app si el art&iacute;culo llega da&ntilde;ado o no coincide con la descripci&oacute;n, y AliExpress mediar&aacute; un reembolso o una sustituci&oacute;n."
+        ]
+      ]
+    },
+    "smart-home": {
+      "h1": "Las mejores ofertas para el hogar inteligente en AliExpress",
+      "intro": "<p>Automatiza tu hogar sin el precio premium. Nuestra secci&oacute;n de Hogar Inteligente abarca enchufes Wi-Fi, bombillas LED inteligentes, robots aspiradores, c&aacute;maras de seguridad para interiores y sensores Zigbee, todos procedentes de los vendedores mejor valorados de AliExpress y actualizados cada d&iacute;a. Tanto si tienes una configuraci&oacute;n de Google Home, Amazon Alexa o Apple HomeKit, aqu&iacute; encontrar&aacute;s dispositivos compatibles a una fracci&oacute;n del precio de tienda. Cada producto incluye valoraciones verificadas y precios actuales actualizados cada 24 horas.</p>",
+      "guide_h2": "C&oacute;mo construir un hogar inteligente con dispositivos de AliExpress",
+      "guide_body": "<p>Empieza con un enchufe inteligente o una bombilla Wi-Fi: ambos cuestan menos de 10&euro; y funcionan con todos los principales asistentes de voz. Una vez que te familiarices con la app, ampl&iacute;a hacia sensores y c&aacute;maras. Los dispositivos Zigbee requieren un hub (a menudo de 15-25&euro;) pero ofrecen mejor duraci&oacute;n de bater&iacute;a y procesamiento local que las alternativas solo Wi-Fi para configuraciones m&aacute;s grandes.</p><p>Comprueba siempre el nombre de la app en la descripci&oacute;n del producto. La mayor&iacute;a de los dispositivos de hogar inteligente de AliExpress usan la app Tuya Smart o Smart Life, que se integra con Alexa, Google Home y Apple Home mediante puentes de terceros. Evita los productos que no indiquen ning&uacute;n nombre de app en las especificaciones.</p>",
+      "faq_h2": "Hogar inteligente en AliExpress: preguntas frecuentes",
+      "faqs": [
+        [
+          "&iquest;Los dispositivos de hogar inteligente de AliExpress funcionan con Alexa y Google Home?",
+          "La mayor&iacute;a s&iacute;, a trav&eacute;s de la plataforma Tuya Smart. Busca &#39;Works with Alexa&#39; o &#39;Google Home compatible&#39; en el t&iacute;tulo o la descripci&oacute;n del producto. La configuraci&oacute;n suele tardar menos de 5 minutos una vez emparejado el dispositivo con la app Tuya Smart."
+        ],
+        [
+          "&iquest;Son seguros los dispositivos inteligentes de AliExpress en mi red Wi-Fi?",
+          "Col&oacute;calos en una red Wi-Fi de IoT dedicada para aislarlos de tus dispositivos principales, ya que la mayor&iacute;a de los routers modernos lo permiten. Los vendedores fiables usan el firmware est&aacute;ndar de Tuya con actualizaciones de seguridad peri&oacute;dicas."
+        ],
+        [
+          "&iquest;Qu&eacute; hub de hogar inteligente funciona mejor con los dispositivos Zigbee de AliExpress?",
+          "El Sonoff Zigbee 3.0 USB Dongle Plus, disponible tambi&eacute;n en AliExpress, es un hub econ&oacute;mico muy popular y compatible con Home Assistant. Para los dispositivos Wi-Fi no hace falta ning&uacute;n hub."
+        ]
+      ]
+    },
+    "sport": {
+      "h1": "Las mejores ofertas de deporte y fitness en AliExpress",
+      "intro": "<p>Equipa tus entrenamientos sin gastar de m&aacute;s. Nuestra secci&oacute;n de Deporte presenta bandas el&aacute;sticas, esterillas de yoga antideslizantes, accesorios de ciclismo, botellas t&eacute;rmicas y combas de los vendedores mejor valorados de AliExpress, ordenados por volumen de ventas, descuento y satisfacci&oacute;n de los compradores. Todos los art&iacute;culos se env&iacute;an a nivel internacional y est&aacute;n cubiertos por la Protecci&oacute;n al Comprador de AliExpress. La lista de productos se actualiza cada 24 horas, as&iacute; que los precios y la disponibilidad que ves est&aacute;n siempre vigentes.</p>",
+      "guide_h2": "C&oacute;mo comprar material deportivo en AliExpress",
+      "guide_body": "<p>Para las bandas el&aacute;sticas y las esterillas de yoga, comprueba las especificaciones del material: las bandas de l&aacute;tex natural duran mucho m&aacute;s que las alternativas de TPE. Las esterillas de yoga deber&iacute;an indicar el grosor (6 mm o m&aacute;s es lo ideal) y la textura de la superficie. Las fotos del vendedor que muestran el uso real y los primeros planos del material son una buena se&ntilde;al de un anuncio fiable.</p><p>El material de ciclismo y los cascos requieren especial atenci&oacute;n a las tallas. La mayor&iacute;a de los anuncios de AliExpress incluyen tablas de tallas detalladas, as&iacute; que mide el contorno de tu cabeza antes de pedir. Para art&iacute;culos cr&iacute;ticos de seguridad como los cascos, verifica que el anuncio cite la certificaci&oacute;n CE o CPSC en la descripci&oacute;n del producto.</p>",
+      "faq_h2": "Deporte y fitness en AliExpress: preguntas frecuentes",
+      "faqs": [
+        [
+          "&iquest;Merece la pena comprar las bandas el&aacute;sticas de AliExpress?",
+          "S&iacute;, sobre todo para los entrenamientos en casa. Las bandas de los mejores vendedores con valoraciones de 4,5+ y 1.000+ pedidos son resistentes y aguantan la comparaci&oacute;n con las alternativas de marca de gimnasio a un precio 3-5 veces superior. Busca el material de l&aacute;tex natural y un set con varios niveles de resistencia."
+        ],
+        [
+          "&iquest;Puedo fiarme de las valoraciones de seguridad de los cascos en AliExpress?",
+          "Verifica la certificaci&oacute;n CE EN1078 (UE) o CPSC (EE. UU.) citada en la descripci&oacute;n del producto. Los anuncios con logos de certificaci&oacute;n oficiales y fotos de los informes de pruebas suelen ser fiables. Evita los cascos sin informaci&oacute;n de certificaci&oacute;n."
+        ],
+        [
+          "&iquest;Cu&aacute;l es la pol&iacute;tica de devoluci&oacute;n del material deportivo en AliExpress?",
+          "La Protecci&oacute;n al Comprador de AliExpress cubre los art&iacute;culos que llegan da&ntilde;ados o no coinciden con la descripci&oacute;n dentro de los 15 d&iacute;as posteriores a la entrega. Fotograf&iacute;a todo al abrir el paquete para tener pruebas en caso de disputa, sobre todo para los art&iacute;culos m&aacute;s grandes."
+        ]
+      ]
+    },
+    "gadgets": {
+      "h1": "Las mejores ofertas de gadgets y tecnolog&iacute;a en AliExpress",
+      "intro": "<p>Descubre los accesorios tecnol&oacute;gicos m&aacute;s recientes y los imprescindibles del d&iacute;a a d&iacute;a a precios imbatibles. Nuestra secci&oacute;n de Gadgets presenta bater&iacute;as externas de alta capacidad, hubs USB multipuerto, soportes magn&eacute;ticos para el m&oacute;vil, mini proyectores y bases de carga inal&aacute;mbrica, procedentes de vendedores verificados de AliExpress y actualizados cada d&iacute;a. Cada producto se ordena seg&uacute;n las valoraciones reales de los compradores y el volumen de ventas, as&iacute; las opciones m&aacute;s populares aparecen primero. Todos los art&iacute;culos incluyen la Protecci&oacute;n al Comprador de AliExpress y env&iacute;o internacional.</p>",
+      "guide_h2": "C&oacute;mo encontrar los mejores gadgets en AliExpress",
+      "guide_body": "<p>Para las bater&iacute;as externas, comprueba la capacidad real en vatios-hora (Wh) en lugar de fijarte solo en el dato de miliamperios-hora (mAh), ya que la conversi&oacute;n de voltaje hace que una bater&iacute;a de 20.000 mAh a 3,7 V entregue unos 74 Wh. El soporte de carga r&aacute;pida (18W, 20W o 33W) vale unos euros m&aacute;s por recargas mucho m&aacute;s r&aacute;pidas.</p><p>Los hubs USB y los cargadores multipuerto deber&iacute;an indicar la potencia de cada puerto individual. Un hub que anuncia 100W compartidos entre 4 puertos podr&iacute;a entregar solo 18W por puerto. Consulta la tabla t&eacute;cnica detallada o la secci&oacute;n de preguntas y respuestas verificadas para conocer los valores reales de entrega antes de comprar.</p>",
+      "faq_h2": "Gadgets en AliExpress: preguntas frecuentes",
+      "faqs": [
+        [
+          "&iquest;Se permiten en el avi&oacute;n las bater&iacute;as externas de AliExpress?",
+          "La mayor&iacute;a de las aerol&iacute;neas permiten bater&iacute;as externas de hasta 100 Wh en el equipaje de mano sin autorizaci&oacute;n. Una bater&iacute;a de 20.000 mAh a 3,7 V es de unos 74 Wh, dentro del l&iacute;mite est&aacute;ndar. Consulta siempre la pol&iacute;tica de tu aerol&iacute;nea antes de viajar."
+        ],
+        [
+          "&iquest;Los gadgets de AliExpress tienen garant&iacute;a?",
+          "La mayor&iacute;a de los vendedores mejor valorados ofrecen una garant&iacute;a de 12 meses y responden a las incidencias posventa a trav&eacute;s del sistema de mensajer&iacute;a de AliExpress. La Protecci&oacute;n al Comprador proporciona una red de seguridad adicional durante los primeros 15 d&iacute;as tras la entrega."
+        ],
+        [
+          "&iquest;Qu&eacute; gadgets USB-C son compatibles con el iPhone 15 y posteriores?",
+          "Todos los modelos iPhone 15 y posteriores usan USB-C, as&iacute; que cualquier hub, cargador o cable USB-C de AliExpress ser&aacute; f&iacute;sicamente compatible. Para la carga r&aacute;pida, busca el soporte USB Power Delivery (PD) con al menos 20W de entrega."
+        ]
+      ]
+    }
+  }
+}
