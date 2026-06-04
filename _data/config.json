@@ -1,6 +1,6 @@
 {
   "site_url": "https://aliglobalshop.net",
-  "languages": ["en", "it", "es"],
+  "languages": ["en", "it", "es", "de"],
   "niches": ["electronics", "smart-home", "sport", "gadgets"],
   "default_language": "en",
   "currency": "USD",
