@@ -46,18 +46,7 @@ jobs:
           pip install argostranslate
           for lang in $langs; do
             echo "$lang active: installing argos en->$lang package"
-            LANG_CODE="$lang" python - <<'PY'
-import os
-import argostranslate.package as pkg
-lang = os.environ["LANG_CODE"]
-pkg.update_package_index()
-available = pkg.get_available_packages()
-match = next((p for p in available if p.from_code == "en" and p.to_code == lang), None)
-if match is None:
-    raise SystemExit(f"en->{lang} argos package not found in index")
-pkg.install_from_path(match.download())
-print(f"installed en->{lang} argos package")
-PY
+            python _scripts/ci_install_argos.py --lang "$lang"
             python _scripts/translate_content.py --lang "$lang"
           done
 
