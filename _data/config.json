@@ -1,12 +1,13 @@
 {
   "site_url": "https://aliglobalshop.net",
-  "languages": ["en", "it"],
+  "languages": ["en", "it", "es"],
   "niches": ["electronics", "smart-home", "sport", "gadgets"],
   "default_language": "en",
   "currency": "USD",
   "currencies": {
     "en": "USD",
-    "it": "EUR"
+    "it": "EUR",
+    "es": "EUR"
   },
   "fx_rates": {
     "EUR": 0.92
