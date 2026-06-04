@@ -28,25 +28,19 @@ jobs:
           CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
           CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
         run: python _scripts/fetch_products.py
-      - name: Translate content to IT
+      - name: Translate content to active languages
         run: |
-          if jq -e '.languages | index("it")' _data/config.json > /dev/null; then
-            echo "IT active: installing argostranslate + en_it package"
-            pip install argostranslate
-            python - <<'PY'
-import argostranslate.package as pkg
-pkg.update_package_index()
-available = pkg.get_available_packages()
-match = next((p for p in available if p.from_code == "en" and p.to_code == "it"), None)
-if match is None:
-    raise SystemExit("en->it argos package not found in index")
-pkg.install_from_path(match.download())
-print("installed en->it argos package")
-PY
-            python _scripts/translate_content.py --lang it
-          else
-            echo "IT not active in config.languages, skipping translation"
+          langs=$(jq -r '.languages[] | select(. != "en")' _data/config.json)
+          if [ -z "$langs" ]; then
+            echo "No non-en languages active in config.languages, skipping translation"
+            exit 0
           fi
+          pip install argostranslate
+          for lang in $langs; do
+            echo "$lang active: installing argos en->$lang package"
+            python _scripts/ci_install_argos.py --lang "$lang"
+            python _scripts/translate_content.py --lang "$lang"
+          done
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
