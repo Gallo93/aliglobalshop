@@ -139,7 +139,7 @@ def _extract_price_ceiling(text: str):
 
 
 def category_name(T: dict, slug: str) -> str:
-    return T.get("category_names", {}).get(slug, slug.replace("-", " ").title())
+    return T.get("category_names", {}).get(slug, slug.title())
 
 
 def currency_symbol(T: dict) -> str:
