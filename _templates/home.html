@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{lang}}">
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
@@ -7,36 +7,35 @@
   <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
   <link rel="manifest" href="{{site_url}}/site.webmanifest">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{site_title}}: Best AliExpress Deals, Coupons &amp; Flash Sales</title>
+  <title>{{site_title}}: {{h_title}}</title>
   <meta name="description" content="{{site_description}}">
-  <link rel="canonical" href="{{site_url}}/en/">
-  <link rel="alternate" hreflang="en" href="{{site_url}}/en/">
-  <link rel="alternate" hreflang="x-default" href="{{site_url}}/en/">
+  <link rel="canonical" href="{{site_url}}/{{lang}}/">
+  {{hreflang_alternates}}
   <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
   <link rel="preconnect" href="https://res.cloudinary.com">
-  <meta property="og:title" content="{{site_title}}: Best AliExpress Deals">
+  <meta property="og:title" content="{{site_title}}: {{h_og_title}}">
   <meta property="og:description" content="{{site_description}}">
   <meta property="og:image" content="{{site_url}}/assets/img/og-default.jpg">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{site_url}}/en/">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{site_title}}","url":"{{site_url}}/en/","inLanguage":"en","potentialAction":{"@type":"SearchAction","target":"{{site_url}}/en/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"{{site_title}}","url":"{{site_url}}/en/","logo":"{{site_url}}/assets/img/logo.svg"}</script>
+  <meta property="og:url" content="{{site_url}}/{{lang}}/">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{site_title}}","url":"{{site_url}}/{{lang}}/","inLanguage":"{{lang}}","potentialAction":{"@type":"SearchAction","target":"{{site_url}}/{{lang}}/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"{{site_title}}","url":"{{site_url}}/{{lang}}/","logo":"{{site_url}}/assets/img/logo.svg"}</script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">{{t_skip_to_content}}</a>
   <header class="nav">
     <div class="nav__inner">
-      <a class="nav__logo" href="{{site_url}}/en/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
-      <nav class="nav__links" aria-label="Primary">
-        <a href="{{site_url}}/en/electronics/">&#128241; Electronics</a>
-        <a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a>
-        <a href="{{site_url}}/en/sport/">&#127939; Sport</a>
-        <a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a>
-        <a href="{{site_url}}/en/flash-sale/">&#9889; Flash Sale</a>
-        <a href="{{site_url}}/en/coupons/">&#127991; Top Discounts</a>
-        <a href="{{site_url}}/en/blog/">&#128221; Blog</a>
+      <a class="nav__logo" href="{{site_url}}/{{lang}}/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
+      <nav class="nav__links" aria-label="{{t_aria_primary}}">
+        <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
+        <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
+        <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
+        <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
+        <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
+        <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
+        <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
       </nav>
-      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -44,112 +43,112 @@
 
   <div class="ticker" aria-hidden="true">
     <span class="ticker__inner">
-      <span class="ticker__item">&#128293; Deals updated every 6 hours</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#9989; Hand-picked, no dropshipping garbage</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#9889; Flash sales: limited stock, ends soon</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#127991; Stack coupon codes with already-discounted prices</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#127757; Free shipping to 100+ countries</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#128293; Deals updated every 6 hours</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#9989; Hand-picked, no dropshipping garbage</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#9889; Flash sales: limited stock, ends soon</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#127991; Stack coupon codes with already-discounted prices</span><span class="ticker__sep">&#9670;</span>
-      <span class="ticker__item">&#127757; Free shipping to 100+ countries</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#128293; {{h_ticker_updated}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#9989; {{h_ticker_handpicked}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#9889; {{h_ticker_flash}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#127991; {{h_ticker_stack}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#127757; {{h_ticker_shipping}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#128293; {{h_ticker_updated}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#9989; {{h_ticker_handpicked}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#9889; {{h_ticker_flash}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#127991; {{h_ticker_stack}}</span><span class="ticker__sep">&#9670;</span>
+      <span class="ticker__item">&#127757; {{h_ticker_shipping}}</span><span class="ticker__sep">&#9670;</span>
     </span>
   </div>
 
   <section class="hero">
     <div class="hero__inner">
-      <span class="hero__badge">&#10022; Updated daily</span>
-      <h1 class="hero__title">Shopping that <br>feels <span style="color:var(--orange)">alive.</span></h1>
-      <p class="hero__sub">AliGlobalShop curates 40,000+ AliExpress listings weekly. Every category breathes its own atmosphere.</p>
+      <span class="hero__badge">&#10022; {{h_hero_badge}}</span>
+      <h1 class="hero__title">{{h_hero_title_pre}}<span style="color:var(--orange)">{{h_hero_title_em}}</span></h1>
+      <p class="hero__sub">{{h_hero_sub}}</p>
       <div class="hero__ctas">
-        <a class="btn-cta" href="{{site_url}}/en/flash-sale/">&#9889; See today&#39;s flash deals</a>
-        <a class="btn-cta btn-cta--ghost" href="{{site_url}}/en/electronics/">Browse products &#8594;</a>
+        <a class="btn-cta" href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{h_hero_cta_flash}}</a>
+        <a class="btn-cta btn-cta--ghost" href="{{site_url}}/{{lang}}/electronics/">{{h_hero_cta_browse}}</a>
       </div>
       <div class="hero__stats">
-        <div class="hero__stat"><strong>4</strong><span>Categories</span></div>
-        <div class="hero__stat"><strong>Daily</strong><span>Auto-updated</span></div>
-        <div class="hero__stat"><strong>Free</strong><span>No sign-up</span></div>
-        <div class="hero__stat"><strong>3&#8211;9%</strong><span>Cashback verified</span></div>
+        <div class="hero__stat"><strong>4</strong><span>{{h_hero_stat_categories}}</span></div>
+        <div class="hero__stat"><strong>{{h_hero_stat_daily_strong}}</strong><span>{{h_hero_stat_daily}}</span></div>
+        <div class="hero__stat"><strong>{{h_hero_stat_free_strong}}</strong><span>{{h_hero_stat_free}}</span></div>
+        <div class="hero__stat"><strong>3&#8211;9%</strong><span>{{h_hero_stat_cashback}}</span></div>
       </div>
     </div>
   </section>
 
   <main id="main">
     <section class="section--cats container" aria-labelledby="cats">
-      <h2 id="cats" class="section__title" data-animate>Shop by category</h2>
+      <h2 id="cats" class="section__title" data-animate>{{h_section_shop_by_category}}</h2>
       <div class="grid grid--cats" data-animate>
-        <a class="cat-card cat-card--electronics" href="{{site_url}}/en/electronics/" data-particles="electric">
+        <a class="cat-card cat-card--electronics" href="{{site_url}}/{{lang}}/electronics/" data-particles="electric">
           <span class="cat-card__icon">&#128241;</span>
-          <span class="cat-card__label">Electronics</span>
-          <span class="cat-card__sub">Phones &amp; audio</span>
+          <span class="cat-card__label">{{t_nav_electronics}}</span>
+          <span class="cat-card__sub">{{h_cat_electronics_sub}}</span>
         </a>
-        <a class="cat-card cat-card--smart-home" href="{{site_url}}/en/smart-home/" data-particles="glow">
+        <a class="cat-card cat-card--smart-home" href="{{site_url}}/{{lang}}/smart-home/" data-particles="glow">
           <span class="cat-card__icon">&#127968;</span>
-          <span class="cat-card__label">Smart Home</span>
-          <span class="cat-card__sub">Lights &middot; plugs &middot; IoT</span>
+          <span class="cat-card__label">{{t_nav_smart_home}}</span>
+          <span class="cat-card__sub">{{h_cat_smart_home_sub}}</span>
         </a>
-        <a class="cat-card cat-card--sport" href="{{site_url}}/en/sport/" data-particles="streak">
+        <a class="cat-card cat-card--sport" href="{{site_url}}/{{lang}}/sport/" data-particles="streak">
           <span class="cat-card__icon">&#127939;</span>
-          <span class="cat-card__label">Sport</span>
-          <span class="cat-card__sub">Fitness &amp; outdoors</span>
+          <span class="cat-card__label">{{t_nav_sport}}</span>
+          <span class="cat-card__sub">{{h_cat_sport_sub}}</span>
         </a>
-        <a class="cat-card cat-card--gadgets" href="{{site_url}}/en/gadgets/" data-particles="glitch">
+        <a class="cat-card cat-card--gadgets" href="{{site_url}}/{{lang}}/gadgets/" data-particles="glitch">
           <span class="cat-card__icon">&#127918;</span>
-          <span class="cat-card__label">Gadgets</span>
-          <span class="cat-card__sub">Toys for the desk</span>
+          <span class="cat-card__label">{{t_nav_gadgets}}</span>
+          <span class="cat-card__sub">{{h_cat_gadgets_sub}}</span>
         </a>
       </div>
     </section>
 
     <section class="section--flash" aria-labelledby="flash">
       <div class="container">
-        <h2 id="flash" class="section__title" data-animate>&#9889; Flash Sale, ending soon</h2>
+        <h2 id="flash" class="section__title" data-animate>&#9889; {{h_section_flash_ending}}</h2>
         <div class="grid grid--products" data-animate>
           {{flash_preview_html}}
         </div>
-        <p class="see-more"><a class="btn-cta btn-cta--outline" href="{{site_url}}/en/flash-sale/">See all flash deals &#8594;</a></p>
+        <p class="see-more"><a class="btn-cta btn-cta--outline" href="{{site_url}}/{{lang}}/flash-sale/">{{h_see_all_flash}}</a></p>
       </div>
     </section>
 
     <section class="section--blog" aria-labelledby="blog">
       <div class="container">
-        <h2 id="blog" class="section__title" data-animate>&#128214; From the blog</h2>
+        <h2 id="blog" class="section__title" data-animate>&#128214; {{h_section_from_blog}}</h2>
         <div class="grid grid--posts" data-animate>
           {{blog_preview_html}}
         </div>
-        <p class="see-more"><a class="btn-cta btn-cta--outline" href="{{site_url}}/en/blog/">All articles &#8594;</a></p>
+        <p class="see-more"><a class="btn-cta btn-cta--outline" href="{{site_url}}/{{lang}}/blog/">{{h_all_articles}}</a></p>
       </div>
     </section>
 
-    <section class="section--trust" aria-label="Why trust us">
+    <section class="section--trust" aria-label="{{t_aria_why_trust}}">
       <div class="container trust-strip" data-animate>
         <div class="trust-tile">
           <div class="trust-tile__icon">&#128274;</div>
           <div class="trust-tile__body">
-            <strong>Secure checkout <span class="trust-tile__badge">SSL</span></strong>
-            <p>All purchases happen on AliExpress over HTTPS. We never touch your card.</p>
+            <strong>{{h_trust_secure_title}} <span class="trust-tile__badge">SSL</span></strong>
+            <p>{{h_trust_secure_body}}</p>
           </div>
         </div>
         <div class="trust-tile">
           <div class="trust-tile__icon">&#9989;</div>
           <div class="trust-tile__body">
-            <strong>Hand-picked deals <span class="trust-tile__badge">HUMAN</span></strong>
-            <p>Every listing is vetted by our editors. No dropshipping rebrands.</p>
+            <strong>{{h_trust_handpicked_title}} <span class="trust-tile__badge">HUMAN</span></strong>
+            <p>{{h_trust_handpicked_body}}</p>
           </div>
         </div>
         <div class="trust-tile">
           <div class="trust-tile__icon">&#128184;</div>
           <div class="trust-tile__body">
-            <strong>Best price guarantee <span class="trust-tile__badge">TRACKED</span></strong>
-            <p>We track 90-day price history and only post real markdowns.</p>
+            <strong>{{h_trust_bestprice_title}} <span class="trust-tile__badge">TRACKED</span></strong>
+            <p>{{h_trust_bestprice_body}}</p>
           </div>
         </div>
         <div class="trust-tile">
           <div class="trust-tile__icon">&#127757;</div>
           <div class="trust-tile__body">
-            <strong>Ships worldwide <span class="trust-tile__badge">100+</span></strong>
-            <p>Free shipping in 100+ countries from AliExpress warehouses.</p>
+            <strong>{{h_trust_ships_title}} <span class="trust-tile__badge">100+</span></strong>
+            <p>{{h_trust_ships_body}}</p>
           </div>
         </div>
       </div>
@@ -159,47 +158,47 @@
   <footer class="footer">
     <div class="footer__cols container">
       <div class="footer__brand">
-        <a href="{{site_url}}/en/"><strong>AliGlobal<span>Shop</span></strong></a>
-        <p>A reader-supported deal aggregator for AliExpress. We earn a small commission when you buy, at no extra cost to you.</p>
+        <a href="{{site_url}}/{{lang}}/"><strong>AliGlobal<span>Shop</span></strong></a>
+        <p>{{t_footer_tagline}}</p>
       </div>
       <div class="footer__col">
-        <h4>Shop</h4>
+        <h4>{{t_footer_shop}}</h4>
         <nav>
-          <a href="{{site_url}}/en/electronics/">&#128241; Electronics</a>
-          <a href="{{site_url}}/en/smart-home/">&#127968; Smart Home</a>
-          <a href="{{site_url}}/en/sport/">&#127939; Sport</a>
-          <a href="{{site_url}}/en/gadgets/">&#127918; Gadgets</a>
+          <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
+          <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
+          <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
+          <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
         </nav>
       </div>
       <div class="footer__col">
-        <h4>Save</h4>
+        <h4>{{t_footer_save}}</h4>
         <nav>
-          <a href="{{site_url}}/en/flash-sale/">&#9889; Flash Sale</a>
-          <a href="{{site_url}}/en/coupons/">&#127991; Top Discounts</a>
+          <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
+          <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
         </nav>
       </div>
       <div class="footer__col">
-        <h4>Info</h4>
+        <h4>{{t_footer_info}}</h4>
         <nav>
-          <a href="{{site_url}}/en/blog/">&#128221; Blog</a>
-          <a href="{{site_url}}/en/about/">About</a>
-          <a href="{{site_url}}/en/contact/">Contact</a>
-          <a href="{{site_url}}/en/privacy/">Privacy</a>
+          <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
+          <a href="{{site_url}}/{{lang}}/about/">{{t_footer_about}}</a>
+          <a href="{{site_url}}/{{lang}}/contact/">{{t_footer_contact}}</a>
+          <a href="{{site_url}}/{{lang}}/privacy/">{{t_footer_privacy}}</a>
         </nav>
       </div>
     </div>
     <div class="footer__bottom">
       <div class="container">
-        <p>&copy; {{year}} {{site_title}}. Affiliate disclosure: we earn commissions from qualifying AliExpress purchases.</p>
+        <p>&copy; {{year}} {{site_title}}. {{t_footer_copyright}}</p>
       </div>
     </div>
   </footer>
 
-  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
-    <p>We use cookies to improve your experience. <a href="{{site_url}}/en/privacy/">Learn more</a></p>
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="{{t_aria_cookie_consent}}">
+    <p>{{t_cookie_text}} <a href="{{site_url}}/{{lang}}/privacy/">{{t_cookie_learn_more}}</a></p>
     <div class="cookie-banner__actions">
-      <button id="cookie-accept" class="btn-cta btn--sm">Accept</button>
-      <button id="cookie-decline" class="btn--ghost btn--sm">Decline</button>
+      <button id="cookie-accept" class="btn-cta btn--sm">{{t_cookie_accept}}</button>
+      <button id="cookie-decline" class="btn--ghost btn--sm">{{t_cookie_decline}}</button>
     </div>
   </div>
 

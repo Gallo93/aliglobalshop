@@ -5,19 +5,12 @@
   <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="{{site_url}}/assets/img/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
-  <link rel="manifest" href="{{site_url}}/site.webmanifest">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{title}}</title>
-  <meta name="description" content="{{meta_description}}">
-  <link rel="canonical" href="{{site_url}}/{{lang}}/blog/">
-  {{hreflang_alternates}}
+  <title>{{nf_title}} | {{site_title}}</title>
+  <meta name="description" content="{{nf_meta_desc}}">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{site_url}}/{{lang}}/">
   <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
-  <meta property="og:title" content="{{title}}">
-  <meta property="og:description" content="{{meta_description}}">
-  <meta property="og:image" content="{{site_url}}/assets/img/og-default.jpg">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{site_url}}/{{lang}}/blog/">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"AliGlobalShop Blog","description":"Expert AliExpress buying guides, product reviews and curated deals.","url":"{{site_url}}/{{lang}}/blog/","publisher":{"@type":"Organization","name":"{{site_title}}","logo":{"@type":"ImageObject","url":"{{site_url}}/assets/img/logo.svg"}}}</script>
 </head>
 <body>
   <a class="skip-link" href="#main">{{t_skip_to_content}}</a>
@@ -40,10 +33,18 @@
   </header>
 
   <main class="container" id="main">
-    <h1 class="page__title">{{blog_h1}}</h1>
-    <p class="page__lede">{{blog_lede}}</p>
-    <div class="grid grid--posts">{{articles_html}}</div>
-    {{archive_section_html}}
+    <div class="legal-page">
+      <h1>{{nf_h1}}</h1>
+      <p>{{nf_body}}</p>
+      <p><a class="btn-cta" href="{{site_url}}/{{lang}}/">{{nf_back_home}}</a></p>
+      <h2>{{nf_browse_categories}}</h2>
+      <nav>
+        <p><a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a></p>
+        <p><a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a></p>
+        <p><a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a></p>
+        <p><a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a></p>
+      </nav>
+    </div>
   </main>
 
   <footer class="footer">
@@ -84,16 +85,6 @@
       </div>
     </div>
   </footer>
-
-  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="{{t_aria_cookie_consent}}">
-    <p>{{t_cookie_text}} <a href="{{site_url}}/{{lang}}/privacy/">{{t_cookie_learn_more}}</a></p>
-    <div class="cookie-banner__actions">
-      <button id="cookie-accept" class="btn-cta btn--sm">{{t_cookie_accept}}</button>
-      <button id="cookie-decline" class="btn--ghost btn--sm">{{t_cookie_decline}}</button>
-    </div>
-  </div>
-  <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
-  <script defer src="{{site_url}}/assets/js/particles.js"></script>
   <script defer src="{{site_url}}/assets/js/main.js"></script>
 </body>
 </html>
