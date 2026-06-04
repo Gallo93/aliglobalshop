@@ -16,6 +16,16 @@ using an exchange rate from _data/config.json ("fx_rates": {"EUR": 0.92, ...}),
 overridable per run via the env var FX_RATE_<CUR> (e.g. FX_RATE_EUR). When the
 target currency equals the source currency, prices are copied unchanged.
 
+Why rate conversion and not a second EUR fetch: the AliExpress affiliate API
+does support a target_currency parameter (fetch_products.py already sends
+target_currency=USD), so an EUR fetch is technically possible. We deliberately
+convert the existing USD data instead, because (a) a second fetch would double
+the API calls and Cloudinary uploads, and (b) reusing the same EN JSON keeps
+the IT product set aligned 1:1 with EN (identical product_id / slug), which the
+per-language build relies on. The static rate is a pragmatic default that
+ages over time, so it is intentionally overridable via config.json "fx_rates"
+and the FX_RATE_<CUR> env var and can be refreshed without code changes.
+
 Internal site links inside blog content_html are repointed from /en/ to the
 target language: an href starting with "/en/" or "<site_url>/en/" becomes
 "/<lang>/" / "<site_url>/<lang>/". External links and any href that does not
@@ -58,6 +68,8 @@ _SKIP_TEXT_TAGS = {"script", "style"}
 
 # Fallback exchange rates (1 source-currency unit -> target currency) used only
 # when config.json has no "fx_rates" entry and no FX_RATE_<CUR> env override.
+# Static defaults age over time: prefer config.json "fx_rates" / FX_RATE_<CUR>
+# to keep them current (see module docstring for why conversion over re-fetch).
 _DEFAULT_FX_RATES = {"EUR": 0.92}
 
 
