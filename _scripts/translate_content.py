@@ -2,21 +2,27 @@
 Translate EN content to a target language (default IT) with Argos Translate.
 
 Sources translated:
-  1. _data/products/<lang>/*.json   <- _data/products/en/*.json   (field: title)
+  1. _data/products/<lang>/*.json   <- _data/products/en/*.json
+     (field: title; prices converted to the target-language currency)
      including the _article/*.json sub-folder.
   2. _data/blog/<lang>/*.json        <- _data/blog/en/*.json
      (fields: title, meta_desc / meta_description; content_html translating
       only HTML text nodes, never attributes such as href/src/class).
 
+Prices: products keep their structure but price / original_price /
+price_history[].price are converted from the EN source currency (USD) to the
+target-language currency read from _data/i18n/<lang>.json (_meta.currency),
+using an exchange rate from _data/config.json ("fx_rates": {"EUR": 0.92, ...}),
+overridable per run via the env var FX_RATE_<CUR> (e.g. FX_RATE_EUR). When the
+target currency equals the source currency, prices are copied unchanged.
+
 Internal site links inside blog content_html are repointed from /en/ to the
 target language: an href starting with "/en/" or "<site_url>/en/" becomes
-"/<lang>/" / "<site_url>/<lang>/". Slugs are identical across languages so the
-target path is always guaranteed. External links (e.g. aliexpress.com) and any
-href that does not start with one of those two internal prefixes are left
-untouched. This is a deterministic path-prefix rewrite, not a translation, and
-it is idempotent (a "/it/" link is not matched again).
+"/<lang>/" / "<site_url>/<lang>/". External links and any href that does not
+start with one of those internal prefixes are left untouched. Deterministic,
+idempotent (a "/it/" link is not matched again).
 
-Prices, URLs, slugs, product ids and image URLs are never touched. Slugs stay
+URLs, slugs, product ids and image URLs are never touched. Slugs stay
 identical, so translated files keep the same file names as their EN source.
 
 Idempotent: a per-file source hash is stored in _data/.translate_cache.json.
@@ -34,6 +40,7 @@ import argparse
 import hashlib
 import html
 import json
+import os
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -41,12 +48,17 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "_data"
 CONFIG_PATH = DATA_DIR / "config.json"
+I18N_DIR = DATA_DIR / "i18n"
 CACHE_PATH = DATA_DIR / ".translate_cache.json"
 
 SOURCE_LANG = "en"
 
 # Tags whose text content must never be translated.
 _SKIP_TEXT_TAGS = {"script", "style"}
+
+# Fallback exchange rates (1 source-currency unit -> target currency) used only
+# when config.json has no "fx_rates" entry and no FX_RATE_<CUR> env override.
+_DEFAULT_FX_RATES = {"EUR": 0.92}
 
 
 def load_json(path: Path, default=None):
@@ -69,6 +81,41 @@ def write_json(path: Path, data) -> None:
 
 def source_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def currency_for_lang(lang: str) -> str:
+    return (load_json(I18N_DIR / f"{lang}.json", default={}) or {}).get(
+        "_meta", {}).get("currency", "")
+
+
+def resolve_fx_rate(config: dict, target_currency: str):
+    """Rate to multiply a source-currency price by. None disables conversion."""
+    if not target_currency:
+        return None
+    env_key = f"FX_RATE_{target_currency.upper()}"
+    if os.getenv(env_key):
+        try:
+            return float(os.getenv(env_key))
+        except (TypeError, ValueError):
+            print(f"[warn] invalid {env_key}, ignoring")
+    rates = config.get("fx_rates", {}) or {}
+    if target_currency in rates:
+        try:
+            return float(rates[target_currency])
+        except (TypeError, ValueError):
+            print(f"[warn] invalid fx_rates[{target_currency}], ignoring")
+    return _DEFAULT_FX_RATES.get(target_currency)
+
+
+def convert_price(value, rate: float):
+    """Convert a numeric-ish price by rate, preserving non-numeric values."""
+    if value is None or value == "":
+        return value
+    try:
+        converted = round(float(str(value).replace(",", "").strip()) * rate, 2)
+    except (TypeError, ValueError):
+        return value
+    return converted
 
 
 def get_translator(from_lang: str, to_lang: str):
@@ -199,7 +246,7 @@ def translate_html(html_str: str, translate, lang: str, site_url: str) -> str:
 
 
 def translate_products_file(src_path: Path, dst_path: Path, translate,
-                            cache: dict, force: bool) -> bool:
+                            fx_rate, cache: dict, force: bool) -> bool:
     data = load_json(src_path)
     if data is None:
         return False
@@ -220,6 +267,20 @@ def translate_products_file(src_path: Path, dst_path: Path, translate,
                 p["title"] = translate(title)
             except Exception as exc:
                 print(f"  [warn] title translation failed for "
+                      f"{p.get('product_id', '?')}: {exc}")
+        if fx_rate is not None:
+            try:
+                p["price"] = convert_price(p.get("price"), fx_rate)
+                p["original_price"] = convert_price(p.get("original_price"), fx_rate)
+                history = p.get("price_history")
+                if isinstance(history, list):
+                    p["price_history"] = [
+                        {**h, "price": convert_price(h.get("price"), fx_rate)}
+                        if isinstance(h, dict) else h
+                        for h in history
+                    ]
+            except Exception as exc:
+                print(f"  [warn] price conversion failed for "
                       f"{p.get('product_id', '?')}: {exc}")
         products.append(p)
     out["products"] = products
@@ -284,6 +345,18 @@ def run(lang: str, force: bool) -> int:
     config = load_json(CONFIG_PATH, default={}) or {}
     site_url = config.get("site_url", "").rstrip("/")
 
+    source_currency = currency_for_lang(SOURCE_LANG)
+    target_currency = currency_for_lang(lang)
+    fx_rate = None
+    if target_currency and target_currency != source_currency:
+        fx_rate = resolve_fx_rate(config, target_currency)
+        if fx_rate is None:
+            print(f"[translate] no fx rate for {source_currency}->{target_currency}, "
+                  f"keeping source prices")
+        else:
+            print(f"[translate] price conversion {source_currency}->{target_currency} "
+                  f"@ {fx_rate}")
+
     translate = get_translator(SOURCE_LANG, lang)
     if translate is None:
         print("[translate] translator unavailable, leaving translations untouched")
@@ -297,7 +370,7 @@ def run(lang: str, force: bool) -> int:
         dst_path = DATA_DIR / "products" / lang / sub / name if sub \
             else DATA_DIR / "products" / lang / name
         try:
-            if translate_products_file(src_path, dst_path, translate, cache, force):
+            if translate_products_file(src_path, dst_path, translate, fx_rate, cache, force):
                 changed += 1
         except Exception as exc:
             print(f"  [warn] failed {name}: {exc}")

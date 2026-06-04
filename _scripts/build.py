@@ -827,6 +827,40 @@ def build_404(site_url: str, default_lang: str, T: dict) -> None:
     write_file(BASE_DIR / "404.html", render(tpl, ctx))
 
 
+def build_root_index(site_url: str, languages: list, default_lang: str) -> None:
+    """Root index.html: instant redirect to the default language plus a
+    visible <noscript> list of all active languages (graceful fallback)."""
+    langs = languages or ["en"]
+    redirect_lang = default_lang if default_lang in langs else langs[0]
+    links = []
+    for lng in langs:
+        meta = load_i18n(lng).get("_meta", {})
+        label = meta.get("locale_name", lng.upper())
+        links.append(f'<li><a href="/{lng}/">{html.escape(label)}</a></li>')
+    links_html = "\n      ".join(links)
+    content = (
+        "<!DOCTYPE html>\n"
+        f'<html lang="{redirect_lang}">\n'
+        "<head>\n"
+        '<meta charset="UTF-8">\n'
+        f'<meta http-equiv="refresh" content="0;url=/{redirect_lang}/">\n'
+        f'<link rel="canonical" href="{site_url}/{redirect_lang}/">\n'
+        "<title>AliGlobalShop</title>\n"
+        "</head>\n"
+        "<body>\n"
+        f'<script>window.location.replace("/{redirect_lang}/");</script>\n'
+        "<noscript>\n"
+        "    <p>AliGlobalShop</p>\n"
+        "    <ul>\n"
+        f"      {links_html}\n"
+        "    </ul>\n"
+        "</noscript>\n"
+        "</body>\n"
+        "</html>\n"
+    )
+    write_file(BASE_DIR / "index.html", content)
+
+
 def load_products(lang: str) -> dict:
     out = {}
     products_dir = DATA_DIR / "products" / lang
@@ -921,6 +955,7 @@ def main() -> None:
     build_sitemap(site_url, languages, sitemap_products, sitemap_articles)
     build_robots(site_url)
     build_404(site_url, default_lang, load_i18n(default_lang))
+    build_root_index(site_url, languages, default_lang)
 
     print("[build] done")
 
