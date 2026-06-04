@@ -60,7 +60,7 @@ PY
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/blog/ _data/blog-calendar-en.json _data/products/it _data/.translate_cache.json
+          git add _data/
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
