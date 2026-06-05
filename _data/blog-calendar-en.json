@@ -68,7 +68,8 @@
     "primary_keyword": "aliexpress smart bulbs reviews",
     "category": "smart-home",
     "intent": "informational",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-05"
   },
   {
     "topic": "AliExpress robot vacuums: are the cheap ones any good?",
