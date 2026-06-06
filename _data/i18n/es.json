@@ -51,6 +51,7 @@
   "home": {
     "title": "Las mejores ofertas, cupones y ofertas flash de AliExpress",
     "og_title": "Las mejores ofertas de AliExpress",
+    "meta_desc": "Ofertas de AliExpress seleccionadas, ofertas flash en directo y cupones que funcionan, actualizados cada d&iacute;a.",
     "ticker_updated": "Ofertas actualizadas cada 6 horas",
     "ticker_handpicked": "Seleccionadas a mano, sin basura de dropshipping",
     "ticker_flash": "Ofertas flash: stock limitado, terminan pronto",
@@ -142,7 +143,8 @@
     "ai_note": "Contenido asistido por IA",
     "ai_disclosure": "Este art&iacute;culo se ha escrito con la asistencia de IA. Todas las recomendaciones de productos se basan en datos de AliExpress disponibles p&uacute;blicamente.",
     "affiliate_disclosure": "Algunos enlaces son enlaces de afiliado; podemos ganar una comisi&oacute;n sin coste adicional para ti.",
-    "related_articles": "Art&iacute;culos relacionados"
+    "related_articles": "Art&iacute;culos relacionados",
+    "recommended_products": "Productos recomendados"
   },
   "flash": {
     "title": "Ofertas Flash: ofertas de AliExpress por tiempo limitado | {site_title}",

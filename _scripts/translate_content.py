@@ -51,6 +51,7 @@ import hashlib
 import html
 import json
 import os
+import re
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -71,6 +72,83 @@ _SKIP_TEXT_TAGS = {"script", "style"}
 # Static defaults age over time: prefer config.json "fx_rates" / FX_RATE_<CUR>
 # to keep them current (see module docstring for why conversion over re-fetch).
 _DEFAULT_FX_RATES = {"EUR": 0.92}
+
+# Per-language override for tech terms Argos mistranslates in short titles
+# (e.g. "earbuds" -> "earbudi", "smart bulbs" -> garbage). Applied after the
+# machine translation as a whole-word, case-insensitive replacement. Keys are
+# matched against the post-translation text; longer phrases first so multi-word
+# terms win over their single-word substrings.
+_TITLE_GLOSSARY = {
+    "it": {
+        "smart bulbs": "lampadine smart",
+        "smart bulb": "lampadina smart",
+        "smart home": "casa intelligente",
+        "home gym": "palestra in casa",
+        "power bank": "power bank",
+        "earbuds": "auricolari",
+        "earbudi": "auricolari",
+        "smartwatches": "smartwatch",
+        "smartwatch": "smartwatch",
+        "yoga gear": "attrezzatura yoga",
+        "travel gadgets": "gadget da viaggio",
+        "bike accessories": "accessori bici",
+        "robot vacuum": "robot aspirapolvere",
+        "coupon codes": "codici coupon",
+    },
+    "es": {
+        "smart bulbs": "bombillas inteligentes",
+        "smart bulb": "bombilla inteligente",
+        "smart home": "hogar inteligente",
+        "home gym": "gimnasio en casa",
+        "power bank": "power bank",
+        "earbuds": "auriculares",
+        "discos inalámbricos": "auriculares inalámbricos",
+        "smartwatches": "smartwatches",
+        "smartwatch": "smartwatch",
+        "yoga gear": "equipo de yoga",
+        "travel gadgets": "gadgets de viaje",
+        "bike accessories": "accesorios de bici",
+        "robot vacuum": "robot aspirador",
+        "coupon codes": "códigos de cupón",
+    },
+    "de": {
+        "smart bulbs": "smarte Glühbirnen",
+        "smart bulb": "smarte Glühbirne",
+        "smart home": "Smart Home",
+        "home gym": "Heim-Fitnessstudio",
+        "power bank": "Powerbank",
+        "earbuds": "Earbuds",
+        "smartwatches": "Smartwatches",
+        "smartwatch": "Smartwatch",
+        "yoga gear": "Yoga-Ausrüstung",
+        "travel gadgets": "Reise-Gadgets",
+        "bike accessories": "Fahrrad-Zubehör",
+        "robot vacuum": "Saugroboter",
+        "coupon codes": "Gutschein-Codes",
+    },
+}
+
+# Currency symbols per target currency, used to normalize a stray source "$"
+# left in a translated title to the target currency symbol. Blog titles store
+# raw UTF-8 (matching Argos output), so we use the literal symbol.
+_CURRENCY_SYMBOLS = {"EUR": "€"}
+
+
+def apply_title_glossary(text: str, lang: str, target_currency: str) -> str:
+    """Post-process a machine-translated title: fix tech terms via the per-lang
+    glossary and replace a stray source '$' with the target currency symbol."""
+    if not text:
+        return text
+    glossary = _TITLE_GLOSSARY.get(lang, {})
+    for term in sorted(glossary, key=len, reverse=True):
+        text = re.sub(
+            r'(?<![\w&])' + re.escape(term) + r'(?![\w;])',
+            glossary[term], text, flags=re.IGNORECASE,
+        )
+    sym = _CURRENCY_SYMBOLS.get(target_currency)
+    if sym:
+        text = text.replace("$", sym)
+    return text
 
 
 def load_json(path: Path, default=None):
@@ -303,7 +381,8 @@ def translate_products_file(src_path: Path, dst_path: Path, translate,
 
 
 def translate_blog_file(src_path: Path, dst_path: Path, lang: str, translate,
-                        site_url: str, cache: dict, force: bool) -> bool:
+                        site_url: str, cache: dict, force: bool,
+                        target_currency: str = "") -> bool:
     data = load_json(src_path)
     if data is None:
         return False
@@ -318,7 +397,8 @@ def translate_blog_file(src_path: Path, dst_path: Path, lang: str, translate,
     out["lang"] = lang
     if out.get("title"):
         try:
-            out["title"] = translate(out["title"])
+            out["title"] = apply_title_glossary(
+                translate(out["title"]), lang, target_currency)
         except Exception as exc:
             print(f"  [warn] blog title translation failed: {exc}")
     for desc_key in ("meta_desc", "meta_description"):
@@ -393,7 +473,8 @@ def run(lang: str, force: bool) -> int:
         for src_path in sorted(blog_src.glob("*.json")):
             dst_path = DATA_DIR / "blog" / lang / src_path.name
             try:
-                if translate_blog_file(src_path, dst_path, lang, translate, site_url, cache, force):
+                if translate_blog_file(src_path, dst_path, lang, translate,
+                                       site_url, cache, force, target_currency):
                     changed += 1
             except Exception as exc:
                 print(f"  [warn] failed {src_path.name}: {exc}")

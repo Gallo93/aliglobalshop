@@ -19,6 +19,10 @@
   <meta property="og:image" content="{{og_image}}">
   <meta property="og:type" content="product">
   <meta property="og:url" content="{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{meta_description}}">
+  <meta name="twitter:image" content="{{og_image}}">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"{{title}}","image":"{{image_url}}","sku":"{{product_id}}","aggregateRating":{"@type":"AggregateRating","ratingValue":"{{rating}}","reviewCount":"{{reviews_count}}"},"offers":{"@type":"Offer","priceCurrency":"{{currency_code}}","price":"{{price}}","availability":"https://schema.org/InStock","url":"{{affiliate_url}}"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"{{t_breadcrumb_home}}","item":"{{site_url}}/{{lang}}/"},{"@type":"ListItem","position":2,"name":"{{category_name}}","item":"{{site_url}}/{{lang}}/{{category_slug}}/"},{"@type":"ListItem","position":3,"name":"{{title}}","item":"{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/"}]}</script>
 </head>
@@ -57,14 +61,14 @@
       <div class="product__info">
         <h1 class="product__title">{{title}}</h1>
         <div class="product__price">
-          <span class="price">{{currency_symbol}}{{price}}</span>
-          <span class="price--old">{{currency_symbol}}{{original_price}}</span>
+          <span class="price">{{price_display}}</span>
+          <span class="price--old">{{original_price_display}}</span>
           <span class="price--off">-{{discount_pct}}%</span>
         </div>
         <p class="product__evidence">{{p_orders}}: {{orders_count}}+ &middot; {{p_rating}}: {{rating}}/5 ({{reviews_count}} {{p_reviews}})</p>
         <p class="product__shipping">{{p_ships_to}}: ~{{shipping_days}} {{p_ships_days}} &middot; {{p_free_shipping}}</p>
 
-        <a href="{{affiliate_url}}" rel="nofollow sponsored" target="_blank" class="btn-cta">{{p_cta}}</a>
+        <a href="{{affiliate_url}}" rel="nofollow sponsored noopener" target="_blank" class="btn-cta">{{p_cta}}</a>
         <p class="product__affiliate-note">{{p_affiliate_note}}</p>
 
         <ul class="trust-badges" aria-label="{{t_aria_buyer_protections}}">

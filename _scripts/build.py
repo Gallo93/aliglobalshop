@@ -160,15 +160,43 @@ def currency_code(T: dict) -> str:
     return T.get("_meta", {}).get("currency", "USD")
 
 
+def format_price(value, T: dict) -> str:
+    """Format a price for display in the build language.
+
+    USD (EN) keeps the exact legacy rendering "$<value>" (symbol before, the
+    value's str() unchanged) so EN output stays byte-identical. EUR locales
+    render "<value> &euro;" with a comma decimal separator and two decimals
+    (e.g. 11.56 -> "11,56 &euro;", 42.8 -> "42,80 &euro;"). Empty/None and
+    non-numeric values keep the legacy "<symbol><value>" form.
+    """
+    sym = currency_symbol(T)
+    code = currency_code(T)
+    if value is None or value == "":
+        return esc(value)
+    if code == "USD":
+        return f"{sym}{esc(value)}"
+    try:
+        amount = float(str(value).replace(",", "").strip())
+    except (TypeError, ValueError):
+        return f"{sym}{esc(value)}"
+    formatted = f"{amount:.2f}".replace(".", ",")
+    return f"{formatted} {sym}"
+
+
+def _format_price_plain(value, T: dict) -> str:
+    """Like format_price but with the literal currency symbol (e.g. '€') rather
+    than its HTML entity, for use in raw text that the caller escapes later."""
+    formatted = format_price(value, T)
+    return formatted.replace("&euro;", "€")
+
+
 def meta_desc_from_product(product: dict, T: dict) -> str:
     base = product.get("title", "")
-    price = product.get("price")
     disc = product.get("discount_pct") or 0
-    sym = currency_symbol(T)
     p = T.get("product", {})
     only = p.get("meta_only", "only")
     on_ali = p.get("meta_on_aliexpress", "on AliExpress")
-    text = f"{base}: {only} {sym}{price} {on_ali}"
+    text = f"{base}: {only} {_format_price_plain(product.get('price'), T)} {on_ali}"
     if disc:
         text += f" (-{disc}%)"
     return short_title(text, 155)
@@ -179,12 +207,11 @@ def product_card_html(product: dict, category_slug: str, site_url: str, lang: st
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
     alt = esc(alt_text(product.get("title", "")))
-    price = esc(product.get("price", ""))
-    original = esc(product.get("original_price", ""))
+    price = format_price(product.get("price", ""), T)
+    original = format_price(product.get("original_price", ""), T)
     disc = product.get("discount_pct") or 0
     rating = product.get("rating") or 0
     reviews = product.get("reviews_count") or 0
-    sym = currency_symbol(T)
     ui = T.get("ui", {})
     disc_html = f'<span class="price--off">-{int(disc)}%</span>' if disc else ""
     return (
@@ -193,8 +220,8 @@ def product_card_html(product: dict, category_slug: str, site_url: str, lang: st
         f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
         '<div class="product-card__body">'
         f'<h3 class="product-card__title"><a href="{href}">{title}</a></h3>'
-        f'<div class="product-card__price"><span class="price">{sym}{price}</span>'
-        f'<span class="price--old">{sym}{original}</span>{disc_html}</div>'
+        f'<div class="product-card__price"><span class="price">{price}</span>'
+        f'<span class="price--old">{original}</span>{disc_html}</div>'
         f'<p class="product-card__meta">{ui.get("card_rating", "Rating")}: {rating}/5 · {reviews} {ui.get("card_reviews", "reviews")}</p>'
         f'<a class="btn-cta product-card__cta" href="{href}">{ui.get("card_see_deal", "See deal &#8594;")}</a>'
         "</div></article>"
@@ -203,19 +230,18 @@ def product_card_html(product: dict, category_slug: str, site_url: str, lang: st
 
 def deal_card_html(deal: dict, site_url: str, lang: str, T: dict) -> str:
     category_slug = deal.get("category", "")
-    sym = currency_symbol(T)
     ui = T.get("ui", {})
     if category_slug:
         href = f"{site_url}/{lang}/{category_slug}/{esc(deal.get('slug', ''))}/"
         link_rel = ""
     else:
         href = esc(deal.get("affiliate_url", f"{site_url}/{lang}/flash-sale/"))
-        link_rel = ' rel="nofollow sponsored"'
+        link_rel = ' rel="nofollow sponsored noopener"'
     img = esc(deal.get("image_url", ""))
     title = esc(deal.get("title", ""))
     alt = esc(alt_text(deal.get("title", "")))
-    price = esc(deal.get("price", ""))
-    original = esc(deal.get("original_price", ""))
+    price = format_price(deal.get("price", ""), T)
+    original = format_price(deal.get("original_price", ""), T)
     disc = deal.get("discount_pct") or 0
     expires = esc(deal.get("expires_at", ""))
     disc_html = f'<span class="price--off">-{int(disc)}%</span>' if disc else ""
@@ -226,8 +252,8 @@ def deal_card_html(deal: dict, site_url: str, lang: str, T: dict) -> str:
         f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
         '<div class="product-card__body">'
         f'<h3 class="product-card__title"><a href="{href}"{link_rel}>{title}</a></h3>'
-        f'<div class="product-card__price"><span class="price">{sym}{price}</span>'
-        f'<span class="price--old">{sym}{original}</span>{disc_html}</div>'
+        f'<div class="product-card__price"><span class="price">{price}</span>'
+        f'<span class="price--old">{original}</span>{disc_html}</div>'
         f'<p class="product-card__meta">{ui.get("card_ends_in", "Ends in")}: {countdown}</p>'
         f'<a class="btn-cta product-card__cta" href="{href}"{link_rel}>{ui.get("card_grab_it", "Grab it &#8594;")}</a>'
         "</div></article>"
@@ -235,18 +261,17 @@ def deal_card_html(deal: dict, site_url: str, lang: str, T: dict) -> str:
 
 
 def coupon_card_html(coupon: dict, site_url: str, lang: str, T: dict) -> str:
-    sym = currency_symbol(T)
     ui = T.get("ui", {})
     img = esc(coupon.get("image_url", ""))
     title = esc(coupon.get("title", ""))
     alt = esc(alt_text(coupon.get("title", "")))
-    price = esc(coupon.get("price", ""))
-    original = esc(coupon.get("original_price", ""))
+    price = format_price(coupon.get("price", ""), T)
+    original = format_price(coupon.get("original_price", ""), T)
     disc = coupon.get("discount_pct") or 0
     href = esc(coupon.get("affiliate_url", f"{site_url}/{lang}/coupons/"))
     disc_html = f'<span class="coupon-badge">-{int(disc)}% {ui.get("card_off", "OFF")}</span>' if disc else ""
     img_html = (
-        f'<a href="{href}" rel="nofollow sponsored" class="product-card__img">'
+        f'<a href="{href}" rel="nofollow sponsored noopener" class="product-card__img">'
         f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
     ) if img else ""
     return (
@@ -254,10 +279,10 @@ def coupon_card_html(coupon: dict, site_url: str, lang: str, T: dict) -> str:
         f'{img_html}'
         '<div class="product-card__body">'
         f'{disc_html}'
-        f'<h3 class="product-card__title"><a href="{href}" rel="nofollow sponsored">{title}</a></h3>'
-        f'<div class="product-card__price"><span class="price">{sym}{price}</span>'
-        f'<span class="price--old">{sym}{original}</span></div>'
-        f'<a class="btn-cta product-card__cta" href="{href}" rel="nofollow sponsored">{ui.get("card_get_deal", "Get deal &#8594;")}</a>'
+        f'<h3 class="product-card__title"><a href="{href}" rel="nofollow sponsored noopener">{title}</a></h3>'
+        f'<div class="product-card__price"><span class="price">{price}</span>'
+        f'<span class="price--old">{original}</span></div>'
+        f'<a class="btn-cta product-card__cta" href="{href}" rel="nofollow sponsored noopener">{ui.get("card_get_deal", "Get deal &#8594;")}</a>'
         "</div></article>"
     )
 
@@ -323,6 +348,54 @@ def related_products_section_html(
         f'<a class="btn-cta" href="{site_url}/{lang}/{category_slug}/">'
         f'{browse}</a></p>'
         f'</section>'
+    )
+
+
+def article_product_card_html(product: dict, T: dict) -> str:
+    """Product card for the in-article 'Recommended products' section. Unlike
+    product_card_html it links straight to the affiliate URL (no internal
+    product page exists for these), mirroring deal_card_html's affiliate link
+    pattern with rel="nofollow sponsored noopener" and target _blank."""
+    href = esc(product.get("affiliate_url", ""))
+    img = esc(product.get("image_url", ""))
+    title = esc(product.get("title", ""))
+    alt = esc(alt_text(product.get("title", "")))
+    price = format_price(product.get("price", ""), T)
+    original = format_price(product.get("original_price", ""), T)
+    disc = product.get("discount_pct") or 0
+    rating = product.get("rating") or 0
+    reviews = product.get("reviews_count") or 0
+    ui = T.get("ui", {})
+    rel = ' rel="nofollow sponsored noopener" target="_blank"'
+    disc_html = f'<span class="price--off">-{int(disc)}%</span>' if disc else ""
+    return (
+        '<article class="product-card">'
+        f'<a href="{href}"{rel} class="product-card__img">'
+        f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
+        '<div class="product-card__body">'
+        f'<h3 class="product-card__title"><a href="{href}"{rel}>{title}</a></h3>'
+        f'<div class="product-card__price"><span class="price">{price}</span>'
+        f'<span class="price--old">{original}</span>{disc_html}</div>'
+        f'<p class="product-card__meta">{ui.get("card_rating", "Rating")}: {rating}/5 &middot; {reviews} {ui.get("card_reviews", "reviews")}</p>'
+        f'<a class="btn-cta product-card__cta" href="{href}"{rel}>{ui.get("card_see_deal", "See deal &#8594;")}</a>'
+        "</div></article>"
+    )
+
+
+def article_products_section_html(products: list, T: dict, limit: int = 4) -> str:
+    """In-article recommended-products section: cards link directly to the
+    affiliate URL (the products have no internal page). Title from the
+    blog_post.recommended_products i18n label, not a raw slug."""
+    items = [p for p in products if p.get("affiliate_url")][:limit]
+    if not items:
+        return ""
+    title = T.get("blog_post", {}).get("recommended_products", "Recommended products")
+    cards = "".join(article_product_card_html(p, T) for p in items)
+    return (
+        '<section class="related-products">'
+        f'<h2 class="related-products__title">{title}</h2>'
+        f'<div class="product-grid">{cards}</div>'
+        '</section>'
     )
 
 
@@ -426,6 +499,7 @@ def build_home(site_url: str, lang: str, T: dict, out_dir: Path,
     for key, value in h.items():
         ctx[f"h_{key}"] = value
     ctx["title"] = h.get("title", "")
+    ctx["site_description"] = h.get("meta_desc", SITE_DESCRIPTION)
     ctx.update({
         "canonical_url": f"{site_url}/{lang}/",
         "hreflang_alternates": hreflang_alternates(site_url, "", languages, default_lang),
@@ -535,6 +609,8 @@ def build_products(site_url: str, lang: str, T: dict, out_dir: Path,
             "og_image": esc(og_image),
             "price": esc(product.get("price", "")),
             "original_price": esc(product.get("original_price", "")),
+            "price_display": format_price(product.get("price", ""), T),
+            "original_price_display": format_price(product.get("original_price", ""), T),
             "discount_pct": esc(product.get("discount_pct", 0)),
             "rating": esc(product.get("rating", 0)),
             "reviews_count": esc(product.get("reviews_count", 0)),
@@ -635,6 +711,28 @@ def related_articles_section_html(current: dict, articles: list, site_url: str, 
     )
 
 
+def _redirect_stub_html(site_url: str, lang: str, target_slug: str, site_title: str) -> str:
+    """Minimal noindex stub for a consolidated (weak) article: instant meta
+    refresh + canonical to the strong article, with a manual link fallback."""
+    target = f"{site_url}/{lang}/blog/{esc(target_slug)}/"
+    return (
+        "<!doctype html>\n"
+        f'<html lang="{lang}">\n'
+        "<head>\n"
+        '<meta charset="utf-8">\n'
+        '<meta name="robots" content="noindex, follow">\n'
+        f'<meta http-equiv="refresh" content="0;url={target}">\n'
+        f'<link rel="canonical" href="{target}">\n'
+        f"<title>{esc(site_title)}</title>\n"
+        "</head>\n"
+        "<body>\n"
+        f'<script>window.location.replace("{target}");</script>\n'
+        f'<p><a href="{target}">{target}</a></p>\n'
+        "</body>\n"
+        "</html>\n"
+    )
+
+
 def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
                      languages: list, default_lang: str, articles: list, products_by_cat: dict) -> None:
     tpl = load_template("blog-post.html")
@@ -652,6 +750,16 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
 
     for article in articles:
         slug = article.get("slug", "")
+        redirect_to = article.get("redirect_to")
+        if redirect_to:
+            # F5 consolidation: render a noindex stub that redirects to the
+            # canonical (strong) article. Kept out of the blog index, sitemap
+            # and related-articles pool (filtered by the callers).
+            write_file(
+                out_dir / "blog" / slug / "index.html",
+                _redirect_stub_html(site_url, lang, redirect_to, SITE_TITLE),
+            )
+            continue
         category_slug = article.get("category", "")
         title = article.get("title", "")
         primary_kw = article.get("primary_keyword", "")
@@ -664,20 +772,21 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
                 break
         related_section = ""
         if slug in _article_products and _article_products[slug].get("products"):
-            related_section = related_products_section_html(
-                slug, _article_products, site_url, lang, T, limit=4, max_price=max_price
+            related_section = article_products_section_html(
+                _article_products[slug]["products"], T, limit=4
             )
         if not related_section:
             related_section = related_products_section_html(
                 category_slug, products_by_cat, site_url, lang, T, limit=4,
                 max_price=max_price, topic_kws=topic_kws
             )
-        og_image = f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
+        og_image = article.get("image_url") or f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
         content_html = article.get("content_html", article.get("content", ""))
         content_html = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content_html, flags=re.IGNORECASE)
         content_html = re.sub(r'</h1>', '</h2>', content_html, flags=re.IGNORECASE)
         faq_schema_html = _extract_faq_schema(content_html)
-        related_articles_html = related_articles_section_html(article, articles, site_url, lang, T, limit=3)
+        related_articles_html = related_articles_section_html(
+            article, visible_articles(articles), site_url, lang, T, limit=3)
         ctx = base_context(site_url, lang, T, languages, default_lang)
         ctx["bp_min_read"] = bp.get("min_read", "min read")
         ctx["bp_ai_note"] = bp.get("ai_note", "AI-assisted content")
@@ -866,10 +975,27 @@ def build_404(site_url: str, default_lang: str, T: dict, languages: list) -> Non
     nf = T.get("notfound", {})
     ui = T.get("ui", {})
     tpl = load_template("404.html")
+    # Per-language 404 strings for the client-side switcher: the page is a
+    # single /404.html served by the host for every path, so a small JS reads
+    # the path prefix (/it/, /es/, ...) and swaps text + lang + internal link
+    # prefix. The default language is the no-JS fallback already in the HTML.
+    nf_i18n = {}
+    for lng in languages:
+        if lng == default_lang:
+            continue
+        lnf = load_i18n(lng).get("notfound", {})
+        nf_i18n[lng] = {
+            "title": lnf.get("title", nf.get("title", "")),
+            "h1": lnf.get("h1", nf.get("h1", "")),
+            "body": lnf.get("body", nf.get("body", "")),
+            "back_home": lnf.get("back_home", nf.get("back_home", "")),
+            "browse_categories": lnf.get("browse_categories", nf.get("browse_categories", "")),
+        }
     ctx = {
         "site_title": SITE_TITLE,
         "site_url": site_url,
         "lang": default_lang,
+        "default_lang": default_lang,
         "year": str(datetime.now(timezone.utc).year),
         "lang_switcher_html": lang_switcher_html(site_url, default_lang, "", languages),
         "nf_title": nf.get("title", "Page not found"),
@@ -878,6 +1004,7 @@ def build_404(site_url: str, default_lang: str, T: dict, languages: list) -> Non
         "nf_body": nf.get("body", ""),
         "nf_back_home": nf.get("back_home", "Back to homepage &#8594;"),
         "nf_browse_categories": nf.get("browse_categories", "Browse our categories"),
+        "nf_i18n_json": json.dumps(nf_i18n, ensure_ascii=False),
     }
     for key, value in ui.items():
         ctx[f"t_{key}"] = value
@@ -945,6 +1072,13 @@ def load_articles(lang: str) -> list:
     return items
 
 
+def visible_articles(articles: list) -> list:
+    """Articles that should be listed/indexed: excludes F5 consolidation stubs
+    (those with a redirect_to). Stub pages are still generated by
+    build_blog_posts, just kept out of the index, sitemap and related pool."""
+    return [a for a in articles if not a.get("redirect_to")]
+
+
 def load_flash_deals(lang: str) -> tuple:
     path = DATA_DIR / "flash-sale" / f"{lang}.json"
     if not path.exists():
@@ -980,16 +1114,18 @@ def build_language(site_url: str, lang: str, languages: list, default_lang: str)
 
     products_by_cat = load_products(lang)
     articles = load_articles(lang)
+    listed = visible_articles(articles)
     flash_deals, flash_updated = load_flash_deals(lang)
     coupons, coupons_updated = load_coupons(lang)
 
-    print(f"[build:{lang}] categories={len(products_by_cat)} articles={len(articles)} "
+    print(f"[build:{lang}] categories={len(products_by_cat)} articles={len(listed)} "
+          f"(+{len(articles) - len(listed)} stub) "
           f"flash={len(flash_deals)} coupons={len(coupons)}")
 
-    build_home(site_url, lang, T, out_dir, languages, default_lang, flash_deals, articles)
+    build_home(site_url, lang, T, out_dir, languages, default_lang, flash_deals, listed)
     build_categories(site_url, lang, T, out_dir, languages, default_lang, products_by_cat)
     build_products(site_url, lang, T, out_dir, languages, default_lang, products_by_cat)
-    build_blog_index(site_url, lang, T, out_dir, languages, default_lang, articles)
+    build_blog_index(site_url, lang, T, out_dir, languages, default_lang, listed)
     build_blog_posts(site_url, lang, T, out_dir, languages, default_lang, articles, products_by_cat)
     build_flash_sale(site_url, lang, T, out_dir, languages, default_lang, flash_deals, flash_updated)
     build_coupons(site_url, lang, T, out_dir, languages, default_lang, coupons, coupons_updated)
@@ -1004,7 +1140,7 @@ def main() -> None:
     print(f"[build] site_url={site_url} languages={languages} default={default_lang}")
 
     sitemap_products = load_products(default_lang)
-    sitemap_articles = load_articles(default_lang)
+    sitemap_articles = visible_articles(load_articles(default_lang))
 
     for lang in languages:
         build_language(site_url, lang, languages, default_lang)

@@ -51,6 +51,7 @@
   "home": {
     "title": "Best AliExpress Deals, Coupons &amp; Flash Sales",
     "og_title": "Best AliExpress Deals",
+    "meta_desc": "Curated AliExpress deals, live flash sales and working coupons, updated every day.",
     "ticker_updated": "Deals updated every 6 hours",
     "ticker_handpicked": "Hand-picked, no dropshipping garbage",
     "ticker_flash": "Flash sales: limited stock, ends soon",
@@ -142,7 +143,8 @@
     "ai_note": "AI-assisted content",
     "ai_disclosure": "This article was written with AI assistance. All product recommendations are based on publicly available AliExpress data.",
     "affiliate_disclosure": "Some links are affiliate links; we may earn a commission at no extra cost to you.",
-    "related_articles": "Related articles"
+    "related_articles": "Related articles",
+    "recommended_products": "Recommended products"
   },
   "flash": {
     "title": "Flash Sale: limited-time AliExpress deals | {site_title}",

@@ -17,7 +17,11 @@
   <meta property="og:image" content="{{og_image}}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{{site_url}}/{{lang}}/blog/{{slug}}/">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"{{title}}","datePublished":"{{date}}","author":{"@type":"Organization","name":"{{site_title}}"},"publisher":{"@type":"Organization","name":"{{site_title}}","logo":{"@type":"ImageObject","url":"{{site_url}}/assets/img/logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"{{site_url}}/{{lang}}/blog/{{slug}}/"}}</script>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{meta_description}}">
+  <meta name="twitter:image" content="{{og_image}}">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"{{title}}","image":"{{og_image}}","description":"{{meta_description}}","inLanguage":"{{lang}}","datePublished":"{{date}}","author":{"@type":"Organization","name":"{{site_title}}"},"publisher":{"@type":"Organization","name":"{{site_title}}","logo":{"@type":"ImageObject","url":"{{site_url}}/assets/img/logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"{{site_url}}/{{lang}}/blog/{{slug}}/"}}</script>
   {{faq_schema_html}}
 </head>
 <body>

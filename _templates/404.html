@@ -35,10 +35,10 @@
 
   <main class="container" id="main">
     <div class="legal-page">
-      <h1>{{nf_h1}}</h1>
-      <p>{{nf_body}}</p>
-      <p><a class="btn-cta" href="{{site_url}}/{{lang}}/">{{nf_back_home}}</a></p>
-      <h2>{{nf_browse_categories}}</h2>
+      <h1 data-nf="h1">{{nf_h1}}</h1>
+      <p data-nf="body">{{nf_body}}</p>
+      <p><a class="btn-cta" data-nf="back_home" href="{{site_url}}/{{lang}}/">{{nf_back_home}}</a></p>
+      <h2 data-nf="browse_categories">{{nf_browse_categories}}</h2>
       <nav>
         <p><a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a></p>
         <p><a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a></p>
@@ -86,6 +86,33 @@
       </div>
     </div>
   </footer>
+  <script>
+  // F14: single /404.html served for every path. Adapt language client-side
+  // from the URL path prefix; default language is the no-JS fallback.
+  (function () {
+    var I18N = {{nf_i18n_json}};
+    var DEFAULT = "{{default_lang}}";
+    var m = location.pathname.match(/^\/([a-z]{2})\//);
+    var lang = m && I18N[m[1]] ? m[1] : null;
+    if (!lang) return;
+    var t = I18N[lang];
+    document.documentElement.lang = lang;
+    var decoder = document.createElement("textarea");
+    function decode(s) { decoder.innerHTML = s; return decoder.value; }
+    document.querySelectorAll("[data-nf]").forEach(function (el) {
+      var key = el.getAttribute("data-nf");
+      if (t[key] != null) el.innerHTML = t[key];
+    });
+    if (t.title) {
+      document.title = decode(t.title) + " | {{site_title}}";
+    }
+    var from = "/" + DEFAULT + "/";
+    var to = "/" + lang + "/";
+    document.querySelectorAll('a[href*="' + from + '"]').forEach(function (a) {
+      a.setAttribute("href", a.getAttribute("href").split(from).join(to));
+    });
+  })();
+  </script>
   <script defer src="{{site_url}}/assets/js/main.js"></script>
 </body>
 </html>
