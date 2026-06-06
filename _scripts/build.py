@@ -160,15 +160,43 @@ def currency_code(T: dict) -> str:
     return T.get("_meta", {}).get("currency", "USD")
 
 
+def format_price(value, T: dict) -> str:
+    """Format a price for display in the build language.
+
+    USD (EN) keeps the exact legacy rendering "$<value>" (symbol before, the
+    value's str() unchanged) so EN output stays byte-identical. EUR locales
+    render "<value> &euro;" with a comma decimal separator and two decimals
+    (e.g. 11.56 -> "11,56 &euro;", 42.8 -> "42,80 &euro;"). Empty/None and
+    non-numeric values keep the legacy "<symbol><value>" form.
+    """
+    sym = currency_symbol(T)
+    code = currency_code(T)
+    if value is None or value == "":
+        return esc(value)
+    if code == "USD":
+        return f"{sym}{esc(value)}"
+    try:
+        amount = float(str(value).replace(",", "").strip())
+    except (TypeError, ValueError):
+        return f"{sym}{esc(value)}"
+    formatted = f"{amount:.2f}".replace(".", ",")
+    return f"{formatted} {sym}"
+
+
+def _format_price_plain(value, T: dict) -> str:
+    """Like format_price but with the literal currency symbol (e.g. '€') rather
+    than its HTML entity, for use in raw text that the caller escapes later."""
+    formatted = format_price(value, T)
+    return formatted.replace("&euro;", "€")
+
+
 def meta_desc_from_product(product: dict, T: dict) -> str:
     base = product.get("title", "")
-    price = product.get("price")
     disc = product.get("discount_pct") or 0
-    sym = currency_symbol(T)
     p = T.get("product", {})
     only = p.get("meta_only", "only")
     on_ali = p.get("meta_on_aliexpress", "on AliExpress")
-    text = f"{base}: {only} {sym}{price} {on_ali}"
+    text = f"{base}: {only} {_format_price_plain(product.get('price'), T)} {on_ali}"
     if disc:
         text += f" (-{disc}%)"
     return short_title(text, 155)
@@ -179,12 +207,11 @@ def product_card_html(product: dict, category_slug: str, site_url: str, lang: st
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
     alt = esc(alt_text(product.get("title", "")))
-    price = esc(product.get("price", ""))
-    original = esc(product.get("original_price", ""))
+    price = format_price(product.get("price", ""), T)
+    original = format_price(product.get("original_price", ""), T)
     disc = product.get("discount_pct") or 0
     rating = product.get("rating") or 0
     reviews = product.get("reviews_count") or 0
-    sym = currency_symbol(T)
     ui = T.get("ui", {})
     disc_html = f'<span class="price--off">-{int(disc)}%</span>' if disc else ""
     return (
@@ -193,8 +220,8 @@ def product_card_html(product: dict, category_slug: str, site_url: str, lang: st
         f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
         '<div class="product-card__body">'
         f'<h3 class="product-card__title"><a href="{href}">{title}</a></h3>'
-        f'<div class="product-card__price"><span class="price">{sym}{price}</span>'
-        f'<span class="price--old">{sym}{original}</span>{disc_html}</div>'
+        f'<div class="product-card__price"><span class="price">{price}</span>'
+        f'<span class="price--old">{original}</span>{disc_html}</div>'
         f'<p class="product-card__meta">{ui.get("card_rating", "Rating")}: {rating}/5 · {reviews} {ui.get("card_reviews", "reviews")}</p>'
         f'<a class="btn-cta product-card__cta" href="{href}">{ui.get("card_see_deal", "See deal &#8594;")}</a>'
         "</div></article>"
@@ -203,7 +230,6 @@ def product_card_html(product: dict, category_slug: str, site_url: str, lang: st
 
 def deal_card_html(deal: dict, site_url: str, lang: str, T: dict) -> str:
     category_slug = deal.get("category", "")
-    sym = currency_symbol(T)
     ui = T.get("ui", {})
     if category_slug:
         href = f"{site_url}/{lang}/{category_slug}/{esc(deal.get('slug', ''))}/"
@@ -214,8 +240,8 @@ def deal_card_html(deal: dict, site_url: str, lang: str, T: dict) -> str:
     img = esc(deal.get("image_url", ""))
     title = esc(deal.get("title", ""))
     alt = esc(alt_text(deal.get("title", "")))
-    price = esc(deal.get("price", ""))
-    original = esc(deal.get("original_price", ""))
+    price = format_price(deal.get("price", ""), T)
+    original = format_price(deal.get("original_price", ""), T)
     disc = deal.get("discount_pct") or 0
     expires = esc(deal.get("expires_at", ""))
     disc_html = f'<span class="price--off">-{int(disc)}%</span>' if disc else ""
@@ -226,8 +252,8 @@ def deal_card_html(deal: dict, site_url: str, lang: str, T: dict) -> str:
         f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
         '<div class="product-card__body">'
         f'<h3 class="product-card__title"><a href="{href}"{link_rel}>{title}</a></h3>'
-        f'<div class="product-card__price"><span class="price">{sym}{price}</span>'
-        f'<span class="price--old">{sym}{original}</span>{disc_html}</div>'
+        f'<div class="product-card__price"><span class="price">{price}</span>'
+        f'<span class="price--old">{original}</span>{disc_html}</div>'
         f'<p class="product-card__meta">{ui.get("card_ends_in", "Ends in")}: {countdown}</p>'
         f'<a class="btn-cta product-card__cta" href="{href}"{link_rel}>{ui.get("card_grab_it", "Grab it &#8594;")}</a>'
         "</div></article>"
@@ -235,13 +261,12 @@ def deal_card_html(deal: dict, site_url: str, lang: str, T: dict) -> str:
 
 
 def coupon_card_html(coupon: dict, site_url: str, lang: str, T: dict) -> str:
-    sym = currency_symbol(T)
     ui = T.get("ui", {})
     img = esc(coupon.get("image_url", ""))
     title = esc(coupon.get("title", ""))
     alt = esc(alt_text(coupon.get("title", "")))
-    price = esc(coupon.get("price", ""))
-    original = esc(coupon.get("original_price", ""))
+    price = format_price(coupon.get("price", ""), T)
+    original = format_price(coupon.get("original_price", ""), T)
     disc = coupon.get("discount_pct") or 0
     href = esc(coupon.get("affiliate_url", f"{site_url}/{lang}/coupons/"))
     disc_html = f'<span class="coupon-badge">-{int(disc)}% {ui.get("card_off", "OFF")}</span>' if disc else ""
@@ -255,8 +280,8 @@ def coupon_card_html(coupon: dict, site_url: str, lang: str, T: dict) -> str:
         '<div class="product-card__body">'
         f'{disc_html}'
         f'<h3 class="product-card__title"><a href="{href}" rel="nofollow sponsored">{title}</a></h3>'
-        f'<div class="product-card__price"><span class="price">{sym}{price}</span>'
-        f'<span class="price--old">{sym}{original}</span></div>'
+        f'<div class="product-card__price"><span class="price">{price}</span>'
+        f'<span class="price--old">{original}</span></div>'
         f'<a class="btn-cta product-card__cta" href="{href}" rel="nofollow sponsored">{ui.get("card_get_deal", "Get deal &#8594;")}</a>'
         "</div></article>"
     )
@@ -335,12 +360,11 @@ def article_product_card_html(product: dict, T: dict) -> str:
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
     alt = esc(alt_text(product.get("title", "")))
-    price = esc(product.get("price", ""))
-    original = esc(product.get("original_price", ""))
+    price = format_price(product.get("price", ""), T)
+    original = format_price(product.get("original_price", ""), T)
     disc = product.get("discount_pct") or 0
     rating = product.get("rating") or 0
     reviews = product.get("reviews_count") or 0
-    sym = currency_symbol(T)
     ui = T.get("ui", {})
     rel = ' rel="nofollow sponsored noopener" target="_blank"'
     disc_html = f'<span class="price--off">-{int(disc)}%</span>' if disc else ""
@@ -350,8 +374,8 @@ def article_product_card_html(product: dict, T: dict) -> str:
         f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
         '<div class="product-card__body">'
         f'<h3 class="product-card__title"><a href="{href}"{rel}>{title}</a></h3>'
-        f'<div class="product-card__price"><span class="price">{sym}{price}</span>'
-        f'<span class="price--old">{sym}{original}</span>{disc_html}</div>'
+        f'<div class="product-card__price"><span class="price">{price}</span>'
+        f'<span class="price--old">{original}</span>{disc_html}</div>'
         f'<p class="product-card__meta">{ui.get("card_rating", "Rating")}: {rating}/5 &middot; {reviews} {ui.get("card_reviews", "reviews")}</p>'
         f'<a class="btn-cta product-card__cta" href="{href}"{rel}>{ui.get("card_see_deal", "See deal &#8594;")}</a>'
         "</div></article>"
@@ -585,6 +609,8 @@ def build_products(site_url: str, lang: str, T: dict, out_dir: Path,
             "og_image": esc(og_image),
             "price": esc(product.get("price", "")),
             "original_price": esc(product.get("original_price", "")),
+            "price_display": format_price(product.get("price", ""), T),
+            "original_price_display": format_price(product.get("original_price", ""), T),
             "discount_pct": esc(product.get("discount_pct", 0)),
             "rating": esc(product.get("rating", 0)),
             "reviews_count": esc(product.get("reviews_count", 0)),
