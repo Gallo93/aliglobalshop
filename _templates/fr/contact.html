@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site_url}}/assets/img/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="{{site_url}}/site.webmanifest">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact | {{site_title}}</title>
+  <meta name="description" content="Contactez AliGlobalShop pour vos questions, demandes de partenariat d&#39;affiliation ou suggestions.">
+  <link rel="canonical" href="{{site_url}}/{{lang}}/contact/">
+  {{hreflang_alternates}}
+  <link rel="stylesheet" href="{{site_url}}/assets/css/style.css">
+  <meta property="og:title" content="Contact | {{site_title}}">
+  <meta property="og:description" content="Contactez AliGlobalShop pour vos questions, demandes de partenariat d&#39;affiliation ou suggestions.">
+  <meta property="og:image" content="{{site_url}}/assets/img/og-default.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{site_url}}/{{lang}}/contact/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact | {{site_title}}">
+  <meta name="twitter:description" content="Contactez AliGlobalShop pour vos questions, demandes de partenariat d&#39;affiliation ou suggestions.">
+  <meta name="twitter:image" content="{{site_url}}/assets/img/og-default.jpg">
+</head>
+<body>
+  <a class="skip-link" href="#main">{{t_skip_to_content}}</a>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="{{site_url}}/{{lang}}/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
+      <nav class="nav__links" aria-label="{{t_aria_primary}}">
+        <a href="{{site_url}}/{{lang}}/electronics/">📱 {{t_nav_electronics}}</a>
+        <a href="{{site_url}}/{{lang}}/smart-home/">🏠 {{t_nav_smart_home}}</a>
+        <a href="{{site_url}}/{{lang}}/sport/">🏃 {{t_nav_sport}}</a>
+        <a href="{{site_url}}/{{lang}}/gadgets/">🎮 {{t_nav_gadgets}}</a>
+        <a href="{{site_url}}/{{lang}}/flash-sale/">⚡ {{t_nav_flash_sale}}</a>
+        <a href="{{site_url}}/{{lang}}/coupons/">🏷️ {{t_nav_top_discounts}}</a>
+        <a href="{{site_url}}/{{lang}}/blog/">📝 {{t_nav_blog}}</a>
+      </nav>
+      {{lang_switcher_html}}
+      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <div class="legal-page">
+      <h1>Contact</h1>
+      <p>Vous avez une question, une suggestion sur un produit ou vous souhaitez nous signaler un lien rompu ? Nous serions ravis de vous lire. Nous lisons chaque message et r&eacute;pondons g&eacute;n&eacute;ralement en quelques jours ouvr&eacute;s.</p>
+
+      <section>
+        <h2>E-mail</h2>
+        <p><a href="mailto:aliglobalshopoffers@gmail.com">aliglobalshopoffers@gmail.com</a></p>
+      </section>
+
+      <section>
+        <h2>Transparence sur le partenariat d&#39;affiliation</h2>
+        <p>AliGlobalShop participe au programme d&#39;affiliation AliExpress. Nous touchons des commissions sur les achats &eacute;ligibles. Cela n&#39;influence ni notre ind&eacute;pendance &eacute;ditoriale ni les prix que vous payez.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__cols container">
+      <div class="footer__brand">
+        <a href="{{site_url}}/{{lang}}/"><strong>AliGlobal<span>Shop</span></strong></a>
+        <p>{{t_footer_tagline}}</p>
+      </div>
+      <div class="footer__col">
+        <h4>{{t_footer_shop}}</h4>
+        <nav>
+          <a href="{{site_url}}/{{lang}}/electronics/">📱 {{t_nav_electronics}}</a>
+          <a href="{{site_url}}/{{lang}}/smart-home/">🏠 {{t_nav_smart_home}}</a>
+          <a href="{{site_url}}/{{lang}}/sport/">🏃 {{t_nav_sport}}</a>
+          <a href="{{site_url}}/{{lang}}/gadgets/">🎮 {{t_nav_gadgets}}</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>{{t_footer_save}}</h4>
+        <nav>
+          <a href="{{site_url}}/{{lang}}/flash-sale/">⚡ {{t_nav_flash_sale}}</a>
+          <a href="{{site_url}}/{{lang}}/coupons/">🏷️ {{t_nav_top_discounts}}</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h4>{{t_footer_info}}</h4>
+        <nav>
+          <a href="{{site_url}}/{{lang}}/blog/">📝 {{t_nav_blog}}</a>
+          <a href="{{site_url}}/{{lang}}/about/">{{t_footer_about}}</a>
+          <a href="{{site_url}}/{{lang}}/contact/">{{t_footer_contact}}</a>
+          <a href="{{site_url}}/{{lang}}/privacy/">{{t_footer_privacy}}</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; {{year}} {{site_title}}. {{t_footer_copyright}}</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="{{t_aria_cookie_consent}}">
+    <p>{{t_cookie_text}} <a href="{{site_url}}/{{lang}}/privacy/">{{t_cookie_learn_more}}</a></p>
+    <div class="cookie-banner__actions">
+      <button id="cookie-accept" class="btn-cta btn--sm">{{t_cookie_accept}}</button>
+      <button id="cookie-decline" class="btn--ghost btn--sm">{{t_cookie_decline}}</button>
+    </div>
+  </div>
+  <script defer src="{{site_url}}/assets/js/cookie-banner.js"></script>
+  <script defer src="{{site_url}}/assets/js/particles.js"></script>
+  <script defer src="{{site_url}}/assets/js/main.js"></script>
+</body>
+</html>
