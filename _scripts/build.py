@@ -942,10 +942,27 @@ def build_404(site_url: str, default_lang: str, T: dict, languages: list) -> Non
     nf = T.get("notfound", {})
     ui = T.get("ui", {})
     tpl = load_template("404.html")
+    # Per-language 404 strings for the client-side switcher: the page is a
+    # single /404.html served by the host for every path, so a small JS reads
+    # the path prefix (/it/, /es/, ...) and swaps text + lang + internal link
+    # prefix. The default language is the no-JS fallback already in the HTML.
+    nf_i18n = {}
+    for lng in languages:
+        if lng == default_lang:
+            continue
+        lnf = load_i18n(lng).get("notfound", {})
+        nf_i18n[lng] = {
+            "title": lnf.get("title", nf.get("title", "")),
+            "h1": lnf.get("h1", nf.get("h1", "")),
+            "body": lnf.get("body", nf.get("body", "")),
+            "back_home": lnf.get("back_home", nf.get("back_home", "")),
+            "browse_categories": lnf.get("browse_categories", nf.get("browse_categories", "")),
+        }
     ctx = {
         "site_title": SITE_TITLE,
         "site_url": site_url,
         "lang": default_lang,
+        "default_lang": default_lang,
         "year": str(datetime.now(timezone.utc).year),
         "lang_switcher_html": lang_switcher_html(site_url, default_lang, "", languages),
         "nf_title": nf.get("title", "Page not found"),
@@ -954,6 +971,7 @@ def build_404(site_url: str, default_lang: str, T: dict, languages: list) -> Non
         "nf_body": nf.get("body", ""),
         "nf_back_home": nf.get("back_home", "Back to homepage &#8594;"),
         "nf_browse_categories": nf.get("browse_categories", "Browse our categories"),
+        "nf_i18n_json": json.dumps(nf_i18n, ensure_ascii=False),
     }
     for key, value in ui.items():
         ctx[f"t_{key}"] = value
