@@ -326,6 +326,55 @@ def related_products_section_html(
     )
 
 
+def article_product_card_html(product: dict, T: dict) -> str:
+    """Product card for the in-article 'Recommended products' section. Unlike
+    product_card_html it links straight to the affiliate URL (no internal
+    product page exists for these), mirroring deal_card_html's affiliate link
+    pattern with rel="nofollow sponsored noopener" and target _blank."""
+    href = esc(product.get("affiliate_url", ""))
+    img = esc(product.get("image_url", ""))
+    title = esc(product.get("title", ""))
+    alt = esc(alt_text(product.get("title", "")))
+    price = esc(product.get("price", ""))
+    original = esc(product.get("original_price", ""))
+    disc = product.get("discount_pct") or 0
+    rating = product.get("rating") or 0
+    reviews = product.get("reviews_count") or 0
+    sym = currency_symbol(T)
+    ui = T.get("ui", {})
+    rel = ' rel="nofollow sponsored noopener" target="_blank"'
+    disc_html = f'<span class="price--off">-{int(disc)}%</span>' if disc else ""
+    return (
+        '<article class="product-card">'
+        f'<a href="{href}"{rel} class="product-card__img">'
+        f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
+        '<div class="product-card__body">'
+        f'<h3 class="product-card__title"><a href="{href}"{rel}>{title}</a></h3>'
+        f'<div class="product-card__price"><span class="price">{sym}{price}</span>'
+        f'<span class="price--old">{sym}{original}</span>{disc_html}</div>'
+        f'<p class="product-card__meta">{ui.get("card_rating", "Rating")}: {rating}/5 &middot; {reviews} {ui.get("card_reviews", "reviews")}</p>'
+        f'<a class="btn-cta product-card__cta" href="{href}"{rel}>{ui.get("card_see_deal", "See deal &#8594;")}</a>'
+        "</div></article>"
+    )
+
+
+def article_products_section_html(products: list, T: dict, limit: int = 4) -> str:
+    """In-article recommended-products section: cards link directly to the
+    affiliate URL (the products have no internal page). Title from the
+    blog_post.recommended_products i18n label, not a raw slug."""
+    items = [p for p in products if p.get("affiliate_url")][:limit]
+    if not items:
+        return ""
+    title = T.get("blog_post", {}).get("recommended_products", "Recommended products")
+    cards = "".join(article_product_card_html(p, T) for p in items)
+    return (
+        '<section class="related-products">'
+        f'<h2 class="related-products__title">{title}</h2>'
+        f'<div class="product-grid">{cards}</div>'
+        '</section>'
+    )
+
+
 def _extract_faq_schema(content_html: str) -> str:
     pairs = re.findall(
         r'<summary[^>]*>(.*?)</summary>\s*<(?:p|div)[^>]*>(.*?)</(?:p|div)>',
@@ -664,8 +713,8 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
                 break
         related_section = ""
         if slug in _article_products and _article_products[slug].get("products"):
-            related_section = related_products_section_html(
-                slug, _article_products, site_url, lang, T, limit=4, max_price=max_price
+            related_section = article_products_section_html(
+                _article_products[slug]["products"], T, limit=4
             )
         if not related_section:
             related_section = related_products_section_html(
