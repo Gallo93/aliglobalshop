@@ -126,6 +126,22 @@ _TITLE_GLOSSARY = {
         "robot vacuum": "Saugroboter",
         "coupon codes": "Gutschein-Codes",
     },
+    "fr": {
+        "smart bulbs": "ampoules connectées",
+        "smart bulb": "ampoule connectée",
+        "smart home": "maison connectée",
+        "home gym": "salle de sport à domicile",
+        "power bank": "batterie externe",
+        "earbuds": "écouteurs sans fil",
+        "wireless earbuds": "écouteurs sans fil",
+        "smartwatches": "montres connectées",
+        "smartwatch": "montre connectée",
+        "yoga gear": "équipement de yoga",
+        "travel gadgets": "gadgets de voyage",
+        "bike accessories": "accessoires de vélo",
+        "robot vacuum": "aspirateur robot",
+        "coupon codes": "codes coupon",
+    },
 }
 
 # Currency symbols per target currency, used to normalize a stray source "$"
