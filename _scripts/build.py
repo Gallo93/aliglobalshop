@@ -748,7 +748,7 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
                 category_slug, products_by_cat, site_url, lang, T, limit=4,
                 max_price=max_price, topic_kws=topic_kws
             )
-        og_image = f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
+        og_image = article.get("image_url") or f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
         content_html = article.get("content_html", article.get("content", ""))
         content_html = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content_html, flags=re.IGNORECASE)
         content_html = re.sub(r'</h1>', '</h2>', content_html, flags=re.IGNORECASE)
