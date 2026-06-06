@@ -236,7 +236,7 @@ def deal_card_html(deal: dict, site_url: str, lang: str, T: dict) -> str:
         link_rel = ""
     else:
         href = esc(deal.get("affiliate_url", f"{site_url}/{lang}/flash-sale/"))
-        link_rel = ' rel="nofollow sponsored"'
+        link_rel = ' rel="nofollow sponsored noopener"'
     img = esc(deal.get("image_url", ""))
     title = esc(deal.get("title", ""))
     alt = esc(alt_text(deal.get("title", "")))
@@ -271,7 +271,7 @@ def coupon_card_html(coupon: dict, site_url: str, lang: str, T: dict) -> str:
     href = esc(coupon.get("affiliate_url", f"{site_url}/{lang}/coupons/"))
     disc_html = f'<span class="coupon-badge">-{int(disc)}% {ui.get("card_off", "OFF")}</span>' if disc else ""
     img_html = (
-        f'<a href="{href}" rel="nofollow sponsored" class="product-card__img">'
+        f'<a href="{href}" rel="nofollow sponsored noopener" class="product-card__img">'
         f'<img src="{img}" alt="{alt}" width="300" height="300" loading="lazy" decoding="async"></a>'
     ) if img else ""
     return (
@@ -279,10 +279,10 @@ def coupon_card_html(coupon: dict, site_url: str, lang: str, T: dict) -> str:
         f'{img_html}'
         '<div class="product-card__body">'
         f'{disc_html}'
-        f'<h3 class="product-card__title"><a href="{href}" rel="nofollow sponsored">{title}</a></h3>'
+        f'<h3 class="product-card__title"><a href="{href}" rel="nofollow sponsored noopener">{title}</a></h3>'
         f'<div class="product-card__price"><span class="price">{price}</span>'
         f'<span class="price--old">{original}</span></div>'
-        f'<a class="btn-cta product-card__cta" href="{href}" rel="nofollow sponsored">{ui.get("card_get_deal", "Get deal &#8594;")}</a>'
+        f'<a class="btn-cta product-card__cta" href="{href}" rel="nofollow sponsored noopener">{ui.get("card_get_deal", "Get deal &#8594;")}</a>'
         "</div></article>"
     )
 
