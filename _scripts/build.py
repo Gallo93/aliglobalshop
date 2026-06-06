@@ -475,6 +475,7 @@ def build_home(site_url: str, lang: str, T: dict, out_dir: Path,
     for key, value in h.items():
         ctx[f"h_{key}"] = value
     ctx["title"] = h.get("title", "")
+    ctx["site_description"] = h.get("meta_desc", SITE_DESCRIPTION)
     ctx.update({
         "canonical_url": f"{site_url}/{lang}/",
         "hreflang_alternates": hreflang_alternates(site_url, "", languages, default_lang),
