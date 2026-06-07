@@ -358,7 +358,7 @@ def translate_products_file(src_path: Path, dst_path: Path, translate,
         return False
     raw = json.dumps(data, ensure_ascii=False, sort_keys=True)
     h = source_hash(raw)
-    cache_key = str(dst_path.relative_to(DATA_DIR))
+    cache_key = dst_path.relative_to(DATA_DIR).as_posix()
     if not force and cache.get(cache_key) == h and dst_path.exists():
         print(f"  [skip] {cache_key} (unchanged)")
         return False
@@ -404,7 +404,7 @@ def translate_blog_file(src_path: Path, dst_path: Path, lang: str, translate,
         return False
     raw = json.dumps(data, ensure_ascii=False, sort_keys=True)
     h = source_hash(raw)
-    cache_key = str(dst_path.relative_to(DATA_DIR))
+    cache_key = dst_path.relative_to(DATA_DIR).as_posix()
     if not force and cache.get(cache_key) == h and dst_path.exists():
         print(f"  [skip] {cache_key} (unchanged)")
         return False
