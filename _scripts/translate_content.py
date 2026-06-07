@@ -126,6 +126,22 @@ _TITLE_GLOSSARY = {
         "robot vacuum": "Saugroboter",
         "coupon codes": "Gutschein-Codes",
     },
+    "fr": {
+        "smart bulbs": "ampoules connectées",
+        "smart bulb": "ampoule connectée",
+        "smart home": "maison connectée",
+        "home gym": "salle de sport à domicile",
+        "power bank": "batterie externe",
+        "earbuds": "écouteurs sans fil",
+        "wireless earbuds": "écouteurs sans fil",
+        "smartwatches": "montres connectées",
+        "smartwatch": "montre connectée",
+        "yoga gear": "équipement de yoga",
+        "travel gadgets": "gadgets de voyage",
+        "bike accessories": "accessoires de vélo",
+        "robot vacuum": "aspirateur robot",
+        "coupon codes": "codes coupon",
+    },
 }
 
 # Currency symbols per target currency, used to normalize a stray source "$"
@@ -342,7 +358,7 @@ def translate_products_file(src_path: Path, dst_path: Path, translate,
         return False
     raw = json.dumps(data, ensure_ascii=False, sort_keys=True)
     h = source_hash(raw)
-    cache_key = str(dst_path.relative_to(DATA_DIR))
+    cache_key = dst_path.relative_to(DATA_DIR).as_posix()
     if not force and cache.get(cache_key) == h and dst_path.exists():
         print(f"  [skip] {cache_key} (unchanged)")
         return False
@@ -388,7 +404,7 @@ def translate_blog_file(src_path: Path, dst_path: Path, lang: str, translate,
         return False
     raw = json.dumps(data, ensure_ascii=False, sort_keys=True)
     h = source_hash(raw)
-    cache_key = str(dst_path.relative_to(DATA_DIR))
+    cache_key = dst_path.relative_to(DATA_DIR).as_posix()
     if not force and cache.get(cache_key) == h and dst_path.exists():
         print(f"  [skip] {cache_key} (unchanged)")
         return False
