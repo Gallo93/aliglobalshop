@@ -51,7 +51,7 @@
   "home": {
     "title": "Las mejores ofertas, cupones y ofertas flash de AliExpress",
     "og_title": "Las mejores ofertas de AliExpress",
-    "meta_desc": "Ofertas de AliExpress seleccionadas, ofertas flash en directo y cupones que funcionan, actualizados cada d&iacute;a.",
+    "meta_desc": "Ofertas de AliExpress seleccionadas y actualizadas cada d&iacute;a: electr&oacute;nica, gadgets para el hogar, deporte, ofertas flash en directo y cupones.",
     "ticker_updated": "Ofertas actualizadas cada 6 horas",
     "ticker_handpicked": "Seleccionadas a mano, sin basura de dropshipping",
     "ticker_flash": "Ofertas flash: stock limitado, terminan pronto",
@@ -89,7 +89,7 @@
   },
   "category": {
     "title": "Ofertas de {category_name} en AliExpress | {site_title}",
-    "meta_desc": "Las mejores ofertas de {category_name} en AliExpress, seleccionadas a mano y actualizadas a diario. Precios, valoraciones y cupones verificados.",
+    "meta_desc": "Las mejores ofertas de {category_name} en AliExpress, seleccionadas a mano y actualizadas a diario. Precios, valoraciones, rese&ntilde;as y cupones verificados.",
     "og_title": "Ofertas de {category_name} en AliExpress",
     "og_desc": "Las mejores ofertas de {category_name} en AliExpress, seleccionadas a mano y actualizadas a diario.",
     "lede_updated": "Actualizado",
@@ -148,7 +148,7 @@
   },
   "flash": {
     "title": "Ofertas Flash: ofertas de AliExpress por tiempo limitado | {site_title}",
-    "meta_desc": "Ofertas flash de AliExpress en directo con temporizadores de cuenta atr&aacute;s. Date prisa, estas ofertas terminan pronto.",
+    "meta_desc": "Ofertas flash de AliExpress en directo con temporizadores y descuentos verificados en electr&oacute;nica, gadgets y m&aacute;s. Date prisa, terminan muy pronto.",
     "og_title": "Ofertas Flash: ofertas de AliExpress por tiempo limitado",
     "og_desc": "Ofertas flash de AliExpress en directo con temporizadores de cuenta atr&aacute;s.",
     "h1": "Ofertas Flash",

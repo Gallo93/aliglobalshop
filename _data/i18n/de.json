@@ -51,7 +51,7 @@
   "home": {
     "title": "Die besten AliExpress-Angebote, Gutscheine und Blitzangebote",
     "og_title": "Die besten AliExpress-Angebote",
-    "meta_desc": "Ausgew&auml;hlte AliExpress-Angebote, Live-Blitzangebote und funktionierende Gutscheine, t&auml;glich aktualisiert.",
+    "meta_desc": "Handverlesene AliExpress-Angebote, t&auml;glich aktualisiert: Elektronik, Smart-Home-Gadgets, Sport, Live-Blitzangebote und funktionierende Gutscheine.",
     "ticker_updated": "Angebote alle 6 Stunden aktualisiert",
     "ticker_handpicked": "Handverlesen, kein Dropshipping-Schrott",
     "ticker_flash": "Blitzangebote: begrenzter Vorrat, enden bald",
@@ -89,7 +89,7 @@
   },
   "category": {
     "title": "{category_name}-Angebote bei AliExpress | {site_title}",
-    "meta_desc": "Die besten {category_name}-Angebote bei AliExpress, handverlesen und t&auml;glich aktualisiert. Verifizierte Preise, Bewertungen und Gutscheine.",
+    "meta_desc": "Die besten {category_name}-Angebote bei AliExpress, handverlesen und t&auml;glich aktualisiert. Verifizierte Preise, Bewertungen, Rezensionen und Gutscheine.",
     "og_title": "{category_name}-Angebote bei AliExpress",
     "og_desc": "Die besten {category_name}-Angebote bei AliExpress, handverlesen und t&auml;glich aktualisiert.",
     "lede_updated": "Aktualisiert",
@@ -148,7 +148,7 @@
   },
   "flash": {
     "title": "Blitzangebote: zeitlich begrenzte AliExpress-Angebote | {site_title}",
-    "meta_desc": "Live-AliExpress-Blitzangebote mit Countdown-Timern. Beeil dich, diese Angebote enden bald.",
+    "meta_desc": "Live-AliExpress-Blitzangebote mit Countdown-Timern und gepr&uuml;ften Rabatten auf Elektronik, Gadgets und mehr. Beeil dich, diese Angebote enden bald.",
     "og_title": "Blitzangebote: zeitlich begrenzte AliExpress-Angebote",
     "og_desc": "Live-AliExpress-Blitzangebote mit Countdown-Timern.",
     "h1": "Blitzangebote",

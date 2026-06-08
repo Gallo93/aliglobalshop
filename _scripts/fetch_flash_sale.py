@@ -124,6 +124,38 @@ def is_blacklisted(title: str) -> bool:
     return any(p.search(title) for p in BLACKLIST_PATTERNS)
 
 
+# Conteggio tracking affiliate: deal totali vs quanti sono caduti sul fallback
+# non tracciato (promotion_link assente dall'API = commissione persa).
+_tracking_stats = {"total": 0, "untracked": 0}
+
+
+def resolve_affiliate_url(raw: dict) -> str:
+    """URL affiliate del deal: usa promotion_link (tracciato) se presente,
+    altrimenti fa fallback su product_detail_url (NON tracciato). Il fallback
+    resta invariato, ma quando scatta lo segnala esplicitamente nei log e lo
+    conta per il riepilogo di fine fetch."""
+    _tracking_stats["total"] += 1
+    promo = raw.get("promotion_link")
+    if promo:
+        return promo
+    _tracking_stats["untracked"] += 1
+    product_id = str(raw.get("product_id", ""))
+    title = str(raw.get("product_title", ""))[:60]
+    print(f"  [TRACKING-WARN] product_id={product_id} \"{title}\": "
+          f"promotion_link assente dall'API, fallback a URL NON tracciato")
+    return raw.get("product_detail_url", "")
+
+
+def tracking_summary() -> None:
+    """Stampa un riepilogo se almeno un deal e' caduto sul fallback non
+    tracciato. Da chiamare a fine main()."""
+    untracked = _tracking_stats["untracked"]
+    total = _tracking_stats["total"]
+    if untracked:
+        print(f"[TRACKING-WARN] {untracked}/{total} prodotti senza "
+              f"promotion_link (tracking perso)")
+
+
 def build_entry(raw: dict, hosted_image: str, expires_at_iso: str) -> dict:
     product_id = str(raw.get("product_id", ""))
     title = raw.get("product_title", "")
@@ -147,7 +179,7 @@ def build_entry(raw: dict, hosted_image: str, expires_at_iso: str) -> dict:
         "price": raw.get("target_sale_price"),
         "original_price": raw.get("target_original_price"),
         "discount_pct": discount_pct,
-        "affiliate_url": raw.get("promotion_link") or raw.get("product_detail_url", ""),
+        "affiliate_url": resolve_affiliate_url(raw),
         "image_url": hosted_image,
         "rating": rating,
         "reviews_count": raw.get("lastest_volume"),
@@ -222,6 +254,8 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"  -> {len(products)} flash deals -> {out_path}")
+
+    tracking_summary()
 
 
 if __name__ == "__main__":
