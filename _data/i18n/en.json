@@ -51,7 +51,7 @@
   "home": {
     "title": "Best AliExpress Deals, Coupons &amp; Flash Sales",
     "og_title": "Best AliExpress Deals",
-    "meta_desc": "Curated AliExpress deals, live flash sales and working coupons, updated every day.",
+    "meta_desc": "Hand-picked AliExpress deals updated daily: electronics, smart home gadgets, sport gear, live flash sales and working coupons in one place.",
     "ticker_updated": "Deals updated every 6 hours",
     "ticker_handpicked": "Hand-picked, no dropshipping garbage",
     "ticker_flash": "Flash sales: limited stock, ends soon",
@@ -89,7 +89,7 @@
   },
   "category": {
     "title": "{category_name} Deals on AliExpress | {site_title}",
-    "meta_desc": "Top {category_name} deals on AliExpress, hand-picked and updated daily. Verified prices, ratings and coupons.",
+    "meta_desc": "Top {category_name} deals on AliExpress, hand-picked and updated daily. Compare verified prices, ratings, reviews and working coupons before you buy.",
     "og_title": "{category_name} Deals on AliExpress",
     "og_desc": "Top {category_name} deals on AliExpress, hand-picked and updated daily.",
     "lede_updated": "Updated",
@@ -148,7 +148,7 @@
   },
   "flash": {
     "title": "Flash Sale: limited-time AliExpress deals | {site_title}",
-    "meta_desc": "Live AliExpress flash sales with countdown timers. Hurry, these deals end soon.",
+    "meta_desc": "Live AliExpress flash sales with real countdown timers and verified discounts on electronics, gadgets and more. Hurry, these deals end very soon.",
     "og_title": "Flash Sale: limited-time AliExpress deals",
     "og_desc": "Live AliExpress flash sales with countdown timers.",
     "h1": "Flash Sale",

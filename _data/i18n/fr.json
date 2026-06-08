@@ -51,7 +51,7 @@
   "home": {
     "title": "Les meilleures offres, coupons et ventes flash AliExpress",
     "og_title": "Les meilleures offres AliExpress",
-    "meta_desc": "Offres AliExpress s&eacute;lectionn&eacute;es, ventes flash en direct et coupons qui fonctionnent, mis &agrave; jour chaque jour.",
+    "meta_desc": "Offres AliExpress s&eacute;lectionn&eacute;es et mises &agrave; jour chaque jour : &eacute;lectronique, gadgets maison, sport, ventes flash en direct et coupons valides.",
     "ticker_updated": "Offres mises &agrave; jour toutes les 6 heures",
     "ticker_handpicked": "S&eacute;lectionn&eacute;es &agrave; la main, sans camelote dropshipping",
     "ticker_flash": "Ventes flash : stocks limit&eacute;s, &ccedil;a finit vite",
@@ -89,7 +89,7 @@
   },
   "category": {
     "title": "Offres {category_name} sur AliExpress | {site_title}",
-    "meta_desc": "Les meilleures offres {category_name} sur AliExpress, s&eacute;lectionn&eacute;es &agrave; la main et mises &agrave; jour chaque jour. Prix, notes et coupons v&eacute;rifi&eacute;s.",
+    "meta_desc": "Les meilleures offres {category_name} sur AliExpress, s&eacute;lectionn&eacute;es &agrave; la main et mises &agrave; jour chaque jour. Prix, notes, avis et coupons v&eacute;rifi&eacute;s.",
     "og_title": "Offres {category_name} sur AliExpress",
     "og_desc": "Les meilleures offres {category_name} sur AliExpress, s&eacute;lectionn&eacute;es &agrave; la main et mises &agrave; jour chaque jour.",
     "lede_updated": "Mis &agrave; jour",
@@ -148,7 +148,7 @@
   },
   "flash": {
     "title": "Ventes Flash : offres AliExpress &agrave; dur&eacute;e limit&eacute;e | {site_title}",
-    "meta_desc": "Ventes flash AliExpress en temps r&eacute;el avec compte &agrave; rebours. D&eacute;p&ecirc;chez-vous, ces offres finissent vite.",
+    "meta_desc": "Ventes flash AliExpress en direct avec comptes &agrave; rebours et remises v&eacute;rifi&eacute;es sur l&#39;&eacute;lectronique, les gadgets et plus. D&eacute;p&ecirc;chez-vous, &ccedil;a finit vite.",
     "og_title": "Ventes Flash : offres AliExpress &agrave; dur&eacute;e limit&eacute;e",
     "og_desc": "Ventes flash AliExpress en temps r&eacute;el avec compte &agrave; rebours.",
     "h1": "Ventes Flash",

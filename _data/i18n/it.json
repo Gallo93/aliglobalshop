@@ -51,7 +51,7 @@
   "home": {
     "title": "Le migliori offerte, coupon e offerte lampo AliExpress",
     "og_title": "Le migliori offerte AliExpress",
-    "meta_desc": "Offerte AliExpress selezionate, offerte lampo dal vivo e coupon funzionanti, aggiornati ogni giorno.",
+    "meta_desc": "Offerte AliExpress selezionate e aggiornate ogni giorno: elettronica, gadget per la casa, articoli sportivi, offerte lampo e coupon funzionanti.",
     "ticker_updated": "Offerte aggiornate ogni 6 ore",
     "ticker_handpicked": "Selezionate a mano, niente robaccia dropshipping",
     "ticker_flash": "Offerte lampo: scorte limitate, finiscono presto",
@@ -89,7 +89,7 @@
   },
   "category": {
     "title": "Offerte {category_name} su AliExpress | {site_title}",
-    "meta_desc": "Le migliori offerte {category_name} su AliExpress, selezionate a mano e aggiornate ogni giorno. Prezzi, valutazioni e coupon verificati.",
+    "meta_desc": "Le migliori offerte {category_name} su AliExpress, selezionate a mano e aggiornate ogni giorno. Prezzi, valutazioni, recensioni e coupon verificati.",
     "og_title": "Offerte {category_name} su AliExpress",
     "og_desc": "Le migliori offerte {category_name} su AliExpress, selezionate a mano e aggiornate ogni giorno.",
     "lede_updated": "Aggiornato",
@@ -148,7 +148,7 @@
   },
   "flash": {
     "title": "Offerte Lampo: offerte AliExpress a tempo | {site_title}",
-    "meta_desc": "Offerte lampo AliExpress in tempo reale con timer di conto alla rovescia. Affrettati, queste offerte finiscono presto.",
+    "meta_desc": "Offerte lampo AliExpress in tempo reale con timer e sconti verificati su elettronica, gadget e altro. Affrettati, queste offerte finiscono presto.",
     "og_title": "Offerte Lampo: offerte AliExpress a tempo",
     "og_desc": "Offerte lampo AliExpress in tempo reale con timer di conto alla rovescia.",
     "h1": "Offerte Lampo",
