@@ -971,6 +971,15 @@ def build_robots(site_url: str) -> None:
     write_file(BASE_DIR / "robots.txt", content)
 
 
+def build_indexnow_key(indexnow_key: str) -> None:
+    """Write the IndexNow key verification file to the output root so it is
+    served at https://<host>/<key>.txt (content = the key). Required by the
+    IndexNow protocol to prove ownership before accepting URL submissions."""
+    if not indexnow_key:
+        return
+    write_file(BASE_DIR / f"{indexnow_key}.txt", indexnow_key)
+
+
 def build_404(site_url: str, default_lang: str, T: dict, languages: list) -> None:
     nf = T.get("notfound", {})
     ui = T.get("ui", {})
@@ -1147,6 +1156,7 @@ def main() -> None:
 
     build_sitemap(site_url, languages, sitemap_products, sitemap_articles)
     build_robots(site_url)
+    build_indexnow_key(config.get("indexnow_key", ""))
     build_404(site_url, default_lang, load_i18n(default_lang), languages)
     build_root_index(site_url, languages, default_lang)
 
