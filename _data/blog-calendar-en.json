@@ -5,110 +5,97 @@
     "category": "electronics",
     "intent": "commercial",
     "used": true,
-    "used_at": "2026-05-26"
+    "used_at": "2026-06-08"
   },
   {
     "topic": "Top AliExpress smart home gadgets to buy in 2026",
     "primary_keyword": "aliexpress smart home gadgets",
     "category": "smart-home",
     "intent": "commercial",
-    "used": true,
-    "used_at": "2026-05-27"
+    "used": false
   },
   {
     "topic": "AliExpress fitness deals: best home gym equipment 2026",
     "primary_keyword": "aliexpress home gym equipment",
     "category": "sport",
     "intent": "commercial",
-    "used": true,
-    "used_at": "2026-05-27"
+    "used": false
   },
   {
     "topic": "Cool AliExpress gadgets under $10 for everyday life",
     "primary_keyword": "cool aliexpress gadgets under 10",
     "category": "gadgets",
     "intent": "commercial",
-    "used": true,
-    "used_at": "2026-05-28"
+    "used": false
   },
   {
     "topic": "How to find legit AliExpress coupon codes that actually work",
     "primary_keyword": "aliexpress coupon codes that work",
     "category": "gadgets",
     "intent": "informational",
-    "used": true,
-    "used_at": "2026-06-03"
+    "used": false
   },
   {
     "topic": "AliExpress Flash Sale vs SuperDeals: which one saves more?",
     "primary_keyword": "aliexpress flash sale vs superdeals",
     "category": "electronics",
     "intent": "informational",
-    "used": true,
-    "used_at": "2026-06-03"
+    "used": false
   },
   {
     "topic": "Is AliExpress safe in the UK? A 2026 buyer's guide",
     "primary_keyword": "is aliexpress safe uk",
     "category": "gadgets",
     "intent": "informational",
-    "used": true,
-    "used_at": "2026-06-04"
+    "used": false
   },
   {
     "topic": "Best AliExpress smartwatches under $50: 2026 picks",
     "primary_keyword": "best aliexpress smartwatches under 50",
     "category": "electronics",
     "intent": "commercial",
-    "used": true,
-    "used_at": "2026-06-04"
+    "used": false
   },
   {
     "topic": "Smart bulbs and plugs on AliExpress: which brands to trust",
     "primary_keyword": "aliexpress smart bulbs reviews",
     "category": "smart-home",
     "intent": "informational",
-    "used": true,
-    "used_at": "2026-06-05"
+    "used": false
   },
   {
     "topic": "AliExpress robot vacuums: are the cheap ones any good?",
     "primary_keyword": "aliexpress robot vacuum reviews",
     "category": "smart-home",
     "intent": "commercial",
-    "used": true,
-    "used_at": "2026-06-05"
+    "used": false
   },
   {
     "topic": "Cycling on a budget: best AliExpress bike accessories 2026",
     "primary_keyword": "aliexpress bike accessories",
     "category": "sport",
     "intent": "commercial",
-    "used": true,
-    "used_at": "2026-06-06"
+    "used": false
   },
   {
     "topic": "AliExpress yoga and pilates gear: what is worth buying",
     "primary_keyword": "aliexpress yoga gear",
     "category": "sport",
     "intent": "commercial",
-    "used": true,
-    "used_at": "2026-06-06"
+    "used": false
   },
   {
     "topic": "Travel gadgets from AliExpress every traveler should own",
     "primary_keyword": "aliexpress travel gadgets",
     "category": "gadgets",
     "intent": "informational",
-    "used": true,
-    "used_at": "2026-06-07"
+    "used": false
   },
   {
     "topic": "AliExpress shipping to the UK: times, costs and tips",
     "primary_keyword": "aliexpress shipping to uk",
     "category": "gadgets",
     "intent": "informational",
-    "used": true,
-    "used_at": "2026-06-07"
+    "used": false
   }
 ]
