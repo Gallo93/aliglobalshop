@@ -144,8 +144,14 @@ def truncate_word_boundary(text: str, limit: int) -> str:
     if len(text) <= limit:
         return text
     cut = text[:limit].rstrip()
-    if " " in cut:
-        cut = cut[: cut.rfind(" ")].rstrip()
+    # Only drop back to the previous space when the cut actually split a word,
+    # i.e. both the char before the limit and the char at the limit are
+    # non-space. If either is a space the cut already sits on a word boundary,
+    # so the rstripped slice is kept as-is (avoids discarding a whole extra
+    # word, e.g. "... AliExpress 2026" -> "... AliExpress", not "... $20").
+    if not text[limit - 1].isspace() and not text[limit].isspace():
+        if " " in cut:
+            cut = cut[: cut.rfind(" ")].rstrip()
     return cut
 
 
