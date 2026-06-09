@@ -28,7 +28,8 @@
     "primary_keyword": "cool aliexpress gadgets under 10",
     "category": "gadgets",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-09"
   },
   {
     "topic": "How to find legit AliExpress coupon codes that actually work",
