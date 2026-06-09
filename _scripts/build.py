@@ -134,6 +134,97 @@ def alt_text(title: str, limit: int = 125) -> str:
     return cut
 
 
+def truncate_word_boundary(text: str, limit: int) -> str:
+    """Truncate `text` to at most `limit` chars on a word boundary, with no
+    ellipsis and no em-dash (mirrors alt_text). Used for the <title> tag and
+    the meta description so they stay within their SEO length budgets without
+    cutting a word mid-way."""
+    if not text:
+        return ""
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rstrip()
+    if " " in cut:
+        cut = cut[: cut.rfind(" ")].rstrip()
+    return cut
+
+
+# Range connectors across the active languages (EN to/and, IT a/e/o, ES a/y/o,
+# FR a/et, DE bis/und), plus dash forms. Used only to convert the leading bare
+# operand of a range such as the FR "3 a 7 $" where only the trailing operand
+# carries the symbol; the connector text itself is preserved.
+_RANGE_WORDS = r'(?:to|and|a|e|et|y|au|bis|und|o)'
+_LEADING_BARE_IN_RANGE_RE = re.compile(
+    r'(\d[\d.,]*)(\s*(?:-|–|\s' + _RANGE_WORDS + r'\s)\s*)(?=\d[\d.,]*\s*\$)',
+    re.IGNORECASE,
+)
+# A monetary token in either order: leading "$<num>" ("$8", "$ 3", "$1,299.00",
+# "$8.50") or trailing "<num> $" ("8 $", "60 $") left by the FR translation.
+_USD_TOKEN_RE = re.compile(r'\$\s*\d[\d.,]*|\d[\d.,]*\s*\$')
+_USD_NUM_RE = re.compile(r'\d[\d.,]*')
+
+# Fallback rate mirrors translate_content._DEFAULT_FX_RATES. Duplicated (small,
+# stable) to avoid importing the translation module into the builder.
+_DEFAULT_FX_RATES = {"EUR": 0.92}
+
+
+def _resolve_fx_rate(config: dict, target_currency: str):
+    """Rate to multiply a USD price by, mirroring translate_content.resolve_fx_rate:
+    env FX_RATE_<CUR> > config fx_rates > built-in default. None disables it."""
+    if not target_currency or target_currency == "USD":
+        return None
+    import os
+    env_key = f"FX_RATE_{target_currency.upper()}"
+    if os.getenv(env_key):
+        try:
+            return float(os.getenv(env_key))
+        except (TypeError, ValueError):
+            pass
+    rates = (config or {}).get("fx_rates", {}) or {}
+    if target_currency in rates:
+        try:
+            return float(rates[target_currency])
+        except (TypeError, ValueError):
+            pass
+    return _DEFAULT_FX_RATES.get(target_currency)
+
+
+def _usd_amount_to_target(num_str: str, T: dict, fx_rate: float):
+    """Convert a single USD numeric token (thousands ',', decimal '.') to the
+    build currency, returning the plain-symbol string (e.g. '7,36 €')."""
+    try:
+        usd = float(num_str.replace(",", "").strip())
+    except (TypeError, ValueError):
+        return None
+    return _format_price_plain(round(usd * fx_rate, 2), T)
+
+
+def localize_prices_in_html(content_html: str, T: dict, fx_rate) -> str:
+    """Convert literal USD amounts left in a translated content_html to the
+    build currency, so the article body matches the EUR product cards below it.
+    No-op for the source currency (USD) or when fx is unavailable, and
+    idempotent: once converted no '$' remains, so a re-run changes nothing."""
+    if not content_html or fx_rate is None or currency_code(T) == "USD":
+        return content_html
+    try:
+        def _leading(m):
+            out = _usd_amount_to_target(m.group(1), T, fx_rate)
+            return (out + m.group(2)) if out else m.group(0)
+        text = _LEADING_BARE_IN_RANGE_RE.sub(_leading, content_html)
+
+        def _token(m):
+            tok = m.group(0)
+            num = _USD_NUM_RE.search(tok)
+            if not num:
+                return tok
+            out = _usd_amount_to_target(num.group(0), T, fx_rate)
+            return out if out else tok
+        return _USD_TOKEN_RE.sub(_token, text)
+    except Exception as exc:
+        print(f"[warn] price localization failed, keeping body: {exc}")
+        return content_html
+
+
 def _price_val(product: dict) -> float:
     try:
         return float(product.get("price", 9999) or 9999)
@@ -734,7 +825,8 @@ def _redirect_stub_html(site_url: str, lang: str, target_slug: str, site_title: 
 
 
 def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
-                     languages: list, default_lang: str, articles: list, products_by_cat: dict) -> None:
+                     languages: list, default_lang: str, articles: list, products_by_cat: dict,
+                     fx_rate=None) -> None:
     tpl = load_template("blog-post.html")
     bp = T.get("blog_post", {})
 
@@ -784,6 +876,7 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
         content_html = article.get("content_html", article.get("content", ""))
         content_html = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content_html, flags=re.IGNORECASE)
         content_html = re.sub(r'</h1>', '</h2>', content_html, flags=re.IGNORECASE)
+        content_html = localize_prices_in_html(content_html, T, fx_rate)
         faq_schema_html = _extract_faq_schema(content_html)
         related_articles_html = related_articles_section_html(
             article, visible_articles(articles), site_url, lang, T, limit=3)
@@ -798,9 +891,11 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             "lang_switcher_html": lang_switcher_html(site_url, lang, f"blog/{slug}/", languages),
             "title": esc(article.get("title", "")),
             "title_short": esc(short_title(article.get("title", ""), 60)),
+            "seo_title": esc(truncate_word_boundary(article.get("title", ""), 43)),
             "slug": esc(slug),
             "date": esc(article.get("date", "")),
-            "meta_description": esc(article.get("meta_desc", article.get("meta_description", ""))),
+            "meta_description": esc(truncate_word_boundary(
+                article.get("meta_desc", article.get("meta_description", "")), 155)),
             "content_html": content_html,
             "reading_time_min": esc(article.get("reading_time_min", 5)),
             "og_image": og_image,
@@ -1115,8 +1210,10 @@ def clean_output(out_dir: Path) -> None:
                 child.unlink()
 
 
-def build_language(site_url: str, lang: str, languages: list, default_lang: str) -> None:
+def build_language(site_url: str, lang: str, languages: list, default_lang: str,
+                   config: dict = None) -> None:
     T = load_i18n(lang)
+    fx_rate = _resolve_fx_rate(config or {}, currency_code(T))
     out_dir = BASE_DIR / lang
     out_dir.mkdir(parents=True, exist_ok=True)
     clean_output(out_dir)
@@ -1135,7 +1232,7 @@ def build_language(site_url: str, lang: str, languages: list, default_lang: str)
     build_categories(site_url, lang, T, out_dir, languages, default_lang, products_by_cat)
     build_products(site_url, lang, T, out_dir, languages, default_lang, products_by_cat)
     build_blog_index(site_url, lang, T, out_dir, languages, default_lang, listed)
-    build_blog_posts(site_url, lang, T, out_dir, languages, default_lang, articles, products_by_cat)
+    build_blog_posts(site_url, lang, T, out_dir, languages, default_lang, articles, products_by_cat, fx_rate)
     build_flash_sale(site_url, lang, T, out_dir, languages, default_lang, flash_deals, flash_updated)
     build_coupons(site_url, lang, T, out_dir, languages, default_lang, coupons, coupons_updated)
     build_static_pages(site_url, lang, T, out_dir, languages, default_lang)
@@ -1152,7 +1249,7 @@ def main() -> None:
     sitemap_articles = visible_articles(load_articles(default_lang))
 
     for lang in languages:
-        build_language(site_url, lang, languages, default_lang)
+        build_language(site_url, lang, languages, default_lang, config)
 
     build_sitemap(site_url, languages, sitemap_products, sitemap_articles)
     build_robots(site_url)
