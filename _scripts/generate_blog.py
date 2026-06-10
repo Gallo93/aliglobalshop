@@ -24,15 +24,6 @@ EXIT_API_ERROR = 3
 EXIT_INVALID_JSON = 4
 EXIT_NO_CREDIT = 5
 
-AFFILIATE_DISCLAIMER = (
-    '<p class="article-disclaimer">'
-    '<em>Affiliate disclosure: AliGlobalShop earns a commission on qualifying purchases '
-    'made through links on this page, at no extra cost to you. '
-    'Prices and availability are subject to change, always check the product page for the current price. '
-    'This article is for informational purposes only and does not constitute professional advice.'
-    '</em></p>'
-)
-
 PROMPT = """You are an expert SEO copywriter for aliglobalshop.com, an AliExpress affiliate site.
 CURRENT YEAR: {year}
 KEYWORD TARGET: {primary_keyword}
@@ -50,16 +41,27 @@ STRICT REQUIREMENTS:
 - category: match the CATEGORY field above
 - NEVER use em-dashes (—). Use commas, colons, or rephrase instead.
 
-CONTENT STRUCTURE (use exactly this order):
+LENGTH AND FORMATTING:
+- Target 1000 to 1200 words of body content. Do not pad to reach the count, cut anything that repeats.
+- Break up long sections: use <h3> subheadings and <ul>/<ol> bullet lists wherever you compare options, list features, or give steps. No wall-of-text sections.
+- At least one section <h2> must contain the exact phrase "{primary_keyword}" (or a tight variant that keeps every keyword word). The other <h2> headings use natural variants.
+
+CONTENT STRUCTURE (use this order):
 1. <h1> matching title, includes primary keyword
-2. Intro paragraph (80-120 words): hook + pain point + promise
-3. <h2> uses a natural variation of the topic, NOT the exact keyword phrase
-4. 2-3 paragraphs (150-200 words each) with practical tips, comparisons, buying advice
+2. Intro paragraph (80-120 words): hook + pain point + promise. Open with a concrete, specific angle for THIS topic (a scenario, a number, a question). Do NOT open with a generic budget cliche.
+3. <h2> a section heading (one of the H2s contains the keyword per the rule above)
+4. 2-4 sections of paragraphs (120-180 words each) plus <h3> + <ul>/<ol> where it helps, with practical tips, comparisons, buying advice
 5. Include 1-2 internal links to the category page: <a href="{category_url}">browse all {category} deals</a>
 6. <h2> FAQ heading uses conversational language (e.g. "Common Questions Answered"), not the exact keyword
 7. FAQ section: wrap in <div class="faq"> and use <details><summary>Question?</summary><p>Answer (2-3 sentences).</p></details> for EACH question. Minimum 3 questions.
-8. <h2> Final Verdict or Conclusion (may include keyword once)
+8. <h2> conclusion heading: write a fresh, specific heading for THIS article. Do NOT use "Final Verdict", "Is It Worth It in {year}", or any cloned title of that shape.
 9. Conclusion paragraph (60-80 words)
+
+BANNED PHRASES (do not use these or close paraphrases, they recur in every article and must stop):
+- "should not drain your wallet", "should not cost a fortune", "won't break the bank"
+- "This guide breaks down", "In this guide", "this comprehensive guide"
+- "Final Verdict", "Is It Worth It in {year}"
+Vary the opening sentence and every section heading so two articles never read the same.
 
 SEO RULES — FOLLOW EXACTLY:
 - The EXACT phrase "{primary_keyword}" must appear AT MOST 3 times in the entire article (title + all headings + all body text combined). Count carefully before outputting.
@@ -67,8 +69,9 @@ SEO RULES — FOLLOW EXACTLY:
 - ONLY ONE H2 heading may contain the exact keyword phrase. All other H2 headings must use natural language variants.
 - Never repeat the same sentence structure or idea in different words just to fill space. Every sentence must add new, useful information.
 - All external links to AliExpress must have rel="nofollow sponsored"
-- Use specific numbers, prices (in USD), and years ({year}) to increase CTR
+- Use specific numbers, prices (in USD, with the $ symbol), and years ({year}) to increase CTR
 - Do NOT mention any competitor sites (Amazon, eBay, Temu, etc.)
+- Do NOT add an affiliate disclosure or disclaimer paragraph: the page template adds it automatically.
 - NEVER use em-dashes (—) anywhere in the article. Use commas, colons, periods, or rephrase instead.
 
 OUTPUT FORMAT: respond ONLY with valid JSON (no markdown, no code fences):
@@ -209,10 +212,6 @@ def main() -> None:
         print(f"[blog] invalid JSON from API: {exc}", file=sys.stderr)
         print(raw[:500], file=sys.stderr)
         sys.exit(EXIT_INVALID_JSON)
-
-    # Append affiliate disclaimer to content
-    content = article.get("content_html", "")
-    article["content_html"] = content + "\n" + AFFILIATE_DISCLAIMER
 
     today = date.today().isoformat()
     slug = slugify(article.get("slug") or article.get("title", ""))
