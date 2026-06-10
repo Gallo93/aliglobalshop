@@ -36,7 +36,8 @@
     "primary_keyword": "aliexpress coupon codes that work",
     "category": "gadgets",
     "intent": "informational",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-10"
   },
   {
     "topic": "AliExpress Flash Sale vs SuperDeals: which one saves more?",
