@@ -355,3 +355,12 @@ a { color: inherit; }
 @media (max-width: 1180px) {
   .lang-switcher { margin-left: auto; margin-right: 0.5rem; }
 }
+/* Narrow phones: compress header so all 5 lang flags + hamburger stay in viewport */
+@media (max-width: 420px) {
+  .nav { padding: 0 0.6rem; }
+  .nav__inner { gap: 4px; }
+  .nav__logo img { height: 30px; width: 120px; object-fit: cover; object-position: left center; }
+  .lang-switcher { gap: 0; padding: 1px; margin-right: 0; }
+  .lang-switcher__item { font-size: 0.64rem; padding: 4px 4px; }
+  .nav__hamburger { width: 34px; padding: 6px; }
+}
