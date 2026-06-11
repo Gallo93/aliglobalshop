@@ -149,6 +149,39 @@ def reading_time_min(content_html: str, wpm: int = 200) -> int:
     return max(1, round(words / wpm))
 
 
+# Em-dash (U+2014) and its common HTML-entity spellings. The site style bans
+# the em-dash in visible text; this is the render-time safety net so it never
+# reaches the output even if a source (or a translation) still carries one.
+_EM_DASH_RE = re.compile(r"—|&#8212;|&#x2014;|&mdash;")
+
+
+def sanitize_em_dash(text: str) -> str:
+    """Replace em-dashes with a comma + space and tidy the result. Idempotent
+    (no em-dash left -> returns the text unchanged)."""
+    if not text or not _EM_DASH_RE.search(text):
+        return text
+    out = _EM_DASH_RE.sub(", ", text)
+    out = re.sub(r"\s+,", ",", out)      # " , " -> ", "
+    out = re.sub(r",\s{2,}", ", ", out)  # ",  " -> ", "
+    return out
+
+
+# Short trailing words (articles / determiners across the active languages)
+# that read as dangling when they end up last after a truncation.
+_DANGLING_TAIL = {
+    # EN
+    "the", "a", "an", "to", "and",
+    # IT
+    "i", "il", "lo", "la", "le", "gli", "un", "una", "di", "da", "e",
+    # ES
+    "los", "las", "el", "de", "y",
+    # FR
+    "les", "des", "du", "et",
+    # DE
+    "der", "die", "das", "und",
+}
+
+
 def truncate_word_boundary(text: str, limit: int) -> str:
     """Truncate `text` to at most `limit` chars on a word boundary, with no
     ellipsis and no em-dash (mirrors alt_text). Used for the <title> tag and
@@ -156,6 +189,7 @@ def truncate_word_boundary(text: str, limit: int) -> str:
     cutting a word mid-way."""
     if not text:
         return ""
+    text = sanitize_em_dash(text)
     if len(text) <= limit:
         return text
     cut = text[:limit].rstrip()
@@ -167,7 +201,21 @@ def truncate_word_boundary(text: str, limit: int) -> str:
     if not text[limit - 1].isspace() and not text[limit].isspace():
         if " " in cut:
             cut = cut[: cut.rfind(" ")].rstrip()
-    return cut
+    # If a subtitle after a colon got truncated (we kept the ":" but cut its
+    # phrase short, e.g. "Gadget ... 2026: i Migliori" -> "...2026: i"), drop
+    # the whole dangling subtitle and keep the complete main title before ":".
+    if ":" in cut and cut.rstrip() != text.rstrip():
+        head, _, tail = cut.rpartition(":")
+        # The tail is incomplete whenever the full title carried more text
+        # after this colon than what survived the cut.
+        full_tail = text.split(":", head.count(":") + 1)[-1].strip()
+        if head and tail.strip() != full_tail:
+            cut = head.rstrip()
+    # Drop a single dangling article/determiner left hanging at the end.
+    words = cut.split()
+    if len(words) > 1 and words[-1].lower() in _DANGLING_TAIL:
+        cut = " ".join(words[:-1]).rstrip()
+    return cut.rstrip(" :,-")
 
 
 # Range connectors across the active languages (EN to/and, IT a/e/o, ES a/y/o,
@@ -898,6 +946,7 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
         content_html = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content_html, flags=re.IGNORECASE)
         content_html = re.sub(r'</h1>', '</h2>', content_html, flags=re.IGNORECASE)
         content_html = localize_prices_in_html(content_html, T, fx_rate)
+        content_html = sanitize_em_dash(content_html)
         faq_schema_html = _extract_faq_schema(content_html)
         related_articles_html = related_articles_section_html(
             article, visible_articles(articles), site_url, lang, T, limit=3)
@@ -910,8 +959,8 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             "canonical_url": f"{site_url}/{lang}/blog/{slug}/",
             "hreflang_alternates": hreflang_alternates(site_url, f"blog/{slug}/", languages, default_lang),
             "lang_switcher_html": lang_switcher_html(site_url, lang, f"blog/{slug}/", languages),
-            "title": esc(article.get("title", "")),
-            "title_short": esc(short_title(article.get("title", ""), 60)),
+            "title": esc(sanitize_em_dash(article.get("title", ""))),
+            "title_short": esc(short_title(sanitize_em_dash(article.get("title", "")), 60)),
             "seo_title": esc(truncate_word_boundary(article.get("title", ""), 43)),
             "slug": esc(slug),
             "date": esc(article.get("date", "")),
