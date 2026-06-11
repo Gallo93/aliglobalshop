@@ -2,6 +2,12 @@ name: Generate Blog Article
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Re-translate every article even if the EN source is unchanged (backfill)"
+        type: boolean
+        required: false
+        default: false
   schedule:
     - cron: '0 8 * * *'
 
@@ -38,17 +44,23 @@ jobs:
       - name: Translate content to active languages
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE_TRANSLATE: ${{ inputs.force }}
         run: |
           langs=$(jq -r '.languages[] | select(. != "en")' _data/config.json)
           if [ -z "$langs" ]; then
             echo "No non-en languages active in config.languages, skipping translation"
             exit 0
           fi
+          force_flag=""
+          if [ "$FORCE_TRANSLATE" = "true" ]; then
+            force_flag="--force"
+            echo "force input set: re-translating every article (backfill)"
+          fi
           pip install argostranslate
           for lang in $langs; do
             echo "$lang active: installing argos en->$lang package"
             python _scripts/ci_install_argos.py --lang "$lang"
-            python _scripts/translate_content.py --lang "$lang"
+            python _scripts/translate_content.py --lang "$lang" $force_flag
           done
 
       - name: Commit and push
