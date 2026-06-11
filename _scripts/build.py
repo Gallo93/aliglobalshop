@@ -134,6 +134,21 @@ def alt_text(title: str, limit: int = 125) -> str:
     return cut
 
 
+def reading_time_min(content_html: str, wpm: int = 200) -> int:
+    """Estimate reading time in minutes from the article body word count.
+
+    Strips HTML tags, counts whitespace-separated words and divides by `wpm`
+    (~200 words per minute), rounded to the nearest minute with a floor of 1.
+    Language-agnostic: the word split works for all active languages."""
+    if not content_html:
+        return 1
+    text = re.sub(r'<[^>]+>', ' ', content_html)
+    words = len(text.split())
+    if words <= 0:
+        return 1
+    return max(1, round(words / wpm))
+
+
 def truncate_word_boundary(text: str, limit: int) -> str:
     """Truncate `text` to at most `limit` chars on a word boundary, with no
     ellipsis and no em-dash (mirrors alt_text). Used for the <title> tag and
@@ -903,7 +918,8 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             "meta_description": esc(truncate_word_boundary(
                 article.get("meta_desc", article.get("meta_description", "")), 155)),
             "content_html": content_html,
-            "reading_time_min": esc(article.get("reading_time_min", 5)),
+            "reading_time_min": esc(article.get("reading_time_min")
+                                    or reading_time_min(content_html)),
             "og_image": og_image,
             "category_slug": esc(category_slug),
             "category_name": esc(category_name(T, category_slug)),
