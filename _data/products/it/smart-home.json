@@ -1,25 +1,7 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-06-14T19:28:15Z",
+  "updated_at": "2026-06-14T23:01:09Z",
   "products": [
-    {
-      "product_id": "1005005429173220",
-      "title": "LIECTROUX L200 Robot Vacuum Cleaner & Wet Mop Combo,Smart Mapping,WiFi App,4KPa,Brushless Motor, Serbatoio acqua di controllo elettrico",
-      "slug": "liectroux-l200-robot-vacuum-cleaner-wet-mop-combosmart-mappi",
-      "price": 132.48,
-      "original_price": 414.0,
-      "discount_pct": 69,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k9iemy1X3d7to3yHDmQp66J4olSAjanwgYssV1n6EhzAkBwkE2ACNVbBNDdCMcrcovs4to4YjFkl9h8bG16qcq9N48XyCGAzYFv8MZwXcfjHof1l47dMxVSZ8eoe7T5jKEMW9HnlQBT6LZM2mYqizrcwxOrfsJL4XAvvnAKabLIFdBv3k03ENK5A3dtrXlFrl45i51mbonezr72DFmDh7f2E1kNiLrPC4gZNtbAi4l4H7kZBOnHNv7FQHMxH2AnQ1ic4LRCD9jCbICE4eK1wOYzwW3EuXWTtc4LXqDXzc7eAv8EYNFlR4uE5AztPbzcVWmZjnQQhi1ZuFcL6AVcONAfwKmOziKckwpTnQ4nmFAqHUZf18aZWbLRIl3mwmSD8X7U6gQF5SHy190exDpLnpzUPzvpMKIvSHiUePoqYB9dCTsgvd6O601e0Tiyf2k1ruDA43H8wxENJ0bBDF8kdPxW5dgaM4MPRUb2ULn69lMXzQxxWZWzmE6pM6J1fxhF9yHNCCrzEiibKP0ascsd5RXa2a17ApU2zsSL8lX3QCHF4kKifbywye6TwHFIzIhRXP2ZEp6StcEpm31qYSlh7Eyq25OnjtVcCKHgIPtd0YTgPSBfZgGBfvVd5bxuqTbhCv4cKSmaF5fyMnQIB17Npovn965wBAcN5H2BvTrr5DV7UiOrSGaQPqW9u3viNINUTIf86U7FYHs4tF",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779318052/products/1005005429173220.webp",
-      "category": "smart-home",
-      "rating": 3.0,
-      "reviews_count": 3,
-      "sales_volume": 3,
-      "score": 0.2674,
-      "price_history": [],
-      "fetched_at": "2026-06-14T05:29:33Z",
-      "updated_at": "2026-06-14T19:28:15Z"
-    },
     {
       "product_id": "1005008710290057",
       "title": "Smar 3MP Wireless CCTV Sistema telecamera di sicurezza PTZ Wifi Kit di sorveglianza esterna allarme 6CH NVR Home Security Set di visione notturna",
@@ -27,7 +9,7 @@
       "price": 88.09,
       "original_price": 195.75,
       "discount_pct": 55,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FD4GKtejuRLf3zuwXtcpINizV5JIrt4625rqhkvG6eHM9tkCgu4P6itZIErWhB0uLw6iYB3CfndevV8tIvHLA7BCbnP4Br6TRh7OET83rSAMv63cZHvI5XuJrWoVtebIIk7OeNGC9S0bblDXd5HbPEDMHRljMgg5BO7MHWQUAXiMgIaC81sLN5nR168pQ6Gyt9u4pxBtQ9FmqDArD8tmiRde3gXsnCHuBmPX0h4QX1ow4RZzaShX4T4vVggyOmc6DYSSJiExyrICZgjjj8eFFB1ii3m9ZidzB6JA9tJuqvyzCL3Uf9l1MnXcO8U05qMGoLgTmFu5xMRCsMz7eGE3HgbEqrWXXsNadXHe5nrJwKogseQ6QUVaCV4Y41auvIWCJhAO14N0daZEB6aG6dJsTDYe5LJufpf7rHXfN39vpQcr1VgnHAyItBJ546OQ1jXaphnzcSs0K6M1nr1xuwnPashb8BjM4zoRdxzYb8h2f8ePtisaEjBietE8h8QKThN9NVQuwF9t0qzqPj5IXWQHgaGo4cnjjBZxmyeKTcHoIg7WO4NWgn7wkvIdV0b2CpSm1BjxV5w3VCFteWiFA2yc7LkWEpzTx87MxuOGKtt4RSsQpQpkkNV2NsDVGqx7jWcgV6rRlFqIDSy4NhkzbPNXSsujQO7F7XoLxzl2zymtUOTKH8BifVqqfK5WCEXxAYlnwJ4nxPXI0NFjZ",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FD4GKtejuRLf3zuwXtcpINizV5JIrt4625rqhkvG6eHM9tkCgu4P6itZIErWhB0uLw6iYB3CfndevV8tIvHLA7BCbnP4Br6TRh7OET83rSAMv63cZHvI5XuJrWoVtebIIk7OeNGC9S0bblDXd5HbPEDMHRljMgg5BO7MHWQUAXiMgIaC81sLN5nR168pQ6Gyt9u4pxBtQ9FmqDArD8tmiRde3gXsnCHuBmPX0h5T0JCLCKKVDPkNom0PzmjeL2TtWcqA5RIPjPZHzC8tTJEmJDSOlMTecRYNt8qOOt33U2HPP2Us19InF5M13e27cvoF6ffLEpBnVEKw6CzvXePswjwsuthLz1MGZqEhFxccowZtsKTSY8j6RKV5Fr3Uv2S9vC80vwGyVXkvDGsqa5WW57OiWPOULAf7RGKeP0lWLUneCU5hooeEQbMdNqffoVUe5ol6yV2OjqEUBKWP2Gq3txDtV5wJ7lELNWTec3Wo5SMSWZCQadSRtwqRvaPo6F8rLxx127AkkD7jwtoba5U9sMCTWb2mwGlumR0J5Q0V1LOZReo0Ug27ljScmnsCweV0LBjVmqzI5cMtlzfjG6mi4GCZ3XlxBqeInNBInICswY1n85v5mo7DF6MvBRJKEtKNsK2QtxEZW6bH7sCOXfvBdZwHTm5D8sGV1LJltklpvbm575NAACf8ijaLWiaJ6HJYxKh5r9ySYoo8P",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192141/products/1005008710290057.webp",
       "category": "smart-home",
       "rating": 4.9,
@@ -35,8 +17,8 @@
       "sales_volume": 28,
       "score": 0.2659,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:33Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:00:57Z",
+      "updated_at": "2026-06-14T23:00:57Z"
     },
     {
       "product_id": "1005004274068542",
@@ -45,7 +27,7 @@
       "price": 90.94,
       "original_price": 202.1,
       "discount_pct": 55,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nzSqm1BejnRGtEnDmfUUHWn6JAFYV9t3JrXc44G6XtdGqYw0yI6ZGQ7uOo6aKa4X8gADjodfwHUrWYYRnunzUdFBvBAHZaA7xNC6J1mDdyxqfgOmHEgAhPio58l2AvVQDvJR1NklP527CX0SNPKju5EqjKz09CvPmqrqAI940gdrOjZ7J9w2bJeRr2ZcswxIYBFqCpJJvTeKsbAXMv5IMVqBEK30glj1Ch7xBaBhuFZZsNzJBAAh7xUgSLCEmyGgzfieywskim6bmcQsTwHfEIh21OcTkR3aTXU0HPUSXt2e6unkh833peYB0PRqPJC2FUcYNxrXdmscQT23UhMK4E0wlhsB79hMfne8Su27PorRh9RKZeGV3iDdzd0rQsQsywKQso0fzY5NJ8ruAyDG3wgD8AWcPJFKT9Dt2IZumuKbKumFT9CLjOwIU3CJFvlKozi9EBzKK823I9Idq4DeZfnZtpI7EcjyVjKHvVnwkiktkr9UGe227xltl993SQVcoNGB4fw6biKFIxOPB4s1k0oBfIZWGSbhMANcJBHGOva46wqmuECRnevqzHi0xXbblksEeOsvorHZSCgZaeP0rWGuNMb33hInXmhyNidc2EWVbcEX7otPiZKmoQIb6WlSqdbaKh57siKIkPIxu3DwmgzAzJ0VLBmDIJiPL9SfNliWBF4vlwM8SZ4Srowby8cLHtlqqGSYh0CTN",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nzSqm1BejnRGtEnDmfUUHWn6JAFYV9t3JrXc44G6XtdGqYw0yI6ZGQ7uOo6aKa4X8gADjodfwHUrWYYRnunzUdFBvBAHZaA7xNC6J1mDdyxqfgOmHEgAhPio58l2AvVQDvJR1NklP527CX0SNPKju5EqjKz09CvPmqrqAI940gdrOjZ7J9w2bJeRr2ZcswxIYBFqCpJJvTeKsbAXMv5IMVqBEK30glj1Ch7xBaCqh11EFIAPm7DXXWgqvJE2kb50MFjzCVBrgrmNf8GMY6BzDfOyYjpy8OGyFAeMsre9RlDWw5G2JteYqaLDthSoIPBBMZjbfi7GDyQ1bHBynDH5K5TXMX47QsSXIVNDEkPa1sD18l9mpNSDB7jODorNnrLijB0Bg6BQ9IaO9M1w950CdqKNEUW0eyqdVTklggMdcKS9cGrzSCzpleNyz29jHAJloxuEoo8ctTUygdpOOaqwrWvkFWE8I5Ym7Jc5U48KS5s22Lbx1owvsiQsbScAg9cqMOFPxmGUzOnrZiE8RSNM1ZWwZvX5asA6dTN7RtBDa7s9jfwFzLdpXTfGhaligaQ8nFsGfDEBzJZNLX6kKQtQd9hIDCSIaK3oZ2qTFqQsVbNKFqs4kMZIujNJQUsXNdZwt9hPgnimSW0L8CEKKpugBTdOHCaoX0DUrlnALH2Jy6AHFkl5xHVWapJPj3K4cCcAxYtb1dPFC7RWn",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780379655/products/1005004274068542.webp",
       "category": "smart-home",
       "rating": 5.0,
@@ -53,8 +35,26 @@
       "sales_volume": 4,
       "score": 0.2655,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:34Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:00:57Z",
+      "updated_at": "2026-06-14T23:00:57Z"
+    },
+    {
+      "product_id": "1005005429173220",
+      "title": "LIECTROUX L200 Robot Vacuum Cleaner & Wet Mop Combo,Smart Mapping,WiFi App,4KPa,Brushless Motor, Serbatoio acqua di controllo elettrico",
+      "slug": "liectroux-l200-robot-vacuum-cleaner-wet-mop-combosmart-mappi",
+      "price": 132.48,
+      "original_price": 414.0,
+      "discount_pct": 68,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k9iemy1X3d7to3yHDmQp66J4olSAjanwgYssV1n6EhzAkBwkE2ACNVbBNDdCMcrcovs4to4YjFkl9h8bG16qcq9N48XyCGAzYFv8MZwXcfjHof1l47dMxVSZ8eoe7T5jKEMW9HnlQBT6LZM2mYqizrcwxOrfsJL4XAvvnAKabLIFdBv3k03ENK5A3dtrXlFrl45i51mbonezr72DFmDh7f2E1kNiLrPC4gZNtbfrlTkqOVt9Vko3HqrVmuzzniA9Qlwth038DtSJaWZvECEpsRBVenogLQF4OVNgCjlIBrB31LAxQMvCASCdKLXNTcoLYaqpGqyxQtODYuapANyQwWDNXKTD13jLAlffghlXjJ5a90FMgHctx09kaJliEgDzVxQLSwQ8jtC2fPMARFt85F7WCJ67PSTCmpjbgUEcBSvcfoaZVGX19YCIMTrgWCfhZ284haZ3E2nRAYs6yhLSVora5twukyiWzvyhk3k4XCQs9oqCDgWP4ZDD9vedcTCbhBx72ycNFZAA5OiaPRAdFD9mWpmCJc4m5198Yk0gStB9eFKNbvOSPet2kApWXaq8Uvx400gM2oVce4A5RlzfJbfxnMKaSBCBdl1AjGnWk0cAQ3udpDez7tOQnDlyuhwrljA12s5gWEhByC2A6SXnYcHUOwJLha9FxUArq5U1AnzunrX6Al5qSaqmTBC0PCmV9bacdj8JbExrx",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779318052/products/1005005429173220.webp",
+      "category": "smart-home",
+      "rating": 3.0,
+      "reviews_count": 3,
+      "sales_volume": 3,
+      "score": 0.2644,
+      "price_history": [],
+      "fetched_at": "2026-06-14T23:00:58Z",
+      "updated_at": "2026-06-14T23:00:58Z"
     },
     {
       "product_id": "1005008952159162",
@@ -63,7 +63,7 @@
       "price": 38.87,
       "original_price": 77.73,
       "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EJIceuVQJHsUWzt8jZYYwfJ8l7zaWPsirtg0eI5w13IPKvIujBa3PtaE2sMUBbYBgVLD5YEFVFukiySqLDNhZ2nlMOotN92FtJCJ2N96oiHBObx4ix2YMJe9G0YPu806ZsnqxI7rM3PuhMZSBvqWaLEtaxWCI1rhzHiLqImiS3jChWHRNbrU2xkplDkPXRpIopIYdGspzhCyL6Ck4vjLsUsxOfpvIpSM5FghpZnDt9v5N6jw3LQjYQEICovigKf1km1XYk13q6mJwIqLZ5TgTPGHbD0oW08GmRlRuJRXLbjGbGVewX9WFz53jcUNZEjSSwUEHmovQhJqH0BCg17jKz6408lt6U9vV3Cmmhr9vbZRqzbLIEdxgcmGkmTBf77BrhPCSetpUlT84i24YEdUZbl0NomoDVFaVq46euzLepo7W3bUJOCn9C1qiGycY8LCHu5BhqnrM7vkHW2egRQgX3lq7ZFprrADEbOYY6cOPoA0JdKRwVq5k9pzXG4ZQXw5FUZ4iNIzEBZMubMBRalwPBukGoHM7R1AF6EM5EfyDX7v5UlNQLjyrJzW2o1XzvtcTWHhMcrSKXYZoekqXSXWlxliaWfbDxkNKfCfVdxzSRWukiQNNxxDa5ZXTtO24rmCH95ZYHQo9S5vIlEIzEjay9sTJmszTV2seQbM1JKWpo8YZRbiELFtBefqVu2VMknmZ3xfnsm8d2ERN",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EJIceuVQJHsUWzt8jZYYwfJ8l7zaWPsirtg0eI5w13IPKvIujBa3PtaE2sMUBbYBgVLD5YEFVFukiySqLDNhZ2nlMOotN92FtJCJ2N96oiHBObx4ix2YMJe9G0YPu806ZsnqxI7rM3PuhMZSBvqWaLEtaxWCI1rhzHiLqImiS3jChWHRNbrU2xkplDkPXRpIopIYdGspzhCyL6Ck4vjLsUsxOfpvIpSM5FghpZn83dgGpdUSKstZUZqMP8xw9PooYY7A4igJJfJG1ACussdNLUJv521vWSc1tzLaVi2tIgiqYsAMqrTvMcXD5DDR0z0HyVKCkCdK6FiVOmXeKFZ4ppNIn7ufFEy643AX3WTJoN2R09cB81ah5YulA0XoUHYLNIJnV7ELOiPnTTBaKH2Fvfe9gKnIWUWEsGMOxUpU58UhMcHKEAPVFDxUcWTUC6Lo1wtnGcxRvAZseoVDQBbEYspOOvgINXbbfSR5wzRlH612G0WLFqQdcQpoIhbQcM56ItGtBG8WbdxFecWOURRQgpcnOqgyKUPlwcgU17V4ubmLYcESixiXMcsIxbQj0MeZ0xWaSrATx3flN6PCyMTT8ffH1G8ttejmWP91CS12DO8XG0CgfQgpSVJuRp3xhue1NXcdmfT4yZ5ispV3lHdTxAp70ZRyf7iXlziyO3cqx7IK6BHWhgkKQhIxxlkAF7mHWAFwwo5pBroi3",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192146/products/1005008952159162.webp",
       "category": "smart-home",
       "rating": 5.0,
@@ -71,26 +71,8 @@
       "sales_volume": 12,
       "score": 0.2514,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:34Z",
-      "updated_at": "2026-06-14T19:28:15Z"
-    },
-    {
-      "product_id": "1005006116663438",
-      "title": "Hiseeu 4K 8MP Telecamera di sorveglianza Wi-Fi Dual Lens 4X Digital Zoom AI Human Detect Wireless Outdoor Security PTZ telecamere IP",
-      "slug": "hiseeu-4k-8mp-wifi-surveillance-camera-dual-lens-4x-digital-",
-      "price": 37.55,
-      "original_price": 75.09,
-      "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kG1MiuRHIg1u3wSv72beR9tx7OFAhPPg3ZDtxoiCLvdoZXXXUqS5kYJTh0rCdpYfF1jQDtt6uBdcWM0ruXsuSbKDUfHD8DKJW4ftvnLTVseP3zmcRUzYcoVnX6bpgLW7kwTSTJzuoLE2sDqANhWYKyvhkCndF5YvQbLfEh1f7dyesNZXKPCftVdDoRC3ONbtgOZxjhKgIK9oOuCCkKvgKYGEiK8Y78ih1IjNVgAIG4hnVmR85aDFxXq6ZZhDnEq2qT2l6XZh6PZOdPhc7Stovl2A1BI987ehXijCzeRgP1u79qEfue36jJ0sYpzjF1KdKEv6Rnx9vXcj5a6BiR5e2MlFNJ07kKmR2UMGjzjlAqbj24nhycFOA7xAd6mY613oWu9viB4XX29ST3JYXopsz57lcVgcIQaTUB0MU33NmszSz9CBVMj7oPNdNJnmqRRLcbJdzEgWcjBTurT9dQcsYvpO4cOHBQ7Og10XV27rIVsWyXU7x3lzeAfl9iGXvElY0sa3FC20e9K6lcDhOu8sWnCAk4OeW9jLIcrT40EcOKsqLs3MJGsg9u8n7zGJVwQnhhdN4jxzcct4ibPeUHiqx5El5gpzMUFsrwbXg5BahuKKQCrN07rh2OzF5Q5Ks93aWrIESKZBc1QePFRcTzeZnAw47HLplbGT7Vvwt31rQM29NF2nM3hJIjJl6jID7IiWTbfNC3cSNTtbm",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781242187/products/1005006116663438.webp",
-      "category": "smart-home",
-      "rating": 4.8,
-      "reviews_count": 13,
-      "sales_volume": 13,
-      "score": 0.248,
-      "price_history": [],
-      "fetched_at": "2026-06-14T05:29:34Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:00:59Z",
+      "updated_at": "2026-06-14T23:00:59Z"
     },
     {
       "product_id": "1005005604363467",
@@ -99,7 +81,7 @@
       "price": 36.79,
       "original_price": 73.58,
       "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4otT1bTdX0WBJwtnzuV8tjFtCHK6RV775SaKXABpqCeFoe3kqltmqoZFZq9VItXu0cq2uY9aQyT8oJvfLL2gUwWkSxjC66UGaYhSOLRWZqjK5OA9MWhDwgbLd8hZWdA9WSRbXWl3P3ek6o5JVVyEytyepmojhCaB8YHtjfDDqooO62FXjdSAFYxHEv70qOiOMpu0mFe8BHcStFR0cE2XQZ6PyuqLKJmVAYXKgtfnE5HoIDAEmQr0wAUoMzOvvFvnpyQjq3kx1ni3IrUpPuqjMfCe9MlJKR308AggJOLcGREwrHAcYd6nhcIZA9FnxmBLpulQOSeI79fuhfReutoOOBoiHdp1S4VxX9wvW3uCCefsvvwphVFLCD4e0pl6YVNYdXWZ8eaU6gKJ9lDf3QkRxXJ27TjjAX9jkTOBjQzZ0EbuEzJiRRbFlQNrOhHm8ZC6iieaeqT2McdE5ioQMdJ6GpPQMaSbKHNYdHmzqbeF0iRKUY5REDSw3JG1jeOHh85IhHh6Gy1tbZGG4xZ1vJe87bqqEEGMgWMc9To2HjBbmvs2PoNQnvseeKI2ap87WhnU2kZomNvPoBqx6sAuGXtpSAalFKoxCFRAT1pzAj83c0BpUaZV4HcnG4OkKQE4blCJczMYfbKsHYal0vvlhRLDeKrmSZbp1wS4YHP3rSzcZzLsazgPWVQnq0wHvy8fCzETCy4FJF4NgG712M",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4otT1bTdX0WBJwtnzuV8tjFtCHK6RV775SaKXABpqCeFoe3kqltmqoZFZq9VItXu0cq2uY9aQyT8oJvfLL2gUwWkSxjC66UGaYhSOLRWZqjK5OA9MWhDwgbLd8hZWdA9WSRbXWl3P3ek6o5JVVyEytyepmojhCaB8YHtjfDDqooO62FXjdSAFYxHEv70qOiOMpu0mFe8BHcStFR0cE2XQZ6PyuqLKJmVAYXKgtfn9nlCqxCuHB3vg6nMbqwybCz9RLKwQrFO71SpvnQ80MpTmBCZLzOwWq8ZOnbFnjnsU5cqaSfIGAh0nqx9u3OoVOW7ydMT54hY1qg8rp2UFeM4kf43pbivghnt4DOONG3PUAVqDG0oDaEVqIj31Wm6tnzj0PAGKExECEQXmJrEI0MjrzkMPAs8dEzQhKmep98WhIx7gJv6QC7njm3KalD1T3ZteyDrbNaH2BQO3Bpml5bgAYz4VK77K6ptT5IbX6niTFYtiPQ84I1G9fefAhnJIMnKr3sYalFFEz6DLNNQlwoQEXgcYCtb96cgWRES1pokKGHmowllD4atE9ds6luBBopFyNaMQO2d11z2nMDnOgMhKPDuxp2OokxFCHrUqG7ubmIdqGWpxNVwlTlulpx7XeTgHF5HqoUvbaOP4u3SJyinMzixOrWgprDIW2JrsJVhS2qYyTSm4cXTSmBcxyO20xcd2Iu9ah7B4DhfaU",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192151/products/1005005604363467.webp",
       "category": "smart-home",
       "rating": 4.6,
@@ -107,8 +89,8 @@
       "sales_volume": 35,
       "score": 0.2471,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:35Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:00:59Z",
+      "updated_at": "2026-06-14T23:00:59Z"
     },
     {
       "product_id": "1005005807578430",
@@ -117,7 +99,7 @@
       "price": 5.74,
       "original_price": 11.04,
       "discount_pct": 48,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4E7UQOPbX8mB8HboAfcSi6kPsSd3z9t5TBtYfRBT3LEqhJhHhZesdGpGNZjcsDpLWwBi27g7rj9Me9CHrEjE3O3wTCd1nUYhT605IcU636g4JMHHzlfbMLt4dBGF2MdvFo4E8YuFyLRrOMYL75BJglal6FOXq6wYRXjRRs3E00ng8M2Z5krlGTGB7kX65G6dPZIsbwZEwfrhA5SbZQE00A8Rxop8YI3hIpA3F8ShFMPF8XACi7zZA9YxEhEGqKBYLmH9soVDRgCGGOLcZpIWxOu0abzBmLqDXUDa4QdRIeEyLYmMB0d1zBAfcIJ1ziEuRzziVyNtfEUef54N62Ku37fKbTdvkoBbnldV8Yzap4xa5ORW8NAfSYVAZfv9WEh9wvl4FBkrR0Ka2u0jK1GVFC4U5ffaMsLZDL75CKYjSB9K0gFbnY4CRTsaHH2HFg08MbW5rATcYWT4ktNJGDbLWawqEaAQgRQAhbsBzRUONZKhHSnouxBjllqoIIpE1SGD0aVCqdlrD2TXiGxPbAfEoYGf7AaJKxDrOut94EyP3VQ3RVWiakRra0ZsbiwEU6GHImuaVQtLDhRqMHBILS5bkIbY44UTXYsQf2hFFdwbXKUvH7SOa46KBi9227zs45BD3HrsEOby1vYI5xxAnSlnjETECfGLn1zcMrqdeaSiGlljbNZVrzQaJGLVvM7uTFGvqaIbSMfDB63zA6",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4E7UQOPbX8mB8HboAfcSi6kPsSd3z9t5TBtYfRBT3LEqhJhHhZesdGpGNZjcsDpLWwBi27g7rj9Me9CHrEjE3O3wTCd1nUYhT605IcU636g4JMHHzlfbMLt4dBGF2MdvFo4E8YuFyLRrOMYL75BJglal6FOXq6wYRXjRRs3E00ng8M2Z5krlGTGB7kX65G6dPZIsbwZEwfrhA5SbZQE00A8Rxop8YI3hIpA3F8ShA5HblLCJKiwcUZ4CfEWIOrkDE7pJKklYFoCACDjMMZnlXO9JuDdty7JiU3sR6Frus9ffMYUU08t33BdHx3K4PukOFmTQHHcoH3yEgJbJH06McbNH8VKa0paG8Bk9P5jffIAMGo1NLTvkWxit9F4F4qzS9nuIdN640L6BjY1s8SyRaC6VgIzKq357vSXAl9U3I7KLDFMtq2OV3G538sFLQ8kQ0AdcF3AAnpGIOKE1wqa66ug1gJQ2n227giWlaVLrVXi2s7MCgqQzWxkEpiqPkuyOs7wXR4BgM0qlqFixBX7Ai41X66VIjWnQ9oSFZPBigy276qV7HZqC2jrbTGxvDQhiu0p3Ek2F9DdGKVKh5Cfyz1XoqjrAoow0fo8tHarTtzVI0qKz54DqDGar8oX1izlsVUH6hNkHJ7LQVG8xEL6DRRKq9OOcR6rlTYrO375luuQPPsqh9nXbYCMyRnj9cwVgXaoyF73N5tJPBc",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192154/products/1005005807578430.webp",
       "category": "smart-home",
       "rating": 4.7,
@@ -125,8 +107,8 @@
       "sales_volume": 7,
       "score": 0.2393,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:35Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:00Z",
+      "updated_at": "2026-06-14T23:01:00Z"
     },
     {
       "product_id": "1005008109628276",
@@ -135,7 +117,7 @@
       "price": 18.68,
       "original_price": 35.01,
       "discount_pct": 46,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ExkXNzjB7Fk9mtgNfsAccjpy4SmaWvjijchNLxDFLW0AR3wn7LYSMVCqOaVY5SY2yElB7mPbpThSFncCICpn9sfe5Hy8dGM2dDwIxbKIGpwR1uM4MvNElX0Ybr349i7NAFGw85oYDls7lQIKGwbEf0Lh3Gfd2OmPClxL09TfR2FMAeCts04ljnxuMCEorPpd9KbNVq5cLCrAeMMsmp1Bmy7YOQZ1eFrqPqUWIlBBKbEXGjt78r5SPIciyfvfffdLoFZ3SXLtnIttwcrJ0xxv88tgYbMlKq4blrwdj3aLoC5delBBUykqRyVhOxzNuFe43jLUvyOI8vak9yJHSQmY3OFsmjOkREKfSzaP2ud614pjbtQfz8euhmv1GZihGBgiLNBXOp64vZyan2Elmngiq4mC6M3GekeAfNHVmeokUQbJBbJKeaoaIAcoSMwF2RFCT5TygPPHRkDO1JiQhtnZ6nkzV6lRRB7Mfcci5azqtpSwZ9dRWKWddhxfyf7D9R8rrIHCmqHbY7OacezXUenINMqsC98wrqNEEZaG5tvpMNJ89HhtBhb1VeATBMeBQii47iDbCcOlt5j3Gluz2khg3c1HWLtAQmAH0qreRfaRoEcoRButabgV5HeZmk5oiCKAk0Zd1Mzmou3tEgwErCj5QfrlAzMI2Zoa0C87vtznNJAWqnVpdxWmviauvZcMXARVC6olgGLFTR56U",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ExkXNzjB7Fk9mtgNfsAccjpy4SmaWvjijchNLxDFLW0AR3wn7LYSMVCqOaVY5SY2yElB7mPbpThSFncCICpn9sfe5Hy8dGM2dDwIxbKIGpwR1uM4MvNElX0Ybr349i7NAFGw85oYDls7lQIKGwbEf0Lh3Gfd2OmPClxL09TfR2FMAeCts04ljnxuMCEorPpd9KbNVq5cLCrAeMMsmp1Bmy7YOQZ1eFrqPqUWIlBBKbEXGjt78r5SPIciyfvfffdLoFXNT3rmYT06eujO6TIal5ptYNogXAURiz3pVMSzrdvcvOVV9ZgBaHkghTrS2evoewvV8ibAvnATuenbLtZkSkiFYBozF8aCJfV5hdSh87G99kKJnGXi0wyYf09F7LDmS9Alc0vw4LJsG491h1TFUzgy9xNPWWW8SYvj8O05WF99y4EqM2IadClp5GSoIScuYFdcqiSqbzVYXShspdvzLmEfET1BNHzBWnfWJazHns1nABLZOxVNYE10WUl6D8hx1aFSRXAL7OvvLtCz5KVCxQ07kkREhA2iLJj3kDeNEEMGp8ELtdumqqRkN82fo6eURVlDPSJMlR2us6l8gl1JHnlFtMQlJJIKW1LKsJuVe18lm1N8t2pydNZIkPU7pYVkxQ4nCHSF5zYSlluoli8ZOfpuJDpYh0KSZM1gJQUuIQMnQ1E8N4zkGHYzCMgxHjrFwhkiH6YzgGx7W",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779686718/products/1005008109628276.webp",
       "category": "smart-home",
       "rating": 5.0,
@@ -143,8 +125,8 @@
       "sales_volume": 4,
       "score": 0.2385,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:36Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:00Z",
+      "updated_at": "2026-06-14T23:01:00Z"
     },
     {
       "product_id": "1005007677605461",
@@ -153,7 +135,7 @@
       "price": 47.19,
       "original_price": 82.79,
       "discount_pct": 43,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUcSyYLIByppSUI4qouuJYYZ6n999feCnjHmCoFWoAZaROET2EAD1Hd8r4YSOynn9Tu6PPVL4dSJ76te71AC1EJmYfkEhKSQX4epkqAv48isiLVySHi7KcwmLfxTvOxqepVUY2JUOYtsx44EdGjsMR3i10gQ4mOAZ2Q985p0eXIzWEzb5yqQAJxGtXBjvo82T6XqOKvF1PLJlsqgU2qDgHUrMsa6E0mh5z3WeuXThyRU61mxLtyzQIUJGysFvTslbMRHOrfSB7k5CtQ5UzTYEKfN5jAv3mPTLkOinSN7nAZdQtGMDUwXhtay5i4SranKxO9wS1DvVwwQP2UvAg2KLvBiO6WM4tv6tbSBUCzIODww6PVrlOiVMG9KFpR1ZlSiOmMrGXH2qeDaCxQf5gEBtROFHKDv9cHpP4jyQHXUukanma2IBT3AJIWVeFGFMq8Jx7r84lmLiTv7DTBlrCzmGSezhwY7NyR0WyqCpT9HsnAYN71ANC2QWedRnH9ZbpmlAYM8jU0oHkgkfyEnhPX7ynHsJqizdygbmv38SZMhmgiCjn4sLFQKnAyH7viauZv3osulKuDRYhhSpZkuZkzmLa075fWifv0IvQnVi1hSIeZU0IqkSiWawWlzkW6io0pcUdWOmqzgfviY4EJGHmhibqx8N0zE6RIC2hWxPaG1au9412fr0Gs0v3ej6quEiWvRhEEjwTaRVhiJS",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUcSyYLIByppSUI4qouuJYYZ6n999feCnjHmCoFWoAZaROET2EAD1Hd8r4YSOynn9Tu6PPVL4dSJ76te71AC1EJmYfkEhKSQX4epkqAv48isiLVySHi7KcwmLfxTvOxqepVUY2JUOYtsx44EdGjsMR3i10gQ4mOAZ2Q985p0eXIzWEzb5yqQAJxGtXBjvo82T6XqOKvF1PLJlsqgU2qDgHUrMsa6E0mh5z3WeuYC74JdNvzTSqrjw1gOmKK3IXIwPIGBqlb6I4DZ6tBLhgqg6qIp1DXDOg8sUlkOlnvcA9nfqEsa1pA0poXrgmEZTcNXqW6WUdPGE6mOtCXr2p2Y6SOsj5ksYSxwxBjcMF79Bopz7xnVcxNgWsj0iRCc1nOYyI2b5DcWciSOqPgmTglA6f0PainIYtPDauJY2ikVRTTjyVoZKULnajbP8ORIMGBgsC5crzTLEq5kYyeyZ8C99C9Wfl8BFSj33DihUCX8YyTqu4R8K8WyjSQmuoJxknpKJK2yNAXsviWAVZJ9anvLVP6gMvUdMc19fm20ox5Eao34J3JUZdyuc0YrXD8nmTRzC2k0SM7fEDLK8StNiEQXOHHv0U9j6MxQGlowFtmZFNu9TNhLFLrNB63kBqS9VwL0bb0gDHFwxLzPFJEUHeO4stLBYIUBPaiiWfXvuzXtVoVHnZZxINzwOTrwrb9t3S02Nvxr8UhnS9sag",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780614052/products/1005007677605461.webp",
       "category": "smart-home",
       "rating": 4.9,
@@ -161,8 +143,8 @@
       "sales_volume": 26,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:36Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:00Z",
+      "updated_at": "2026-06-14T23:01:00Z"
     },
     {
       "product_id": "4000143784956",
@@ -171,16 +153,16 @@
       "price": 25.75,
       "original_price": 36.79,
       "discount_pct": 30,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVGNvUgfIqw20dkv9ckKazo43NoJ6lsRRbdZy7EraKSN6cYkDs7Ghg7wi099YFcPdmfesBBUOlMQYVJkfY4cMkYxM0DWXRoDkqFRfcHZvMcJhEmuLTG9l1kYQyREGRDEEzErht4Kl6xdbXdzaafSxvbN4t9MyvG5kBoRiLGQx6eboQ48xCNLU9jaZx7GV2u44lpRidE1UloYUR6DfI6jUpeiDNJDaMcHAYDHDITTJTatggQvQNCtrUbxYmTnNzhz9jGtiY5NTHgvKKnOv64DZo9CHizlvcZRKzRKgRoyLgjef7BHw5uQLVm3zb5nY1U0oHL3t2DVe58alMlsYQ0WO12b5Pit0YBWRqrsKXycjAcJODmoz56xvthAdN5k8FMBUsnu24FlppPIFDwkqfMXlHA2lzyP3TGbu2uOKh39Ef2NfN3j5nmbOoLW0M53o43F5nJu4U3HRDTSd2YNtwpA2qXvhg8Pdno5MrV053xKbyRHGRl3DaEckUTKS9Syojg5i1ZM3Pc0CxRNQ29fA0DQ1S9I7V1UupE0TnvV9FLDvoMOQN8Qg7reUkpwQ7Eh0PBl8eJl1R3rszqjuLERhoFG5pjrHV2KpCjSIhv6dYyFAsZjkYkHRgBU5kkoI2iU4NJ6dxiXL5tGc68sDLKsSh3NovrceaLxu06Aut7N5xYoIhMinx3R8woUzbK2wss5zAxdfQZQuk1aH5Hxx9lgMmFqqvZyEOvFtNPCUmWyyBU3lRE",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVGNvUgfIqw20dkv9ckKazo43NoJ6lsRRbdZy7EraKSN6cYkDs7Ghg7wi099YFcPdmfesBBUOlMQYVJkfY4cMkYxM0DWXRoDkqFRfcHZvMcJhEmuLTG9l1kYQyREGRDEEzErht4Kl6xdbXdzaafSxvbN4t9MyvG5kBoRiLGQx6eboQ48xCNLU9jaZx7GV2u44lpRidE1UloYUR6DfI6jUpeiDNJDaMcHAYDHDITTJTatggQvQNCtrUbxYmTnNzhz9jGsTshQtOne99xFsEwXAnflteatFwB5BHubqIRM2DY21B8gLd7HKMZZGealmd0UjanmvYaxxtpksRxexZNiQMCZp77EyilZFhv9ji2JuA6bRumW3mUEjm5H5g6hOerEP0EQyD8k4ZTsEJBediJJpDalDWCx4XKiJ1YO7dpLjsQn6aGwBArJgKLtmzN7K6lDjnBUzL5bJS5F0hDTssIwiq58LiV45G37HyBUVLqm2lBKGM6WAYUuCV8m6PM6PF1xSeNEWo4EZTGDBgbXI9Bj2aleQCdPo3z9PIpLNRYVBXHr8yCwp8L84i1UCgq9AcUJElTQf86YiF0X8sTmmHrONRAy77LF96kiCUeLSmet8ZIMzGvtBXAmDnAQF1DKPK4T2qcZKM77J41dPld3Ph6se56CgcdzYmf4DOKP6Xvm73PW9sVl4JxiN7nWIb6knMxQi6OUe6IsJz841SEuuhXdXvLuWrmT7oLvZPj9tam2DJa",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192158/products/4000143784956.webp",
       "category": "smart-home",
-      "rating": 4.8,
-      "reviews_count": 284,
-      "sales_volume": 284,
-      "score": 0.2211,
+      "rating": 4.9,
+      "reviews_count": 289,
+      "sales_volume": 289,
+      "score": 0.2218,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:37Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:01Z",
+      "updated_at": "2026-06-14T23:01:01Z"
     },
     {
       "product_id": "1005004779246205",
@@ -189,7 +171,7 @@
       "price": 7.62,
       "original_price": 12.7,
       "discount_pct": 40,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k8aGsKy6D9isSgrsFqMHGBoydRZ5fAzYfGl2b3q35JUGy3fXbOo4P2pxCoMe7quDJpt68DImcIRkft5t9uctVEbQ7kgBuV5Phe08mHlaBFP1nQQwwwF9qtgtFBPsDYIq55C40sowxSQv8CcynIBJhCCYHPM6jlVmhlQuWaHvZIWjpaQmeVpITZeHofIlNX6P64QneGgFcHPszaqp2dSCSmZOZe9Hmir5ScO34VHfifAwLu6x7STXspdz9MGKmG9WHUJVQE9NeuilkFwfYKecoiwXFDagT4oGkQd0QMBQEutfDOZb8CbsdPz0jfycov8vTC2B9sHldSuu3JQWcUp5BW3mPB2pL4cA8D05lfs2yoeuVtaHKbwEIdISI0OL09DUCooUFuNA6dAUyq4CCZdDhPclrkRt2FUnfJGcEOH4sBNEvrlkt441yYuNxWePRgcnREPbzIFOn1viOlni77kYlLUxKgQ29bMamoOWwjfeo0EcqIv3L39LtHLhrsJpIgVHOVDKIKhd76166V6rQpZToFHJSyUVybxXQfb1UPnQBsa19fFHPUwrmCt92TKiWK8uIS96m7Y1Gw7gI9AK9ElokPuHWIkXdvTYEQVplxU3oJ03T41ZWZvkNRo910XdM9YxRPx6W4EYJvrlQtdmKV7Ca4J50Q2Khe6AjhXP9n0VpmePwbTSW0qO6FvtV0E1zs875knmHUnTmBGl8",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k8aGsKy6D9isSgrsFqMHGBoydRZ5fAzYfGl2b3q35JUGy3fXbOo4P2pxCoMe7quDJpt68DImcIRkft5t9uctVEbQ7kgBuV5Phe08mHlaBFP1nQQwwwF9qtgtFBPsDYIq55C40sowxSQv8CcynIBJhCCYHPM6jlVmhlQuWaHvZIWjpaQmeVpITZeHofIlNX6P64QneGgFcHPszaqp2dSCSmZOZe9Hmir5ScO34VI48BWLn3LTiOyN3wpUeuISFvmq3QyveX3WMuiOcFMxcTHFXR8W7yi7COAzghCz2LliW76eQ7KUtOQh00fb0GFwx5w1csrJSUmGSZklDP65tuFXIHrJWpv24XO0KQsvlp1fnAGr6xZ4OarIDvPRxyVuPaTvX8bL0SbYot8PiQvujURpsmldOh79CM4iX3D4pcd6FaDfJF0lEkpvfhK01gOrgvnbaVnEcrIILbrGTS6jhZckoEQrDcC48ezntu6XbnNXZ1QXQvXaNJa5NFOpqJliryZ6BELy7AySow6oAVIvJ7eVoYcJ5I53o1jePLLWKSeygRseFPVPBp4Ze4wsRbHhVCsvZM5wCywZQoK4WWbmkZ33yiTBzbGOnxQcv5mgKgQSSUoHQd0veIGf86LLw980AN1zxy79EfizNnIAtIMETsgHnTa9mFr4VuAENfWoZS4d4aBtsE2FuHzSvzpbpNP3MiZebf4DILTngr8ME",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192161/products/1005004779246205.webp",
       "category": "smart-home",
       "rating": 4.8,
@@ -197,8 +179,26 @@
       "sales_volume": 11,
       "score": 0.2163,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:37Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:01Z",
+      "updated_at": "2026-06-14T23:01:01Z"
+    },
+    {
+      "product_id": "1005004774956386",
+      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 sensore funziona con Alexa Google Home Assistant",
+      "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
+      "price": 31.14,
+      "original_price": 47.19,
+      "discount_pct": 34,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mrwf89FWjDQhJCKb20xrucpRNuLMG460JL1vqrSU3smUZnHpi7hF23DmzOgsSTo4JiMlLtBDiJaDDwMAyJQml4gDxmS9iOI4dkNQZXHNNM54R4glClU81BIfUljHGKVzBd3Jj3bG2BjHCZsU1FsKbvRcF9ovF8TtorrYTqOmxRQl57r3mHt9glAbg9XJXexj0cF38aZWpKC0lV4OhaVx97IzYknHMtc2lbvQLYfl9NZ4Eq6XTp3px1xdfFvLxspLP9Pxz0uFc4b4BQyfBBxXhNQSmhw3ZVOLLoBn1WhSUksypZQ8zj3dAWJ8dyMSnUKm8pmguk86YcEGS0tVCDdHc8wDrv8W7cb1Z0G0yvgDBdmWLf5kwLORn6xZBlrmPX9oSUZ2tXPKb7RsllhV1Eot77pQaBRmMzMlNsFBfyNxpI1uOLZnzSMicohK2IuwMm5bZl76pY2jN131lfxMmCiaggm5FVt4LB6yTcKJXKd6XS3lAgJKELsIE39AmC0qkoijJNZ6BK2lUWSdsunZC8wY8WxcG8FuRypiEch6lghe64Yi58SFDrOrSJPueYstr4iRO2WKGpqgLDuYMcvVfi4Qt1pMjLj6l4nDcyaYCTTFqpX1BIjmFmvCtVGiu9g8qI2ANjRvjryNiiDMLcdj6MRnyZkLNGmssq5K821B3BrubOMuCBYwSBzSvFFE4oCQVJyfdXVIPWxgocd7e",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781478062/products/1005004774956386.webp",
+      "category": "smart-home",
+      "rating": 4.9,
+      "reviews_count": 135,
+      "sales_volume": 135,
+      "score": 0.2155,
+      "price_history": [],
+      "fetched_at": "2026-06-14T23:01:02Z",
+      "updated_at": "2026-06-14T23:01:02Z"
     },
     {
       "product_id": "1005010445247796",
@@ -207,7 +207,7 @@
       "price": 28.23,
       "original_price": 56.45,
       "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mm8a0FU4ah2m4N3i86tRyezal3fO8QgLgRYI4wHTAGBqpwilcUZEYht6KudfknMmw7T9xEQdRDWb4SjPQn2sL09IAAJKEMjSehX6LE9LeNx1gtlFZT9mjB9UA9hAjh8nxHlBkc8IudHTLnDKo6GY0AHjrwDVCkYaahfqf8Kvh7Q7bXXBHSC2pAnEPBrRgiHKML8aphJuFbuRL2ugHvuJhX7427nGxxvGT5I9yPGDYyzEkgX1urf5970IDWN8HKBiW6oWejlAF86vylQUqKdGkr9hqrsb9PveiMZXCPHMAwtPtaJSB3y0Ejn4efaXyPqbTvRHP7z7oW2DRI8UUGaNXdP8qjKSbOuRBe3eNvMIw4HsMmbpGtmRO3rSVyvIK2dJtPCfN4iHp9F4PjyiRBxoKp80VwUDmwRbPeTmjO1aWgrdKMwQ00Bqeon7qA5mJGCKY22P6bjVVo0uaQzNUqYW6gsZJf1WhFcWIU5HDQrU391I1UqAuWzdOta2DcSOBI3lMpDyKXLteFfOpmb5ELVTfRicRVqLFqWCMKsAe1gYDOGSY116S6t8mTvgvFdyryI28xJZuwkMtk8QBtd4i3PdtYMT7NPur4q0w07MBDcYoY6Ed2SdAaZZNwMaekWkvs7nnWNd1e3zucTuCQT18eA6qMbg6dIZentfPA27JPcajJoAmJk1FHbHXxR8TID8rw8Eq9Vg4cNMnLB50",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mm8a0FU4ah2m4N3i86tRyezal3fO8QgLgRYI4wHTAGBqpwilcUZEYht6KudfknMmw7T9xEQdRDWb4SjPQn2sL09IAAJKEMjSehX6LE9LeNx1gtlFZT9mjB9UA9hAjh8nxHlBkc8IudHTLnDKo6GY0AHjrwDVCkYaahfqf8Kvh7Q7bXXBHSC2pAnEPBrRgiHKML8aphJuFbuRL2ugHvuJhX7427nGxxvGT5I9yPGDYyzEkgX1urf5970IDWN8HKBiW6kqi0iEzN7ozhrlcBMJdtpcQ8Afedsm6MLSg9Xloyy2yvGQ05x9uap6alY0QsAxLI3TBCYBy1l7M4AAVmwlLAsMPxmnbHTAs8OlnA2o65y1uUjmgEb99o6AC1utvKIH0M1kGxQKCPTnuFa8ep6fAq2Pu1NQNx1JcHcuhX9CpakjMQG4Bhd2ilYv3d7WqcIBOQFlqAwUYJCilbYQV1jOIedGnzg6dcExLUO7yvustGyYGpRREUVWtVS9yYd9KC5OaMm5ZNGWMzsIOgZQRBH13R486Jo7GEeGOmGwZfwFamjFnMNu0U7qESGe29uWNmJE97S9LFheVg5UZsCJBYan0ezdpPGZ5izX5o9rSc9dVIYMzZSfEDtySgq5OC5WZPFmDIlWai7Jn20Mj4tvCWoZkFTqkUuLiD98uFG2QQ2sNtktWuyqrionQppvJCfhESiIsEJfHAQnoS1wE",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780614048/products/1005010445247796.webp",
       "category": "smart-home",
       "rating": 3.0,
@@ -215,8 +215,8 @@
       "sales_volume": 5,
       "score": 0.2106,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:37Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:03Z",
+      "updated_at": "2026-06-14T23:01:03Z"
     },
     {
       "product_id": "1005011962938074",
@@ -225,7 +225,7 @@
       "price": 23.29,
       "original_price": 77.64,
       "discount_pct": 70,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FeLTGI2gRKr8d5ZBttDW9X7QmvPzvg15L7o4XXyElMPwGr5COw4xMz3Bae6aoNpTb6qHSefqGrHVJ5YzcdUYg7d1tVAvj6wQxe4zTqVxWcPk3gFHIXy13dGVqYWWdHiEm2qKVTRop1LaucMmTb0yUcG30rN9MoZS22es3UHAUPmvv79Yq3CFt337jzziZM9H31oeColFLhLb1FKLefURa8L6ReMvZxs8vCpbPc381QnEwTrmG4wr4r7QYVOp8HI9ONnm7SeaeXJzKkuKTCqIZaXLj8Fpg9zP0dy42jSmau84ozLMo1fnmisNrOyoWZgXsZohQQqErnhHUR9ZIS21McXhaFv5Cp1qSxXb85RFlpLyP9XH4vnDGCZ0qNJey3wJrSNFKjxIhSL1D4AkbcPxwIBkQy6I3AaJ7QrelYj8K8tOkCHIrjY6N8R6xSIELf3pfNCNlyQCFcgVPAA05ZeH4Vknt3ts1mcJVa9eXcaWRL5pQa0az9lLgYOVByGFIRFH9VUUKA90oB42z6glM5IlwCV8gZ0dnMwJgKlQ1plyTrZh7r4iteONKTu8b15NN8CofFVGzy48bxc6w1btYThrX2kTNk7kkQSkbXlwxrpTQjDFEM9Jro4y5hDevjuq53lIH1JyiGNR1G3VR1DE96nkaYenwTFYd7VloEmNzr5rFkfJEd2irgFHxZeIaf1zOfVrYo4eYyiubEsKg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FeLTGI2gRKr8d5ZBttDW9X7QmvPzvg15L7o4XXyElMPwGr5COw4xMz3Bae6aoNpTb6qHSefqGrHVJ5YzcdUYg7d1tVAvj6wQxe4zTqVxWcPk3gFHIXy13dGVqYWWdHiEm2qKVTRop1LaucMmTb0yUcG30rN9MoZS22es3UHAUPmvv79Yq3CFt337jzziZM9H31oeColFLhLb1FKLefURa8L6ReMvZxs8vCpbPc381QnEwTrmG4wr4r7QYVOp8HI9ON3EO3ShjUEJllRbSyZTmtYYyte8UiElZZYtAO6T0F37g7b1193ZwiGWfEqujf6NDDtofm8JJInSTgvmQDKH36vxXPAu9SytkmvtznzGkxMOhYZLIscRgJ4XsQdYhFlgYvrNWBQe58DqU0k00W84gSDFRUArbAYniYUrEViXVHEX1vzq4qFgWRyDQckBaMaHVlMaZrtfJlYPEEeBxpBWzukQYKOZTNHr7bmPFRSoL7xKKqLihEZkXdVcRVwPz4CasM7ycFvp5u17r0AOKkf3oxAWtRxudk7MIxT93QnOd25v3S0LTllqdi1Me4lMQl29UkptNvB0CWjirMtzSQx12m0oI7ElCNhZK7CRuUiiDRh5JaNRTJiiV93ZTjN11PblRTUzCnxYI2qLHUNTtyRa2IhbTe7dmYHzGtIZ3hMsI8jZmjFjjoGoaijEAW9Qm3lv3SJMGjI5w232U",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780896556/products/1005011962938074.webp",
       "category": "smart-home",
       "rating": null,
@@ -233,8 +233,8 @@
       "sales_volume": 3,
       "score": 0.2104,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:38Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:03Z",
+      "updated_at": "2026-06-14T23:01:03Z"
     },
     {
       "product_id": "1005009306467710",
@@ -243,7 +243,7 @@
       "price": 10.71,
       "original_price": 18.4,
       "discount_pct": 41,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mqz0nzxR1GAjtXJa8ZrKcoS5FUU5QP1u1y63jdCOGAJr3vjKAHVOYtFNEjdLlfai6KRUe6cPE3ZFuRvF9FeySuy3LpRsytTyNAZU8jz60o58zSSduNfb5LZJV7CrhY6nZ823IsVUobGNxAU3qWE7JkNIBATkTXUfgT85cJrbm6XZpTJO5YsbIzzrOzcR0HwneFLudoL46qkuGzotMMc1moZD4KuSICfdg2fdgNNPnvTjbljcC4r5qPQo9Mj90A1Vwe5TUvgNZ38FqUcRUvJ7k6L3FITKRJWgzvdZc3XVHDzKKVsmZFDSJLHEV2gac6N7wuR92IoBjOqUSXEgiF8sBkNof3pPp0YPCLWrUGAWPBujAm3CwBpFpF1YD0qu0bMhEQo0Y9AHJm9OVOhTwWg4FiKDAqZVy38pr3O1x0S0RRx00mKveftyVDseoJTRM4MHAyiSORpbqwzS5LYZjP7Un4pRm6USluEMv89oR2HcC5QYSJR2rFrNn5IciE62dtUzKAx6fv9qOmeOyBmGlOkog1h6FnZLLKB2QKeAhmNbVeKHhNgLtE22Aaw3dNwq6mlre2Dc3iGmjcRXUe109sQeZxs9GUXl5ClESbxmhFrhVw9UoSiOyhXkm2b1oEHifuCPD6n1k85t16cDAftVgxDErNbel6jQ6yE750qRVL8EcrvA2XUwblbEWCfIP2NowuSYqSRjmyYTmJiy2",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mqz0nzxR1GAjtXJa8ZrKcoS5FUU5QP1u1y63jdCOGAJr3vjKAHVOYtFNEjdLlfai6KRUe6cPE3ZFuRvF9FeySuy3LpRsytTyNAZU8jz60o58zSSduNfb5LZJV7CrhY6nZ823IsVUobGNxAU3qWE7JkNIBATkTXUfgT85cJrbm6XZpTJO5YsbIzzrOzcR0HwneFLudoL46qkuGzotMMc1moZD4KuSICfdg2fdgNNPnvTjbljcC4r5qPQo9Mj90A1Vwen2rCusJ8SuGgSTDAgrcdWdrBDIEmnk8rGVwUPHuts6uq44Oz3y75ECkyDFQszkmKZocinVJLnwZffTz5jgvk95ZHMsDI3j1dFgXsymZ76xgehoUvGq2QFK23DuymmEmutpDq6xb6HakB5w2aj7N3tdheRS2MIobnr2fk9aEZ4psA0UQwU7iZSXJEKwkttelcPv7wPgV6exowTCJk32KCiBwdH3wBptTHM1e167oa0BN62O0eDGSHV2XbRkD7TEMn8AZIc4PWZYGoR3Gby1PZUA3kqxHnAInxlU0fwJ8nwo7xZm5uWfdsGl0107meX0rOGSLinUJsLEUggjV8FcqxM5w2iqKtVoNE18j8jRUvCxXIqQ9lwaG1o56d6mH3jsQQX1DSivvwLio3fpPxiMZtXNA9iMhVTtG8GNw7Z3i4RGEA7jtWE8nKyBllnoJ2pAnhN0WINOt0r3U",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192159/products/1005009306467710.webp",
       "category": "smart-home",
       "rating": 3.8,
@@ -251,8 +251,8 @@
       "sales_volume": 94,
       "score": 0.2099,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:39Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:04Z",
+      "updated_at": "2026-06-14T23:01:04Z"
     },
     {
       "product_id": "1005003568997399",
@@ -261,16 +261,16 @@
       "price": 104.98,
       "original_price": 153.03,
       "discount_pct": 31,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mOXk0FNFElrsxz2bW8yok8E5qSXBsY9TWzJEazLNJ1BICKgF6GOeQxMysNt1n363ZUmkq2NzcsDXQjgymiGxwv8oZiWN8k5IZ2MssA5etQhT661yDgEoyNKmVbVWLJDydYq3LvLzybWzDZT6T4S9ZK4tWRRR0GJtLlqla5HLaf2XynRdl4jdtRTBp2V4CBCeKyV9Kq6kdvsotflZbWGuM4RWpSmakOi1xQiiE0rGLObyLHELs40jhGujJu6zz6CnT87cNiVlTn2af2QYfCRveEHc7ndr0xSy4KFCcoq61Tcda4y3qeCa5knjPIaSZ5302hwWlh2OWkXKvukpRzPaWquKtYCNu6HCexjn7VV5CdhWs9YTfd86mRNk76hOtendIOUefO60RBODMYH5fdncNtveu5c7moqEdfRlBgNVsq6VlHvxWbBQTDG7gUlJMe2DUV0kLd14WWENwSvK6XvaCxPdRc0nEp4WUJHN7etwD3pqYPfWqo1KJ6RHtcNgtKlOjRpa9Ai3VDYfKM1V9LtC9bUV0xBuFlXFtwYyh7pPiu0AY4xdbuqZPNRxGlH5JvPTa7UJGHbdJ9i6J0CYgr2l6eJjkAMRrQu1SsV2ZQqh6oQ7KN46qb5X2aHyMtmfn5UtXQplmGS1fpzv1HhqdrV2B5DVETO6DNHFYajn3ZewCV68FVP43NsolRgUvH5Ne6AmtV2jg85cdaiRf",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mOXk0FNFElrsxz2bW8yok8E5qSXBsY9TWzJEazLNJ1BICKgF6GOeQxMysNt1n363ZUmkq2NzcsDXQjgymiGxwv8oZiWN8k5IZ2MssA5etQhT661yDgEoyNKmVbVWLJDydYq3LvLzybWzDZT6T4S9ZK4tWRRR0GJtLlqla5HLaf2XynRdl4jdtRTBp2V4CBCeKyV9Kq6kdvsotflZbWGuM4RWpSmakOi1xQiiE0st4jvNnnvbPovZ90eKpq9BwAWzaCTagwcjojCF9yfltoEBRMUeaDCXe7Ki81QMTR7mh0jeorrMOvRE6Ip39uGZIVIcozWpwUubszFgKMQNNKj9x3ZIK0yRqE1Q5P5BSdV9ZAozYRTxmtqRwRrpvNuaVxE4jaHS9MryfjLGaDt0oH2XMtMewirk9aToiP4J3ETdm9eUMdP7EixbRU22zwvRdaLH5IKGz4AUhEvlef4GUdYmopqRVlzN0lA1O75XAf6iIOlMcm3UjJcbR2OhZeorbLXw7csPUX33Po6O5PCivSA7W6FAuLeIre1e2piHdl50d4jG6jmG8g6ch5IZUEKxsORPm4yZncbPXgH6lfzNZ4tURBdjUmgQiKVziqh7e5B7xscWNCQENoRTcktAJotrTAaQpFvmIzoeeKlbNzlAkncherU4hqt64wXtLtelmu8lGDw6HX6jf7PnJ4qbDVF4X0XrmgF8XxTKn614z",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781046063/products/1005003568997399.webp",
       "category": "smart-home",
       "rating": 5.0,
-      "reviews_count": 110,
-      "sales_volume": 110,
-      "score": 0.2062,
+      "reviews_count": 111,
+      "sales_volume": 111,
+      "score": 0.2063,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:39Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:04Z",
+      "updated_at": "2026-06-14T23:01:04Z"
     },
     {
       "product_id": "1005009559994857",
@@ -279,7 +279,7 @@
       "price": 12.55,
       "original_price": 19.92,
       "discount_pct": 37,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oeWPHcdpZTv3TF2LeinVMTYuaZ0yrYXz6QvX4c3vD13EL7zZjcwuLDXCUoGhqhlDK091iZp2ayHUb3UW6Ls4Qd4dqSfPC9ApRjflYjMzhh3vxb9rWPTV0BRkA7q7JpKxqP85VC8OfzqrhnH7ChhqvWJuf3erLnnc0ZbnK4YhifTAYmGnGnADouztt86GRtMtNXCKnZgmsvl0weg06eNKHSCU4Ctd7EAezKRjEzQaz3EtL0VB8dAIjCdadtlcad6Zv4ySC9AjmEPQekZ3hIYJ3gPmVC21CyHukkf2zcSC4FTE9Gl1UkIhG44FiaHIaGFEjvsREmkf5uWPlnEdYSLXrAaUVQUOvUItysIq5hUAGmQKK5lR7EFZvTfJLev8r5zGYdr0tECyBsyHHGDeLqxAwQU2A9j50BueVjxwqpxJMbCKLQkNHhvWARTuWHDYcx6zWxQcPawlmuaNqHXaElxiTnaQdYzgQglCeqlscVSD6DotgLGv7uOe2pa72Srywhh72aadTzY6B556DWf0pL7ykRVL5irTUMhYei7FpY7o52b2MHIBvLAWcNPBB97vbVFH2XtPFHVRVM6TZfpk2ydQAuSyXtoxniOF5lYS8DfSSLGFOTlHigpBIwXC9X3wPS186ugO2dgl3gVHNX9jPGqgLSJhiBK44b1UlzHrUsA1WNcQOcZhza0nALki3aqI7xVa7Jm6u0nenj1Sk",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oeWPHcdpZTv3TF2LeinVMTYuaZ0yrYXz6QvX4c3vD13EL7zZjcwuLDXCUoGhqhlDK091iZp2ayHUb3UW6Ls4Qd4dqSfPC9ApRjflYjMzhh3vxb9rWPTV0BRkA7q7JpKxqP85VC8OfzqrhnH7ChhqvWJuf3erLnnc0ZbnK4YhifTAYmGnGnADouztt86GRtMtNXCKnZgmsvl0weg06eNKHSCU4Ctd7EAezKRjEzQVIYRumv59jaD8AhoWMHnFzEFtrAhec2XcIrEYbeEO85tfqUjvZhvBM6po4zQSO7dmKdyfPv2tJXMauWdajkWQ3vAMLFEAtfMF2VrEXxniSfbp7X2w7S38tXu2ZZHgepCmDfw2I2zfeZXRLlbocGfktuQRLUV4a9GP31u6FvZ0siS8sjOQLteW0p5YAApCoqEO7zgEiLClepkUG8KcgdZOMilqHA8FIXBsbW2XB7GLHW4MfTXQM3Qj9cwNOU1NeZ82EG0dJ62sGlvivSOYx2easNtI8N2y48c7Lw6IAhFtAvovaW3djmQcc5OCKuH0mnaUjiKJqjJIjk7LfwcfKAGhbGzZZ0L1BmVPMraFOI5w3l5jmTGLCdneklYPsXOkBax43lOhv0IBW8JKmopjdvUxEA5eFIzWbk2TBFivH2WENS2rYD9NNY1WkSQbDeHmtndDlAqI0aPwaPqKZaJ5gC71jgYTJAs6tDvf1MQC8",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781242194/products/1005009559994857.webp",
       "category": "smart-home",
       "rating": 4.7,
@@ -287,8 +287,8 @@
       "sales_volume": 8,
       "score": 0.2053,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:40Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:05Z",
+      "updated_at": "2026-06-14T23:01:05Z"
     },
     {
       "product_id": "1005004966987077",
@@ -297,7 +297,7 @@
       "price": 25.5,
       "original_price": 42.5,
       "discount_pct": 40,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k99Pf7mE59d69mfHbHRD2nLmkQ1eJsL3X4up3695JyG1En5aQjh9epQsyUwx1aEOq7lJmyQfDoyRi7nVc98Jm3EIJ7YGyZJVZnOZgrRPtR8z4M1tya0QHzUQaBpU11ssD8ArECK1hlqZAzzUJHiC5OR1L0o42byfFoUHMbj6kTcgJLU5eMokWU26DlfcUPBiN2DrkTQEwq3ZGg1Np7IvNjYvMga7kk5bhutJYF7QtySZUMP708FE9ywvaanh8XTqQZGI20Ea93TpiDhIPHJp8ydfVpgGOyVuCRZhK8BjDn6JgAPqkqEzzlGtfdiuK48ZPwXDx3JohCf2N6nxDKEDYvMg83UwFJV8YsVzwt6TRxf9NjwPEzCJt189QdzOBd04x5F5mH8ovawWu1BV1pgM0bCnPSDjiL9kQcbNCs7mS7x2JQ88ABRK5wGapHWbcpaIPLNa8elTNGItD4Ak6ZEfulKskqfTHCNqQ9UuTDPVUQwKFCKf4XoQgTUHVwQa5FWtA5GyESTA8xOLbYbuSLT2984i0OeSjQ3t430zwMtjJ3jBgYn8rnMpTmQnaOgVqWRdtdmioSct3LoqnooflWAkfUOsCANDmNTMdzPTVUOLDbagl2bJdxYjGzlHLFOI3CkBAdjjj1seMaHO79lEt2XOEn265wjGwsSdZZnbROFWHwJFp0QCjkyFzXxHxJ8n0lxXs1h9ek5IpbJFW",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k99Pf7mE59d69mfHbHRD2nLmkQ1eJsL3X4up3695JyG1En5aQjh9epQsyUwx1aEOq7lJmyQfDoyRi7nVc98Jm3EIJ7YGyZJVZnOZgrRPtR8z4M1tya0QHzUQaBpU11ssD8ArECK1hlqZAzzUJHiC5OR1L0o42byfFoUHMbj6kTcgJLU5eMokWU26DlfcUPBiN2DrkTQEwq3ZGg1Np7IvNjYvMga7kk5bhutJYF8T34KErHo3XYTQZYCPtOpvZ8ceNd8GBV4gg34PEq1vnoH4tjLgVEthzFODDZtKbVGsSF87ffEnPcKZIHkyva5gjaOlNevKilEW3Cq2o9wLLEZExwV2VrTBWBIUNz6Gb9pL6i2K8OnVx6AcUyngXbZ26BI5sA85NdHcmLROqJHrfWaTWhcxouYN3y5Z4gkwdN98P759kRV2onDH2XYXhpg7uQfKMMaTKTJuEPvUVR29bbmfFtiOZDPxQUOYDpcV1Xc27nDoMkecQCvNcDEc34RnyzSdeAAtGuNCyySVQYwnmQczb9ee31E4vypHQoCQKgrb1hqJOQM5WPwyTIGvxivTqRmEKd9iJBvnlMTHe1TB20NbnmiLCkDRTUSMRFneRFOEmmcoD17VjjUOR3bm5E2hlEJB8q2JqF8O4Ph7G7XxmNBT4Rp79khJBrlBNQ0dmbKPMtC2xNU2nHnum3wNVodiUCtvVUzYO0AMroyRa",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779426441/products/1005004966987077.webp",
       "category": "smart-home",
       "rating": 4.0,
@@ -305,8 +305,44 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:40Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:05Z",
+      "updated_at": "2026-06-14T23:01:05Z"
+    },
+    {
+      "product_id": "1005003990707766",
+      "title": "Sricam SH038 HD 4.0MP Wifi Telecamera IP 360 ° Mobile Remote View Indoor Baby Monitor Night Color Video Surveillance CCTV Camera",
+      "slug": "sricam-sh038-hd-40mp-wifi-ip-camera-360-mobile-remote-view-i",
+      "price": 29.46,
+      "original_price": 42.09,
+      "discount_pct": 30,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXPHO4jfUuj3OHiXW1zuseScT2rJAW93O8aihdxKweAZ55gdkpxw7ekCAQQPPoee19elwoBPCCWRVJnXBvGkvDPAmj7iE4VG7sEXr2OwGn3CfLmrHzYJTQiGUxiAskwrZqaPihjKMBau08EPGsjEKpdzs9DmTmzj7t5y1nt6uODvakxCwWyGogrviEh0zQ0T5QaXkEXSBFaVqe4QqhsQD6f4kOyw90f1fF2hGj6FqSHDAjR9uYF6AFRURPFvJZ8DbvJo4MvsbLWKkx3GYeLNlYqWBgcWTLx8CySZotRWddscVIiAaaHG0MF0C3wFoh4FyKHDj3m4My80Abarrfm7hUSMRmxl01nAouHX8a1IUSp4DChXsQ9PytBPILsEoaqHF5UIv9quuEHVGgpIUkT2psDrjhxAYW74Yoa2LoYqhLnFg5hzAvCQMwlbPzWQdpaRAew94CnFWuH6uKbIgcGCcrPygEeWD4Dd40YgSqShxpniK06YdfUdUpg99KzRkfsF8A6rgrItbQdLlptz2R5QgqFvTVwGdQAevXAy7vtkKEswtML3Tzoql7EeccZJhImetE9yoRodgQxRmGkCDqT9ABSG91IKPiJpyyvMmDNXNJy6T3cPSCy9FV3OU4O5ACU2qyqwUs4KclW71BRmWp6WmF2ys3a3YiSBS2PforOjw9aWOOKBniB6FyCAKiXxCqdVCPuwZtR05sIas",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781478066/products/1005003990707766.webp",
+      "category": "smart-home",
+      "rating": 5.0,
+      "reviews_count": 8,
+      "sales_volume": 8,
+      "score": 0.191,
+      "price_history": [],
+      "fetched_at": "2026-06-14T23:01:07Z",
+      "updated_at": "2026-06-14T23:01:07Z"
+    },
+    {
+      "product_id": "1005006118602003",
+      "title": "MOES Smart EU/US/UK Plug Matter WiFi Socket 15/16A Timer Outlet Power Monitor Supporto TUYA Apple Homekit con Google Home Alexa",
+      "slug": "moes-smart-euusuk-plug-matter-wifi-socket-1516a-timer-outlet",
+      "price": 13.94,
+      "original_price": 19.92,
+      "discount_pct": 30,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EHfNBVBrX4d0FNPr4h8hdcap1EgfbuxZtccH2AZotMYY1QTsZNBtCKV7dZTB1gOuo8wQ9ZDpqOoihEzKdaSoyEsCbdtYvSWVOy0I30aCT4AmeNpY4PHYN6a6J9A9hqjZCd1QepNam2lHBowkMWkaEzxi5d53txnLBUNwh2QeEb2ChsGJJXwcdMFd4cwVuINW1aYPTCp2wTVriDa1C7pplyO0Rmht0puSOW14YQEEQk8eGASxf4mQoMf3ixNGxmyRBut40nJevoTeUyhZRWpcAo9NNWdtyKjX92Q6P1H7TMjGmckqSGx5xZ1NWVW8FB9G0A554DmU0Vud1HRhl78oWhFubn0IFsCdCh1DWYjhbzndwhVMAZqGdaNOEnhBuR19WeDrYsJOwwQ9nHumkGCKewun58ZvFgvSIry1LuIU0WbjprXdJReS7OYMN5ft1ufPv8ofJb4BXIkfKtynRgvyD3FqE1Bz9umdt7ZW16oOwch2hI0q1vxj2B5eGQlfZAiDVV4WPjVeYkuK7pg60kgF7YRXhTNKiLvyUt7WK2ZOUgUveggMZy3fweaanXn1Pub6XsSTLrcpJYmHLB5ROGVaaOZkXAk6vxz6miVzA5WuxnSXi0ArQJYMBr1jA8reK5m0A13369Wt8j7YxxX8ZPzFsY5eAKnMORQua8O9MTaTTpHPSz85at5ajMLztay1Mio4oWhEpZ0kQBbxW",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781478067/products/1005006118602003.webp",
+      "category": "smart-home",
+      "rating": 5.0,
+      "reviews_count": 7,
+      "sales_volume": 7,
+      "score": 0.1908,
+      "price_history": [],
+      "fetched_at": "2026-06-14T23:01:08Z",
+      "updated_at": "2026-06-14T23:01:08Z"
     },
     {
       "product_id": "4001041588925",
@@ -315,7 +351,7 @@
       "price": 7.29,
       "original_price": 10.41,
       "discount_pct": 30,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVGNvUgfIqw20dkv9ckKazo43NoJ6lsJTJoWOsNoOXXhHOv7ReTPKuW2poIiIn3ttyPF7RHiA5alcz9PRlnZqUH4z6F39JnskaodR6yBKydL9lBEpstL2mNtLNRtqxOiJEVUs5LcVrcHahB1Uby9XN2sBiX0mqbYU8A0lsrQQnzjKA1yItLDfjw2bmPemft8r2nMKbRy4oQBRDby72jCnA4Sml9fuTUYOKOq0xJqOEZteDgTha64PNfbdsxAOz8TytlWgmgoBAfxg5hGQtrVbv6U1HIgp9tx7dgOJweTpHR8cb8ipThDlbu1l89ZsJgjkymiw7cSnfjqdS9qvJjTHuZr12yvWbhsJvG3BFxhGQJT73a1Tt9JXZLRgN9Zmie9KeKLmxk42Ix03LCDlaXQrE565cjtflz3mNoIQgut940BL7Jl9kbZuZoTu5aj4tjWwyMULCJ9QLTq7VU5VFfHU9OSN1KpuHSK1efDP7RqDJZRxV2RMZPhDJKofSxj0hzFN6pVVyXQRERoB80um0pkzKl2S4oFrz5gwpwqXX6wanIw9iePxbt5N1nxJL3Khyk7pfFkO1qqvD1QDiLk9BXBLWAse7K8bTe3RrsSi3kZYqpcdHGO6kAP1rrf3bipGPK8o1sU1eol5cYLrn8CftxVfECoRV8TgvBEvFZO6IiPe00ViKoT16HVtxSEDtdpkOHIyz4J2ohPyc1rHAqYtlNYLCnBIdVbRh7eKJTEZ3NG8SD",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVGNvUgfIqw20dkv9ckKazo43NoJ6lsJTJoWOsNoOXXhHOv7ReTPKuW2poIiIn3ttyPF7RHiA5alcz9PRlnZqUH4z6F39JnskaodR6yBKydL9lBEpstL2mNtLNRtqxOiJEVUs5LcVrcHahB1Uby9XN2sBiX0mqbYU8A0lsrQQnzjKA1yItLDfjw2bmPemft8r2nMKbRy4oQBRDby72jCnA4Sml9fuTUYOKOq0xJqOEZteDgTha64PNfbdsxAOz8TytlV0zmgxrmDdZP1MJQdCu8ZdCvxSUHpqlsXx82LOsGXo64aplh8qNS0V6OPnxQI7VGlQzo3k7S1EQzxHb6O9sFKGmMnaL37YtCGg2zrTK1pibPei7RNZcZ5zsNQ4j5U1MHKUenzydQe5J5HRdFZPaLV2uvd1qPFRH7hggEPF3GRatGrDo4K6rKROVGJ0RW2ebqwlPG1MLOwxHyfMBq12VkCwa81czS8NuOprIYB2mZbQbgiZwd5fKy7z2hwAqYxWTpbM4SpvU7Ip1MKhnCOz2fV7phRbrGZOlHwMAICOFkXUpnF4SmcpVdQQAI3GeCuArAl3luiWFbf3dbANB8boIBCqhHGQs8AlZ5KI4PTJRXtkQKeu0c8phAaQy4ILJ4gT1JKNlMZqzU6sNXvpy69g8r9I2YzV77BpWuOR3pvIpC9R48kED4HeZFQVbLOAeqfvNSbucxF7zTBd1wJKCpALFHK81SQATrueRGgCnqIqzr",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780896554/products/4001041588925.webp",
       "category": "smart-home",
       "rating": 5.0,
@@ -323,44 +359,8 @@
       "sales_volume": 5,
       "score": 0.1906,
       "price_history": [],
-      "fetched_at": "2026-06-14T05:29:41Z",
-      "updated_at": "2026-06-14T19:28:15Z"
-    },
-    {
-      "product_id": "1005008650696927",
-      "title": "per Volvo S90 V90 XC60 2016-2025 Dash Cam fotocamera posteriore anteriore DVR Plug and Play Video Recorder Night Vision Parcheggio 2160 Parcheggio",
-      "slug": "for-volvo-s90-v90-xc60-2016-2025-dash-cam-front-rear-camera-",
-      "price": 112.09,
-      "original_price": 160.14,
-      "discount_pct": 30,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FCy9GgtwVljhpmJJZHy7MlucpXoxifN5iYLY3YdqceLA13rZAi1FoGyabOCQlU1pCjhUtsu5PnREPNAiB1RQ0OGueW5m2WnsViUv7UbUTmKycaDPsaJKVDHHO0fS1FxY02PZ7VSab9DVwvElb3i8vQLsr8OnPBmdYwkNR93c5te1vqaOrckdB4FxtK8LpAqJIIgvgFZl7UBXIkCll54n7EMEdNnLNidcs7u2S4WGTda96PQRdZ2QF0seAXY7EZNY0UboXwnLqdFaWHA05KRtTgQVRulbMKuXU9pFWST5YHVWQ9j0MI4s7DrjZhTNkGssJV0FQ6U1JjP6mfrs9IxAGOlaNlNbPPOsMZCSYVXTXOwjh9xx6oeotBTdLdiBLIWQkMsnVq1VuvosnD0XCo949hHDksdWa6ZVexuTUw5KcsEGiWl9A7W18hgwXV1YnnCTkH9esQklFoYSyUYj2hibZjo0rrwRvOIIBqSPCqbvX5uNurKqDuIeQuVaHLnz7lMIOusjvCHPb4byJVYtcpj5TSSxC9QwU0kZj7ZSnaw3KtBUoj6irUuDxKFVDLvZIQrSNu3c4cR1mpejMpbz5eCHUAFbL5vHMXnO00NN3Tl0KHXWMdgplqQVYjokw62MbA9Q5FXkrK7GweJa1gf6jlMbHfvgA5Xz9fc8ZQooC4xKvK3lK6sslr0xxuCp3ncD9sHhP4ax8nd3TBZpd",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781391658/products/1005008650696927.webp",
-      "category": "smart-home",
-      "rating": 5.0,
-      "reviews_count": 3,
-      "sales_volume": 3,
-      "score": 0.1904,
-      "price_history": [],
-      "fetched_at": "2026-06-14T05:29:41Z",
-      "updated_at": "2026-06-14T19:28:15Z"
-    },
-    {
-      "product_id": "1005008340706636",
-      "title": "MOES Tuya ZigBee Smart Radar 24GHz mmWave Wireless Presenza umana PIR Sensor App Remote Monitoring Motion&Motionless Detection",
-      "slug": "moes-tuya-zigbee-smart-radar-24ghz-mmwave-wireless-human-pre",
-      "price": 22.53,
-      "original_price": 32.18,
-      "discount_pct": 30,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXOKbAd4d8688TFDd4mL1s7rwihNcFBtRW2MWPvQt1miLqFn9Y3Kl6712FiRIQgIxG7OBH5f1JXxyAYaIXGVHKVHgrxen5moFOx6o19OJ51i52HP3YEACZNpLQ95S9EPefzsWzj53ipKBEY4cuzrLscD15OIit9sIRMrvdIsee5PfCCiCBAucm3u8OymDYdsdY5W0UrjcQ4RzBfLw204kadwnT6XQgnz53swSNkvoetOPEjY9md4adSDcGCIMlXcqwADpRsOupqjYjM79eNIhC5EfQG5vChsQmD01TTjn4RpIRG0XRYAyZejHO605hqoc8Gn05CzY1n72Yf81u8U26FDJQBjOaA8bWeHhbVebhkwnd55Fc2lg9HIIJPrNlvYB4aNNG1Yy2EjQ34SoHpE0qpHD9oimPb0UWwv0J5N3aJ7LadrSV6aig3PV1GmQmECXX9JR70kzk3mjWR8wtslsekwj68FOW8vPAqq8VJKtGAD3GosBGj0NpqgH0GcJdbqjYl4O0BzMfpeoCrIUK4TRYN2dgJwuJOfnj1SJAUO94BfUt3tQsJiq2MGGP4g2QaxEi0KFKwgLO7lXudQtX7uwvah4mhzO5wQwoyrEc40T1CunE6DznWCjohMoSCNsv6SQ2Xkd7qw2b3Ex1KmZv6OCB0trsRGpd89BphbjSzgsndsBUIsRE37paGPZk6dJ9xozmwQrvxQPnOTw",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781391659/products/1005008340706636.webp",
-      "category": "smart-home",
-      "rating": 4.7,
-      "reviews_count": 20,
-      "sales_volume": 20,
-      "score": 0.1861,
-      "price_history": [],
-      "fetched_at": "2026-06-14T05:29:41Z",
-      "updated_at": "2026-06-14T19:28:15Z"
+      "fetched_at": "2026-06-14T23:01:09Z",
+      "updated_at": "2026-06-14T23:01:09Z"
     }
   ]
 }
