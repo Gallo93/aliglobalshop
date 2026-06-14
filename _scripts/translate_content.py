@@ -181,6 +181,12 @@ def apply_title_glossary(text: str, lang: str, target_currency: str) -> str:
 
 ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 
+# Quante volte ritentare chiamata API + parse JSON di una singola traduzione
+# prima di sollevare. La malformazione JSON e' stocastica (apice non-escaped
+# nell'HTML): un re-roll quasi sempre produce JSON valido. Stessa scelta del
+# generatore blog (generate_blog.py).
+_TRANSLATE_MAX_RETRIES = 3
+
 _LANG_NAMES = {
     "it": "Italian",
     "es": "Spanish",
@@ -223,8 +229,9 @@ def _strip_code_fences(text: str) -> str:
 
 def get_claude_blog_translator(lang: str):
     """Return a callable(title, meta_desc, content_html) -> dict for the blog,
-    or None if the Anthropic SDK / key is missing. The callable raises on a
-    failed API call so the caller can fall back to the EN source per article."""
+    or None if the Anthropic SDK / key is missing. The callable retries the API
+    call + JSON parse up to _TRANSLATE_MAX_RETRIES times and raises only after
+    they are exhausted, so the caller can fall back to the EN source per article."""
     api_key = os.getenv("ANTHROPIC_API_KEY", "")
     if not api_key:
         print("[error] ANTHROPIC_API_KEY missing, cannot use Claude blog translator")
@@ -244,16 +251,25 @@ def get_claude_blog_translator(lang: str):
             ensure_ascii=False,
         )
         prompt = _BLOG_TRANSLATE_PROMPT.format(lang_name=lang_name, payload=payload)
-        msg = client.messages.create(
-            model=ANTHROPIC_MODEL,
-            max_tokens=8000,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        raw = "".join(
-            block.text for block in msg.content
-            if getattr(block, "type", "") == "text"
-        )
-        return json.loads(_strip_code_fences(raw))
+        last_exc = None
+        for attempt in range(1, _TRANSLATE_MAX_RETRIES + 1):
+            msg = client.messages.create(
+                model=ANTHROPIC_MODEL,
+                max_tokens=8000,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            raw = "".join(
+                block.text for block in msg.content
+                if getattr(block, "type", "") == "text"
+            )
+            try:
+                return json.loads(_strip_code_fences(raw), strict=False)
+            except json.JSONDecodeError as exc:
+                last_exc = exc
+                print(f"  [warn] traduzione: JSON non valido (tentativo "
+                      f"{attempt}/{_TRANSLATE_MAX_RETRIES}): {exc}")
+        # Esauriti i tentativi: rilancia cosi' il caller scrive il fallback EN.
+        raise last_exc
 
     return _translate_article
 
@@ -532,12 +548,28 @@ def _rewrite_internal_links(content_html: str, lang: str, site_url: str) -> str:
     return translate_html(content_html, lambda t: t, lang, site_url)
 
 
+def _write_en_fallback(out: dict, dst_path: Path, lang: str, site_url: str,
+                       cache_key: str) -> None:
+    """Scrive il file target col contenuto EN (link interni ripuntati a
+    /<lang>/) quando la traduzione Claude fallisce, SENZA toccare la cache,
+    cosi' l'articolo esiste in tutte le lingue e si auto-ripara al prossimo run."""
+    if out.get("content_html"):
+        try:
+            out["content_html"] = _rewrite_internal_links(
+                out["content_html"], lang, site_url)
+        except Exception as exc:
+            print(f"  [warn] internal link rewrite failed for {cache_key}: {exc}")
+    write_json(dst_path, out)
+    print(f"  [warn] {cache_key}: scritto fallback EN, ritentera' al prossimo run")
+
+
 def translate_blog_file_claude(src_path: Path, dst_path: Path, lang: str,
                                translate_article, site_url: str, cache: dict,
                                force: bool) -> bool:
     """Translate ONE blog article with Claude (native quality). Same cache
-    contract as translate_blog_file. On API/parse error, log in clear and keep
-    the EN source for this article instead of crashing the run."""
+    contract as translate_blog_file. On API/parse error, write the EN content
+    to the target file (without caching) so the article exists in every
+    language and self-heals on the next run, instead of leaving it missing."""
     data = load_json(src_path)
     if data is None:
         return False
@@ -558,12 +590,14 @@ def translate_blog_file_claude(src_path: Path, dst_path: Path, lang: str,
             out.get("content_html", ""),
         )
     except Exception as exc:
-        print(f"  [warn] Claude translation failed for {cache_key}, keeping "
-              f"EN source: {type(exc).__name__}: {exc}")
+        print(f"  [warn] Claude translation failed for {cache_key} "
+              f"({type(exc).__name__}: {exc})")
+        _write_en_fallback(out, dst_path, lang, site_url, cache_key)
         return False
 
     if not isinstance(result, dict):
-        print(f"  [warn] Claude returned non-dict for {cache_key}, keeping EN source")
+        print(f"  [warn] Claude returned non-dict for {cache_key}")
+        _write_en_fallback(out, dst_path, lang, site_url, cache_key)
         return False
 
     if result.get("title"):
