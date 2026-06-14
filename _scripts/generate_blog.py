@@ -23,6 +23,10 @@ MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 # La malformazione JSON e' stocastica: un re-roll quasi sempre produce JSON valido.
 MAX_RETRIES = 3
 
+# Tetto di token in output: deve coprire articolo 1000-1200 parole + wrapper JSON.
+# A 3500 la risposta veniva troncata -> JSON non chiuso/invalido. 8000 da' margine.
+MAX_TOKENS = 8000
+
 # Exit codes
 EXIT_API_ERROR = 3
 EXIT_INVALID_JSON = 4
@@ -151,7 +155,7 @@ def call_anthropic(prompt: str) -> str:
     try:
         msg = client.messages.create(
             model=MODEL,
-            max_tokens=3500,
+            max_tokens=MAX_TOKENS,
             messages=[{"role": "user", "content": prompt}],
         )
     except Exception as exc:
@@ -236,16 +240,17 @@ def main() -> None:
     current_year = date.today().year
     today = date.today().isoformat()
 
-    # Itera sui topic non-usati: al primo che produce JSON valido salva e marca
-    # SOLO quel topic come used. Un topic fallito non viene marcato (ritentabile
-    # in futuro) e si avanza al successivo, cosi' il run giornaliero pubblica
-    # comunque qualcosa anche se un singolo topic e' problematico.
+    # Unico loop coerente sui topic non-usati. Per ciascuno:
+    # - JSON invalido dopo i retry -> NON marca used (ritentabile), avanza;
+    # - slug gia' presente -> marca used+used_at, logga lo skip e CONTINUA
+    #   (non spreca il run su un duplicato);
+    # - articolo nuovo salvato -> marca used+used_at e termina (return).
     for idx, topic in iter_unused_topics(items, idx):
         print(f"[blog] generating article for: {topic['topic']} (year={current_year})")
         article = generate_for_topic(topic, current_year)
 
         if article is None:
-            print(f"[blog] topic #{idx} fallito, avanzo al successivo.", file=sys.stderr)
+            print(f"[blog] topic #{idx} fallito (JSON), avanzo al successivo.", file=sys.stderr)
             continue
 
         slug = slugify(article.get("slug") or article.get("title", ""))
@@ -256,8 +261,8 @@ def main() -> None:
             items[idx]["used"] = True
             items[idx]["used_at"] = today
             save_calendar(items)
-            print(f"[blog] calendar advanced past duplicate topic #{idx}.")
-            return
+            print(f"[blog] topic #{idx} marcato used (duplicato), avanzo al successivo.")
+            continue
 
         article["date"] = today
         article.setdefault("category", topic.get("category", ""))
@@ -276,8 +281,9 @@ def main() -> None:
         return
 
     print(
-        f"[blog] tutti i topic non-usati hanno fallito il parse JSON dopo "
-        f"{MAX_RETRIES} tentativi ciascuno.",
+        "[blog] nessun articolo nuovo prodotto: tutti i topic non-usati erano "
+        "duplicati (slug gia' presente) o hanno fallito il parse JSON dopo "
+        f"{MAX_RETRIES} tentativi.",
         file=sys.stderr,
     )
     sys.exit(EXIT_INVALID_JSON)

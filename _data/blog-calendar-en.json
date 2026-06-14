@@ -105,5 +105,145 @@
     "category": "gadgets",
     "intent": "informational",
     "used": false
+  },
+  {
+    "topic": "Best budget action cameras on AliExpress 2026",
+    "primary_keyword": "aliexpress action camera",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress mechanical keyboards: best cheap picks 2026",
+    "primary_keyword": "aliexpress mechanical keyboard",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "Cheap drones on AliExpress worth buying in 2026",
+    "primary_keyword": "aliexpress cheap drone",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "Best AliExpress power banks for travel and daily use",
+    "primary_keyword": "aliexpress power bank",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress budget tablets: are they worth it in 2026?",
+    "primary_keyword": "aliexpress budget tablet",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "Cheap gaming mice on AliExpress: best picks for 2026",
+    "primary_keyword": "aliexpress gaming mouse",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress mini projectors for home cinema on a budget",
+    "primary_keyword": "aliexpress mini projector",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress dash cams: best budget options for your car",
+    "primary_keyword": "aliexpress dash cam",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "Best LED strip lights on AliExpress for any room",
+    "primary_keyword": "aliexpress led strip lights",
+    "category": "smart-home",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress WiFi security cameras: cheap home protection",
+    "primary_keyword": "aliexpress wifi security camera",
+    "category": "smart-home",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress smart scales: track your weight for less",
+    "primary_keyword": "aliexpress smart scale",
+    "category": "smart-home",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress pet tech: gadgets for cats and dogs in 2026",
+    "primary_keyword": "aliexpress pet tech gadgets",
+    "category": "smart-home",
+    "intent": "informational",
+    "used": false
+  },
+  {
+    "topic": "Best AliExpress fitness trackers under $30 for 2026",
+    "primary_keyword": "aliexpress fitness tracker",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress resistance bands and home workout kit 2026",
+    "primary_keyword": "aliexpress resistance bands",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress running gear on a budget: what to buy in 2026",
+    "primary_keyword": "aliexpress running gear",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress camping gear: best cheap outdoor finds 2026",
+    "primary_keyword": "aliexpress camping gear",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "Useful AliExpress kitchen gadgets under $15 for 2026",
+    "primary_keyword": "aliexpress kitchen gadgets",
+    "category": "gadgets",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "Best AliExpress car gadgets and accessories for 2026",
+    "primary_keyword": "aliexpress car gadgets",
+    "category": "gadgets",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress phone accessories worth buying in 2026",
+    "primary_keyword": "aliexpress phone accessories",
+    "category": "gadgets",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress desk setup gadgets to upgrade your workspace",
+    "primary_keyword": "aliexpress desk setup gadgets",
+    "category": "gadgets",
+    "intent": "informational",
+    "used": false
   }
 ]
