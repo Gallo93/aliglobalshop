@@ -75,7 +75,8 @@
     "primary_keyword": "aliexpress robot vacuum reviews",
     "category": "smart-home",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-14"
   },
   {
     "topic": "Cycling on a budget: best AliExpress bike accessories 2026",
