@@ -115,7 +115,8 @@
     "primary_keyword": "aliexpress action camera",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-14"
   },
   {
     "topic": "AliExpress mechanical keyboards: best cheap picks 2026",
