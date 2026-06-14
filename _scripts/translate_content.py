@@ -12,7 +12,9 @@ Sources translated:
      set BLOG_TRANSLATOR=argos to fall back to the Argos HTML-text path.
      The Claude path needs ANTHROPIC_API_KEY (model override ANTHROPIC_MODEL,
      default claude-sonnet-4-6); on any API/parse error it logs and keeps the
-     EN source for that article instead of crashing the run.
+     EN source for that article instead of crashing the run. The model replies
+     with sentinel-delimited fields (not JSON) so any quote/HTML in the article
+     body cannot break parsing.
 
 Prices: products keep their structure but price / original_price /
 price_history[].price are converted from the EN source currency (USD) to the
@@ -178,14 +180,25 @@ def apply_title_glossary(text: str, lang: str, target_currency: str) -> str:
 # Toggle via BLOG_TRANSLATOR=claude|argos (default claude). The Claude path
 # needs ANTHROPIC_API_KEY; if it is missing or the call fails, translate_blog_*
 # falls back to keeping the EN source rather than crashing the run.
+#
+# The model returns the three fields wrapped in sentinel markers instead of a
+# JSON object. A JSON reply was fragile: an unescaped double quote inside the
+# translated content_html (common when the model wraps an English loanword in
+# straight quotes) closed the JSON string early and broke json.loads
+# deterministically for that article. Sentinel markers carry no escaping
+# contract, so any quote/HTML inside the body is parsed verbatim.
 
 ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 
-# Quante volte ritentare chiamata API + parse JSON di una singola traduzione
-# prima di sollevare. La malformazione JSON e' stocastica (apice non-escaped
-# nell'HTML): un re-roll quasi sempre produce JSON valido. Stessa scelta del
-# generatore blog (generate_blog.py).
+# Quante volte ritentare chiamata API + parse di una singola traduzione prima
+# di sollevare (rete di sicurezza per errori API transitori o marker mancanti).
 _TRANSLATE_MAX_RETRIES = 3
+
+# Marker sentinella per i 3 campi della traduzione. Scelti per essere
+# improbabili nel testo reale di un articolo (prefisso ALIGS + delimitatori).
+_MARK_TITLE = "<<<ALIGS:TITLE>>>"
+_MARK_META = "<<<ALIGS:META>>>"
+_MARK_CONTENT = "<<<ALIGS:CONTENT>>>"
 
 _LANG_NAMES = {
     "it": "Italian",
@@ -195,7 +208,7 @@ _LANG_NAMES = {
 }
 
 _BLOG_TRANSLATE_PROMPT = """You are a native {lang_name} translator and SEO copy editor for an AliExpress affiliate blog.
-Translate the JSON article below from English into natural, fluent {lang_name}. Output {lang_name} that reads as if written by a native speaker, never a literal machine translation.
+Translate the article fields below (given as a JSON object for input only) from English into natural, fluent {lang_name}. Output {lang_name} that reads as if written by a native speaker, never a literal machine translation.
 
 TRANSLATE FULLY (no English left behind):
 - The title and EVERY heading (h1/h2/h3). Do not leave English headings such as "Best Buys", "Top Picks", "Smart Gear Worth Packing", "Home Gym", "Final Verdict", "Common Questions Answered". Translate them all.
@@ -212,10 +225,17 @@ RULES:
 - Keep meta_desc at most 155 characters, natural and sensible in {lang_name}.
 - Do not add, remove or reorder HTML elements. Translate only the human-readable text inside them.
 
-OUTPUT: respond ONLY with a single valid JSON object (no markdown, no code fences) with exactly these keys, each holding the translated {lang_name} value:
-{{"title": "...", "meta_desc": "...", "content_html": "..."}}
+OUTPUT FORMAT: do NOT output JSON. Respond with EXACTLY these three marker lines, each on its own line, followed by the translated value. Output nothing else (no markdown, no code fences, no commentary):
+{mark_title}
+<the translated title>
+{mark_meta}
+<the translated meta_desc>
+{mark_content}
+<the translated content_html, raw HTML, may span many lines and contain any quotes>
 
-ARTICLE TO TRANSLATE (JSON):
+Use each marker exactly once, in this order. Put the marker on its own line and the value starting on the next line. Inside the values you may use any character (quotes, apostrophes, angle brackets) freely: the markers are how I split the fields, so you never need to escape anything.
+
+ARTICLE TO TRANSLATE (JSON, input only):
 {payload}"""
 
 
@@ -227,11 +247,33 @@ def _strip_code_fences(text: str) -> str:
     return text.strip()
 
 
+def _parse_delimited(raw: str) -> dict:
+    """Parse the sentinel-delimited translator reply into a dict.
+
+    Expects the three markers (_MARK_TITLE / _MARK_META / _MARK_CONTENT) in
+    order; returns {"title", "meta_desc", "content_html"} with each segment
+    stripped of surrounding whitespace. Raises ValueError if any marker is
+    missing or out of order, so the caller can retry / fall back to EN.
+    """
+    text = _strip_code_fences(raw)
+    i_title = text.find(_MARK_TITLE)
+    i_meta = text.find(_MARK_META)
+    i_content = text.find(_MARK_CONTENT)
+    if i_title == -1 or i_meta == -1 or i_content == -1:
+        raise ValueError("traduzione: marker sentinella mancanti nella risposta")
+    if not (i_title < i_meta < i_content):
+        raise ValueError("traduzione: marker sentinella fuori ordine")
+    title = text[i_title + len(_MARK_TITLE):i_meta].strip()
+    meta_desc = text[i_meta + len(_MARK_META):i_content].strip()
+    content_html = text[i_content + len(_MARK_CONTENT):].strip()
+    return {"title": title, "meta_desc": meta_desc, "content_html": content_html}
+
+
 def get_claude_blog_translator(lang: str):
     """Return a callable(title, meta_desc, content_html) -> dict for the blog,
     or None if the Anthropic SDK / key is missing. The callable retries the API
-    call + JSON parse up to _TRANSLATE_MAX_RETRIES times and raises only after
-    they are exhausted, so the caller can fall back to the EN source per article."""
+    call + parse up to _TRANSLATE_MAX_RETRIES times and raises only after they
+    are exhausted, so the caller can fall back to the EN source per article."""
     api_key = os.getenv("ANTHROPIC_API_KEY", "")
     if not api_key:
         print("[error] ANTHROPIC_API_KEY missing, cannot use Claude blog translator")
@@ -250,7 +292,13 @@ def get_claude_blog_translator(lang: str):
              "content_html": content_html or ""},
             ensure_ascii=False,
         )
-        prompt = _BLOG_TRANSLATE_PROMPT.format(lang_name=lang_name, payload=payload)
+        prompt = _BLOG_TRANSLATE_PROMPT.format(
+            lang_name=lang_name,
+            mark_title=_MARK_TITLE,
+            mark_meta=_MARK_META,
+            mark_content=_MARK_CONTENT,
+            payload=payload,
+        )
         last_exc = None
         for attempt in range(1, _TRANSLATE_MAX_RETRIES + 1):
             msg = client.messages.create(
@@ -263,10 +311,10 @@ def get_claude_blog_translator(lang: str):
                 if getattr(block, "type", "") == "text"
             )
             try:
-                return json.loads(_strip_code_fences(raw), strict=False)
-            except json.JSONDecodeError as exc:
+                return _parse_delimited(raw)
+            except ValueError as exc:
                 last_exc = exc
-                print(f"  [warn] traduzione: JSON non valido (tentativo "
+                print(f"  [warn] traduzione: parse fallito (tentativo "
                       f"{attempt}/{_TRANSLATE_MAX_RETRIES}): {exc}")
         # Esauriti i tentativi: rilancia cosi' il caller scrive il fallback EN.
         raise last_exc
