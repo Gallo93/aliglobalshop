@@ -19,6 +19,10 @@ CALENDAR_PATH = BASE_DIR / "_data" / "blog-calendar-en.json"
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 
+# Quante volte ritentare API + parse JSON su uno stesso topic prima di arrendersi.
+# La malformazione JSON e' stocastica: un re-roll quasi sempre produce JSON valido.
+MAX_RETRIES = 3
+
 # Exit codes
 EXIT_API_ERROR = 3
 EXIT_INVALID_JSON = 4
@@ -107,6 +111,13 @@ def pick_next_topic(items: list):
     return None, None
 
 
+def iter_unused_topics(items: list, start_idx: int):
+    """Yield (idx, topic) for every unused topic from start_idx onward."""
+    for i in range(start_idx, len(items)):
+        if not items[i].get("used"):
+            yield i, items[i]
+
+
 def reset_calendar(items: list) -> list:
     """Mark all topics unused so the cycle restarts."""
     for item in items:
@@ -158,6 +169,35 @@ def call_anthropic(prompt: str) -> str:
     )
 
 
+def generate_for_topic(topic: dict, year: int):
+    """Genera e fa il parse dell'articolo per UN topic, con retry sul JSON malformato.
+
+    Ritenta la chiamata API + parse fino a MAX_RETRIES volte: poiche' la
+    malformazione JSON e' stocastica, un re-roll quasi sempre produce JSON valido.
+    Usa json.loads(strict=False) per tollerare control char nelle stringhe.
+    Ritorna il dict articolo al primo parse valido, None se esauriti i tentativi.
+    Gli errori di credito/API restano gestiti da call_anthropic (exit 5/3).
+    """
+    cat_slug = topic.get("category", "").lower().replace(" ", "-")
+    prompt = PROMPT.format(
+        year=year,
+        primary_keyword=topic["primary_keyword"],
+        intent=topic.get("intent", "informational"),
+        category=topic.get("category", ""),
+        category_url=f"/en/{cat_slug}/",
+    )
+    for attempt in range(1, MAX_RETRIES + 1):
+        print(f"[blog] '{topic['topic']}' tentativo {attempt}/{MAX_RETRIES}")
+        raw = strip_code_fences(call_anthropic(prompt))
+        try:
+            return json.loads(raw, strict=False)
+        except json.JSONDecodeError as exc:
+            print(f"[blog] JSON non valido (tentativo {attempt}/{MAX_RETRIES}): {exc}", file=sys.stderr)
+            print(raw[:500], file=sys.stderr)
+    print(f"[blog] esauriti i {MAX_RETRIES} tentativi per '{topic['topic']}'.", file=sys.stderr)
+    return None
+
+
 def slugify(text: str, limit: int = 60) -> str:
     text = text.lower().strip()
     text = re.sub(r"[^a-z0-9\s-]", "", text)
@@ -194,51 +234,53 @@ def main() -> None:
         sys.exit(1)
 
     current_year = date.today().year
-    print(f"[blog] generating article for: {topic['topic']} (year={current_year})")
-    cat_slug = topic.get("category", "").lower().replace(" ", "-")
-    prompt = PROMPT.format(
-        year=current_year,
-        primary_keyword=topic["primary_keyword"],
-        intent=topic.get("intent", "informational"),
-        category=topic.get("category", ""),
-        category_url=f"/en/{cat_slug}/",
-    )
-    raw = call_anthropic(prompt)
-    raw = strip_code_fences(raw)
-
-    try:
-        article = json.loads(raw)
-    except json.JSONDecodeError as exc:
-        print(f"[blog] invalid JSON from API: {exc}", file=sys.stderr)
-        print(raw[:500], file=sys.stderr)
-        sys.exit(EXIT_INVALID_JSON)
-
     today = date.today().isoformat()
-    slug = slugify(article.get("slug") or article.get("title", ""))
-    article["slug"] = slug
 
-    if slug_exists(slug):
-        print(f"[blog] [skip] slug already present: {slug}")
+    # Itera sui topic non-usati: al primo che produce JSON valido salva e marca
+    # SOLO quel topic come used. Un topic fallito non viene marcato (ritentabile
+    # in futuro) e si avanza al successivo, cosi' il run giornaliero pubblica
+    # comunque qualcosa anche se un singolo topic e' problematico.
+    for idx, topic in iter_unused_topics(items, idx):
+        print(f"[blog] generating article for: {topic['topic']} (year={current_year})")
+        article = generate_for_topic(topic, current_year)
+
+        if article is None:
+            print(f"[blog] topic #{idx} fallito, avanzo al successivo.", file=sys.stderr)
+            continue
+
+        slug = slugify(article.get("slug") or article.get("title", ""))
+        article["slug"] = slug
+
+        if slug_exists(slug):
+            print(f"[blog] [skip] slug already present: {slug}")
+            items[idx]["used"] = True
+            items[idx]["used_at"] = today
+            save_calendar(items)
+            print(f"[blog] calendar advanced past duplicate topic #{idx}.")
+            return
+
+        article["date"] = today
+        article.setdefault("category", topic.get("category", ""))
+        article.setdefault("primary_keyword", topic["primary_keyword"])
+
+        BLOG_DIR.mkdir(parents=True, exist_ok=True)
+        out_path = BLOG_DIR / f"{today}-{slug}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(article, f, ensure_ascii=False, indent=2)
+        print(f"[blog] saved: {out_path.relative_to(BASE_DIR)}")
+
         items[idx]["used"] = True
         items[idx]["used_at"] = today
         save_calendar(items)
-        print(f"[blog] calendar advanced past duplicate topic #{idx}.")
+        print(f"[blog] calendar updated. Marked topic #{idx} as used.")
         return
 
-    article["date"] = today
-    article.setdefault("category", topic.get("category", ""))
-    article.setdefault("primary_keyword", topic["primary_keyword"])
-
-    BLOG_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = BLOG_DIR / f"{today}-{slug}.json"
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(article, f, ensure_ascii=False, indent=2)
-    print(f"[blog] saved: {out_path.relative_to(BASE_DIR)}")
-
-    items[idx]["used"] = True
-    items[idx]["used_at"] = today
-    save_calendar(items)
-    print(f"[blog] calendar updated. Marked topic #{idx} as used.")
+    print(
+        f"[blog] tutti i topic non-usati hanno fallito il parse JSON dopo "
+        f"{MAX_RETRIES} tentativi ciascuno.",
+        file=sys.stderr,
+    )
+    sys.exit(EXIT_INVALID_JSON)
 
 
 if __name__ == "__main__":
