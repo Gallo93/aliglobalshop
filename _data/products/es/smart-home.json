@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-06-14T23:01:09Z",
+  "updated_at": "2026-06-15T06:21:57Z",
   "products": [
     {
       "product_id": "1005008710290057",
@@ -17,8 +17,8 @@
       "sales_volume": 28,
       "score": 0.2659,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:57Z",
-      "updated_at": "2026-06-14T23:00:57Z"
+      "fetched_at": "2026-06-15T06:21:47Z",
+      "updated_at": "2026-06-15T06:21:47Z"
     },
     {
       "product_id": "1005004274068542",
@@ -35,12 +35,12 @@
       "sales_volume": 4,
       "score": 0.2655,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:57Z",
-      "updated_at": "2026-06-14T23:00:57Z"
+      "fetched_at": "2026-06-15T06:21:48Z",
+      "updated_at": "2026-06-15T06:21:48Z"
     },
     {
       "product_id": "1005005429173220",
-      "title": "LIECTROUX L200 Robot Aparador de vacío &amp; Wet Mop Combo,Mapa inteligente,WiFi App,4KPa, Motor sin cepillos, tanque de agua de control eléctrico",
+      "title": "LIECTROUX L200 Limpiador de vacío de robot &amp; Wet Mop Combo,Mapa inteligente, aplicación WiFi,4KPa, Motor sin cepillos, tanque de agua de control eléctrico",
       "slug": "liectroux-l200-robot-vacuum-cleaner-wet-mop-combosmart-mappi",
       "price": 132.48,
       "original_price": 414.0,
@@ -53,8 +53,8 @@
       "sales_volume": 3,
       "score": 0.2644,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:58Z",
-      "updated_at": "2026-06-14T23:00:58Z"
+      "fetched_at": "2026-06-15T06:21:48Z",
+      "updated_at": "2026-06-15T06:21:48Z"
     },
     {
       "product_id": "1005008952159162",
@@ -71,8 +71,8 @@
       "sales_volume": 12,
       "score": 0.2514,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:59Z",
-      "updated_at": "2026-06-14T23:00:59Z"
+      "fetched_at": "2026-06-15T06:21:49Z",
+      "updated_at": "2026-06-15T06:21:49Z"
     },
     {
       "product_id": "1005005604363467",
@@ -89,8 +89,8 @@
       "sales_volume": 35,
       "score": 0.2471,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:59Z",
-      "updated_at": "2026-06-14T23:00:59Z"
+      "fetched_at": "2026-06-15T06:21:49Z",
+      "updated_at": "2026-06-15T06:21:49Z"
     },
     {
       "product_id": "1005005807578430",
@@ -107,12 +107,12 @@
       "sales_volume": 7,
       "score": 0.2393,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:00Z",
-      "updated_at": "2026-06-14T23:01:00Z"
+      "fetched_at": "2026-06-15T06:21:50Z",
+      "updated_at": "2026-06-15T06:21:50Z"
     },
     {
       "product_id": "1005008109628276",
-      "title": "3 canales Dash Cam 4K Ultra HD Grabador de tres discos 3lens Escondido Tachograph 3 Cámara Reversing Image Night Vision WIFI",
+      "title": "3 canales Dash Cam 4K Ultra HD Grabador de tres discos 3lens Oculto Tachograph 3 Cámara Reversing Image Night Vision WIFI",
       "slug": "3-channel-dash-cam-4k-ultra-hd-three-record-driving-recorder",
       "price": 18.68,
       "original_price": 35.01,
@@ -125,8 +125,8 @@
       "sales_volume": 4,
       "score": 0.2385,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:00Z",
-      "updated_at": "2026-06-14T23:01:00Z"
+      "fetched_at": "2026-06-15T06:21:50Z",
+      "updated_at": "2026-06-15T06:21:50Z"
     },
     {
       "product_id": "1005007677605461",
@@ -143,8 +143,8 @@
       "sales_volume": 26,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:00Z",
-      "updated_at": "2026-06-14T23:01:00Z"
+      "fetched_at": "2026-06-15T06:21:51Z",
+      "updated_at": "2026-06-15T06:21:51Z"
     },
     {
       "product_id": "4000143784956",
@@ -161,12 +161,12 @@
       "sales_volume": 289,
       "score": 0.2218,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:01Z",
-      "updated_at": "2026-06-14T23:01:01Z"
+      "fetched_at": "2026-06-15T06:21:51Z",
+      "updated_at": "2026-06-15T06:21:51Z"
     },
     {
       "product_id": "1005004779246205",
-      "title": "Tuya Zigbee 3.0 Smart Door Window Sensor Detectores de Zigbee2MQTT Protección de seguridad Smart Life APP Control Via Alexa Google Home",
+      "title": "Tuya Zigbee 3.0 Smart Door Window Sensor Detectores Zigbee2MQTT Protección de seguridad Smart Life APP Control Via Alexa Google Home",
       "slug": "tuya-zigbee-30-smart-door-window-sensor-zigbee2mqtt-detector",
       "price": 7.62,
       "original_price": 12.7,
@@ -179,8 +179,8 @@
       "sales_volume": 11,
       "score": 0.2163,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:01Z",
-      "updated_at": "2026-06-14T23:01:01Z"
+      "fetched_at": "2026-06-15T06:21:52Z",
+      "updated_at": "2026-06-15T06:21:52Z"
     },
     {
       "product_id": "1005004774956386",
@@ -197,12 +197,12 @@
       "sales_volume": 135,
       "score": 0.2155,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:02Z",
-      "updated_at": "2026-06-14T23:01:02Z"
+      "fetched_at": "2026-06-15T06:21:52Z",
+      "updated_at": "2026-06-15T06:21:52Z"
     },
     {
       "product_id": "1005010445247796",
-      "title": "Tuya Wifi PTZ Cámara exterior 5X Zoom Seguridad IP Cámara 5MP Color completo Visión nocturna Vigilancia Human Tracking Motion Detection",
+      "title": "Tuya Wifi PTZ Cámara exterior 5X Zoom Seguridad IP Cámara 5MP Full Color Night Vision Vigilancia Human Tracking Motion Detection",
       "slug": "tuya-wifi-ptz-camera-outdoor-5x-zoom-security-ip-camera-5mp-",
       "price": 28.23,
       "original_price": 56.45,
@@ -215,8 +215,8 @@
       "sales_volume": 5,
       "score": 0.2106,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:03Z",
-      "updated_at": "2026-06-14T23:01:03Z"
+      "fetched_at": "2026-06-15T06:21:53Z",
+      "updated_at": "2026-06-15T06:21:53Z"
     },
     {
       "product_id": "1005011962938074",
@@ -233,8 +233,8 @@
       "sales_volume": 3,
       "score": 0.2104,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:03Z",
-      "updated_at": "2026-06-14T23:01:03Z"
+      "fetched_at": "2026-06-15T06:21:53Z",
+      "updated_at": "2026-06-15T06:21:53Z"
     },
     {
       "product_id": "1005009306467710",
@@ -251,8 +251,8 @@
       "sales_volume": 94,
       "score": 0.2099,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:04Z",
-      "updated_at": "2026-06-14T23:01:04Z"
+      "fetched_at": "2026-06-15T06:21:54Z",
+      "updated_at": "2026-06-15T06:21:54Z"
     },
     {
       "product_id": "1005003568997399",
@@ -269,8 +269,8 @@
       "sales_volume": 111,
       "score": 0.2063,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:04Z",
-      "updated_at": "2026-06-14T23:01:04Z"
+      "fetched_at": "2026-06-15T06:21:54Z",
+      "updated_at": "2026-06-15T06:21:54Z"
     },
     {
       "product_id": "1005009559994857",
@@ -287,8 +287,8 @@
       "sales_volume": 8,
       "score": 0.2053,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:05Z",
-      "updated_at": "2026-06-14T23:01:05Z"
+      "fetched_at": "2026-06-15T06:21:55Z",
+      "updated_at": "2026-06-15T06:21:55Z"
     },
     {
       "product_id": "1005004966987077",
@@ -305,8 +305,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:05Z",
-      "updated_at": "2026-06-14T23:01:05Z"
+      "fetched_at": "2026-06-15T06:21:55Z",
+      "updated_at": "2026-06-15T06:21:55Z"
     },
     {
       "product_id": "1005003990707766",
@@ -323,8 +323,8 @@
       "sales_volume": 8,
       "score": 0.191,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:07Z",
-      "updated_at": "2026-06-14T23:01:07Z"
+      "fetched_at": "2026-06-15T06:21:56Z",
+      "updated_at": "2026-06-15T06:21:56Z"
     },
     {
       "product_id": "1005006118602003",
@@ -341,12 +341,12 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:08Z",
-      "updated_at": "2026-06-14T23:01:08Z"
+      "fetched_at": "2026-06-15T06:21:56Z",
+      "updated_at": "2026-06-15T06:21:56Z"
     },
     {
       "product_id": "4001041588925",
-      "title": "MoesHouse GU10 WiFi Smart LED Bulbs RGBW C+W Lámparas Dimmable blanco Tuya Bombillas de control remoto Trabaja con Alexa/Google",
+      "title": "MoesHouse GU10 WiFi Bombillas LED inteligentes RGBW C+W Lámparas Dimmable blanco Tuya Control remoto Bombillas de luz Trabaja con Alexa/Google",
       "slug": "moeshouse-gu10-wifi-smart-led-bulbs-rgbw-cw-white-dimmable-l",
       "price": 7.29,
       "original_price": 10.41,
@@ -359,8 +359,8 @@
       "sales_volume": 5,
       "score": 0.1906,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:09Z",
-      "updated_at": "2026-06-14T23:01:09Z"
+      "fetched_at": "2026-06-15T06:21:57Z",
+      "updated_at": "2026-06-15T06:21:57Z"
     }
   ]
 }

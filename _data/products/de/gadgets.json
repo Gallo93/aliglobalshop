@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-06-14T23:01:54Z",
+  "updated_at": "2026-06-15T06:22:21Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -17,8 +17,8 @@
       "sales_volume": 110,
       "score": 0.3121,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:45Z",
-      "updated_at": "2026-06-14T23:01:45Z"
+      "fetched_at": "2026-06-15T06:22:12Z",
+      "updated_at": "2026-06-15T06:22:12Z"
     },
     {
       "product_id": "1005007480971055",
@@ -35,8 +35,8 @@
       "sales_volume": 333,
       "score": 0.2779,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:45Z",
-      "updated_at": "2026-06-14T23:01:45Z"
+      "fetched_at": "2026-06-15T06:22:13Z",
+      "updated_at": "2026-06-15T06:22:13Z"
     },
     {
       "product_id": "1005007587741414",
@@ -53,8 +53,8 @@
       "sales_volume": 27,
       "score": 0.2632,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:45Z",
-      "updated_at": "2026-06-14T23:01:45Z"
+      "fetched_at": "2026-06-15T06:22:13Z",
+      "updated_at": "2026-06-15T06:22:13Z"
     },
     {
       "product_id": "1005009210852728",
@@ -71,8 +71,8 @@
       "sales_volume": 53,
       "score": 0.2551,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:46Z",
-      "updated_at": "2026-06-14T23:01:46Z"
+      "fetched_at": "2026-06-15T06:22:14Z",
+      "updated_at": "2026-06-15T06:22:14Z"
     },
     {
       "product_id": "1005010000531819",
@@ -89,8 +89,8 @@
       "sales_volume": 18,
       "score": 0.2522,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:46Z",
-      "updated_at": "2026-06-14T23:01:46Z"
+      "fetched_at": "2026-06-15T06:22:14Z",
+      "updated_at": "2026-06-15T06:22:14Z"
     },
     {
       "product_id": "1005012084510405",
@@ -107,12 +107,12 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:47Z",
-      "updated_at": "2026-06-14T23:01:47Z"
+      "fetched_at": "2026-06-15T06:22:15Z",
+      "updated_at": "2026-06-15T06:22:15Z"
     },
     {
       "product_id": "1005012348679190",
-      "title": "22,5w 10000/20000mAh Power Bank für IPhone Huawei und Xiaomi Handys Schnellladen kompakte und tragbare PowerBank",
+      "title": "22,5w 10000/20000mAh Power Bank für IPhone Huawei und Xiaomi Handys Schnellladen Compact und Portable PowerBank",
       "slug": "225w-1000020000mah-power-bank-for-iphone-huawei-and-xiaomi-m",
       "price": 25.82,
       "original_price": 51.64,
@@ -125,8 +125,8 @@
       "sales_volume": 1,
       "score": 0.2501,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:48Z",
-      "updated_at": "2026-06-14T23:01:48Z"
+      "fetched_at": "2026-06-15T06:22:15Z",
+      "updated_at": "2026-06-15T06:22:15Z"
     },
     {
       "product_id": "1005010401185659",
@@ -143,8 +143,8 @@
       "sales_volume": 8,
       "score": 0.236,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:48Z",
-      "updated_at": "2026-06-14T23:01:48Z"
+      "fetched_at": "2026-06-15T06:22:16Z",
+      "updated_at": "2026-06-15T06:22:16Z"
     },
     {
       "product_id": "1005011981593933",
@@ -161,8 +161,8 @@
       "sales_volume": 8,
       "score": 0.236,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:49Z",
-      "updated_at": "2026-06-14T23:01:49Z"
+      "fetched_at": "2026-06-15T06:22:16Z",
+      "updated_at": "2026-06-15T06:22:16Z"
     },
     {
       "product_id": "1005004204383810",
@@ -179,8 +179,8 @@
       "sales_volume": 67,
       "score": 0.2286,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:49Z",
-      "updated_at": "2026-06-14T23:01:49Z"
+      "fetched_at": "2026-06-15T06:22:16Z",
+      "updated_at": "2026-06-15T06:22:16Z"
     },
     {
       "product_id": "1005007390539177",
@@ -197,8 +197,8 @@
       "sales_volume": 11,
       "score": 0.227,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:50Z",
-      "updated_at": "2026-06-14T23:01:50Z"
+      "fetched_at": "2026-06-15T06:22:17Z",
+      "updated_at": "2026-06-15T06:22:17Z"
     },
     {
       "product_id": "1005007395412166",
@@ -215,12 +215,12 @@
       "sales_volume": 14,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:50Z",
-      "updated_at": "2026-06-14T23:01:50Z"
+      "fetched_at": "2026-06-15T06:22:17Z",
+      "updated_at": "2026-06-15T06:22:17Z"
     },
     {
       "product_id": "1005012408073378",
-      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Übertragung 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
+      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Transmission 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
       "slug": "3m-5m-10m-usb-30-extender-high-speed-5gbps-transmission-4-po",
       "price": 15.74,
       "original_price": 26.24,
@@ -233,8 +233,8 @@
       "sales_volume": 1,
       "score": 0.2201,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:51Z",
-      "updated_at": "2026-06-14T23:01:51Z"
+      "fetched_at": "2026-06-15T06:22:18Z",
+      "updated_at": "2026-06-15T06:22:18Z"
     },
     {
       "product_id": "1005012259681107",
@@ -251,8 +251,8 @@
       "sales_volume": 9,
       "score": 0.2111,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:51Z",
-      "updated_at": "2026-06-14T23:01:51Z"
+      "fetched_at": "2026-06-15T06:22:18Z",
+      "updated_at": "2026-06-15T06:22:18Z"
     },
     {
       "product_id": "1005004795431881",
@@ -269,12 +269,12 @@
       "sales_volume": 12,
       "score": 0.2081,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:52Z",
-      "updated_at": "2026-06-14T23:01:52Z"
+      "fetched_at": "2026-06-15T06:22:19Z",
+      "updated_at": "2026-06-15T06:22:19Z"
     },
     {
       "product_id": "1005009849333993",
-      "title": "15W Magsafe Wireless Ladegerät mit Kabelstand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
+      "title": "15W Magsafe Wireless Ladegerät mit Kabel Stand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
       "slug": "15w-magsafe-wireless-charger-with-cable-stand-pd-225w-fast-c",
       "price": 14.94,
       "original_price": 24.9,
@@ -287,8 +287,8 @@
       "sales_volume": 8,
       "score": 0.191,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:52Z",
-      "updated_at": "2026-06-14T23:01:52Z"
+      "fetched_at": "2026-06-15T06:22:19Z",
+      "updated_at": "2026-06-15T06:22:19Z"
     },
     {
       "product_id": "1005005070548245",
@@ -305,8 +305,8 @@
       "sales_volume": 5,
       "score": 0.1906,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:53Z",
-      "updated_at": "2026-06-14T23:01:53Z"
+      "fetched_at": "2026-06-15T06:22:19Z",
+      "updated_at": "2026-06-15T06:22:19Z"
     },
     {
       "product_id": "1005007737991313",
@@ -323,8 +323,8 @@
       "sales_volume": 0,
       "score": 0.19,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:53Z",
-      "updated_at": "2026-06-14T23:01:53Z"
+      "fetched_at": "2026-06-15T06:22:20Z",
+      "updated_at": "2026-06-15T06:22:20Z"
     },
     {
       "product_id": "1005009263764511",
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.18,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:54Z",
-      "updated_at": "2026-06-14T23:01:54Z"
+      "fetched_at": "2026-06-15T06:22:20Z",
+      "updated_at": "2026-06-15T06:22:20Z"
     },
     {
       "product_id": "1005010159116358",
@@ -359,8 +359,8 @@
       "sales_volume": 1,
       "score": 0.1621,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:54Z",
-      "updated_at": "2026-06-14T23:01:54Z"
+      "fetched_at": "2026-06-15T06:22:21Z",
+      "updated_at": "2026-06-15T06:22:21Z"
     }
   ]
 }

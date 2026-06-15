@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-06-14T23:01:09Z",
+  "updated_at": "2026-06-15T06:21:57Z",
   "products": [
     {
       "product_id": "1005008710290057",
@@ -17,8 +17,8 @@
       "sales_volume": 28,
       "score": 0.2659,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:57Z",
-      "updated_at": "2026-06-14T23:00:57Z"
+      "fetched_at": "2026-06-15T06:21:47Z",
+      "updated_at": "2026-06-15T06:21:47Z"
     },
     {
       "product_id": "1005004274068542",
@@ -35,12 +35,12 @@
       "sales_volume": 4,
       "score": 0.2655,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:57Z",
-      "updated_at": "2026-06-14T23:00:57Z"
+      "fetched_at": "2026-06-15T06:21:48Z",
+      "updated_at": "2026-06-15T06:21:48Z"
     },
     {
       "product_id": "1005005429173220",
-      "title": "LIECTROUX L200 Roboter Vakuumreiniger & Wet Mop Combo, Smart Mapping, WLAN App, 4KPa, Bürstenloser Motor, Elektrischer Steuerwassertank",
+      "title": "LIECTROUX L200 Robot Vacuum Cleaner & Wet Mop Combo, Smart Mapping, WLAN App, 4KPa, Bürstenloser Motor, Elektrischer Steuerwassertank",
       "slug": "liectroux-l200-robot-vacuum-cleaner-wet-mop-combosmart-mappi",
       "price": 132.48,
       "original_price": 414.0,
@@ -53,8 +53,8 @@
       "sales_volume": 3,
       "score": 0.2644,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:58Z",
-      "updated_at": "2026-06-14T23:00:58Z"
+      "fetched_at": "2026-06-15T06:21:48Z",
+      "updated_at": "2026-06-15T06:21:48Z"
     },
     {
       "product_id": "1005008952159162",
@@ -71,8 +71,8 @@
       "sales_volume": 12,
       "score": 0.2514,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:59Z",
-      "updated_at": "2026-06-14T23:00:59Z"
+      "fetched_at": "2026-06-15T06:21:49Z",
+      "updated_at": "2026-06-15T06:21:49Z"
     },
     {
       "product_id": "1005005604363467",
@@ -89,8 +89,8 @@
       "sales_volume": 35,
       "score": 0.2471,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:00:59Z",
-      "updated_at": "2026-06-14T23:00:59Z"
+      "fetched_at": "2026-06-15T06:21:49Z",
+      "updated_at": "2026-06-15T06:21:49Z"
     },
     {
       "product_id": "1005005807578430",
@@ -107,8 +107,8 @@
       "sales_volume": 7,
       "score": 0.2393,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:00Z",
-      "updated_at": "2026-06-14T23:01:00Z"
+      "fetched_at": "2026-06-15T06:21:50Z",
+      "updated_at": "2026-06-15T06:21:50Z"
     },
     {
       "product_id": "1005008109628276",
@@ -125,8 +125,8 @@
       "sales_volume": 4,
       "score": 0.2385,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:00Z",
-      "updated_at": "2026-06-14T23:01:00Z"
+      "fetched_at": "2026-06-15T06:21:50Z",
+      "updated_at": "2026-06-15T06:21:50Z"
     },
     {
       "product_id": "1005007677605461",
@@ -143,8 +143,8 @@
       "sales_volume": 26,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:00Z",
-      "updated_at": "2026-06-14T23:01:00Z"
+      "fetched_at": "2026-06-15T06:21:51Z",
+      "updated_at": "2026-06-15T06:21:51Z"
     },
     {
       "product_id": "4000143784956",
@@ -161,8 +161,8 @@
       "sales_volume": 289,
       "score": 0.2218,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:01Z",
-      "updated_at": "2026-06-14T23:01:01Z"
+      "fetched_at": "2026-06-15T06:21:51Z",
+      "updated_at": "2026-06-15T06:21:51Z"
     },
     {
       "product_id": "1005004779246205",
@@ -179,8 +179,8 @@
       "sales_volume": 11,
       "score": 0.2163,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:01Z",
-      "updated_at": "2026-06-14T23:01:01Z"
+      "fetched_at": "2026-06-15T06:21:52Z",
+      "updated_at": "2026-06-15T06:21:52Z"
     },
     {
       "product_id": "1005004774956386",
@@ -197,8 +197,8 @@
       "sales_volume": 135,
       "score": 0.2155,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:02Z",
-      "updated_at": "2026-06-14T23:01:02Z"
+      "fetched_at": "2026-06-15T06:21:52Z",
+      "updated_at": "2026-06-15T06:21:52Z"
     },
     {
       "product_id": "1005010445247796",
@@ -215,8 +215,8 @@
       "sales_volume": 5,
       "score": 0.2106,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:03Z",
-      "updated_at": "2026-06-14T23:01:03Z"
+      "fetched_at": "2026-06-15T06:21:53Z",
+      "updated_at": "2026-06-15T06:21:53Z"
     },
     {
       "product_id": "1005011962938074",
@@ -233,8 +233,8 @@
       "sales_volume": 3,
       "score": 0.2104,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:03Z",
-      "updated_at": "2026-06-14T23:01:03Z"
+      "fetched_at": "2026-06-15T06:21:53Z",
+      "updated_at": "2026-06-15T06:21:53Z"
     },
     {
       "product_id": "1005009306467710",
@@ -251,8 +251,8 @@
       "sales_volume": 94,
       "score": 0.2099,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:04Z",
-      "updated_at": "2026-06-14T23:01:04Z"
+      "fetched_at": "2026-06-15T06:21:54Z",
+      "updated_at": "2026-06-15T06:21:54Z"
     },
     {
       "product_id": "1005003568997399",
@@ -269,8 +269,8 @@
       "sales_volume": 111,
       "score": 0.2063,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:04Z",
-      "updated_at": "2026-06-14T23:01:04Z"
+      "fetched_at": "2026-06-15T06:21:54Z",
+      "updated_at": "2026-06-15T06:21:54Z"
     },
     {
       "product_id": "1005009559994857",
@@ -287,8 +287,8 @@
       "sales_volume": 8,
       "score": 0.2053,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:05Z",
-      "updated_at": "2026-06-14T23:01:05Z"
+      "fetched_at": "2026-06-15T06:21:55Z",
+      "updated_at": "2026-06-15T06:21:55Z"
     },
     {
       "product_id": "1005004966987077",
@@ -305,12 +305,12 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:05Z",
-      "updated_at": "2026-06-14T23:01:05Z"
+      "fetched_at": "2026-06-15T06:21:55Z",
+      "updated_at": "2026-06-15T06:21:55Z"
     },
     {
       "product_id": "1005003990707766",
-      "title": "Sricam SH038 HD 4.0MP Wifi IP Kamera 360° Mobile Remote View Indoor Baby Monitor Nachtfarb-Videoüberwachung CCTV Kamera",
+      "title": "Sricam SH038 HD 4.0MP Wifi IP Kamera 360° Mobile Remote View Indoor Baby Monitor Nacht Farb-Videoüberwachung CCTV Kamera",
       "slug": "sricam-sh038-hd-40mp-wifi-ip-camera-360-mobile-remote-view-i",
       "price": 29.46,
       "original_price": 42.09,
@@ -323,8 +323,8 @@
       "sales_volume": 8,
       "score": 0.191,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:07Z",
-      "updated_at": "2026-06-14T23:01:07Z"
+      "fetched_at": "2026-06-15T06:21:56Z",
+      "updated_at": "2026-06-15T06:21:56Z"
     },
     {
       "product_id": "1005006118602003",
@@ -341,12 +341,12 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:08Z",
-      "updated_at": "2026-06-14T23:01:08Z"
+      "fetched_at": "2026-06-15T06:21:56Z",
+      "updated_at": "2026-06-15T06:21:56Z"
     },
     {
       "product_id": "4001041588925",
-      "title": "MoesHouse GU10 WiFi Smart LED Lampen RGBW C+W Weiße dimmbare Lampen Leben Tuya Fernbedienung Lichtlampen arbeiten mit Alexa / Google",
+      "title": "MoesHouse GU10 WiFi Smart LED Lampen RGBW C+W Weiße dimmbare Lampen Life Tuya Fernbedienung Lichtlampen arbeiten mit Alexa / Google",
       "slug": "moeshouse-gu10-wifi-smart-led-bulbs-rgbw-cw-white-dimmable-l",
       "price": 7.29,
       "original_price": 10.41,
@@ -359,8 +359,8 @@
       "sales_volume": 5,
       "score": 0.1906,
       "price_history": [],
-      "fetched_at": "2026-06-14T23:01:09Z",
-      "updated_at": "2026-06-14T23:01:09Z"
+      "fetched_at": "2026-06-15T06:21:57Z",
+      "updated_at": "2026-06-15T06:21:57Z"
     }
   ]
 }
