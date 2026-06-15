@@ -1,0 +1,69 @@
+name: Social Video (DRY_RUN)
+
+# Generates one Product Spotlight video (silent, 9:16) from the catalog and
+# uploads it as a run artifact for preview. No publishing, no secrets.
+
+on:
+  workflow_dispatch:
+    inputs:
+      lang:
+        description: "Language: en | it | es | de | fr"
+        type: string
+        required: false
+        default: "en"
+      slug:
+        description: "Product slug (optional; default = best discounted product)"
+        type: string
+        required: false
+        default: ""
+
+concurrency:
+  group: social-video
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Python deps
+        run: pip install Pillow requests
+
+      - name: Generate video (DRY_RUN)
+        run: |
+          slug_arg=""
+          if [ -n "${{ inputs.slug }}" ]; then
+            slug_arg="--slug ${{ inputs.slug }}"
+          fi
+          python _scripts/generate_social_video.py --lang "${{ inputs.lang }}" $slug_arg
+
+      - name: Show approval payload (mock, no token)
+        run: |
+          slug_arg=""
+          if [ -n "${{ inputs.slug }}" ]; then
+            slug_arg="--slug ${{ inputs.slug }}"
+          fi
+          python _scripts/social_bot.py --lang "${{ inputs.lang }}" $slug_arg --simulate approve
+
+      - name: Upload video + caption artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: social-video-${{ inputs.lang }}
+          path: |
+            out/social/*.mp4
+            out/social/*.caption.txt
+          if-no-files-found: error
+          retention-days: 14

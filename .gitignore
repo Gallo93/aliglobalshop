@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 node_modules/
+
+# Generated social videos / captions (Fase 1) - never committed
+out/
