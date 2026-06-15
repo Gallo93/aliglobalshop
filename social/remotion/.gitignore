@@ -1,0 +1,6 @@
+node_modules/
+out/
+.remotion/
+*.log
+# Fonts are copied in from assets/fonts/ at build time (see README), not committed.
+public/fonts/*.ttf
