@@ -52,7 +52,10 @@ Nessun segreto, nessuna pubblicazione.
 
 - Disclosure SEMPRE visibile nel video (overlay #ad/#adv... + "link affiliato")
   e in apertura di ogni caption.
-- CTA per piattaforma: IG/TikTok "link in bio"; FB/X link diretto.
+- CTA cliccabile per piattaforma nella CAPTION: IG/TikTok "link in bio"; FB/X
+  link diretto. Il video e' uno solo multipiattaforma, quindi la CTA SOVRAIMPRESSA
+  e' neutra per lingua ("Scoprilo ora" / "Shop now" ...) e vera ovunque: non
+  afferma "link in bio" (sarebbe falso su FB/X).
 - Niente musica (richiede licenza commerciale): video silenzioso.
 - Niente em-dash nei testi visibili (regola sito).
 

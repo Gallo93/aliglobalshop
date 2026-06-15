@@ -58,10 +58,13 @@ ACCENT = (249, 115, 22)      # orange-500
 TEXT = (248, 250, 252)       # near-white
 MUTED = (148, 163, 184)      # slate-400
 
-# Localized static labels for the overlay.
+# Localized CTA burned into the video. Neutral and true on EVERY platform: the
+# same MP4 is published to IG/TikTok (link in bio) and FB/X (link in caption),
+# so the overlay must not claim "link in bio" (false on FB/X). The clickable
+# CTA lives in the per-platform caption (social_caption.py); see SOCIAL_README.
 _CTA = {
-    "en": "Link in bio", "it": "Link in bio", "es": "Link en la bio",
-    "de": "Link in Bio", "fr": "Lien en bio",
+    "en": "Shop now", "it": "Scoprilo ora", "es": "Consiguelo ya",
+    "de": "Jetzt entdecken", "fr": "A decouvrir",
 }
 _DISCOUNT_BADGE = {
     "en": "OFF", "it": "SCONTO", "es": "DTO", "de": "RABATT", "fr": "REMISE",
