@@ -4,7 +4,9 @@ Animated vertical reel (9:16, 1080x1920, 30fps, ~22s, no audio) for the
 AliGlobalShop social pipeline. Pure motion graphics rendered from a props file:
 intro hook, ken-burns product card, spring price + discount badge, staggered
 features, pulsing CTA, drifting brand background, and an always-on affiliate
-disclosure. Fonts are bundled in `public/fonts/` (no system-font dependency).
+disclosure. I font DejaVu vengono copiati in `public/fonts/` da `assets/fonts/`
+al build (no font di sistema, no binari duplicati nel repo): lo fa
+`generate_social_video.py` in locale e uno step dedicato nel workflow CI.
 
 ## Come funziona
 
@@ -16,6 +18,8 @@ disclosure. Fonts are bundled in `public/fonts/` (no system-font dependency).
 ```bash
 cd social/remotion
 npm ci
+# i font vengono copiati da ../../assets/fonts in public/fonts
+mkdir -p public/fonts && cp ../../assets/fonts/DejaVuSans*.ttf public/fonts/
 # render usando i props generati da Python
 npx remotion render ProductSpotlight ../../out/social/<slug>-<lang>.mp4 \
   --props=../../out/social/<slug>-<lang>.props.json
@@ -23,9 +27,9 @@ npx remotion render ProductSpotlight ../../out/social/<slug>-<lang>.mp4 \
 npx remotion studio
 ```
 
-In locale `generate_social_video.py --lang it` lancia anche il render se trova
-Node e `node_modules/`; altrimenti scrive solo i props e il render lo fa la CI
-(`.github/workflows/social_video.yml`).
+In locale `generate_social_video.py --lang it` copia i font e lancia anche il
+render se trova Node e `node_modules/`; altrimenti scrive solo i props e il
+render lo fa la CI (`.github/workflows/social_video.yml`).
 
 ## Props (contratto)
 

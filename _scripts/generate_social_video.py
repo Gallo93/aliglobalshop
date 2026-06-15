@@ -28,6 +28,7 @@ import argparse
 import io
 import json
 import math
+import os
 import shutil
 import subprocess
 import sys
@@ -296,7 +297,7 @@ def _compose_frame(bg, product_img, T, lang, product, config, progress):
     return frame
 
 
-def _render_ffmpeg(product, lang, config) -> 'Path | None':
+def _render_ffmpeg(product, lang, config):
     try:
         from PIL import Image  # noqa: F401
     except ImportError:
@@ -343,6 +344,23 @@ def _render_ffmpeg(product, lang, config) -> 'Path | None':
 
 # --- main --------------------------------------------------------------------
 
+def _bundle_fonts(remotion_dir: Path) -> None:
+    """Copy the shared DejaVu fonts into the Remotion public dir (build-time).
+
+    The reel loads them via staticFile("fonts/..."); we keep the source of truth
+    in assets/fonts/ instead of duplicating binaries in the Remotion project.
+    """
+    dst = remotion_dir / "public" / "fonts"
+    dst.mkdir(parents=True, exist_ok=True)
+    for name in ("DejaVuSans.ttf", "DejaVuSans-Bold.ttf"):
+        src = FONT_DIR / name
+        if src.is_file():
+            try:
+                shutil.copyfile(src, dst / name)
+            except OSError as exc:
+                print(f"[warn] could not bundle font {name}: {exc}")
+
+
 def generate(product, lang, config, site_url, engine="remotion", make_video=True):
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     slug = product.get("slug", "product")
@@ -376,11 +394,14 @@ def generate(product, lang, config, site_url, engine="remotion", make_video=True
     remotion_dir = BASE_DIR / "social" / "remotion"
     out_mp4 = OUT_DIR / f"{stem}.mp4"
     if shutil.which("npx") and (remotion_dir / "node_modules").is_dir():
+        _bundle_fonts(remotion_dir)
         cmd = [
             "npx", "remotion", "render", "ProductSpotlight", str(out_mp4),
             f"--props={props_path}",
         ]
-        proc = subprocess.run(cmd, cwd=str(remotion_dir))
+        # shell=True on Windows so the npx.cmd shim is resolved.
+        proc = subprocess.run(cmd, cwd=str(remotion_dir),
+                              shell=(os.name == "nt"))
         if proc.returncode == 0 and out_mp4.is_file():
             print(f"[ok] reel rendered: {out_mp4}")
             return out_mp4, caption_path, props_path

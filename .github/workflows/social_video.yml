@@ -49,6 +49,12 @@ jobs:
         working-directory: social/remotion
         run: npm ci || npm install
 
+      - name: Bundle fonts into Remotion public dir
+        run: |
+          mkdir -p social/remotion/public/fonts
+          cp assets/fonts/DejaVuSans.ttf social/remotion/public/fonts/
+          cp assets/fonts/DejaVuSans-Bold.ttf social/remotion/public/fonts/
+
       - name: Build reel props (DRY_RUN, Python)
         run: |
           slug_arg=""
