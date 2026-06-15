@@ -1,7 +1,7 @@
 import React from "react";
-import { AbsoluteFill, Sequence, useVideoConfig, delayRender, continueRender } from "remotion";
+import { AbsoluteFill, Sequence, useVideoConfig } from "remotion";
 import type { ProductSpotlightProps } from "./types";
-import { ensureFonts, FONT_FAMILY } from "./fonts";
+import { ensureFonts, FONT_STACK } from "./fonts";
 import { AnimatedBackground } from "./components/AnimatedBackground";
 import { Disclosure } from "./components/Disclosure";
 import { IntroHook } from "./components/IntroHook";
@@ -14,15 +14,13 @@ const INTRO_FRAMES = 70; // ~2.3s hook
 
 export const ProductSpotlight: React.FC<ProductSpotlightProps> = (props) => {
   const { durationInFrames } = useVideoConfig();
-  const [handle] = React.useState(() =>
-    delayRender("loading fonts", { timeoutInMilliseconds: 55000 }),
-  );
 
+  // Kick off (idempotent) font loading. The delayRender handle lives inside
+  // ensureFonts() and is ALWAYS released, so the render never times out on
+  // fonts; here we only need to start it.
   React.useEffect(() => {
-    ensureFonts()
-      .then(() => continueRender(handle))
-      .catch(() => continueRender(handle));
-  }, [handle]);
+    void ensureFonts();
+  }, []);
 
   const {
     productName,
@@ -44,7 +42,7 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = (props) => {
   const mainDuration = durationInFrames - INTRO_FRAMES;
 
   return (
-    <AbsoluteFill style={{ fontFamily: FONT_FAMILY }}>
+    <AbsoluteFill style={{ fontFamily: FONT_STACK }}>
       {/* Background drifts for the whole clip. */}
       <AnimatedBackground colors={props.brandColors} />
 
@@ -73,7 +71,7 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = (props) => {
                 left: 70,
                 right: 70,
                 top: 1060,
-                fontFamily: FONT_FAMILY,
+                fontFamily: FONT_STACK,
                 fontWeight: 700,
                 fontSize: 54,
                 color: colors.text,
@@ -119,7 +117,7 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = (props) => {
               position: "absolute",
               left: 70,
               top: 1860,
-              fontFamily: FONT_FAMILY,
+              fontFamily: FONT_STACK,
               fontWeight: 400,
               fontSize: 34,
               color: colors.muted,
