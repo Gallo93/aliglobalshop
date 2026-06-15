@@ -51,9 +51,19 @@ jobs:
 
       - name: Bundle fonts into Remotion public dir
         run: |
-          mkdir -p social/remotion/public/fonts
-          cp assets/fonts/DejaVuSans.ttf social/remotion/public/fonts/
-          cp assets/fonts/DejaVuSans-Bold.ttf social/remotion/public/fonts/
+          set -euo pipefail
+          # staticFile("fonts/<name>.ttf") resolves from social/remotion/public/,
+          # so the DejaVu faces must land there before the bundle/render.
+          src="assets/fonts"
+          dest="social/remotion/public/fonts"
+          mkdir -p "$dest"
+          for f in DejaVuSans.ttf DejaVuSans-Bold.ttf; do
+            test -f "$src/$f" || { echo "::error::missing font source $src/$f"; exit 1; }
+            cp "$src/$f" "$dest/$f"
+            test -f "$dest/$f" || { echo "::error::font not copied to $dest/$f"; exit 1; }
+          done
+          echo "Fonts ready in $dest:"
+          ls -l "$dest"
 
       - name: Build reel props (DRY_RUN, Python)
         run: |
