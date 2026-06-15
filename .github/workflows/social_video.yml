@@ -40,7 +40,7 @@ jobs:
         with:
           node-version: "20"
           cache: npm
-          cache-dependency-path: social/remotion/package-lock.json
+          cache-dependency-path: social/remotion/package.json
 
       - name: Install Python deps
         run: pip install requests
