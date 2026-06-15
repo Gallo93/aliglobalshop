@@ -1,41 +1,44 @@
-"""Product Spotlight social video generator (Fase 1, Strada A).
+"""Product Spotlight social video generator (Fase 2, Remotion engine).
 
-Renders a silent vertical 1080x1920 (9:16) MP4 from a catalog product using
-Pillow (frames) + ffmpeg (encode). The affiliate disclosure is burned in and
-visible for the full clip. No audio (music needs a commercial licence, added
-later). Output goes to out/social/ (not committed). Also writes the matching
-compliant caption(s).
+Builds the data + caption for an animated vertical reel (9:16, 1080x1920, ~22s)
+from a catalog product. The actual MP4 is now rendered by the Remotion project
+in social/remotion/ (motion graphics), driven by a props file this script
+emits: out/social/<slug>-<lang>.props.json.
+
+Two engines:
+  --engine remotion (default)  write the .props.json (+ caption). The workflow
+                               then runs `npx remotion render ... --props=...`.
+  --engine ffmpeg              legacy static Pillow+ffmpeg render kept as a
+                               documented fallback (no Node needed). Animated
+                               only in the crudest sense; prefer remotion.
+
+The affiliate disclosure is always present (overlay in the reel, opening line in
+the caption). No audio (music needs a commercial licence). Output goes to
+out/social/ (gitignored). In DRY_RUN nothing is published.
 
 Usage:
+    # props for Remotion (default) + caption
     python _scripts/generate_social_video.py --lang it
     python _scripts/generate_social_video.py --slug <slug> --lang en
     python _scripts/generate_social_video.py --lang de --no-video   # caption only
-
-Requires ffmpeg on PATH and Pillow. In DRY_RUN (default) nothing is published;
-the image is downloaded if reachable, otherwise a generated placeholder is used.
+    # legacy static render
+    python _scripts/generate_social_video.py --lang it --engine ffmpeg
 """
 import argparse
 import io
+import json
 import math
-import os
 import shutil
 import subprocess
 import sys
 import tempfile
 from pathlib import Path
 
-try:
-    from PIL import Image, ImageDraw, ImageFilter, ImageFont
-except ImportError:  # pragma: no cover
-    print("[error] Pillow not installed. Run: pip install Pillow", file=sys.stderr)
-    raise
-
 # Allow running as a script from anywhere.
 sys.path.insert(0, str(Path(__file__).parent))
 from social_common import (  # noqa: E402
     BASE_DIR,
     SITE_URL_DEFAULT,
-    currency_code,
     disclosure_overlay,
     format_price,
     load_config,
@@ -51,17 +54,23 @@ DURATION_S = 22
 OUT_DIR = BASE_DIR / "out" / "social"
 FONT_DIR = BASE_DIR / "assets" / "fonts"
 
-# Brand palette (dark vertical gradient, warm accent for price/CTA).
-BG_TOP = (17, 24, 39)        # slate-900
-BG_BOTTOM = (30, 41, 59)     # slate-800
-ACCENT = (249, 115, 22)      # orange-500
-TEXT = (248, 250, 252)       # near-white
-MUTED = (148, 163, 184)      # slate-400
+# Brand palette shared with the Remotion composition (DEFAULT_PROPS in
+# social/remotion/src/types.ts). Hex here, RGB tuples for the ffmpeg fallback.
+BRAND_COLORS = {
+    "bgTop": "#111827",     # slate-900
+    "bgBottom": "#1e293b",  # slate-800
+    "accent": "#f97316",    # orange-500
+    "text": "#f8fafc",      # near-white
+    "muted": "#94a3b8",     # slate-400
+}
+BG_TOP = (17, 24, 39)
+BG_BOTTOM = (30, 41, 59)
+ACCENT = (249, 115, 22)
+TEXT = (248, 250, 252)
+MUTED = (148, 163, 184)
 
-# Localized CTA burned into the video. Neutral and true on EVERY platform: the
-# same MP4 is published to IG/TikTok (link in bio) and FB/X (link in caption),
-# so the overlay must not claim "link in bio" (false on FB/X). The clickable
-# CTA lives in the per-platform caption (social_caption.py); see SOCIAL_README.
+# Localized CTA burned into the reel. Neutral and true on EVERY platform (the
+# same MP4 goes to IG/TikTok and FB/X), so it must not claim "link in bio".
 _CTA = {
     "en": "Shop now", "it": "Scoprilo ora", "es": "Consiguelo ya",
     "de": "Jetzt entdecken", "fr": "A decouvrir",
@@ -70,16 +79,89 @@ _DISCOUNT_BADGE = {
     "en": "OFF", "it": "SCONTO", "es": "DTO", "de": "RABATT", "fr": "REMISE",
 }
 
+# Short localized feature lines synthesized from catalog signals (the catalog
+# has no per-product feature list). Kept generic, true, ASCII-safe, no em-dash.
+_FEAT_DISCOUNT = {
+    "en": "Save {pct}% today", "it": "Risparmi il {pct}% oggi",
+    "es": "Ahorra {pct}% hoy", "de": "{pct}% sparen", "fr": "{pct}% d'economie",
+}
+_FEAT_RATING = {
+    "en": "Rated {r}/5", "it": "Valutato {r}/5", "es": "Valorado {r}/5",
+    "de": "Bewertet {r}/5", "fr": "Note {r}/5",
+}
+_FEAT_REVIEWS = {
+    "en": "{n} reviews", "it": "{n} recensioni", "es": "{n} resenas",
+    "de": "{n} Bewertungen", "fr": "{n} avis",
+}
+_FEAT_SHIPPING = {
+    "en": "Ships worldwide", "it": "Spedizione globale", "es": "Envio mundial",
+    "de": "Weltweiter Versand", "fr": "Livraison mondiale",
+}
+_FEAT_QUALITY = {
+    "en": "Top pick", "it": "Scelta top", "es": "Eleccion top",
+    "de": "Top-Wahl", "fr": "Choix top",
+}
 
-def _font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
-    """Load the bundled free font; fall back to PIL default if missing."""
+
+def _build_features(product: dict, lang: str) -> list:
+    """Up to 4 short, true bullet lines from the product's own signals."""
+    lang = lang if lang in _CTA else "en"
+    feats = []
+    disc = int(product.get("discount_pct") or 0)
+    if disc:
+        feats.append(_FEAT_DISCOUNT[lang].format(pct=disc))
+    rating = product.get("rating")
+    try:
+        if rating is not None and float(rating) > 0:
+            feats.append(_FEAT_RATING[lang].format(r=f"{float(rating):.1f}"))
+    except (TypeError, ValueError):
+        pass
+    reviews = int(product.get("reviews_count") or 0)
+    if reviews >= 10:
+        feats.append(_FEAT_REVIEWS[lang].format(n=reviews))
+    feats.append(_FEAT_SHIPPING[lang])
+    if len(feats) < 4:
+        feats.append(_FEAT_QUALITY[lang])
+    return [strip_em_dash(f) for f in feats[:4]]
+
+
+def build_props(product: dict, lang: str, config: dict) -> dict:
+    """Assemble the typed props the Remotion ProductSpotlight expects.
+
+    Mirrors social/remotion/src/types.ts (ProductSpotlightProps). Prices are
+    localized here so the reel matches the site (same format_price as build.py).
+    """
+    T = load_i18n(lang)
+    price = format_price(product.get("price"), T, config)
+    orig = product.get("original_price")
+    orig_fmt = format_price(orig, T, config) if orig else None
+    disc = int(product.get("discount_pct") or 0)
+    title = strip_em_dash(product.get("title", "")).strip()
+    return {
+        "productName": title,
+        "priceFormatted": price,
+        "originalPriceFormatted": orig_fmt,
+        "discountPct": disc,
+        "imageUrl": product.get("image_url") or None,
+        "features": _build_features(product, lang),
+        "ctaText": _CTA.get(lang, _CTA["en"]),
+        "discountBadgeLabel": _DISCOUNT_BADGE.get(lang, "OFF"),
+        "disclosureText": disclosure_overlay(lang),
+        "brandUrl": "aliglobalshop.net",
+        "lang": lang if lang in _CTA else "en",
+        "brandColors": BRAND_COLORS,
+    }
+
+
+# --- legacy ffmpeg fallback (static) ----------------------------------------
+
+def _font(size: int, bold: bool = False):
+    from PIL import ImageFont
     name = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
     candidates = [FONT_DIR / name]
-    # Pillow ships DejaVu; use it as a fallback source so CI never breaks.
     try:
         import PIL
-        pil_fonts = Path(PIL.__file__).parent / "fonts"
-        candidates.append(pil_fonts / name)
+        candidates.append(Path(PIL.__file__).parent / "fonts" / name)
     except Exception:
         pass
     for c in candidates:
@@ -91,6 +173,7 @@ def _font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
 
 
 def _download_image(url: str):
+    from PIL import Image
     if not url:
         return None
     try:
@@ -103,7 +186,8 @@ def _download_image(url: str):
         return None
 
 
-def _placeholder_image(title: str) -> Image.Image:
+def _placeholder_image(title: str):
+    from PIL import Image, ImageDraw
     img = Image.new("RGB", (900, 900), (51, 65, 85))
     d = ImageDraw.Draw(img)
     f = _font(46, bold=True)
@@ -113,8 +197,8 @@ def _placeholder_image(title: str) -> Image.Image:
     return img
 
 
-def _gradient_bg() -> Image.Image:
-    base = Image.new("RGB", (WIDTH, HEIGHT), BG_TOP)
+def _gradient_bg():
+    from PIL import Image
     top = Image.new("RGB", (1, HEIGHT))
     for y in range(HEIGHT):
         t = y / (HEIGHT - 1)
@@ -145,11 +229,9 @@ def _rounded(draw, box, radius, fill):
 
 
 def _compose_frame(bg, product_img, T, lang, product, config, progress):
-    """One frame at animation position `progress` in [0,1]."""
+    from PIL import Image, ImageDraw
     frame = bg.copy()
     draw = ImageDraw.Draw(frame, "RGBA")
-
-    # Ken-burns zoom on the product image (1.0 -> 1.08), centered in a card.
     card_w, card_h = 860, 860
     card_x = (WIDTH - card_w) // 2
     card_y = 360
@@ -161,12 +243,10 @@ def _compose_frame(bg, product_img, T, lang, product, config, progress):
     crop_x = (rw - card_w) // 2
     crop_y = (rh - card_h) // 2
     pimg = pimg.crop((crop_x, crop_y, crop_x + card_w, crop_y + card_h))
-
     mask = Image.new("L", (card_w, card_h), 0)
     ImageDraw.Draw(mask).rounded_rectangle((0, 0, card_w, card_h), radius=48, fill=255)
     frame.paste(pimg, (card_x, card_y), mask)
 
-    # Discount badge.
     disc = int(product.get("discount_pct") or 0)
     if disc:
         bf = _font(52, bold=True)
@@ -176,7 +256,6 @@ def _compose_frame(bg, product_img, T, lang, product, config, progress):
         _rounded(draw, (bx, by, bx + tw + 48, by + 84), 20, ACCENT)
         draw.text((bx + 24, by + 14), label, font=bf, fill=(17, 24, 39))
 
-    # Title (wrapped, max 3 lines).
     tf = _font(58, bold=True)
     title = strip_em_dash(product.get("title", "")).strip()
     lines = _wrap(draw, title, tf, WIDTH - 140)[:3]
@@ -185,7 +264,6 @@ def _compose_frame(bg, product_img, T, lang, product, config, progress):
         draw.text((70, ty), ln, font=tf, fill=TEXT)
         ty += 70
 
-    # Price.
     pf = _font(96, bold=True)
     price = format_price(product.get("price"), T, config)
     if price:
@@ -196,63 +274,47 @@ def _compose_frame(bg, product_img, T, lang, product, config, progress):
             orig_str = format_price(orig, T, config)
             ox = 70 + draw.textlength(price, font=pf) + 30
             draw.text((ox, ty + 60), orig_str, font=of, fill=MUTED)
-            # strike-through
             ow = draw.textlength(orig_str, font=of)
             draw.line((ox, ty + 88, ox + ow, ty + 88), fill=MUTED, width=4)
 
-    # CTA pill (fades/pulses with progress).
     cf = _font(50, bold=True)
     cta = _CTA.get(lang, _CTA["en"])
     cw = draw.textlength(cta, font=cf)
     pulse = int(20 * (0.5 + 0.5 * math.sin(progress * math.pi * 4)))
     cx, cy = 70, 1640
-    _rounded(draw, (cx, cy, cx + cw + 80 + pulse, cy + 96), 48,
-             ACCENT + (255,))
+    _rounded(draw, (cx, cy, cx + cw + 80 + pulse, cy + 96), 48, ACCENT + (255,))
     draw.text((cx + 40 + pulse // 2, cy + 22), cta, font=cf, fill=(17, 24, 39))
 
-    # ALWAYS-ON disclosure bar (top), high contrast, full width.
     df = _font(40, bold=True)
     disclosure = disclosure_overlay(lang)
     dw = draw.textlength(disclosure, font=df)
     _rounded(draw, (40, 60, 40 + dw + 64, 60 + 76), 18, (0, 0, 0, 200))
     draw.text((72, 78), disclosure, font=df, fill=(255, 255, 255))
 
-    # Brand footer.
     ff = _font(34)
     draw.text((70, 1840), "aliglobalshop.net", font=ff, fill=MUTED)
     return frame
 
 
-def generate_video(product, lang, config, site_url, make_video=True):
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+def _render_ffmpeg(product, lang, config) -> 'Path | None':
+    try:
+        from PIL import Image  # noqa: F401
+    except ImportError:
+        print("[error] Pillow not installed (needed for --engine ffmpeg).",
+              file=sys.stderr)
+        return None
+    if not shutil.which("ffmpeg"):
+        print("[error] ffmpeg not found on PATH. Skipping video.", file=sys.stderr)
+        return None
     T = load_i18n(lang)
     slug = product.get("slug", "product")
     stem = f"{slug}-{lang}"
-
-    # Caption file (all platforms).
-    captions = build_all_captions(product, lang, config, site_url)
-    caption_path = OUT_DIR / f"{stem}.caption.txt"
-    with open(caption_path, "w", encoding="utf-8") as f:
-        for platform, text in captions.items():
-            f.write(f"===== {platform.upper()} =====\n{text}\n\n")
-    print(f"[ok] caption written: {caption_path}")
-
-    if not make_video:
-        return None, caption_path
-
-    if not shutil.which("ffmpeg"):
-        print("[error] ffmpeg not found on PATH. Skipping video.", file=sys.stderr)
-        return None, caption_path
-
     product_img = _download_image(product.get("image_url")) or \
         _placeholder_image(product.get("title", ""))
     bg = _gradient_bg()
-
     total_frames = FPS * DURATION_S
     tmp = Path(tempfile.mkdtemp(prefix="social_frames_"))
     try:
-        # Render unique frames only where the animation changes; ffmpeg reads
-        # the full numbered sequence. Subsample to keep render fast (every 3rd).
         step = 3
         last = None
         for i in range(total_frames):
@@ -272,32 +334,91 @@ def generate_video(product, lang, config, site_url, make_video=True):
         proc = subprocess.run(cmd, capture_output=True, text=True)
         if proc.returncode != 0:
             print("[error] ffmpeg failed:\n" + proc.stderr[-1500:], file=sys.stderr)
-            return None, caption_path
+            return None
         print(f"[ok] video written: {out_path} ({out_path.stat().st_size // 1024} KB)")
-        return out_path, caption_path
+        return out_path
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+# --- main --------------------------------------------------------------------
+
+def generate(product, lang, config, site_url, engine="remotion", make_video=True):
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    slug = product.get("slug", "product")
+    stem = f"{slug}-{lang}"
+
+    # Caption file (all platforms) - same as Fase 1.
+    captions = build_all_captions(product, lang, config, site_url)
+    caption_path = OUT_DIR / f"{stem}.caption.txt"
+    with open(caption_path, "w", encoding="utf-8") as f:
+        for platform, text in captions.items():
+            f.write(f"===== {platform.upper()} =====\n{text}\n\n")
+    print(f"[ok] caption written: {caption_path}")
+
+    # Props file for Remotion (the data contract for the animated reel).
+    props = build_props(product, lang, config)
+    props_path = OUT_DIR / f"{stem}.props.json"
+    with open(props_path, "w", encoding="utf-8") as f:
+        json.dump(props, f, ensure_ascii=False, indent=2)
+    print(f"[ok] props written: {props_path}")
+
+    if not make_video:
+        return None, caption_path, props_path
+
+    if engine == "ffmpeg":
+        video = _render_ffmpeg(product, lang, config)
+        return video, caption_path, props_path
+
+    # engine == remotion: the MP4 is produced by the Remotion CLI using the
+    # props file above. Render here only if Node + the project deps are present
+    # (local convenience); CI runs the render in its own step.
+    remotion_dir = BASE_DIR / "social" / "remotion"
+    out_mp4 = OUT_DIR / f"{stem}.mp4"
+    if shutil.which("npx") and (remotion_dir / "node_modules").is_dir():
+        cmd = [
+            "npx", "remotion", "render", "ProductSpotlight", str(out_mp4),
+            f"--props={props_path}",
+        ]
+        proc = subprocess.run(cmd, cwd=str(remotion_dir))
+        if proc.returncode == 0 and out_mp4.is_file():
+            print(f"[ok] reel rendered: {out_mp4}")
+            return out_mp4, caption_path, props_path
+        print("[warn] remotion render failed locally; props file is ready for CI.",
+              file=sys.stderr)
+        return None, caption_path, props_path
+
+    print("[info] Remotion not installed locally; props file is ready. "
+          "Run the render in social/remotion (see SOCIAL_README).")
+    return None, caption_path, props_path
+
+
 def main():
-    ap = argparse.ArgumentParser(description="Generate a Product Spotlight social video (DRY_RUN).")
+    ap = argparse.ArgumentParser(
+        description="Generate Product Spotlight reel data + caption (DRY_RUN).")
     ap.add_argument("--lang", default="en", help="en|it|es|de|fr")
     ap.add_argument("--slug", default=None, help="product slug (default: best deal)")
-    ap.add_argument("--no-video", action="store_true", help="caption only, skip MP4")
+    ap.add_argument("--engine", default="remotion", choices=["remotion", "ffmpeg"],
+                    help="remotion (animated reel, default) | ffmpeg (legacy static)")
+    ap.add_argument("--no-video", action="store_true", help="caption + props only")
     args = ap.parse_args()
 
     config = load_config()
     site_url = config.get("site_url", SITE_URL_DEFAULT)
     product = pick_product(args.lang, args.slug)
     if not product:
-        print(f"[error] no product found (lang={args.lang}, slug={args.slug})", file=sys.stderr)
+        print(f"[error] no product found (lang={args.lang}, slug={args.slug})",
+              file=sys.stderr)
         sys.exit(1)
 
     print(f"[info] product: {product.get('slug')} | {product.get('title', '')[:60]}")
-    video, caption = generate_video(product, args.lang, config, site_url,
-                                    make_video=not args.no_video)
+    print(f"[info] engine: {args.engine}")
+    video, caption, props = generate(
+        product, args.lang, config, site_url,
+        engine=args.engine, make_video=not args.no_video)
     print("[done] DRY_RUN: nothing published. "
-          f"video={'-' if not video else video.name} caption={caption.name}")
+          f"video={'-' if not video else video.name} "
+          f"caption={caption.name} props={props.name}")
 
 
 if __name__ == "__main__":

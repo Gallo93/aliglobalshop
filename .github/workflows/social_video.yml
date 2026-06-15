@@ -1,7 +1,8 @@
 name: Social Video (DRY_RUN)
 
-# Generates one Product Spotlight video (silent, 9:16) from the catalog and
-# uploads it as a run artifact for preview. No publishing, no secrets.
+# Renders one animated Product Spotlight reel (silent, 9:16, motion graphics via
+# Remotion) from the catalog and uploads it as a run artifact for preview.
+# No publishing, no secrets.
 
 on:
   workflow_dispatch:
@@ -34,21 +35,42 @@ jobs:
           python-version: "3.11"
           cache: pip
 
-      - name: Install ffmpeg
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: social/remotion/package-lock.json
 
       - name: Install Python deps
-        run: pip install Pillow requests
+        run: pip install requests
 
-      - name: Generate video (DRY_RUN)
+      - name: Install Remotion deps
+        working-directory: social/remotion
+        run: npm ci || npm install
+
+      - name: Build reel props (DRY_RUN, Python)
         run: |
           slug_arg=""
           if [ -n "${{ inputs.slug }}" ]; then
             slug_arg="--slug ${{ inputs.slug }}"
           fi
-          python _scripts/generate_social_video.py --lang "${{ inputs.lang }}" $slug_arg
+          python _scripts/generate_social_video.py --lang "${{ inputs.lang }}" $slug_arg --no-video
+
+      - name: Resolve props file
+        id: props
+        run: |
+          file=$(ls out/social/*-${{ inputs.lang }}.props.json | head -n1)
+          echo "file=$file" >> "$GITHUB_OUTPUT"
+          stem=$(basename "$file" .props.json)
+          echo "stem=$stem" >> "$GITHUB_OUTPUT"
+
+      - name: Render reel (Remotion)
+        working-directory: social/remotion
+        run: |
+          npx remotion render ProductSpotlight \
+            "../../out/social/${{ steps.props.outputs.stem }}.mp4" \
+            "--props=../../${{ steps.props.outputs.file }}"
 
       - name: Show approval payload (mock, no token)
         run: |
@@ -58,12 +80,13 @@ jobs:
           fi
           python _scripts/social_bot.py --lang "${{ inputs.lang }}" $slug_arg --simulate approve
 
-      - name: Upload video + caption artifact
+      - name: Upload reel + caption + props artifact
         uses: actions/upload-artifact@v4
         with:
           name: social-video-${{ inputs.lang }}
           path: |
             out/social/*.mp4
             out/social/*.caption.txt
+            out/social/*.props.json
           if-no-files-found: error
           retention-days: 14
