@@ -1,13 +1,13 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-06-16T11:13:12Z",
+  "updated_at": "2026-06-16T16:00:29Z",
   "products": [
     {
       "product_id": "1005009654029579",
       "title": "Tuya Zigbee Wireless Door Windows Sensor mini Smart Home Wireless Door Detector Door Open Closed Alarm System for Alexa",
       "slug": "tuya-zigbee-wireless-door-windows-sensor-mini-smart-home-wir",
-      "price": "6.69",
-      "original_price": "7.44",
+      "price": "6.50",
+      "original_price": "7.23",
       "discount_pct": 7,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWUEi7aR7l3u78m9slEUOKaKdUybMQxr15UiOv2C9nVdiNQzKn1ZA606mEPBPUros68uUWzs29qU78m2JVbdZWEaFb3ypc2ekRbq0eBsnCBeHXEkByUiuEipT9vfrF3rOn1d3PXEB2J0cclI4VW3fHBRLJ0h0wUFCq5VcUNrSEwSbjdP4of4D1NPNLqDuEI6NmWTNmt3mV558YveJbJXuVw6lth0LQTWHivkoFk8SlnySSmhCC1PQcZaVG1KegEqeou9eaLXe8XXorJj71E2czYj65NUA8PsQKri9bPMLQW0nYsnPON5HKU8QFjFULOctO1vYNcSAkAqxs7kwYZAwyq63KIODdCK3eIlvzwdFfXBgoOZoKQ0lIPMh2lIdtJA6i1NCvGIymrwyORigbgPC62VV5ImCWMmT115OOoINYNwupMYN8Fi5NKPldSDXVVCgF6COG2sP09QKYA2YZ1R4QGXJlitY9mlWY4kK4kovRQBnbRABL7pSwSsj8jWHoDDQGuHi0zIRYwLKQUX6r2AoLj9fd318tElxUumwK7oK3OqQK6BcdLuXx6veDSnmUHPxvaSMEQSAsV4V81TtoiSosV8cs3eQC4Ob57mUXwntGMs3uJnyrIDjtscwLOiYl88RjV9yOeVsN5DhqGDOEU9iEbSsC5r9BLlOOv8xalgOH6eXEqkToQiXmjkMNUAZ11Q6ycKiSR8gEsHK",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781591546/products/1005009654029579.webp",
@@ -18,7 +18,7 @@
       "score": 0.3659,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:26Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005008109628276",
@@ -36,7 +36,7 @@
       "score": 0.2835,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:27Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005008710290057",
@@ -54,7 +54,7 @@
       "score": 0.2809,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:27Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005005429173220",
@@ -72,7 +72,7 @@
       "score": 0.2704,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:28Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005008952159162",
@@ -90,7 +90,7 @@
       "score": 0.2514,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:28Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005005604363467",
@@ -108,7 +108,7 @@
       "score": 0.2471,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:29Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005005807578430",
@@ -126,7 +126,7 @@
       "score": 0.2393,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:29Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005004774956386",
@@ -144,7 +144,7 @@
       "score": 0.2378,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:30Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005010463738860",
@@ -162,7 +162,7 @@
       "score": 0.2271,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:31Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "4000143784956",
@@ -180,7 +180,7 @@
       "score": 0.2249,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:31Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005011962938074",
@@ -198,7 +198,7 @@
       "score": 0.2194,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:32Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005004779246205",
@@ -216,7 +216,7 @@
       "score": 0.2163,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:32Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005004966987077",
@@ -234,7 +234,7 @@
       "score": 0.2151,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:32Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005010445247796",
@@ -252,7 +252,7 @@
       "score": 0.2106,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:33Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005009306467710",
@@ -270,7 +270,7 @@
       "score": 0.2099,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:33Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005003990707766",
@@ -288,7 +288,7 @@
       "score": 0.209,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:34Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005003568997399",
@@ -306,7 +306,7 @@
       "score": 0.2003,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:35Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005008650696927",
@@ -324,14 +324,14 @@
       "score": 0.1994,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:35Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005009741998621",
       "title": "tuya Zigbee Smart PIR Motion Sensor Detector Home Security Burglar Alarm Security Burglar Home Assistant Wireless for Smart Life",
       "slug": "tuya-zigbee-smart-pir-motion-sensor-detector-home-security-b",
-      "price": "9.69",
-      "original_price": "11.14",
+      "price": "9.98",
+      "original_price": "11.47",
       "discount_pct": 13,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EzqUPVcV1alqgTcmjzUCVRgiPazJFF3bdttvGGTK4eIlZr8UbrM0WyrxSqCyxp5W4LxcolRJXujzH5nHEziKIY7OmNjKnvq3wxKtohGrqJ3TEiOtxhJGHYlnVAqVR22jHdBoZm7N4xqE7I40IGNf57mDJiYOfeDvCMh7rRRoOG0Uy8Z38dloWZk2F4WuRhdw64u0NoiK4nwTYkKm2OoAPsih8ZKrrdgjEJN2xOE5lIiLtBh3mx8g8BxCnvc1ll4TDDxotjZmwqIBPeD3uza7KThvGnoMlnzecTyN2yYK9pUUqG5pjDfwBqzudNYlsKEdwJKn9PrYj8GT68b8UkyCvIgnj6tfKShwKoBcRadERtWbxFM4fiipFO47J0mNxicoVYt130NWMeVAOmkWJnfNbTMLzTMLaBcrNHpIm88sjczdXGHsOqMHh5FJ82DoR5cTyP0ZMYA4B7WF3zRL1X3qBOku8cK5fYYyYbF3aoVUK1tufg0MqwoXQBM0eCCSgnxp80sL5IDfGjFbZPHCz28wtke5eNdBdebtCCajmj4jouIHoUKZQ36iVwfvWGZZYTW72WS6ELWnEFtxoZYOVWLcUvSbkVumaXgztyARbC808gRvQUMA5ygyp92WLUV8WcOg0vFJkj37AfIMZRvv8vVTbIQKs3uBmUT8tBzNCyxGHSik45YyWe5IpSWvL8tGaqdZUjPa3E5tdcGC4",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781591555/products/1005009741998621.webp",
@@ -342,7 +342,7 @@
       "score": 0.1944,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:36Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     },
     {
       "product_id": "1005006893680907",
@@ -360,7 +360,7 @@
       "score": 0.1936,
       "price_history": [],
       "fetched_at": "2026-06-16T06:32:37Z",
-      "updated_at": "2026-06-16T11:13:12Z"
+      "updated_at": "2026-06-16T16:00:29Z"
     }
   ]
 }
