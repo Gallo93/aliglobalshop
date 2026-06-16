@@ -23,6 +23,7 @@ Usage:
     python _scripts/social_bot.py --run-scheduled
 """
 import argparse
+import hashlib
 import json
 import os
 import sys
@@ -45,6 +46,7 @@ import social_publish  # noqa: E402
 OUT_DIR = BASE_DIR / "out" / "social"
 ARCHIVE_DIR = OUT_DIR / "_discarded"
 SCHEDULED_DIR = OUT_DIR / "_scheduled"
+INDEX_PATH = OUT_DIR / "_index.json"
 API_BASE = "https://api.telegram.org/bot{token}/{method}"
 ROME = ZoneInfo("Europe/Rome")
 SCHEDULE_FMT = "%Y-%m-%d %H:%M"
@@ -53,8 +55,10 @@ BOT_TOKEN = os.getenv("SOCIAL_BOT_TOKEN", "")
 ADMIN_CHAT_ID = os.getenv("SOCIAL_ADMIN_CHAT_ID", "")
 MOCK = not (BOT_TOKEN and ADMIN_CHAT_ID)
 
-# Inline keyboard. callback_data stays well under Telegram's 64-byte limit by
-# carrying only an action + short job id (the job file holds the rest).
+# Inline keyboard. callback_data must stay within Telegram's 64-byte limit, so
+# it carries only an action + an 8-char short id (the job file holds the rest).
+# The full job_id (slug+lang) can reach ~72 bytes and would trip
+# BUTTON_DATA_INVALID, blocking every message.
 ACTIONS = ("approve", "schedule", "edit", "regen", "discard")
 _BTN_LABELS = {
     "approve": "Pubblica ora",
@@ -65,14 +69,64 @@ _BTN_LABELS = {
 }
 
 
-def _keyboard(job_id: str) -> dict:
-    row = [{"text": _BTN_LABELS[a], "callback_data": f"{a}:{job_id}"}
+def _short_id(job_id: str) -> str:
+    """Deterministic 8-char id for callback_data (keeps it under 64 bytes)."""
+    return hashlib.sha1(job_id.encode()).hexdigest()[:8]
+
+
+def _keyboard(short_id: str) -> dict:
+    row = [{"text": _BTN_LABELS[a], "callback_data": f"{a}:{short_id}"}
            for a in ACTIONS]
+    for b in row:
+        assert len(b["callback_data"].encode()) <= 64, \
+            f"callback_data too long: {b['callback_data']}"
     return {"inline_keyboard": [row]}
 
 
 def _job_path(job_id: str) -> Path:
     return OUT_DIR / f"{job_id}.job.json"
+
+
+def _update_index(short_id: str, job_id: str) -> None:
+    """Persist the short_id -> job_id mapping (robust against moved job files:
+    discarded/scheduled jobs change folder, an index does not)."""
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    index = {}
+    if INDEX_PATH.is_file():
+        try:
+            with open(INDEX_PATH, encoding="utf-8") as f:
+                index = json.load(f)
+        except (OSError, ValueError):
+            index = {}
+    index[short_id] = job_id
+    with open(INDEX_PATH, "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=2)
+
+
+def _resolve_job_id(short_id: str) -> str | None:
+    """Resolve short_id -> job_id via the index, with a scan fallback over all
+    job files (including _scheduled/ and _discarded/)."""
+    if INDEX_PATH.is_file():
+        try:
+            with open(INDEX_PATH, encoding="utf-8") as f:
+                index = json.load(f)
+            if short_id in index:
+                return index[short_id]
+        except (OSError, ValueError):
+            pass
+    for folder in (OUT_DIR, SCHEDULED_DIR, ARCHIVE_DIR):
+        if not folder.is_dir():
+            continue
+        for jf in folder.glob("*.job.json"):
+            try:
+                with open(jf, encoding="utf-8") as f:
+                    job = json.load(f)
+            except (OSError, ValueError):
+                continue
+            if job.get("short_id") == short_id or \
+                    _short_id(job.get("job_id", "")) == short_id:
+                return job.get("job_id")
+    return None
 
 
 def _save_job(job: dict) -> None:
@@ -90,9 +144,11 @@ def build_job(slug: str | None, lang: str) -> dict:
         raise SystemExit(f"[error] no product (lang={lang}, slug={slug})")
     real_slug = product.get("slug")
     job_id = f"{real_slug}-{lang}"
+    short_id = _short_id(job_id)
     captions = build_all_captions(product, lang, config, site_url)
     job = {
         "job_id": job_id,
+        "short_id": short_id,
         "slug": real_slug,
         "lang": lang,
         "title": product.get("title", ""),
@@ -106,6 +162,7 @@ def build_job(slug: str | None, lang: str) -> dict:
         "scheduled_at": None,
     }
     _save_job(job)
+    _update_index(short_id, job_id)
     return job
 
 
@@ -135,7 +192,8 @@ def send_for_approval(job: dict) -> dict:
         f"Link: {job['link']}\n\n"
         f"{caption}"
     )
-    kb = _keyboard(job["job_id"])
+    short_id = job.get("short_id") or _short_id(job["job_id"])
+    kb = _keyboard(short_id)
     video_path = job["video"]
 
     if MOCK:
@@ -237,11 +295,14 @@ def handle_callback(callback_data: str, pending: dict | None = None,
     schedule/edit we record that the next text message belongs to this job.
     """
     try:
-        action, job_id = callback_data.split(":", 1)
+        action, short_id = callback_data.split(":", 1)
     except ValueError:
         return {"ok": False, "error": "bad callback_data"}
     if action not in ACTIONS:
         return {"ok": False, "error": f"unknown action {action}"}
+    job_id = _resolve_job_id(short_id)
+    if not job_id:
+        return {"ok": False, "error": f"unknown short_id {short_id}"}
     job = _load_job(job_id)
     if not job:
         return {"ok": False, "error": "job missing"}
@@ -407,7 +468,8 @@ def _simulate(action: str, job: dict):
     """Drive an action without Telegram, covering the follow-up text steps."""
     pending: dict = {}
     fake_chat = "sim"
-    result = handle_callback(f"{action}:{job['job_id']}", pending=pending,
+    short_id = job.get("short_id") or _short_id(job["job_id"])
+    result = handle_callback(f"{action}:{short_id}", pending=pending,
                              chat_id=fake_chat)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     if action == "schedule":
