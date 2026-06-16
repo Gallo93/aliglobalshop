@@ -207,6 +207,11 @@ def publish_all(video_path, captions: dict, link=None, platforms=None,
 
     captions: {platform: caption_text}. Returns list of result dicts. In live
     mode (dry_run False and SOCIAL_LIVE=1) IG/FB need a public video_url.
+
+    A failure on one platform (e.g. missing env, NotImplementedError for
+    tiktok/x, or an API error) is captured in its result dict and does NOT abort
+    the others: already-succeeded publishes stand and the bot's serve loop never
+    crashes on it.
     """
     platforms = platforms or list(PUBLISHERS.keys())
     results = []
@@ -215,8 +220,13 @@ def publish_all(video_path, captions: dict, link=None, platforms=None,
         if not fn:
             print(f"[warn] unknown platform '{p}', skipping")
             continue
-        results.append(fn(video_path, captions.get(p, ""), link, dry_run,
-                          video_url))
+        try:
+            results.append(fn(video_path, captions.get(p, ""), link, dry_run,
+                              video_url))
+        except Exception as exc:
+            print(f"[warn] {p} publish failed: {exc}")
+            results.append({"platform": p, "published": False,
+                            "error": str(exc)})
     return results
 
 
