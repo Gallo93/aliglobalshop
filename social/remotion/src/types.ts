@@ -25,6 +25,9 @@ export interface ProductSpotlightProps {
   brandUrl: string; // "aliglobalshop.net"
   lang: Lang;
   brandColors: BrandColors;
+  // Optional Pexels b-roll played as the intro background. staticFile-relative
+  // name ("intro/<file>.mp4") or null/absent -> animated intro fallback.
+  introClip?: string | null;
 }
 
 export const DEFAULT_PROPS: ProductSpotlightProps = {
@@ -46,4 +49,5 @@ export const DEFAULT_PROPS: ProductSpotlightProps = {
     text: "#f8fafc",
     muted: "#94a3b8",
   },
+  introClip: null,
 };

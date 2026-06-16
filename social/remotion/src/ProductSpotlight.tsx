@@ -5,6 +5,7 @@ import { ensureFonts, FONT_STACK } from "./fonts";
 import { AnimatedBackground } from "./components/AnimatedBackground";
 import { Disclosure } from "./components/Disclosure";
 import { IntroHook } from "./components/IntroHook";
+import { IntroVideo } from "./components/IntroVideo";
 import { ProductCard } from "./components/ProductCard";
 import { PriceBlock } from "./components/PriceBlock";
 import { Features } from "./components/Features";
@@ -33,6 +34,7 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = (props) => {
     discountBadgeLabel,
     disclosureText,
     brandUrl,
+    introClip,
     colors,
   } = {
     ...props,
@@ -46,8 +48,13 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = (props) => {
       {/* Background drifts for the whole clip. */}
       <AnimatedBackground colors={props.brandColors} />
 
-      {/* Intro hook. */}
+      {/* Intro hook. When a Pexels b-roll clip is provided it plays as the
+          background BEHIND the hook text; otherwise the animated intro alone
+          is shown (default, unchanged). */}
       <Sequence durationInFrames={INTRO_FRAMES}>
+        {introClip ? (
+          <IntroVideo src={introClip} colors={props.brandColors} />
+        ) : null}
         <IntroHook productName={productName} colors={props.brandColors} />
       </Sequence>
 
@@ -128,7 +135,8 @@ export const ProductSpotlight: React.FC<ProductSpotlightProps> = (props) => {
         </AbsoluteFill>
       </Sequence>
 
-      {/* Disclosure is OUTSIDE the sequences => visible for the entire clip. */}
+      {/* Disclosure is OUTSIDE the sequences AND rendered last => always on top,
+          visible for the entire clip, even over the intro b-roll video. */}
       <Disclosure text={disclosureText} />
     </AbsoluteFill>
   );
