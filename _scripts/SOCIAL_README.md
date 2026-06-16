@@ -2,8 +2,9 @@
 
 Pipeline per generare reel verticali "Product Spotlight" dai prodotti del
 catalogo: ora **reel animati veri** (motion graphics via Remotion), con caption
-compliant e approvazione via Telegram. Tutto in DRY_RUN: nessuna pubblicazione
-reale, nessun token richiesto adesso.
+compliant e approvazione via Telegram. Default in DRY_RUN: nessuna pubblicazione
+reale, nessun token richiesto. La pubblicazione vera (Facebook + Instagram)
+scatta solo con `SOCIAL_LIVE=1` e i secret della piattaforma presenti.
 
 ## Architettura
 
@@ -24,8 +25,8 @@ reale, nessun token richiesto adesso.
 | `social_caption.py` | caption compliant per lingua + piattaforma |
 | `generate_social_video.py` | scrive props per Remotion (+ caption); engine `ffmpeg` opzionale |
 | `social/remotion/` | progetto Remotion (composizione `ProductSpotlight`, font bundlati) |
-| `social_publish.py` | stub pubblicazione (DRY_RUN: logga, niente rete) |
-| `social_bot.py` | approvazione Telegram (anteprima + bottoni Approva/Scarta/Rigenera) |
+| `social_publish.py` | pubblicazione: DRY_RUN logga; live FB/IG via Meta Graph API dietro `SOCIAL_LIVE=1` |
+| `social_bot.py` | approvazione Telegram (anteprima + 5 bottoni, schedule, edit, regen) |
 
 ## Uso locale
 
@@ -48,27 +49,60 @@ python _scripts/generate_social_video.py --lang it --engine ffmpeg
 
 Output in `out/social/` (NON committato): `<slug>-<lang>.props.json`,
 `<slug>-<lang>.mp4`, `<slug>-<lang>.caption.txt` (una caption per piattaforma:
-facebook/instagram/tiktok/x).
+facebook/instagram/tiktok/x), `<slug>-<lang>.job.json` (metadati approvazione).
 
 ## Approvazione Telegram
 
 ```bash
 python _scripts/social_bot.py --lang it
-python _scripts/social_bot.py --lang it --simulate approve   # simula bottone
+python _scripts/social_bot.py --lang it --simulate approve     # simula bottone
+python _scripts/social_bot.py --lang it --simulate schedule    # simula programmazione
+python _scripts/social_bot.py --lang it --simulate edit        # simula modifica caption
 SOCIAL_BOT_TOKEN=... SOCIAL_ADMIN_CHAT_ID=... python _scripts/social_bot.py --serve
+python _scripts/social_bot.py --run-scheduled                  # coda programmata (cron)
 ```
 
-- Approva -> chiama gli stub publish (DRY_RUN, logga "pubblicherei su X")
-- Scarta -> archivia video+caption in `out/social/_discarded/`
-- Rigenera -> stub (la rigenerazione vera arriva piu' avanti)
+Cinque bottoni (a parita col bot ToniGuy):
+
+- **Pubblica ora** -> chiama `social_publish.publish_all` rispettando DRY_RUN.
+  In DRY_RUN logga; con `SOCIAL_LIVE=1` pubblica davvero su FB/IG.
+- **Programma** -> il bot chiede data/ora (`AAAA-MM-GG HH:MM`, fuso Europe/Rome);
+  il job viene messo in coda in `out/social/_scheduled/`.
+- **Modifica** -> il bot chiede la nuova didascalia, la sostituisce su tutte le
+  piattaforme, riscrive il file caption e rimanda l'anteprima.
+- **Rigenera** -> ricostruisce props+caption e fa il dispatch del render
+  (`gh workflow run social_video.yml -f slug=... -f lang=...`). Senza `gh`
+  (es. mock) logga l'azione senza fallire.
+- **Scarta** -> archivia video+caption in `out/social/_discarded/` e rimuove dalla coda.
+
+## Pubblicazione programmata
+
+`python _scripts/social_bot.py --run-scheduled` scorre `out/social/_scheduled/`
+e pubblica i job con `scheduled_at <= adesso` (Europe/Rome), poi li rimuove.
+Lo lancia il workflow `social_scheduled.yml` (cron ogni 15 min). **Attenzione**:
+`out/social/` e' gitignored, quindi la coda NON e' persistita nel repo. Per la
+programmazione reale va persistita (artifact/cache/host con stato).
 
 ## Workflow GitHub Actions
 
-`.github/workflows/social_video.yml` -> `workflow_dispatch` (input: `lang`, `slug`).
-Setup Python + Node 20, `npm ci` in `social/remotion`, step Python che costruisce
-i props, `npx remotion render` -> MP4, payload di approvazione mock, e carica
-MP4 + caption + props come **artifact** del run. Nessun segreto, nessuna
-pubblicazione.
+- `social_video.yml` -> `workflow_dispatch` (input: `lang`, `slug`). Renderizza
+  un reel e lo carica come **artifact**. Nessun segreto, nessuna pubblicazione.
+- `social_scheduled.yml` -> cron `*/15` + dispatch manuale. Lancia
+  `--run-scheduled`. Secret passati come env (DRY_RUN se `SOCIAL_LIVE` non e' `1`).
+
+## Pubblicazione reale (live)
+
+Solo con `SOCIAL_LIVE=1` E i secret della piattaforma presenti:
+
+- **Facebook**: `POST {page_id}/videos` con `file_url` (URL pubblico del video,
+  es. Cloudinary) + `description` (caption con il link in-post).
+- **Instagram (Reels)**: crea container `REELS` con `video_url` + `caption`,
+  poll dello stato, poi `media_publish`. Il link va in bio (IG non ha link
+  cliccabili in caption).
+- **TikTok / X**: `NotImplementedError` con messaggio chiaro (env documentati).
+
+Il video per IG/FB va servito via **URL pubblico**: il campo `video_url` del job
+(in DRY_RUN puo' mancare). In live, se manca, errore chiaro.
 
 ## Compliance
 
@@ -88,10 +122,10 @@ reali** va verificata la licenza per il nostro caso (e, se dovuta, sottoscritta)
 In DRY_RUN / sviluppo l'uso e' di sviluppo. Vedi `social/remotion/README.md` e
 https://www.remotion.dev/docs/licensing
 
-## Env futuri (NON committare segreti)
+## Env (NON committare segreti)
 
 Pubblicazione (impostare come secrets quando si collegano gli account):
 `META_PAGE_ACCESS_TOKEN`, `META_IG_USER_ID`, `META_FB_PAGE_ID`,
 `TIKTOK_ACCESS_TOKEN`, `X_BEARER_TOKEN`.
 Bot Telegram: `SOCIAL_BOT_TOKEN`, `SOCIAL_ADMIN_CHAT_ID`.
-`SOCIAL_LIVE=1` per uscire da DRY_RUN (non usato adesso).
+`SOCIAL_LIVE=1` per uscire da DRY_RUN.
