@@ -15,6 +15,7 @@ import anthropic
 BASE_DIR = Path(__file__).parent.parent
 BLOG_DIR = BASE_DIR / "_data" / "blog" / "en"
 CALENDAR_PATH = BASE_DIR / "_data" / "blog-calendar-en.json"
+CONFIG_PATH = BASE_DIR / "_data" / "config.json"
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
@@ -108,7 +109,39 @@ def save_calendar(items: list) -> None:
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 
+def active_boost_niches() -> list:
+    """Nicchie da prioritizzare se il boost niche_boost e' attivo OGGI.
+
+    Lettura difensiva di config.json: qualsiasi errore (file assente, JSON
+    rotto, data malformata, boost scaduto) -> [] = nessun boost, comportamento
+    sequenziale invariato.
+    """
+    try:
+        with open(CONFIG_PATH, encoding="utf-8") as f:
+            cfg = json.load(f)
+        boost = cfg.get("niche_boost") or {}
+        until = date.fromisoformat(boost["until"])
+        niches = boost.get("niches") or []
+        if date.today() < until and niches:
+            return list(niches)
+    except Exception:
+        pass
+    return []
+
+
 def pick_next_topic(items: list):
+    """Primo topic non-usato.
+
+    Mentre il boost e' attivo (oggi < niche_boost.until) prova prima i topic
+    non-usati la cui category e' tra le nicchie in boost, nell'ordine dato.
+    Se non ne trova (o boost inattivo/scaduto) fa fallback alla scansione
+    sequenziale invariata.
+    """
+    boost_niches = active_boost_niches()
+    for niche in boost_niches:
+        for i, item in enumerate(items):
+            if not item.get("used") and item.get("category") == niche:
+                return i, item
     for i, item in enumerate(items):
         if not item.get("used"):
             return i, item

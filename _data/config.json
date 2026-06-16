@@ -15,5 +15,6 @@
     "EUR": 0.92
   },
   "affiliate_tracking_id": "",
-  "indexnow_key": "1d02319ae115404a92a1930cfa683e8a"
+  "indexnow_key": "1d02319ae115404a92a1930cfa683e8a",
+  "niche_boost": { "niches": ["electronics", "sport"], "until": "2026-07-01" }
 }

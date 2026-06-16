@@ -1288,5 +1288,75 @@
     "category": "gadgets",
     "intent": "informational",
     "used": false
+  },
+  {
+    "topic": "AliExpress smart TV streaming boxes worth buying in 2026",
+    "primary_keyword": "aliexpress smart tv box",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "Best AliExpress gaming headsets under $40 for 2026",
+    "primary_keyword": "aliexpress gaming headset",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress video capture cards for streaming in 2026",
+    "primary_keyword": "aliexpress video capture card",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress KVM switches for multi-PC desk setups",
+    "primary_keyword": "aliexpress kvm switch",
+    "category": "electronics",
+    "intent": "informational",
+    "used": false
+  },
+  {
+    "topic": "AliExpress USB DAC and headphone amps explained",
+    "primary_keyword": "aliexpress usb dac amp",
+    "category": "electronics",
+    "intent": "informational",
+    "used": false
+  },
+  {
+    "topic": "AliExpress endoscope inspection cameras for DIY repairs",
+    "primary_keyword": "aliexpress endoscope camera",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress balance boards and wobble trainers for 2026",
+    "primary_keyword": "aliexpress balance board",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress slam balls for home strength training",
+    "primary_keyword": "aliexpress slam ball",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress electric bike conversion kits buyer guide 2026",
+    "primary_keyword": "aliexpress ebike conversion kit",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false
+  },
+  {
+    "topic": "AliExpress smart skipping ropes that count your jumps",
+    "primary_keyword": "aliexpress smart skipping rope",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false
   }
 ]
