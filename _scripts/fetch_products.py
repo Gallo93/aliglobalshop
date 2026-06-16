@@ -14,6 +14,7 @@ import json
 import os
 import re
 import time
+from datetime import date
 from pathlib import Path
 
 import cloudinary
@@ -26,6 +27,7 @@ load_dotenv()
 BASE_DIR = Path(__file__).parent.parent
 OUTPUT_DIR = BASE_DIR / "_data" / "products" / "en"
 CACHE_DIR = BASE_DIR / "_data" / "cache"
+CONFIG_PATH = BASE_DIR / "_data" / "config.json"
 CACHE_TTL = 86400  # 24h
 
 APP_KEY = os.getenv("ALIEXPRESS_APP_KEY", "")
@@ -69,6 +71,24 @@ NICHES = {
         "wireless charging pad fast",
     ],
 }
+
+
+def boosted_niche_order(niches: list) -> list:
+    """Ordine di fetch delle nicchie: mentre il boost niche_boost e' attivo
+    (oggi < until) mette davanti le nicchie in boost, nell'ordine dato, poi le
+    restanti nell'ordine d'inserimento. Lettura difensiva di config.json:
+    qualsiasi errore o boost scaduto -> ordine d'inserimento invariato.
+    """
+    try:
+        with open(CONFIG_PATH, encoding="utf-8") as f:
+            boost = (json.load(f).get("niche_boost") or {})
+        if date.today() < date.fromisoformat(boost["until"]):
+            first = [n for n in (boost.get("niches") or []) if n in niches]
+            return first + [n for n in niches if n not in first]
+    except Exception:
+        pass
+    return list(niches)
+
 
 BLACKLIST_PATTERNS = [re.compile(p, re.I) for p in [
     r"\bcar\b", r"\btruck\b", r"\brv\b", r"\bcamper\b", r"\bmotorcycle\b",
@@ -488,7 +508,8 @@ def main():
     if not APP_KEY or not APP_SECRET:
         raise SystemExit("[ERROR] ALIEXPRESS_APP_KEY / ALIEXPRESS_APP_SECRET mancanti in .env")
 
-    for niche, keywords in NICHES.items():
+    for niche in boosted_niche_order(list(NICHES.keys())):
+        keywords = NICHES[niche]
         print(f"\n[{niche}] fetching {len(keywords)} keywords...")
         top = fetch_niche(niche, keywords)
         products = []
