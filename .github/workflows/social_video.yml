@@ -2,7 +2,9 @@ name: Social Video (DRY_RUN)
 
 # Renders one animated Product Spotlight reel (silent, 9:16, motion graphics via
 # Remotion) from the catalog and uploads it as a run artifact for preview.
-# No publishing, no secrets.
+# No publishing, no secrets required. If PEXELS_API_KEY is configured as a repo
+# secret, the reel gets an optional cinematic b-roll intro; otherwise it falls
+# back to the animated intro (the job never fails for a missing key).
 
 on:
   workflow_dispatch:
@@ -66,6 +68,10 @@ jobs:
           ls -l "$dest"
 
       - name: Build reel props (DRY_RUN, Python)
+        env:
+          # Optional: enables the Pexels b-roll intro. Missing -> animated intro
+          # fallback (fetch_intro_clip returns None, job stays green).
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
           slug_arg=""
           if [ -n "${{ inputs.slug }}" ]; then
