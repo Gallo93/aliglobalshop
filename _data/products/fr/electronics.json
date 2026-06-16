@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-06-16T11:13:07Z",
+  "updated_at": "2026-06-16T23:00:25Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -17,12 +17,12 @@
       "sales_volume": 40,
       "score": 0.3238,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:01Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:15Z",
+      "updated_at": "2026-06-16T23:00:15Z"
     },
     {
       "product_id": "1005009369207724",
-      "title": "Pocket Power Bank Portable Fast Charge Type C Batterie externe pour iPhone Watch Samsung Xiaomi avec câble charge rapide Powerbank",
+      "title": "Pocket Power Bank Portable Fast Charge Type C Batterie externe pour iPhone Watch Samsung Xiaomi avec câble Quick Charge Powerbank",
       "slug": "pocket-power-bank-portable-fast-charge-type-c-external-batte",
       "price": 15.81,
       "original_price": 39.51,
@@ -35,12 +35,12 @@
       "sales_volume": 11,
       "score": 0.2813,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:03Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:16Z",
+      "updated_at": "2026-06-16T23:00:16Z"
     },
     {
       "product_id": "1005009017398891",
-      "title": "10000mAh Slim Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil magnétique 20W Batterie externe portable pour iPhone Samsung",
+      "title": "10000mAh Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil 20W pour iPhone Samsung",
       "slug": "10000mah-slim-mini-power-bank-for-magsafemagnetic-wireless-f",
       "price": 17.55,
       "original_price": 33.12,
@@ -53,12 +53,12 @@
       "sales_volume": 354,
       "score": 0.2758,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:04Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:16Z",
+      "updated_at": "2026-06-16T23:00:16Z"
     },
     {
       "product_id": "1005009334209038",
-      "title": "36000mAh Banque de puissance solaire Chargeur sans fil rapide Powerbank pour iPhone 16 15 Samsung S24 Huawei Xiaomi 3A Banque de puissance charge rapide",
+      "title": "36000mAh Banque d'énergie solaire Chargeur sans fil rapide Banque d'énergie pour iPhone 16 15 Samsung S24 Huawei Xiaomi 3A",
       "slug": "36000mah-solar-power-bank-fast-wireless-charger-powerbank-fo",
       "price": 24.12,
       "original_price": 48.25,
@@ -71,12 +71,12 @@
       "sales_volume": 9,
       "score": 0.2511,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:05Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:17Z",
+      "updated_at": "2026-06-16T23:00:17Z"
     },
     {
       "product_id": "1005011544110376",
-      "title": "Boîtier minimaliste transparent misa D-death N-Note pour aéropodes Pro 3 2 1 4 Cartoon mignon Boîtiers japonais pour aéropodes TPU Couverture d'écoute",
+      "title": "Misa D-Death N-Note Cas minimaliste transparent pour les aéropodes Pro 3 2 1 4 Cartoon mignon Cas aéropodes japonais Couverture d'oreille TPU",
       "slug": "misa-d-death-n-note-minimalist-transparent-case-for-airpods-",
       "price": 2.42,
       "original_price": 3.66,
@@ -89,12 +89,12 @@
       "sales_volume": 372,
       "score": 0.2409,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:05Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:17Z",
+      "updated_at": "2026-06-16T23:00:17Z"
     },
     {
       "product_id": "1005012259681107",
-      "title": "20000mAh 5V Banque d'alimentation pour charge magnétique sans fil Banque d'alimentation de charge rapide portable avec câble intégré",
+      "title": "20000mAh 5V Banque d'alimentation pour charge sans fil Aspiration magnétique Portable Banque d'alimentation rapide avec câble intégré",
       "slug": "20000mah-5v-power-bank-for-wireless-charging-magnetic-suctio",
       "price": 20.03,
       "original_price": 43.54,
@@ -107,8 +107,8 @@
       "sales_volume": 11,
       "score": 0.2233,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:06Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:18Z",
+      "updated_at": "2026-06-16T23:00:18Z"
     },
     {
       "product_id": "1005009896941801",
@@ -125,8 +125,8 @@
       "sales_volume": 3,
       "score": 0.2224,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:06Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:19Z",
+      "updated_at": "2026-06-16T23:00:19Z"
     },
     {
       "product_id": "1005012229118016",
@@ -143,8 +143,8 @@
       "sales_volume": 43,
       "score": 0.2102,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:07Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:19Z",
+      "updated_at": "2026-06-16T23:00:19Z"
     },
     {
       "product_id": "1005011531921275",
@@ -161,8 +161,8 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:08Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:19Z",
+      "updated_at": "2026-06-16T23:00:19Z"
     },
     {
       "product_id": "1005009873262361",
@@ -179,8 +179,8 @@
       "sales_volume": 24,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:08Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:20Z",
+      "updated_at": "2026-06-16T23:00:20Z"
     },
     {
       "product_id": "1005011532019654",
@@ -197,8 +197,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:08Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:20Z",
+      "updated_at": "2026-06-16T23:00:20Z"
     },
     {
       "product_id": "1005010512141911",
@@ -215,12 +215,12 @@
       "sales_volume": 11,
       "score": 0.2096,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:09Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:21Z",
+      "updated_at": "2026-06-16T23:00:21Z"
     },
     {
       "product_id": "1005009716975587",
-      "title": "Haut-parleur Bluetooth AI 5.4 Assistant vocal AI HD Touch Écran d'affichage Alarme de l'album électronique Appel mains libres",
+      "title": "AI Bluetooth Haut-parleur 5.4 AI vocal assistant HD Touch Écran d'affichage Alarme d'album électronique Calling mains libres",
       "slug": "ai-bluetooth-speaker-54-ai-voice-assistant-hd-touch-screen-d",
       "price": 15.06,
       "original_price": 23.53,
@@ -233,12 +233,12 @@
       "sales_volume": 98,
       "score": 0.2055,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:10Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:21Z",
+      "updated_at": "2026-06-16T23:00:21Z"
     },
     {
       "product_id": "1005009093766779",
-      "title": "Banque de puissance magnétique sans fil 6 en 1 15W 22,5W Chargeur mural pour iPhone iwatch Samsung Powerbank avec câble de prise AC",
+      "title": "Banque d'énergie sans fil magnétique 6 en 1 15W 22,5W Chargeur mural pour iPhone iwatch Samsung Powerbank avec câble de prise AC",
       "slug": "6-in-1-15w-magnetic-wireless-power-bank-225w-fast-charging-w",
       "price": 22.52,
       "original_price": 36.33,
@@ -251,12 +251,12 @@
       "sales_volume": 7,
       "score": 0.2048,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:10Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:22Z",
+      "updated_at": "2026-06-16T23:00:22Z"
     },
     {
       "product_id": "33007923484",
-      "title": "EVA Coffret de rangement de protection portable rigide Sac de rangement pour haut-parleur MARSHALL Stockwell Bluetooth haut-parleur",
+      "title": "Boîte de transport de protection EVA dur Portable Housse de rangement Haut-Parleur Sac pour MARSHALL Stockwell Bluetooth Haut-Parleur Accessoires",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 10.51,
       "original_price": 16.42,
@@ -269,8 +269,8 @@
       "sales_volume": 12,
       "score": 0.2044,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:11Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:23Z",
+      "updated_at": "2026-06-16T23:00:23Z"
     },
     {
       "product_id": "1005010233572038",
@@ -287,12 +287,12 @@
       "sales_volume": 13,
       "score": 0.1986,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:12Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:23Z",
+      "updated_at": "2026-06-16T23:00:23Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Contrôleur LED WIFI Smart Wireless 2.4GHz Passerelle Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe à bande",
+      "title": "WL-Box2 Contrôleur de LED WIFI Smart Wireless 2.4GHz Gateway Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe de bande",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -305,12 +305,12 @@
       "sales_volume": 12,
       "score": 0.1764,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:13Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:24Z",
+      "updated_at": "2026-06-16T23:00:24Z"
     },
     {
       "product_id": "1005005410517353",
-      "title": "Mini Banque de puissance sans fil magnétique 10000mAh Portable Powerbank Type C Chargeur rapide pour iPhone 15 14 13 12 Pro Xiaomi 14 Magsafe",
+      "title": "Mini Magnetic Wireless Power Bank 10000mAh Portable Powerbank Type C Chargeur rapide pour iPhone 15 14 13 12 Pro Xiaomi 14 Magsafe",
       "slug": "mini-magnetic-wireless-power-bank-10000mah-portable-powerban",
       "price": 20.19,
       "original_price": 40.39,
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.1704,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:13Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:24Z",
+      "updated_at": "2026-06-16T23:00:24Z"
     },
     {
       "product_id": "1005010253348075",
@@ -341,12 +341,12 @@
       "sales_volume": 26,
       "score": 0.1681,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:14Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:25Z",
+      "updated_at": "2026-06-16T23:00:25Z"
     },
     {
       "product_id": "1005009750287611",
-      "title": "1PCS pour le connecteur de carte d'alimentation JBL Xtreme 4 Xtreme4 GG de charge USB de type C",
+      "title": "1PCS pour connecteur de carte d'alimentation JBL Xtreme 4 Xtreme4 GG de charge USB de type C",
       "slug": "1pcs-for-jbl-xtreme-4-xtreme4-gg-type-c-usb-charge-port-sock",
       "price": 24.53,
       "original_price": 31.05,
@@ -359,8 +359,8 @@
       "sales_volume": 87,
       "score": 0.1654,
       "price_history": [],
-      "fetched_at": "2026-06-16T06:32:15Z",
-      "updated_at": "2026-06-16T11:13:07Z"
+      "fetched_at": "2026-06-16T23:00:25Z",
+      "updated_at": "2026-06-16T23:00:25Z"
     }
   ]
 }
