@@ -16,6 +16,10 @@ The affiliate disclosure is always present (overlay in the reel, opening line in
 the caption). No audio (music needs a commercial licence). Output goes to
 out/social/ (gitignored). In DRY_RUN nothing is published.
 
+Optional cinematic intro: when a Pexels b-roll clip is available (PEXELS_API_KEY
+set), the first ~2.3s use it as a moving background behind the hook. Without a
+key the existing animated intro is used (default, byte-compatible).
+
 Usage:
     # props for Remotion (default) + caption
     python _scripts/generate_social_video.py --lang it
@@ -48,12 +52,14 @@ from social_common import (  # noqa: E402
     strip_em_dash,
 )
 from social_caption import build_all_captions  # noqa: E402
+from social_intro import fetch_intro_clip  # noqa: E402
 
 WIDTH, HEIGHT = 1080, 1920
 FPS = 30
 DURATION_S = 22
 OUT_DIR = BASE_DIR / "out" / "social"
 FONT_DIR = BASE_DIR / "assets" / "fonts"
+REMOTION_DIR = BASE_DIR / "social" / "remotion"
 
 # Brand palette shared with the Remotion composition (DEFAULT_PROPS in
 # social/remotion/src/types.ts). Hex here, RGB tuples for the ffmpeg fallback.
@@ -126,11 +132,14 @@ def _build_features(product: dict, lang: str) -> list:
     return [strip_em_dash(f) for f in feats[:4]]
 
 
-def build_props(product: dict, lang: str, config: dict) -> dict:
+def build_props(product: dict, lang: str, config: dict,
+                intro_clip: str | None = None) -> dict:
     """Assemble the typed props the Remotion ProductSpotlight expects.
 
     Mirrors social/remotion/src/types.ts (ProductSpotlightProps). Prices are
     localized here so the reel matches the site (same format_price as build.py).
+    `intro_clip` is the staticFile-relative name of the optional b-roll clip
+    (e.g. "intro/intro-sport-12345.mp4") or None to keep the animated intro.
     """
     T = load_i18n(lang)
     price = format_price(product.get("price"), T, config)
@@ -151,7 +160,34 @@ def build_props(product: dict, lang: str, config: dict) -> dict:
         "brandUrl": "aliglobalshop.net",
         "lang": lang if lang in _CTA else "en",
         "brandColors": BRAND_COLORS,
+        "introClip": intro_clip,
     }
+
+
+def _prepare_intro_clip(product: dict, out_dir: Path) -> str | None:
+    """Fetch an optional Pexels b-roll clip and stage it for Remotion.
+
+    Downloads into out_dir (gitignored), then copies it into the Remotion public
+    dir so staticFile() can resolve it, and returns the staticFile-relative name
+    ("intro/<file>"). Returns None when no clip is available (no key / mock /
+    network error) so the composition falls back to the animated intro. Never
+    raises: any staging error degrades to None.
+    """
+    niche = (product.get("category") or "").strip()
+    clip_path = fetch_intro_clip(niche, out_dir)
+    if not clip_path:
+        return None
+    try:
+        public_intro = REMOTION_DIR / "public" / "intro"
+        public_intro.mkdir(parents=True, exist_ok=True)
+        dst = public_intro / Path(clip_path).name
+        shutil.copyfile(clip_path, dst)
+        # staticFile() resolves relative to social/remotion/public/.
+        return f"intro/{dst.name}"
+    except OSError as exc:
+        print(f"[warn] could not stage intro clip for Remotion ({exc}); "
+              "using animated fallback.")
+        return None
 
 
 # --- legacy ffmpeg fallback (static) ----------------------------------------
@@ -374,8 +410,11 @@ def generate(product, lang, config, site_url, engine="remotion", make_video=True
             f.write(f"===== {platform.upper()} =====\n{text}\n\n")
     print(f"[ok] caption written: {caption_path}")
 
+    # Optional Pexels b-roll intro clip (None -> animated intro fallback).
+    intro_clip = _prepare_intro_clip(product, OUT_DIR)
+
     # Props file for Remotion (the data contract for the animated reel).
-    props = build_props(product, lang, config)
+    props = build_props(product, lang, config, intro_clip=intro_clip)
     props_path = OUT_DIR / f"{stem}.props.json"
     with open(props_path, "w", encoding="utf-8") as f:
         json.dump(props, f, ensure_ascii=False, indent=2)

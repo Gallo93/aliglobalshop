@@ -14,6 +14,11 @@ scatta solo con `SOCIAL_LIVE=1` e i secret della piattaforma presenti.
 - **Render**: il progetto **Remotion** in `social/remotion/` legge quei props e
   produce l'MP4 9:16 animato (intro, card ken-burns, prezzo spring, badge sconto,
   feature in stagger, CTA, sfondo in movimento, disclosure sempre visibile).
+- **Intro b-roll (opzionale)**: con `PEXELS_API_KEY` impostata, `social_intro.py`
+  scarica una clip verticale a tema dalla **Pexels Video API** e la usa come
+  sfondo dei primi ~2.3s, dietro il testo hook. Senza key (default / DRY_RUN /
+  offline) si usa l'intro animata esistente: nessuna chiamata di rete, output
+  identico a prima.
 - **Fallback**: engine `ffmpeg` (Pillow + ffmpeg) resta come render statico
   legacy documentato, senza dipendenze Node.
 
@@ -23,6 +28,7 @@ scatta solo con `SOCIAL_LIVE=1` e i secret della piattaforma presenti.
 |------|-------|
 | `social_common.py` | helper condivisi: catalogo, prezzo localizzato (come build.py), disclosure |
 | `social_caption.py` | caption compliant per lingua + piattaforma |
+| `social_intro.py` | intro b-roll opzionale via Pexels Video API (degrada a None senza key) |
 | `generate_social_video.py` | scrive props per Remotion (+ caption); engine `ffmpeg` opzionale |
 | `social/remotion/` | progetto Remotion (composizione `ProductSpotlight`, font bundlati) |
 | `social_publish.py` | pubblicazione: DRY_RUN logga; live FB/IG via Meta Graph API dietro `SOCIAL_LIVE=1` |
@@ -50,6 +56,27 @@ python _scripts/generate_social_video.py --lang it --engine ffmpeg
 Output in `out/social/` (NON committato): `<slug>-<lang>.props.json`,
 `<slug>-<lang>.mp4`, `<slug>-<lang>.caption.txt` (una caption per piattaforma:
 facebook/instagram/tiktok/x), `<slug>-<lang>.job.json` (metadati approvazione).
+
+## Intro b-roll cinematografica (Pexels, opzionale)
+
+`social_intro.fetch_intro_clip(niche, out_dir)` scarica UNA clip verticale a
+tema dalla **Pexels Video API** e la ritorna come path locale (in `out/`,
+gitignored), oppure **None** se manca `PEXELS_API_KEY`, in caso di errore di
+rete/HTTP, o se nessun risultato e' usabile. La funzione **non solleva mai**:
+in assenza di clip la composizione Remotion usa l'intro animata esistente
+(prop `introClip` = `null`), quindi tutto resta testabile offline in DRY_RUN.
+
+- Query per nicchia (in inglese): electronics -> "technology gadgets desk",
+  smart-home -> "smart home interior", sport -> "fitness workout gym",
+  gadgets -> "tech gadgets unboxing" (default generico per nicchie ignote).
+- La clip scelta e' la verticale con altezza piu vicina a 1080x1920.
+- `generate_social_video.py` copia la clip in `social/remotion/public/intro/`
+  (gitignored) e passa il nome relativo via prop `introClip` (`"intro/<file>"`),
+  letto da Remotion con `staticFile()`. La disclosure resta SEMPRE sopra.
+- **Licenza Pexels**: free, uso commerciale, nessuna attribuzione richiesta,
+  nessun watermark. Vedi https://www.pexels.com/license/
+- Secret CI: `PEXELS_API_KEY` (solo da `secrets`, mai committato). Se assente,
+  il workflow resta verde e usa l'intro animata.
 
 ## Approvazione Telegram
 
@@ -86,7 +113,9 @@ programmazione reale va persistita (artifact/cache/host con stato).
 ## Workflow GitHub Actions
 
 - `social_video.yml` -> `workflow_dispatch` (input: `lang`, `slug`). Renderizza
-  un reel e lo carica come **artifact**. Nessun segreto, nessuna pubblicazione.
+  un reel e lo carica come **artifact**. Nessuna pubblicazione. Usa
+  `PEXELS_API_KEY` come env SOLO se presente come secret (intro b-roll
+  opzionale); senza, intro animata e job comunque verde.
 - `social_scheduled.yml` -> cron `*/15` + dispatch manuale. Lancia
   `--run-scheduled`. Secret passati come env (DRY_RUN se `SOCIAL_LIVE` non e' `1`).
 
@@ -107,11 +136,13 @@ Il video per IG/FB va servito via **URL pubblico**: il campo `video_url` del job
 ## Compliance
 
 - Disclosure SEMPRE visibile nel reel (overlay #ad/#adv... + "link affiliato")
-  e in apertura di ogni caption.
+  e in apertura di ogni caption. Resta sopra anche durante l'intro b-roll.
 - CTA cliccabile per piattaforma nella CAPTION: IG/TikTok "link in bio"; FB/X
   link diretto. Il reel e' uno solo multipiattaforma, quindi la CTA SOVRAIMPRESSA
   e' neutra ("Scoprilo ora" / "Shop now" ...) e vera ovunque.
-- Niente musica (richiede licenza commerciale): reel silenzioso.
+- Niente musica (richiede licenza commerciale): reel silenzioso (anche l'intro
+  b-roll Pexels e' riprodotta muta).
+- Intro b-roll: licenza Pexels (free, commerciale, no attribuzione, no watermark).
 - Niente em-dash nei testi visibili (regola sito).
 
 ## NOTA LICENZA REMOTION (verificare prima del go-live commerciale)
@@ -124,6 +155,7 @@ https://www.remotion.dev/docs/licensing
 
 ## Env (NON committare segreti)
 
+Intro b-roll (opzionale): `PEXELS_API_KEY` (Pexels Video API; senza, intro animata).
 Pubblicazione (impostare come secrets quando si collegano gli account):
 `META_PAGE_ACCESS_TOKEN`, `META_IG_USER_ID`, `META_FB_PAGE_ID`,
 `TIKTOK_ACCESS_TOKEN`, `X_BEARER_TOKEN`.
