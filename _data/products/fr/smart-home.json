@@ -1,10 +1,10 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-06-16T23:00:50Z",
+  "updated_at": "2026-06-17T06:08:07Z",
   "products": [
     {
       "product_id": "1005009654029579",
-      "title": "Tuya Zigbee Wireless Door Windows Sensor mini Smart Home Wireless Door Detector Porte ouverte Système d'alarme fermé pour Alexa",
+      "title": "Tuya Zigbee Wireless Door Windows Sensor mini Smart Home Wireless Door Detector Door Open Closed Alarm System for Alexa",
       "slug": "tuya-zigbee-wireless-door-windows-sensor-mini-smart-home-wir",
       "price": 6.34,
       "original_price": 6.84,
@@ -17,12 +17,12 @@
       "sales_volume": 2066,
       "score": 0.3659,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:40Z",
-      "updated_at": "2026-06-16T23:00:40Z"
+      "fetched_at": "2026-06-17T06:07:56Z",
+      "updated_at": "2026-06-17T06:07:56Z"
     },
     {
       "product_id": "1005008109628276",
-      "title": "3 Channel Dash Cam 4K Ultra HD Enregistreur de conduite à trois disques 3lens Tachygraphe caché 3 Caméra Reversing Image Night Vision WIFI",
+      "title": "3 Channel Dash Cam 4K Ultra HD Three-Record Driving Recorder 3lens Hidden Tachograph 3 Camera Reversing Image Night Vision WIFI",
       "slug": "3-channel-dash-cam-4k-ultra-hd-three-record-driving-recorder",
       "price": 13.6,
       "original_price": 35.05,
@@ -35,12 +35,12 @@
       "sales_volume": 4,
       "score": 0.2835,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:41Z",
-      "updated_at": "2026-06-16T23:00:41Z"
+      "fetched_at": "2026-06-17T06:07:57Z",
+      "updated_at": "2026-06-17T06:07:57Z"
     },
     {
       "product_id": "1005008710290057",
-      "title": "Smar 3MP sans fil CCTV Caméra de sécurité PTZ Wifi Kit de surveillance extérieure Alarme 6CH NVR Maison Sécurité Night Vision Set",
+      "title": "Smar 3MP Wireless CCTV Security Camera System PTZ Wifi Outdoor Surveillance Kit Alarm 6CH NVR Home Security Night Vision Set",
       "slug": "smar-3mp-wireless-cctv-security-camera-system-ptz-wifi-outdo",
       "price": 78.3,
       "original_price": 195.75,
@@ -53,12 +53,12 @@
       "sales_volume": 28,
       "score": 0.2809,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:41Z",
-      "updated_at": "2026-06-16T23:00:41Z"
+      "fetched_at": "2026-06-17T06:07:57Z",
+      "updated_at": "2026-06-17T06:07:57Z"
     },
     {
       "product_id": "1005005429173220",
-      "title": "LIECTROUX L200 Robot Aspirateur & Wet Mop Combo,Smart Mapping,WiFi App,4Kpa, Moteur sans brosse, Réservoir d'eau de contrôle électrique",
+      "title": "LIECTROUX L200 Robot Vacuum Cleaner & Wet Mop Combo,Smart Mapping,WiFi App,4KPa,Brushless Motor, Electric control water tank",
       "slug": "liectroux-l200-robot-vacuum-cleaner-wet-mop-combosmart-mappi",
       "price": 124.2,
       "original_price": 414.0,
@@ -71,12 +71,12 @@
       "sales_volume": 3,
       "score": 0.2704,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:42Z",
-      "updated_at": "2026-06-16T23:00:42Z"
+      "fetched_at": "2026-06-17T06:07:58Z",
+      "updated_at": "2026-06-17T06:07:58Z"
     },
     {
       "product_id": "1005008952159162",
-      "title": "5000mAh i7 Remplacement de batterie pour iRobot Roomba e et i Série i7+ e5 7150 7550 i3 3150 i3+ 3550 i4 4150 i4 Accessoires 14,4V",
+      "title": "5000mAh i7 Battery Replacement for iRobot Roomba e and i Series i7+ e5 7150 7550 i3 3150 i3+ 3550 i4 4150 i4 Accessories 14.4V",
       "slug": "5000mah-i7-battery-replacement-for-irobot-roomba-e-and-i-ser",
       "price": 38.92,
       "original_price": 77.83,
@@ -89,12 +89,12 @@
       "sales_volume": 12,
       "score": 0.2514,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:42Z",
-      "updated_at": "2026-06-16T23:00:42Z"
+      "fetched_at": "2026-06-17T06:07:58Z",
+      "updated_at": "2026-06-17T06:07:58Z"
     },
     {
       "product_id": "1005005604363467",
-      "title": "Camnsmart Tuya 5MP Alexa Wifi Ampoule Caméra E27 Google Home Vidéosurveillance en plein air sans fil Surveillance de sécurité Support Onvif NVR",
+      "title": "Camnsmart Tuya 5MP Alexa Wifi Bulb Camera E27 Google Home Wireless CCTV Outdoor Video Surveillance  Security Support Onvif NVR",
       "slug": "camnsmart-tuya-5mp-alexa-wifi-bulb-camera-e27-google-home-wi",
       "price": 36.79,
       "original_price": 73.58,
@@ -107,12 +107,12 @@
       "sales_volume": 35,
       "score": 0.2471,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:43Z",
-      "updated_at": "2026-06-16T23:00:43Z"
+      "fetched_at": "2026-06-17T06:07:59Z",
+      "updated_at": "2026-06-17T06:07:59Z"
     },
     {
       "product_id": "1005005807578430",
-      "title": "SIXWGH Tuya Smart Extension Cord Socket WiFi EU Plug Outlet Power Monitoring Timming 4 ports de recharge USB Google Home Alexa",
+      "title": "SIXWGH Tuya Smart Extension Cord Socket WiFi EU Plug Outlet Power Monitoring Timming 4 USB Charging Ports Google Home Alexa",
       "slug": "sixwgh-tuya-smart-extension-cord-socket-wifi-eu-plug-outlet-",
       "price": 5.74,
       "original_price": 11.04,
@@ -125,12 +125,12 @@
       "sales_volume": 7,
       "score": 0.2393,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:43Z",
-      "updated_at": "2026-06-16T23:00:43Z"
+      "fetched_at": "2026-06-17T06:07:59Z",
+      "updated_at": "2026-06-17T06:07:59Z"
     },
     {
       "product_id": "1005004774956386",
-      "title": "BroadLink RM4 Pro IR WiFi Commutateur RF Contrôle à distance universel Smart Controller HTS2 Sensor fonctionne avec Alexa Google Home Assistant",
+      "title": "BroadLink RM4 Pro IR WiFi RF Switch Universal Remote Control Smart Controller HTS2 Sensor Works With Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
       "price": 27.84,
       "original_price": 47.19,
@@ -143,12 +143,12 @@
       "sales_volume": 144,
       "score": 0.2378,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:44Z",
-      "updated_at": "2026-06-16T23:00:44Z"
+      "fetched_at": "2026-06-17T06:08:00Z",
+      "updated_at": "2026-06-17T06:08:00Z"
     },
     {
       "product_id": "1005010463738860",
-      "title": "Yoosee 5MP WiFi Security PTZ Indoor IP Camera 3MP Smart Home Sécurité Couleur Night Vision Siren Alarm Humanoid Detection Ai Track",
+      "title": "Yoosee 5MP WiFi Security PTZ Indoor IP Camera 3MP Smart Home Safety Color Night Vision Siren Alarm Humanoid Detection Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
       "price": 24.75,
       "original_price": 41.25,
@@ -161,12 +161,12 @@
       "sales_volume": 59,
       "score": 0.2271,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:44Z",
-      "updated_at": "2026-06-16T23:00:44Z"
+      "fetched_at": "2026-06-17T06:08:01Z",
+      "updated_at": "2026-06-17T06:08:01Z"
     },
     {
       "product_id": "4000143784956",
-      "title": "HEIMAN Zigbee détecteur de fumée – détecteur d'alarme d'incendie, haute sensibilité, Smart Home System, protection de sécurité, livraison gratuite",
+      "title": "HEIMAN Zigbee Smoke Detector – Fire Alarm Sensor, High Sensitivity, Smart Home System, Safety Protection, Free Shipping",
       "slug": "heiman-zigbee-smoke-detector-fire-alarm-sensor-high-sensitiv",
       "price": 25.38,
       "original_price": 36.79,
@@ -179,12 +179,12 @@
       "sales_volume": 290,
       "score": 0.2249,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:45Z",
-      "updated_at": "2026-06-16T23:00:45Z"
+      "fetched_at": "2026-06-17T06:08:01Z",
+      "updated_at": "2026-06-17T06:08:01Z"
     },
     {
       "product_id": "1005011962938074",
-      "title": "Accessoire à vide robotisé 2 en 1 réservoir d'eau pour Rozi R7 pour imilab V2/V3 pour Imou L11 pour Neabot N2 R1",
+      "title": "Robotic Vacuum Accessory 2 in 1 Water Tank Dust Bin for Rozi R7 For imilab V2/V3 For Imou L11 For Neabot N2 R1",
       "slug": "robotic-vacuum-accessory-2-in-1-water-tank-dust-bin-for-rozi",
       "price": 20.99,
       "original_price": 77.74,
@@ -197,12 +197,12 @@
       "sales_volume": 3,
       "score": 0.2194,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:45Z",
-      "updated_at": "2026-06-16T23:00:45Z"
+      "fetched_at": "2026-06-17T06:08:02Z",
+      "updated_at": "2026-06-17T06:08:02Z"
     },
     {
       "product_id": "1005004779246205",
-      "title": "Tuya Zigbee 3.0 Smart Door Fenêtre Capteur Zigbee2MQTT Détecteurs Protection de sécurité Smart Life Apple Control Via Alexa Google Home",
+      "title": "Tuya Zigbee 3.0 Smart Door Window Sensor Zigbee2MQTT Detectors Security Protection Smart Life APP Control Via Alexa Google Home",
       "slug": "tuya-zigbee-30-smart-door-window-sensor-zigbee2mqtt-detector",
       "price": 7.62,
       "original_price": 12.7,
@@ -215,12 +215,12 @@
       "sales_volume": 11,
       "score": 0.2163,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:46Z",
-      "updated_at": "2026-06-16T23:00:46Z"
+      "fetched_at": "2026-06-17T06:08:02Z",
+      "updated_at": "2026-06-17T06:08:02Z"
     },
     {
       "product_id": "1005004966987077",
-      "title": "Zigbee Smart Magnetic Track Lamp DC48V Tuya WiFi Dimmable LED Pendentif Light Smart Speaker Voice Control Rail Floodlight",
+      "title": "Zigbee Smart Magnetic Track Lamp DC48V Tuya WiFi Dimmable LED Pendant Light Smart Speaker Voice Control Rail Floodlight",
       "slug": "zigbee-smart-magnetic-track-lamp-dc48v-tuya-wifi-dimmable-le",
       "price": 23.38,
       "original_price": 42.5,
@@ -233,12 +233,12 @@
       "sales_volume": 1,
       "score": 0.2151,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:46Z",
-      "updated_at": "2026-06-16T23:00:46Z"
+      "fetched_at": "2026-06-17T06:08:03Z",
+      "updated_at": "2026-06-17T06:08:03Z"
     },
     {
       "product_id": "1005010445247796",
-      "title": "Tuya Wifi PTZ Caméra Outdoor 5X Zoom Caméra IP de sécurité 5MP Pleine Couleur Surveillance de la vision nocturne Suivi humain Détection de mouvement",
+      "title": "Tuya Wifi PTZ Camera Outdoor 5X Zoom Security IP Camera 5MP Full Color Night Vision Surveillance Human Tracking Motion Detection",
       "slug": "tuya-wifi-ptz-camera-outdoor-5x-zoom-security-ip-camera-5mp-",
       "price": 28.23,
       "original_price": 56.45,
@@ -251,12 +251,12 @@
       "sales_volume": 5,
       "score": 0.2106,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:47Z",
-      "updated_at": "2026-06-16T23:00:47Z"
+      "fetched_at": "2026-06-17T06:08:03Z",
+      "updated_at": "2026-06-17T06:08:03Z"
     },
     {
       "product_id": "1005009306467710",
-      "title": "4MP HD 5G WiFi Caméra PTZ Auto Tracking Cry Detector Maison Sécurité intérieure Caméras de surveillance CCTV Baby Monitor",
+      "title": "4MP HD 5G WiFi PTZ Camera Auto Tracking Cry Detector Home Indoor Security CCTV Surveillance Cameras Baby Monitor",
       "slug": "4mp-hd-5g-wifi-ptz-camera-auto-tracking-cry-detector-home-in",
       "price": 10.71,
       "original_price": 18.4,
@@ -269,12 +269,12 @@
       "sales_volume": 94,
       "score": 0.2099,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:47Z",
-      "updated_at": "2026-06-16T23:00:47Z"
+      "fetched_at": "2026-06-17T06:08:04Z",
+      "updated_at": "2026-06-17T06:08:04Z"
     },
     {
       "product_id": "1005003990707766",
-      "title": "Sricam SH038 HD 4.0MP Wifi Caméra IP 360° Vue à distance mobile Indoor Baby Monitor Night Color Surveillance vidéo Caméra CCTV",
+      "title": "Sricam SH038 HD 4.0MP Wifi IP Camera 360° Mobile Remote View Indoor Baby Monitor Night Color Video Surveillance CCTV Camera",
       "slug": "sricam-sh038-hd-40mp-wifi-ip-camera-360-mobile-remote-view-i",
       "price": 26.97,
       "original_price": 42.15,
@@ -287,12 +287,12 @@
       "sales_volume": 8,
       "score": 0.209,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:48Z",
-      "updated_at": "2026-06-16T23:00:48Z"
+      "fetched_at": "2026-06-17T06:08:04Z",
+      "updated_at": "2026-06-17T06:08:04Z"
     },
     {
       "product_id": "1005003568997399",
-      "title": "Shelly Pro 4PM Four Channels Relay LAN Wi-Fi Commutateur adapté pour l'automatisation d'installation à domicile avec télécommande",
+      "title": "Shelly Pro 4PM Four Channels Relay LAN Wifi Switch Suitable For Home Facility Automation With Remote Control Power Metering",
       "slug": "shelly-pro-4pm-four-channels-relay-lan-wifi-switch-suitable-",
       "price": 108.65,
       "original_price": 153.03,
@@ -305,12 +305,12 @@
       "sales_volume": 111,
       "score": 0.2003,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:48Z",
-      "updated_at": "2026-06-16T23:00:48Z"
+      "fetched_at": "2026-06-17T06:08:05Z",
+      "updated_at": "2026-06-17T06:08:05Z"
     },
     {
       "product_id": "1005008650696927",
-      "title": "pour Volvo S90 V90 XC60 2016-2025 Dash Cam Caméra arrière DVR Plug et Play Video Recorder Night Vision Parking 2160 Stationnement",
+      "title": "for Volvo S90 V90 XC60 2016-2025 Dash Cam Front Rear Camera DVR Plug and Play Video Recorder Night Vision Parking 2160P Parking",
       "slug": "for-volvo-s90-v90-xc60-2016-2025-dash-cam-front-rear-camera-",
       "price": 107.44,
       "original_price": 160.36,
@@ -323,12 +323,12 @@
       "sales_volume": 3,
       "score": 0.1994,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:49Z",
-      "updated_at": "2026-06-16T23:00:49Z"
+      "fetched_at": "2026-06-17T06:08:05Z",
+      "updated_at": "2026-06-17T06:08:05Z"
     },
     {
       "product_id": "1005009741998621",
-      "title": "Tuya Zigbee Smart PIR Motion Sensor Home Security Burglar Alarme Security Burglar Home Assistant Wireless for Smart Life",
+      "title": "tuya Zigbee Smart PIR Motion Sensor Detector Home Security Burglar Alarm Security Burglar Home Assistant Wireless for Smart Life",
       "slug": "tuya-zigbee-smart-pir-motion-sensor-detector-home-security-b",
       "price": 8.91,
       "original_price": 10.25,
@@ -341,12 +341,12 @@
       "sales_volume": 507,
       "score": 0.1944,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:49Z",
-      "updated_at": "2026-06-16T23:00:49Z"
+      "fetched_at": "2026-06-17T06:08:06Z",
+      "updated_at": "2026-06-17T06:08:06Z"
     },
     {
       "product_id": "1005006893680907",
-      "title": "Caméra avant et arrière 4K Wifi DVR Dash Cam pour Ebro S700 S800 PHEV 2025 Chery Tiggo 8Pro phev 2025 Tiggo 7Plus Haute Version 2023",
+      "title": "4K Front And Rear Camera Wifi DVR Dash Cam For Ebro S700 S800 PHEV 2025 Chery Tiggo 8Pro phev 2025 Tiggo 7Plus High Version 2023",
       "slug": "4k-front-and-rear-camera-wifi-dvr-dash-cam-for-ebro-s700-s80",
       "price": 50.31,
       "original_price": 72.92,
@@ -359,8 +359,8 @@
       "sales_volume": 5,
       "score": 0.1936,
       "price_history": [],
-      "fetched_at": "2026-06-16T23:00:50Z",
-      "updated_at": "2026-06-16T23:00:50Z"
+      "fetched_at": "2026-06-17T06:08:06Z",
+      "updated_at": "2026-06-17T06:08:06Z"
     }
   ]
 }
