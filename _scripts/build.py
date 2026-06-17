@@ -208,11 +208,12 @@ _DANGLING_TAIL = {
     # IT
     "i", "il", "lo", "la", "le", "gli", "un", "una", "di", "da", "e",
     # ES
-    "los", "las", "el", "de", "y",
+    "los", "las", "el", "de", "del", "y", "en", "por", "para", "con",
     # FR
-    "les", "des", "du", "et",
+    "les", "des", "du", "et", "sur", "sous", "pour", "avec",
     # DE
-    "der", "die", "das", "und",
+    "der", "die", "das", "und", "bei", "auf", "zu", "mit", "fur",
+    "von", "im", "am", "den",
 }
 
 
