@@ -58,7 +58,7 @@ LENGTH AND FORMATTING:
 CONTENT STRUCTURE (use this order):
 1. <h1> matching title, includes primary keyword
 2. Intro paragraph (80-120 words): hook + pain point + promise. Open with a concrete, specific angle for THIS topic (a scenario, a number, a question). Do NOT open with a generic budget cliche.
-3. <h2> a section heading (one of the H2s contains the keyword per the rule above)
+3. <h2> first section heading: it must NOT repeat or paraphrase the article title/H1. Open a concrete sub-topic instead (buying criteria, what to know before you buy, useful context). One of the H2s contains the keyword per the rule above, but the FIRST H2 must not be a restatement of the title.
 4. 2-4 sections of paragraphs (120-180 words each) plus <h3> + <ul>/<ol> where it helps, with practical tips, comparisons, buying advice
 5. Include 1-2 internal links to the category page: <a href="{category_url}">browse all {category} deals</a>
 6. <h2> FAQ heading uses conversational language (e.g. "Common Questions Answered"), not the exact keyword
