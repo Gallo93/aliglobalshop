@@ -134,6 +134,40 @@ def alt_text(title: str, limit: int = 125) -> str:
     return cut
 
 
+# Tokens that read as SKU/model noise inside a product title: a single token
+# mixing letters AND digits (e.g. "F970Pro", "X3T", "RT-AX86U"), or an all-caps
+# code longer than 3 chars (e.g. "ANC", kept; "BT5300", dropped by the mixed
+# rule). Pure words and plain numbers (e.g. "2026", "4K", "100W") are preserved.
+_SKU_TOKEN_RE = re.compile(r'^(?=.*[A-Za-z])(?=.*\d)[A-Za-z0-9./-]{2,}$')
+
+
+def clean_alt(name: str, limit: int = 100) -> str:
+    """Cleaned alt text for in-article product images: drops SKU/model codes
+    (tokens mixing letters and digits) and collapses spacing, then truncates on
+    a word boundary to `limit`. Conservative: keeps plain words, sizes like
+    "4K"/"100W" only when attached to a unit is not detectable, so we keep pure
+    numbers and short tokens. Used ONLY for article product cards, never for the
+    category/home cards (those keep alt_text)."""
+    if not name:
+        return ""
+    try:
+        kept = []
+        for tok in name.split():
+            core = tok.strip("()[]{}.,")
+            # Drop standalone model/SKU codes (letters+digits mixed) but keep
+            # common spec tokens that are short and unit-like (e.g. "4K").
+            if _SKU_TOKEN_RE.match(core) and len(core) > 3:
+                continue
+            kept.append(tok)
+        cleaned = " ".join(kept)
+        cleaned = re.sub(r'\s{2,}', ' ', cleaned).strip(" -,")
+        if not cleaned:
+            cleaned = name.strip()
+        return truncate_word_boundary(cleaned, limit)
+    except Exception:
+        return alt_text(name, limit)
+
+
 def reading_time_min(content_html: str, wpm: int = 200) -> int:
     """Estimate reading time in minutes from the article body word count.
 
@@ -174,11 +208,12 @@ _DANGLING_TAIL = {
     # IT
     "i", "il", "lo", "la", "le", "gli", "un", "una", "di", "da", "e",
     # ES
-    "los", "las", "el", "de", "y",
+    "los", "las", "el", "de", "del", "y", "en", "por", "para", "con",
     # FR
-    "les", "des", "du", "et",
+    "les", "des", "du", "et", "sur", "sous", "pour", "avec",
     # DE
-    "der", "die", "das", "und",
+    "der", "die", "das", "und", "bei", "auf", "zu", "mit", "fur",
+    "von", "im", "am", "den",
 }
 
 
@@ -519,7 +554,7 @@ def article_product_card_html(product: dict, T: dict) -> str:
     href = esc(product.get("affiliate_url", ""))
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
-    alt = esc(alt_text(product.get("title", "")))
+    alt = esc(clean_alt(product.get("title", "")))
     price = format_price(product.get("price", ""), T)
     original = format_price(product.get("original_price", ""), T)
     disc = product.get("discount_pct") or 0
@@ -893,6 +928,123 @@ def _redirect_stub_html(site_url: str, lang: str, target_slug: str, site_title: 
     )
 
 
+def _localize_title(raw_title, T, fx_rate):
+    """Sanitize em-dashes and convert any literal USD amount in a plain title
+    to the build currency (M2)."""
+    try:
+        out = localize_prices_in_html(raw_title or "", T, fx_rate)
+    except Exception:
+        out = raw_title or ""
+    return sanitize_em_dash(out)
+
+
+def head_title(localized_title, site_title, limit=60):
+    """Title tag value (A1): append the brand only if the total stays within
+    limit; else the title alone, truncated on a word boundary."""
+    base = (localized_title or "").strip()
+    suffix = f" | {site_title}"
+    if base and len(base) + len(suffix) <= limit:
+        return base + suffix
+    if len(base) <= limit:
+        return base
+    return truncate_word_boundary(base, limit)
+
+
+_CUR_ENT_RE = re.compile(r"&euro;|&pound;|&yen;|[$€£¥]")
+
+
+def _norm_heading(text):
+    text = re.sub(r"<[^>]+>", "", text or "")
+    text = _CUR_ENT_RE.sub("", text)
+    return re.sub(r"\s+", "", text).strip().lower()
+
+
+def _drop_duplicate_first_h2(content_html, title):
+    """M1: remove the first h2 when it just repeats the H1 (case-insensitive,
+    ignoring currency symbols and whitespace)."""
+    if not content_html:
+        return content_html
+    try:
+        m = re.search(r"<h2[^>]*>(.*?)</h2>", content_html, re.DOTALL | re.IGNORECASE)
+        if not m:
+            return content_html
+        nh = _norm_heading(m.group(1))
+        if nh and nh == _norm_heading(title):
+            return content_html[:m.start()] + content_html[m.end():]
+        return content_html
+    except Exception:
+        return content_html
+
+
+def breadcrumb_jsonld(site_url, lang, T, home_label, cat_name, cat_slug,
+                      article_title, article_url):
+    """Localized BreadcrumbList JSON-LD: Home -> Category -> Article."""
+    items = [{"@type": "ListItem", "position": 1, "name": home_label,
+              "item": f"{site_url}/{lang}/"}]
+    pos = 2
+    if cat_slug:
+        items.append({"@type": "ListItem", "position": pos, "name": cat_name,
+                      "item": f"{site_url}/{lang}/{cat_slug}/"})
+        pos += 1
+    items.append({"@type": "ListItem", "position": pos, "name": article_title,
+                  "item": article_url})
+    schema = {"@context": "https://schema.org", "@type": "BreadcrumbList",
+              "itemListElement": items}
+    return f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
+
+
+_FIRST_P_CLOSE_RE = re.compile(r"</p>", re.IGNORECASE)
+_ARROW_ENT = "&#8594;"
+_ARROW_CHR = "→"
+
+
+def inject_internal_links(content_html, site_url, lang, T, category_slug, related_articles):
+    """A2: inject 2-3 contextual same-language internal links after the first
+    paragraph. Skips self-links, duplicates and missing targets; no-op on error."""
+    if not content_html:
+        return content_html
+    try:
+        existing = set(re.findall(r'href="([^"]+)"', content_html))
+        links = []
+        if category_slug:
+            cat_url = f"{site_url}/{lang}/{category_slug}/"
+            if cat_url not in existing:
+                cat_t = T.get("category", {})
+                cat_name = category_name(T, category_slug)
+                anchor = cat_t.get("related_browse", "Browse all {category_name} deals")
+                anchor = anchor.format(category_name=cat_name)
+                anchor = anchor.replace(_ARROW_CHR, "").replace(_ARROW_ENT, "").strip()
+                links.append(f'<a href="{cat_url}">{anchor}</a>')
+                existing.add(cat_url)
+        for a in related_articles:
+            slug = a.get("slug", "")
+            if not slug:
+                continue
+            url = f"{site_url}/{lang}/blog/{slug}/"
+            if url in existing:
+                continue
+            atitle = esc(sanitize_em_dash(a.get("title", "")))
+            if not atitle:
+                continue
+            links.append(f'<a href="{url}">{atitle}</a>')
+            existing.add(url)
+            if len(links) >= 3:
+                break
+        if len(links) < 2:
+            return content_html
+        label = T.get("blog_post", {}).get("read_also", "Read also")
+        block = (f'<p class="article__internal-links">{label}: '
+                 + " &middot; ".join(links) + "</p>")
+        m = _FIRST_P_CLOSE_RE.search(content_html)
+        if m:
+            idx = m.end()
+            return content_html[:idx] + block + content_html[idx:]
+        return content_html + block
+    except Exception as exc:
+        print(f"[warn] internal-links injection skipped: {exc}")
+        return content_html
+
+
 def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
                      languages: list, default_lang: str, articles: list, products_by_cat: dict,
                      fx_rate=None) -> None:
@@ -942,11 +1094,17 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
                 max_price=max_price, topic_kws=topic_kws
             )
         og_image = article.get("image_url") or f"{site_url}{DEFAULT_OG_IMAGE_PATH}"
+        loc_title = _localize_title(article.get("title", ""), T, fx_rate)
         content_html = article.get("content_html", article.get("content", ""))
         content_html = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content_html, flags=re.IGNORECASE)
         content_html = re.sub(r'</h1>', '</h2>', content_html, flags=re.IGNORECASE)
         content_html = localize_prices_in_html(content_html, T, fx_rate)
         content_html = sanitize_em_dash(content_html)
+        content_html = _drop_duplicate_first_h2(content_html, loc_title)
+        _related_pool = [a for a in visible_articles(articles)
+                         if a.get("slug", "") != slug]
+        content_html = inject_internal_links(
+            content_html, site_url, lang, T, category_slug, _related_pool)
         faq_schema_html = _extract_faq_schema(content_html)
         related_articles_html = related_articles_section_html(
             article, visible_articles(articles), site_url, lang, T, limit=3)
@@ -959,9 +1117,10 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             "canonical_url": f"{site_url}/{lang}/blog/{slug}/",
             "hreflang_alternates": hreflang_alternates(site_url, f"blog/{slug}/", languages, default_lang),
             "lang_switcher_html": lang_switcher_html(site_url, lang, f"blog/{slug}/", languages),
-            "title": esc(sanitize_em_dash(article.get("title", ""))),
-            "title_short": esc(short_title(sanitize_em_dash(article.get("title", "")), 60)),
-            "seo_title": esc(truncate_word_boundary(article.get("title", ""), 43)),
+            "title": esc(loc_title),
+            "title_short": esc(short_title(loc_title, 60)),
+            "seo_title": esc(truncate_word_boundary(loc_title, 43)),
+            "head_title": esc(head_title(loc_title, SITE_TITLE, 60)),
             "slug": esc(slug),
             "date": esc(article.get("date", "")),
             "meta_description": esc(truncate_word_boundary(
@@ -972,6 +1131,10 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             "og_image": og_image,
             "category_slug": esc(category_slug),
             "category_name": esc(category_name(T, category_slug)),
+            "breadcrumb_schema_html": breadcrumb_jsonld(
+                site_url, lang, T, T.get("ui", {}).get("breadcrumb_home", "Home"),
+                category_name(T, category_slug), category_slug, loc_title,
+                f"{site_url}/{lang}/blog/{slug}/"),
             "related_products_section": related_section,
             "related_articles_html": related_articles_html,
             "faq_schema_html": faq_schema_html,

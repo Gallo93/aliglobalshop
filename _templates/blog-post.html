@@ -7,7 +7,7 @@
   <link rel="apple-touch-icon" href="{{site_url}}/assets/img/apple-touch-icon.png">
   <link rel="manifest" href="{{site_url}}/site.webmanifest">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{seo_title}} | {{site_title}}</title>
+  <title>{{head_title}}</title>
   <meta name="description" content="{{meta_description}}">
   <link rel="canonical" href="{{site_url}}/{{lang}}/blog/{{slug}}/">
   {{hreflang_alternates}}
@@ -22,6 +22,7 @@
   <meta name="twitter:description" content="{{meta_description}}">
   <meta name="twitter:image" content="{{og_image}}">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"{{title}}","image":"{{og_image}}","description":"{{meta_description}}","inLanguage":"{{lang}}","datePublished":"{{date}}","author":{"@type":"Organization","name":"{{site_title}}"},"publisher":{"@type":"Organization","name":"{{site_title}}","logo":{"@type":"ImageObject","url":"{{site_url}}/assets/img/logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"{{site_url}}/{{lang}}/blog/{{slug}}/"}}</script>
+  {{breadcrumb_schema_html}}
   {{faq_schema_html}}
 </head>
 <body>
