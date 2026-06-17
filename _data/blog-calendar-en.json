@@ -132,7 +132,8 @@
     "primary_keyword": "aliexpress cheap drone",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-17"
   },
   {
     "topic": "Best AliExpress power banks for travel and daily use",

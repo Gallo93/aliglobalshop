@@ -1,10 +1,10 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-06-17T06:07:40Z",
+  "updated_at": "2026-06-17T10:59:40Z",
   "products": [
     {
       "product_id": "4001142960865",
-      "title": "LED Strip Light ,RGB 5050/SMD3535, Flexible Ribbon, DIY Led Light Strip RGB  Tape Diode DC 12V bluetooth Christmas lights",
+      "title": "LED Strip Light ,RGB 5050/SMD3535, Ruban flexible, DIY Led Light Strip RGB Tape Diode DC 12V bluetooth lumières de Noël",
       "slug": "led-strip-light-rgb-5050smd3535-flexible-ribbon-diy-led-ligh",
       "price": 11.56,
       "original_price": 42.8,
@@ -18,14 +18,14 @@
       "score": 0.3238,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:30Z",
-      "updated_at": "2026-06-17T06:07:30Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005009369207724",
-      "title": "Pocket Power Bank Portable Fast Charge Type C External Battery for iPhone Watch Samsung Xiaomi With Cable Quick Charge Powerbank",
+      "title": "Pocket Power Bank Portable Fast Charge Type C Batterie externe pour iPhone Watch Samsung Xiaomi avec câble Quick Charge Powerbank",
       "slug": "pocket-power-bank-portable-fast-charge-type-c-external-batte",
       "price": 15.81,
-      "original_price": 39.51,
+      "original_price": 39.54,
       "discount_pct": 60,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXGtB8dxkVsWyAoOYfLXi9LFUviWncuDWrlXxqvXj0bQTGfVlVQOVRVKMf9f0Xn36BDGglVOirsQyDUM5K47FTDeLMMA3rcZ2ONRqc9WQCjnoOxLf02rJErvwnhqlmymMNiFJvvkDhLlz5jwiRC61J1r80GbwnZ4aOBuC01E9qymWgVGtLndv3fvvNBcijLJxSV0Mi47z3K1Tdu9R0nGQ686keS6A01T7pEc0qmDh7pNO3SVm1phzXxdMQuCkV9RFMjAwSrWFPtL261GFDo11vioCoOFuuT5PMvvisSbRz14oD2kjsqZE7gHXWK1hO3MAfCuVsEVtzRoxGXTTfvjGlajNHaW3q1NCimunEzbtZNvy9fG5xC0PI6LApIsrGNk7vBnKeN9tnyvEw3h05uBttQQJb383PlcCY8Ptj62kr37FSA1xs0a2SrhgtTaAMokrLZAH4xqKyD0WXxJpaFX8OLOxaI5spcOHTkCb0SBLW6nGyKCUwyzNOunC6LFlgVeWauqkksIDj3P8wyh4MTOcExk9hhu6qmQo790JJScMT9HmbWNmqVwY0Ik6tVpH4Bqv3r2zr4zSPvEZEDvW5wmGXPQQetIlSU2uIJKctaOqMfTWQS9S7pDUtG9ItAjSbk7NynA4au2q1QPCN9UmmR7bz54dQiSWBeRHaIAgbBl9oPXGMFHQVIRkmlXiclENSE9U4NHj3NguGI8M",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781591522/products/1005009369207724.webp",
@@ -36,11 +36,11 @@
       "score": 0.2813,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:31Z",
-      "updated_at": "2026-06-17T06:07:31Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005009017398891",
-      "title": "10000mAh Slim Mini Power Bank for MagSafe,Magnetic Wireless Fast Charger Stand 20W Portable External Battery For iPhone Samsung",
+      "title": "10000mAh Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil 20W pour iPhone Samsung",
       "slug": "10000mah-slim-mini-power-bank-for-magsafemagnetic-wireless-f",
       "price": 17.55,
       "original_price": 33.12,
@@ -54,14 +54,14 @@
       "score": 0.2758,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:31Z",
-      "updated_at": "2026-06-17T06:07:31Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005009334209038",
-      "title": "36000mAh Solar Power Bank Fast Wireless Charger Powerbank for iPhone 16 15 Samsung S24 Huawei Xiaomi 3A Fast Charging Powerbank",
+      "title": "36000mAh Banque d'énergie solaire Chargeur sans fil rapide Banque d'énergie pour iPhone 16 15 Samsung S24 Huawei Xiaomi 3A",
       "slug": "36000mah-solar-power-bank-fast-wireless-charger-powerbank-fo",
-      "price": 24.12,
-      "original_price": 48.25,
+      "price": 24.14,
+      "original_price": 48.29,
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mKHy6TPACvUdspgg03m5gAN6CKuWmGw4OGwtovHHtYxbaFF8YSEiCKGEkukV251CLiXgTSSAEfw7Wv7j4Ak2RRwJncgHRTvpWI3f4J0qy039KJ32H256sV1zxQH4VQIoVHwsbFyQfIqQ0BwrPtt5DVtVhrNuljFYE3oaunthNN1bq1VLxjlzLPXVwt5nlQIIXbuuwHUhkRBWnXqhQRkCerVevCzadXESrV0wUyb6pzvkpCiMpaHaYylzD73jx4ksG4x8ebbfvqzqbyiSgMfEHMXoNcu5utZnSRoy6UhjBlOQgXIPj14b5r10aUjtoWCg4pqn4PJN4HC56Ym7E7j74o9vegEFFiqGSf9ASxozMhUXuptuMjRiqDb7s67e18vXLvHJnTDOFzAj6gRmiDZDAFhkorG8L1wvEMaCcEmaa8zIIAMNzZozcoUqYTik9esQtCzJzsrzZj2iOEfxwNRZeuJYrA4puyll7TzsaFcd1TWracOwoVpgZSATWthYUqmNY1lAfM29TtY8eerSk0uUDx4vKAMGWkPXUoUOkHHaoGGJF8K3p9AZ9NCMX9wd8SeDDBckNMlFV5Ctl1xKw2MeB5sKyqUaqWWHtyCNGWyDLbEDtDyTUABJOBzf39B7TuLSTwTXvgbxvpaVwS43DhwsXE0ra5ZkBMnUHNfPY1zCPrwIvKkO1HBPkYiJg621kMrVJWR72IABf4Tbe",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781591524/products/1005009334209038.webp",
@@ -72,11 +72,11 @@
       "score": 0.2511,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:32Z",
-      "updated_at": "2026-06-17T06:07:32Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005011544110376",
-      "title": "Misa D-Death N-Note Minimalist Transparent Case for Airpods Pro 3 2 1  4 Cute Cartoon  Japanese Airpod Cases TPU Earphone Cover",
+      "title": "Misa D-Death N-Note Cas minimaliste transparent pour les aéropodes Pro 3 2 1 4 Cartoon mignon Cas aéropodes japonais Couverture d'oreille TPU",
       "slug": "misa-d-death-n-note-minimalist-transparent-case-for-airpods-",
       "price": 2.42,
       "original_price": 3.66,
@@ -90,14 +90,14 @@
       "score": 0.2409,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:32Z",
-      "updated_at": "2026-06-17T06:07:32Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005012259681107",
-      "title": "20000mAh 5V Power Bank for Wireless Charging Magnetic Suction Portable Fast Charging Power Bank with Built-in Cable",
+      "title": "20000mAh 5V Banque d'alimentation pour charge sans fil Aspiration magnétique Portable Banque d'alimentation rapide avec câble intégré",
       "slug": "20000mah-5v-power-bank-for-wireless-charging-magnetic-suctio",
-      "price": 20.03,
-      "original_price": 43.54,
+      "price": 20.05,
+      "original_price": 43.57,
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oL9zQNAqt2TKLJJrh0K81akR8gFOgIdXE2uN2ire1ojA76cfHVzISLuFCnPHCsK1uUYOX22thysvdJaDkM5xHaOeyUhtuGSTYED6TwwORMD9IDP5HKsN8ma1QkcaojyuYHJLsh7bvCAjrgn0q9eFOZvrcsnBhAgvYFCN9i0jmIuOq7GiR9bQUmgw6yZeG7tgFa1Yl3e4qIN9sTkeMUIpxQNS7GX7RrOmDf8yikXZJtMFXludFyMwtCZgUG1vI6Lgme3Pqtfp2NcSW5bBv2NKil0jo9NHIEzjtbzdjjIIFOyyYi8roOG53gEbCzV2p1segFxLp6EvOKCoybD5SOa5xhCZRL8W1ajdUP8QyVtxRhdRG4dKI4rrCt7DDDFRe6FByLs8A3uVr98q8q0OkeIOWZ2byfowg8fTtvVLA7jLGJPlMV9zMGqLZru42SOiuoTaC4NV0pzQgOSiM0d8BOodxUaxBA7qV3WSThMuD1xJj9g5kDKH9ULJouZV2Rs5ENT2C0MQeav7pLFPPr1LQwlZQCgE7l67mIqHAEcekUwo0GB2NZQkydHwPiNpSvA12s2OEVsM8C3GSswNAL8h6VoMy5nBdqReXi6lnIGf9fZpHmMliTS3o3uu0b4yRdLoeHZBCgZKU0pF22nZZBrMyYLKCp6iNviLfYMQChXYXlyo5B2ujLqwuNRTOc20pUfgaUtRB0DGWFG21WqnS",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781478034/products/1005012259681107.webp",
@@ -108,14 +108,14 @@
       "score": 0.2233,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:33Z",
-      "updated_at": "2026-06-17T06:07:33Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005009896941801",
-      "title": "Portable Electronic Wind Instrument Bluetooth Connection Electric Saxophone Beginner Saxophone Built in Speaker Music Instrument",
+      "title": "Portable Instrument électronique à vent Connexion Bluetooth Saxophone électrique Débutant Saxophone Construit dans Speaker Music Instrument",
       "slug": "portable-electronic-wind-instrument-bluetooth-connection-ele",
-      "price": 24.4,
-      "original_price": 53.05,
+      "price": 24.42,
+      "original_price": 53.08,
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXIMl6MtBbvwsJTDGdznp9wEjW2XKaxCsoRIhsO6LwjNVcxGjPswntzYoQaRveKF5MDQUkL2wJYJnag9wpgHt5PvQpxnBDNjQRdAI5spJqq4m8DmnoOIA2goDM3s1BTZyZlHvhU7CKkkWuCBlF37TnUDtwW8SjucOFEgM3UusugAjQG47SEcVxDWbPXGdqd9vWYCgzDUuhHxubEbqBY5iBnjSaOkIwPzF5Ki6P7MUfH6X24xvIxGBJdi9c4yMYDVeKgmw7tguVVEunsmOzolaDCZ4fD26W4IaomRh18tgJw1OaUExK13uSVYV6SFI1ytMJ4de7TVTnONQZVNOI037ZzE7w3s4C8IInqD8BPaN4CdSkhcmnZvT1NHthsaM3i44fBtY8GrQRxYr0O8Zb8F3pAa6lbGbXpBkDHv5fzCj0mkKypYbdDWDiToHqYJlWwjK9Q5WFOLHAEzrLJBwbPi1OAXWkT9MamP1npeb24ywrLt3xjfHBY6aWG1znihvBIRv2vUv9RcMnQkeRIY0Os0tvtqSkHzzXCEcs0bNb4dL886xG0ffqvDiAzjR6oq9bvjxKIR9OLFReSo1DVLM6nMLlrDb0acPV51nUBDNJAHRKtG9SkAWMx1gcwTj5JbcJyGMdfXBUtwCXxoB35smT68WBIVYN0e4BGc6F7UzV4l3AeqiX0HDRO6LBMsH3MqKSQbSF5i7v3ZccNxQ",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780700434/products/1005009896941801.webp",
@@ -126,11 +126,11 @@
       "score": 0.2224,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:33Z",
-      "updated_at": "2026-06-17T06:07:33Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005012229118016",
-      "title": "For Xiaomi Original 500000mAh Powerbank External Spare Battery Portable Charger For iPhone Samsung Super Fast Charging PowerBank",
+      "title": "Pour Xiaomi Original 500000mAh Powerbank batterie de rechange externe chargeur portable pour iPhone Samsung Super charge rapide PowerBank",
       "slug": "for-xiaomi-original-500000mah-powerbank-external-spare-batte",
       "price": 18.55,
       "original_price": 28.53,
@@ -144,14 +144,14 @@
       "score": 0.2102,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:34Z",
-      "updated_at": "2026-06-17T06:07:34Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005011531921275",
-      "title": "For 26 Avita 07 silicone wireless charging pads, central control phone anti slip pads",
+      "title": "Pour 26 coussinets sans fil en silicone Avita 07, coussinets antidérapants pour téléphone central",
       "slug": "for-26-avita-07-silicone-wireless-charging-pads-central-cont",
-      "price": 8.37,
-      "original_price": 27.9,
+      "price": 8.38,
+      "original_price": 27.92,
       "discount_pct": 70,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k81Qpa3CAO9UOhDBmGTkrrG5zVYDxsCDCZsVOasng7D4xmymopDivZ3ziJS6mt3n5MZWtBW8vlGKQm5qb6VRYjrrE4qDiRAeaUeJgveTBQ84og3Tpi9e8FE7EJ2kJs4kPa9xbHrZ6BFUy7vNtjojejf8HH1LX3nXanTd4ramboIMJiFodAAU7H5ox3KM3fXNz0Dg07Xqjk7b2B43BXleuKeeXEmYRw5kSWArAcGAoZATSHLM0Egk5qklbLsUnzEiNR8romyjZhlN559YlZQJXvjiaGYmixIdmKfUka0UP7iOXI19n41Urqo3NGT0uiPJuS3ePu0o4joxCzmkWSS1OyYtVGbmVhUDjq89kMydG7h2oxnqUHArw8hLrFywV01fyaROs5JUMTGlxhqQyXYawAXaLQXjgZ4olvG4nDoU0B2i5k6ds3Cq4AsQZF66pCcX844BEQgHd6n258KVVZY3r79YNbOqHazWJjs7NSaVheI5EcBgZHhA3Mnt6jpOQ7Jn4pqTBZ3NjJIbPEp3wX8t90ep1EuRmHYdVkTsQ2a7IwrxcpdIAyfj2kQIEFRqKbUcowAD1LfHW6b5wTnJs9WsghZ0Xzltl7Jib8AA2O58l6zzTSvNdmsgNIIO3s1Xr3bZ38H7mwvX8AgFFqBzjelGYcz2PO3yron7BoWMwl1lwGFOHorLighJCASbMy0LMk9kUvYb5zBJAuRyW",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780809620/products/1005011531921275.webp",
@@ -162,11 +162,11 @@
       "score": 0.2101,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:34Z",
-      "updated_at": "2026-06-17T06:07:34Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005009873262361",
-      "title": "Original 120W Powerbank 50000mAh Mobile External Spare Battery Portable Charger Super Fast Charging For iPhone Xiaomi Power Bank",
+      "title": "Original 120W Powerbank 50000mAh Mobile batterie de rechange externe chargeur portable charge super rapide pour iPhone Xiaomi Power Bank",
       "slug": "original-120w-powerbank-50000mah-mobile-external-spare-batte",
       "price": 16.17,
       "original_price": 26.96,
@@ -180,14 +180,14 @@
       "score": 0.2101,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:35Z",
-      "updated_at": "2026-06-17T06:07:35Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005011532019654",
-      "title": "For XPENG G7 wireless charging pad, central control silicone cup pad",
+      "title": "Pour la recharge sans fil XPENG G7, la commande centrale en silicone",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
-      "price": 11.69,
-      "original_price": 38.99,
+      "price": 11.7,
+      "original_price": 39.02,
       "discount_pct": 70,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k9f1icdBSoaB0gHvwhianfy7sKcM9I8gYqJOp6i5RgK4ZPXM4sQbFJLSKraIkd3T4d902uxDfIEq9pUyHJzrsnHBXUUr9wTp0OmqYBAf3RdlD2rhW5CzoF1T819vC1mohhUjo5oZKzrVQ2SmwZCqjN2y0VWDgJPCd7fMXsnvgPOWuciHQHFejl7r6hD3zmBZmjYds1IykneMBaaKd8VtewVp6awdotxWjqo89JH8UuYTrXTrVVlYCOW7M62h1w7hxAKv70Qc2z42OIZYBRVyvsCyPqh1iYQieptZNutbtmUuHJaKP3kTIq5jCSpj7oZjY6difEMqdZtgbcC4aDe03MruZmO8kSJJjer0nEbU4JLriBihnmK19ywOj10VfrdiLD4I6smI8C6xAMI0Ku2wFJP1iESmyZaEr4JTsZ2hFn67I2jJEYushytzKtoRgV5OSw8TL2tU3Xvx3QOL0EtiwHrTJR5c1Dd2PuMsh6R7YpVOpZNDcshPKjrHXKRQb5uTz0L7kwwFipJIpBEFPQr8UPT3SpMHXQWBu1JwDQMcT8FRQSBlaWyIhPCmfAOaH8aHZM9P7udUtccBZlgz1xx9HAZLhUv6EkuIMYyYgq4IFdrEDXt6GjFDxaMszPs4TqXBh5zUom1DZVC234RMtlXTVfEWtFm36pohk0wddZoej3VKlYhRLfpNYaqwcPvBRzIPtQ9hbZ93foyqj",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577227/products/1005011532019654.webp",
@@ -198,14 +198,14 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:35Z",
-      "updated_at": "2026-06-17T06:07:35Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005010512141911",
-      "title": "Ultra Thin 3 in 1 Magnetic Power Bank Wireless Fast Charger Powerbank For Magsafe For iPhone 17 16 Apple Watch Airpods Samsung",
+      "title": "Ultra mince 3 en 1 Banque de puissance magnétique sans fil Chargeur rapide Banque de puissance pour Magsafe pour iPhone 17 16 Apple Watch Airpods Samsung",
       "slug": "ultra-thin-3-in-1-magnetic-power-bank-wireless-fast-charger-",
-      "price": 18.93,
-      "original_price": 34.43,
+      "price": 18.95,
+      "original_price": 34.45,
       "discount_pct": 45,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kjQ7NxJRpm4z4bRQX5N4CagZxX1m2HVPO1RbzcDWPUnSTeWGoQWyOPx1XNd8jN9Q77yuLSUUhmw0dYVoITrtwPsxrazgUWG7yCorwttIrTDMIGrcZDHfR9JUtx71BuFIFu6oOTrTiRTtBunFwyOdK4Tcj6MkJHbiVTurneRiUar7UAs50XEYuLtChbkJLGorMF4s25aVBdBCsUQMmptx21I1vtfZGhcqU4r3n79fVXyWgYDWNeq7ptqK6PVm9UYjKw0kGx7aMUYiTXLLSDjNQ9hceDWVVFNBngWaclPd2wmC2k434Eoui4q4ZNvfOq69tfBRh780dXkAE7RMcni0D2YgbCrWgXNGozx9kgeb7V7MMLpEzCSPXv1hv9CC7fhR4dnxALnJtzmFrqF2hjzKuZnDD4NxSgdDi87MaViADIySMzyXoA2kpHCL718A8QAdNKDUFFQeAaxpRMYoFH5PToy5I3zruwcxJcnlxjXtG1A0wHwgR6a2iId0KtiRNpgaQ86VIeOoNciC2ciwkrVs6NZ3sfaANMOUxCb7Y8ykYhAXjX3rjOYqyixmk9wd2vDGEAtaaSTZIFq3vhpBv7NwhvYCQuPHmUomdzWfSyFFhHbvNpciRFVPGebqyMBTcVQUyano8CnISU03vEUn6N7d2lnCHEkD9RsbGhMm9166QaA1BpryOqG1rhn9fLExCZra7h67QMkZun8Xz",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781046035/products/1005010512141911.webp",
@@ -216,14 +216,14 @@
       "score": 0.2096,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:36Z",
-      "updated_at": "2026-06-17T06:07:36Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005009716975587",
-      "title": "AI Bluetooth Speaker 5.4 AI voice assistant HD Touch Screen Display Electronic Album Alarm Clock Hands-free Calling",
+      "title": "AI Bluetooth Haut-parleur 5.4 AI vocal assistant HD Touch Écran d'affichage Alarme d'album électronique Calling mains libres",
       "slug": "ai-bluetooth-speaker-54-ai-voice-assistant-hd-touch-screen-d",
-      "price": 15.06,
-      "original_price": 23.53,
+      "price": 15.08,
+      "original_price": 23.55,
       "discount_pct": 36,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kwiSn56KwUaXWzZG4kosTRGmvmanBnFUS3kM91l1iN1vtayqrcfedYHius38vyiQoZE11euyROo1rlRjnZpbJKvZRaPPOaRkRldtf1QpUYMH4GFSaZwoI6EUMVlSfh2GEqTavb56sixqPXrtdkIe8GhFQrxmuacYOfeaKkH6ft33SLlr0O1EIIGR9X0ZsGjQ1OK0KZNYY8rXciHMbofCe0Z0LD5yM8MtWKQaxIa0xWsAJDdUj64Eievwa255zUsyfAcCut9nZaoK01XE1l21S1q1LAOeiCfgSSju33Xqoxs4R7oPvgESc5UBo5lquV8ne3Q2zbd9wNb4alqBmkbWGQOm2yraCPAu3dtEm1EPNlK22qQzlZjDrVcr3UR3klQeNxjJIfPhTwhTkcmma8L8CjPFKl0DxV4zrmKuIl7P4c91JLtP6eUdhf6ae8Fv1fstL03PR2XScCvOpnK1M3pCzO71sC8WonBvIzoaps9zrKdEGTnBQK7iREczleYv3iYzRz27DmgdYemErsYLtczzsD1QtpqM60IzyR5AIW34RdbRkSFXIW4WOUPC3GmD67mywslcFkchWPOJEl1ABSKNU5yzQz8J7fpHlTgOiBOh9QfFhojWuEPI8CqJBMqRkivygKsMphfuKTQouRVT5aGdDDKSUIuNw9Tj8wVdnKERUNfEEuNGy84X1e3zewKRH7GaKtfut78C8wiVm",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781478041/products/1005009716975587.webp",
@@ -234,14 +234,14 @@
       "score": 0.2055,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:36Z",
-      "updated_at": "2026-06-17T06:07:36Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005009093766779",
-      "title": "6 in 1 15W Magnetic Wireless Power Bank 22.5W Fast Charging Wall Charger for iPhone iwatch Samsung Powerbank with AC Plug Cable",
+      "title": "Banque d'énergie sans fil magnétique 6 en 1 15W 22,5W Chargeur mural pour iPhone iwatch Samsung Powerbank avec câble de prise AC",
       "slug": "6-in-1-15w-magnetic-wireless-power-bank-225w-fast-charging-w",
-      "price": 22.52,
-      "original_price": 36.33,
+      "price": 22.53,
+      "original_price": 36.35,
       "discount_pct": 38,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k02DIsPbiczzzj3i3w1sx5GxCCRp13QVORVKxZLa7SlIfkzTAj3tpmvvqflK3LzX9cI9tqFJg7sIdDpHxRElXYTmBTTfQrJEYgod7FouaYpWJiAE8dNWJNdqrDGK048a5Z9DWRATdIs4xqnu8DoeAmwtAiSKwETFsGXMi4aFZwjNzCqrZAoqXWphd4s5uLQTVJlkHi2ciqykSrYHpT7njjymusn10u75O1X8zJPEFVCJv33eWBra7xxsXKpSm0z2zJM6YINBolQ8ETXNIWLLAgv8BAHjQsNyK2VNS0X7eU4Wm2JF2cQm6oq9h1qx4RrDM9GGnCVrGGemg5H8R218uVlskkzqOWhvKSevl17kEV5oV4kKcC5OOTIkiDeAsVoOFwcMolaTRooU8C4o8chHFeYr3WJSeQRZFQDvlV4xbcxoSjJnEsqloBNhUCS4xPb5pFQqIbIWL38HIOHSzdCGEycPHdjEZ98qf1P5uGE4ifyj6efPvBXem2Qbw211vcHTNLK2kyONXPZAHI7eUcXFgzZnzOk4AsguxeTV1aoW6epehLHOcHtEE1925Tp5TsQyklZDyGD8GKpO9ZzTxcvBJJvh9xQrB4l249vYVM7k9RjaDHsKBd73GWFHO8nkKhQ9mFfHKql8cbAIdTKap6yF0I1cm2NbV4TEprwUR8swZ61nWGStew0Z8PHd0I53Qoota0t9TVCTkUPMu",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780392945/products/1005009093766779.webp",
@@ -252,11 +252,11 @@
       "score": 0.2048,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:37Z",
-      "updated_at": "2026-06-17T06:07:37Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "33007923484",
-      "title": "EVA Hard Portable Protective Carrying Box Cover Storage Speaker Case Bag for MARSHALL Stockwell Bluetooth Speaker Accessories",
+      "title": "Boîte de transport de protection EVA dur Portable Housse de rangement Haut-Parleur Sac pour MARSHALL Stockwell Bluetooth Haut-Parleur Accessoires",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 10.51,
       "original_price": 16.42,
@@ -270,14 +270,14 @@
       "score": 0.2044,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:38Z",
-      "updated_at": "2026-06-17T06:07:38Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005010233572038",
-      "title": "20000mAh Hand Crank Solar Power Bank with Light Magnetic Wireless 22.5W Fast Charging for iPhone 17 16 iWatch Airpods Powerbank",
+      "title": "20000mAh Main Cran Banque d'énergie solaire avec lumière magnétique sans fil 22.5W charge rapide pour iPhone 17 16 iWatch Airpods Powerbank",
       "slug": "20000mah-hand-crank-solar-power-bank-with-light-magnetic-wir",
-      "price": 31.46,
-      "original_price": 51.58,
+      "price": 31.48,
+      "original_price": 51.61,
       "discount_pct": 39,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mncGhGK9E9eYo73rjRp010TIATiQOVKxorBdaP1NktM1GAwfXUkaDALCijtg5okSQaXwX3qsmA77fhEZoyKc2rcROXrjBYv2NWoOrTAFBJG3C2tfxP1pw5RN9n9GW7MN2xjKcy30LzA38ZOc9yDHxYHP8cbmBVCqjVnqPs5dmleawMk9zb6GtzuSmH9Tf7hytHv7VbQK8nzuS0IGDl9XLZExylFtbRRcznoUO4jgAHVstK1s0gx7ziKcIF7cXh34eWg8R8potemSRq4mRBw4xs6hOoZipb9GdTibhr9KxJZslNdRQhcKLvhRKcwFmI5RAtoS8379QtfWVH5XjP2mE2bldHUQ5D1Cebgx6xCJuu4VxURmizGLXaZqBvteB78iT23rZCJMEtbNf5Y31CEAI0VVyNIHFlhZFtp8te35peH4oBE2K2cJRrlAI6aDhB0LhAXXjuGKWQNXeUvnTJa6Dg9oHJcdIdeN465WCNKl5GgrY0j4pFGeJbTBEQUPHjN0UCOQuMDCVAfUnngRNVjGzVXEeuoBvIQ1vAPdxz0dKGLvP39DzKzd0iMN5nxaVDgzFDo0A4Rfu61mdriinuw6oJuDWR3qucDNLKNEJEBn2rZpudcdZCrlItAuYyQHJx4NJ6MdNRKBo1cEGoZWrQ17MgfQgPypjjsBpSlsDKmJRRPmZlXKYRLFhKn6EmbD0QZxzZLfitmwiaclI",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781591532/products/1005010233572038.webp",
@@ -288,11 +288,11 @@
       "score": 0.1986,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:38Z",
-      "updated_at": "2026-06-17T06:07:38Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 LED WIFI Controller Smart Wireless 2.4GHz Gateway Voice WiFi rgb Controller Tuya For Mi Boxer LED Bulb Strip Light Lamp",
+      "title": "WL-Box2 Contrôleur de LED WIFI Smart Wireless 2.4GHz Gateway Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe de bande",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -306,14 +306,14 @@
       "score": 0.1764,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:39Z",
-      "updated_at": "2026-06-17T06:07:39Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005005410517353",
-      "title": "Mini Magnetic Wireless Power Bank 10000mAh Portable Powerbank Type C Fast Charger for iPhone 15 14 13 12 Pro Xiaomi 14 Magsafe",
+      "title": "Mini Magnetic Wireless Power Bank 10000mAh Portable Powerbank Type C Chargeur rapide pour iPhone 15 14 13 12 Pro Xiaomi 14 Magsafe",
       "slug": "mini-magnetic-wireless-power-bank-10000mah-portable-powerban",
-      "price": 20.19,
-      "original_price": 40.39,
+      "price": 20.2,
+      "original_price": 40.42,
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4omlT3URE8uL1cvQYgRdJeoUSW91QaAPn6v2YrXOJV6LHXnRSEPXBZiKULbceRkiHjlbjpNIoE46SnpO0AUXO9M2ji6ZDWATChrJYR9Mg6CgrEEnFfEJTtBFhMcrapenq0n0sdplrftToOaAnR7QcPoPcoL3LhyACmlCVHHTJvyxXuZ7lS34vcZOBh9PKJESwqiF5hSZmGICyXVI6cSU526MYjI7RxUnXCQpnYCn1Somztu9AoXRt2rpSs3r2mzZIWcojggs539MmA90EfBDo6EOdE4cLZpRSi62JOR37QiLylACiEqAjcsmCQtniqRah1v8nhmyV4qNC9YacdJtkMMETAgLd82F1FxaPzQtjPCAmLL5uiGqinPojOBLKqaWMV2kNdxEehNX0iGCMU2EpkGoHh6D7KagqBBY9V96OS3r4SECA8wzyAwuRWagF02E9jXHqL4XHss4eGdPfOKnmh9xW1GTonvr6TmbQoC3sW0zXAUOzXWduK1MrVWNrMWgEeyqP79fgwO4vlJ8rUkFY7ppBQK7ZQqKMGKFNwpan9fQhLf7Pi7Od13UQiwdctJM3YnlCG8EYY606uivpbhyI7Tpw7Nih8IOh98AOWINZa5EMbJiaTYZzZXzqHcgGS9Fv81j4ljoFaC9EhYSybVqk2dRBm0cE27PiViEpxcNAlyW7EQ9Jk36wTPvP5UCEnog2BtdzIezJYs30o",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781391635/products/1005005410517353.webp",
@@ -324,11 +324,11 @@
       "score": 0.1704,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:39Z",
-      "updated_at": "2026-06-17T06:07:39Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "for Audi A6L A7 c7 wireless charging plate 2012-2018 double type-c 65W fast charging pad mobile phone charge holder accessories",
+      "title": "pour Audi A6L A7 c7 plaque de recharge sans fil 2012-2018 double type-c",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 40.99,
       "original_price": 91.08,
@@ -342,11 +342,11 @@
       "score": 0.1681,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:40Z",
-      "updated_at": "2026-06-17T06:07:40Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     },
     {
       "product_id": "1005009750287611",
-      "title": "1PCS For JBL Xtreme 4 Xtreme4 GG Type-C USB Charge Port Socket USB Jack Power Supply Board Connector",
+      "title": "1PCS pour connecteur de carte d'alimentation JBL Xtreme 4 Xtreme4 GG de charge USB de type C",
       "slug": "1pcs-for-jbl-xtreme-4-xtreme4-gg-type-c-usb-charge-port-sock",
       "price": 24.53,
       "original_price": 31.05,
@@ -360,7 +360,7 @@
       "score": 0.1654,
       "price_history": [],
       "fetched_at": "2026-06-17T06:07:40Z",
-      "updated_at": "2026-06-17T06:07:40Z"
+      "updated_at": "2026-06-17T10:00:15Z"
     }
   ]
 }
