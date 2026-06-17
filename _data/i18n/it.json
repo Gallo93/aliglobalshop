@@ -140,6 +140,7 @@
   },
   "blog_post": {
     "min_read": "min di lettura",
+    "read_also": "Leggi anche",
     "ai_note": "Contenuto assistito da IA",
     "ai_disclosure": "Questo articolo &egrave; stato scritto con l&#39;assistenza dell&#39;IA. Tutti i consigli sui prodotti si basano su dati AliExpress pubblicamente disponibili.",
     "affiliate_disclosure": "Alcuni link sono link affiliati; potremmo guadagnare una commissione senza costi aggiuntivi per te.",
