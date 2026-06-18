@@ -17,17 +17,17 @@
   <header class="nav">
     <div class="nav__inner">
       <a class="nav__logo" href="{{site_url}}/{{lang}}/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
-      <nav class="nav__links" aria-label="{{t_aria_primary}}">
-        <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
-        <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
-        <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
-        <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
-        <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
-        <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
-        <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
+      <nav class="nav__links" id="primary-nav" aria-label="{{t_aria_primary}}">
+        <a href="{{site_url}}/{{lang}}/electronics/">&#128241; <span data-nf-nav="nav_electronics">{{t_nav_electronics}}</span></a>
+        <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; <span data-nf-nav="nav_smart_home">{{t_nav_smart_home}}</span></a>
+        <a href="{{site_url}}/{{lang}}/sport/">&#127939; <span data-nf-nav="nav_sport">{{t_nav_sport}}</span></a>
+        <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; <span data-nf-nav="nav_gadgets">{{t_nav_gadgets}}</span></a>
+        <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; <span data-nf-nav="nav_flash_sale">{{t_nav_flash_sale}}</span></a>
+        <a href="{{site_url}}/{{lang}}/coupons/">&#127991; <span data-nf-nav="nav_top_discounts">{{t_nav_top_discounts}}</span></a>
+        <a href="{{site_url}}/{{lang}}/blog/">&#128221; <span data-nf-nav="nav_blog">{{t_nav_blog}}</span></a>
       </nav>
       {{lang_switcher_html}}
-      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-expanded="false">
+      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-controls="primary-nav" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -40,10 +40,10 @@
       <p><a class="btn-cta" data-nf="back_home" href="{{site_url}}/{{lang}}/">{{nf_back_home}}</a></p>
       <h2 data-nf="browse_categories">{{nf_browse_categories}}</h2>
       <nav>
-        <p><a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a></p>
-        <p><a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a></p>
-        <p><a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a></p>
-        <p><a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a></p>
+        <p><a href="{{site_url}}/{{lang}}/electronics/">&#128241; <span data-nf-nav="nav_electronics">{{t_nav_electronics}}</span></a></p>
+        <p><a href="{{site_url}}/{{lang}}/smart-home/">&#127968; <span data-nf-nav="nav_smart_home">{{t_nav_smart_home}}</span></a></p>
+        <p><a href="{{site_url}}/{{lang}}/sport/">&#127939; <span data-nf-nav="nav_sport">{{t_nav_sport}}</span></a></p>
+        <p><a href="{{site_url}}/{{lang}}/gadgets/">&#127918; <span data-nf-nav="nav_gadgets">{{t_nav_gadgets}}</span></a></p>
       </nav>
     </div>
   </main>
@@ -57,26 +57,26 @@
       <div class="footer__col">
         <h4>{{t_footer_shop}}</h4>
         <nav>
-          <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
-          <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
-          <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
-          <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; {{t_nav_gadgets}}</a>
+          <a href="{{site_url}}/{{lang}}/electronics/">&#128241; <span data-nf-nav="nav_electronics">{{t_nav_electronics}}</span></a>
+          <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; <span data-nf-nav="nav_smart_home">{{t_nav_smart_home}}</span></a>
+          <a href="{{site_url}}/{{lang}}/sport/">&#127939; <span data-nf-nav="nav_sport">{{t_nav_sport}}</span></a>
+          <a href="{{site_url}}/{{lang}}/gadgets/">&#127918; <span data-nf-nav="nav_gadgets">{{t_nav_gadgets}}</span></a>
         </nav>
       </div>
       <div class="footer__col">
         <h4>{{t_footer_save}}</h4>
         <nav>
-          <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; {{t_nav_flash_sale}}</a>
-          <a href="{{site_url}}/{{lang}}/coupons/">&#127991; {{t_nav_top_discounts}}</a>
+          <a href="{{site_url}}/{{lang}}/flash-sale/">&#9889; <span data-nf-nav="nav_flash_sale">{{t_nav_flash_sale}}</span></a>
+          <a href="{{site_url}}/{{lang}}/coupons/">&#127991; <span data-nf-nav="nav_top_discounts">{{t_nav_top_discounts}}</span></a>
         </nav>
       </div>
       <div class="footer__col">
         <h4>{{t_footer_info}}</h4>
         <nav>
-          <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
-          <a href="{{site_url}}/{{lang}}/about/">{{t_footer_about}}</a>
-          <a href="{{site_url}}/{{lang}}/contact/">{{t_footer_contact}}</a>
-          <a href="{{site_url}}/{{lang}}/privacy/">{{t_footer_privacy}}</a>
+          <a href="{{site_url}}/{{lang}}/blog/">&#128221; <span data-nf-nav="nav_blog">{{t_nav_blog}}</span></a>
+          <a href="{{site_url}}/{{lang}}/about/"><span data-nf-nav="footer_about">{{t_footer_about}}</span></a>
+          <a href="{{site_url}}/{{lang}}/contact/"><span data-nf-nav="footer_contact">{{t_footer_contact}}</span></a>
+          <a href="{{site_url}}/{{lang}}/privacy/"><span data-nf-nav="footer_privacy">{{t_footer_privacy}}</span></a>
         </nav>
       </div>
     </div>
@@ -102,6 +102,11 @@
     document.querySelectorAll("[data-nf]").forEach(function (el) {
       var key = el.getAttribute("data-nf");
       if (t[key] != null) el.innerHTML = t[key];
+    });
+    var nav = t._nav || {};
+    document.querySelectorAll("[data-nf-nav]").forEach(function (el) {
+      var key = el.getAttribute("data-nf-nav");
+      if (nav[key] != null) el.innerHTML = nav[key];
     });
     if (t.title) {
       document.title = decode(t.title) + " | {{site_title}}";

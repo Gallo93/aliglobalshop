@@ -18,6 +18,8 @@
   <meta property="og:image" content="{{site_url}}/assets/img/og-default.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{site_url}}/{{lang}}/{{category_slug}}/">
+  <meta property="og:locale" content="{{og_locale}}">
+  {{og_locale_alternates}}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{og_title}}">
   <meta name="twitter:description" content="{{og_desc}}">
@@ -30,7 +32,7 @@
   <header class="nav">
     <div class="nav__inner">
       <a class="nav__logo" href="{{site_url}}/{{lang}}/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
-      <nav class="nav__links" aria-label="{{t_aria_primary}}">
+      <nav class="nav__links" id="primary-nav" aria-label="{{t_aria_primary}}">
         <a href="{{site_url}}/{{lang}}/electronics/">📱 {{t_nav_electronics}}</a>
         <a href="{{site_url}}/{{lang}}/smart-home/">🏠 {{t_nav_smart_home}}</a>
         <a href="{{site_url}}/{{lang}}/sport/">🏃 {{t_nav_sport}}</a>
@@ -40,7 +42,7 @@
         <a href="{{site_url}}/{{lang}}/blog/">📝 {{t_nav_blog}}</a>
       </nav>
       {{lang_switcher_html}}
-      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-expanded="false">
+      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-controls="primary-nav" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
