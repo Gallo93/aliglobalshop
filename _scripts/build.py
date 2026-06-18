@@ -962,18 +962,56 @@ def _norm_heading(text):
     return re.sub(r"\s+", "", text).strip().lower()
 
 
+# Generic words shared by most titles/headings across the active languages.
+# Excluded from the fuzzy overlap so a high score reflects the *topic* words
+# (e.g. "drones", "cheap"), not filler ("the", "best", "2026").
+_HEADING_STOPWORDS = set(_DANGLING_TAIL) | {
+    "best", "top", "guide", "review", "reviews", "aliexpress", "2025", "2026",
+    "for", "of", "on", "in", "deals", "deal",
+    "migliori", "guida", "offerte", "recensioni", "per",            # IT
+    "mejores", "guia", "ofertas", "resenas", "para",                # ES
+    "meilleurs", "meilleures", "offres", "avis",                    # FR
+    "beste", "besten", "angebote", "test", "tests", "ratgeber",     # DE
+}
+
+
+def _heading_tokens(text):
+    """Lowercased word-token set for a heading/title: HTML and currency removed,
+    split on non-letters/digits, stopwords dropped. Used by the fuzzy first-H2
+    check so a paraphrase of the title is detected (token containment/overlap),
+    not only a byte-for-byte echo."""
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    text = _CUR_ENT_RE.sub(" ", text)
+    toks = re.findall(r"[^\W\d_]+|\d+", text.lower(), re.UNICODE)
+    return {t for t in toks if len(t) > 1 and t not in _HEADING_STOPWORDS}
+
+
 def _drop_duplicate_first_h2(content_html, title):
-    """M1: remove the first h2 when it just repeats the H1 (case-insensitive,
-    ignoring currency symbols and whitespace)."""
+    """M1: remove the first h2 when it just echoes OR paraphrases the H1.
+
+    Exact match: normalized (no tags/currency/whitespace, lowercase) equality,
+    the original conservative behaviour. Fuzzy match: after dropping shared
+    stopwords, the title's topic tokens are all contained in the H2, or the
+    token overlap (Jaccard) is >= 0.8. Only the FIRST h2 is ever removed and
+    only when the title carries >= 2 meaningful tokens, so legitimate
+    sub-headings (low overlap) are kept. Falls back to no-op on error."""
     if not content_html:
         return content_html
     try:
         m = re.search(r"<h2[^>]*>(.*?)</h2>", content_html, re.DOTALL | re.IGNORECASE)
         if not m:
             return content_html
-        nh = _norm_heading(m.group(1))
-        if nh and nh == _norm_heading(title):
+        h2_raw = m.group(1)
+        if _norm_heading(h2_raw) == _norm_heading(title) and _norm_heading(title):
             return content_html[:m.start()] + content_html[m.end():]
+        title_toks = _heading_tokens(title)
+        h2_toks = _heading_tokens(h2_raw)
+        if len(title_toks) >= 2 and h2_toks:
+            contained = title_toks.issubset(h2_toks)
+            inter = len(title_toks & h2_toks)
+            union = len(title_toks | h2_toks) or 1
+            if contained or (inter / union) >= 0.8:
+                return content_html[:m.start()] + content_html[m.end():]
         return content_html
     except Exception:
         return content_html
