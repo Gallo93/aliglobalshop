@@ -23,6 +23,9 @@ a { color: inherit; }
 .skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; background: var(--dark); color: #fff; padding: 10px 16px; border-radius: 0 0 8px 0; font-weight: 700; text-decoration: none; }
 .skip-link:focus { left: 0; outline: 3px solid var(--orange); outline-offset: 2px; }
 
+/* === FOCUS VISIBLE (a11y) === keyboard focus ring for nav links and CTAs */
+a:focus-visible, button:focus-visible, .btn-cta:focus-visible, .lang-switcher__item:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; border-radius: 2px; }
+
 /* === NAV === */
 .nav { background: var(--dark); color: #fff; padding: 0 1.5rem; position: sticky; top: 0; z-index: 100; }
 .nav__inner { display: flex; align-items: center; justify-content: space-between; min-height: 64px; max-width: 1200px; margin: 0 auto; }
@@ -150,7 +153,7 @@ a { color: inherit; }
 .section--flash .product-card { background: rgba(255,255,255,0.06); border-color: rgba(255,100,0,0.25); }
 .section--flash .product-card:hover { border-color: var(--orange); }
 .section--flash .product-card__title a { color: rgba(255,255,255,0.9); }
-.section--flash .product-card__meta { color: rgba(255,255,255,0.5); }
+.section--flash .product-card__meta { color: rgba(255,255,255,0.75); }
 .section--flash .price--old { color: rgba(255,255,255,0.35); }
 .countdown { font-size: 1.8rem; font-weight: 900; color: var(--orange); letter-spacing: 2px; font-variant-numeric: tabular-nums; }
 
@@ -360,7 +363,7 @@ a { color: inherit; }
   .nav { padding: 0 0.6rem; }
   .nav__inner { gap: 4px; }
   .nav__logo img { height: 30px; width: 120px; object-fit: cover; object-position: left center; }
-  .lang-switcher { gap: 0; padding: 1px; margin-right: 0; }
-  .lang-switcher__item { font-size: 0.64rem; padding: 4px 4px; }
+  .lang-switcher { gap: 3px; padding: 2px; margin-right: 0; }
+  .lang-switcher__item { font-size: 0.78rem; padding: 6px 6px; min-height: 24px; display: inline-flex; align-items: center; }
   .nav__hamburger { width: 34px; padding: 6px; }
 }
