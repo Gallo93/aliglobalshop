@@ -140,7 +140,8 @@
     "primary_keyword": "aliexpress power bank",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-18"
   },
   {
     "topic": "AliExpress budget tablets: are they worth it in 2026?",
