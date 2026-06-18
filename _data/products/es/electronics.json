@@ -1,13 +1,13 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-06-18T10:22:42Z",
+  "updated_at": "2026-06-18T23:00:28Z",
   "products": [
     {
       "product_id": "1005011795391651",
-      "title": "20000mAh Magnetic Power Bank PD 22.5W Cargador rápido inalámbrico para batería auxiliar portátil magnética para iPhone Air 17",
+      "title": "20000mAh Magnetic Power Bank PD 22.5W cargador rápido inalámbrico para batería auxiliar portátil magnética para iPhone Air 17",
       "slug": "20000mah-magnetic-power-bank-pd-225w-wireless-fast-charger-f",
-      "price": 20.45,
-      "original_price": 68.18,
+      "price": 20.48,
+      "original_price": 68.27,
       "discount_pct": 70,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oDkaHJjC51RqVjUMDU4vMk6X8mNeCSZKddEZE0lz4L4oaJc6zIc3shB6OgZ3GJ7YvsCcPMIb6UjnL5qmTnzB7MJZBtFsjANTY04eRJTjM8LEjTJpkUb7fosPBvD220rrJDNiQhHoYNgPMUmmLiEsPFSeu01C1xdD2DUBchD4wEFkHyldsTUx4O1bL0gnLrcdFeeYrDbGCSFSlZwdqYzHzP467xXOYUhNUke4dg9qH9ZsqbTt4T3aLFIw5H0t7OQyWN8eRaKXndMYXAzzwo5cBF3QlimIbG4RyMY7A27WiaRo9ebbLZgSRMKphuuBunfrcNAQrEOkxQxy8cLMO7bZGqnhS7F0hGHNVhbYt7H1zCirBmLViJi0RTTNQ17PjiJhzbvPXYxBKgO7gmlawZQrhPKWmQXcDfmPKogWMhsClJggL4t1nfF7OmRnXnOoarubyfSXDeA74wGtUUWey7ME4TV5FIlDW7iTOQEUx9vNx3a9SvEQF5PjeCd5Rp2bRLZdTISSheJ5l90be47zQl1mUEVyTu8NVfxlIQ8YsBmnUhjjILVFyDADQrEZiFsgpguDsgyqW2vFLTlWaZm7HVQrHiFBmv3wN4AlOnELYGxHre21rsC8Rbo3e7dnOqk5Jv7jebqmBOGTUtkTZKYK2yGQR7RymSsFdXAECWjTa66wufyjrVRSsNSQPzaZBSH3DAx6YKaWu5BBmikS0",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192208/products/1005011795391651.webp",
@@ -17,12 +17,12 @@
       "sales_volume": 110,
       "score": 0.3181,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:15Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:18Z",
+      "updated_at": "2026-06-18T23:00:18Z"
     },
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Cargador rápido Powerbank portátil para iPhone portátil Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Carga rápida Powerbank portátil para iPhone portátil Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 33.18,
       "original_price": 72.14,
@@ -35,8 +35,8 @@
       "sales_volume": 331,
       "score": 0.2926,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:15Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:18Z",
+      "updated_at": "2026-06-18T23:00:18Z"
     },
     {
       "product_id": "1005011812151458",
@@ -53,15 +53,15 @@
       "sales_volume": 64,
       "score": 0.263,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:16Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:19Z",
+      "updated_at": "2026-06-18T23:00:19Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "Estación de alimentación portátil de 400W de alta capacidad 192Wh LiFePO4 batería AC 220V generador solar Banco de potencia de carga rápida para camping",
+      "title": "Estación de alimentación portátil de 400W de alta capacidad 192Wh LiFePO4 batería AC 220V generador solar Banco de alimentación de carga rápida para camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
-      "price": 128.76,
-      "original_price": 279.92,
+      "price": 128.94,
+      "original_price": 280.3,
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m41tA0xBIpLmTqbFOhuzu3kjttJUfZqRPKlCRi95zYaqA3iCQNNXEFAiWfgZeJVu3pL4P7bkBeZEfQafzrIVY79QpiuSz7VjP2dXYFCy8nR4h562zZ7YxHe9GKcdR6nyffycwGOtcIEIgDVguSQPKVNgomKlFqpmMpBcn4VoQvdgi3e0IqF8hnqEEyWVwFrv3JCRu8z7VPeubGQLpQxtmDjZlKl6iHQqrzDx96ThsfkiDUHUQF5SHKqDPPL7VtfCUtMHZbBG0m38Uvbi9V8f57ckNkRzB7x8MsTRkrITuH6strF6tPKEqsTTVZz2KZconIBBB2Gcz8Tlzol2ueWugyv9N5TApJBODYjD2uOocPPA8TItL7dszqaZ5J8KLq6KRQpx1Zho2ZO6fA79IoyFjHte9Ch4oonbGeunQDN73EDLccVa8694hMszXw2VsigOi1n0Wu9G5nlFMNHWWr6NCS9JwmLIz4va5fZPEdCMxknh5U0I3OafV0RsdXz6YNmgZauQoFxFaxWytL2Cf6tRMfy0gUgisfj8kMS6adUI6tXaW3WtweNLGbCxtBGw3AJYqS26Pwl34bcWncA90GrKHdy0jftpjHwChca6TaOKgkirojhyv51R0mQzgzN6dY4e50BvFV9lJwP5uOSTpDijIvetFU5Gbl9KMszhgUCliVmpo0iyA9x8YXv0ZZd3n98pPF1D37yQGcc6b",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779686693/products/1005010660256913.webp",
@@ -71,15 +71,15 @@
       "sales_volume": 20,
       "score": 0.2622,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:16Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:19Z",
+      "updated_at": "2026-06-18T23:00:19Z"
     },
     {
       "product_id": "1005012219557684",
       "title": "Mini Cápsula de metal 10000mAh Power Bank Foldable Direct Plug Fast Charging Portable Mobile Power Supply para IPhone Android",
       "slug": "mini-metal-capsule-10000mah-power-bank-foldable-direct-plug-",
-      "price": 20.37,
-      "original_price": 42.43,
+      "price": 20.4,
+      "original_price": 42.49,
       "discount_pct": 52,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kP0lZYPTi16K2JpYGDKYFtS53uBL0XeC4idFUiG7A4IS58l6TkcTc0WubYITSOjaRPFxDJtXdOWcV1iPmvoMbXtpOk7Qvrf6h5IK3jWSBq3n21G4WJXooqLkwEfGRcOKV35xcFQp5DPPWppIlf0KZ02HLtgRwVoVr6rS159K9FydtnhByxDFILmfwtzpvxd3rblIhUieHSJ6lmrHde9ZLayveY2EkQoZcivVYF8umzhieav9g7vmMxYrJI7cUVcWMOhmn78PYphm5Hy9q7MEjwD2Gy7lX95Cjjb7HEdYU147T4IwQ23fNimVTuL4ELCsDNyyBjjOTQ03DecUfgZa7sd1hqgkKv5k8gSddP4bcQGz4sxrZ8RXreHUxhNH7pqTzKc6mRwl39ZigFQtGVDagnbfgq0YWKoQu1xZuhnxqniktUjAYrruGNdFeOkuUYb79WnvE5ivza9B54CbnlDyzsnx8wk0kBxYxRm9WeqYMYT8OsD0KTGDJcAJNVeWDwuKRlZOnLfU2O2zVgTJjgoDJiKkRqMRQV2rtiqjqTFEMvvHv2dhiTFVtHBP9MGHRQIA2Lul6kgy4EvtoZc6XBpbsr6ijZNUKJIRppFTYwBJwjRMYdeNjnuNWJC7k8CfybCpNoe7iAx3jabhSPpHRjeOtQYjjDi27J7QNA8ifCYZTJzKI3RCmmw0CS8dq5DtPQ5cAV4O1mR8LAcXw",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780809615/products/1005012219557684.webp",
@@ -89,15 +89,15 @@
       "sales_volume": 13,
       "score": 0.2576,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:16Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:20Z",
+      "updated_at": "2026-06-18T23:00:20Z"
     },
     {
       "product_id": "1005009334209038",
       "title": "36000mAh Solar Power Bank Fast Wireless Charger Powerbank para iPhone 16 15 Samsung S24 Huawei Xiaomi 3A Fast Charging Powerbank",
       "slug": "36000mah-solar-power-bank-fast-wireless-charger-powerbank-fo",
-      "price": 24.11,
-      "original_price": 48.23,
+      "price": 24.14,
+      "original_price": 48.29,
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mKHy6TPACvUdspgg03m5gAN6CKuWmGw4OGwtovHHtYxbaFF8YSEiCKGEkukV251CLiXgTSSAEfw7Wv7j4Ak2RRwJncgHRTvpWI3f4J0qy039KJ32H256sV1zxQH4VQIoVHwsbFyQfIqQ0BwrPtt5DVtVhrNuljFYE3oaunthNN1bq1VLxjlzLPXVwt5nlQIIXbuuwHUhkRBWnXqhQRkCerVevCzadXESrV0wUyb6pzvkpCiMpaHaYylzD73jx4ksG4HQbNl73fmgCBMEu9NVs48HmhTR8Ke6KFRseqbXr3UIUtCGTINMuZ1zqKEnchaXTMTg1F3tGt0XdrYcXNWinDN3jE3c9Op64BpuLyKhZ9la4gakad6K2am3W1xf6Dyfj9SA5yLip3oYtOvRSE74uHyqu06rTSJdxvwBeW1JuxYM6BD84yeei4vLoQo7CBU2c7lbfDNatIlADzZIoWvJrCv4UHG2vK8SvYU7zxNny0yqUCCFqKDM5e3P7ZlJPDeF67cVU9yG9NTYjQjIOWmbO9g5BhT8nHnEawtym7qUY8VYMAbXAzyiBRIFNu2FfIKa2gFgCg3P25LDeMYpKfgQ0H9NYcc153eUhQObKp8JFfGs3k8l36VEIY9ckUgUVzzUN9Q0UTcFgaTzDyhZ6ZOb5WMdg4H6YrcgPNpkzMkoeviHZLBO32m8xeMYwPJVxojkIJhTgfpGqTnec",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781591524/products/1005009334209038.webp",
@@ -107,8 +107,8 @@
       "sales_volume": 9,
       "score": 0.2511,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:17Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:20Z",
+      "updated_at": "2026-06-18T23:00:20Z"
     },
     {
       "product_id": "1005009199894572",
@@ -125,8 +125,8 @@
       "sales_volume": 1153,
       "score": 0.2473,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:17Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:21Z",
+      "updated_at": "2026-06-18T23:00:21Z"
     },
     {
       "product_id": "1005011544110376",
@@ -143,15 +143,15 @@
       "sales_volume": 375,
       "score": 0.2413,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:18Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:22Z",
+      "updated_at": "2026-06-18T23:00:22Z"
     },
     {
       "product_id": "1005009896941801",
-      "title": "Instrumento electrónico de viento portátil Bluetooth conexión Saxofono eléctrico Saxofon construido en el instrumento de música de altavoz",
+      "title": "Instrumento de viento electrónico portátil Bluetooth conexión Saxofono de inicio eléctrico Construido en Instrumento de música de altavoz",
       "slug": "portable-electronic-wind-instrument-bluetooth-connection-ele",
-      "price": 24.39,
-      "original_price": 53.02,
+      "price": 24.42,
+      "original_price": 53.08,
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXIMl6MtBbvwsJTDGdznp9wEjW2XKaxCsoRIhsO6LwjNVcxGjPswntzYoQaRveKF5MDQUkL2wJYJnag9wpgHt5PvQpxnBDNjQRdAI5spJqq4m8DmnoOIA2goDM3s1BTZyZlHvhU7CKkkWuCBlF37TnUDtwW8SjucOFEgM3UusugAjQG47SEcVxDWbPXGdqd9vWYCgzDUuhHxubEbqBY5iBnjSaOkIwPzF5Ki6P7MUfH6X24xvIxGBJdi9c4yMYDVeK6PM8LgGbdjTnaJZPfHNIHF09mUSvvzZD0JxAUWdf8ZAvPrFu4cUnfsMGkN0ATBkWczhNCfgka9dXc4M4BMhvRy2JIRGwGIaS46xs7e0qbERLMbFFxjTttuRE0miEvMnhFaujdOVegMRxmDyXN4waOUSs4jwLKbXIVV1eGcgthaeQxdcErcMqN0m0ND0ZswVFTtm2EjTUFfdh6eY5wLrVvrHwVe6QRDgNksn9QtjuKPOYHywDRDruoSFmaRNz0N6kfWiE6fqHdaQgoP8FSNdGNkxzQiWLKhSAzWcdFExvOMvZkEuOzRBoMksvG3vMjSIkRy9dAzg67QFuM6KvAdbqxGwTrNuIWzJikKE1F9cBEZz4XDwV5UluDujPPuuVybE8sdZlRBseYeIlogo3au4QJ2BJleIB45rnMlhoCkiW0WytkOh7HDZyvbZei2bVCRctW23qz29nOqs",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780700434/products/1005009896941801.webp",
@@ -161,15 +161,15 @@
       "sales_volume": 3,
       "score": 0.2224,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:18Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:22Z",
+      "updated_at": "2026-06-18T23:00:22Z"
     },
     {
       "product_id": "1005011531921275",
-      "title": "Para 26 Avita 07 almohadillas de carga inalámbrica de silicona, teléfono de control central anti almohadillas de deslizamiento",
+      "title": "Para 26 Almohadillas de carga inalámbrica Avita 07 silicona, almohadillas de control central anti deslizamiento",
       "slug": "for-26-avita-07-silicone-wireless-charging-pads-central-cont",
-      "price": 8.37,
-      "original_price": 27.89,
+      "price": 8.38,
+      "original_price": 27.92,
       "discount_pct": 70,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k81Qpa3CAO9UOhDBmGTkrrG5zVYDxsCDCZsVOasng7D4xmymopDivZ3ziJS6mt3n5MZWtBW8vlGKQm5qb6VRYjrrE4qDiRAeaUeJgveTBQ84og3Tpi9e8FE7EJ2kJs4kPa9xbHrZ6BFUy7vNtjojejf8HH1LX3nXanTd4ramboIMJiFodAAU7H5ox3KM3fXNz0Dg07Xqjk7b2B43BXleuKeeXEmYRw5kSWArAcGAoZATSHLM0Egk5qklbLsUnzEiNR8oc9d8nQvrwoM4Ivk34iGGZb6rrR2pqJWafl9EJd7qKPMvhdNfR8QISo2lFByUxylTc5KQOqUpSNdVewMvsYaNkvGIsT2a9ocM35ldg7389OfDSa26GLSaciET0MYnWS9Sr31SLnJ1ACZJIFBufe7QJQ7yGYLrUWF46lM8O2b9tTubOiuPXXhnwK6OouaKLncI3cY9MlTegoEhym6UN8BIjmeLb9sYZW8gMJD0gisninsuvmRLoMqDaAdH1dAI4PqQqR71ZVlnBqRJLXkCbUbET21gZWWj0doiOH8OIB6v9M62BcUoICxzi9PUTnSbnWIg0KSHIE4VyWxp4Opbe8SI5M3ELXYTiGRA4gVEVGA2qm9FkY4HQNHzS2vai3okcpKlpv126rUrTiaW3BdSkjgvehzaO9f5NGd6ySJApZ0dhzXx5gJgrMFGp3WtQ56A6amto0Bb45Yua",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780809620/products/1005011531921275.webp",
@@ -179,15 +179,15 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:19Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:23Z",
+      "updated_at": "2026-06-18T23:00:23Z"
     },
     {
       "product_id": "1005011532019654",
       "title": "Para la almohadilla de carga inalámbrica XPENG G7, almohadilla de silicona de control central",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
-      "price": 11.68,
-      "original_price": 38.96,
+      "price": 11.7,
+      "original_price": 39.02,
       "discount_pct": 70,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k9f1icdBSoaB0gHvwhianfy7sKcM9I8gYqJOp6i5RgK4ZPXM4sQbFJLSKraIkd3T4d902uxDfIEq9pUyHJzrsnHBXUUr9wTp0OmqYBAf3RdlD2rhW5CzoF1T819vC1mohhUjo5oZKzrVQ2SmwZCqjN2y0VWDgJPCd7fMXsnvgPOWuciHQHFejl7r6hD3zmBZmjYds1IykneMBaaKd8VtewVp6awdotxWjqo89JH8UuYTrXTrVVlYCOW7M62h1w7hxANDeIHEpSYHZp95KTcTzGSmSLdxaYDbqay1LqzDaXDxykgMsSvNl7McLfpPMdI2Rose5d2eBtJZ3lWUm32O1u719kXcWmzmLOUwrcKe45j2XckOdpArQo6w0Z3HEqeyd7Z8qTkICdflzZ3JbF7wTHDTYB54u3v2AonPpqvvHa3agUV0r68xTVhREZHxIawAXsyZVJ1KeaU5ncMJ8LDHiBLT3xlTXLrCKQj3fAM0VIHc45ipXYyYBJ5HdXRQghIovhbGsuLMX2e9NFPSQRoPc3ia1aZwOsh9YUq9h7j4FSGpKBRDEKZFeH9zAupofZrgpxxqIFLvPKIPRUi2ybUFcnQVEbeMglugg7ZWByXEwH3n1zgLxusc1cRc6cpm19qPyKdyGta0z3pIsjhjRkFWX0eWJTLBxHE5f2JfvJhKpsR3HCrCPYgV6tBAnNc4fPrbv1G3uh0d3ixY7",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779577227/products/1005011532019654.webp",
@@ -197,15 +197,15 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:19Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:23Z",
+      "updated_at": "2026-06-18T23:00:23Z"
     },
     {
       "product_id": "1005009716975587",
       "title": "Altavoz Bluetooth AI 5.4 Asistente de voz AI HD Pantalla Pantalla de pantalla Alarma electrónica Reloj despertador sin manos Llamada",
       "slug": "ai-bluetooth-speaker-54-ai-voice-assistant-hd-touch-screen-d",
-      "price": 15.05,
-      "original_price": 23.52,
+      "price": 15.08,
+      "original_price": 23.55,
       "discount_pct": 36,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kwiSn56KwUaXWzZG4kosTRGmvmanBnFUS3kM91l1iN1vtayqrcfedYHius38vyiQoZE11euyROo1rlRjnZpbJKvZRaPPOaRkRldtf1QpUYMH4GFSaZwoI6EUMVlSfh2GEqTavb56sixqPXrtdkIe8GhFQrxmuacYOfeaKkH6ft33SLlr0O1EIIGR9X0ZsGjQ1OK0KZNYY8rXciHMbofCe0Z0LD5yM8MtWKQaxIa0xWsAJDdUj64Eievwa255zUsyfACq29c7agrXaHv6LLcaqrqnFIIUn7aSoGDTyasD3nVAalOKM3LKaVyjp1AQ8Bd0dWdWYNICOQ3x4apTuWwh1Zqo6vSyyWUzzgBOicG8iu9H3yPwDIECcjo6hJUpCTBJ3usmfadXtEKS1WSNCZ96M5Radtm2esW2lN5BfUpLfzJiBkRW9Zfz9JOmWeVSteHPFooNjyAZWjBip5EHpvhNsMPAVI74HLaVjAzSz01jYSAmyHvfH1VXfFyUJGej2yFKNwlEfICtNQD4vgucVTEKbaPdXmWmBpAjzeBPIuyaU71PHj0jZKPSWviGcpaylb7zNw0PWgVIl0Dodx3qgeT8273soh2ESM4lCCKUDi9yN5DrCkyiHY9wJBzQEL77eHb7T5gR2EUWt5imy9JasX1aGzH9dAOxqSCn77JWBjE1QB4VuU3vxVaYHhYGCWmptYlDVOllmOSHpklXe",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781478041/products/1005009716975587.webp",
@@ -215,15 +215,15 @@
       "sales_volume": 93,
       "score": 0.2049,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:20Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:24Z",
+      "updated_at": "2026-06-18T23:00:24Z"
     },
     {
       "product_id": "1005009093766779",
       "title": "6 en 1 15W Magnetic Wireless Power Bank 22.5W Cargador de pared de carga rápido para iPhone iwatch Samsung Powerbank con cable de conexión AC",
       "slug": "6-in-1-15w-magnetic-wireless-power-bank-225w-fast-charging-w",
-      "price": 22.5,
-      "original_price": 36.3,
+      "price": 22.53,
+      "original_price": 36.35,
       "discount_pct": 38,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k02DIsPbiczzzj3i3w1sx5GxCCRp13QVORVKxZLa7SlIfkzTAj3tpmvvqflK3LzX9cI9tqFJg7sIdDpHxRElXYTmBTTfQrJEYgod7FouaYpWJiAE8dNWJNdqrDGK048a5Z9DWRATdIs4xqnu8DoeAmwtAiSKwETFsGXMi4aFZwjNzCqrZAoqXWphd4s5uLQTVJlkHi2ciqykSrYHpT7njjymusn10u75O1X8zJPEFVCJv33eWBra7xxsXKpSm0z2zJK6bSpxGqShDCHC4b46VZCI7AzdFUOabDBLv8O4XscIlDWM3fjG09bNp579CUS1GjRWuSYOiV9uJOJqKOgltcLtpO5Txtn48myKtqqM2DUzJ1ycEVhco6oaucKC2OV5jMgXPut5NVuORAM8eOFOleBhNFz85S9S7SSFveGc4wfzttN3gV4wDsjnGdsCNC3kMiSnkXQ5rgHZkOyMbeGewIRbOlsqjMffF2AiqgZcU0EioPWCGjJsvFGE6T2UVFfYAVkNH24wjeLR7rNGf95YPBG4gBUiHKcSJF4ZIy2iWotcZrY6aSeYdY9nn7MEESMVps4JXgGmadakFfpwpS3WTyeugvXL85Z0rW8lC1zo4gKrtsbAkTlfg1iPCZqgJu623JdBU9pRrVYv3TE73S26detyU7D29jWctIAAa6zBtYAz427MHPLzUeDtLe8N1FZ8OchQ5slc3man2",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780392945/products/1005009093766779.webp",
@@ -233,12 +233,12 @@
       "sales_volume": 7,
       "score": 0.2048,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:20Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:24Z",
+      "updated_at": "2026-06-18T23:00:24Z"
     },
     {
       "product_id": "33007923484",
-      "title": "Caja de carga protectora portátil resistente EVA Bolsa de altavoz caja de almacenamiento para MARSHALL Stockwell Bluetooth Accesorios de altavoz",
+      "title": "Caja de carga protectora portátil resistente EVA Bolsa de altavoces de caja para MARSHALL Stockwell Bluetooth Accesorios de altavoz",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 10.51,
       "original_price": 16.42,
@@ -251,15 +251,15 @@
       "sales_volume": 12,
       "score": 0.2044,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:20Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:25Z",
+      "updated_at": "2026-06-18T23:00:25Z"
     },
     {
       "product_id": "1005008172692579",
-      "title": "1PCS para JBL Charge5 ND Carga de carga USB ND 5 Junta",
+      "title": "1PCS para JBL Charge5 ND Carga de carga USB de placa 5",
       "slug": "1pcs-for-jbl-charge5-nd-motherboard-usb-charging-charge-5-bo",
-      "price": 45.16,
-      "original_price": 64.52,
+      "price": 45.23,
+      "original_price": 64.61,
       "discount_pct": 30,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mtQX2g50fpdVEN5zqimA4CpuMv9qfvvOcTcOHv8haDd4e7alo36Vz9BB4FY6kU5zpdI6GUKobLAVWIIfENXetmBlljCrmGrKTx0OKdeOCACJdutchNycPGXGMcdMJiJVB4dGFeTgOaZIugCtvCq1s8tNotf8jgUtueMuQsA3NqpbYppeloPN1sc9Enz5nkv17m1e2bA8oQO7frMgNjwq6rttQzdiJyZlfCDEOh484nSyKERcUrYTf0OYrtnVTL53FlmjpKAmumoDLM0u2QmIFZ97J6hm5YC7DX96700Nj4Ajup6srq74wvBkK0iJkMV0IOObwE6Ii4wwVPriUDCUoE4RAocyXIzWx8snw7PQXSriWVMPSrdLwMopQdbWC35cXgQEa1FpNb70z41vZaz5tUytsYuRNJ0SvXgTg8Uf8wA5xdNjCzBwZIkhBSQ5mAkMPJlmRvSF4VCpLgfrJD2JAbv9jTgj273s1syigAuGJh2pcJX9ExRuvSR3LzCkTvxEabg2r10mREbQEDrEKpyElMMl3RLOrWzqzOppim5IEhPPwJ25tLf7yQxFHYFrk6lsZAzxssaFGbx4A2clIsVx08TBlw29EyR4Ru0LTEi3wzSgOyvZtTAFHQYxoUwywpP4W4I0xrI19p2YgRNrKxLXxFRZblALL6Mwdi5hx5d82xJK75XRXmA59i3wkevHuT6pBeZ7rpFJSUrJA",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781046038/products/1005008172692579.webp",
@@ -269,15 +269,15 @@
       "sales_volume": 8,
       "score": 0.191,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:21Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:25Z",
+      "updated_at": "2026-06-18T23:00:25Z"
     },
     {
       "product_id": "1005009849333993",
       "title": "Cargador inalámbrico de 15W Magsafe con soporte de cable PD 22.5W Banco de potencia de carga rápida 20000mAh para iPhone 16 Samsung Xiaomi Powerbank",
       "slug": "15w-magsafe-wireless-charger-with-cable-stand-pd-225w-fast-c",
-      "price": 14.95,
-      "original_price": 24.91,
+      "price": 14.97,
+      "original_price": 24.94,
       "discount_pct": 40,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EvPHGMBVr4sxSigi9U1pDm3gN8zpvx9WpacfERMy8XVpwEpQHaKG3GJCqe3D4oDVEvQVLI1zBhWUCwUNzErigHKKimWg4VbUejsEioc5xV2CG0jYVx3AOf5iBYwRcffvLfRyqtFO2duD6XzcUPkzG4cxvPGWeLX3hOa5oiGUcmYah34gPUBMSazLoq5GHCVvw5vxS8y7a3K0HBDKVpHqPG0vXvsCpGlGRgBpOjmjkTSv4mF5X5Owi3L6JHEFh5bXSMK3p94hlvn2qrEYaTI9awVSx3ICZCL5QKUttFTHlQrlbBA9ZDuiibsZS5ZyibfViFf8H9RQiN0dpzUCpw0a4m8hhrcVpmzT7gVgtFiYCH0pVgSphnDAgYft3koWQrqU4Tmq5jT8qX1VU9BQ0TwBLAO6aHyFU2b1P5U5LsXaiproBfoejtaxOMzKy52INcXaDc8zuhxZEeVCLDbcDTHJIuDtsQxDk4OE6LW4zI3uhdZ0jkSBDoAerhFQybbxRexjO1FjtU1784NfgveZjI2vATT2beEqDr4xKHq6GkJLP3eirrztoWeZMLLGgHCZ64p5X7TF5hgH6QLcFlHFntDYJ17sInieeK4CMQBWMZtweCzjauf4BespuKukYq0fhxtufFDpSgES7cNlVe1LzwbWFvjfd1GCCIIwGMS4UOQUZoEwE4SBYBVSLW2dToUjfxb4EsWUt9THRcPKc",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780614105/products/1005009849333993.webp",
@@ -287,12 +287,12 @@
       "sales_volume": 8,
       "score": 0.191,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:21Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:26Z",
+      "updated_at": "2026-06-18T23:00:26Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Controlador de WIFI inteligente inalámbrico 2.4GHz Gateway Voz WiFi rgb Controller Tuya Para Mi Boxer Lámpara de luz de la tira LED",
+      "title": "WL-Box2 Controlador de WIFI inteligente inalámbrico 2.4GHz Gateway Voz WiFi rgb Controller Tuya Para Mi Boxer LED Bombilla de luz",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -305,15 +305,15 @@
       "sales_volume": 12,
       "score": 0.1764,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:22Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:26Z",
+      "updated_at": "2026-06-18T23:00:26Z"
     },
     {
       "product_id": "1005005410517353",
       "title": "Mini Magnetic Wireless Power Bank 10000mAh Portable Powerbank Tipo C Fast Charger para iPhone 15 14 13 12 Pro Xiaomi 14 Magsafe",
       "slug": "mini-magnetic-wireless-power-bank-10000mah-portable-powerban",
-      "price": 20.18,
-      "original_price": 40.36,
+      "price": 20.2,
+      "original_price": 40.42,
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4omlT3URE8uL1cvQYgRdJeoUSW91QaAPn6v2YrXOJV6LHXnRSEPXBZiKULbceRkiHjlbjpNIoE46SnpO0AUXO9M2ji6ZDWATChrJYR9Mg6CgrEEnFfEJTtBFhMcrapenq0n0sdplrftToOaAnR7QcPoPcoL3LhyACmlCVHHTJvyxXuZ7lS34vcZOBh9PKJESwqiF5hSZmGICyXVI6cSU526MYjI7RxUnXCQpnYCn1Somztu9AoXRt2rpSs3r2mzZIWcpFnm9qZN2wzWAas4RE387dudh2A1i0gWIxxUZt9Mohgvqx1N4dc4TWvETXl3Vnr7YDFHjnCmm3qvZE7pTkMC07eiSaA2QfCJvuKSUG5eniBKR1q4p964MdGD9JzPCR3TqAYkwiAqwNDyox5891nHIAYaM3X5hMtr5wrsUk8Eg69hvMXADUTx8vEF4mCS6Ko9kftEcD4r6LrVo77iyIEDgWgGuQkhssDTiDIFcGF75IzRKo6FiJFuW7N5wA11XRR8GLc669BC8TFbunw0nZVvITk5sgNtYgfgyXmITPm3QDmtX2QrBaPnUaRFGGloDKcnme7Io399FAy82Y7Cb0QLyXBaMjImbVokKbNrkIZPc7rAP5HZW8EYiRGSU5g5vALcxEQun7vw0nQTUjOvFvYcApVPGH5M4dlsxILlxEJfQXapMjPSdxhcgBObLiRo3MFLHM8iZY9BCpW",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781391635/products/1005005410517353.webp",
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.1704,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:22Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:27Z",
+      "updated_at": "2026-06-18T23:00:27Z"
     },
     {
       "product_id": "1005010253348075",
@@ -341,8 +341,8 @@
       "sales_volume": 27,
       "score": 0.1682,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:23Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:27Z",
+      "updated_at": "2026-06-18T23:00:27Z"
     },
     {
       "product_id": "1005009750287611",
@@ -359,8 +359,8 @@
       "sales_volume": 87,
       "score": 0.1654,
       "price_history": [],
-      "fetched_at": "2026-06-18T05:53:23Z",
-      "updated_at": "2026-06-18T10:22:42Z"
+      "fetched_at": "2026-06-18T23:00:28Z",
+      "updated_at": "2026-06-18T23:00:28Z"
     }
   ]
 }
