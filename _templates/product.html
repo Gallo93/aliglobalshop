@@ -19,11 +19,12 @@
   <meta property="og:image" content="{{og_image}}">
   <meta property="og:type" content="product">
   <meta property="og:url" content="{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/">
+  <meta property="og:locale" content="{{og_locale}}">
+  {{og_locale_alternates}}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{title}}">
   <meta name="twitter:description" content="{{meta_description}}">
   <meta name="twitter:image" content="{{og_image}}">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"{{title}}","image":"{{image_url}}","sku":"{{product_id}}","aggregateRating":{"@type":"AggregateRating","ratingValue":"{{rating}}","reviewCount":"{{reviews_count}}"},"offers":{"@type":"Offer","priceCurrency":"{{currency_code}}","price":"{{price}}","availability":"https://schema.org/InStock","url":"{{affiliate_url}}"}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"{{t_breadcrumb_home}}","item":"{{site_url}}/{{lang}}/"},{"@type":"ListItem","position":2,"name":"{{category_name}}","item":"{{site_url}}/{{lang}}/{{category_slug}}/"},{"@type":"ListItem","position":3,"name":"{{title}}","item":"{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/"}]}</script>
 </head>
 <body>
@@ -31,7 +32,7 @@
   <header class="nav">
     <div class="nav__inner">
       <a class="nav__logo" href="{{site_url}}/{{lang}}/"><img src="{{site_url}}/assets/img/logo.svg" alt="{{site_title}}" width="240" height="40" loading="eager"></a>
-      <nav class="nav__links" aria-label="{{t_aria_primary}}">
+      <nav class="nav__links" id="primary-nav" aria-label="{{t_aria_primary}}">
         <a href="{{site_url}}/{{lang}}/electronics/">&#128241; {{t_nav_electronics}}</a>
         <a href="{{site_url}}/{{lang}}/smart-home/">&#127968; {{t_nav_smart_home}}</a>
         <a href="{{site_url}}/{{lang}}/sport/">&#127939; {{t_nav_sport}}</a>
@@ -41,7 +42,7 @@
         <a href="{{site_url}}/{{lang}}/blog/">&#128221; {{t_nav_blog}}</a>
       </nav>
       {{lang_switcher_html}}
-      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-expanded="false">
+      <button class="nav__hamburger" aria-label="{{t_aria_open_menu}}" aria-controls="primary-nav" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
