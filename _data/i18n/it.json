@@ -30,7 +30,7 @@
     "footer_privacy": "Privacy",
     "footer_tagline": "Un aggregatore di offerte AliExpress sostenuto dai lettori. Guadagniamo una piccola commissione quando acquisti, senza costi aggiuntivi per te.",
     "footer_copyright": "Informativa affiliazione: guadagniamo commissioni dagli acquisti idonei su AliExpress.",
-    "cookie_text": "Usiamo i cookie per migliorare la tua esperienza.",
+    "cookie_text": "Non usiamo cookie di tracciamento: salviamo solo in locale la tua scelta su questo banner.",
     "cookie_learn_more": "Scopri di pi&ugrave;",
     "cookie_accept": "Accetta",
     "cookie_decline": "Rifiuta",
@@ -49,7 +49,7 @@
     "no_coupons": "Nessun coupon attivo al momento."
   },
   "home": {
-    "title": "Le migliori offerte, coupon e offerte lampo AliExpress",
+    "title": "Offerte, coupon e sconti AliExpress",
     "og_title": "Le migliori offerte AliExpress",
     "meta_desc": "Offerte AliExpress selezionate e aggiornate ogni giorno: elettronica, gadget per la casa, articoli sportivi, offerte lampo e coupon funzionanti.",
     "ticker_updated": "Offerte aggiornate ogni 6 ore",
