@@ -482,11 +482,12 @@ def coupon_card_html(coupon: dict, site_url: str, lang: str, T: dict) -> str:
     )
 
 
-def article_card_html(article: dict, site_url: str, lang: str, T: dict) -> str:
+def article_card_html(article: dict, site_url: str, lang: str, T: dict, fx_rate=None) -> str:
     slug = esc(article.get("slug", ""))
     title = esc(article.get("title", ""))
     date = esc(article.get("date", ""))
-    meta_desc = esc(article.get("meta_desc", article.get("meta_description", "")))
+    raw_meta = article.get("meta_desc", article.get("meta_description", ""))
+    meta_desc = esc(localize_prices_in_html(raw_meta, T, fx_rate))
     category = article.get("category", "")
     cat_name = category_name(T, category) if category else ""
     img = esc(article.get("image_url", ""))
@@ -685,10 +686,11 @@ def base_context(site_url: str, lang: str, T: dict, languages: list, default_lan
 
 
 def build_home(site_url: str, lang: str, T: dict, out_dir: Path,
-               languages: list, default_lang: str, flash_deals: list, articles: list) -> None:
+               languages: list, default_lang: str, flash_deals: list, articles: list,
+               fx_rate=None) -> None:
     tpl = load_template("home.html")
     flash_html = "".join(deal_card_html(d, site_url, lang, T) for d in flash_deals[:8])
-    blog_html = "".join(article_card_html(a, site_url, lang, T) for a in articles[:6])
+    blog_html = "".join(article_card_html(a, site_url, lang, T, fx_rate) for a in articles[:6])
     ctx = base_context(site_url, lang, T, languages, default_lang)
     h = T.get("home", {})
     for key, value in h.items():
@@ -822,7 +824,8 @@ def build_products(site_url: str, lang: str, T: dict, out_dir: Path,
 
 
 def build_blog_index(site_url: str, lang: str, T: dict, out_dir: Path,
-                     languages: list, default_lang: str, articles: list) -> None:
+                     languages: list, default_lang: str, articles: list,
+                     fx_rate=None) -> None:
     tpl = load_template("blog-index.html")
     bi = T.get("blog_index", {})
     months = T.get("months", {})
@@ -872,14 +875,14 @@ def build_blog_index(site_url: str, lang: str, T: dict, out_dir: Path,
         archive_section_html = ""
 
     ctx["articles_html"] = (
-        "".join(article_card_html(a, site_url, lang, T) for a in recent_articles)
+        "".join(article_card_html(a, site_url, lang, T, fx_rate) for a in recent_articles)
         or f'<p>{T["ui"].get("no_articles", "")}</p>'
     )
     ctx["archive_section_html"] = archive_section_html
     write_file(out_dir / "blog" / "index.html", render(tpl, ctx))
 
 
-def related_articles_section_html(current: dict, articles: list, site_url: str, lang: str, T: dict, limit: int = 3) -> str:
+def related_articles_section_html(current: dict, articles: list, site_url: str, lang: str, T: dict, limit: int = 3, fx_rate=None) -> str:
     current_slug = current.get("slug", "")
     current_cat = current.get("category", "")
     pool = [a for a in articles if a.get("slug", "") != current_slug]
@@ -896,7 +899,7 @@ def related_articles_section_html(current: dict, articles: list, site_url: str, 
                 break
     if not picked:
         return ""
-    cards = "".join(article_card_html(a, site_url, lang, T) for a in picked)
+    cards = "".join(article_card_html(a, site_url, lang, T, fx_rate) for a in picked)
     title = T.get("blog_post", {}).get("related_articles", "Related articles")
     return (
         '<section class="related-articles">'
@@ -1107,7 +1110,7 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             content_html, site_url, lang, T, category_slug, _related_pool)
         faq_schema_html = _extract_faq_schema(content_html)
         related_articles_html = related_articles_section_html(
-            article, visible_articles(articles), site_url, lang, T, limit=3)
+            article, visible_articles(articles), site_url, lang, T, limit=3, fx_rate=fx_rate)
         ctx = base_context(site_url, lang, T, languages, default_lang)
         ctx["bp_min_read"] = bp.get("min_read", "min read")
         ctx["bp_ai_note"] = bp.get("ai_note", "AI-assisted content")
@@ -1124,7 +1127,9 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             "slug": esc(slug),
             "date": esc(article.get("date", "")),
             "meta_description": esc(truncate_word_boundary(
-                article.get("meta_desc", article.get("meta_description", "")), 155)),
+                localize_prices_in_html(
+                    article.get("meta_desc", article.get("meta_description", "")),
+                    T, fx_rate), 155)),
             "content_html": content_html,
             "reading_time_min": esc(article.get("reading_time_min")
                                     or reading_time_min(content_html)),
@@ -1462,10 +1467,10 @@ def build_language(site_url: str, lang: str, languages: list, default_lang: str,
           f"(+{len(articles) - len(listed)} stub) "
           f"flash={len(flash_deals)} coupons={len(coupons)}")
 
-    build_home(site_url, lang, T, out_dir, languages, default_lang, flash_deals, listed)
+    build_home(site_url, lang, T, out_dir, languages, default_lang, flash_deals, listed, fx_rate)
     build_categories(site_url, lang, T, out_dir, languages, default_lang, products_by_cat)
     build_products(site_url, lang, T, out_dir, languages, default_lang, products_by_cat)
-    build_blog_index(site_url, lang, T, out_dir, languages, default_lang, listed)
+    build_blog_index(site_url, lang, T, out_dir, languages, default_lang, listed, fx_rate)
     build_blog_posts(site_url, lang, T, out_dir, languages, default_lang, articles, products_by_cat, fx_rate)
     build_flash_sale(site_url, lang, T, out_dir, languages, default_lang, flash_deals, flash_updated)
     build_coupons(site_url, lang, T, out_dir, languages, default_lang, coupons, coupons_updated)
