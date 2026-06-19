@@ -148,7 +148,8 @@
     "primary_keyword": "aliexpress budget tablet",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-19"
   },
   {
     "topic": "Cheap gaming mice on AliExpress: best picks for 2026",
