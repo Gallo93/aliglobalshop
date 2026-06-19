@@ -168,6 +168,23 @@ def clean_alt(name: str, limit: int = 100) -> str:
         return alt_text(name, limit)
 
 
+def localized_card_alt(title: str, category_slug: str, T: dict, limit: int = 100) -> str:
+    """Alt text for category/home product cards: SKU/model codes removed
+    (clean_alt) and prefixed with the page-language category name (e.g.
+    "Elettronica: Auricolari wireless ...") so the alt is localized and not the
+    raw English SKU-laden title. Falls back to clean_alt on any error."""
+    try:
+        name = clean_alt(title, limit)
+        if category_slug:
+            cat = category_name(T, category_slug)
+            if cat:
+                prefix = f"{cat}: "
+                return truncate_word_boundary(prefix + name, limit + len(prefix))
+        return name
+    except Exception:
+        return clean_alt(title, limit)
+
+
 def reading_time_min(content_html: str, wpm: int = 200) -> int:
     """Estimate reading time in minutes from the article body word count.
 
@@ -401,7 +418,7 @@ def product_card_html(product: dict, category_slug: str, site_url: str, lang: st
     href = f"{site_url}/{lang}/{category_slug}/{esc(product.get('slug', ''))}/"
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
-    alt = esc(alt_text(product.get("title", "")))
+    alt = esc(localized_card_alt(product.get("title", ""), category_slug, T))
     price = format_price(product.get("price", ""), T)
     original = format_price(product.get("original_price", ""), T)
     disc = product.get("discount_pct") or 0
