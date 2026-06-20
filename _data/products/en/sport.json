@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-06-20T10:00:19Z",
+  "updated_at": "2026-06-20T14:07:03Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -18,7 +18,7 @@
       "score": 0.3612,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:28Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005006012278000",
@@ -36,7 +36,7 @@
       "score": 0.3123,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:29Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "32286722941",
@@ -54,14 +54,14 @@
       "score": 0.3068,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:29Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005006374334605",
       "title": "Solid Color Sports Yoga Headband Sweat-absorbing Band Running Fitness Headband Elastic Band Headband ScarfWomen's headband elast",
       "slug": "solid-color-sports-yoga-headband-sweat-absorbing-band-runnin",
-      "price": "0.95",
-      "original_price": "3.17",
+      "price": "0.96",
+      "original_price": "3.19",
       "discount_pct": 70,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4opkAjArMEjBMh7zQJJVqgTUi5vtGm0AnxpXvtFBCmS3OvH8tRuyOkc3RKXoldUPAVlcBNzjbOns6cBIiGfoeMBb7we7op3ThSQk0PqmBok7Ovp8rAMKYUAzL5nJjbhii5GxZbxkxbRZbMdUEqtVvq0pu53TSHaWWZhlpGogQ09EFFtKB7nlAFX47dp5MkEhwiATwO0eIR4fiRsm7IKOqHngSFnCoSYPFxw09yrKk2yVTJa5BGyO6ak1sq6n1o2kG8Kx1qOlodU5fnqIjwr72ztq8riwb69BOfn4DNqZxhBNwHqh1l7fdjkDH9b1BnlyUt53cNEzigk61Z7uMs0RJWZ6dDLa8S80whwbh6vvIx131ooufU5hmqY5Pmmu1AKdyHvCIWiXzszuMH1b1nV4XUryV7R8NaVMC7N3dancw3EZNMSEnMclDTIkxwgrgqR8z3pHpv5dM4hwoIQs3PvsdRwBHkRQcrDX14jxMm7ouGflj1QgdxDXqM2D4tOeB0cgqY8T2l3qeHoyAqLa79Ep3eq9sKgF10LC0x2v5GygqUH3MRWHI4MQnPHU6yxXKoID9h2KgM3a7L5GBart0lHUOerpEmPzMOBQcQhNUXrYEA8mHvpJRa1JIyeEfQfIH6dAJNq0qmrCHZ1WDBl0S1eApBHwlKwAeS88i1l0TSdkh6ZYQQUpGprVDCXdMEbF7UdAUnrZcUTHUwmXw2",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192176/products/1005006374334605.webp",
@@ -72,7 +72,7 @@
       "score": 0.295,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:30Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005008570301332",
@@ -90,7 +90,7 @@
       "score": 0.2756,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:30Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005010786413625",
@@ -108,7 +108,7 @@
       "score": 0.2657,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:31Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005010382664758",
@@ -126,7 +126,7 @@
       "score": 0.2638,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:31Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005008088518121",
@@ -144,7 +144,7 @@
       "score": 0.263,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:32Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005008772408846",
@@ -162,7 +162,7 @@
       "score": 0.2621,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:32Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005006998978324",
@@ -180,7 +180,7 @@
       "score": 0.2598,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:33Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005012273080683",
@@ -198,14 +198,14 @@
       "score": 0.2562,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:34Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005009049503829",
       "title": "BATFOX 3/4 MTB Bicycle Helmet Men Women Ear Protection Bike Off road speed reduction Safely Cap Tight Breathable Cycling Helmets",
       "slug": "batfox-34-mtb-bicycle-helmet-men-women-ear-protection-bike-o",
-      "price": "51.61",
-      "original_price": "107.52",
+      "price": "51.76",
+      "original_price": "107.83",
       "discount_pct": 52,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nxshwCuExanUAZfri8TjBvadSZMv5w9fxNDfuxsfJzQG3z8Ty5Q994zF4WjMEnijgEVTidHc0idlUC74TJgry1Yf4RHQarjCCPiuSzteK23MuPRYhN8s1ClcLKBKyvp03YnBuBM8UIWbZfpimNX95u75v4vsky2YxSdP6p0zMVWVo2GSN3q2kU4aT0U0rNg4J4jzdNj3FI0vToNTm1XhdmafUuzbcTbFi8bnJVX08r9hMdEHFngMDmkK2SkMrnfhENLQJKORHjTmUJc9AXt4TSIUhrESQAkdyZvj3iemVnY8Ljuk5VfeQBlZhiMyZx6hMUphAhyl0TGOM9cToDpXSjydVuCpnYSN5L0jI8XLSml1DvS5eCGTeapITTQrAWCpdliP9m3WtXT3n7Wh7LGkZ2xSaBTEJyGB1dMxEXZRMDyUxjmPDDXHwDaYYW89IoZwuTqyGqzpK203mHOHxmBrAewxH5A7tOyn14dKpzSxcQqp1nBv1PZCDaTN35hTi3ZajtA7v0549TYc3hCPtu4xQIQyKXMRUKBlEwfNVVlaStcGJBjCl0EXS9PhTp6D1k5Kgn7Hagn6BDu3WDLN7ZmaaY7aeV0mkw2f9y5uU9RcjfOKea639PvujpPb5ML8BSjikn6SvfB3Pdv5RLkPZunnAufGiWIWYQX1gEMJFSkO1GICE45wVm3JEJnMt02DgjtG4yCkquWFRcaWl",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780896574/products/1005009049503829.webp",
@@ -216,7 +216,7 @@
       "score": 0.2502,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:34Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005003472116469",
@@ -234,7 +234,7 @@
       "score": 0.2456,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:34Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005004980432237",
@@ -252,7 +252,7 @@
       "score": 0.2421,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:35Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005006588685488",
@@ -270,7 +270,7 @@
       "score": 0.2363,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:35Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005005520121617",
@@ -288,7 +288,7 @@
       "score": 0.2352,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:36Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005007560340568",
@@ -306,7 +306,7 @@
       "score": 0.2345,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:36Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005003674465001",
@@ -324,7 +324,7 @@
       "score": 0.223,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:37Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005008682223950",
@@ -342,7 +342,7 @@
       "score": 0.2205,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:38Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     },
     {
       "product_id": "1005005807293081",
@@ -360,7 +360,7 @@
       "score": 0.2183,
       "price_history": [],
       "fetched_at": "2026-06-20T05:10:38Z",
-      "updated_at": "2026-06-20T10:00:19Z"
+      "updated_at": "2026-06-20T14:07:03Z"
     }
   ]
 }
