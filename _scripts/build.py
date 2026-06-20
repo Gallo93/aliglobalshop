@@ -976,6 +976,33 @@ def _drop_duplicate_first_h2(content_html, title):
         return content_html
 
 
+# Brand "AliExpress": grafia ufficiale identica in tutte le lingue. L'AI a volte
+# infila la keyword SEO (memorizzata lowercase) verbatim dentro un H2 -> "aliexpress".
+# Normalizziamo SOLO il testo dentro <h2>/<h3> del corpo, su confine di parola,
+# senza toccare card prodotto/URL/attributi (che stanno fuori dagli heading).
+_BRAND_WORD_RE = re.compile(r"\baliexpress\b", re.IGNORECASE)
+# Cattura separatamente tag di apertura, contenuto e tag di chiusura cosi'
+# normalizziamo SOLO il contenuto e lasciamo open/close tag byte-identici.
+_HEADING_TAG_RE = re.compile(
+    r"(<(h2|h3)\b[^>]*>)(.*?)(</\2>)", re.DOTALL | re.IGNORECASE
+)
+
+
+def _normalize_brand_in_headings(content_html):
+    """A: forza la grafia "AliExpress" dentro gli heading visibili del corpo
+    articolo (H2/H3). Language-agnostic. No-op sul resto del markup, fallback al
+    testo originale su qualsiasi errore. Byte-identico se non c'e' il brand."""
+    if not content_html:
+        return content_html
+    try:
+        def _fix(match):
+            open_tag, inner, close_tag = match.group(1), match.group(3), match.group(4)
+            return open_tag + _BRAND_WORD_RE.sub("AliExpress", inner) + close_tag
+        return _HEADING_TAG_RE.sub(_fix, content_html)
+    except Exception:
+        return content_html
+
+
 def breadcrumb_jsonld(site_url, lang, T, home_label, cat_name, cat_slug,
                       article_title, article_url):
     """Localized BreadcrumbList JSON-LD: Home -> Category -> Article."""
@@ -1101,6 +1128,7 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
         content_html = localize_prices_in_html(content_html, T, fx_rate)
         content_html = sanitize_em_dash(content_html)
         content_html = _drop_duplicate_first_h2(content_html, loc_title)
+        content_html = _normalize_brand_in_headings(content_html)
         _related_pool = [a for a in visible_articles(articles)
                          if a.get("slug", "") != slug]
         content_html = inject_internal_links(
