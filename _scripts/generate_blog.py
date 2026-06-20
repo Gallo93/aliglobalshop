@@ -256,8 +256,125 @@ def slug_exists(slug: str) -> bool:
     return False
 
 
+# Parole da rimuovere quando si normalizza un topic a chiave canonica: brand,
+# anni, e i filler/suffissi SEO che generano quasi-gemelle ("guide", "top picks",
+# "best buys", ...). Senza di questi resta il nucleo di sostantivi del topic, cosi
+# "aliexpress travel gadgets 2026 guide" e "aliexpress travel gadgets 2026 top picks"
+# collassano sulla stessa chiave. NB: "smart", "wireless", ecc. NON sono filler:
+# distinguono prodotti diversi (smart plug vs plug) e vanno tenuti.
+_TOPIC_STOPWORDS = frozenset({
+    "aliexpress",
+    "guide", "guides", "top", "picks", "pick", "best", "buys", "buy", "best-buys",
+    "buyer", "buyers", "review", "reviews", "tips", "tip", "ideas", "idea", "list",
+    "roundup", "that", "work", "works", "you", "need", "under", "the", "your",
+    "for", "to", "of", "a", "an", "on", "in", "with", "vs", "and", "or", "is",
+})
+
+# Token tutto-cifre o anno -> scartati (2025, 2026, 50, 20, ...).
+_NUM_RE = re.compile(r"^\d+$")
+
+
+def _topic_key(text: str) -> str:
+    """Chiave canonica di un topic: lowercase, via brand/anni/numeri/filler SEO,
+    nucleo di sostantivi ordinato alfabeticamente e joinato con spazio.
+
+    Robusta per costruzione:
+    - input None/vuoto -> "".
+    - se dopo lo stripping non resta nulla (topic tutto-filler, es. "best 2026
+      guide") FALLBACK alla stringa normalizzata intera (token non-stopword
+      assenti -> si tiene tutto tranne numeri), cosi la chiave non e' mai vuota
+      e due topic diversi non collassano per sbaglio su "".
+    """
+    if not text:
+        return ""
+    norm = re.sub(r"[^a-z0-9\s-]", " ", text.lower())
+    tokens = [t for t in re.split(r"[\s_-]+", norm) if t]
+    core = [t for t in tokens if t not in _TOPIC_STOPWORDS and not _NUM_RE.match(t)]
+    if not core:
+        # tutto filler/numeri: fallback ai token non-numerici (incl. stopword),
+        # mai vuoto se c'era almeno una parola.
+        core = [t for t in tokens if not _NUM_RE.match(t)] or tokens
+    return " ".join(sorted(set(core)))
+
+
+def _article_topic_key(data: dict) -> str:
+    """Topic-key di un articolo gia' pubblicato. Preferisce primary_keyword
+    (campo piu pulito), poi slug, poi title."""
+    return _topic_key(
+        data.get("primary_keyword") or data.get("slug") or data.get("title", "")
+    )
+
+
+def published_topic_keys() -> set:
+    """Set delle topic-key di TUTTI gli articoli EN gia' pubblicati.
+
+    Difensiva: file illeggibili/non-JSON saltati. Gli stub redirect_to NON
+    vengono esclusi di proposito: rappresentano un topic gia' coperto, quindi
+    la loro chiave deve continuare a bloccare i rigeneri."""
+    keys = set()
+    if not BLOG_DIR.exists():
+        return keys
+    for path in BLOG_DIR.glob("*.json"):
+        try:
+            with open(path, encoding="utf-8") as f:
+                key = _article_topic_key(json.load(f))
+            if key:
+                keys.add(key)
+        except (json.JSONDecodeError, OSError):
+            continue
+    return keys
+
+
+def topic_key_for_item(item: dict) -> str:
+    """Topic-key di un topic di calendario (primary_keyword, poi topic/title)."""
+    return _topic_key(item.get("primary_keyword") or item.get("topic", ""))
+
+
+def prune_calendar_duplicates(items: list) -> int:
+    """Rimuove dai topic ANCORA IN CODA (unused) quelli la cui topic-key collide
+    con un articolo gia' pubblicato, cosi non rigenerano doppioni a slug diverso.
+    I topic gia' used restano (sono lo storico). Ritorna quanti ne ha rimossi.
+
+    Tutto in try/except: qualunque errore -> nessuna rimozione, calendario intatto.
+    """
+    try:
+        published = published_topic_keys()
+        if not published:
+            return 0
+        kept, removed = [], 0
+        for item in items:
+            if not item.get("used") and topic_key_for_item(item) in published:
+                removed += 1
+                print(f"[blog] [prune] topic-doppione rimosso dalla coda: {item.get('topic')!r}")
+                continue
+            kept.append(item)
+        if removed:
+            items[:] = kept
+        return removed
+    except Exception as exc:  # noqa: BLE001 - fallback prudente, mai bloccare
+        print(f"[blog] prune_calendar_duplicates saltata ({type(exc).__name__}): {exc}", file=sys.stderr)
+        return 0
+
+
 def main() -> None:
     items = load_calendar()
+
+    # Pulizia: togli dalla coda i topic la cui chiave canonica coincide con un
+    # articolo gia' pubblicato (sotto qualsiasi slug). Previene la rigenerazione
+    # di quasi-gemelle. No-op se la coda e' gia' pulita.
+    pruned = prune_calendar_duplicates(items)
+    if pruned:
+        save_calendar(items)
+        print(f"[blog] [prune] {pruned} topic-doppione rimossi dal calendario.")
+
+    # Set di topic-key gia' coperte: articoli pubblicati + topic scelti in
+    # questo stesso run. Difensivo: se la scansione fallisce, set vuoto = guard
+    # inattivo, pipeline come prima.
+    try:
+        seen_topic_keys = published_topic_keys()
+    except Exception:  # noqa: BLE001
+        seen_topic_keys = set()
+
     idx, topic = pick_next_topic(items)
 
     if topic is None:
@@ -279,6 +396,20 @@ def main() -> None:
     #   (non spreca il run su un duplicato);
     # - articolo nuovo salvato -> marca used+used_at e termina (return).
     for idx, topic in iter_unused_topics(items, idx):
+        # Guard topic-level PRIMA della chiamata API: se un articolo con la stessa
+        # chiave canonica esiste gia' (anche sotto slug diverso) o e' gia' stato
+        # scelto in questo run, salta senza spendere crediti. Stessa semantica di
+        # slug_exists: marca used+used_at, logga, continua. Difensivo: chiave vuota
+        # (parsing degenere) -> non blocca, prosegue come oggi.
+        tkey = topic_key_for_item(topic)
+        if tkey and tkey in seen_topic_keys:
+            print(f"[blog] [skip] topic-key gia' coperta ({tkey!r}): {topic['topic']!r}")
+            items[idx]["used"] = True
+            items[idx]["used_at"] = today
+            save_calendar(items)
+            print(f"[blog] topic #{idx} marcato used (topic-doppione), avanzo al successivo.")
+            continue
+
         print(f"[blog] generating article for: {topic['topic']} (year={current_year})")
         article = generate_for_topic(topic, current_year)
 
@@ -307,6 +438,8 @@ def main() -> None:
             json.dump(article, f, ensure_ascii=False, indent=2)
         print(f"[blog] saved: {out_path.relative_to(BASE_DIR)}")
 
+        if tkey:
+            seen_topic_keys.add(tkey)
         items[idx]["used"] = True
         items[idx]["used_at"] = today
         save_calendar(items)
