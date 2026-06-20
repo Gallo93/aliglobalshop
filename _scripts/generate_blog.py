@@ -53,7 +53,7 @@ STRICT REQUIREMENTS:
 LENGTH AND FORMATTING:
 - Target 1000 to 1200 words of body content. Do not pad to reach the count, cut anything that repeats.
 - Break up long sections: use <h3> subheadings and <ul>/<ol> bullet lists wherever you compare options, list features, or give steps. No wall-of-text sections.
-- At least one section <h2> must contain the exact phrase "{primary_keyword}" (or a tight variant that keeps every keyword word). The other <h2> headings use natural variants.
+- Exactly one section <h2> must include the keyword "{primary_keyword}", written naturally and in proper title case (NOT lowercase, NOT crammed mid-sentence). Always capitalize the brand correctly as "AliExpress" (never "aliexpress"). Phrase the heading so the keyword reads as a natural part of it. The other <h2> headings use natural variants.
 
 CONTENT STRUCTURE (use this order):
 1. <h1> matching title, includes primary keyword
@@ -75,7 +75,7 @@ Vary the opening sentence and every section heading so two articles never read t
 SEO RULES — FOLLOW EXACTLY:
 - The EXACT phrase "{primary_keyword}" must appear AT MOST 3 times in the entire article (title + all headings + all body text combined). Count carefully before outputting.
 - For every additional mention beyond those 3, use a natural synonym or variant instead (examples: for "aliexpress smart bulbs" use "these WiFi bulbs", "smart lighting options", "color-changing LEDs"; for "robot vacuum" use "the cleaner", "this model", "automated cleaning").
-- ONLY ONE H2 heading may contain the exact keyword phrase. All other H2 headings must use natural language variants.
+- ONLY ONE H2 heading may contain the keyword, and it must read naturally with proper title case and the brand spelled "AliExpress" (never lowercase, never forced mid-sentence). All other H2 headings must use natural language variants.
 - Never repeat the same sentence structure or idea in different words just to fill space. Every sentence must add new, useful information.
 - All external links to AliExpress must have rel="nofollow sponsored"
 - Use specific numbers, prices (in USD, with the $ symbol), and years ({year}) to increase CTR
