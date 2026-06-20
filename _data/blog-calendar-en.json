@@ -156,7 +156,8 @@
     "primary_keyword": "aliexpress gaming mouse",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-20"
   },
   {
     "topic": "AliExpress mini projectors for home cinema on a budget",
