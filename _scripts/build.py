@@ -80,6 +80,68 @@ _FALLBACK_OFFTOPIC = re.compile(
     re.I,
 )
 
+# Accessori-del-tema scartati dalla rete di sicurezza del fallback di categoria,
+# stessa logica CONDIZIONALE di fetch_products.py (_THEME_ACCESSORY_TERMS): un
+# prodotto e' accessorio-del-tema se il titolo guida con un termine-accessorio
+# (mouse pad, keycaps, switches, watch strap...) E il topic-kw NON e' quello
+# stesso accessorio (articolo 'yoga mat'/'watch strap' -> il prodotto-tema E'
+# l'accessorio, niente esclusione). Ogni voce: (alias-testa, regex-fragment).
+_FALLBACK_ACCESSORY_TERMS = [
+    (["pad", "pads", "mousepad", "mouse mat", "desk mat"],
+     r'pads?|mouse\s*pads?|mousepads?|mouse\s+mat|desk\s+mat'),
+    (["keycap", "keycaps", "key cap", "key caps"], r'keycaps?|key\s+caps?'),
+    (["switch", "switches"], r'switch(?:es)?'),
+    (["stabilizer", "stabilizers", "stab", "stabs"], r'stabilizers?|stabs?'),
+    (["wrist rest", "palm rest"], r'wrist\s+rest|palm\s+rest'),
+    (["strap", "straps"], r'straps?'),
+    (["band", "bands"], r'bands?'),
+    (["lanyard"], r'lanyard'),
+    (["sleeve", "sleeves"], r'sleeves?'),
+    (["pouch", "pouches"], r'pouch(?:es)?'),
+    (["bag", "bags"], r'bags?'),
+    (["case", "cases"], r'cases?'),
+    (["cover", "covers"], r'covers?'),
+    (["skin", "skins"], r'skins?'),
+    (["sticker", "stickers"], r'stickers?'),
+    (["grip", "grips"], r'grips?'),
+    (["protector", "protectors"], r'protectors?'),
+]
+
+# Token iniziali del titolo considerati per decidere se l'accessorio E' il
+# prodotto (guida col proprio nome) e non una feature in coda di un device vero.
+_FALLBACK_ACCESSORY_HEAD_WINDOW = 4
+
+
+def _build_fallback_accessory_pattern(topic_kws):
+    """Pattern-accessorio CONDIZIONALE per il fallback di categoria.
+
+    Avvolge i fragment di _FALLBACK_ACCESSORY_TERMS in un'unica alternanza,
+    SALVO i termini il cui alias-testa coincide con un topic-kw (cosi un
+    articolo che parla proprio dell'accessorio non lo esclude). Ritorna None se
+    non resta alcun termine o se topic_kws e' vuoto (nessuna esclusione)."""
+    try:
+        kws = {str(k).lower() for k in (topic_kws or [])}
+        fragments = []
+        for aliases, fragment in _FALLBACK_ACCESSORY_TERMS:
+            if kws & {a.lower() for a in aliases}:
+                continue
+            fragments.append(fragment)
+        if not fragments:
+            return None
+        return re.compile(r'\b(?:' + '|'.join(fragments) + r')\b', re.I)
+    except Exception:
+        return None
+
+
+def _is_fallback_theme_accessory(title: str, accessory_pattern) -> bool:
+    """True se il titolo guida con un termine-accessorio (primi
+    _FALLBACK_ACCESSORY_HEAD_WINDOW token) secondo il pattern condizionale.
+    Con pattern None non esclude nulla."""
+    if not title or accessory_pattern is None:
+        return False
+    head = " ".join(re.findall(r"[a-z0-9]+", title.lower())[:_FALLBACK_ACCESSORY_HEAD_WINDOW])
+    return bool(accessory_pattern.search(head))
+
 
 def _dynamic_topic_kws(text: str):
     """Ricava i topic-kw (sostantivo-testa) per un articolo il cui topic NON e'
@@ -562,6 +624,13 @@ def related_products_section_html(
     # dal topic-kw. Meglio nessun prodotto che un prodotto sbagliato.
     candidates = [p for p in all_products
                   if not _FALLBACK_OFFTOPIC.search(p.get("title", ""))]
+    # Rete di sicurezza accessori-del-tema (round 2): scarta gli accessori che
+    # guidano col proprio nome (mouse pad, keycaps, watch strap...) a meno che il
+    # topic-kw stesso sia quell'accessorio (yoga mat -> yoga mat tenuto).
+    _acc_pat = _build_fallback_accessory_pattern(topic_kws)
+    if _acc_pat is not None:
+        candidates = [p for p in candidates
+                      if not _is_fallback_theme_accessory(p.get("title", ""), _acc_pat)]
     if topic_kws:
         _topic_pat = re.compile('|'.join(re.escape(k) for k in topic_kws), re.IGNORECASE)
         _topic_matches = [p for p in candidates if _topic_pat.search(p.get("title", ""))]
