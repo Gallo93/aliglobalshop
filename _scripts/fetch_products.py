@@ -342,6 +342,16 @@ _KW_STOPWORDS = {
     "with", "vs", "2024", "2025", "2026", "2027",
 }
 
+# Aggettivi/modificatori frequenti che NON sono il sostantivo-testa del topic:
+# vanno scartati quando si cerca il token-testa per il pattern dinamico, cosi
+# 'cheap drone' -> 'drone' e 'budget tablet' -> 'tablet' invece di 'cheap'/'budget'.
+_KW_MODIFIERS = {
+    "cheap", "budget", "affordable", "mini", "portable", "wireless", "smart",
+    "gaming", "mechanical", "professional", "pro", "premium", "compact",
+    "small", "big", "large", "new", "good", "great", "ultimate", "essential",
+    "must", "have", "haves", "tips", "tricks",
+}
+
 # Termini che indicano un ACCESSORIO/ricambio, non il dispositivo vero e proprio.
 # pad/pads e strap esclusi di proposito: i robot vacuum legittimi hanno 'mop pad'
 # e gli smartwatch veri hanno 'strap/band' nel titolo.
@@ -377,6 +387,63 @@ def _clean_search_kw(text: str) -> str:
     return " ".join(kept).strip()
 
 
+def _dynamic_topic_pattern(clean_kw: str):
+    """Costruisce un pattern-tema DINAMICO per i topic NON coperti dalla
+    whitelist hardcoded _ARTICLE_TOPIC_PATTERNS, cosi OGNI articolo presente o
+    futuro ha un filtro di pertinenza senza dover aggiornare la lista a mano.
+
+    Strategia: il sostantivo-testa del topic e' di norma l'ULTIMO token
+    significativo della keyword pulita (es. 'gaming mouse' -> 'mouse',
+    'mechanical keyboard' -> 'keyboard', 'cheap drone' -> 'drone'). Per
+    robustezza accetta sia il token-testa da solo sia, se disponibile, la
+    coppia di token finali (es. 'action camera'). Gli aggettivi/modificatori
+    comuni vengono scartati prima di scegliere il token-testa, ma se restano
+    SOLO modificatori si ripiega sull'ultimo token grezzo.
+
+    Ritorna None (e quindi nessun match -> rete di sicurezza in build.py) se la
+    keyword e' vuota o qualcosa va storto, mantenendo il vecchio comportamento.
+    """
+    try:
+        tokens = [t for t in clean_kw.split() if len(t) >= 3]
+        if not tokens:
+            return None
+        head_pool = [t for t in tokens if t not in _KW_MODIFIERS]
+        head = head_pool[-1] if head_pool else tokens[-1]
+        alts = [head]
+        # Coppia finale (es. 'action camera', 'power station'): aumenta la
+        # precisione quando il sostantivo-testa da solo sarebbe ambiguo.
+        if len(tokens) >= 2:
+            pair = f"{tokens[-2]}\\s+{tokens[-1]}"
+            alts.append(pair)
+        # Deduplica preservando l'ordine, poi costruisce un'alternanza regex
+        # ancorata a word boundary sul singolo token-testa.
+        parts = []
+        seen = set()
+        for a in alts:
+            if a and a not in seen:
+                seen.add(a)
+                parts.append(a)
+        if not parts:
+            return None
+        return re.compile(r'\b(?:' + '|'.join(parts) + r')\b', re.I)
+    except Exception:
+        return None
+
+
+def _resolve_topic_pattern(combined: str, clean_kw: str):
+    """Pattern-tema per un articolo: usa un pattern hardcoded di
+    _ARTICLE_TOPIC_PATTERNS se ne matcha uno (piu preciso, comportamento
+    invariato sui temi esistenti), altrimenti costruisce un pattern dinamico
+    dal sostantivo-testa della keyword pulita."""
+    hardcoded = next(
+        (pat for pat in _ARTICLE_TOPIC_PATTERNS if pat.search(combined)),
+        None,
+    )
+    if hardcoded is not None:
+        return hardcoded
+    return _dynamic_topic_pattern(clean_kw)
+
+
 def _is_relevant(title: str, topic_pattern) -> bool:
     """Pertinente solo se il titolo matcha il pattern-tema (core) dell'articolo."""
     return bool(title) and topic_pattern is not None and bool(topic_pattern.search(title))
@@ -407,11 +474,10 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
         combined = f"{title} {primary_kw}"
         if not slug or not primary_kw:
             continue
-        topic_pattern = next(
-            (pat for pat in _ARTICLE_TOPIC_PATTERNS if pat.search(combined)),
-            None,
-        )
+        search_kw = _clean_search_kw(primary_kw) or _clean_search_kw(title)
+        topic_pattern = _resolve_topic_pattern(combined, search_kw)
         if topic_pattern is None:
+            print(f"  [WARN] nessun pattern-tema risolvibile per '{slug}' -- skip")
             continue
         cache_file = article_output_dir / f"{slug}.json"
         if cache_file.exists():
@@ -423,7 +489,6 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             except Exception:
                 pass
 
-        search_kw = _clean_search_kw(primary_kw) or _clean_search_kw(title)
         print(f"  [article fetch] {slug} -- search kw: '{search_kw}'")
         raw = fetch_products(search_kw, page_size=30)
         if not raw:

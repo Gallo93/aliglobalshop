@@ -57,6 +57,46 @@ _SPECIFIC_PRODUCT_TERMS = [
      ["gym", "dumbbell", "treadmill", "barbell", "kettlebell"]),
 ]
 
+# Parole rumore / modificatori scartati quando si ricava il sostantivo-testa di
+# un topic NON coperto da _SPECIFIC_PRODUCT_TERMS, cosi il fallback di categoria
+# resta filtrato per pertinenza anche sui topic nuovi (gaming mouse, drone, ...).
+_TOPIC_STOPWORDS = {
+    "aliexpress", "reviews", "review", "guide", "guides", "best", "top",
+    "picks", "pick", "under", "the", "a", "an", "and", "or", "for", "with",
+    "vs", "cheap", "budget", "affordable", "mini", "portable", "wireless",
+    "smart", "gaming", "mechanical", "professional", "pro", "premium",
+    "compact", "small", "big", "large", "new", "good", "great", "ultimate",
+    "essential", "must", "have", "haves", "tips", "tricks",
+    "2024", "2025", "2026", "2027",
+}
+
+# Categorie adiacenti off-topic mai mostrate nel fallback di categoria, anche se
+# il topic-kw matcha. Allineato (in spirito) a _OFFTOPIC_PATTERN di
+# fetch_products.py: meglio nessun prodotto che un prodotto sbagliato.
+_FALLBACK_OFFTOPIC = re.compile(
+    r'\bpower\s*bank\b|\bpowerbank\b|\btransmitter\b|\breceiver\b|\bdecoder\b|'
+    r'\badapter\b|\bmodule\b|\bsafe\b|\bcabinet\b|\bwinder\b|'
+    r'\b(?:watch|storage|jewelry|jewellery|display|gift|seal)\s+box\b',
+    re.I,
+)
+
+
+def _dynamic_topic_kws(text: str):
+    """Ricava i topic-kw (sostantivo-testa) per un articolo il cui topic NON e'
+    coperto da _SPECIFIC_PRODUCT_TERMS. Toglie rumore/modificatori e tiene
+    l'ultimo token significativo (es. 'gaming mouse' -> ['mouse'], 'action
+    camera 2026' -> ['camera']). Ritorna None se non ricava nulla di utile, cosi
+    il chiamante mantiene il comportamento precedente (nessun filtro)."""
+    try:
+        words = re.findall(r"[a-z0-9]+", (text or "").lower())
+        tokens = [w for w in words
+                  if w not in _TOPIC_STOPWORDS and not w.isdigit() and len(w) >= 3]
+        if not tokens:
+            return None
+        return [tokens[-1]]
+    except Exception:
+        return None
+
 STATIC_PAGES = ["privacy", "about", "contact"]
 
 LOW_PRIORITY_PAGES = {"privacy", "about", "contact"}
@@ -517,10 +557,14 @@ def related_products_section_html(
     if not category_slug or category_slug not in products_by_cat:
         return ""
     all_products = products_by_cat[category_slug].get("products", [])
-    candidates = all_products
+    # Rete di sicurezza: i prodotti palesemente off-topic (power bank, adapter,
+    # box vari...) non finiscono mai nel fallback di categoria, a prescindere
+    # dal topic-kw. Meglio nessun prodotto che un prodotto sbagliato.
+    candidates = [p for p in all_products
+                  if not _FALLBACK_OFFTOPIC.search(p.get("title", ""))]
     if topic_kws:
         _topic_pat = re.compile('|'.join(re.escape(k) for k in topic_kws), re.IGNORECASE)
-        _topic_matches = [p for p in all_products if _topic_pat.search(p.get("title", ""))]
+        _topic_matches = [p for p in candidates if _topic_pat.search(p.get("title", ""))]
         if len(_topic_matches) < 2:
             return ""
         candidates = _topic_matches
@@ -1110,6 +1154,11 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             if _detect_pat.search(combined):
                 topic_kws = _filter_kws
                 break
+        if topic_kws is None:
+            # Topic NON in whitelist (gaming mouse, drone, tablet, ...): ricava
+            # un topic-kw dinamico cosi il fallback di categoria resta pertinente
+            # invece di mostrare prodotti generici fuori tema.
+            topic_kws = _dynamic_topic_kws(primary_kw or title)
         related_section = ""
         if slug in _article_products and _article_products[slug].get("products"):
             related_section = article_products_section_html(
