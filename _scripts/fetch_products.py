@@ -365,6 +365,54 @@ _ACCESSORY_PATTERN = re.compile(
     re.I,
 )
 
+# --- Accessori-del-tema (round 2) -------------------------------------------
+# Problema: la ricerca API per un topic ritorna molti ACCESSORI che contengono
+# il sostantivo-testa (es. articolo "gaming mouse" -> "mouse pad"/"mouse mat";
+# articolo "mechanical keyboard" -> "keycaps"/"switches"). Questi superano
+# _is_relevant ma non sono il prodotto cercato.
+#
+# Regola CONDIZIONALE: un prodotto e' "accessorio-del-tema" se il titolo matcha
+# un termine-accessorio E il sostantivo-testa del TOPIC non e' quello stesso
+# termine. Se il topic head-noun E' l'accessorio (articolo "yoga mat",
+# "keycaps", "watch strap"...), quel termine NON va escluso: il prodotto-tema
+# E' l'accessorio. Implementazione: il pattern-accessorio viene costruito
+# per-chiamata RIMUOVENDO i termini che coincidono col topic head-noun.
+#
+# Ogni voce: (lista-alias-testa, regex-fragment). Gli alias-testa sono le forme
+# normalizzate (lower, singolare grezzo) che, se compaiono come head-noun del
+# topic, disattivano quel termine. Il fragment e' un pezzo di alternanza regex
+# (verra' avvolto in \b(?:...)\b).
+_THEME_ACCESSORY_TERMS = [
+    # tappetini / pad: NON 'mat' da solo (colpirebbe 'yoga mat' su topic non-mat),
+    # solo le combinazioni mouse/desk mat oppure i pad espliciti.
+    (["pad", "pads", "mousepad", "mouse mat", "desk mat"],
+     r'pads?|mouse\s*pads?|mousepads?|mouse\s+mat|desk\s+mat'),
+    # keycaps / switches / stabilizers: ricambi da tastiera.
+    (["keycap", "keycaps", "key cap", "key caps"],
+     r'keycaps?|key\s+caps?'),
+    (["switch", "switches"],
+     r'switch(?:es)?'),
+    (["stabilizer", "stabilizers", "stab", "stabs"],
+     r'stabilizers?|stabs?'),
+    (["wrist rest", "palm rest"],
+     r'wrist\s+rest|palm\s+rest'),
+    # cinturini / fasce: ricambi da smartwatch.
+    (["strap", "straps"], r'straps?'),
+    (["band", "bands"], r'bands?'),
+    (["lanyard"], r'lanyard'),
+    # custodie / sacchette: gia in parte in _ACCESSORY_PATTERN, qui rese
+    # condizionali (un articolo "phone case"/"sleeve" tiene quel prodotto).
+    (["sleeve", "sleeves"], r'sleeves?'),
+    (["pouch", "pouches"], r'pouch(?:es)?'),
+    (["bag", "bags"], r'bags?'),
+    (["case", "cases"], r'cases?'),
+    (["cover", "covers"], r'covers?'),
+    (["skin", "skins"], r'skins?'),
+    (["sticker", "stickers"], r'stickers?'),
+    (["grip", "grips"], r'grips?'),
+    (["protector", "protectors"], r'protectors?'),
+]
+
 # Categorie adiacenti off-topic da scartare negli article-products.
 # 'board' MAI da solo (spezzerebbe 'sit-up board'/'supine board' del home-gym):
 # solo dopo decoder/receiver/audio/circuit/bluetooth.
@@ -385,6 +433,43 @@ def _clean_search_kw(text: str) -> str:
     words = re.findall(r"[a-z0-9]+", text.lower())
     kept = [w for w in words if w not in _KW_STOPWORDS and not w.isdigit()]
     return " ".join(kept).strip()
+
+
+def _topic_head_noun(clean_kw: str) -> str:
+    """Sostantivo-testa del topic dalla keyword pulita: l'ultimo token
+    significativo, scartando i modificatori (es. 'gaming mouse' -> 'mouse',
+    'mechanical keyboard' -> 'keyboard'). Se restano SOLO modificatori si
+    ripiega sull'ultimo token grezzo. Ritorna '' se non ricava nulla.
+
+    Allineato alla scelta del token-testa di _dynamic_topic_pattern, cosi il
+    filtro accessori condizionale usa lo stesso head-noun del filtro pertinenza.
+    """
+    try:
+        tokens = [t for t in (clean_kw or "").split() if len(t) >= 3]
+        if not tokens:
+            return ""
+        head_pool = [t for t in tokens if t not in _KW_MODIFIERS]
+        return head_pool[-1] if head_pool else tokens[-1]
+    except Exception:
+        return ""
+
+
+def _topic_head_phrases(clean_kw: str) -> set:
+    """Insieme di 'forme-testa' del topic usate per decidere se un
+    termine-accessorio coincide col prodotto-tema: il sostantivo-testa singolo
+    piu l'eventuale coppia di token finali (es. 'yoga mat' -> {'mat', 'yoga
+    mat'}; 'watch strap' -> {'strap', 'watch strap'}). Cosi un articolo che
+    parla proprio dell'accessorio non lo esclude."""
+    phrases = set()
+    head = _topic_head_noun(clean_kw)
+    if head:
+        phrases.add(head)
+    tokens = [t for t in (clean_kw or "").split() if t]
+    if len(tokens) >= 2:
+        phrases.add(f"{tokens[-2]} {tokens[-1]}")
+    if tokens:
+        phrases.add(tokens[-1])
+    return phrases
 
 
 def _dynamic_topic_pattern(clean_kw: str):
@@ -444,6 +529,34 @@ def _resolve_topic_pattern(combined: str, clean_kw: str):
     return _dynamic_topic_pattern(clean_kw)
 
 
+def _build_theme_accessory_pattern(clean_kw: str):
+    """Costruisce il pattern-accessorio CONDIZIONALE per un topic.
+
+    Avvolge in un'unica alternanza tutti i fragment di _THEME_ACCESSORY_TERMS,
+    SALVO quelli il cui alias-testa coincide con una forma-testa del topic
+    (es. topic 'yoga mat' -> il termine 'mat/pad' viene RIMOSSO, cosi 'Yoga Mat'
+    non viene escluso; topic 'watch strap' -> 'strap' rimosso). Per i topic
+    normali (mouse, keyboard, smartwatch) nessun alias coincide e tutti i
+    termini restano attivi.
+
+    Ritorna None se non resta alcun termine (nessuna esclusione da applicare).
+    """
+    try:
+        head_phrases = _topic_head_phrases(clean_kw)
+        fragments = []
+        for aliases, fragment in _THEME_ACCESSORY_TERMS:
+            # Se una qualsiasi forma-testa del topic e' tra gli alias di questo
+            # termine, il prodotto-tema E' quell'accessorio: non escluderlo.
+            if head_phrases & {a.lower() for a in aliases}:
+                continue
+            fragments.append(fragment)
+        if not fragments:
+            return None
+        return re.compile(r'\b(?:' + '|'.join(fragments) + r')\b', re.I)
+    except Exception:
+        return None
+
+
 def _is_relevant(title: str, topic_pattern) -> bool:
     """Pertinente solo se il titolo matcha il pattern-tema (core) dell'articolo."""
     return bool(title) and topic_pattern is not None and bool(topic_pattern.search(title))
@@ -452,6 +565,29 @@ def _is_relevant(title: str, topic_pattern) -> bool:
 def _is_accessory(title: str) -> bool:
     """True se il titolo indica un accessorio/ricambio invece del dispositivo."""
     return bool(title) and bool(_ACCESSORY_PATTERN.search(title))
+
+
+# Quanti token iniziali del titolo considerare per decidere se l'accessorio e'
+# il PRODOTTO (e non una semplice feature citata in coda). Gli accessori-prodotto
+# guidano col loro nome ('Mouse Pad ...', 'PBT Keycaps Set', 'Watch Strap ...'),
+# mentre un dispositivo vero cita band/strap/case piu avanti
+# ('Smart Watch Men ... Silicone Band'): cosi non si scartano i device veri.
+_ACCESSORY_HEAD_WINDOW = 4
+
+
+def _is_theme_accessory(title: str, accessory_pattern) -> bool:
+    """True se il titolo e' un accessorio-DEL-TEMA secondo il pattern
+    condizionale di _build_theme_accessory_pattern. Con pattern None (topic il
+    cui prodotto E' l'accessorio, o nessun termine attivo) non esclude nulla.
+
+    Per evitare falsi positivi sui dispositivi veri che citano un accessorio
+    come feature in coda (es. smartwatch '... Silicone Band'), il termine deve
+    comparire nella TESTA del titolo (primi _ACCESSORY_HEAD_WINDOW token), dove
+    gli accessori-prodotto mettono il proprio nome."""
+    if not title or accessory_pattern is None:
+        return False
+    head = " ".join(re.findall(r"[a-z0-9]+", title.lower())[:_ACCESSORY_HEAD_WINDOW])
+    return bool(accessory_pattern.search(head))
 
 
 def _is_offtopic(title: str) -> bool:
@@ -479,6 +615,7 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
         if topic_pattern is None:
             print(f"  [WARN] nessun pattern-tema risolvibile per '{slug}' -- skip")
             continue
+        accessory_pattern = _build_theme_accessory_pattern(search_kw)
         cache_file = article_output_dir / f"{slug}.json"
         if cache_file.exists():
             try:
@@ -499,6 +636,7 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             r for r in raw
             if not is_blacklisted(r.get("product_title", ""))
             and not _is_accessory(r.get("product_title", ""))
+            and not _is_theme_accessory(r.get("product_title", ""), accessory_pattern)
             and not _is_offtopic(r.get("product_title", ""))
             and _is_relevant(r.get("product_title", ""), topic_pattern)
         ]
