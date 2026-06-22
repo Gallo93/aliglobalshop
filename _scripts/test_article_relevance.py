@@ -8,18 +8,21 @@ articoli blog:
       (anche fuori dalla whitelist hardcoded) costruisce un pattern-tema sul
       sostantivo-testa, e `_is_relevant`/`_is_offtopic` accettano il prodotto
       giusto e scartano power bank / LED strip / accessori.
-    - `_build_theme_accessory_pattern` + `_is_theme_accessory` (round 2):
-      filtro CONDIZIONALE degli accessori-del-tema. Un prodotto e' accessorio
-      se guida col nome di un accessorio (mouse pad, keycaps, switches, watch
-      strap...) E il topic head-noun NON e' quello stesso accessorio. Casi-tema
-      che SONO l'accessorio (yoga mat) NON vengono esclusi.
+    - `_build_theme_accessory_pattern` + `_is_theme_accessory` (round 2/3):
+      filtro CONDIZIONALE degli accessori-del-tema in DUE classi. HARD
+      (pad/mat, keycaps, switch, stabilizer, wrist/palm rest): un device vero
+      non li contiene mai -> match su TUTTO il titolo (i titoli AliExpress
+      spingono il sostantivo oltre il 4o token). SOFT (band/strap/case/...):
+      possono essere feature in coda di un device vero -> match solo sulla
+      testa. Casi-tema che SONO l'accessorio (yoga mat, watch strap) NON
+      vengono esclusi (protezione condizionale sul topic head-noun).
     - nessuna regressione sui temi gia coperti (earbuds, vacuum, smartwatch,
       home gym, lighting).
 
   build.py
     - `related_products_section_html`: la rete di sicurezza sul fallback di
-      categoria scarta gli off-topic e gli accessori-del-tema e, se restano <2
-      pertinenti, NON mostra alcun blocco prodotti (stringa vuota).
+      categoria scarta gli off-topic e gli accessori-del-tema (HARD/SOFT) e, se
+      restano <2 pertinenti, NON mostra alcun blocco prodotti (stringa vuota).
 
 Eseguibile a mano (`python _scripts/test_article_relevance.py`) o via pytest.
 Esce con codice != 0 al primo fallimento.
@@ -61,14 +64,23 @@ ARTICLE_CASES = [
         [
             "Wireless Gaming Mouse 26000DPI RGB Rechargeable Ergonomic",
             "ATTACK SHARK X3 Bluetooth Gaming Mouse Lightweight",
+            # round 3: device veri con accessorio oltre il 4o token NON cadono
+            "Wireless Gaming Mouse 26000DPI RGB",
+            "Kensington Orbit 2.4G Wireless Trackball Mouse",
+            "Cheerdots 2 Detachable Air Mouse Wireless Presenter",
         ],
         [
             "QOOVI PD 100W Power Bank 20000mAh Fast Charging",
             "LED Strip Light RGB 5050 Bluetooth App Control",
-            # round 2: accessori-del-tema (mouse pad / mousepad / mouse mat)
+            # round 2: accessori-del-tema in testa
             "LED Mouse Pad RGB Large Gaming",
             "Gaming Mousepad XL Extended Desk",
             "Mouse Mat Desk Waterproof",
+            # round 3: 'Pad'/'Mat' oltre il 4o token (HARD, su tutto il titolo)
+            "Wholesale Custom XXL Extended Gaming Mouse Pad Anti-Slip Rubber",
+            "Anime C-crayon Shin-chan Mouse Pad Gamer Keyboard Pad",
+            "FIFA 2026 World Cup Football Large Mouse Pad Desk",
+            "Large Size Leather Desk Pad Office Desk Mat Waterproof",
         ],
     ),
     (
@@ -80,9 +92,13 @@ ARTICLE_CASES = [
         ],
         [
             "20000mAh Power Bank Portable Charger Dual USB",
-            # round 2: accessori-del-tema (keycaps / switches)
+            # round 2: accessori-del-tema in testa
             "PBT Keycaps Set 104 Keys Double Shot",
             "Gateron Switches Linear 70pcs",
+            # round 3: keycaps/switches oltre il 4o token (HARD)
+            "Black and White Theme Double Shot Keyboard Keycaps PBT",
+            "Gateron Milky Yellow Pro V3 Linear Switches 5pin",
+            "NPKC Cherry Profile PBT Keycap Set Dye Sub",
         ],
     ),
     (
@@ -188,6 +204,22 @@ def _build_accessory_fallback_case():
     }
 
 
+def _build_accessory_fulltitle_case():
+    """(3c) round 3: due mouse veri + accessori con 'Pad' OLTRE il 4o token.
+    Gli accessori HARD vanno scartati anche se il sostantivo e' in coda; i due
+    mouse veri restano -> il blocco si mostra e NON contiene 'pad'."""
+    return {
+        "electronics": {
+            "products": [
+                {"title": "Wholesale Custom XXL Extended Gaming Mouse Pad Anti-Slip", "price": 6.9},
+                {"title": "FIFA 2026 World Cup Football Large Mouse Pad Desk", "price": 5.9},
+                {"title": "Wireless Gaming Mouse 26000DPI RGB Ergonomic", "price": 19.9},
+                {"title": "Kensington Orbit 2.4G Wireless Trackball Mouse", "price": 29.9},
+            ]
+        }
+    }
+
+
 def main() -> int:
     failures = []
 
@@ -284,6 +316,24 @@ def main() -> int:
         failures.append("[3b] gli yoga mat (prodotto-tema = accessorio) sono stati esclusi")
     else:
         print("[3b] OK yoga mat tenuti (topic 'mat' disattiva l'esclusione 'mat/pad')")
+
+    # (3c) round 3: accessori con 'Pad'/'Mat' OLTRE il 4o token (HARD su tutto
+    # il titolo). I due mouse veri restano -> blocco mostrato, senza 'pad'.
+    fulltitle_cat = _build_accessory_fulltitle_case()
+    out5 = build.related_products_section_html(
+        "electronics", fulltitle_cat, "https://example.com", "en", T,
+        limit=4, topic_kws=["mouse"],
+    )
+    if "pad" in out5.lower() or "mat" in out5.lower():
+        failures.append(
+            "[3c] un mouse pad/mat con sostantivo in coda e' finito nel fallback"
+        )
+    elif "Wireless Gaming Mouse" not in out5 or "Trackball Mouse" not in out5:
+        failures.append(
+            f"[3c] i mouse veri DOVEVANO restare, invece: {out5[:120]!r}"
+        )
+    else:
+        print("[3c] OK accessori HARD (Pad/Mat oltre il 4o token) esclusi, mouse veri tenuti")
 
     print()
     if failures:

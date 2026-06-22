@@ -365,7 +365,7 @@ _ACCESSORY_PATTERN = re.compile(
     re.I,
 )
 
-# --- Accessori-del-tema (round 2) -------------------------------------------
+# --- Accessori-del-tema (round 2 + round 3) ---------------------------------
 # Problema: la ricerca API per un topic ritorna molti ACCESSORI che contengono
 # il sostantivo-testa (es. articolo "gaming mouse" -> "mouse pad"/"mouse mat";
 # articolo "mechanical keyboard" -> "keycaps"/"switches"). Questi superano
@@ -378,16 +378,30 @@ _ACCESSORY_PATTERN = re.compile(
 # E' l'accessorio. Implementazione: il pattern-accessorio viene costruito
 # per-chiamata RIMUOVENDO i termini che coincidono col topic head-noun.
 #
+# round 3 -- due classi di termini-accessorio:
+#   HARD: un device vero (mouse/keyboard...) non contiene MAI queste parole
+#   (pad, mousepad, keycaps, switch meccanico, stabilizer, wrist/palm rest).
+#   Quindi se compaiono OVUNQUE nel titolo -> e' un accessorio. I titoli
+#   AliExpress mettono brand/marketing in testa e spingono il sostantivo oltre
+#   il 4o token ("Wholesale Custom XXL Extended Gaming Mouse Pad..."), percio'
+#   la head-window e' troppo stretta per questi: match su TUTTO il titolo.
+#   SOFT: possono comparire come FEATURE in coda di un device vero (es.
+#   smartwatch "... Silicone Band", phone "... with Case"). Per questi resta la
+#   head-window (primi _ACCESSORY_HEAD_WINDOW token): scartati solo se guidano
+#   col proprio nome.
+#
 # Ogni voce: (lista-alias-testa, regex-fragment). Gli alias-testa sono le forme
 # normalizzate (lower, singolare grezzo) che, se compaiono come head-noun del
-# topic, disattivano quel termine. Il fragment e' un pezzo di alternanza regex
-# (verra' avvolto in \b(?:...)\b).
-_THEME_ACCESSORY_TERMS = [
-    # tappetini / pad: NON 'mat' da solo (colpirebbe 'yoga mat' su topic non-mat),
-    # solo le combinazioni mouse/desk mat oppure i pad espliciti.
-    (["pad", "pads", "mousepad", "mouse mat", "desk mat"],
-     r'pads?|mouse\s*pads?|mousepads?|mouse\s+mat|desk\s+mat'),
-    # keycaps / switches / stabilizers: ricambi da tastiera.
+# topic, disattivano quel termine (protezione condizionale, vale per HARD e
+# SOFT). Il fragment e' un pezzo di alternanza regex (avvolto in \b(?:...)\b).
+_THEME_ACCESSORY_TERMS_HARD = [
+    # tappetini / pad da scrivania-mouse: NON 'mat' da solo (colpirebbe 'yoga
+    # mat'), solo pad espliciti o combinazioni mouse/desk mat. Un mouse o una
+    # tastiera veri non contengono 'pad'/'mat' in questo senso.
+    (["pad", "pads", "mousepad", "mousepads", "mouse pad", "mouse mat",
+      "desk pad", "desk mat", "mat"],
+     r'pads?|mouse\s*pads?|mousepads?|mouse\s+mat|desk\s+pad|desk\s+mat'),
+    # keycaps / switches / stabilizers: ricambi da tastiera meccanica.
     (["keycap", "keycaps", "key cap", "key caps"],
      r'keycaps?|key\s+caps?'),
     (["switch", "switches"],
@@ -396,7 +410,11 @@ _THEME_ACCESSORY_TERMS = [
      r'stabilizers?|stabs?'),
     (["wrist rest", "palm rest"],
      r'wrist\s+rest|palm\s+rest'),
-    # cinturini / fasce: ricambi da smartwatch.
+]
+
+_THEME_ACCESSORY_TERMS_SOFT = [
+    # cinturini / fasce: ricambi da smartwatch, ma 'band' compare come feature
+    # in coda dei device veri -> head-window.
     (["strap", "straps"], r'straps?'),
     (["band", "bands"], r'bands?'),
     (["lanyard"], r'lanyard'),
@@ -530,31 +548,42 @@ def _resolve_topic_pattern(combined: str, clean_kw: str):
 
 
 def _build_theme_accessory_pattern(clean_kw: str):
-    """Costruisce il pattern-accessorio CONDIZIONALE per un topic.
+    """Costruisce i pattern-accessorio CONDIZIONALI per un topic (round 3).
 
-    Avvolge in un'unica alternanza tutti i fragment di _THEME_ACCESSORY_TERMS,
-    SALVO quelli il cui alias-testa coincide con una forma-testa del topic
-    (es. topic 'yoga mat' -> il termine 'mat/pad' viene RIMOSSO, cosi 'Yoga Mat'
-    non viene escluso; topic 'watch strap' -> 'strap' rimosso). Per i topic
-    normali (mouse, keyboard, smartwatch) nessun alias coincide e tutti i
-    termini restano attivi.
+    Ritorna una COPPIA (hard_pattern, soft_pattern):
+      hard_pattern -> termini di _THEME_ACCESSORY_TERMS_HARD, da cercare su
+        TUTTO il titolo (un device vero non li contiene mai).
+      soft_pattern -> termini di _THEME_ACCESSORY_TERMS_SOFT, da cercare solo
+        nella testa del titolo (possono essere feature in coda di un device).
 
-    Ritorna None se non resta alcun termine (nessuna esclusione da applicare).
+    In entrambe le classi vengono RIMOSSI i termini il cui alias-testa coincide
+    con una forma-testa del topic (protezione condizionale: topic 'yoga mat' ->
+    'mat/pad' off -> 'Yoga Mat' tenuto; topic 'watch strap' -> 'strap' off;
+    topic 'smart switch'/'light switch' -> 'switch' off). Per i topic normali
+    (mouse, keyboard, smartwatch) nessun alias coincide e tutti i termini
+    restano attivi.
+
+    Ogni elemento della coppia e' None se per quella classe non resta alcun
+    termine (nessuna esclusione da applicare per quella classe).
     """
     try:
         head_phrases = _topic_head_phrases(clean_kw)
-        fragments = []
-        for aliases, fragment in _THEME_ACCESSORY_TERMS:
-            # Se una qualsiasi forma-testa del topic e' tra gli alias di questo
-            # termine, il prodotto-tema E' quell'accessorio: non escluderlo.
-            if head_phrases & {a.lower() for a in aliases}:
-                continue
-            fragments.append(fragment)
-        if not fragments:
-            return None
-        return re.compile(r'\b(?:' + '|'.join(fragments) + r')\b', re.I)
+
+        def _compile(terms):
+            fragments = []
+            for aliases, fragment in terms:
+                # Se una forma-testa del topic e' tra gli alias di questo
+                # termine, il prodotto-tema E' quell'accessorio: non escluderlo.
+                if head_phrases & {a.lower() for a in aliases}:
+                    continue
+                fragments.append(fragment)
+            if not fragments:
+                return None
+            return re.compile(r'\b(?:' + '|'.join(fragments) + r')\b', re.I)
+
+        return _compile(_THEME_ACCESSORY_TERMS_HARD), _compile(_THEME_ACCESSORY_TERMS_SOFT)
     except Exception:
-        return None
+        return None, None
 
 
 def _is_relevant(title: str, topic_pattern) -> bool:
@@ -567,27 +596,40 @@ def _is_accessory(title: str) -> bool:
     return bool(title) and bool(_ACCESSORY_PATTERN.search(title))
 
 
-# Quanti token iniziali del titolo considerare per decidere se l'accessorio e'
-# il PRODOTTO (e non una semplice feature citata in coda). Gli accessori-prodotto
-# guidano col loro nome ('Mouse Pad ...', 'PBT Keycaps Set', 'Watch Strap ...'),
-# mentre un dispositivo vero cita band/strap/case piu avanti
-# ('Smart Watch Men ... Silicone Band'): cosi non si scartano i device veri.
+# Quanti token iniziali del titolo considerare per decidere se un accessorio
+# SOFT e' il PRODOTTO (e non una semplice feature citata in coda). Gli
+# accessori-prodotto SOFT guidano col loro nome ('Watch Strap ...', 'Phone Case
+# ...'), mentre un dispositivo vero cita band/strap/case piu avanti ('Smart
+# Watch Men ... Silicone Band'): cosi non si scartano i device veri.
 _ACCESSORY_HEAD_WINDOW = 4
 
 
-def _is_theme_accessory(title: str, accessory_pattern) -> bool:
-    """True se il titolo e' un accessorio-DEL-TEMA secondo il pattern
-    condizionale di _build_theme_accessory_pattern. Con pattern None (topic il
-    cui prodotto E' l'accessorio, o nessun termine attivo) non esclude nulla.
+def _is_theme_accessory(title: str, accessory_patterns) -> bool:
+    """True se il titolo e' un accessorio-DEL-TEMA secondo i pattern
+    condizionali di _build_theme_accessory_pattern (round 3).
 
-    Per evitare falsi positivi sui dispositivi veri che citano un accessorio
-    come feature in coda (es. smartwatch '... Silicone Band'), il termine deve
-    comparire nella TESTA del titolo (primi _ACCESSORY_HEAD_WINDOW token), dove
-    gli accessori-prodotto mettono il proprio nome."""
-    if not title or accessory_pattern is None:
+    accessory_patterns e' la coppia (hard, soft):
+      - hard: match su TUTTO il titolo (pad/keycaps/switch/...: un device vero
+        non li contiene mai, e sui titoli AliExpress il sostantivo finisce
+        spesso oltre il 4o token).
+      - soft: match solo sulla TESTA del titolo (primi _ACCESSORY_HEAD_WINDOW
+        token), per non scartare i device veri che citano band/case in coda.
+
+    Con pattern None per una classe (topic il cui prodotto E' l'accessorio, o
+    nessun termine attivo) quella classe non esclude nulla. Accetta anche None
+    secco per robustezza (nessuna esclusione)."""
+    if not title or not accessory_patterns:
         return False
-    head = " ".join(re.findall(r"[a-z0-9]+", title.lower())[:_ACCESSORY_HEAD_WINDOW])
-    return bool(accessory_pattern.search(head))
+    hard_pattern, soft_pattern = accessory_patterns
+    if hard_pattern is not None and hard_pattern.search(title):
+        return True
+    if soft_pattern is not None:
+        head = " ".join(
+            re.findall(r"[a-z0-9]+", title.lower())[:_ACCESSORY_HEAD_WINDOW]
+        )
+        if soft_pattern.search(head):
+            return True
+    return False
 
 
 def _is_offtopic(title: str) -> bool:
