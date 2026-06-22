@@ -8,11 +8,12 @@ articoli blog:
       (anche fuori dalla whitelist hardcoded) costruisce un pattern-tema sul
       sostantivo-testa, e `_is_relevant`/`_is_offtopic` accettano il prodotto
       giusto e scartano power bank / LED strip / accessori.
-    - `_build_theme_accessory_pattern` + `_is_theme_accessory` (round 2):
+    - `_build_theme_accessory_pattern` + `_is_theme_accessory` (round 2/3):
       filtro CONDIZIONALE degli accessori-del-tema. Un prodotto e' accessorio
-      se guida col nome di un accessorio (mouse pad, keycaps, switches, watch
-      strap...) E il topic head-noun NON e' quello stesso accessorio. Casi-tema
-      che SONO l'accessorio (yoga mat) NON vengono esclusi.
+      se contiene un termine-accessorio HARD ovunque nel titolo (mouse pad,
+      keycaps, switches...) oppure un termine SOFT nella head window
+      (band/strap/case...) E il topic head-noun NON e' quello stesso
+      accessorio. Casi-tema che SONO l'accessorio (yoga mat) NON sono esclusi.
     - nessuna regressione sui temi gia coperti (earbuds, vacuum, smartwatch,
       home gym, lighting).
 
@@ -61,6 +62,9 @@ ARTICLE_CASES = [
         [
             "Wireless Gaming Mouse 26000DPI RGB Rechargeable Ergonomic",
             "ATTACK SHARK X3 Bluetooth Gaming Mouse Lightweight",
+            # round 3: mouse veri da tenere
+            "Kensington Orbit 2.4G Wireless Trackball Mouse",
+            "Cheerdots 2 Detachable Air Mouse Wireless Presenter",
         ],
         [
             "QOOVI PD 100W Power Bank 20000mAh Fast Charging",
@@ -69,6 +73,11 @@ ARTICLE_CASES = [
             "LED Mouse Pad RGB Large Gaming",
             "Gaming Mousepad XL Extended Desk",
             "Mouse Mat Desk Waterproof",
+            # round 3: 'pad' spinto oltre la head window dal brand/marketing
+            "Wholesale Custom XXL Extended Gaming Mouse Pad Anti-Slip Rubber Base",
+            "Anime C-crayon Shin-chan Mouse Pad Gamer Computer Mousepad",
+            "FIFA 2026 World Cup Large Mouse Pad Desk Mat",
+            "Large Size Leather Desk Pad Office Desk Mat Waterproof",
         ],
     ),
     (
@@ -83,6 +92,10 @@ ARTICLE_CASES = [
             # round 2: accessori-del-tema (keycaps / switches)
             "PBT Keycaps Set 104 Keys Double Shot",
             "Gateron Switches Linear 70pcs",
+            # round 3: keycaps/switches spinti oltre la head window
+            "Black and White Theme Double Shot PBT Keyboard Keycaps Set 132 Keys",
+            "Gateron Milky Yellow Pro V3 Linear Mechanical Keyboard Switches 5pin",
+            "NPKC Cherry Profile PBT Keycap Dye Sublimation Mechanical Keyboard",
         ],
     ),
     (
@@ -134,6 +147,8 @@ ARTICLE_CASES = [
             "Smart Watch Men Bluetooth Call Heart Rate AMOLED",
             # device vero che cita 'band' come feature in coda: NON deve cadere
             "Smart Watch Men Bluetooth Call Heart Rate AMOLED Silicone Band",
+            # round 3: il termine SOFT 'band' resta head-window, device tenuto
+            "Smart Watch AMOLED Bluetooth Call Silicone Band 2026",
         ],
         [
             "Wall Adapter Charger 65W GaN",
@@ -183,6 +198,8 @@ def _build_accessory_fallback_case():
                 {"title": "Wireless Gaming Mouse 26000DPI RGB Ergonomic", "price": 19.9},
                 {"title": "LED Mouse Pad RGB Large Gaming", "price": 8.9},
                 {"title": "Gaming Mousepad XL Extended Desk", "price": 7.9},
+                # round 3: 'pad' oltre la head window, deve comunque cadere
+                {"title": "Wholesale Custom XXL Extended Gaming Mouse Pad", "price": 6.9},
             ]
         }
     }
@@ -251,7 +268,7 @@ def main() -> int:
     else:
         print("[2b] OK nessun power bank nel fallback (off-topic guard)")
 
-    # (3) rete di sicurezza build.py round 2: accessori-del-tema (mouse pad)
+    # (3) rete di sicurezza build.py round 2/3: accessori-del-tema (mouse pad)
     acc_cat = _build_accessory_fallback_case()
     out3 = build.related_products_section_html(
         "electronics", acc_cat, "https://example.com", "en", T,
