@@ -1,7 +1,7 @@
 {
-  "timestamp": 1782072290.8170068,
+  "timestamp": 1782112424.2901256,
   "slug": "aliexpress-cheap-drone-2026",
-  "updated_at": "2026-06-21T20:04:50Z",
+  "updated_at": "2026-06-22T07:13:44Z",
   "products": [
     {
       "product_id": "1005006527247866",
@@ -18,8 +18,8 @@
       "sales_volume": 8,
       "score": 0.3317,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:48Z",
-      "updated_at": "2026-06-21T20:04:48Z"
+      "fetched_at": "2026-06-22T07:13:42Z",
+      "updated_at": "2026-06-22T07:13:42Z"
     },
     {
       "product_id": "1005007724346145",
@@ -36,8 +36,8 @@
       "sales_volume": 3,
       "score": 0.1904,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:49Z",
-      "updated_at": "2026-06-21T20:04:49Z"
+      "fetched_at": "2026-06-22T07:13:42Z",
+      "updated_at": "2026-06-22T07:13:42Z"
     },
     {
       "product_id": "32827252281",
@@ -54,8 +54,8 @@
       "sales_volume": 394,
       "score": 0.1648,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:49Z",
-      "updated_at": "2026-06-21T20:04:49Z"
+      "fetched_at": "2026-06-22T07:13:43Z",
+      "updated_at": "2026-06-22T07:13:43Z"
     },
     {
       "product_id": "1005006504721039",
@@ -72,8 +72,8 @@
       "sales_volume": 7,
       "score": 0.1626,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:50Z",
-      "updated_at": "2026-06-21T20:04:50Z"
+      "fetched_at": "2026-06-22T07:13:43Z",
+      "updated_at": "2026-06-22T07:13:43Z"
     },
     {
       "product_id": "1005010033124789",
@@ -90,8 +90,8 @@
       "sales_volume": 4,
       "score": 0.1305,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:50Z",
-      "updated_at": "2026-06-21T20:04:50Z"
+      "fetched_at": "2026-06-22T07:13:43Z",
+      "updated_at": "2026-06-22T07:13:43Z"
     },
     {
       "product_id": "32818527353",
@@ -108,8 +108,8 @@
       "sales_volume": 25,
       "score": 0.127,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:50Z",
-      "updated_at": "2026-06-21T20:04:50Z"
+      "fetched_at": "2026-06-22T07:13:44Z",
+      "updated_at": "2026-06-22T07:13:44Z"
     }
   ]
 }

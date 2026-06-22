@@ -1,7 +1,7 @@
 {
-  "timestamp": 1782072293.8685572,
+  "timestamp": 1782112427.154966,
   "slug": "aliexpress-budget-tablet-2026",
-  "updated_at": "2026-06-21T20:04:53Z",
+  "updated_at": "2026-06-22T07:13:47Z",
   "products": [
     {
       "product_id": "1005006833947123",
@@ -18,8 +18,8 @@
       "sales_volume": 1617,
       "score": 0.2814,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:51Z",
-      "updated_at": "2026-06-21T20:04:51Z"
+      "fetched_at": "2026-06-22T07:13:45Z",
+      "updated_at": "2026-06-22T07:13:45Z"
     },
     {
       "product_id": "1005007544155863",
@@ -36,8 +36,8 @@
       "sales_volume": 1528,
       "score": 0.2734,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:51Z",
-      "updated_at": "2026-06-21T20:04:51Z"
+      "fetched_at": "2026-06-22T07:13:45Z",
+      "updated_at": "2026-06-22T07:13:45Z"
     },
     {
       "product_id": "1005003521430498",
@@ -54,8 +54,8 @@
       "sales_volume": 228,
       "score": 0.1164,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:52Z",
-      "updated_at": "2026-06-21T20:04:52Z"
+      "fetched_at": "2026-06-22T07:13:45Z",
+      "updated_at": "2026-06-22T07:13:45Z"
     },
     {
       "product_id": "1005009930725200",
@@ -72,8 +72,8 @@
       "sales_volume": 238,
       "score": 0.1157,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:52Z",
-      "updated_at": "2026-06-21T20:04:52Z"
+      "fetched_at": "2026-06-22T07:13:46Z",
+      "updated_at": "2026-06-22T07:13:46Z"
     },
     {
       "product_id": "1005006788528062",
@@ -90,8 +90,8 @@
       "sales_volume": 80,
       "score": 0.1027,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:52Z",
-      "updated_at": "2026-06-21T20:04:52Z"
+      "fetched_at": "2026-06-22T07:13:46Z",
+      "updated_at": "2026-06-22T07:13:46Z"
     },
     {
       "product_id": "1005002518919807",
@@ -108,8 +108,8 @@
       "sales_volume": 19,
       "score": 0.0988,
       "price_history": [],
-      "fetched_at": "2026-06-21T20:04:53Z",
-      "updated_at": "2026-06-21T20:04:53Z"
+      "fetched_at": "2026-06-22T07:13:47Z",
+      "updated_at": "2026-06-22T07:13:47Z"
     }
   ]
 }
