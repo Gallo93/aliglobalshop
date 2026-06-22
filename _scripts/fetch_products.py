@@ -410,6 +410,12 @@ _THEME_ACCESSORY_TERMS_HARD = [
      r'stabilizers?|stabs?'),
     (["wrist rest", "palm rest"],
      r'wrist\s+rest|palm\s+rest'),
+    # zoccoli hot-swap: componente di una tastiera meccanica, non una tastiera.
+    # Un device vero non contiene mai 'socket' (es. "10Pcs Hot Plug Socket for
+    # CORSAIR GATERON"). La protezione condizionale tiene comunque i topic il
+    # cui head-noun e' 'socket' (es. "smart socket"/"wall socket").
+    (["socket", "sockets", "hot plug socket", "hotswap socket", "hot swap socket"],
+     r'sockets?|hot\s*plug\s+sockets?|hot\s*swap\s+sockets?'),
 ]
 
 _THEME_ACCESSORY_TERMS_SOFT = [
