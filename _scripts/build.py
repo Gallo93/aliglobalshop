@@ -81,18 +81,29 @@ _FALLBACK_OFFTOPIC = re.compile(
 )
 
 # Accessori-del-tema scartati dalla rete di sicurezza del fallback di categoria,
-# stessa logica CONDIZIONALE di fetch_products.py (_THEME_ACCESSORY_TERMS): un
-# prodotto e' accessorio-del-tema se il titolo guida con un termine-accessorio
-# (mouse pad, keycaps, switches, watch strap...) E il topic-kw NON e' quello
-# stesso accessorio (articolo 'yoga mat'/'watch strap' -> il prodotto-tema E'
-# l'accessorio, niente esclusione). Ogni voce: (alias-testa, regex-fragment).
-_FALLBACK_ACCESSORY_TERMS = [
-    (["pad", "pads", "mousepad", "mouse mat", "desk mat"],
-     r'pads?|mouse\s*pads?|mousepads?|mouse\s+mat|desk\s+mat'),
+# stessa logica CONDIZIONALE di fetch_products.py (_THEME_ACCESSORY_TERMS_*): un
+# prodotto e' accessorio-del-tema se il titolo contiene un termine-accessorio E
+# il topic-kw NON e' quello stesso accessorio (articolo 'yoga mat'/'watch strap'
+# -> il prodotto-tema E' l'accessorio, niente esclusione).
+#
+# round 3 -- due classi:
+#   HARD: un device vero non contiene MAI queste parole (pad/mat, keycaps,
+#   switch meccanico, stabilizer, wrist/palm rest) -> match su TUTTO il titolo,
+#   perche' i titoli AliExpress spingono il sostantivo oltre i primi token.
+#   SOFT: possono comparire come feature in coda di un device vero (band, case,
+#   ...) -> match solo nella TESTA del titolo.
+# Ogni voce: (alias-testa, regex-fragment).
+_FALLBACK_ACCESSORY_TERMS_HARD = [
+    (["pad", "pads", "mousepad", "mousepads", "mouse pad", "mouse mat",
+      "desk pad", "desk mat", "mat"],
+     r'pads?|mouse\s*pads?|mousepads?|mouse\s+mat|desk\s+pad|desk\s+mat'),
     (["keycap", "keycaps", "key cap", "key caps"], r'keycaps?|key\s+caps?'),
     (["switch", "switches"], r'switch(?:es)?'),
     (["stabilizer", "stabilizers", "stab", "stabs"], r'stabilizers?|stabs?'),
     (["wrist rest", "palm rest"], r'wrist\s+rest|palm\s+rest'),
+]
+
+_FALLBACK_ACCESSORY_TERMS_SOFT = [
     (["strap", "straps"], r'straps?'),
     (["band", "bands"], r'bands?'),
     (["lanyard"], r'lanyard'),
@@ -107,40 +118,54 @@ _FALLBACK_ACCESSORY_TERMS = [
     (["protector", "protectors"], r'protectors?'),
 ]
 
-# Token iniziali del titolo considerati per decidere se l'accessorio E' il
-# prodotto (guida col proprio nome) e non una feature in coda di un device vero.
+# Token iniziali del titolo considerati per gli accessori SOFT (guida col
+# proprio nome) e non una feature in coda di un device vero.
 _FALLBACK_ACCESSORY_HEAD_WINDOW = 4
 
 
 def _build_fallback_accessory_pattern(topic_kws):
-    """Pattern-accessorio CONDIZIONALE per il fallback di categoria.
+    """Pattern-accessorio CONDIZIONALI per il fallback di categoria (round 3).
 
-    Avvolge i fragment di _FALLBACK_ACCESSORY_TERMS in un'unica alternanza,
-    SALVO i termini il cui alias-testa coincide con un topic-kw (cosi un
-    articolo che parla proprio dell'accessorio non lo esclude). Ritorna None se
-    non resta alcun termine o se topic_kws e' vuoto (nessuna esclusione)."""
+    Ritorna una COPPIA (hard_pattern, soft_pattern): i fragment HARD si cercano
+    su tutto il titolo, i SOFT solo sulla testa. In entrambe le classi vengono
+    RIMOSSI i termini il cui alias-testa coincide con un topic-kw (cosi un
+    articolo che parla proprio dell'accessorio non lo esclude). Ogni elemento e'
+    None se per quella classe non resta alcun termine o se topic_kws e' vuoto."""
     try:
         kws = {str(k).lower() for k in (topic_kws or [])}
-        fragments = []
-        for aliases, fragment in _FALLBACK_ACCESSORY_TERMS:
-            if kws & {a.lower() for a in aliases}:
-                continue
-            fragments.append(fragment)
-        if not fragments:
-            return None
-        return re.compile(r'\b(?:' + '|'.join(fragments) + r')\b', re.I)
+
+        def _compile(terms):
+            fragments = []
+            for aliases, fragment in terms:
+                if kws & {a.lower() for a in aliases}:
+                    continue
+                fragments.append(fragment)
+            if not fragments:
+                return None
+            return re.compile(r'\b(?:' + '|'.join(fragments) + r')\b', re.I)
+
+        return _compile(_FALLBACK_ACCESSORY_TERMS_HARD), _compile(_FALLBACK_ACCESSORY_TERMS_SOFT)
     except Exception:
-        return None
+        return None, None
 
 
-def _is_fallback_theme_accessory(title: str, accessory_pattern) -> bool:
-    """True se il titolo guida con un termine-accessorio (primi
-    _FALLBACK_ACCESSORY_HEAD_WINDOW token) secondo il pattern condizionale.
-    Con pattern None non esclude nulla."""
-    if not title or accessory_pattern is None:
+def _is_fallback_theme_accessory(title: str, accessory_patterns) -> bool:
+    """True se il titolo e' un accessorio-del-tema secondo i pattern
+    condizionali (round 3). accessory_patterns e' la coppia (hard, soft): hard
+    cerca su TUTTO il titolo, soft solo sui primi _FALLBACK_ACCESSORY_HEAD_WINDOW
+    token. Con None per una classe quella non esclude nulla."""
+    if not title or not accessory_patterns:
         return False
-    head = " ".join(re.findall(r"[a-z0-9]+", title.lower())[:_FALLBACK_ACCESSORY_HEAD_WINDOW])
-    return bool(accessory_pattern.search(head))
+    hard_pattern, soft_pattern = accessory_patterns
+    if hard_pattern is not None and hard_pattern.search(title):
+        return True
+    if soft_pattern is not None:
+        head = " ".join(
+            re.findall(r"[a-z0-9]+", title.lower())[:_FALLBACK_ACCESSORY_HEAD_WINDOW]
+        )
+        if soft_pattern.search(head):
+            return True
+    return False
 
 
 def _dynamic_topic_kws(text: str):
@@ -628,7 +653,7 @@ def related_products_section_html(
     # guidano col proprio nome (mouse pad, keycaps, watch strap...) a meno che il
     # topic-kw stesso sia quell'accessorio (yoga mat -> yoga mat tenuto).
     _acc_pat = _build_fallback_accessory_pattern(topic_kws)
-    if _acc_pat is not None:
+    if any(_acc_pat):
         candidates = [p for p in candidates
                       if not _is_fallback_theme_accessory(p.get("title", ""), _acc_pat)]
     if topic_kws:
