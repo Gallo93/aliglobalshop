@@ -89,6 +89,9 @@ ARTICLE_CASES = [
         [
             "Wireless Mechanical Keyboard 75% Hot Swappable RGB Gasket",
             "Mechanical Keyboard 87 Keys RGB Hot-Swappable",
+            # round 4: tastiera vera 'hot plug swap' SENZA la parola 'socket' ->
+            # il termine HARD 'socket' non la tocca.
+            "Attack Shark X86 Full-Key RGB Desktop Keyboard Hot Plug Swap",
         ],
         [
             "20000mAh Power Bank Portable Charger Dual USB",
@@ -99,6 +102,9 @@ ARTICLE_CASES = [
             "Black and White Theme Double Shot Keyboard Keycaps PBT",
             "Gateron Milky Yellow Pro V3 Linear Switches 5pin",
             "NPKC Cherry Profile PBT Keycap Set Dye Sub",
+            # round 4: zoccoli hot-swap (socket) -> HARD su tutto il titolo
+            "10Pcs/Set Mechanical Keyboard and Mouse Hot Plug Socket for CORSAIR GATERON",
+            "Kailh Hot Swap Socket PCB Mount 110pcs",
         ],
     ),
     (
@@ -109,6 +115,18 @@ ARTICLE_CASES = [
         ],
         [
             "Phone Holder Car Mount Magnetic Adapter",
+        ],
+    ),
+    # --- round 4: topic il cui head-noun E' 'socket' -> protezione condizionale
+    # disattiva il termine HARD 'socket', il prodotto-tema (smart socket) resta.
+    (
+        "Best AliExpress Smart Socket 2026",
+        "aliexpress smart socket",
+        [
+            "Smart WiFi Socket Plug 16A Tuya App Control",
+        ],
+        [
+            "Power Bank 20000mAh Fast Charging",
         ],
     ),
     # --- REGRESSIONE CRITICA: il prodotto-tema E' l'accessorio (yoga mat) ---

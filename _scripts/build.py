@@ -101,6 +101,11 @@ _FALLBACK_ACCESSORY_TERMS_HARD = [
     (["switch", "switches"], r'switch(?:es)?'),
     (["stabilizer", "stabilizers", "stab", "stabs"], r'stabilizers?|stabs?'),
     (["wrist rest", "palm rest"], r'wrist\s+rest|palm\s+rest'),
+    # zoccoli hot-swap: componente di una tastiera, non una tastiera. Un device
+    # vero non contiene mai 'socket' (es. "10Pcs Hot Plug Socket for GATERON").
+    # La protezione condizionale tiene comunque i topic 'smart/wall socket'.
+    (["socket", "sockets", "hot plug socket", "hotswap socket", "hot swap socket"],
+     r'sockets?|hot\s*plug\s+sockets?|hot\s*swap\s+sockets?'),
 ]
 
 _FALLBACK_ACCESSORY_TERMS_SOFT = [
