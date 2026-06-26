@@ -193,6 +193,23 @@ STATIC_PAGES = ["privacy", "about", "contact"]
 
 LOW_PRIORITY_PAGES = {"privacy", "about", "contact"}
 
+# Linkable data-report asset. Indexable (NOT noindex), same slug in every
+# language (like the blog), included in sitemap + hreflang. Every figure on the
+# page is recomputed from the real _data/ catalog at build time, so it
+# self-updates and never carries a fabricated statistic.
+REPORT_SLUG = "aliexpress-deals-report-2026"
+
+# USD price buckets for the report price-distribution chart. Half-open ranges
+# [low, high): the last band has high=None (open-ended). Currency-independent
+# (the buckets are applied to each language's own localized prices).
+REPORT_PRICE_BANDS = [
+    ("band_under_10", 0, 10),
+    ("band_10_25", 10, 25),
+    ("band_25_50", 25, 50),
+    ("band_50_100", 50, 100),
+    ("band_100_plus", 100, None),
+]
+
 
 def load_json(path: Path, default=None):
     if not path.exists():
@@ -1428,6 +1445,478 @@ def build_static_pages(site_url: str, lang: str, T: dict, out_dir: Path,
         print(f"  -> {lang}/{slug}/index.html")
 
 
+def _report_num(value):
+    """Parse a price-like value (float or '12.34' string) to float, else None."""
+    try:
+        return float(str(value).replace(",", "").strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def _mean1(values):
+    """Mean rounded to 1 decimal, or None for an empty list. Deterministic."""
+    nums = [v for v in values if isinstance(v, (int, float))]
+    if not nums:
+        return None
+    return round(sum(nums) / len(nums), 1)
+
+
+def _median2(values):
+    """Median of numeric values rounded to 2 decimals, or None when empty."""
+    nums = sorted(v for v in values if isinstance(v, (int, float)))
+    if not nums:
+        return None
+    mid = len(nums) // 2
+    if len(nums) % 2:
+        med = nums[mid]
+    else:
+        med = (nums[mid - 1] + nums[mid]) / 2
+    return round(med, 2)
+
+
+def compute_deals_report(products_by_cat: dict, flash_deals: list, coupons: list,
+                         today: str = None):
+    """Aggregate the REAL catalog into report figures. Pure and deterministic:
+    same inputs -> same output. Every number is derived from a real field
+    (price, original_price, discount_pct, category, rating, reviews_count);
+    nothing is invented. Returns None when there are no products to report on,
+    so the caller can skip the page rather than publish empty claims.
+
+    Prices stay in the units of the products passed in (USD for the EN catalog,
+    already-localized currency for the other languages), so the caller renders
+    them through format_price unchanged.
+    """
+    products = []
+    for slug in sorted(products_by_cat):
+        for p in (products_by_cat[slug] or {}).get("products", []):
+            products.append((slug, p))
+    if not products:
+        return None
+
+    discounts = [p.get("discount_pct") for _, p in products
+                 if isinstance(p.get("discount_pct"), (int, float))]
+    prices = [v for v in (_report_num(p.get("price")) for _, p in products)
+              if v is not None]
+    ratings = [p.get("rating") for _, p in products
+               if isinstance(p.get("rating"), (int, float)) and p.get("rating") > 0]
+    reviews = sum(p.get("reviews_count") or 0 for _, p in products)
+
+    bands = []
+    for key, low, high in REPORT_PRICE_BANDS:
+        count = sum(
+            1 for v in prices
+            if v >= low and (high is None or v < high)
+        )
+        bands.append({"key": key, "low": low, "high": high, "count": count})
+
+    niches = []
+    for slug in sorted(products_by_cat):
+        items = (products_by_cat[slug] or {}).get("products", [])
+        if not items:
+            continue
+        n_disc = [p.get("discount_pct") for p in items
+                  if isinstance(p.get("discount_pct"), (int, float))]
+        n_price = [v for v in (_report_num(p.get("price")) for p in items)
+                   if v is not None]
+        niches.append({
+            "slug": slug,
+            "count": len(items),
+            "avg_discount_pct": _mean1(n_disc) or 0.0,
+            "avg_price": round(sum(n_price) / len(n_price), 2) if n_price else None,
+        })
+
+    def _savings(item):
+        _, p = item
+        orig = _report_num(p.get("original_price"))
+        price = _report_num(p.get("price"))
+        if orig is None or price is None:
+            return -1.0
+        return round(orig - price, 2)
+
+    ranked = sorted(
+        products,
+        key=lambda it: (-_savings(it), str(it[1].get("product_id", ""))),
+    )
+    biggest_drops = []
+    for _, p in ranked[:5]:
+        orig = _report_num(p.get("original_price"))
+        price = _report_num(p.get("price"))
+        if orig is None or price is None or orig <= price:
+            continue
+        biggest_drops.append({
+            "title": p.get("title", ""),
+            "original_price": orig,
+            "price": price,
+            "discount_pct": p.get("discount_pct"),
+            "savings": round(orig - price, 2),
+        })
+
+    flash_disc = [d.get("discount_pct") for d in (flash_deals or [])
+                  if isinstance(d.get("discount_pct"), (int, float))]
+    coupon_disc = [c.get("discount_pct") for c in (coupons or [])
+                   if isinstance(c.get("discount_pct"), (int, float))]
+
+    return {
+        "generated_at": today or datetime.now(timezone.utc).date().isoformat(),
+        "products_tracked": len(products),
+        "deals_tracked": len(flash_deals or []),
+        "coupons_tracked": len(coupons or []),
+        "avg_discount_pct": _mean1(discounts) or 0.0,
+        "min_price": round(min(prices), 2) if prices else None,
+        "max_price": round(max(prices), 2) if prices else None,
+        "median_price": _median2(prices),
+        "avg_rating": _mean1(ratings),
+        "rated_count": len(ratings),
+        "total_reviews": reviews,
+        "price_bands": bands,
+        "niches": niches,
+        "biggest_drops": biggest_drops,
+        "flash_avg_discount_pct": _mean1(flash_disc),
+        "flash_max_discount_pct": max(flash_disc) if flash_disc else None,
+        "coupons_avg_discount_pct": _mean1(coupon_disc),
+        "coupons_min_discount_pct": min(coupon_disc) if coupon_disc else None,
+    }
+
+
+def _report_t(T: dict) -> dict:
+    """Report label dict with EN-default fallback so a missing localized key
+    never breaks the build (it degrades to the English string)."""
+    base = {
+        "h1": "AliExpress Deals Report 2026",
+        "title": "AliExpress Deals Report 2026: discounts and prices we track",
+        "meta_desc": "Original data on AliExpress deals tracked by AliGlobalShop: average discounts, price ranges and category breakdowns, refreshed daily.",
+        "og_title": "AliExpress Deals Report 2026",
+        "intro": "This report is rebuilt every day from the live catalog we track on AliGlobalShop. The figures below describe the deals we monitor, not the whole AliExpress marketplace.",
+        "updated_label": "Last updated",
+        "stat_products": "Products tracked",
+        "stat_avg_discount": "Average discount",
+        "stat_median_price": "Median price",
+        "stat_avg_rating": "Average rating",
+        "stat_reviews": "Buyer reviews counted",
+        "stat_deals": "Live flash deals",
+        "stat_coupons": "Top discounts tracked",
+        "h2_by_category": "Average Discount by Category",
+        "h2_price_dist": "Price Distribution",
+        "h2_table": "Category Breakdown",
+        "h2_drops": "Biggest Price Drops Right Now",
+        "h2_deals": "Flash Sales and Top Discounts",
+        "h2_methodology": "Methodology",
+        "h2_cite": "Cite or Embed This Report",
+        "col_category": "Category",
+        "col_products": "Products",
+        "col_avg_discount": "Avg discount",
+        "col_avg_price": "Avg price",
+        "col_product": "Product",
+        "col_was": "Was",
+        "col_now": "Now",
+        "col_off": "Off",
+        "deals_summary": "Across the live flash sale we track an average discount of {flash_avg}% (peaking at {flash_max}%). Our top-discounts page lists {coupons} markdowns of at least {coupons_min}% off.",
+        "methodology_body": "All figures on this page are computed automatically from {products} products, {deals} live flash deals and {coupons} tracked discounts on AliGlobalShop, last refreshed on {date}. Prices come from the original_price and current price fields of each listing, discounts from the seller-stated percentage, and ratings from buyer reviews. The numbers describe the deals we curate, not the entire AliExpress marketplace. Nothing here is estimated or modelled.",
+        "cite_intro": "This data is free to cite with attribution. Copy the snippet below, or download the raw dataset.",
+        "cite_download": "Download the dataset (JSON)",
+        "cite_snippet_text": "AliExpress Deals Report 2026 by AliGlobalShop",
+        "bars_unit": "off",
+        "price_unit_products": "products",
+    }
+    over = (T or {}).get("report", {})
+    if isinstance(over, dict):
+        base.update({k: v for k, v in over.items() if isinstance(v, str)})
+    return base
+
+
+def _report_band_label(T: dict, band: dict) -> str:
+    """Human label for a price band, localized via report.<key> with an EN
+    fallback that spells the numeric range (no currency assumptions)."""
+    r = (T or {}).get("report", {})
+    if isinstance(r, dict) and isinstance(r.get(band["key"]), str):
+        return r[band["key"]]
+    low, high = band["low"], band["high"]
+    sym = currency_symbol(T)
+    if high is None:
+        return f"{sym}{low}+"
+    return f"{sym}{low}-{sym}{high}"
+
+
+def _report_bar(label: str, value_text: str, pct: float, aria: str) -> str:
+    """One horizontal CSS bar (no JS, no image). `pct` is the fill 0-100."""
+    width = max(0.0, min(100.0, pct))
+    return (
+        '<div class="report-bar">'
+        f'<span class="report-bar__label">{esc(label)}</span>'
+        '<span class="report-bar__track">'
+        f'<span class="report-bar__fill" style="width:{width:.1f}%" '
+        f'role="img" aria-label="{esc(aria)}"></span></span>'
+        f'<span class="report-bar__value">{esc(value_text)}</span>'
+        '</div>'
+    )
+
+
+_REPORT_STYLE = (
+    "<style>"
+    ".report__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));"
+    "gap:14px;margin:24px 0}"
+    ".report__stat{background:#f6f7f9;border-radius:12px;padding:16px}"
+    ".report__stat b{display:block;font-size:1.6rem;line-height:1.1}"
+    ".report__stat span{display:block;font-size:.85rem;color:#555;margin-top:4px}"
+    ".report-bars{margin:18px 0;display:flex;flex-direction:column;gap:10px}"
+    ".report-bar{display:grid;grid-template-columns:130px 1fr 70px;align-items:center;gap:10px}"
+    ".report-bar__track{background:#eceef1;border-radius:999px;height:14px;overflow:hidden}"
+    ".report-bar__fill{display:block;height:100%;background:#ff5a3c;border-radius:999px}"
+    ".report-bar__value{text-align:right;font-variant-numeric:tabular-nums}"
+    ".report-table{width:100%;border-collapse:collapse;margin:14px 0}"
+    ".report-table th,.report-table td{padding:8px 10px;border-bottom:1px solid #e6e8eb;text-align:left}"
+    ".report-table td.num,.report-table th.num{text-align:right;font-variant-numeric:tabular-nums}"
+    ".report-cite textarea{width:100%;min-height:80px;font-family:monospace;font-size:.85rem;"
+    "padding:10px;border:1px solid #d4d7dc;border-radius:8px}"
+    "</style>"
+)
+
+
+def render_report_body(stats: dict, T: dict, site_url: str, lang: str) -> str:
+    """Build the inner HTML of the report page from the precomputed stats.
+    Every price goes through format_price; every heading and label is localized
+    through _report_t with an EN fallback. No em-dash, no JS, no external deps.
+    """
+    r = _report_t(T)
+    page_url = f"{site_url}/{lang}/{REPORT_SLUG}/"
+
+    def pct(x):
+        return f"{float(x):.1f}%" if isinstance(x, (int, float)) else "n/a"
+
+    def money(x):
+        return format_price(x, T) if x is not None else "n/a"
+
+    gen = stats.get("generated_at", "")
+    date_label = gen
+    months = (T or {}).get("months", {})
+    parts = gen.split("-")
+    if len(parts) == 3 and isinstance(months, dict) and months.get(parts[1]):
+        date_label = f"{int(parts[2])} {months[parts[1]]} {parts[0]}"
+
+    out = [_REPORT_STYLE]
+    out.append(f'<h1 class="page__title">{esc(r["h1"])}</h1>')
+    out.append(
+        f'<p class="page__lede">{esc(r["intro"])} '
+        f'<strong>{esc(r["updated_label"])}: {esc(date_label)}.</strong></p>'
+    )
+
+    # Snapshot stat grid.
+    cards = [
+        (str(stats["products_tracked"]), r["stat_products"]),
+        (pct(stats["avg_discount_pct"]), r["stat_avg_discount"]),
+        (money(stats["median_price"]), r["stat_median_price"]),
+        (str(stats["total_reviews"]), r["stat_reviews"]),
+        (str(stats["deals_tracked"]), r["stat_deals"]),
+        (str(stats["coupons_tracked"]), r["stat_coupons"]),
+    ]
+    if stats.get("avg_rating") is not None:
+        cards.insert(3, (f'{stats["avg_rating"]:.1f}', r["stat_avg_rating"]))
+    out.append('<div class="report__grid">')
+    for big, small in cards:
+        out.append(
+            f'<div class="report__stat"><b>{esc(big)}</b><span>{esc(small)}</span></div>'
+        )
+    out.append('</div>')
+
+    # Average discount by category (CSS bars).
+    out.append(f'<h2>{esc(r["h2_by_category"])}</h2>')
+    out.append('<div class="report-bars">')
+    max_disc = max((n["avg_discount_pct"] for n in stats["niches"]), default=0) or 1
+    for n in stats["niches"]:
+        name = category_name(T, n["slug"])
+        val = pct(n["avg_discount_pct"])
+        aria = f'{name}: {val} {r["bars_unit"]}'
+        out.append(_report_bar(name, val, n["avg_discount_pct"] / max_disc * 100, aria))
+    out.append('</div>')
+
+    # Price distribution (CSS bars).
+    out.append(f'<h2>{esc(r["h2_price_dist"])}</h2>')
+    out.append('<div class="report-bars">')
+    max_band = max((b["count"] for b in stats["price_bands"]), default=0) or 1
+    for b in stats["price_bands"]:
+        label = _report_band_label(T, b)
+        val = f'{b["count"]} {r["price_unit_products"]}'
+        aria = f'{label}: {val}'
+        out.append(_report_bar(label, val, b["count"] / max_band * 100, aria))
+    out.append('</div>')
+
+    # Category breakdown table.
+    out.append(f'<h2>{esc(r["h2_table"])}</h2>')
+    out.append('<table class="report-table"><thead><tr>'
+               f'<th>{esc(r["col_category"])}</th>'
+               f'<th class="num">{esc(r["col_products"])}</th>'
+               f'<th class="num">{esc(r["col_avg_discount"])}</th>'
+               f'<th class="num">{esc(r["col_avg_price"])}</th>'
+               '</tr></thead><tbody>')
+    for n in stats["niches"]:
+        out.append(
+            '<tr>'
+            f'<td>{esc(category_name(T, n["slug"]))}</td>'
+            f'<td class="num">{n["count"]}</td>'
+            f'<td class="num">{pct(n["avg_discount_pct"])}</td>'
+            f'<td class="num">{money(n["avg_price"])}</td>'
+            '</tr>'
+        )
+    out.append('</tbody></table>')
+
+    # Biggest price drops.
+    if stats["biggest_drops"]:
+        out.append(f'<h2>{esc(r["h2_drops"])}</h2>')
+        out.append('<table class="report-table"><thead><tr>'
+                   f'<th>{esc(r["col_product"])}</th>'
+                   f'<th class="num">{esc(r["col_was"])}</th>'
+                   f'<th class="num">{esc(r["col_now"])}</th>'
+                   f'<th class="num">{esc(r["col_off"])}</th>'
+                   '</tr></thead><tbody>')
+        for d in stats["biggest_drops"]:
+            disc = f'{d["discount_pct"]}%' if d.get("discount_pct") is not None else ""
+            out.append(
+                '<tr>'
+                f'<td>{esc(short_title(d["title"], 70))}</td>'
+                f'<td class="num">{money(d["original_price"])}</td>'
+                f'<td class="num">{money(d["price"])}</td>'
+                f'<td class="num">{esc(disc)}</td>'
+                '</tr>'
+            )
+        out.append('</tbody></table>')
+
+    # Flash + coupon summary (only the parts we actually have data for).
+    if stats.get("flash_avg_discount_pct") is not None or stats.get("coupons_avg_discount_pct") is not None:
+        out.append(f'<h2>{esc(r["h2_deals"])}</h2>')
+        summary = r["deals_summary"].format(
+            flash_avg=f'{stats.get("flash_avg_discount_pct") or 0:.1f}',
+            flash_max=stats.get("flash_max_discount_pct") or 0,
+            coupons=stats.get("coupons_tracked") or 0,
+            coupons_min=stats.get("coupons_min_discount_pct") or 0,
+        )
+        out.append(f'<p>{esc(summary)}</p>')
+
+    # Methodology (transparent).
+    out.append(f'<h2>{esc(r["h2_methodology"])}</h2>')
+    methodology = r["methodology_body"].format(
+        products=stats["products_tracked"],
+        deals=stats["deals_tracked"],
+        coupons=stats["coupons_tracked"],
+        date=date_label,
+    )
+    out.append(f'<p>{esc(methodology)}</p>')
+
+    # Cite / embed block (link-building magnet).
+    dataset_url = f"{site_url}/{REPORT_SLUG}.json"
+    snippet = (
+        f'<a href="{page_url}">{r["cite_snippet_text"]}</a>'
+    )
+    out.append(f'<h2>{esc(r["h2_cite"])}</h2>')
+    out.append('<div class="report-cite">')
+    out.append(f'<p>{esc(r["cite_intro"])}</p>')
+    out.append(f'<textarea readonly aria-label="{esc(r["h2_cite"])}">{esc(snippet)}</textarea>')
+    out.append(f'<p><a href="{esc(dataset_url)}" rel="nofollow">{esc(r["cite_download"])}</a></p>')
+    out.append('</div>')
+
+    body = "".join(out)
+    return sanitize_em_dash(body)
+
+
+def report_dataset_obj(stats: dict, site_url: str) -> dict:
+    """Language-neutral machine-readable dataset (USD, from the EN catalog).
+    Published at <site>/<REPORT_SLUG>.json so third parties can reuse the data."""
+    return {
+        "name": "AliExpress Deals Report 2026",
+        "description": "Aggregated discount, price and rating data for AliExpress "
+                       "deals tracked by AliGlobalShop. Self-updating, USD.",
+        "url": f"{site_url}/en/{REPORT_SLUG}/",
+        "currency": "USD",
+        "generated_at": stats.get("generated_at"),
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": "AliGlobalShop",
+        "metrics": {
+            "products_tracked": stats["products_tracked"],
+            "flash_deals_tracked": stats["deals_tracked"],
+            "coupons_tracked": stats["coupons_tracked"],
+            "avg_discount_pct": stats["avg_discount_pct"],
+            "min_price": stats["min_price"],
+            "max_price": stats["max_price"],
+            "median_price": stats["median_price"],
+            "avg_rating": stats["avg_rating"],
+            "rated_products": stats["rated_count"],
+            "total_reviews": stats["total_reviews"],
+            "flash_avg_discount_pct": stats["flash_avg_discount_pct"],
+            "flash_max_discount_pct": stats["flash_max_discount_pct"],
+            "coupons_avg_discount_pct": stats["coupons_avg_discount_pct"],
+            "coupons_min_discount_pct": stats["coupons_min_discount_pct"],
+        },
+        "price_bands": [
+            {"label": b["key"], "min": b["low"], "max": b["high"], "count": b["count"]}
+            for b in stats["price_bands"]
+        ],
+        "categories": stats["niches"],
+        "biggest_drops": stats["biggest_drops"],
+    }
+
+
+def report_dataset_jsonld(stats: dict, site_url: str) -> str:
+    """schema.org Dataset JSON-LD for the page head, pointing at the public
+    dataset file as its distribution."""
+    obj = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "AliExpress Deals Report 2026",
+        "description": "Original aggregated data on AliExpress discounts, prices "
+                       "and ratings tracked by AliGlobalShop, refreshed daily.",
+        "url": f"{site_url}/en/{REPORT_SLUG}/",
+        "creator": {"@type": "Organization", "name": SITE_TITLE,
+                    "url": f"{site_url}/"},
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "isAccessibleForFree": True,
+        "dateModified": stats.get("generated_at"),
+        "distribution": [{
+            "@type": "DataDownload",
+            "encodingFormat": "application/json",
+            "contentUrl": f"{site_url}/{REPORT_SLUG}.json",
+        }],
+    }
+    return json.dumps(obj, ensure_ascii=False)
+
+
+def build_deals_report(site_url: str, lang: str, T: dict, out_dir: Path,
+                       languages: list, default_lang: str,
+                       products_by_cat: dict, flash_deals: list, coupons: list) -> None:
+    """Render the data-report page for one language. Figures are recomputed from
+    THIS language's localized catalog so prices match the rest of the site."""
+    stats = compute_deals_report(products_by_cat, flash_deals, coupons)
+    if not stats:
+        print(f"  [warn] no products, skipping deals report for {lang}")
+        return
+    tpl = load_template("report.html")
+    r = _report_t(T)
+    ctx = base_context(site_url, lang, T, languages, default_lang)
+    ctx.update({
+        "title": head_title(r["title"], SITE_TITLE),
+        "meta_description": short_title(r["meta_desc"], 155),
+        "og_title": r["og_title"],
+        "og_desc": short_title(r["meta_desc"], 155),
+        "report_slug": REPORT_SLUG,
+        "report_crumb": esc(r["h1"]),
+        "canonical_url": f"{site_url}/{lang}/{REPORT_SLUG}/",
+        "hreflang_alternates": hreflang_alternates(site_url, f"{REPORT_SLUG}/", languages, default_lang),
+        "lang_switcher_html": lang_switcher_html(site_url, lang, f"{REPORT_SLUG}/", languages),
+        "dataset_jsonld": report_dataset_jsonld(stats, site_url),
+        "report_body_html": render_report_body(stats, T, site_url, lang),
+    })
+    page_out = out_dir / REPORT_SLUG
+    page_out.mkdir(parents=True, exist_ok=True)
+    (page_out / "index.html").write_text(render(tpl, ctx), encoding="utf-8")
+    print(f"  -> {lang}/{REPORT_SLUG}/index.html")
+
+
+def build_deals_report_dataset(stats: dict, site_url: str) -> None:
+    """Write the public dataset JSON to the output root (self-updating asset)."""
+    if not stats:
+        return
+    obj = report_dataset_obj(stats, site_url)
+    write_file(BASE_DIR / f"{REPORT_SLUG}.json", json.dumps(obj, ensure_ascii=False, indent=2))
+
+
 def _sitemap_priority(url: str, site_url: str) -> str:
     path = url[len(site_url):] if url.startswith(site_url) else url
     for slug in LOW_PRIORITY_PAGES:
@@ -1445,6 +1934,7 @@ def build_sitemap(site_url: str, languages: list, products_by_cat: dict, article
             f"{site_url}/{lang}/flash-sale/",
             f"{site_url}/{lang}/coupons/",
             f"{site_url}/{lang}/blog/",
+            f"{site_url}/{lang}/{REPORT_SLUG}/",
         ])
         for slug in STATIC_PAGES:
             urls.append(f"{site_url}/{lang}/{slug}/")
@@ -1646,6 +2136,8 @@ def build_language(site_url: str, lang: str, languages: list, default_lang: str,
     build_flash_sale(site_url, lang, T, out_dir, languages, default_lang, flash_deals, flash_updated)
     build_coupons(site_url, lang, T, out_dir, languages, default_lang, coupons, coupons_updated)
     build_static_pages(site_url, lang, T, out_dir, languages, default_lang)
+    build_deals_report(site_url, lang, T, out_dir, languages, default_lang,
+                       products_by_cat, flash_deals, coupons)
 
 
 def main() -> None:
@@ -1660,6 +2152,13 @@ def main() -> None:
 
     for lang in languages:
         build_language(site_url, lang, languages, default_lang, config)
+
+    # Public, language-neutral dataset (USD) computed once from the default-lang
+    # catalog, so third parties can reuse the raw numbers behind the report page.
+    report_flash, _ = load_flash_deals(default_lang)
+    report_coupons, _ = load_coupons(default_lang)
+    report_stats = compute_deals_report(sitemap_products, report_flash, report_coupons)
+    build_deals_report_dataset(report_stats, site_url)
 
     build_sitemap(site_url, languages, sitemap_products, sitemap_articles)
     build_robots(site_url)
