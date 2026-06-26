@@ -23,7 +23,9 @@
   <meta name="twitter:title" content="{{title}}">
   <meta name="twitter:description" content="{{meta_description}}">
   <meta name="twitter:image" content="{{og_image}}">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"{{title}}","image":"{{image_url}}","sku":"{{product_id}}","aggregateRating":{"@type":"AggregateRating","ratingValue":"{{rating}}","reviewCount":"{{reviews_count}}"},"offers":{"@type":"Offer","priceCurrency":"{{currency_code}}","price":"{{price}}","availability":"https://schema.org/InStock","url":"{{affiliate_url}}"}}</script>
+  <!-- Product JSON-LD removed: these pages are noindex (Google ignores their
+       structured data) and the fixed currency was incoherent with EUR locales.
+       BreadcrumbList stays (valid, localized). -->
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"{{t_breadcrumb_home}}","item":"{{site_url}}/{{lang}}/"},{"@type":"ListItem","position":2,"name":"{{category_name}}","item":"{{site_url}}/{{lang}}/{{category_slug}}/"},{"@type":"ListItem","position":3,"name":"{{title}}","item":"{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/"}]}</script>
 </head>
 <body>

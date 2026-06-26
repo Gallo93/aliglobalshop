@@ -317,6 +317,23 @@ def clean_alt(name: str, limit: int = 100) -> str:
         return alt_text(name, limit)
 
 
+def localized_card_alt(title: str, category_slug: str, T: dict, limit: int = 100) -> str:
+    """Alt text for category/home product cards: SKU/model codes removed
+    (clean_alt) and prefixed with the page-language category name (e.g.
+    "Elettronica: Auricolari wireless ...") so the alt is localized and not the
+    raw English SKU-laden title. Falls back to clean_alt on any error."""
+    try:
+        name = clean_alt(title, limit)
+        if category_slug:
+            cat = category_name(T, category_slug)
+            if cat:
+                prefix = f"{cat}: "
+                return truncate_word_boundary(prefix + name, limit + len(prefix))
+        return name
+    except Exception:
+        return clean_alt(title, limit)
+
+
 def reading_time_min(content_html: str, wpm: int = 200) -> int:
     """Estimate reading time in minutes from the article body word count.
 
@@ -550,7 +567,7 @@ def product_card_html(product: dict, category_slug: str, site_url: str, lang: st
     href = f"{site_url}/{lang}/{category_slug}/{esc(product.get('slug', ''))}/"
     img = esc(product.get("image_url", ""))
     title = esc(product.get("title", ""))
-    alt = esc(alt_text(product.get("title", "")))
+    alt = esc(localized_card_alt(product.get("title", ""), category_slug, T))
     price = format_price(product.get("price", ""), T)
     original = format_price(product.get("original_price", ""), T)
     disc = product.get("discount_pct") or 0
@@ -631,11 +648,12 @@ def coupon_card_html(coupon: dict, site_url: str, lang: str, T: dict) -> str:
     )
 
 
-def article_card_html(article: dict, site_url: str, lang: str, T: dict) -> str:
+def article_card_html(article: dict, site_url: str, lang: str, T: dict, fx_rate=None) -> str:
     slug = esc(article.get("slug", ""))
     title = esc(article.get("title", ""))
     date = esc(article.get("date", ""))
-    meta_desc = esc(article.get("meta_desc", article.get("meta_description", "")))
+    raw_meta = article.get("meta_desc", article.get("meta_description", ""))
+    meta_desc = esc(localize_prices_in_html(raw_meta, T, fx_rate))
     category = article.get("category", "")
     cat_name = category_name(T, category) if category else ""
     img = esc(article.get("image_url", ""))
@@ -845,10 +863,11 @@ def base_context(site_url: str, lang: str, T: dict, languages: list, default_lan
 
 
 def build_home(site_url: str, lang: str, T: dict, out_dir: Path,
-               languages: list, default_lang: str, flash_deals: list, articles: list) -> None:
+               languages: list, default_lang: str, flash_deals: list, articles: list,
+               fx_rate=None) -> None:
     tpl = load_template("home.html")
     flash_html = "".join(deal_card_html(d, site_url, lang, T) for d in flash_deals[:8])
-    blog_html = "".join(article_card_html(a, site_url, lang, T) for a in articles[:6])
+    blog_html = "".join(article_card_html(a, site_url, lang, T, fx_rate) for a in articles[:6])
     ctx = base_context(site_url, lang, T, languages, default_lang)
     h = T.get("home", {})
     for key, value in h.items():
@@ -982,7 +1001,8 @@ def build_products(site_url: str, lang: str, T: dict, out_dir: Path,
 
 
 def build_blog_index(site_url: str, lang: str, T: dict, out_dir: Path,
-                     languages: list, default_lang: str, articles: list) -> None:
+                     languages: list, default_lang: str, articles: list,
+                     fx_rate=None) -> None:
     tpl = load_template("blog-index.html")
     bi = T.get("blog_index", {})
     months = T.get("months", {})
@@ -1032,14 +1052,14 @@ def build_blog_index(site_url: str, lang: str, T: dict, out_dir: Path,
         archive_section_html = ""
 
     ctx["articles_html"] = (
-        "".join(article_card_html(a, site_url, lang, T) for a in recent_articles)
+        "".join(article_card_html(a, site_url, lang, T, fx_rate) for a in recent_articles)
         or f'<p>{T["ui"].get("no_articles", "")}</p>'
     )
     ctx["archive_section_html"] = archive_section_html
     write_file(out_dir / "blog" / "index.html", render(tpl, ctx))
 
 
-def related_articles_section_html(current: dict, articles: list, site_url: str, lang: str, T: dict, limit: int = 3) -> str:
+def related_articles_section_html(current: dict, articles: list, site_url: str, lang: str, T: dict, limit: int = 3, fx_rate=None) -> str:
     current_slug = current.get("slug", "")
     current_cat = current.get("category", "")
     pool = [a for a in articles if a.get("slug", "") != current_slug]
@@ -1056,7 +1076,7 @@ def related_articles_section_html(current: dict, articles: list, site_url: str, 
                 break
     if not picked:
         return ""
-    cards = "".join(article_card_html(a, site_url, lang, T) for a in picked)
+    cards = "".join(article_card_html(a, site_url, lang, T, fx_rate) for a in picked)
     title = T.get("blog_post", {}).get("related_articles", "Related articles")
     return (
         '<section class="related-articles">'
@@ -1119,18 +1139,56 @@ def _norm_heading(text):
     return re.sub(r"\s+", "", text).strip().lower()
 
 
+# Generic words shared by most titles/headings across the active languages.
+# Excluded from the fuzzy overlap so a high score reflects the *topic* words
+# (e.g. "drones", "cheap"), not filler ("the", "best", "2026").
+_HEADING_STOPWORDS = set(_DANGLING_TAIL) | {
+    "best", "top", "guide", "review", "reviews", "aliexpress", "2025", "2026",
+    "for", "of", "on", "in", "deals", "deal",
+    "migliori", "guida", "offerte", "recensioni", "per",            # IT
+    "mejores", "guia", "ofertas", "resenas", "para",                # ES
+    "meilleurs", "meilleures", "offres", "avis",                    # FR
+    "beste", "besten", "angebote", "test", "tests", "ratgeber",     # DE
+}
+
+
+def _heading_tokens(text):
+    """Lowercased word-token set for a heading/title: HTML and currency removed,
+    split on non-letters/digits, stopwords dropped. Used by the fuzzy first-H2
+    check so a paraphrase of the title is detected (token containment/overlap),
+    not only a byte-for-byte echo."""
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    text = _CUR_ENT_RE.sub(" ", text)
+    toks = re.findall(r"[^\W\d_]+|\d+", text.lower(), re.UNICODE)
+    return {t for t in toks if len(t) > 1 and t not in _HEADING_STOPWORDS}
+
+
 def _drop_duplicate_first_h2(content_html, title):
-    """M1: remove the first h2 when it just repeats the H1 (case-insensitive,
-    ignoring currency symbols and whitespace)."""
+    """M1: remove the first h2 when it just echoes OR paraphrases the H1.
+
+    Exact match: normalized (no tags/currency/whitespace, lowercase) equality,
+    the original conservative behaviour. Fuzzy match: after dropping shared
+    stopwords, the title's topic tokens are all contained in the H2, or the
+    token overlap (Jaccard) is >= 0.8. Only the FIRST h2 is ever removed and
+    only when the title carries >= 2 meaningful tokens, so legitimate
+    sub-headings (low overlap) are kept. Falls back to no-op on error."""
     if not content_html:
         return content_html
     try:
         m = re.search(r"<h2[^>]*>(.*?)</h2>", content_html, re.DOTALL | re.IGNORECASE)
         if not m:
             return content_html
-        nh = _norm_heading(m.group(1))
-        if nh and nh == _norm_heading(title):
+        h2_raw = m.group(1)
+        if _norm_heading(h2_raw) == _norm_heading(title) and _norm_heading(title):
             return content_html[:m.start()] + content_html[m.end():]
+        title_toks = _heading_tokens(title)
+        h2_toks = _heading_tokens(h2_raw)
+        if len(title_toks) >= 2 and h2_toks:
+            contained = title_toks.issubset(h2_toks)
+            inter = len(title_toks & h2_toks)
+            union = len(title_toks | h2_toks) or 1
+            if contained or (inter / union) >= 0.8:
+                return content_html[:m.start()] + content_html[m.end():]
         return content_html
     except Exception:
         return content_html
@@ -1300,7 +1358,7 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             content_html, site_url, lang, T, category_slug, _related_pool)
         faq_schema_html = _extract_faq_schema(content_html)
         related_articles_html = related_articles_section_html(
-            article, visible_articles(articles), site_url, lang, T, limit=3)
+            article, visible_articles(articles), site_url, lang, T, limit=3, fx_rate=fx_rate)
         ctx = base_context(site_url, lang, T, languages, default_lang)
         ctx["bp_min_read"] = bp.get("min_read", "min read")
         ctx["bp_ai_note"] = bp.get("ai_note", "AI-assisted content")
@@ -1317,7 +1375,9 @@ def build_blog_posts(site_url: str, lang: str, T: dict, out_dir: Path,
             "slug": esc(slug),
             "date": esc(article.get("date", "")),
             "meta_description": esc(truncate_word_boundary(
-                article.get("meta_desc", article.get("meta_description", "")), 155)),
+                localize_prices_in_html(
+                    article.get("meta_desc", article.get("meta_description", "")),
+                    T, fx_rate), 155)),
             "content_html": content_html,
             "reading_time_min": esc(article.get("reading_time_min")
                                     or reading_time_min(content_html)),
@@ -2128,10 +2188,10 @@ def build_language(site_url: str, lang: str, languages: list, default_lang: str,
           f"(+{len(articles) - len(listed)} stub) "
           f"flash={len(flash_deals)} coupons={len(coupons)}")
 
-    build_home(site_url, lang, T, out_dir, languages, default_lang, flash_deals, listed)
+    build_home(site_url, lang, T, out_dir, languages, default_lang, flash_deals, listed, fx_rate)
     build_categories(site_url, lang, T, out_dir, languages, default_lang, products_by_cat)
     build_products(site_url, lang, T, out_dir, languages, default_lang, products_by_cat)
-    build_blog_index(site_url, lang, T, out_dir, languages, default_lang, listed)
+    build_blog_index(site_url, lang, T, out_dir, languages, default_lang, listed, fx_rate)
     build_blog_posts(site_url, lang, T, out_dir, languages, default_lang, articles, products_by_cat, fx_rate)
     build_flash_sale(site_url, lang, T, out_dir, languages, default_lang, flash_deals, flash_updated)
     build_coupons(site_url, lang, T, out_dir, languages, default_lang, coupons, coupons_updated)
