@@ -164,7 +164,8 @@
     "primary_keyword": "best wireless earbuds for running",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-27"
   },
   {
     "topic": "How to choose a portable monitor for working on the go",
