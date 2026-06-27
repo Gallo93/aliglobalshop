@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-06-27T14:29:13Z",
+  "updated_at": "2026-06-27T23:01:00Z",
   "products": [
     {
       "product_id": "1005007480971055",
@@ -17,8 +17,8 @@
       "sales_volume": 325,
       "score": 0.2772,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:03Z",
-      "updated_at": "2026-06-27T14:29:03Z"
+      "fetched_at": "2026-06-27T23:00:52Z",
+      "updated_at": "2026-06-27T23:00:52Z"
     },
     {
       "product_id": "1005009210852728",
@@ -35,8 +35,8 @@
       "sales_volume": 56,
       "score": 0.2557,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:04Z",
-      "updated_at": "2026-06-27T14:29:04Z"
+      "fetched_at": "2026-06-27T23:00:52Z",
+      "updated_at": "2026-06-27T23:00:52Z"
     },
     {
       "product_id": "1005012124170204",
@@ -53,8 +53,8 @@
       "sales_volume": 13,
       "score": 0.2516,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:04Z",
-      "updated_at": "2026-06-27T14:29:04Z"
+      "fetched_at": "2026-06-27T23:00:52Z",
+      "updated_at": "2026-06-27T23:00:52Z"
     },
     {
       "product_id": "1005010617846135",
@@ -71,8 +71,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:05Z",
-      "updated_at": "2026-06-27T14:29:05Z"
+      "fetched_at": "2026-06-27T23:00:53Z",
+      "updated_at": "2026-06-27T23:00:53Z"
     },
     {
       "product_id": "1005012075932423",
@@ -89,8 +89,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:05Z",
-      "updated_at": "2026-06-27T14:29:05Z"
+      "fetched_at": "2026-06-27T23:00:53Z",
+      "updated_at": "2026-06-27T23:00:53Z"
     },
     {
       "product_id": "1005012084510405",
@@ -107,8 +107,8 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:06Z",
-      "updated_at": "2026-06-27T14:29:06Z"
+      "fetched_at": "2026-06-27T23:00:54Z",
+      "updated_at": "2026-06-27T23:00:54Z"
     },
     {
       "product_id": "1005012234681022",
@@ -125,8 +125,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:06Z",
-      "updated_at": "2026-06-27T14:29:06Z"
+      "fetched_at": "2026-06-27T23:00:54Z",
+      "updated_at": "2026-06-27T23:00:54Z"
     },
     {
       "product_id": "1005012394969983",
@@ -143,8 +143,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:07Z",
-      "updated_at": "2026-06-27T14:29:07Z"
+      "fetched_at": "2026-06-27T23:00:54Z",
+      "updated_at": "2026-06-27T23:00:54Z"
     },
     {
       "product_id": "1005012348679190",
@@ -161,8 +161,8 @@
       "sales_volume": 1,
       "score": 0.2501,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:07Z",
-      "updated_at": "2026-06-27T14:29:07Z"
+      "fetched_at": "2026-06-27T23:00:55Z",
+      "updated_at": "2026-06-27T23:00:55Z"
     },
     {
       "product_id": "1005010000531819",
@@ -179,8 +179,8 @@
       "sales_volume": 17,
       "score": 0.247,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:08Z",
-      "updated_at": "2026-06-27T14:29:08Z"
+      "fetched_at": "2026-06-27T23:00:55Z",
+      "updated_at": "2026-06-27T23:00:55Z"
     },
     {
       "product_id": "1005012259681107",
@@ -197,8 +197,8 @@
       "sales_volume": 15,
       "score": 0.2385,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:08Z",
-      "updated_at": "2026-06-27T14:29:08Z"
+      "fetched_at": "2026-06-27T23:00:56Z",
+      "updated_at": "2026-06-27T23:00:56Z"
     },
     {
       "product_id": "1005011981593933",
@@ -215,8 +215,8 @@
       "sales_volume": 8,
       "score": 0.236,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:09Z",
-      "updated_at": "2026-06-27T14:29:09Z"
+      "fetched_at": "2026-06-27T23:00:56Z",
+      "updated_at": "2026-06-27T23:00:56Z"
     },
     {
       "product_id": "1005010401185659",
@@ -233,8 +233,8 @@
       "sales_volume": 6,
       "score": 0.2357,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:09Z",
-      "updated_at": "2026-06-27T14:29:09Z"
+      "fetched_at": "2026-06-27T23:00:57Z",
+      "updated_at": "2026-06-27T23:00:57Z"
     },
     {
       "product_id": "1005007395412166",
@@ -251,8 +251,8 @@
       "sales_volume": 14,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:10Z",
-      "updated_at": "2026-06-27T14:29:10Z"
+      "fetched_at": "2026-06-27T23:00:57Z",
+      "updated_at": "2026-06-27T23:00:57Z"
     },
     {
       "product_id": "1005007390539177",
@@ -269,8 +269,8 @@
       "sales_volume": 10,
       "score": 0.2241,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:10Z",
-      "updated_at": "2026-06-27T14:29:10Z"
+      "fetched_at": "2026-06-27T23:00:58Z",
+      "updated_at": "2026-06-27T23:00:58Z"
     },
     {
       "product_id": "1005009589681770",
@@ -287,8 +287,8 @@
       "sales_volume": 4,
       "score": 0.2235,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:11Z",
-      "updated_at": "2026-06-27T14:29:11Z"
+      "fetched_at": "2026-06-27T23:00:58Z",
+      "updated_at": "2026-06-27T23:00:58Z"
     },
     {
       "product_id": "1005012408073378",
@@ -305,8 +305,8 @@
       "sales_volume": 2,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:11Z",
-      "updated_at": "2026-06-27T14:29:11Z"
+      "fetched_at": "2026-06-27T23:00:59Z",
+      "updated_at": "2026-06-27T23:00:59Z"
     },
     {
       "product_id": "1005004795431881",
@@ -323,8 +323,26 @@
       "sales_volume": 10,
       "score": 0.2079,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:12Z",
-      "updated_at": "2026-06-27T14:29:12Z"
+      "fetched_at": "2026-06-27T23:00:59Z",
+      "updated_at": "2026-06-27T23:00:59Z"
+    },
+    {
+      "product_id": "1005005363741032",
+      "title": "BlitzWolf BW-V5 V5 Max LED Projektor 1080P HD 9000 Lumen Portable Filmtheater Kompatibel mit TV Stick Home Theater Video",
+      "slug": "blitzwolf-bw-v5-v5-max-led-projector-1080p-hd-9000-lumens-po",
+      "price": 116.5,
+      "original_price": 179.23,
+      "discount_pct": 35,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mrP7c7HOXQtvtoVDeLzxsxyK0SJ5XW8yUPwLQbSyQabwntROTt1B4yCu0Y0cnZOQ8GuP7xdC61zjMpcdk46vGCRjeHGthScqkcJ29qOiZafnZstuY7VbRBxo3dnqg6BvziqA9ak40eSw4HeSxjlCYbSqhJMReFO3T0zbEGsRTSBpzs3sR9YaT7KAuqxl7vmnZ2iIAXccb0X5TcaFfA7GYePoKAEyVQ2IkEk8dXE5WHrcRtcWKmUmM2dOLRVeaoHT4yWNudEJuDo3hY78YRxLUQ9aKkKYaW8vzPPK4VQ2BBvpJcZ8oEluMuyh9Xv4l7VHuNYtuyzLJCYY6UQ7uAJ87obYCseakr4dg7EQXnCML0l9J4uijHgKDgW1t8os5Hl6lvQ9nJoeCiPfjCSffrbYQ5w9Bv6qedgtK8pds1BjzDFOQTyd6NWMazeTv05vnrRgtpeNKFFRUXM63GL055nU190WHr5qXLdoEbZhVs46T0pMmSr4tYZVI08SJTE5AIOO5Lt8KljRETQeJ6xbhNJfcsLpW68lPZbQqwMyWcwV5Hh6Ctre3K2JMwRuj2cTyVqAifakYLObppDOvbrZXXDRAdJcruooZo0mDYFzrvonjUShwPGc3crssUiGqgBK1NsPKc1QUK4W7pgsnmaDZiNkZh1urdQvx6J3RMq6rZFp6QXHiATspUysQtQhcA1BzkryKFlODQYrZQT09",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782450460/products/1005005363741032.webp",
+      "category": "gadgets",
+      "rating": 5.0,
+      "reviews_count": 9,
+      "sales_volume": 9,
+      "score": 0.2061,
+      "price_history": [],
+      "fetched_at": "2026-06-27T23:00:59Z",
+      "updated_at": "2026-06-27T23:00:59Z"
     },
     {
       "product_id": "1005010233572038",
@@ -341,26 +359,8 @@
       "sales_volume": 13,
       "score": 0.1986,
       "price_history": [],
-      "fetched_at": "2026-06-27T14:29:12Z",
-      "updated_at": "2026-06-27T14:29:12Z"
-    },
-    {
-      "product_id": "1005009849333993",
-      "title": "15W Magsafe Wireless Ladegerät mit Kabelstand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
-      "slug": "15w-magsafe-wireless-charger-with-cable-stand-pd-225w-fast-c",
-      "price": 14.87,
-      "original_price": 24.78,
-      "discount_pct": 40,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EvPHGMBVr4sxSigi9U1pDm3gN8zpvx9WpacfERMy8XVpwEpQHaKG3GJCqe3D4oDVEvQVLI1zBhWUCwUNzErigHKKimWg4VbUejsEioc5xV2CG0jYVx3AOf5iBYwRcffvLfRyqtFO2duD6XzcUPkzG4cxvPGWeLX3hOa5oiGUcmYah34gPUBMSazLoq5GHCVvw5vxS8y7a3K0HBDKVpHqPG0vXvsCpGlGRgBpOiDngRMu0PGhpiLGFPJqafFFLMqEqjfQKiA2l26lQbHeNgSiLNnKYfzZRoEPuwIHvIdIKRCoPB1ULawsQGzf8DMTYyphb3bROEwhJm1LCbzTFV6fBLHjVy1Uc1GgEfEpHsrgg6KleXGxlVumcDZPOCoHquNRBFzG61pec5JmctoxRyHJcx18qAXlorwUM47I2cPfBt1jlQZmjJNezSpcoe7eosWaz3qVO0yNlkauUP17RufvpkG7gmJ7StkBQR4SC2a8DapXCB42u2e09fCSPvhWOXgz2DyT4K7sJcbc6O0qBxyZl4yEoTRVc0AMOsvnzGNVVoAv0x8LxNpWftse651bhiOoeQ353fbKydNSOqS7CZrnJAZYmR6znj6EgiNwdXpQUDefoboM2FGIqHMughj3RMAkJDunGroITCosJ1gONyAhZlcRSuBWz9THpbK8GpNjUglmZsZcbRhfQdPD1twJuvvPEUfH0qRT8MGNW",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780614105/products/1005009849333993.webp",
-      "category": "gadgets",
-      "rating": 3.5,
-      "reviews_count": 8,
-      "sales_volume": 8,
-      "score": 0.191,
-      "price_history": [],
-      "fetched_at": "2026-06-27T14:29:13Z",
-      "updated_at": "2026-06-27T14:29:13Z"
+      "fetched_at": "2026-06-27T23:01:00Z",
+      "updated_at": "2026-06-27T23:01:00Z"
     }
   ]
 }
