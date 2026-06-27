@@ -150,6 +150,38 @@ def test_happy_path():
     print("[ok] happy path: 5 file, calendario, cache, staging puliti")
 
 
+# --- regressione B1: generate_blog importabile senza anthropic ---------------
+
+def test_generate_blog_imports_without_anthropic():
+    """Il fallback manuale gira in CI senza `pip install` (niente anthropic).
+    publish_manual_article importa generate_blog: quest'ultimo NON deve tirarsi
+    dietro `anthropic` a livello di modulo. Simuliamo l'assenza di anthropic con
+    un finder che fa fallire il suo import e re-importiamo generate_blog."""
+    import importlib
+
+    class _Blocker:
+        def find_spec(self, name, path=None, target=None):
+            if name == "anthropic" or name.startswith("anthropic."):
+                raise ImportError("anthropic bloccato per il test")
+            return None
+
+    saved_anthropic = sys.modules.pop("anthropic", None)
+    saved_gb = sys.modules.pop("generate_blog", None)
+    blocker = _Blocker()
+    sys.meta_path.insert(0, blocker)
+    try:
+        importlib.import_module("generate_blog")
+    finally:
+        if blocker in sys.meta_path:
+            sys.meta_path.remove(blocker)
+        sys.modules.pop("generate_blog", None)
+        if saved_gb is not None:
+            sys.modules["generate_blog"] = saved_gb
+        if saved_anthropic is not None:
+            sys.modules["anthropic"] = saved_anthropic
+    print("[ok] regressione B1: generate_blog importa senza anthropic")
+
+
 # --- atomicita': lingua mancante ---------------------------------------------
 
 def test_reject_missing_language():
@@ -162,6 +194,18 @@ def test_reject_missing_language():
         assert not _dest(data, lang).exists(), f"NESSUN file deve essere scritto ({lang})"
     assert not (data / ".translate_cache.json").exists(), "cache non deve essere scritta"
     print("[ok] reject: lingua mancante, atomicita' rispettata")
+
+
+# --- meta_desc troppo lunga (hard limit 155) ---------------------------------
+
+def test_reject_meta_too_long():
+    staging = _default_staging()
+    staging["it"]["meta_desc"] = "A" * 156
+    data, _ = _run_in_tmp(staging)
+    rc = pma.run(dry_run=False)
+    assert rc != 0, "meta_desc >155 deve fallire"
+    assert not _dest(data, "it").exists()
+    print("[ok] reject: meta_desc troppo lunga (>155)")
 
 
 # --- em-dash -----------------------------------------------------------------
@@ -254,7 +298,9 @@ def test_dry_run_writes_nothing():
 
 _TESTS = [
     test_happy_path,
+    test_generate_blog_imports_without_anthropic,
     test_reject_missing_language,
+    test_reject_meta_too_long,
     test_reject_em_dash,
     test_reject_bad_slug_nonascii,
     test_reject_slug_too_long,

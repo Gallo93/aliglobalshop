@@ -10,8 +10,6 @@ import sys
 from datetime import date
 from pathlib import Path
 
-import anthropic
-
 BASE_DIR = Path(__file__).parent.parent
 BLOG_DIR = BASE_DIR / "_data" / "blog" / "en"
 CALENDAR_PATH = BASE_DIR / "_data" / "blog-calendar-en.json"
@@ -184,6 +182,10 @@ def call_anthropic(prompt: str) -> str:
     if not ANTHROPIC_API_KEY:
         print("[blog] missing ANTHROPIC_API_KEY", file=sys.stderr)
         sys.exit(2)
+    # Import lazy: il fallback manuale (publish_manual_article) importa questo
+    # modulo per riusare _topic_key senza avere anthropic installato (workflow
+    # pip-free, zero credito). anthropic serve solo qui.
+    import anthropic
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     try:
         msg = client.messages.create(

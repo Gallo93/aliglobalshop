@@ -56,9 +56,8 @@ _NICHE_FALLBACK = ["electronics", "smart-home", "sport", "gadgets"]
 _REQUIRED_FIELDS = ("title", "slug", "content_html", "meta_desc",
                     "category", "primary_keyword")
 
-# Soft/hard limits (mirror generate_blog STRICT REQUIREMENTS).
-_META_WARN = 155
-_META_MAX = 160
+# Hard limits (mirror generate_blog STRICT REQUIREMENTS).
+_META_MAX = 155
 _EN_TITLE_MAX = 43
 _OTHER_TITLE_WARN = 60
 _SLUG_MAX = 60
@@ -187,13 +186,10 @@ def validate(staging: dict, languages: list, niches: list,
                 errors.append(f"{lang}.json: em-dash (—) vietato nel campo "
                               f"'{field}'")
 
-        # meta_desc length.
+        # meta_desc length (hard limit, STRICT standard di generate_blog).
         meta = data.get("meta_desc") or ""
         if len(meta) > _META_MAX:
             errors.append(f"{lang}.json: meta_desc {len(meta)} char > {_META_MAX}")
-        elif len(meta) > _META_WARN:
-            warnings.append(f"{lang}.json: meta_desc {len(meta)} char > "
-                            f"{_META_WARN} (consigliato piu' corto)")
 
         # Title length.
         title = data.get("title") or ""
