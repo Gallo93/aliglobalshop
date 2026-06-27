@@ -8,6 +8,7 @@ Miglioramenti:
 - Filtri prezzo/sconto
 - Cache API con TTL 24h (UNIX timestamp)
 """
+import argparse
 import hashlib
 import hmac
 import json
@@ -753,34 +754,35 @@ def fetch_niche(niche: str, keywords: list) -> list:
     return scored
 
 
-def main():
+def main(articles_only: bool = False):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     if not APP_KEY or not APP_SECRET:
         raise SystemExit("[ERROR] ALIEXPRESS_APP_KEY / ALIEXPRESS_APP_SECRET mancanti in .env")
 
-    for niche in boosted_niche_order(list(NICHES.keys())):
-        keywords = NICHES[niche]
-        print(f"\n[{niche}] fetching {len(keywords)} keywords...")
-        top = fetch_niche(niche, keywords)
-        products = []
-        for raw in top:
-            product_id = str(raw.get("product_id", ""))
-            image_url = raw.get("product_main_image_url", "")
-            hosted = upload_image(image_url, product_id) if image_url else ""
-            products.append(build_product(raw, niche, hosted))
-            time.sleep(0.2)
+    if not articles_only:
+        for niche in boosted_niche_order(list(NICHES.keys())):
+            keywords = NICHES[niche]
+            print(f"\n[{niche}] fetching {len(keywords)} keywords...")
+            top = fetch_niche(niche, keywords)
+            products = []
+            for raw in top:
+                product_id = str(raw.get("product_id", ""))
+                image_url = raw.get("product_main_image_url", "")
+                hosted = upload_image(image_url, product_id) if image_url else ""
+                products.append(build_product(raw, niche, hosted))
+                time.sleep(0.2)
 
-        output = {
-            "niche": niche,
-            "updated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-            "products": products,
-        }
-        out_path = OUTPUT_DIR / f"{niche}.json"
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(output, f, ensure_ascii=False, indent=2)
-        print(f"  -> {len(products)} prodotti -> {out_path}")
-        time.sleep(1)
+            output = {
+                "niche": niche,
+                "updated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "products": products,
+            }
+            out_path = OUTPUT_DIR / f"{niche}.json"
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(output, f, ensure_ascii=False, indent=2)
+            print(f"  -> {len(products)} prodotti -> {out_path}")
+            time.sleep(1)
 
     print("\n[article products] fetching article-specific products...")
     fetch_article_products(
@@ -792,4 +794,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(
+        description="Fetch prodotti AliExpress (nicchie + article-specific).")
+    parser.add_argument(
+        "--articles-only", action="store_true",
+        help="salta il fetch delle nicchie, fa SOLO i prodotti article-specific",
+    )
+    args = parser.parse_args()
+    main(articles_only=args.articles_only)

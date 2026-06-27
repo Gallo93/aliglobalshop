@@ -1,8 +1,10 @@
 name: Publish Manual Blog Article
 
-# Percorso di FALLBACK senza credito Anthropic: promuove l'articolo gia'
-# scritto a mano in _data/blog/_manual/ (tutte le lingue) alla destinazione.
-# Nessun pip install (script stdlib puro), nessun ANTHROPIC_API_KEY.
+# Percorso di FALLBACK senza credito Anthropic, END-TO-END in UN solo dispatch:
+# promuove l'articolo gia' scritto a mano in _data/blog/_manual/ (5 lingue) ->
+# matcha i prodotti correlati via AliExpress (NO Anthropic) -> traduce i
+# prodotti _article in argos -> commit unico -> dispatcha deploy.yml.
+# NIENTE ANTHROPIC_API_KEY in nessuno step: zero credito.
 
 on:
   workflow_dispatch:
@@ -16,6 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -28,8 +31,35 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Publish staged article
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Promote manual article
         run: python _scripts/publish_manual_article.py
+
+      - name: Fetch article products
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: python _scripts/fetch_products.py --articles-only
+
+      - name: Translate products to active languages
+        run: |
+          langs=$(jq -r '.languages[] | select(. != "en")' _data/config.json)
+          if [ -z "$langs" ]; then
+            echo "No non-en languages active in config.languages, skipping translation"
+            exit 0
+          fi
+          pip install argostranslate
+          for lang in $langs; do
+            echo "$lang active: installing argos en->$lang package"
+            python _scripts/ci_install_argos.py --lang "$lang"
+            python _scripts/translate_content.py --lang "$lang"
+          done
 
       - name: Commit and push
         run: |
@@ -40,7 +70,7 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "chore: publish manual blog article"
+          git commit -m "chore: publish manual blog article + products"
           for i in 1 2 3; do
             git pull --rebase origin main && git push && exit 0
             echo "push attempt $i failed, retrying..."
@@ -48,3 +78,8 @@ jobs:
           done
           echo "push failed after 3 attempts" >&2
           exit 1
+
+      - name: Trigger deploy
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
