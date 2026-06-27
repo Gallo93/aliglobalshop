@@ -1,0 +1,50 @@
+name: Publish Manual Blog Article
+
+# Percorso di FALLBACK senza credito Anthropic: promuove l'articolo gia'
+# scritto a mano in _data/blog/_manual/ (tutte le lingue) alla destinazione.
+# Nessun pip install (script stdlib puro), nessun ANTHROPIC_API_KEY.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: generate-blog
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Publish staged article
+        run: python _scripts/publish_manual_article.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: publish manual blog article"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "push attempt $i failed, retrying..."
+            sleep 5
+          done
+          echo "push failed after 3 attempts" >&2
+          exit 1
