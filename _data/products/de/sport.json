@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-06-28T09:49:44Z",
+  "updated_at": "2026-06-28T10:42:21Z",
   "products": [
     {
       "product_id": "1005005477269418",
@@ -17,8 +17,8 @@
       "sales_volume": 2366,
       "score": 0.4237,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:35Z",
-      "updated_at": "2026-06-28T09:49:35Z"
+      "fetched_at": "2026-06-28T10:42:12Z",
+      "updated_at": "2026-06-28T10:42:12Z"
     },
     {
       "product_id": "1005007606996171",
@@ -35,8 +35,8 @@
       "sales_volume": 2,
       "score": 0.3552,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:35Z",
-      "updated_at": "2026-06-28T09:49:35Z"
+      "fetched_at": "2026-06-28T10:42:12Z",
+      "updated_at": "2026-06-28T10:42:12Z"
     },
     {
       "product_id": "1005004369037597",
@@ -53,8 +53,8 @@
       "sales_volume": 386,
       "score": 0.3233,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:36Z",
-      "updated_at": "2026-06-28T09:49:36Z"
+      "fetched_at": "2026-06-28T10:42:12Z",
+      "updated_at": "2026-06-28T10:42:12Z"
     },
     {
       "product_id": "1005006012278000",
@@ -71,8 +71,8 @@
       "sales_volume": 20,
       "score": 0.3124,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:36Z",
-      "updated_at": "2026-06-28T09:49:36Z"
+      "fetched_at": "2026-06-28T10:42:13Z",
+      "updated_at": "2026-06-28T10:42:13Z"
     },
     {
       "product_id": "1005005489527499",
@@ -89,12 +89,12 @@
       "sales_volume": 296,
       "score": 0.2742,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:37Z",
-      "updated_at": "2026-06-28T09:49:37Z"
+      "fetched_at": "2026-06-28T10:42:13Z",
+      "updated_at": "2026-06-28T10:42:13Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "X-TIGER Fahrrad Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenrad Fahrrad Wasserflasche",
+      "title": "X-TIGER Fahrrad-Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenfahrrad-Wasserflasche",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 13.3,
       "original_price": 29.57,
@@ -107,8 +107,8 @@
       "sales_volume": 6,
       "score": 0.2657,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:37Z",
-      "updated_at": "2026-06-28T09:49:37Z"
+      "fetched_at": "2026-06-28T10:42:14Z",
+      "updated_at": "2026-06-28T10:42:14Z"
     },
     {
       "product_id": "32286722941",
@@ -125,8 +125,8 @@
       "sales_volume": 24,
       "score": 0.2589,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:38Z",
-      "updated_at": "2026-06-28T09:49:38Z"
+      "fetched_at": "2026-06-28T10:42:14Z",
+      "updated_at": "2026-06-28T10:42:14Z"
     },
     {
       "product_id": "1005010382664758",
@@ -143,8 +143,8 @@
       "sales_volume": 46,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:38Z",
-      "updated_at": "2026-06-28T09:49:38Z"
+      "fetched_at": "2026-06-28T10:42:15Z",
+      "updated_at": "2026-06-28T10:42:15Z"
     },
     {
       "product_id": "1005008772408846",
@@ -161,8 +161,8 @@
       "sales_volume": 29,
       "score": 0.2535,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:39Z",
-      "updated_at": "2026-06-28T09:49:39Z"
+      "fetched_at": "2026-06-28T10:42:15Z",
+      "updated_at": "2026-06-28T10:42:15Z"
     },
     {
       "product_id": "1005012402329427",
@@ -179,8 +179,8 @@
       "sales_volume": 3,
       "score": 0.2524,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:39Z",
-      "updated_at": "2026-06-28T09:49:39Z"
+      "fetched_at": "2026-06-28T10:42:16Z",
+      "updated_at": "2026-06-28T10:42:16Z"
     },
     {
       "product_id": "1005008309626866",
@@ -197,8 +197,8 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:40Z",
-      "updated_at": "2026-06-28T09:49:40Z"
+      "fetched_at": "2026-06-28T10:42:16Z",
+      "updated_at": "2026-06-28T10:42:16Z"
     },
     {
       "product_id": "1005012273080683",
@@ -215,8 +215,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:40Z",
-      "updated_at": "2026-06-28T09:49:40Z"
+      "fetched_at": "2026-06-28T10:42:17Z",
+      "updated_at": "2026-06-28T10:42:17Z"
     },
     {
       "product_id": "1005009049503829",
@@ -233,8 +233,8 @@
       "sales_volume": 19,
       "score": 0.2486,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:41Z",
-      "updated_at": "2026-06-28T09:49:41Z"
+      "fetched_at": "2026-06-28T10:42:17Z",
+      "updated_at": "2026-06-28T10:42:17Z"
     },
     {
       "product_id": "1005008088518121",
@@ -251,8 +251,8 @@
       "sales_volume": 8,
       "score": 0.248,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:41Z",
-      "updated_at": "2026-06-28T09:49:41Z"
+      "fetched_at": "2026-06-28T10:42:18Z",
+      "updated_at": "2026-06-28T10:42:18Z"
     },
     {
       "product_id": "1005003472116469",
@@ -269,12 +269,12 @@
       "sales_volume": 42,
       "score": 0.2469,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:42Z",
-      "updated_at": "2026-06-28T09:49:42Z"
+      "fetched_at": "2026-06-28T10:42:18Z",
+      "updated_at": "2026-06-28T10:42:18Z"
     },
     {
       "product_id": "1005004980432237",
-      "title": "580ml Plastikflasche zum Trinken tragbarer Fitness-Studio-Tee-Cup-Küchengeräte Kinder Wasserflasche für die Schule transparent",
+      "title": "580ml Plastikflasche zum Trinken von tragbaren Fitnessstudio-Tee-Cup-Küchengeräten Kinder Wasserflasche für die Schule transparent",
       "slug": "580ml-plastic-water-bottle-for-drinking-portable-gym-sport-t",
       "price": 3.8,
       "original_price": 7.45,
@@ -287,8 +287,8 @@
       "sales_volume": 33,
       "score": 0.2424,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:42Z",
-      "updated_at": "2026-06-28T09:49:42Z"
+      "fetched_at": "2026-06-28T10:42:19Z",
+      "updated_at": "2026-06-28T10:42:19Z"
     },
     {
       "product_id": "1005005520121617",
@@ -305,8 +305,8 @@
       "sales_volume": 2,
       "score": 0.2352,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:43Z",
-      "updated_at": "2026-06-28T09:49:43Z"
+      "fetched_at": "2026-06-28T10:42:19Z",
+      "updated_at": "2026-06-28T10:42:19Z"
     },
     {
       "product_id": "1005006588685488",
@@ -323,12 +323,12 @@
       "sales_volume": 12,
       "score": 0.2214,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:43Z",
-      "updated_at": "2026-06-28T09:49:43Z"
+      "fetched_at": "2026-06-28T10:42:19Z",
+      "updated_at": "2026-06-28T10:42:19Z"
     },
     {
       "product_id": "1005008682223950",
-      "title": "ROCKBROS Sports Headband für Männer Frauen Running Sweatband Stretch Elastic Outdoor Sport Sweat Head Band Gym Fitness Yoga Headwrap",
+      "title": "ROCKBROS Sports Headband für Männer Frauen laufen Sweatband Stretch Elastic Outdoor Sport Sweat Head Band Gym Fitness Yoga Headwrap",
       "slug": "rockbros-sports-headband-for-men-women-running-sweatband-str",
       "price": 3.67,
       "original_price": 6.12,
@@ -341,12 +341,12 @@
       "sales_volume": 5,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:44Z",
-      "updated_at": "2026-06-28T09:49:44Z"
+      "fetched_at": "2026-06-28T10:42:20Z",
+      "updated_at": "2026-06-28T10:42:20Z"
     },
     {
       "product_id": "1005003674465001",
-      "title": "Boxing Jump Seil mit schweren Foam Grip Griffe, Crossfit Skipping Seil, Fitness-Workouts, Ausdauerkrafttraining",
+      "title": "Boxing Jump Seil mit schweren Foam Grip Griffe, Crossfit Skipping Seil, Fitness-Workouts, Ausdauer Krafttraining",
       "slug": "boxing-jump-rope-with-heavy-foam-grip-handles-crossfit-skipp",
       "price": 12.87,
       "original_price": 20.43,
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.211,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:44Z",
-      "updated_at": "2026-06-28T09:49:44Z"
+      "fetched_at": "2026-06-28T10:42:20Z",
+      "updated_at": "2026-06-28T10:42:20Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-06-28T09:49:44Z",
+  "updated_at": "2026-06-28T10:42:21Z",
   "products": [
     {
       "product_id": "1005005477269418",
@@ -17,8 +17,8 @@
       "sales_volume": 2366,
       "score": 0.4237,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:35Z",
-      "updated_at": "2026-06-28T09:49:35Z"
+      "fetched_at": "2026-06-28T10:42:12Z",
+      "updated_at": "2026-06-28T10:42:12Z"
     },
     {
       "product_id": "1005007606996171",
@@ -35,8 +35,8 @@
       "sales_volume": 2,
       "score": 0.3552,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:35Z",
-      "updated_at": "2026-06-28T09:49:35Z"
+      "fetched_at": "2026-06-28T10:42:12Z",
+      "updated_at": "2026-06-28T10:42:12Z"
     },
     {
       "product_id": "1005004369037597",
@@ -53,12 +53,12 @@
       "sales_volume": 386,
       "score": 0.3233,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:36Z",
-      "updated_at": "2026-06-28T09:49:36Z"
+      "fetched_at": "2026-06-28T10:42:12Z",
+      "updated_at": "2026-06-28T10:42:12Z"
     },
     {
       "product_id": "1005006012278000",
-      "title": "860ml Copa de mango 316 Copa de acero inoxidable Copa de crema de hielo Copa termal botella de agua tazas de botella de vacío",
+      "title": "Copa de 860ml de mango 316 de acero inoxidable Copa de crema de hielo Copa termal botella de agua tazas de botella de vacío",
       "slug": "860ml-handle-cup-316-stainless-steel-insulated-cupice-cream-",
       "price": 5.46,
       "original_price": 18.19,
@@ -71,8 +71,8 @@
       "sales_volume": 20,
       "score": 0.3124,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:36Z",
-      "updated_at": "2026-06-28T09:49:36Z"
+      "fetched_at": "2026-06-28T10:42:13Z",
+      "updated_at": "2026-06-28T10:42:13Z"
     },
     {
       "product_id": "1005005489527499",
@@ -89,12 +89,12 @@
       "sales_volume": 296,
       "score": 0.2742,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:37Z",
-      "updated_at": "2026-06-28T09:49:37Z"
+      "fetched_at": "2026-06-28T10:42:13Z",
+      "updated_at": "2026-06-28T10:42:13Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "Botella de agua de ciclo X-TIGER 620ml de agua fría aislado hervidor térmico al aire libre MTB Bicicleta Ciclismo Agua Botella",
+      "title": "Botella de agua de ciclo X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 13.3,
       "original_price": 29.57,
@@ -107,8 +107,8 @@
       "sales_volume": 6,
       "score": 0.2657,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:37Z",
-      "updated_at": "2026-06-28T09:49:37Z"
+      "fetched_at": "2026-06-28T10:42:14Z",
+      "updated_at": "2026-06-28T10:42:14Z"
     },
     {
       "product_id": "32286722941",
@@ -125,8 +125,8 @@
       "sales_volume": 24,
       "score": 0.2589,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:38Z",
-      "updated_at": "2026-06-28T09:49:38Z"
+      "fetched_at": "2026-06-28T10:42:14Z",
+      "updated_at": "2026-06-28T10:42:14Z"
     },
     {
       "product_id": "1005010382664758",
@@ -143,8 +143,8 @@
       "sales_volume": 46,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:38Z",
-      "updated_at": "2026-06-28T09:49:38Z"
+      "fetched_at": "2026-06-28T10:42:15Z",
+      "updated_at": "2026-06-28T10:42:15Z"
     },
     {
       "product_id": "1005008772408846",
@@ -161,8 +161,8 @@
       "sales_volume": 29,
       "score": 0.2535,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:39Z",
-      "updated_at": "2026-06-28T09:49:39Z"
+      "fetched_at": "2026-06-28T10:42:15Z",
+      "updated_at": "2026-06-28T10:42:15Z"
     },
     {
       "product_id": "1005012402329427",
@@ -179,8 +179,8 @@
       "sales_volume": 3,
       "score": 0.2524,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:39Z",
-      "updated_at": "2026-06-28T09:49:39Z"
+      "fetched_at": "2026-06-28T10:42:16Z",
+      "updated_at": "2026-06-28T10:42:16Z"
     },
     {
       "product_id": "1005008309626866",
@@ -197,12 +197,12 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:40Z",
-      "updated_at": "2026-06-28T09:49:40Z"
+      "fetched_at": "2026-06-28T10:42:16Z",
+      "updated_at": "2026-06-28T10:42:16Z"
     },
     {
       "product_id": "1005012273080683",
-      "title": "Bolsa de botella de agua magnética rosa de bolsa de bolsa de agua específico de gimnasio con fuerte imán para la bolsa de la Copa de Deportes al aire libre",
+      "title": "Bolsa de botella de agua magnética rosa de bolsa de bolsa de agua específico de gimnasio con gran magnética para bolsa de la Copa de Deportes al aire libre",
       "slug": "pink-magnetic-water-bottle-pouch-bag-gym-specific-water-cup-",
       "price": 5.43,
       "original_price": 10.86,
@@ -215,8 +215,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:40Z",
-      "updated_at": "2026-06-28T09:49:40Z"
+      "fetched_at": "2026-06-28T10:42:17Z",
+      "updated_at": "2026-06-28T10:42:17Z"
     },
     {
       "product_id": "1005009049503829",
@@ -233,8 +233,8 @@
       "sales_volume": 19,
       "score": 0.2486,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:41Z",
-      "updated_at": "2026-06-28T09:49:41Z"
+      "fetched_at": "2026-06-28T10:42:17Z",
+      "updated_at": "2026-06-28T10:42:17Z"
     },
     {
       "product_id": "1005008088518121",
@@ -251,12 +251,12 @@
       "sales_volume": 8,
       "score": 0.248,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:41Z",
-      "updated_at": "2026-06-28T09:49:41Z"
+      "fetched_at": "2026-06-28T10:42:18Z",
+      "updated_at": "2026-06-28T10:42:18Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Botella de agua deportiva de plástico libre 400/500/700/1000ml Bicicleta de botella a prueba de vacío",
+      "title": "BPA Botella de agua deportiva de plástico libre 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.74,
       "original_price": 15.79,
@@ -269,8 +269,8 @@
       "sales_volume": 42,
       "score": 0.2469,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:42Z",
-      "updated_at": "2026-06-28T09:49:42Z"
+      "fetched_at": "2026-06-28T10:42:18Z",
+      "updated_at": "2026-06-28T10:42:18Z"
     },
     {
       "product_id": "1005004980432237",
@@ -287,8 +287,8 @@
       "sales_volume": 33,
       "score": 0.2424,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:42Z",
-      "updated_at": "2026-06-28T09:49:42Z"
+      "fetched_at": "2026-06-28T10:42:19Z",
+      "updated_at": "2026-06-28T10:42:19Z"
     },
     {
       "product_id": "1005005520121617",
@@ -305,8 +305,8 @@
       "sales_volume": 2,
       "score": 0.2352,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:43Z",
-      "updated_at": "2026-06-28T09:49:43Z"
+      "fetched_at": "2026-06-28T10:42:19Z",
+      "updated_at": "2026-06-28T10:42:19Z"
     },
     {
       "product_id": "1005006588685488",
@@ -323,8 +323,8 @@
       "sales_volume": 12,
       "score": 0.2214,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:43Z",
-      "updated_at": "2026-06-28T09:49:43Z"
+      "fetched_at": "2026-06-28T10:42:19Z",
+      "updated_at": "2026-06-28T10:42:19Z"
     },
     {
       "product_id": "1005008682223950",
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:44Z",
-      "updated_at": "2026-06-28T09:49:44Z"
+      "fetched_at": "2026-06-28T10:42:20Z",
+      "updated_at": "2026-06-28T10:42:20Z"
     },
     {
       "product_id": "1005003674465001",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.211,
       "price_history": [],
-      "fetched_at": "2026-06-28T09:49:44Z",
-      "updated_at": "2026-06-28T09:49:44Z"
+      "fetched_at": "2026-06-28T10:42:20Z",
+      "updated_at": "2026-06-28T10:42:20Z"
     }
   ]
 }
