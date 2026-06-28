@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-06-28T10:42:09Z",
+  "updated_at": "2026-06-28T13:58:30Z",
   "products": [
     {
       "product_id": "1005009210852728",
@@ -17,8 +17,8 @@
       "sales_volume": 56,
       "score": 0.2557,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:41:59Z",
-      "updated_at": "2026-06-28T10:41:59Z"
+      "fetched_at": "2026-06-28T13:58:21Z",
+      "updated_at": "2026-06-28T13:58:21Z"
     },
     {
       "product_id": "1005010627465265",
@@ -35,8 +35,8 @@
       "sales_volume": 17,
       "score": 0.255,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:00Z",
-      "updated_at": "2026-06-28T10:42:00Z"
+      "fetched_at": "2026-06-28T13:58:22Z",
+      "updated_at": "2026-06-28T13:58:22Z"
     },
     {
       "product_id": "1005012219557684",
@@ -53,12 +53,12 @@
       "sales_volume": 13,
       "score": 0.2516,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:00Z",
-      "updated_at": "2026-06-28T10:42:00Z"
+      "fetched_at": "2026-06-28T13:58:22Z",
+      "updated_at": "2026-06-28T13:58:22Z"
     },
     {
       "product_id": "1005009334209038",
-      "title": "36000mAh Banque de puissance solaire Chargeur sans fil rapide Powerbank pour iPhone 16 15 Samsung S24 Huawei Xiaomi 3A Banque de puissance charge rapide",
+      "title": "36000mAh Banque d'énergie solaire Chargeur sans fil rapide Banque d'énergie pour iPhone 16 15 Samsung S24 Huawei Xiaomi 3A",
       "slug": "36000mah-solar-power-bank-fast-wireless-charger-powerbank-fo",
       "price": 24.05,
       "original_price": 48.11,
@@ -71,8 +71,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:01Z",
-      "updated_at": "2026-06-28T10:42:01Z"
+      "fetched_at": "2026-06-28T13:58:23Z",
+      "updated_at": "2026-06-28T13:58:23Z"
     },
     {
       "product_id": "1005012272048246",
@@ -89,12 +89,12 @@
       "sales_volume": 6,
       "score": 0.2507,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:01Z",
-      "updated_at": "2026-06-28T10:42:01Z"
+      "fetched_at": "2026-06-28T13:58:23Z",
+      "updated_at": "2026-06-28T13:58:23Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "Centrale électrique portable haute capacité 400W 192Wh LiFePO4 batterie AC 220V générateur solaire rapide Banque de puissance pour le camping",
+      "title": "Haute capacité 400W Portable Power Station 192Wh LiFePO4 Batterie AC 220V Solar Generator Fast Charge Power Bank for Camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
       "price": 139.21,
       "original_price": 278.42,
@@ -107,8 +107,8 @@
       "sales_volume": 20,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:03Z",
-      "updated_at": "2026-06-28T10:42:03Z"
+      "fetched_at": "2026-06-28T13:58:24Z",
+      "updated_at": "2026-06-28T13:58:24Z"
     },
     {
       "product_id": "1005011812151458",
@@ -125,12 +125,12 @@
       "sales_volume": 65,
       "score": 0.2481,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:03Z",
-      "updated_at": "2026-06-28T10:42:03Z"
+      "fetched_at": "2026-06-28T13:58:24Z",
+      "updated_at": "2026-06-28T13:58:24Z"
     },
     {
       "product_id": "1005012387326613",
-      "title": "10000mAh Banque de puissance magnétique pour Magsafes sans fil PD 22.5W Banque de puissance de chargeur rapide Batterie externe pour iPhone pour Samsung",
+      "title": "10000mAh Banque de puissance magnétique pour Magsafes sans fil PD 22.5W Banque de puissance rapide Batterie externe pour iPhone pour Samsung",
       "slug": "10000mah-magnetic-power-bank-for-magsafes-wireless-pd-225w-f",
       "price": 19.94,
       "original_price": 39.87,
@@ -143,8 +143,8 @@
       "sales_volume": 1,
       "score": 0.2301,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:04Z",
-      "updated_at": "2026-06-28T10:42:04Z"
+      "fetched_at": "2026-06-28T13:58:24Z",
+      "updated_at": "2026-06-28T13:58:24Z"
     },
     {
       "product_id": "1005012229118016",
@@ -161,12 +161,12 @@
       "sales_volume": 75,
       "score": 0.214,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:04Z",
-      "updated_at": "2026-06-28T10:42:04Z"
+      "fetched_at": "2026-06-28T13:58:25Z",
+      "updated_at": "2026-06-28T13:58:25Z"
     },
     {
       "product_id": "1005012206657079",
-      "title": "CCC Certified Magnetic Wireless Power Bank Batterie de rechange 10000mAh 5000mAh Charge rapide Mobile Mobile Batterie externe",
+      "title": "CCC Certified Magnetic Wireless Power Bank 10000mAh 5000mAh Batterie de rechange Charge rapide Mobile Batterie externe portable",
       "slug": "ccc-certified-magnetic-wireless-power-bank-10000mah-5000mah-",
       "price": 16.38,
       "original_price": 33.75,
@@ -179,8 +179,8 @@
       "sales_volume": 4,
       "score": 0.2135,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:04Z",
-      "updated_at": "2026-06-28T10:42:04Z"
+      "fetched_at": "2026-06-28T13:58:25Z",
+      "updated_at": "2026-06-28T13:58:25Z"
     },
     {
       "product_id": "1005011531921275",
@@ -197,8 +197,8 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:05Z",
-      "updated_at": "2026-06-28T10:42:05Z"
+      "fetched_at": "2026-06-28T13:58:26Z",
+      "updated_at": "2026-06-28T13:58:26Z"
     },
     {
       "product_id": "1005011532019654",
@@ -215,8 +215,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:05Z",
-      "updated_at": "2026-06-28T10:42:05Z"
+      "fetched_at": "2026-06-28T13:58:26Z",
+      "updated_at": "2026-06-28T13:58:26Z"
     },
     {
       "product_id": "1005009873262361",
@@ -233,12 +233,12 @@
       "sales_volume": 27,
       "score": 0.1954,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:06Z",
-      "updated_at": "2026-06-28T10:42:06Z"
+      "fetched_at": "2026-06-28T13:58:27Z",
+      "updated_at": "2026-06-28T13:58:27Z"
     },
     {
       "product_id": "1005008447641986",
-      "title": "Lunettes de soleil Bluetooth sans fil portatives Miroir ultra-mince pour grenouilles Lunettes de soleil polarisé Smart Earphone Lunettes de soleil Dropshipping",
+      "title": "Lunettes de soleil Bluetooth sans fil Portable Ultra-fine Frog Mirror Lunettes de soleil polarisé Smart Earphone Lunettes de soleil Dropshipping",
       "slug": "portable-wireless-bluetooth-headset-glasses-ultra-thin-frog-",
       "price": 8.81,
       "original_price": 12.59,
@@ -251,8 +251,8 @@
       "sales_volume": 12,
       "score": 0.1914,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:06Z",
-      "updated_at": "2026-06-28T10:42:06Z"
+      "fetched_at": "2026-06-28T13:58:27Z",
+      "updated_at": "2026-06-28T13:58:27Z"
     },
     {
       "product_id": "1005009849333993",
@@ -269,12 +269,12 @@
       "sales_volume": 8,
       "score": 0.191,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:07Z",
-      "updated_at": "2026-06-28T10:42:07Z"
+      "fetched_at": "2026-06-28T13:58:27Z",
+      "updated_at": "2026-06-28T13:58:27Z"
     },
     {
       "product_id": "1005006054173255",
-      "title": "Coque rigide pour haut-parleur Bluetooth portable sans fil Marshall Middleton, sac de protection EVA pour Marshall Middleton",
+      "title": "Housse rigide pour haut-parleur Bluetooth portable sans fil Marshall Middleton, sac de protection EVA pour Marshall Middleton",
       "slug": "hard-case-for-marshall-middleton-wireless-portable-bluetooth",
       "price": 17.65,
       "original_price": 25.21,
@@ -287,12 +287,12 @@
       "sales_volume": 1,
       "score": 0.1901,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:07Z",
-      "updated_at": "2026-06-28T10:42:07Z"
+      "fetched_at": "2026-06-28T13:58:28Z",
+      "updated_at": "2026-06-28T13:58:28Z"
     },
     {
       "product_id": "33007923484",
-      "title": "EVA Coffret de rangement de protection portable rigide Sac de rangement pour haut-parleur MARSHALL Stockwell Bluetooth haut-parleur",
+      "title": "Boîte de transport de protection EVA dur Portable Housse de rangement Haut-Parleur Sac pour MARSHALL Stockwell Bluetooth Haut-Parleur Accessoires",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 11.49,
       "original_price": 16.42,
@@ -305,12 +305,12 @@
       "sales_volume": 14,
       "score": 0.1867,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:07Z",
-      "updated_at": "2026-06-28T10:42:07Z"
+      "fetched_at": "2026-06-28T13:58:28Z",
+      "updated_at": "2026-06-28T13:58:28Z"
     },
     {
       "product_id": "1005010537643071",
-      "title": "Banque d'énergie solaire 73200mAh main charge de cran avec câble 100W charge rapide pour ordinateur portable notebook batterie externe pour iPhone Xiaomi",
+      "title": "Banque d'énergie solaire 73200mAh main charge de cran avec câble 100W rapide charge pour ordinateur portable Notebook batterie externe pour iPhone Xiaomi",
       "slug": "solar-power-bank-73200mah-hand-crank-charging-with-cable-100",
       "price": 56.03,
       "original_price": 77.81,
@@ -323,8 +323,8 @@
       "sales_volume": 5,
       "score": 0.1846,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:08Z",
-      "updated_at": "2026-06-28T10:42:08Z"
+      "fetched_at": "2026-06-28T13:58:29Z",
+      "updated_at": "2026-06-28T13:58:29Z"
     },
     {
       "product_id": "1005007065066717",
@@ -341,12 +341,12 @@
       "sales_volume": 75,
       "score": 0.178,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:08Z",
-      "updated_at": "2026-06-28T10:42:08Z"
+      "fetched_at": "2026-06-28T13:58:29Z",
+      "updated_at": "2026-06-28T13:58:29Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Contrôleur LED WIFI Smart Wireless 2.4GHz Passerelle Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe à bande",
+      "title": "WL-Box2 Contrôleur de LED WIFI Smart Wireless 2.4GHz Gateway Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe de bande",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -359,8 +359,8 @@
       "sales_volume": 12,
       "score": 0.1764,
       "price_history": [],
-      "fetched_at": "2026-06-28T10:42:09Z",
-      "updated_at": "2026-06-28T10:42:09Z"
+      "fetched_at": "2026-06-28T13:58:30Z",
+      "updated_at": "2026-06-28T13:58:30Z"
     }
   ]
 }
