@@ -126,6 +126,11 @@ MAX_PRICE_USD = 200.0
 MIN_DISCOUNT_PCT = 5.0
 SALES_CAP = 5000
 
+# Tetto di prezzo per gli article-products (in fetch_niche c'e' gia' MAX_PRICE_USD,
+# ma fetch_article_products non lo applicava: passavano monitor broadcast/medical
+# da migliaia di $). Un filo piu' alto di MAX_PRICE_USD per l'elettronica da guida.
+ARTICLE_MAX_PRICE_USD = 300.0
+
 
 def _sign(params: dict) -> str:
     sorted_pairs = sorted(params.items())
@@ -462,6 +467,22 @@ _OFFTOPIC_PATTERN = re.compile(
     re.I,
 )
 
+# Falsi-positivi medical/industrial dei nomi ambigui ("monitor"/sensori): negli
+# article-products il noun "monitor" pesca oximetri, sfigmomanometri (NIBP/BP),
+# gas-monitor, monitor broadcast/industriali. Termini scelti STRETTI: solo forme
+# cliniche/industriali che non sono mai un prodotto-target nelle 4 nicchie.
+# NB: NON 'heart rate'/'blood pressure'/'blood oxygen'/'spo2'/'glucose' da soli:
+# sono feature STAMPATE nei titoli dei wearable legittimi (fitness tracker,
+# smartwatch), che escluderemmo per sbaglio. Il glucometro standalone si becca
+# con 'glucometer'/'glucose meter'; un oximetro vero ha 'pulse oximeter'/
+# 'oximeter', uno sfigmomanometro vero ha 'nibp'/'bp monitor'.
+_MEDICAL_INDUSTRIAL_PATTERN = re.compile(
+    r'\boximeter\b|pulse\s+oximeter|\bnibp\b|\bbp\s+monitor\b|\bthermometer\b|'
+    r'\bfetal\b|baby\s+monitor|\bbroadcast\b|\bgas\b|\bargon\b|\bco2\b|'
+    r'smoke\s+detector|\bmedical\b|glucometer|glucose\s+meter',
+    re.I,
+)
+
 
 def _clean_search_kw(text: str) -> str:
     """Deriva una keyword di ricerca pertinente rimuovendo parole rumore,
@@ -655,6 +676,20 @@ def _is_offtopic(title: str) -> bool:
     return bool(title) and bool(_OFFTOPIC_PATTERN.search(title))
 
 
+def _is_medical_industrial(title: str) -> bool:
+    """True se il titolo e' un dispositivo medical/industrial (falso-positivo
+    tipico dei noun ambigui come 'monitor'/sensori)."""
+    return bool(title) and bool(_MEDICAL_INDUSTRIAL_PATTERN.search(title))
+
+
+def _article_price_ok(raw: dict) -> bool:
+    """True se il prezzo del prodotto e' positivo e <= ARTICLE_MAX_PRICE_USD.
+    Estrae il prezzo come build_product/fetch_niche. Difensivo: prezzo assente
+    o non parsabile -> 0.0 -> False (scarta)."""
+    price = _parse_float(raw.get("target_sale_price") or raw.get("sale_price", "0"))
+    return 0 < price <= ARTICLE_MAX_PRICE_USD
+
+
 def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
     if not blog_dir.exists():
         return
@@ -698,6 +733,8 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             and not _is_accessory(r.get("product_title", ""))
             and not _is_theme_accessory(r.get("product_title", ""), accessory_pattern)
             and not _is_offtopic(r.get("product_title", ""))
+            and not _is_medical_industrial(r.get("product_title", ""))
+            and _article_price_ok(r)
             and _is_relevant(r.get("product_title", ""), topic_pattern)
         ]
         relevant.sort(key=score_product, reverse=True)
