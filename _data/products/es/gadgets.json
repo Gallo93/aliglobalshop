@@ -1,10 +1,10 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-06-27T23:01:00Z",
+  "updated_at": "2026-06-28T05:15:29Z",
   "products": [
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Cargador rápido Powerbank portátil para iPhone portátil Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Carga rápida Powerbank portátil para iPhone portátil Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 36.79,
       "original_price": 72.14,
@@ -17,12 +17,12 @@
       "sales_volume": 325,
       "score": 0.2772,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:52Z",
-      "updated_at": "2026-06-27T23:00:52Z"
+      "fetched_at": "2026-06-28T05:15:20Z",
+      "updated_at": "2026-06-28T05:15:20Z"
     },
     {
       "product_id": "1005009210852728",
-      "title": "Essager 65W 20000mAh Power Bank PD Carga rápida Tipo C Carga rápida Portable Powerbank Batería externa para iPhone MacBook Laptop",
+      "title": "Essager 65W 20000mAh Power Bank PD Fast Charge Tipo C Carga rápida Portable Powerbank Batería externa para iPhone MacBook Laptop",
       "slug": "essager-65w-20000mah-power-bank-pd-fast-charge-type-c-quick-",
       "price": 39.69,
       "original_price": 81.01,
@@ -35,12 +35,12 @@
       "sales_volume": 56,
       "score": 0.2557,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:52Z",
-      "updated_at": "2026-06-27T23:00:52Z"
+      "fetched_at": "2026-06-28T05:15:21Z",
+      "updated_at": "2026-06-28T05:15:21Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.41,
       "original_price": 40.81,
@@ -53,12 +53,12 @@
       "sales_volume": 13,
       "score": 0.2516,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:52Z",
-      "updated_at": "2026-06-27T23:00:52Z"
+      "fetched_at": "2026-06-28T05:15:21Z",
+      "updated_at": "2026-06-28T05:15:21Z"
     },
     {
       "product_id": "1005010617846135",
-      "title": "20000mAh 10000mAh Banco de alimentación con gran capacidad de diseño de caja de fibra de espesor y fácil de carga de doble entrada",
+      "title": "20000mAh 10000mAh Banco de alimentación con gran capacidad de diseño de caja de fibra de espesor y fácil de cargar doble entrada",
       "slug": "20000mah-10000mah-power-bank-with-large-capacity-fiber-textu",
       "price": 18.22,
       "original_price": 36.43,
@@ -71,8 +71,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:53Z",
-      "updated_at": "2026-06-27T23:00:53Z"
+      "fetched_at": "2026-06-28T05:15:22Z",
+      "updated_at": "2026-06-28T05:15:22Z"
     },
     {
       "product_id": "1005012075932423",
@@ -89,8 +89,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:53Z",
-      "updated_at": "2026-06-27T23:00:53Z"
+      "fetched_at": "2026-06-28T05:15:22Z",
+      "updated_at": "2026-06-28T05:15:22Z"
     },
     {
       "product_id": "1005012084510405",
@@ -107,8 +107,8 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:54Z",
-      "updated_at": "2026-06-27T23:00:54Z"
+      "fetched_at": "2026-06-28T05:15:22Z",
+      "updated_at": "2026-06-28T05:15:22Z"
     },
     {
       "product_id": "1005012234681022",
@@ -125,12 +125,12 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:54Z",
-      "updated_at": "2026-06-27T23:00:54Z"
+      "fetched_at": "2026-06-28T05:15:23Z",
+      "updated_at": "2026-06-28T05:15:23Z"
     },
     {
       "product_id": "1005012394969983",
-      "title": "20000mAh Power Bank, 35W/20W Dual Fast Charge, Cables incorporados, pantalla digital, portátil para todos los teléfonos",
+      "title": "20000mAh Power Bank, 35W/20W Dual Fast Charge, Cables incorporados, Pantalla digital, portátil para todos los teléfonos",
       "slug": "20000mah-power-bank-35w20w-dual-fast-charge-built-in-cables-",
       "price": 48.38,
       "original_price": 96.77,
@@ -143,12 +143,12 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:54Z",
-      "updated_at": "2026-06-27T23:00:54Z"
+      "fetched_at": "2026-06-28T05:15:23Z",
+      "updated_at": "2026-06-28T05:15:23Z"
     },
     {
       "product_id": "1005012348679190",
-      "title": "22.5w 10000/20000mAh Power Bank for IPhone Huawei and Xiaomi Mobile Phones Fast-charging Compact and Portable PowerBank",
+      "title": "22.5w 10000/20000mAh Power Bank para teléfonos móviles IPhone Huawei y Xiaomi Carga rápida Compacta y Portable PowerBank",
       "slug": "225w-1000020000mah-power-bank-for-iphone-huawei-and-xiaomi-m",
       "price": 25.7,
       "original_price": 51.39,
@@ -161,12 +161,12 @@
       "sales_volume": 1,
       "score": 0.2501,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:55Z",
-      "updated_at": "2026-06-27T23:00:55Z"
+      "fetched_at": "2026-06-28T05:15:24Z",
+      "updated_at": "2026-06-28T05:15:24Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank Construido en 4 Cable Cargador portable Cute Pet Cartoon Espejo de maquillaje Powerbank Power Bank",
+      "title": "20000mAh Mini Power Bank Construido en 4 Cable Portable Charger Cute Pet Cartoon Espejo de maquillaje Powerbank Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.55,
       "original_price": 21.1,
@@ -179,8 +179,8 @@
       "sales_volume": 17,
       "score": 0.247,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:55Z",
-      "updated_at": "2026-06-27T23:00:55Z"
+      "fetched_at": "2026-06-28T05:15:24Z",
+      "updated_at": "2026-06-28T05:15:24Z"
     },
     {
       "product_id": "1005012259681107",
@@ -197,8 +197,8 @@
       "sales_volume": 15,
       "score": 0.2385,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:56Z",
-      "updated_at": "2026-06-27T23:00:56Z"
+      "fetched_at": "2026-06-28T05:15:25Z",
+      "updated_at": "2026-06-28T05:15:25Z"
     },
     {
       "product_id": "1005011981593933",
@@ -215,8 +215,8 @@
       "sales_volume": 8,
       "score": 0.236,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:56Z",
-      "updated_at": "2026-06-27T23:00:56Z"
+      "fetched_at": "2026-06-28T05:15:25Z",
+      "updated_at": "2026-06-28T05:15:25Z"
     },
     {
       "product_id": "1005010401185659",
@@ -233,8 +233,8 @@
       "sales_volume": 6,
       "score": 0.2357,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:57Z",
-      "updated_at": "2026-06-27T23:00:57Z"
+      "fetched_at": "2026-06-28T05:15:26Z",
+      "updated_at": "2026-06-28T05:15:26Z"
     },
     {
       "product_id": "1005007395412166",
@@ -251,12 +251,12 @@
       "sales_volume": 14,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:57Z",
-      "updated_at": "2026-06-27T23:00:57Z"
+      "fetched_at": "2026-06-28T05:15:26Z",
+      "updated_at": "2026-06-28T05:15:26Z"
     },
     {
       "product_id": "1005007390539177",
-      "title": "Para IPhone 15 14 13 Huawei Xiaomi Poverbank 20000mAh Folding Solar Power Bank con 3 panel solar Qi Wireless Charger Powerbank",
+      "title": "Para IPhone 15 14 13 Huawei Xiaomi Poverbank 20000mAh Folding Solar Power Bank con 3 Panel solar Qi Wireless Charger Powerbank",
       "slug": "for-iphone-15-14-13-huawei-xiaomi-poverbank-20000mah-folding",
       "price": 42.02,
       "original_price": 84.02,
@@ -269,12 +269,12 @@
       "sales_volume": 10,
       "score": 0.2241,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:58Z",
-      "updated_at": "2026-06-27T23:00:58Z"
+      "fetched_at": "2026-06-28T05:15:27Z",
+      "updated_at": "2026-06-28T05:15:27Z"
     },
     {
       "product_id": "1005009589681770",
-      "title": "20000mAh Power Bank for Heated Vest Jacket Air Condition Clothes Powerbank with 7.4V DC Port Bateria for iphone All Smartphones",
+      "title": "20000mAh Power Bank for Heated Vest Jacket Air Condition Clothes Powerbank con 7.4V DC Port Bateria para iphone Todos los teléfonos inteligentes",
       "slug": "20000mah-power-bank-for-heated-vest-jacket-air-condition-clo",
       "price": 12.95,
       "original_price": 21.96,
@@ -287,8 +287,8 @@
       "sales_volume": 4,
       "score": 0.2235,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:58Z",
-      "updated_at": "2026-06-27T23:00:58Z"
+      "fetched_at": "2026-06-28T05:15:27Z",
+      "updated_at": "2026-06-28T05:15:27Z"
     },
     {
       "product_id": "1005012408073378",
@@ -305,8 +305,8 @@
       "sales_volume": 2,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:59Z",
-      "updated_at": "2026-06-27T23:00:59Z"
+      "fetched_at": "2026-06-28T05:15:28Z",
+      "updated_at": "2026-06-28T05:15:28Z"
     },
     {
       "product_id": "1005004795431881",
@@ -323,8 +323,8 @@
       "sales_volume": 10,
       "score": 0.2079,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:59Z",
-      "updated_at": "2026-06-27T23:00:59Z"
+      "fetched_at": "2026-06-28T05:15:28Z",
+      "updated_at": "2026-06-28T05:15:28Z"
     },
     {
       "product_id": "1005005363741032",
@@ -341,8 +341,8 @@
       "sales_volume": 9,
       "score": 0.2061,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:00:59Z",
-      "updated_at": "2026-06-27T23:00:59Z"
+      "fetched_at": "2026-06-28T05:15:29Z",
+      "updated_at": "2026-06-28T05:15:29Z"
     },
     {
       "product_id": "1005010233572038",
@@ -359,8 +359,8 @@
       "sales_volume": 13,
       "score": 0.1986,
       "price_history": [],
-      "fetched_at": "2026-06-27T23:01:00Z",
-      "updated_at": "2026-06-27T23:01:00Z"
+      "fetched_at": "2026-06-28T05:15:29Z",
+      "updated_at": "2026-06-28T05:15:29Z"
     }
   ]
 }
