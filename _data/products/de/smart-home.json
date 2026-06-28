@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-06-28T08:54:17Z",
+  "updated_at": "2026-06-28T09:49:57Z",
   "products": [
     {
       "product_id": "1005008710290057",
@@ -17,8 +17,8 @@
       "sales_volume": 29,
       "score": 0.266,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:08Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:47Z",
+      "updated_at": "2026-06-28T09:49:47Z"
     },
     {
       "product_id": "1005008952159162",
@@ -35,8 +35,8 @@
       "sales_volume": 12,
       "score": 0.2514,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:08Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:48Z",
+      "updated_at": "2026-06-28T09:49:48Z"
     },
     {
       "product_id": "1005001394925942",
@@ -53,12 +53,12 @@
       "sales_volume": 8,
       "score": 0.251,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:09Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:48Z",
+      "updated_at": "2026-06-28T09:49:48Z"
     },
     {
       "product_id": "1005005604363467",
-      "title": "Camnsmart Tuya 5MP Alexa Wifi Bulb Camera E27 Google Home Wireless CCTV Outdoor Videoüberwachung",
+      "title": "Camnsmart Tuya 5MP Alexa Wifi Bulb Kamera E27 Google Home Wireless CCTV Outdoor Videoüberwachung",
       "slug": "camnsmart-tuya-5mp-alexa-wifi-bulb-camera-e27-google-home-wi",
       "price": 36.79,
       "original_price": 73.58,
@@ -71,8 +71,8 @@
       "sales_volume": 36,
       "score": 0.2476,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:09Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:49Z",
+      "updated_at": "2026-06-28T09:49:49Z"
     },
     {
       "product_id": "1005005807578430",
@@ -89,12 +89,12 @@
       "sales_volume": 4,
       "score": 0.239,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:10Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:49Z",
+      "updated_at": "2026-06-28T09:49:49Z"
     },
     {
       "product_id": "1005010463738860",
-      "title": "Yoosee 5MP WiFi Security PTZ Indoor IP Kamera 3MP Smart Home Sicherheit Farbnachtsicht Siren Alarm Humanoid Detection Ai Track",
+      "title": "Yoosee 5MP WiFi Security PTZ Indoor IP Kamera 3MP Smart Home Sicherheit Farbnachtsicht Siren Alarm Humanoide Erkennung Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
       "price": 24.75,
       "original_price": 41.25,
@@ -107,8 +107,8 @@
       "sales_volume": 55,
       "score": 0.2266,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:10Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:50Z",
+      "updated_at": "2026-06-28T09:49:50Z"
     },
     {
       "product_id": "4000143784956",
@@ -125,8 +125,8 @@
       "sales_volume": 299,
       "score": 0.2232,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:10Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:50Z",
+      "updated_at": "2026-06-28T09:49:50Z"
     },
     {
       "product_id": "1005008987618271",
@@ -143,8 +143,8 @@
       "sales_volume": 4,
       "score": 0.2175,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:11Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:51Z",
+      "updated_at": "2026-06-28T09:49:51Z"
     },
     {
       "product_id": "1005004774956386",
@@ -161,8 +161,8 @@
       "sales_volume": 147,
       "score": 0.2172,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:11Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:51Z",
+      "updated_at": "2026-06-28T09:49:51Z"
     },
     {
       "product_id": "1005009306467710",
@@ -179,8 +179,8 @@
       "sales_volume": 102,
       "score": 0.2116,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:12Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:52Z",
+      "updated_at": "2026-06-28T09:49:52Z"
     },
     {
       "product_id": "1005010445247796",
@@ -197,8 +197,8 @@
       "sales_volume": 6,
       "score": 0.2107,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:12Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:52Z",
+      "updated_at": "2026-06-28T09:49:52Z"
     },
     {
       "product_id": "1005009559994857",
@@ -215,8 +215,8 @@
       "sales_volume": 8,
       "score": 0.2053,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:13Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:53Z",
+      "updated_at": "2026-06-28T09:49:53Z"
     },
     {
       "product_id": "1005004966987077",
@@ -233,8 +233,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:13Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:53Z",
+      "updated_at": "2026-06-28T09:49:53Z"
     },
     {
       "product_id": "1005004779246205",
@@ -251,8 +251,8 @@
       "sales_volume": 13,
       "score": 0.1999,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:14Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:54Z",
+      "updated_at": "2026-06-28T09:49:54Z"
     },
     {
       "product_id": "32898805107",
@@ -269,12 +269,12 @@
       "sales_volume": 21,
       "score": 0.1925,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:14Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:54Z",
+      "updated_at": "2026-06-28T09:49:54Z"
     },
     {
       "product_id": "1005003990707766",
-      "title": "Sricam SH038 HD 4.0MP Wifi IP Kamera 360° Mobile Remote View Indoor Baby Monitor Nachtfarb-Videoüberwachung CCTV Kamera",
+      "title": "Sricam SH038 HD 4.0MP Wifi IP Kamera 360° Mobile Remote View Indoor Baby Monitor Nacht Farb-Videoüberwachung CCTV Kamera",
       "slug": "sricam-sh038-hd-40mp-wifi-ip-camera-360-mobile-remote-view-i",
       "price": 29.33,
       "original_price": 41.9,
@@ -287,8 +287,8 @@
       "sales_volume": 8,
       "score": 0.191,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:15Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:55Z",
+      "updated_at": "2026-06-28T09:49:55Z"
     },
     {
       "product_id": "1005006118602003",
@@ -305,8 +305,8 @@
       "sales_volume": 6,
       "score": 0.1907,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:16Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:55Z",
+      "updated_at": "2026-06-28T09:49:55Z"
     },
     {
       "product_id": "1005008650696927",
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.1904,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:16Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:56Z",
+      "updated_at": "2026-06-28T09:49:56Z"
     },
     {
       "product_id": "1005004556206576",
@@ -341,8 +341,8 @@
       "sales_volume": 37,
       "score": 0.1855,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:17Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:56Z",
+      "updated_at": "2026-06-28T09:49:56Z"
     },
     {
       "product_id": "1005007469522071",
@@ -359,8 +359,8 @@
       "sales_volume": 9,
       "score": 0.1851,
       "price_history": [],
-      "fetched_at": "2026-06-28T05:15:17Z",
-      "updated_at": "2026-06-28T08:54:17Z"
+      "fetched_at": "2026-06-28T09:49:57Z",
+      "updated_at": "2026-06-28T09:49:57Z"
     }
   ]
 }
