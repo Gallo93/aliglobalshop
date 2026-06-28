@@ -469,13 +469,17 @@ _OFFTOPIC_PATTERN = re.compile(
 
 # Falsi-positivi medical/industrial dei nomi ambigui ("monitor"/sensori): negli
 # article-products il noun "monitor" pesca oximetri, sfigmomanometri (NIBP/BP),
-# SpO2, gas-monitor, monitor broadcast/industriali. Termini scelti stretti: NON
-# 'blood'/'sensor' da soli (troppo larghi); 'gas'/'co2'/'argon' col boundary.
+# gas-monitor, monitor broadcast/industriali. Termini scelti STRETTI: solo forme
+# cliniche/industriali che non sono mai un prodotto-target nelle 4 nicchie.
+# NB: NON 'heart rate'/'blood pressure'/'blood oxygen'/'spo2'/'glucose' da soli:
+# sono feature STAMPATE nei titoli dei wearable legittimi (fitness tracker,
+# smartwatch), che escluderemmo per sbaglio. Il glucometro standalone si becca
+# con 'glucometer'/'glucose meter'; un oximetro vero ha 'pulse oximeter'/
+# 'oximeter', uno sfigmomanometro vero ha 'nibp'/'bp monitor'.
 _MEDICAL_INDUSTRIAL_PATTERN = re.compile(
-    r'\boximeter\b|pulse\s+oximeter|\bspo2\b|\bnibp\b|blood\s+pressure|'
-    r'blood\s+oxygen|\bbp\s+monitor\b|\bglucose\b|\bthermometer\b|\bfetal\b|'
-    r'heart\s+rate|baby\s+monitor|\bbroadcast\b|\bgas\b|\bargon\b|\bco2\b|'
-    r'smoke\s+detector|\bmedical\b',
+    r'\boximeter\b|pulse\s+oximeter|\bnibp\b|\bbp\s+monitor\b|\bthermometer\b|'
+    r'\bfetal\b|baby\s+monitor|\bbroadcast\b|\bgas\b|\bargon\b|\bco2\b|'
+    r'smoke\s+detector|\bmedical\b|glucometer|glucose\s+meter',
     re.I,
 )
 

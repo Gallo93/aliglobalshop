@@ -14,16 +14,22 @@ import fetch_products as fp  # noqa: E402
 
 # --- _is_medical_industrial --------------------------------------------------
 MEDICAL_TRUE = [
-    "ChoiceMMed Portable Finger Pulse Oximeter Blood Oxygen",
-    "Adult NIBP Cuff Reusable Digital Monitor Blood Pressure",
-    "Aicare SpO2 Monitor Fingertip",
-    "Safewill Argon Gas Monitor Detector",
-    "SEETEC 7 inch Carry-on Broadcast Monitor SDI",
+    "ChoiceMMed Portable Finger Pulse Oximeter Blood Oxygen",  # pulse oximeter
+    "Adult NIBP Cuff Reusable Digital Monitor Blood Pressure",  # nibp
+    "Aicare Fingertip Pulse Oximeter SpO2",                    # pulse oximeter
+    "Safewill Argon Gas Monitor Detector",                     # gas/argon
+    "SEETEC 7 inch Carry-on Broadcast Monitor SDI",            # broadcast
+    "Sinocare Safe AQ Glucometer Blood Glucose Test Kit",      # glucometer
 ]
 MEDICAL_FALSE = [
     "15.6 inch Portable Monitor IPS 1080p USB-C HDMI Laptop Screen",
     "Gaming Mechanical Keyboard RGB Hot Swap",
     "Wireless Earbuds Bluetooth 5.3 Noise Cancelling",
+    # GUARDIA anti-regressione: i wearable legittimi stampano queste feature
+    # cliniche nel titolo e NON devono essere esclusi (topic fitness tracker /
+    # smartwatch del calendario).
+    "Smart Watch Men Heart Rate Blood Pressure Blood Oxygen SpO2 Fitness Tracker",
+    "D18 Smartwatch Blood Glucose Heart Rate Fitness Tracker",
 ]
 
 # --- _article_price_ok -------------------------------------------------------
@@ -96,7 +102,7 @@ def main() -> int:
          "target_sale_price": "39.00"},
         {"product_id": "3", "product_title": "Safewill Argon Gas Monitor Detector",
          "target_sale_price": "88.00"},
-        {"product_id": "4", "product_title": "Aicare SpO2 Monitor Fingertip",
+        {"product_id": "4", "product_title": "Aicare Fingertip Pulse Oximeter SpO2",
          "target_sale_price": "9.90"},
         {"product_id": "5", "product_title": "SEETEC 21.5 inch Broadcast Monitor SDI 3G",
          "target_sale_price": "1658.00"},
