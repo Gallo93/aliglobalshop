@@ -690,6 +690,14 @@ def _article_price_ok(raw: dict) -> bool:
     return 0 < price <= ARTICLE_MAX_PRICE_USD
 
 
+def _article_search_kw(article: dict, fallback_kw: str) -> str:
+    """Keyword di ricerca prodotti per UN articolo: usa l'override esplicito
+    `product_search` dell'articolo (se presente e non vuoto), altrimenti il
+    fallback derivato dal topic. Questa stringa e' SOLO la query passata all'API;
+    la pertinenza resta ancorata al topic reale (vedi fetch_article_products)."""
+    return (article.get("product_search") or "").strip() or fallback_kw
+
+
 def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
     if not blog_dir.exists():
         return
@@ -705,12 +713,14 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
         combined = f"{title} {primary_kw}"
         if not slug or not primary_kw:
             continue
-        search_kw = _clean_search_kw(primary_kw) or _clean_search_kw(title)
-        topic_pattern = _resolve_topic_pattern(combined, search_kw)
+        # Keyword per la PERTINENZA: sempre derivata dal topic reale
+        # (primary_keyword/title), MAI dall'override prodotto.
+        pattern_kw = _clean_search_kw(primary_kw) or _clean_search_kw(title)
+        topic_pattern = _resolve_topic_pattern(combined, pattern_kw)
         if topic_pattern is None:
             print(f"  [WARN] nessun pattern-tema risolvibile per '{slug}' -- skip")
             continue
-        accessory_pattern = _build_theme_accessory_pattern(search_kw)
+        accessory_pattern = _build_theme_accessory_pattern(pattern_kw)
         cache_file = article_output_dir / f"{slug}.json"
         if cache_file.exists():
             try:
@@ -721,7 +731,16 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             except Exception:
                 pass
 
-        print(f"  [article fetch] {slug} -- search kw: '{search_kw}'")
+        # Query API: override esplicito 'product_search' se presente, altrimenti
+        # la keyword derivata. Si cerca la frase mirata ma il filtro di pertinenza
+        # (topic_pattern/accessory_pattern, ancorato a pattern_kw) scarta comunque
+        # i risultati non-pertinenti/medical/troppo-cari.
+        override_kw = (article.get("product_search") or "").strip()
+        search_kw = _article_search_kw(article, pattern_kw)
+        if override_kw:
+            print(f"  [article fetch] {slug} -- search kw (override): '{search_kw}'")
+        else:
+            print(f"  [article fetch] {slug} -- search kw: '{search_kw}'")
         raw = fetch_products(search_kw, page_size=30)
         if not raw:
             print(f"  [WARN] nessun risultato API per '{slug}' (kw: {search_kw})")
