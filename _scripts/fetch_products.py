@@ -336,11 +336,22 @@ _ARTICLE_TOPIC_PATTERNS = [
     ),
 ]
 
-# Parole rumore rimosse dalla keyword di ricerca per renderla pertinente
+# Parole rumore rimosse dalla keyword di ricerca per renderla pertinente:
+# brand, anni, filler SEO, PIU' le parole-domanda/guida/intento dei topic
+# informativi (how/what/choose/worth/...) che non sono mai un sostantivo-prodotto.
+# Senza queste la query API resta una frase tipo "how to choose portable monitor"
+# (0 risultati) invece del solo sostantivo "portable monitor".
 _KW_STOPWORDS = {
     "aliexpress", "reviews", "review", "guide", "guides", "best", "top",
     "picks", "pick", "under", "the", "a", "an", "and", "or", "for",
     "with", "vs", "2024", "2025", "2026", "2027",
+    # parole-domanda / guida / intento dei topic informativi
+    "how", "to", "choose", "choosing", "what", "which", "why", "when",
+    "where", "are", "is", "was", "do", "does", "should", "your", "you",
+    "need", "know", "before", "buying", "buy", "look", "looking", "get",
+    "getting", "make", "makes", "build", "building", "worth", "it", "that",
+    "stay", "put", "good", "enough", "actually", "really", "of", "in", "on",
+    "at", "my",
 }
 
 # Aggettivi/modificatori frequenti che NON sono il sostantivo-testa del topic:
