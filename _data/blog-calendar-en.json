@@ -172,7 +172,8 @@
     "primary_keyword": "how to choose a portable monitor",
     "category": "electronics",
     "intent": "informational",
-    "used": false
+    "used": true,
+    "used_at": "2026-06-28"
   },
   {
     "topic": "Are cheap mini PCs good enough for a home office in 2026?",
