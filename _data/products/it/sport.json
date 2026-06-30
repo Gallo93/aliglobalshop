@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-06-30T05:00:50Z",
+  "updated_at": "2026-06-30T23:00:39Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3554,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:38Z",
-      "updated_at": "2026-06-30T05:00:38Z"
+      "fetched_at": "2026-06-30T23:00:30Z",
+      "updated_at": "2026-06-30T23:00:30Z"
     },
     {
       "product_id": "1005004369037597",
@@ -35,8 +35,8 @@
       "sales_volume": 398,
       "score": 0.3248,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:38Z",
-      "updated_at": "2026-06-30T05:00:38Z"
+      "fetched_at": "2026-06-30T23:00:30Z",
+      "updated_at": "2026-06-30T23:00:30Z"
     },
     {
       "product_id": "1005005489527499",
@@ -53,12 +53,12 @@
       "sales_volume": 296,
       "score": 0.2712,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:39Z",
-      "updated_at": "2026-06-30T05:00:39Z"
+      "fetched_at": "2026-06-30T23:00:31Z",
+      "updated_at": "2026-06-30T23:00:31Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "X-TIGER Bicicletta Acqua Bottiglia 620ml Acqua Fredda Isolata Bottiglia Termica Outdoor Sport MTB Road Bike Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bottiglia Acqua Fredda 620ml Acqua Isolata Acqua Fredda Bottiglia Termale Outdoor Sport MTB Road Bike Bicicletta Bici Bici Bici Bicicletta Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bottiglia Bici Bici Bici Bici Bici Bici Bici Bici Bottiglia Acqua Bottiglia Acqua Bottiglia Acqua Bottiglia",
+      "title": "X-TIGER Bicicletta Acqua Bottiglia 620ml Acqua Fredda Isolata Bottiglia Termica Outdoor Sport MTB Road Bike Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bicicletta Bottiglia Acqua Fredda 620ml Isolata Acqua Fredda Acqua Termica Bottiglia Termale Sportiva Outdoor MTB Road Bike Bici Bici Bici Bici Bici Bici Bici Bici Bicicletta Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bici Bottiglia Bici Bici Bottiglia Bici Bici Bottiglia Bici Bici Bottiglia Acqua Bottiglia Acqua Botti",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 13.3,
       "original_price": 29.57,
@@ -71,12 +71,12 @@
       "sales_volume": 6,
       "score": 0.2657,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:39Z",
-      "updated_at": "2026-06-30T05:00:39Z"
+      "fetched_at": "2026-06-30T23:00:31Z",
+      "updated_at": "2026-06-30T23:00:31Z"
     },
     {
       "product_id": "32286722941",
-      "title": "Crossfit Speed Jump Rope Portable Fitness Attrezzatura per la Skipping",
+      "title": "Crossfit Speed Jump Rope Portable Fitness Equipment for Skipping",
       "slug": "crossfit-speed-jump-rope-portable-fitness-equipment-for-skip",
       "price": 15.9,
       "original_price": 33.12,
@@ -89,12 +89,12 @@
       "sales_volume": 24,
       "score": 0.2589,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:41Z",
-      "updated_at": "2026-06-30T05:00:41Z"
+      "fetched_at": "2026-06-30T23:00:32Z",
+      "updated_at": "2026-06-30T23:00:32Z"
     },
     {
       "product_id": "1005010382664758",
-      "title": "Casco bici da montagna BATFOX può installare una macchina fotografica sportiva Ciclismo elettrico Gear Safety Cap Uomini Donne bat fox MTB Caschi bici",
+      "title": "BATFOX Mountain Bike Helmet può installare una macchina fotografica sportiva Ciclismo elettrico Gear Safety Cap Uomini Donne bat fox MTB Caschi bici",
       "slug": "batfox-mountain-bike-helmet-can-install-a-sports-camera-elec",
       "price": 33.18,
       "original_price": 66.35,
@@ -107,12 +107,12 @@
       "sales_volume": 45,
       "score": 0.2541,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:41Z",
-      "updated_at": "2026-06-30T05:00:41Z"
+      "fetched_at": "2026-06-30T23:00:32Z",
+      "updated_at": "2026-06-30T23:00:32Z"
     },
     {
       "product_id": "1005008772408846",
-      "title": "Bottiglia di sport di plastica portatile della bottiglia di acqua di 1,5/2 litro con la cinghia di paglia grande Tumbler Gym viaggio Juice bere bottiglia BPA gratis",
+      "title": "bottiglia di sport portatile di plastica della bottiglia di acqua di 1,5/2 litri con la cinghia di paglia grande Tumbler Gym Juice di viaggio che beve la bottiglia BPA gratis",
       "slug": "152-liter-water-bottle-portable-plastic-sports-bottle-with-s",
       "price": 13.6,
       "original_price": 27.2,
@@ -125,8 +125,8 @@
       "sales_volume": 30,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:42Z",
-      "updated_at": "2026-06-30T05:00:42Z"
+      "fetched_at": "2026-06-30T23:00:33Z",
+      "updated_at": "2026-06-30T23:00:33Z"
     },
     {
       "product_id": "1005012402329427",
@@ -143,8 +143,8 @@
       "sales_volume": 3,
       "score": 0.2524,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:42Z",
-      "updated_at": "2026-06-30T05:00:42Z"
+      "fetched_at": "2026-06-30T23:00:33Z",
+      "updated_at": "2026-06-30T23:00:33Z"
     },
     {
       "product_id": "1005006998978324",
@@ -161,12 +161,12 @@
       "sales_volume": 7,
       "score": 0.2508,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:43Z",
-      "updated_at": "2026-06-30T05:00:43Z"
+      "fetched_at": "2026-06-30T23:00:33Z",
+      "updated_at": "2026-06-30T23:00:33Z"
     },
     {
       "product_id": "1005008309626866",
-      "title": "bottiglia dell'acqua dei cuori svegli di 650ml con la copertura del paglia del filtro Kawaii Tritan sport del tè del caffè Juice Cup regalo della bottiglia della palestra per le donne della ragazza",
+      "title": "bottiglia d'acqua di cuore carino di 650ml con la copertura del paglia del filtro Kawaii Tritan sport del tè del caffè Juice Cup regalo della bottiglia di palestra per le donne della ragazza",
       "slug": "650ml-cute-hearts-water-bottle-with-filter-straw-cover-kawai",
       "price": 20.51,
       "original_price": 41.02,
@@ -179,12 +179,12 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:43Z",
-      "updated_at": "2026-06-30T05:00:43Z"
+      "fetched_at": "2026-06-30T23:00:34Z",
+      "updated_at": "2026-06-30T23:00:34Z"
     },
     {
       "product_id": "1005012273080683",
-      "title": "Portabicchieri per acqua magnetica rosa Borsa per acqua per tazze da palestra con forte magnete per borsa per sport all'aperto",
+      "title": "Portabicchieri acqua magnetica rosa Borsa per bottiglie di acqua Gym-specific con magnete forte per la borsa di sport all'aperto",
       "slug": "pink-magnetic-water-bottle-pouch-bag-gym-specific-water-cup-",
       "price": 5.43,
       "original_price": 10.86,
@@ -197,12 +197,12 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:44Z",
-      "updated_at": "2026-06-30T05:00:44Z"
+      "fetched_at": "2026-06-30T23:00:34Z",
+      "updated_at": "2026-06-30T23:00:34Z"
     },
     {
       "product_id": "1005008088518121",
-      "title": "Szie 26-41 Rullo in linea regolabile pattini di pattinaggio flash 4 ruote Skates per le donne uomini all'aperto Sneakers ragazzi ragazze regalo",
+      "title": "Szie 26-41 regolabile in linea pattini pattini di pattinaggio 4 ruote Skates per le donne uomini all'aperto pattinaggio Sneakers ragazzi ragazze regalo",
       "slug": "szie-26-41-adjustable-inline-roller-skate-shoes-flashing-4-w",
       "price": 28.93,
       "original_price": 56.74,
@@ -215,12 +215,12 @@
       "sales_volume": 8,
       "score": 0.248,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:44Z",
-      "updated_at": "2026-06-30T05:00:44Z"
+      "fetched_at": "2026-06-30T23:00:35Z",
+      "updated_at": "2026-06-30T23:00:35Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Free Plastic Sports Water Bottiglia 400/500/700/1000ml portatile Leak-proof Bevande Outdoor Gym Water Bottiglia di Biscottiglia",
+      "title": "BPA Free Plastic Sports Water Bottiglia 400/500/700/1000ml portatile Leak-proof Bevande Outdoor Gym Water Bottiglia di Biscotteria",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.74,
       "original_price": 15.79,
@@ -233,8 +233,8 @@
       "sales_volume": 43,
       "score": 0.2471,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:45Z",
-      "updated_at": "2026-06-30T05:00:45Z"
+      "fetched_at": "2026-06-30T23:00:35Z",
+      "updated_at": "2026-06-30T23:00:35Z"
     },
     {
       "product_id": "1005005520121617",
@@ -251,12 +251,12 @@
       "sales_volume": 2,
       "score": 0.2352,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:45Z",
-      "updated_at": "2026-06-30T05:00:45Z"
+      "fetched_at": "2026-06-30T23:00:36Z",
+      "updated_at": "2026-06-30T23:00:36Z"
     },
     {
       "product_id": "1005008682223950",
-      "title": "ROCKBROS Sport Headband per gli uomini donne in esecuzione Sweatband elastico outdoor Sport Sweat Head Band Gym Fitness Yoga Headwrap",
+      "title": "ROCKBROS Sport Headband per le donne in esecuzione Sweatband elastico outdoor Sport Sweat Head Band Gym Fitness Yoga Headwrap",
       "slug": "rockbros-sports-headband-for-men-women-running-sweatband-str",
       "price": 3.67,
       "original_price": 6.12,
@@ -269,12 +269,12 @@
       "sales_volume": 5,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:46Z",
-      "updated_at": "2026-06-30T05:00:46Z"
+      "fetched_at": "2026-06-30T23:00:36Z",
+      "updated_at": "2026-06-30T23:00:36Z"
     },
     {
       "product_id": "1005005807293081",
-      "title": "ROCKBROS 670ML Bicicletta Bottiglia di acqua isolata di ciclismo Bottiglia di acqua in esecuzione di palestra di sport della bottiglia di acqua MTB Road Bike Bottiglia termica",
+      "title": "ROCKBROS 670ML Bicicletta Bottiglia di acqua isolata di ciclismo Bottiglia di acqua di Gym Running Sport Bottiglia di acqua MTB Road Bike Bottiglia termica",
       "slug": "rockbros-670ml-bicycle-water-bottle-insulated-cycling-water-",
       "price": 7.35,
       "original_price": 12.25,
@@ -287,12 +287,12 @@
       "sales_volume": 21,
       "score": 0.22,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:47Z",
-      "updated_at": "2026-06-30T05:00:47Z"
+      "fetched_at": "2026-06-30T23:00:37Z",
+      "updated_at": "2026-06-30T23:00:37Z"
     },
     {
       "product_id": "1005003674465001",
-      "title": "Corda di salto di boxe con le maniglie della maniglia della schiuma pesante, corda di salto di crossfit, allenamenti di fitness, formazione di resistenza di resistenza di resistenza",
+      "title": "Corda di salto di boxe con le maniglie della maniglia della schiuma pesante, corda di salto trasversale, allenamenti di fitness, formazione di resistenza di resistenza di resistenza di resistenza",
       "slug": "boxing-jump-rope-with-heavy-foam-grip-handles-crossfit-skipp",
       "price": 12.87,
       "original_price": 20.43,
@@ -305,12 +305,12 @@
       "sales_volume": 0,
       "score": 0.211,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:47Z",
-      "updated_at": "2026-06-30T05:00:47Z"
+      "fetched_at": "2026-06-30T23:00:37Z",
+      "updated_at": "2026-06-30T23:00:37Z"
     },
     {
       "product_id": "1005008686251941",
-      "title": "Scatola di sicurezza nascosta Tazza di caffè in acciaio inossidabile a doppio strato immagazzinamento di denaro isolato Diversione sicuro bottiglia di acqua di sport",
+      "title": "Scatola sicura nascosta Tazza di caffè in acciaio inossidabile a doppio strato immagazzinamento di denaro isolato Diversione sicura bottiglia d'acqua sportiva",
       "slug": "hidden-safe-box-double-layer-stainless-steel-coffee-cup-stor",
       "price": 9.17,
       "original_price": 18.35,
@@ -323,8 +323,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:48Z",
-      "updated_at": "2026-06-30T05:00:48Z"
+      "fetched_at": "2026-06-30T23:00:38Z",
+      "updated_at": "2026-06-30T23:00:38Z"
     },
     {
       "product_id": "1005008813902899",
@@ -341,12 +341,12 @@
       "sales_volume": 161,
       "score": 0.2061,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:48Z",
-      "updated_at": "2026-06-30T05:00:48Z"
+      "fetched_at": "2026-06-30T23:00:38Z",
+      "updated_at": "2026-06-30T23:00:38Z"
     },
     {
       "product_id": "1005008896298252",
-      "title": "Senza cuciture Halleggings donne senza giunte Sport Pantaloni Yoga Bassa fascia a costi contenuti Gym Clothes Fitness Workout Wear Scrunch Bum Tights",
+      "title": "Senza cuciture Halleggings donne senza giunte Sport Pantaloni Yoga Low Ribbed Band Gym Clothes Fitness Workout Wear Scrunch Bum Tights",
       "slug": "seamless-halleggings-women-seamless-sports-yoga-pants-low-ri",
       "price": 21.97,
       "original_price": 36.62,
@@ -359,8 +359,8 @@
       "sales_volume": 111,
       "score": 0.2042,
       "price_history": [],
-      "fetched_at": "2026-06-30T05:00:50Z",
-      "updated_at": "2026-06-30T05:00:50Z"
+      "fetched_at": "2026-06-30T23:00:39Z",
+      "updated_at": "2026-06-30T23:00:39Z"
     }
   ]
 }
