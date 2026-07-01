@@ -529,6 +529,23 @@ def _topic_head_phrases(clean_kw: str) -> set:
     return phrases
 
 
+def _plural_tolerant(token: str) -> str:
+    """Frammento regex che matcha il token sia al singolare sia al plurale sul
+    sostantivo-testa del topic, cosi 'pcs' (plurale della keyword) matcha anche
+    'PC' nei titoli prodotto e 'drone' matcha 'drones'.
+
+    - token che finisce per 's' (len>2): stem = token[:-1], -> stem + 's?'
+      (es. 'pcs' -> 'pcs?', 'drones' -> 'drones?').
+    - altrimenti: token + 's?' (es. 'pc' -> 'pcs?', 'drone' -> 'drones?').
+
+    I token derivano da _clean_search_kw (solo [a-z0-9]), quindi non contengono
+    metacaratteri regex da escapare.
+    """
+    if len(token) > 2 and token.endswith("s"):
+        return token[:-1] + "s?"
+    return token + "s?"
+
+
 def _dynamic_topic_pattern(clean_kw: str):
     """Costruisce un pattern-tema DINAMICO per i topic NON coperti dalla
     whitelist hardcoded _ARTICLE_TOPIC_PATTERNS, cosi OGNI articolo presente o
@@ -542,6 +559,10 @@ def _dynamic_topic_pattern(clean_kw: str):
     comuni vengono scartati prima di scegliere il token-testa, ma se restano
     SOLO modificatori si ripiega sull'ultimo token grezzo.
 
+    Il sostantivo-testa (singolo e ultimo token della coppia finale) e' reso
+    tollerante a singolare/plurale via _plural_tolerant, cosi un head plurale
+    ('pcs') matcha il singolare dei titoli ('Mini PC') e viceversa.
+
     Ritorna None (e quindi nessun match -> rete di sicurezza in build.py) se la
     keyword e' vuota o qualcosa va storto, mantenendo il vecchio comportamento.
     """
@@ -551,11 +572,12 @@ def _dynamic_topic_pattern(clean_kw: str):
             return None
         head_pool = [t for t in tokens if t not in _KW_MODIFIERS]
         head = head_pool[-1] if head_pool else tokens[-1]
-        alts = [head]
+        alts = [_plural_tolerant(head)]
         # Coppia finale (es. 'action camera', 'power station'): aumenta la
-        # precisione quando il sostantivo-testa da solo sarebbe ambiguo.
+        # precisione quando il sostantivo-testa da solo sarebbe ambiguo. Il
+        # solo ultimo token e' reso plural-tollerante, il primo resta invariato.
         if len(tokens) >= 2:
-            pair = f"{tokens[-2]}\\s+{tokens[-1]}"
+            pair = f"{tokens[-2]}\\s+{_plural_tolerant(tokens[-1])}"
             alts.append(pair)
         # Deduplica preservando l'ordine, poi costruisce un'alternanza regex
         # ancorata a word boundary sul singolo token-testa.
