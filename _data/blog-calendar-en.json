@@ -180,7 +180,8 @@
     "primary_keyword": "are cheap mini pcs worth it",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-07-01"
   },
   {
     "topic": "Best budget gaming headset for competitive play in 2026",
