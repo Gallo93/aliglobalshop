@@ -1,10 +1,10 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-07-01T05:20:12Z",
+  "updated_at": "2026-07-01T14:44:07Z",
   "products": [
     {
       "product_id": "4001142960865",
-      "title": "LED Strip Light ,RGB 5050/SMD3535, Ruban flexible, DIY LED Light Strip RGB Tape Diode DC 12V bluetooth lumières de Noël",
+      "title": "LED Strip Light ,RGB 5050/SMD3535, Ruban flexible, DIY Led Light Strip RGB Tape Diode DC 12V bluetooth lumières de Noël",
       "slug": "led-strip-light-rgb-5050smd3535-flexible-ribbon-diy-led-ligh",
       "price": 11.56,
       "original_price": 42.8,
@@ -17,12 +17,12 @@
       "sales_volume": 41,
       "score": 0.3239,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:01Z",
-      "updated_at": "2026-07-01T05:20:01Z"
+      "fetched_at": "2026-07-01T14:43:56Z",
+      "updated_at": "2026-07-01T14:43:56Z"
     },
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacité de batterie externe Chargeur Portable Chargeur rapide Powerbank Pour Ordinateur portable iPhone Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacité de batterie externe Chargeur Portable Chargeur rapide Powerbank pour iPhone portable Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 33.18,
       "original_price": 72.14,
@@ -35,12 +35,12 @@
       "sales_volume": 317,
       "score": 0.291,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:01Z",
-      "updated_at": "2026-07-01T05:20:01Z"
+      "fetched_at": "2026-07-01T14:43:57Z",
+      "updated_at": "2026-07-01T14:43:57Z"
     },
     {
       "product_id": "1005009017398891",
-      "title": "10000mAh Slim Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil magnétique 20W Batterie externe portable pour iPhone Samsung",
+      "title": "10000mAh Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil 20W pour iPhone Samsung",
       "slug": "10000mah-slim-mini-power-bank-for-magsafemagnetic-wireless-f",
       "price": 17.55,
       "original_price": 33.12,
@@ -53,8 +53,8 @@
       "sales_volume": 329,
       "score": 0.2727,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:02Z",
-      "updated_at": "2026-07-01T05:20:02Z"
+      "fetched_at": "2026-07-01T14:43:58Z",
+      "updated_at": "2026-07-01T14:43:58Z"
     },
     {
       "product_id": "1005011812151458",
@@ -71,8 +71,8 @@
       "sales_volume": 66,
       "score": 0.2632,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:02Z",
-      "updated_at": "2026-07-01T05:20:02Z"
+      "fetched_at": "2026-07-01T14:43:59Z",
+      "updated_at": "2026-07-01T14:43:59Z"
     },
     {
       "product_id": "1005012272048246",
@@ -89,12 +89,12 @@
       "sales_volume": 6,
       "score": 0.2627,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:03Z",
-      "updated_at": "2026-07-01T05:20:03Z"
+      "fetched_at": "2026-07-01T14:43:59Z",
+      "updated_at": "2026-07-01T14:43:59Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "Centrale électrique portable haute capacité 400W 192Wh LiFePO4 batterie AC 220V générateur solaire rapide Banque de puissance pour le camping",
+      "title": "Haute capacité 400W Portable Power Station 192Wh LiFePO4 Batterie AC 220V Solar Generator Fast Charge Power Bank for Camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
       "price": 128.16,
       "original_price": 278.6,
@@ -107,8 +107,8 @@
       "sales_volume": 20,
       "score": 0.2622,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:03Z",
-      "updated_at": "2026-07-01T05:20:03Z"
+      "fetched_at": "2026-07-01T14:44:00Z",
+      "updated_at": "2026-07-01T14:44:00Z"
     },
     {
       "product_id": "1005009210852728",
@@ -125,12 +125,12 @@
       "sales_volume": 58,
       "score": 0.2565,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:04Z",
-      "updated_at": "2026-07-01T05:20:04Z"
+      "fetched_at": "2026-07-01T14:44:00Z",
+      "updated_at": "2026-07-01T14:44:00Z"
     },
     {
       "product_id": "1005009334209038",
-      "title": "36000mAh Banque de puissance solaire Chargeur sans fil rapide Powerbank pour iPhone 16 15 Samsung S24 Huawei Xiaomi 3A Banque de puissance charge rapide",
+      "title": "36000mAh Banque d'énergie solaire Chargeur sans fil rapide Banque d'énergie pour iPhone 16 15 Samsung S24 Huawei Xiaomi 3A",
       "slug": "36000mah-solar-power-bank-fast-wireless-charger-powerbank-fo",
       "price": 24.08,
       "original_price": 48.14,
@@ -143,8 +143,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:04Z",
-      "updated_at": "2026-07-01T05:20:04Z"
+      "fetched_at": "2026-07-01T14:44:01Z",
+      "updated_at": "2026-07-01T14:44:01Z"
     },
     {
       "product_id": "1005008359913408",
@@ -161,8 +161,8 @@
       "sales_volume": 6,
       "score": 0.244,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:05Z",
-      "updated_at": "2026-07-01T05:20:05Z"
+      "fetched_at": "2026-07-01T14:44:02Z",
+      "updated_at": "2026-07-01T14:44:02Z"
     },
     {
       "product_id": "1005009896941801",
@@ -179,8 +179,8 @@
       "sales_volume": 3,
       "score": 0.2224,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:05Z",
-      "updated_at": "2026-07-01T05:20:05Z"
+      "fetched_at": "2026-07-01T14:44:02Z",
+      "updated_at": "2026-07-01T14:44:02Z"
     },
     {
       "product_id": "1005011531921275",
@@ -197,8 +197,8 @@
       "sales_volume": 1,
       "score": 0.2161,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:06Z",
-      "updated_at": "2026-07-01T05:20:06Z"
+      "fetched_at": "2026-07-01T14:44:03Z",
+      "updated_at": "2026-07-01T14:44:03Z"
     },
     {
       "product_id": "1005011532019654",
@@ -215,8 +215,8 @@
       "sales_volume": 0,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:07Z",
-      "updated_at": "2026-07-01T05:20:07Z"
+      "fetched_at": "2026-07-01T14:44:03Z",
+      "updated_at": "2026-07-01T14:44:03Z"
     },
     {
       "product_id": "1005012229118016",
@@ -233,12 +233,12 @@
       "sales_volume": 86,
       "score": 0.2153,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:07Z",
-      "updated_at": "2026-07-01T05:20:07Z"
+      "fetched_at": "2026-07-01T14:44:04Z",
+      "updated_at": "2026-07-01T14:44:04Z"
     },
     {
       "product_id": "33007923484",
-      "title": "EVA Coffret de rangement de protection portable rigide Sac de rangement pour haut-parleur MARSHALL Stockwell Bluetooth haut-parleur",
+      "title": "Boîte de transport de protection EVA dur Portable Housse de rangement Haut-Parleur Sac pour MARSHALL Stockwell Bluetooth Haut-Parleur Accessoires",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 10.51,
       "original_price": 16.42,
@@ -251,8 +251,8 @@
       "sales_volume": 14,
       "score": 0.2047,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:08Z",
-      "updated_at": "2026-07-01T05:20:08Z"
+      "fetched_at": "2026-07-01T14:44:04Z",
+      "updated_at": "2026-07-01T14:44:04Z"
     },
     {
       "product_id": "1005009873262361",
@@ -269,12 +269,12 @@
       "sales_volume": 28,
       "score": 0.1956,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:08Z",
-      "updated_at": "2026-07-01T05:20:08Z"
+      "fetched_at": "2026-07-01T14:44:04Z",
+      "updated_at": "2026-07-01T14:44:04Z"
     },
     {
       "product_id": "1005008447641986",
-      "title": "Lunettes de soleil Bluetooth sans fil portatives Miroir ultra-mince pour grenouilles Lunettes de soleil polarisé Smart Earphone Lunettes de soleil Dropshipping",
+      "title": "Lunettes de soleil Bluetooth sans fil Portable Ultra-fine Frog Mirror Lunettes de soleil polarisé Smart Earphone Lunettes de soleil Dropshipping",
       "slug": "portable-wireless-bluetooth-headset-glasses-ultra-thin-frog-",
       "price": 8.82,
       "original_price": 12.6,
@@ -287,8 +287,8 @@
       "sales_volume": 12,
       "score": 0.1914,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:09Z",
-      "updated_at": "2026-07-01T05:20:09Z"
+      "fetched_at": "2026-07-01T14:44:05Z",
+      "updated_at": "2026-07-01T14:44:05Z"
     },
     {
       "product_id": "1005007065066717",
@@ -305,8 +305,8 @@
       "sales_volume": 74,
       "score": 0.1779,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:10Z",
-      "updated_at": "2026-07-01T05:20:10Z"
+      "fetched_at": "2026-07-01T14:44:05Z",
+      "updated_at": "2026-07-01T14:44:05Z"
     },
     {
       "product_id": "1005009995359144",
@@ -323,12 +323,12 @@
       "sales_volume": 127,
       "score": 0.1778,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:10Z",
-      "updated_at": "2026-07-01T05:20:10Z"
+      "fetched_at": "2026-07-01T14:44:06Z",
+      "updated_at": "2026-07-01T14:44:06Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Contrôleur LED WIFI Smart Wireless 2.4GHz Gateway Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe de bande",
+      "title": "WL-Box2 Contrôleur de LED WIFI Smart Wireless 2.4GHz Gateway Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe de bande",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -341,8 +341,8 @@
       "sales_volume": 12,
       "score": 0.1764,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:11Z",
-      "updated_at": "2026-07-01T05:20:11Z"
+      "fetched_at": "2026-07-01T14:44:06Z",
+      "updated_at": "2026-07-01T14:44:06Z"
     },
     {
       "product_id": "1005010253348075",
@@ -359,8 +359,8 @@
       "sales_volume": 27,
       "score": 0.1712,
       "price_history": [],
-      "fetched_at": "2026-07-01T05:20:11Z",
-      "updated_at": "2026-07-01T05:20:11Z"
+      "fetched_at": "2026-07-01T14:44:07Z",
+      "updated_at": "2026-07-01T14:44:07Z"
     }
   ]
 }
