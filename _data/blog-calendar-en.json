@@ -188,7 +188,8 @@
     "primary_keyword": "best budget gaming headset 2026",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-07-02"
   },
   {
     "topic": "Best bluetooth speaker for the price under 30 dollars",
