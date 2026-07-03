@@ -483,6 +483,36 @@ _MEDICAL_INDUSTRIAL_PATTERN = re.compile(
     re.I,
 )
 
+# Form-factor in-ear (IEM / auricolari / earbud / earplug) SENZA boom-mic: negli
+# article-products di un topic "headset" (cuffie gaming over-ear con microfono a
+# braccetto) l'API pesca anche IEM/earphone che matchano il pattern-tema
+# hardcoded earbuds/earphones/headset (es. "KZ PRO 24 ... IEM Earbud In Ear
+# Monitor Wired", "... Wired Earphones ... Earplugs") ma stonano con una guida
+# che raccomanda un boom-mic. Escludiamo SOLO questi form-factor in-ear.
+# NB: NON 'headphone'/'headphones' ne 'headset' -> le cuffie over-ear vere
+# ("Gaming Headset Over Ear ... with Microphone", "Gaming Headphones Over Ear")
+# restano pertinenti. 'in[\s-]?ear' matcha "In Ear"/"In-Ear" ma non "Over Ear".
+_INEAR_FORM_PATTERN = re.compile(
+    r'\bin[\s-]?ear\b|in\s+ear\s+monitor|\biems?\b|'
+    r'\bearphones?\b|\bearbuds?\b|\bearplugs?\b',
+    re.I,
+)
+
+# Head-noun del topic che ATTIVANO l'esclusione in-ear: topic su cuffie/headset
+# over-ear. 'headphone(s)' incluso perche' e' la stessa categoria over-ear (un
+# prodotto 'headphone' resta valido, ma un IEM in un articolo headphones stona
+# uguale). La guardia condizionale (vedi _should_exclude_inear) tiene fuori i
+# topic che parlano ESSI STESSI di in-ear/earbuds/iem.
+_HEADSET_TOPIC_HEADS = {"headset", "headsets", "headphone", "headphones"}
+
+# Se uno di questi token compare nel topic, il topic PARLA di auricolari in-ear
+# (es. articolo "wireless earbuds for running"): in quel caso NON si esclude
+# nulla, gli earbuds/IEM sono il prodotto-tema.
+_INEAR_TOPIC_TOKENS = {
+    "earbud", "earbuds", "earphone", "earphones", "iem", "iems",
+    "earplug", "earplugs", "inear",
+}
+
 
 def _clean_search_kw(text: str) -> str:
     """Deriva una keyword di ricerca pertinente rimuovendo parole rumore,
@@ -704,6 +734,34 @@ def _is_medical_industrial(title: str) -> bool:
     return bool(title) and bool(_MEDICAL_INDUSTRIAL_PATTERN.search(title))
 
 
+def _is_inear_form(title: str) -> bool:
+    """True se il titolo indica un form-factor in-ear/IEM/earphone/earbud/
+    earplug (auricolari senza boom-mic). NON matcha 'headphone'/'headset'
+    (cuffie over-ear valide)."""
+    return bool(title) and bool(_INEAR_FORM_PATTERN.search(title))
+
+
+def _should_exclude_inear(clean_kw: str) -> bool:
+    """True se il topic e' di tipo cuffie/headset over-ear (head-noun in
+    _HEADSET_TOPIC_HEADS) e NON parla esso stesso di auricolari in-ear. In quel
+    caso i prodotti IEM/in-ear senza boom-mic vanno esclusi dai risultati.
+
+    Guardia condizionale (stile protezioni topic-head gia' presenti): se un
+    token in-ear (earbuds/earphone/iem/earplug/inear) compare nel topic, il
+    topic E' su auricolari in-ear -> NON escludere nulla (es. articolo
+    "wireless earbuds for running")."""
+    try:
+        head = _topic_head_noun(clean_kw)
+        if head not in _HEADSET_TOPIC_HEADS:
+            return False
+        tokens = set(re.findall(r"[a-z0-9]+", (clean_kw or "").lower()))
+        if tokens & _INEAR_TOPIC_TOKENS:
+            return False
+        return True
+    except Exception:
+        return False
+
+
 def _article_price_ok(raw: dict) -> bool:
     """True se il prezzo del prodotto e' positivo e <= ARTICLE_MAX_PRICE_USD.
     Estrae il prezzo come build_product/fetch_niche. Difensivo: prezzo assente
@@ -743,6 +801,9 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             print(f"  [WARN] nessun pattern-tema risolvibile per '{slug}' -- skip")
             continue
         accessory_pattern = _build_theme_accessory_pattern(pattern_kw)
+        # Esclusione in-ear condizionale: attiva solo per i topic cuffie/headset
+        # over-ear (non per gli articoli su earbuds/IEM). Vedi _should_exclude_inear.
+        exclude_inear = _should_exclude_inear(pattern_kw)
         cache_file = article_output_dir / f"{slug}.json"
         if cache_file.exists():
             try:
@@ -775,6 +836,7 @@ def fetch_article_products(blog_dir: Path, article_output_dir: Path) -> None:
             and not _is_theme_accessory(r.get("product_title", ""), accessory_pattern)
             and not _is_offtopic(r.get("product_title", ""))
             and not _is_medical_industrial(r.get("product_title", ""))
+            and not (exclude_inear and _is_inear_form(r.get("product_title", "")))
             and _article_price_ok(r)
             and _is_relevant(r.get("product_title", ""), topic_pattern)
         ]
