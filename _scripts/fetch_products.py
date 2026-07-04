@@ -131,6 +131,13 @@ SALES_CAP = 5000
 # da migliaia di $). Un filo piu' alto di MAX_PRICE_USD per l'elettronica da guida.
 ARTICLE_MAX_PRICE_USD = 300.0
 
+# Prezzo MINIMO per gli article-products: ricambi/connettori/cavi/parti singole
+# costano tipicamente <$2 (es. "USB Female Connector" a $0.59 pescato come
+# "speaker" perche' il titolo contiene la parola). Uno speaker Bluetooth vero,
+# o qualunque dispositivo-target, parte da ~$3-5. Alza il pavimento cosi le
+# parti di ricambio a pochi centesimi non passano piu' il filtro.
+ARTICLE_MIN_PRICE_USD = 3.0
+
 
 def _sign(params: dict) -> str:
     sorted_pairs = sorted(params.items())
@@ -380,10 +387,12 @@ _KW_MODIFIERS = {
 # e gli smartwatch veri hanno 'strap/band' nel titolo.
 # stickers/labels/sealing/packing/wrapping: materiale da imballo.
 # 'wrap' secco escluso di proposito: 'hand/wrist/knee wrap' sono attrezzi gym veri.
+# 'connector(s)': un prodotto-target non ha mai 'connector' come oggetto
+# ("USB Female Connector" = parte/ricambio, non il dispositivo).
 _ACCESSORY_PATTERN = re.compile(
     r'\b(?:case|cover|pouch|cushion|foam|sponge|tips?|eartips?|ear\s+tips?|'
     r'holder|stand|skin|stickers?|labels?|sealing|packing|wrapping|'
-    r'protector|screen\s+protector|replacement|spare|'
+    r'protector|screen\s+protector|replacement|spare|connectors?|'
     r'battery|charger|dock|cable|glass|lens|bumper|crystal|repair|accessor(?:y|ies))\b',
     re.I,
 )
@@ -769,11 +778,14 @@ def _should_exclude_inear(clean_kw: str) -> bool:
 
 
 def _article_price_ok(raw: dict) -> bool:
-    """True se il prezzo del prodotto e' positivo e <= ARTICLE_MAX_PRICE_USD.
+    """True se il prezzo del prodotto e' entro la fascia degli article-products:
+    ARTICLE_MIN_PRICE_USD <= prezzo <= ARTICLE_MAX_PRICE_USD. Il pavimento
+    scarta ricambi/connettori/cavi/parti singole (tipicamente <$2) che
+    passerebbero i filtri testuali solo perche' il titolo cita il dispositivo.
     Estrae il prezzo come build_product/fetch_niche. Difensivo: prezzo assente
     o non parsabile -> 0.0 -> False (scarta)."""
     price = _parse_float(raw.get("target_sale_price") or raw.get("sale_price", "0"))
-    return 0 < price <= ARTICLE_MAX_PRICE_USD
+    return ARTICLE_MIN_PRICE_USD <= price <= ARTICLE_MAX_PRICE_USD
 
 
 def _article_search_kw(article: dict, fallback_kw: str) -> str:
