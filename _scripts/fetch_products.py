@@ -357,6 +357,12 @@ _KW_STOPWORDS = {
     "getting", "make", "makes", "build", "building", "worth", "it", "that",
     "stay", "put", "good", "enough", "actually", "really", "of", "in", "on",
     "at", "my",
+    # valuta / prezzo: modificatori di budget ("under 30 dollars", "best value
+    # under 20 euros"), MAI il sostantivo-testa di un prodotto. Senza questi
+    # 'dollars' diventava l'head-noun di "bluetooth speaker under 30 dollars"
+    # -> pattern su 'dollar' -> 0 speaker pertinenti (stessa classe del 'pcs').
+    "dollar", "dollars", "usd", "euro", "euros", "eur", "pound", "pounds",
+    "gbp", "buck", "bucks", "price", "priced", "prices", "cost", "money",
 }
 
 # Aggettivi/modificatori frequenti che NON sono il sostantivo-testa del topic:
