@@ -196,7 +196,8 @@
     "primary_keyword": "best bluetooth speaker under 30 dollars",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-07-04"
   },
   {
     "topic": "What to look for in a budget portable projector",

@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-07-04T04:32:56Z",
+  "updated_at": "2026-07-04T10:00:17Z",
   "products": [
     {
       "product_id": "1005012445621796",
@@ -18,7 +18,7 @@
       "score": 0.2997,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:46Z",
-      "updated_at": "2026-07-04T04:32:46Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005008710290057",
@@ -36,7 +36,7 @@
       "score": 0.2655,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:47Z",
-      "updated_at": "2026-07-04T04:32:47Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005012287493206",
@@ -54,7 +54,7 @@
       "score": 0.2535,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:47Z",
-      "updated_at": "2026-07-04T04:32:47Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005008952159162",
@@ -72,7 +72,7 @@
       "score": 0.2514,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:48Z",
-      "updated_at": "2026-07-04T04:32:48Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005001394925942",
@@ -90,7 +90,7 @@
       "score": 0.2511,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:48Z",
-      "updated_at": "2026-07-04T04:32:48Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005005604363467",
@@ -108,7 +108,7 @@
       "score": 0.2459,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:49Z",
-      "updated_at": "2026-07-04T04:32:49Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005005807578430",
@@ -126,11 +126,11 @@
       "score": 0.2391,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:49Z",
-      "updated_at": "2026-07-04T04:32:49Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005004774956386",
-      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 Sensor funziona con Alexa Google Home Assistant",
+      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 sensore funziona con Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
       "price": 27.84,
       "original_price": 47.19,
@@ -144,11 +144,11 @@
       "score": 0.2384,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:50Z",
-      "updated_at": "2026-07-04T04:32:50Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005007677605461",
-      "title": "IMILAB C40 Sicurezza domestica 5G WiFi Macchina fotografica Indoor Cam 4K PTZ per il bambino / gatto con la persona Pet Track potente AI Detection Mihome",
+      "title": "IMILAB C40 Sicurezza domestica 5G WiFi Camera Indoor Cam 4K PTZ per il bambino/pacchetto con persona Pet Track Potente AI Detection Mihome",
       "slug": "imilab-c40-home-security-5g-wifi-camera-indoor-cam-4k-ptz-fo",
       "price": 47.19,
       "original_price": 82.79,
@@ -162,7 +162,7 @@
       "score": 0.2304,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:50Z",
-      "updated_at": "2026-07-04T04:32:50Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005010463738860",
@@ -180,7 +180,7 @@
       "score": 0.2251,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:51Z",
-      "updated_at": "2026-07-04T04:32:51Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005008987618271",
@@ -198,7 +198,7 @@
       "score": 0.2235,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:51Z",
-      "updated_at": "2026-07-04T04:32:51Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "4000143784956",
@@ -216,11 +216,11 @@
       "score": 0.2232,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:52Z",
-      "updated_at": "2026-07-04T04:32:52Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005010445247796",
-      "title": "Tuya Wifi PTZ fotocamera esterna 5X Zoom telecamera IP di sicurezza 5MP completa visione notturna Sorveglianza Rilevazione del movimento di monitoraggio umano",
+      "title": "Tuya Wifi PTZ fotocamera esterna 5X Zoom telecamera IP di sicurezza 5MP completa visione notturna Sorveglianza rilevamento del movimento di monitoraggio umano",
       "slug": "tuya-wifi-ptz-camera-outdoor-5x-zoom-security-ip-camera-5mp-",
       "price": 25.97,
       "original_price": 56.45,
@@ -234,11 +234,11 @@
       "score": 0.2227,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:52Z",
-      "updated_at": "2026-07-04T04:32:52Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005009306467710",
-      "title": "4MP HD 5G WiFi PTZ Macchina fotografica Auto Tracking Cry Detector Home Sicurezza Interna Telecamere di sorveglianza CCTV Baby Monitor",
+      "title": "4MP HD 5G WiFi PTZ telecamera auto Tracking Cry Detector Home Sicurezza Interna telecamere di sorveglianza CCTV Baby Monitor",
       "slug": "4mp-hd-5g-wifi-ptz-camera-auto-tracking-cry-detector-home-in",
       "price": 10.49,
       "original_price": 18.4,
@@ -252,7 +252,7 @@
       "score": 0.2175,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:53Z",
-      "updated_at": "2026-07-04T04:32:53Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005004966987077",
@@ -270,7 +270,7 @@
       "score": 0.2151,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:53Z",
-      "updated_at": "2026-07-04T04:32:53Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005003990707766",
@@ -288,7 +288,7 @@
       "score": 0.2121,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:54Z",
-      "updated_at": "2026-07-04T04:32:54Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005008650696927",
@@ -306,7 +306,7 @@
       "score": 0.2114,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:54Z",
-      "updated_at": "2026-07-04T04:32:54Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "32898805107",
@@ -324,7 +324,7 @@
       "score": 0.2014,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:54Z",
-      "updated_at": "2026-07-04T04:32:54Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005006118602003",
@@ -342,7 +342,7 @@
       "score": 0.1998,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:55Z",
-      "updated_at": "2026-07-04T04:32:55Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "4001041588925",
@@ -360,7 +360,7 @@
       "score": 0.1998,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:56Z",
-      "updated_at": "2026-07-04T04:32:56Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     }
   ]
 }

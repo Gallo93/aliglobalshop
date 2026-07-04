@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-07-04T04:32:56Z",
+  "updated_at": "2026-07-04T10:00:17Z",
   "products": [
     {
       "product_id": "1005012445621796",
@@ -18,7 +18,7 @@
       "score": 0.2997,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:46Z",
-      "updated_at": "2026-07-04T04:32:46Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005008710290057",
@@ -36,7 +36,7 @@
       "score": 0.2655,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:47Z",
-      "updated_at": "2026-07-04T04:32:47Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005012287493206",
@@ -54,7 +54,7 @@
       "score": 0.2535,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:47Z",
-      "updated_at": "2026-07-04T04:32:47Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005008952159162",
@@ -72,11 +72,11 @@
       "score": 0.2514,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:48Z",
-      "updated_at": "2026-07-04T04:32:48Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005001394925942",
-      "title": "Cámara de goteo Wifi Onvif 3MP E27 lámpara a granel PTZ impermeable 4X zoom digital fácil de instalar al aire libre Inicio seguridad Ycc365plus",
+      "title": "Cámara de goteo Wifi Onvif 3MP E27 Lámpara a granel PTZ impermeable 4X zoom digital fácil de instalar al aire libre Inicio Seguridad Ycc365plus",
       "slug": "dropshipping-camera-wifi-onvif-3mp-e27-bulb-lamp-ptz-waterpr",
       "price": 27.59,
       "original_price": 55.18,
@@ -90,7 +90,7 @@
       "score": 0.2511,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:48Z",
-      "updated_at": "2026-07-04T04:32:48Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005005604363467",
@@ -108,7 +108,7 @@
       "score": 0.2459,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:49Z",
-      "updated_at": "2026-07-04T04:32:49Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005005807578430",
@@ -126,7 +126,7 @@
       "score": 0.2391,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:49Z",
-      "updated_at": "2026-07-04T04:32:49Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005004774956386",
@@ -144,7 +144,7 @@
       "score": 0.2384,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:50Z",
-      "updated_at": "2026-07-04T04:32:50Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005007677605461",
@@ -162,11 +162,11 @@
       "score": 0.2304,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:50Z",
-      "updated_at": "2026-07-04T04:32:50Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005010463738860",
-      "title": "Yoosee 5MP WiFi Seguridad PTZ Indoor IP Cámara 3MP Smart Home Seguridad Color Noche Visión Siren Alarm Humanoid Detection Ai Track",
+      "title": "Yoosee 5MP WiFi Seguridad PTZ Interior Cámara IP 3MP Smart Home Seguridad Color Noche Visión Siren Alarma Humanoide Detection Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
       "price": 24.75,
       "original_price": 41.25,
@@ -180,7 +180,7 @@
       "score": 0.2251,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:51Z",
-      "updated_at": "2026-07-04T04:32:51Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005008987618271",
@@ -198,7 +198,7 @@
       "score": 0.2235,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:51Z",
-      "updated_at": "2026-07-04T04:32:51Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "4000143784956",
@@ -216,11 +216,11 @@
       "score": 0.2232,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:52Z",
-      "updated_at": "2026-07-04T04:32:52Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005010445247796",
-      "title": "Tuya Wifi PTZ Cámara exterior 5X Zoom Seguridad IP Cámara 5MP Full Color Night Vision Vigilancia Human Tracking Motion Detection",
+      "title": "Tuya Wifi PTZ Cámara exterior 5X Zoom Seguridad IP Cámara 5MP Color completo Visión nocturna Vigilancia Human Tracking Motion Detection",
       "slug": "tuya-wifi-ptz-camera-outdoor-5x-zoom-security-ip-camera-5mp-",
       "price": 25.97,
       "original_price": 56.45,
@@ -234,7 +234,7 @@
       "score": 0.2227,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:52Z",
-      "updated_at": "2026-07-04T04:32:52Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005009306467710",
@@ -252,7 +252,7 @@
       "score": 0.2175,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:53Z",
-      "updated_at": "2026-07-04T04:32:53Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005004966987077",
@@ -270,7 +270,7 @@
       "score": 0.2151,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:53Z",
-      "updated_at": "2026-07-04T04:32:53Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005003990707766",
@@ -288,7 +288,7 @@
       "score": 0.2121,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:54Z",
-      "updated_at": "2026-07-04T04:32:54Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005008650696927",
@@ -306,11 +306,11 @@
       "score": 0.2114,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:54Z",
-      "updated_at": "2026-07-04T04:32:54Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "32898805107",
-      "title": "Mi luz Dimmable 4W GU10/MR16 Bombilla de LED RGB CCT (2700-6500K) Decoración de interior de la lámpara + 2.4G RF Control remoto LED Iluminación casera",
+      "title": "Mi luz Dimmable 4W GU10/MR16 Bombilla de LED RGB CCT (2700-6500K) Decoración de interior de la lámpara + 2.4G RF LED control remoto Iluminación casera",
       "slug": "mi-light-dimmable-4w-gu10mr16-led-bulb-rgb-cct-2700-6500k-la",
       "price": 12.74,
       "original_price": 19.02,
@@ -324,7 +324,7 @@
       "score": 0.2014,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:54Z",
-      "updated_at": "2026-07-04T04:32:54Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "1005006118602003",
@@ -342,11 +342,11 @@
       "score": 0.1998,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:55Z",
-      "updated_at": "2026-07-04T04:32:55Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     },
     {
       "product_id": "4001041588925",
-      "title": "MoesHouse GU10 WiFi Bombillas LED inteligentes RGBW C+W Lámparas Dimmable blanco Tuya Control remoto Bombillas de luz Trabaja con Alexa/Google",
+      "title": "MoesHouse GU10 WiFi Smart LED Bulbs RGBW C+W Lámparas Dimmable blanco Tuya Bombillas de control remoto Trabaja con Alexa/Google",
       "slug": "moeshouse-gu10-wifi-smart-led-bulbs-rgbw-cw-white-dimmable-l",
       "price": 6.97,
       "original_price": 10.41,
@@ -360,7 +360,7 @@
       "score": 0.1998,
       "price_history": [],
       "fetched_at": "2026-07-04T04:32:56Z",
-      "updated_at": "2026-07-04T04:32:56Z"
+      "updated_at": "2026-07-04T08:38:57Z"
     }
   ]
 }
