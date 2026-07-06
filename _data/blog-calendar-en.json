@@ -204,7 +204,8 @@
     "primary_keyword": "what to look for in a budget projector",
     "category": "electronics",
     "intent": "informational",
-    "used": false
+    "used": true,
+    "used_at": "2026-07-06"
   },
   {
     "topic": "Best webcam for video calls and streaming in 2026",
