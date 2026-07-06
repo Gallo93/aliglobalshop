@@ -332,5 +332,245 @@
     "category": "gadgets",
     "intent": "commercial",
     "used": false
+  },
+  {
+    "topic": "Best budget dash cam for your car in 2026",
+    "primary_keyword": "best budget dash cam 2026",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best wireless charger for phones and earbuds under $25",
+    "primary_keyword": "best wireless charger for phone",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Are cheap smart rings worth it for sleep tracking?",
+    "primary_keyword": "are cheap smart rings worth it",
+    "category": "electronics",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best USB-C hub for laptops and tablets under $30",
+    "primary_keyword": "best usb c hub for laptops",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "How to choose a budget microphone for streaming and podcasts",
+    "primary_keyword": "how to choose a budget microphone",
+    "category": "electronics",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best over-ear headphones for music under $40 in 2026",
+    "primary_keyword": "best over ear headphones for music",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best budget smart scale for tracking body weight at home",
+    "primary_keyword": "best budget smart scale",
+    "category": "electronics",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "What to look for in a cheap Android TV box in 2026",
+    "primary_keyword": "what to look for in a cheap tv box",
+    "category": "electronics",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best smart thermostat for saving on heating in 2026",
+    "primary_keyword": "best smart thermostat for heating",
+    "category": "smart-home",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "How to choose a smart lock for your front door",
+    "primary_keyword": "how to choose a smart lock",
+    "category": "smart-home",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best budget air purifier for a small bedroom in 2026",
+    "primary_keyword": "best budget air purifier for bedroom",
+    "category": "smart-home",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Are smart curtains and motorized blinds worth it?",
+    "primary_keyword": "are smart curtains worth it",
+    "category": "smart-home",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best wifi smart switch for controlling your lights",
+    "primary_keyword": "best wifi smart switch for lights",
+    "category": "smart-home",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "What to know before buying a robot mop for hard floors",
+    "primary_keyword": "what to know before buying a robot mop",
+    "category": "smart-home",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best mini air cooler for hot bedrooms in 2026",
+    "primary_keyword": "best mini air cooler for bedrooms",
+    "category": "smart-home",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "How to build a cheap smart home starter kit in 2026",
+    "primary_keyword": "how to build a smart home starter kit",
+    "category": "smart-home",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Are budget running shoes on AliExpress any good in 2026?",
+    "primary_keyword": "are budget running shoes worth it",
+    "category": "sport",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best budget bike computer for tracking your rides",
+    "primary_keyword": "best budget bike computer",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "What to look for in a cheap jump rope for cardio",
+    "primary_keyword": "what to look for in a cheap jump rope",
+    "category": "sport",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best kettlebells for a home workout under $50",
+    "primary_keyword": "best kettlebells for home workout",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best foam roller for muscle recovery in 2026",
+    "primary_keyword": "best foam roller for muscle recovery",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "How to choose budget cycling gloves for long rides",
+    "primary_keyword": "how to choose budget cycling gloves",
+    "category": "sport",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best gym bag for carrying your workout gear",
+    "primary_keyword": "best gym bag for workout gear",
+    "category": "sport",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best cheap sunglasses on AliExpress for 2026",
+    "primary_keyword": "best cheap sunglasses on aliexpress",
+    "category": "gadgets",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best budget backpack for work and travel under $30",
+    "primary_keyword": "best budget backpack for work and travel",
+    "category": "gadgets",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "What to look for in a cheap everyday water bottle",
+    "primary_keyword": "what to look for in a cheap water bottle",
+    "category": "gadgets",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best mini flashlight for everyday carry in 2026",
+    "primary_keyword": "best mini flashlight for everyday carry",
+    "category": "gadgets",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best compact umbrella that survives strong wind",
+    "primary_keyword": "best compact umbrella for strong wind",
+    "category": "gadgets",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Are cheap phone cases on AliExpress worth it?",
+    "primary_keyword": "are cheap phone cases worth it",
+    "category": "gadgets",
+    "intent": "informational",
+    "used": false,
+    "used_at": null
+  },
+  {
+    "topic": "Best travel neck pillow for long flights in 2026",
+    "primary_keyword": "best travel neck pillow for long flights",
+    "category": "gadgets",
+    "intent": "commercial",
+    "used": false,
+    "used_at": null
   }
 ]
