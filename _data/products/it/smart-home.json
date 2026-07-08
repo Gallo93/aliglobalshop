@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-07-07T23:01:04Z",
+  "updated_at": "2026-07-08T04:12:00Z",
   "products": [
     {
       "product_id": "1005012445621796",
@@ -17,8 +17,8 @@
       "sales_volume": 14,
       "score": 0.2817,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:53Z",
-      "updated_at": "2026-07-07T23:00:53Z"
+      "fetched_at": "2026-07-08T04:11:49Z",
+      "updated_at": "2026-07-08T04:11:49Z"
     },
     {
       "product_id": "1005001394925942",
@@ -35,12 +35,12 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:53Z",
-      "updated_at": "2026-07-07T23:00:53Z"
+      "fetched_at": "2026-07-08T04:11:50Z",
+      "updated_at": "2026-07-08T04:11:50Z"
     },
     {
       "product_id": "1005006116663438",
-      "title": "Hiseeu 4K 8MP telecamera di sorveglianza Wi-Fi Dual Lens 4X Digital Zoom AI Human Detect Wireless Outdoor Security PTZ telecamere IP",
+      "title": "Hiseeu 4K 8MP Telecamera di sorveglianza Wi-Fi Dual Lens 4X Digital Zoom AI Human Detect Wireless Outdoor Security PTZ telecamere IP",
       "slug": "hiseeu-4k-8mp-wifi-surveillance-camera-dual-lens-4x-digital-",
       "price": 37.55,
       "original_price": 75.09,
@@ -53,8 +53,8 @@
       "sales_volume": 12,
       "score": 0.2464,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:54Z",
-      "updated_at": "2026-07-07T23:00:54Z"
+      "fetched_at": "2026-07-08T04:11:51Z",
+      "updated_at": "2026-07-08T04:11:51Z"
     },
     {
       "product_id": "1005005604363467",
@@ -71,8 +71,8 @@
       "sales_volume": 32,
       "score": 0.2456,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:55Z",
-      "updated_at": "2026-07-07T23:00:55Z"
+      "fetched_at": "2026-07-08T04:11:51Z",
+      "updated_at": "2026-07-08T04:11:51Z"
     },
     {
       "product_id": "1005005807578430",
@@ -89,8 +89,8 @@
       "sales_volume": 5,
       "score": 0.2391,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:55Z",
-      "updated_at": "2026-07-07T23:00:55Z"
+      "fetched_at": "2026-07-08T04:11:52Z",
+      "updated_at": "2026-07-08T04:11:52Z"
     },
     {
       "product_id": "1005012287493206",
@@ -107,8 +107,8 @@
       "sales_volume": 4,
       "score": 0.2295,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:55Z",
-      "updated_at": "2026-07-07T23:00:55Z"
+      "fetched_at": "2026-07-08T04:11:53Z",
+      "updated_at": "2026-07-08T04:11:53Z"
     },
     {
       "product_id": "1005010463738860",
@@ -125,8 +125,8 @@
       "sales_volume": 51,
       "score": 0.2252,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:56Z",
-      "updated_at": "2026-07-07T23:00:56Z"
+      "fetched_at": "2026-07-08T04:11:53Z",
+      "updated_at": "2026-07-08T04:11:53Z"
     },
     {
       "product_id": "4000143784956",
@@ -143,8 +143,8 @@
       "sales_volume": 300,
       "score": 0.2233,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:56Z",
-      "updated_at": "2026-07-07T23:00:56Z"
+      "fetched_at": "2026-07-08T04:11:54Z",
+      "updated_at": "2026-07-08T04:11:54Z"
     },
     {
       "product_id": "1005004774956386",
@@ -161,8 +161,8 @@
       "sales_volume": 150,
       "score": 0.2146,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:57Z",
-      "updated_at": "2026-07-07T23:00:57Z"
+      "fetched_at": "2026-07-08T04:11:54Z",
+      "updated_at": "2026-07-08T04:11:54Z"
     },
     {
       "product_id": "1005008987618271",
@@ -179,12 +179,12 @@
       "sales_volume": 4,
       "score": 0.2145,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:57Z",
-      "updated_at": "2026-07-07T23:00:57Z"
+      "fetched_at": "2026-07-08T04:11:55Z",
+      "updated_at": "2026-07-08T04:11:55Z"
     },
     {
       "product_id": "1005010445247796",
-      "title": "Tuya Wifi PTZ fotocamera esterna 5X Zoom telecamera IP di sicurezza 5MP completa visione notturna Sorveglianza Rilevazione del movimento di monitoraggio umano",
+      "title": "Tuya Wifi PTZ fotocamera esterna 5X Zoom telecamera IP di sicurezza 5MP completa visione notturna Sorveglianza rilevamento del movimento di monitoraggio umano",
       "slug": "tuya-wifi-ptz-camera-outdoor-5x-zoom-security-ip-camera-5mp-",
       "price": 28.23,
       "original_price": 56.45,
@@ -197,12 +197,12 @@
       "sales_volume": 6,
       "score": 0.2107,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:58Z",
-      "updated_at": "2026-07-07T23:00:58Z"
+      "fetched_at": "2026-07-08T04:11:56Z",
+      "updated_at": "2026-07-08T04:11:56Z"
     },
     {
       "product_id": "1005009306467710",
-      "title": "4MP HD 5G WiFi PTZ Macchina fotografica Auto Tracking Cry Detector Home Sicurezza Interna Telecamere di sorveglianza CCTV Baby Monitor",
+      "title": "4MP HD 5G WiFi PTZ telecamera auto Tracking Cry Detector Home Sicurezza Interna telecamere di sorveglianza CCTV Baby Monitor",
       "slug": "4mp-hd-5g-wifi-ptz-camera-auto-tracking-cry-detector-home-in",
       "price": 11.04,
       "original_price": 18.4,
@@ -215,8 +215,8 @@
       "sales_volume": 107,
       "score": 0.2088,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:58Z",
-      "updated_at": "2026-07-07T23:00:58Z"
+      "fetched_at": "2026-07-08T04:11:56Z",
+      "updated_at": "2026-07-08T04:11:56Z"
     },
     {
       "product_id": "1005009559994857",
@@ -233,8 +233,8 @@
       "sales_volume": 7,
       "score": 0.2051,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:01:00Z",
-      "updated_at": "2026-07-07T23:01:00Z"
+      "fetched_at": "2026-07-08T04:11:56Z",
+      "updated_at": "2026-07-08T04:11:56Z"
     },
     {
       "product_id": "1005004966987077",
@@ -251,8 +251,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:01:00Z",
-      "updated_at": "2026-07-07T23:01:00Z"
+      "fetched_at": "2026-07-08T04:11:57Z",
+      "updated_at": "2026-07-08T04:11:57Z"
     },
     {
       "product_id": "1005004280679436",
@@ -269,8 +269,8 @@
       "sales_volume": 18,
       "score": 0.1983,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:01:01Z",
-      "updated_at": "2026-07-07T23:01:01Z"
+      "fetched_at": "2026-07-08T04:11:58Z",
+      "updated_at": "2026-07-08T04:11:58Z"
     },
     {
       "product_id": "32898805107",
@@ -287,8 +287,8 @@
       "sales_volume": 19,
       "score": 0.1923,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:01:02Z",
-      "updated_at": "2026-07-07T23:01:02Z"
+      "fetched_at": "2026-07-08T04:11:58Z",
+      "updated_at": "2026-07-08T04:11:58Z"
     },
     {
       "product_id": "1005003990707766",
@@ -305,8 +305,8 @@
       "sales_volume": 9,
       "score": 0.1911,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:01:02Z",
-      "updated_at": "2026-07-07T23:01:02Z"
+      "fetched_at": "2026-07-08T04:11:59Z",
+      "updated_at": "2026-07-08T04:11:59Z"
     },
     {
       "product_id": "4001041588925",
@@ -323,8 +323,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:01:02Z",
-      "updated_at": "2026-07-07T23:01:02Z"
+      "fetched_at": "2026-07-08T04:11:59Z",
+      "updated_at": "2026-07-08T04:11:59Z"
     },
     {
       "product_id": "1005006118602003",
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.1906,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:01:03Z",
-      "updated_at": "2026-07-07T23:01:03Z"
+      "fetched_at": "2026-07-08T04:12:00Z",
+      "updated_at": "2026-07-08T04:12:00Z"
     },
     {
       "product_id": "1005008650696927",
@@ -359,8 +359,8 @@
       "sales_volume": 3,
       "score": 0.1904,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:01:04Z",
-      "updated_at": "2026-07-07T23:01:04Z"
+      "fetched_at": "2026-07-08T04:12:00Z",
+      "updated_at": "2026-07-08T04:12:00Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-07-07T23:00:41Z",
+  "updated_at": "2026-07-08T04:11:47Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -17,12 +17,12 @@
       "sales_volume": 40,
       "score": 0.3238,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:28Z",
-      "updated_at": "2026-07-07T23:00:28Z"
+      "fetched_at": "2026-07-08T04:11:32Z",
+      "updated_at": "2026-07-08T04:11:32Z"
     },
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Carga rápida Powerbank portátil para iPhone portátil Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Cargador rápido Powerbank portátil para iPhone portátil Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 32.69,
       "original_price": 72.14,
@@ -35,8 +35,8 @@
       "sales_volume": 309,
       "score": 0.2894,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:29Z",
-      "updated_at": "2026-07-07T23:00:29Z"
+      "fetched_at": "2026-07-08T04:11:33Z",
+      "updated_at": "2026-07-08T04:11:33Z"
     },
     {
       "product_id": "1005011812151458",
@@ -53,8 +53,8 @@
       "sales_volume": 70,
       "score": 0.2637,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:30Z",
-      "updated_at": "2026-07-07T23:00:30Z"
+      "fetched_at": "2026-07-08T04:11:33Z",
+      "updated_at": "2026-07-08T04:11:33Z"
     },
     {
       "product_id": "1005010627465265",
@@ -71,12 +71,12 @@
       "sales_volume": 15,
       "score": 0.2548,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:30Z",
-      "updated_at": "2026-07-07T23:00:30Z"
+      "fetched_at": "2026-07-08T04:11:34Z",
+      "updated_at": "2026-07-08T04:11:34Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
+      "title": "10000/20000mAh Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.44,
       "original_price": 40.89,
@@ -89,8 +89,8 @@
       "sales_volume": 25,
       "score": 0.253,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:31Z",
-      "updated_at": "2026-07-07T23:00:31Z"
+      "fetched_at": "2026-07-08T04:11:34Z",
+      "updated_at": "2026-07-08T04:11:34Z"
     },
     {
       "product_id": "1005012219557684",
@@ -107,12 +107,12 @@
       "sales_volume": 17,
       "score": 0.252,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:32Z",
-      "updated_at": "2026-07-07T23:00:32Z"
+      "fetched_at": "2026-07-08T04:11:35Z",
+      "updated_at": "2026-07-08T04:11:35Z"
     },
     {
       "product_id": "1005012272048246",
-      "title": "Altavoz de trabajo portátil para Dewalt 20V Battery 10W Bluetooth Wireless con cargador USB &amp; tarjeta TF para la construcción de camping 100ft",
+      "title": "Altavoz de trabajo portátil para Dewalt 20V Battery 10W Bluetooth Wireless con cargador USB y tarjeta TF para la construcción de camping 100ft",
       "slug": "portable-jobsite-speaker-for-dewalt-20v-battery-10w-bluetoot",
       "price": 43.99,
       "original_price": 87.99,
@@ -125,8 +125,8 @@
       "sales_volume": 6,
       "score": 0.2507,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:32Z",
-      "updated_at": "2026-07-07T23:00:32Z"
+      "fetched_at": "2026-07-08T04:11:35Z",
+      "updated_at": "2026-07-08T04:11:35Z"
     },
     {
       "product_id": "1005010660256913",
@@ -143,12 +143,12 @@
       "sales_volume": 20,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:32Z",
-      "updated_at": "2026-07-07T23:00:32Z"
+      "fetched_at": "2026-07-08T04:11:36Z",
+      "updated_at": "2026-07-08T04:11:36Z"
     },
     {
       "product_id": "1005012229118016",
-      "title": "Para Xiaomi Original 500000mAh Powerbank Externo de batería de repuesto portátil para iPhone Samsung Super Fast Charging PowerBank",
+      "title": "Para Xiaomi Original 500000mAh Powerbank Externo Batería Cargador portátil para iPhone Samsung Super Fast Charging PowerBank",
       "slug": "for-xiaomi-original-500000mah-powerbank-external-spare-batte",
       "price": 18.55,
       "original_price": 28.53,
@@ -161,8 +161,8 @@
       "sales_volume": 127,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:33Z",
-      "updated_at": "2026-07-07T23:00:33Z"
+      "fetched_at": "2026-07-08T04:11:36Z",
+      "updated_at": "2026-07-08T04:11:36Z"
     },
     {
       "product_id": "1005012206657079",
@@ -179,12 +179,12 @@
       "sales_volume": 4,
       "score": 0.2135,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:33Z",
-      "updated_at": "2026-07-07T23:00:33Z"
+      "fetched_at": "2026-07-08T04:11:37Z",
+      "updated_at": "2026-07-08T04:11:37Z"
     },
     {
       "product_id": "1005009896941801",
-      "title": "Instrumento de viento electrónico portátil Bluetooth conexión Saxofono de inicio eléctrico Construido en Instrumento de música de altavoz",
+      "title": "Instrumento electrónico de viento portátil Bluetooth conexión Saxofono eléctrico Saxofon construido en el instrumento de música de altavoz",
       "slug": "portable-electronic-wind-instrument-bluetooth-connection-ele",
       "price": 26.41,
       "original_price": 52.84,
@@ -197,8 +197,8 @@
       "sales_volume": 3,
       "score": 0.2104,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:34Z",
-      "updated_at": "2026-07-07T23:00:34Z"
+      "fetched_at": "2026-07-08T04:11:38Z",
+      "updated_at": "2026-07-08T04:11:38Z"
     },
     {
       "product_id": "1005011532019654",
@@ -215,8 +215,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:34Z",
-      "updated_at": "2026-07-07T23:00:34Z"
+      "fetched_at": "2026-07-08T04:11:41Z",
+      "updated_at": "2026-07-08T04:11:41Z"
     },
     {
       "product_id": "1005009093766779",
@@ -233,8 +233,8 @@
       "sales_volume": 7,
       "score": 0.2048,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:35Z",
-      "updated_at": "2026-07-07T23:00:35Z"
+      "fetched_at": "2026-07-08T04:11:42Z",
+      "updated_at": "2026-07-08T04:11:42Z"
     },
     {
       "product_id": "1005010233572038",
@@ -251,12 +251,12 @@
       "sales_volume": 13,
       "score": 0.2036,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:35Z",
-      "updated_at": "2026-07-07T23:00:35Z"
+      "fetched_at": "2026-07-08T04:11:43Z",
+      "updated_at": "2026-07-08T04:11:43Z"
     },
     {
       "product_id": "1005009873262361",
-      "title": "Original 120W Powerbank 50000mAh Batería exterior móvil cargador portátil Super carga rápida para iPhone Xiaomi Power Bank",
+      "title": "Original 120W Powerbank 50000mAh Batería externa móvil cargador portátil Super carga rápida para iPhone Xiaomi Power Bank",
       "slug": "original-120w-powerbank-50000mah-mobile-external-spare-batte",
       "price": 17.52,
       "original_price": 26.96,
@@ -269,8 +269,8 @@
       "sales_volume": 26,
       "score": 0.1953,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:36Z",
-      "updated_at": "2026-07-07T23:00:36Z"
+      "fetched_at": "2026-07-08T04:11:43Z",
+      "updated_at": "2026-07-08T04:11:43Z"
     },
     {
       "product_id": "1005006340222629",
@@ -287,12 +287,12 @@
       "sales_volume": 7,
       "score": 0.1931,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:37Z",
-      "updated_at": "2026-07-07T23:00:37Z"
+      "fetched_at": "2026-07-08T04:11:44Z",
+      "updated_at": "2026-07-08T04:11:44Z"
     },
     {
       "product_id": "1005008447641986",
-      "title": "Auricular Bluetooth inalámbrico portátil Gafas de sol polarizadas Espejo de rana ultrafina",
+      "title": "Auricular Bluetooth inalámbrico portátil Gafas de sol polarizadas Espejo de rana ultrafina Gafas de sol Smart Earphone",
       "slug": "portable-wireless-bluetooth-headset-glasses-ultra-thin-frog-",
       "price": 8.83,
       "original_price": 12.62,
@@ -305,12 +305,12 @@
       "sales_volume": 10,
       "score": 0.1912,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:38Z",
-      "updated_at": "2026-07-07T23:00:38Z"
+      "fetched_at": "2026-07-08T04:11:45Z",
+      "updated_at": "2026-07-08T04:11:45Z"
     },
     {
       "product_id": "1005006054173255",
-      "title": "Caja dura para Marshall Middleton inalámbrico Altavoz Bluetooth portátil, Bolsa de protección de bolsa EVA para Marshall Middleton",
+      "title": "Caja dura para Marshall Middleton inalámbrico Bluetooth altavoz portátil, bolsa de protección de bolsa EVA para Marshall Middleton",
       "slug": "hard-case-for-marshall-middleton-wireless-portable-bluetooth",
       "price": 17.68,
       "original_price": 25.26,
@@ -323,12 +323,12 @@
       "sales_volume": 1,
       "score": 0.1901,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:39Z",
-      "updated_at": "2026-07-07T23:00:39Z"
+      "fetched_at": "2026-07-08T04:11:45Z",
+      "updated_at": "2026-07-08T04:11:45Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Controlador de WIFI inteligente inalámbrico 2.4GHz Gateway Voz WiFi rgb Controller Tuya Para Mi Boxer LED Bombilla de luz",
+      "title": "WL-Box2 Controlador de WIFI inteligente inalámbrico 2.4GHz Gateway Voz WiFi rgb Controller Tuya Para Mi Boxer Lámpara de luz de la tira LED",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -341,8 +341,8 @@
       "sales_volume": 10,
       "score": 0.1762,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:40Z",
-      "updated_at": "2026-07-07T23:00:40Z"
+      "fetched_at": "2026-07-08T04:11:46Z",
+      "updated_at": "2026-07-08T04:11:46Z"
     },
     {
       "product_id": "1005010253348075",
@@ -359,8 +359,8 @@
       "sales_volume": 29,
       "score": 0.1595,
       "price_history": [],
-      "fetched_at": "2026-07-07T23:00:41Z",
-      "updated_at": "2026-07-07T23:00:41Z"
+      "fetched_at": "2026-07-08T04:11:47Z",
+      "updated_at": "2026-07-08T04:11:47Z"
     }
   ]
 }
