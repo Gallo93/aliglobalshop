@@ -1,58 +1,19 @@
 {
-  "updated_at": "2026-07-09T08:29:16Z",
-  "expires_at": "2026-07-09T09:29:11Z",
+  "updated_at": "2026-07-09T09:00:36Z",
+  "expires_at": "2026-07-09T10:00:27Z",
   "products": [
     {
-      "product_id": "1005010486321766",
-      "title": "2026 New GPS Outdoor Smart Watch 1.7''AMOLED Screen 1100mAh Large Battery 10ATM Waterproof Compass Sport Men Fitness Bracelet",
-      "slug": "2026-new-gps-outdoor-smart-watch-17amoled-screen-1100mah-lar",
-      "price": "42.55",
-      "original_price": "531.97",
-      "discount_pct": 92,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m5qlul317Idt2RTw4tgG4lJ3jBeK8EV2U5VEHsXgZw9nXKLBwJ0kcF8CxS005dP9ByGiuNJlS5VvjYrgG46l20EgzG7pPtkxHixbp7PqEMtPD3AX6hswu76Vz43dvGHwCJ5VO3ZGKJqVXo9uvTj0aJdpHmsxke9pqmmnNwv7KaK3tEu2rTrWu22pf8gCNmmylHIBfvRjEgsCSO50B5NAS72qiRFGaUPXMNsqPmF4VIIYE616t2EPO5KQySCoS8kLLkkilo3iKPoKTWEjTujgb4evI9uehbGk5sNs4CSsC7JG2BFC7eSAVgvE3jXaoXlL2PpuM6dAm2x7UUAktdGv3oIX0Imde0iqz1XzwGzFvmmCh8ZFlDP06Ya5lkXYWCVOtob3HdqNXta9cJW1k2rOkgMbOzaNyxG3sZi7pxH7L5QdDaY7z14Hw8uUr27L29Ekol3NsEMQOBru3HLRcFMIUAzfMueKl34rUBcIMmkZejvd6dREJkv3sRmq2tMhBA5lKbilS1Phe04lzuBZWd3PVlAh9k7s4dCU6ZtB6VZ6DQyHPLokeYyAtn5VadDqwWAKdiJGHJdMZ4t4iJZr8OEmkYOWzGUJ2O1F1sDFK9jPGldyeab9nDFjERsNB1pdBmYOBRqywRupCHHzN7BtvxL4jm87EOuGIkB4f4V7ch1i7Ko5x9Zq2A1SpcjskpXIZu9fdIjmSDEoGcD40",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783234825/flash-sale/1005010486321766.webp",
-      "rating": 5.0,
-      "reviews_count": 4,
-      "expires_at": "2026-07-09T09:29:11Z"
-    },
-    {
-      "product_id": "1005009476549716",
-      "title": "GUHUAVMI Smartwatch strap 22mm size",
-      "slug": "guhuavmi-smartwatch-strap-22mm-size",
-      "price": "45.11",
-      "original_price": "451.09",
-      "discount_pct": 90,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nzxvxD2DNibcI9X0InEbZhj56d9ek2EcD5yBy2rcCldPYKHMRqwLKLmHppjSXIIaaNnN24laZYSX4jJrGXyzIWbmvsDyqUSybdXNteLeVf272MtFn45vv0MRd3CEif9bPaS8reJwOgwC7USNDkNAQFXqdPlTDCFLKKLEFzbW0nWKw750RKjou2fp8qPs9Y2lWQlA5rrH2RYjYsJaclH8TjGKFkqVHhr2rd9NZK9GdoPLGUcNUJKtzgrF3iAuTIOuyj3WBIYLMBaBDqETJlIkzEH0Ic2gWMoZ2LmuzXDoBvFAnxsKuT7XSnqAanPtGAXRTib0WGlJfgIVNGohwBp3GLm16dhI4IEd8GWlgTS4wQDbeJVpV0J6MP0MDt3JGtEEkr3A3As17eWATPmo1mE4I0fQxQoO6faZBRUfDTs5oOkA4c0adejc3FSCANdH9nIDiHTSZzngZHHWO6GMgC7SbxBVsaHvjzrA3kI1xVH4ISjNkiuY1IVOfrsNAMV0eVBBcIKrwcbDu8CilXYy0o9ERJIR7dfsdCspzbl9Ltcn3ItJd7qEYOQoQE18THtNrNi3L65McJPf2XKdwxkgU9bc5oShRAqjg47MRt4BajupMcVLs1aKUYxXKfX5JF57cqCLkrHOctbqTjyqN4rITS0zLk8gs18m9xMt7le1cKfapHzkw5t0Ye0x7poSK90tYZRTA5nhddnd7oObw",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783234826/flash-sale/1005009476549716.webp",
-      "rating": 4.6,
-      "reviews_count": 6,
-      "expires_at": "2026-07-09T09:29:11Z"
-    },
-    {
-      "product_id": "1005008663863645",
-      "title": "2025 New Built-in Dual-band GPS Smart Watch Men Smartwatch Compass Altimeter Barometric 5ATM IP69K Waterproof AMOLED HD Watche",
-      "slug": "2025-new-built-in-dual-band-gps-smart-watch-men-smartwatch-c",
-      "price": "42.84",
-      "original_price": "214.20",
-      "discount_pct": 80,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kJjzmxdWOVS9IvsDS2CB0XCXzKmn5XBEL7dK0mPaF9uDhzmoi5QwE52x05SwecxEqOuJqe5V5Vk4OMovSGoVLgxWkBGHVXD3wMOgiIjOcDNPez85y4PpToy7jnXeVOP4PMfMADikbEHqc4b92AIucc9v7xuB0R6cP2xB2aMD4uBpWjlpk1b7ejT60o7RflLBG5LI5d72PXJkFXwpHQXSSBUrZuFl3SXBaqROdYbHntsPTOXiGknwgk5LEBq7vYYRnnvMugOBCBTjgnOp2wleDxP3eX6LrnOI8MP7IdEBzMI1kDoXNJhR5l0k5OC9OU4JiYV5oKeTtQ8MjxMFciwMpiyLvD4wkCjPk2jHAFqv2WmQwr44Wn8jPCd544dky9ecSSh2oROQfjeoDw7Yd0hnfk5cjsMvLwZd3bTtCdkofrhhPwou3hrgV29s2aEt7ubl2nNYRu7KkTZV5jbJl2iNYTOISq2r496k2Ot3OBrxIAjyZxUdssFk0zKpd39F35YqhDIXbAcjAxmlWSjijHYtSt1HCROemO7O9HuEI17X1SQYVhKA3FLQmmMriwY2sMtmSLb9je1LkTpmkiybujkiHYJSjZCOFdb27bssG2rmdepaY58DYPUEQxjVsjL87R5IKKCfBvSdbVVbxLDdybMOnyClkSotlMTCBxfRCDjAGcS3qwSY7sRfTNa0salzESSIYe6rAu9VzGGy4",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782633624/flash-sale/1005008663863645.webp",
-      "rating": 5.0,
-      "reviews_count": 2,
-      "expires_at": "2026-07-09T09:29:11Z"
-    },
-    {
-      "product_id": "1005008264604373",
-      "title": "North Edge T-Rex Ultra GPS Smart Watch 5 ATM Waterproof Built-in Dual-band GNSS Compass Military Sport Smartwatch Men 2026 New",
-      "slug": "north-edge-t-rex-ultra-gps-smart-watch-5-atm-waterproof-buil",
-      "price": "35.36",
-      "original_price": "121.93",
-      "discount_pct": 71,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4otzrRxZiu9Yp2D39qXiUuBEeS8SXLIpZZq7QwZfWACS6VTzQtw6rTJJbA5j69YNFV1QNwIKz3p5etW6tBaJCMea6e9WQ3AcTe3lB03y35ObE8VHWg99FORTF7CPtfv7Bh1ogZKkVg67mj73K1QAz8d2PTlQAIdXB9TQSCE0knSsmpwS5BuPdqOdp6kURYMHBhWRx9YFKPHEWVfUZFfaCHhAsmDTBqwHrJGUx10IXHCWeZaXR6cxa1HZwJadP8HHKZ51KmuRGp6i0r971T9dLmaTyJ6UA6iu9ytDKLouyL4xy4eLMK6PVrrUHdoImlWaYGORw14uqo043G6MqUiWmLPJrWn1cTJrQL1rjA98nKDPvuP63xgzsj16cmtfThUCslG6GAvfhDB3Z6LgUWkKbkq3EojcJxYBx70jc0S5S1TYSGxeBDfM73jGHIJLlnZvhVA7NA3jV8Y6AyhlMzez1BR4zbCvJNNEkSpBmXxiEWmaz0Rk1lNkpPAxaRNZauofxwqRaYzpRE7PydlPmHIEi41q7kRhdRIWPMiB54BsDvC6Z94mzv7ylWSKWdAUk5GfrEFe26qFZYt4G9xQ6yl8oRa6OAXPldzgsXWXutDvD5NVKrMXcesJIrtUQbnqzqkjtzx3yDUV8PCVFDoIlrUSznzYb7vNGvfrqnZdvZAALnATQTf6d5Bs9HxeSTRirncaThmmZ1ZZQCUXSn",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779253622/flash-sale/1005008264604373.webp",
-      "rating": 4.3,
-      "reviews_count": 12,
-      "expires_at": "2026-07-09T09:29:11Z"
+      "product_id": "4000409426703",
+      "title": "Original vivosmart 4 women fitness sports watches swimming running heart rate smart watch marathon wristband for xiaomi",
+      "slug": "original-vivosmart-4-women-fitness-sports-watches-swimming-r",
+      "price": "116.70",
+      "original_price": "389.00",
+      "discount_pct": 70,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVGNvUgfIqw20dkv9ckKazo43NoJ6lrTDBV2B7LAuZzhek6oGx10fK7Gi0d3aiCmkZW2Ohbzq5nf7adiqrMXCZozwbnCk9XfC4JvjDWndsM5BvXtipzRykMfxikzkG7GvY4kntXMXmj6ayySAgz9TusR9dr6iLbmNTPrHpfho2GPKiWkGuthU4n48n58DTAVDA8FLWMZwVBW8hRhz5Y1xHGPWwW985j8UGFkhSdHbqoXcEoZDqS5JXNs93HeBYzlO1sewkXXcu8BzbFdpPuUT1u4U40Kxse0PD7dFcG5LvJg5VkX4LYTnEfW4dMHQiXHJJ4d132Ezi98wzBDEcq0F47QTrQh1W7fRRItooawZ3JyAaAtb71Hb8lVtfwl8KIYNDuF6ASDhb1VOO72DLjWq8lGUzOtJ0X4jY71o34opr7ZIaeuY9P1SNgW4UOFk8wtTKcAfcrjbC6ODDR717WOLIAbNaEP0ZvYxz0rYjKcvj7hONwf9srUA0HlLHMsY3blJsxTdsRJTUEB6Qzchne6fOVR3FIoCxKgiL6K77gbZdlKbaga7hAuLnNfZaYhaCVFhJSQXLo5nT2sUMpCvuLxwnjTkIKfWcydzI9JEId9JoW87QVcs5YlGR50AZu9iyoHK9Pcb5gzoNspzdhlt8gmol7gXkGohY0xssnLQrFaYhDZbSxoK7OzF3u2h5bI25X4Gc0sPoQ9erI2uFvGZsvDlfm6fKm1berfqPctyx47kCa",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783274425/flash-sale/4000409426703.webp",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "expires_at": "2026-07-09T10:00:27Z"
     },
     {
       "product_id": "1005011724105665",
@@ -61,11 +22,50 @@
       "price": "17.67",
       "original_price": "39.28",
       "discount_pct": 55,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ExTeZ0ISzvACNQUmeY7zgCVgeVCVFhtTBHncY8fUTm8NDbClSAPse7WmGdnhK4yHtYX8QtIiefOVGQtcJ59el5c7iKMMIy5FXBy3IWO7pRU9Lgl5VvoGDHRg8Fy6YoSrjrFkq3L9lDWlJNryeNqMKmko6KxiR6bnivu8C4ZvxOVUTAaLrixRCTI9B9IKz7c5moLbAvreYe9VWWL833NUUCzJzJWfDzpMJf9ud46g2BW2hLY1PUHxEdAHd4W9A5aLe8EMopHD63CUofv25aGiCDDhgNCns7x6we57GQs4RGRT24E8u459khVBTmE4oY4wLRDBwpHINrVGcFpEz6ZdmVm4G5oDolJwHWdnOOuDRikj05F4MiMaqEo4nsAMOIEdXqGZtcEzR4yT0jZaZYq5p3XSwCzeYZynhoUOyE1QwuoKZYdIvtbnIXFEEAH2TPjmnJaaa5C2U1v25sodrPXH7TSF0AfeWolMl1DMgPahoKuU1lFHzRw9ng29kO3PuWJsWQRVy1mgX87BSq01qytXFD4fqCSmqJJaoUKLbazr09LNhWS0xJhENwxNKoFsDLIcKf8CwBRnfAM9mkp6NBAQ7OsBsuFJ5Yta9cSeSnKbpsf09ThUtSJWeuuMSkuXEZFGwT6RGg9N3nnKEadDGE7ZnSHUErIdQly73712j7M8jd4BV5s3WrXFAvnZkqTtZloQvDNhn7HFIBU6b",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ExTeZ0ISzvACNQUmeY7zgCVgeVCVFhtTBHncY8fUTm8NDbClSAPse7WmGdnhK4yHtYX8QtIiefOVGQtcJ59el5c7iKMMIy5FXBy3IWO7pRU9Lgl5VvoGDHRg8Fy6YoSrjrFkq3L9lDWlJNryeNqMKmko6KxiR6bnivu8C4ZvxOVUTAaLrixRCTI9B9IKz7c5moLbAvreYe9VWWL833NUUCzJzJWfDzpMJf9ud46g2BW2hLY1PUHxEdAHd4W9A5aLe8eSHyNIbQyyY9n2geXhZEefH3PZ5ELINUrGXe7mf7m0pbuhGfiaBpPhmZT4xDblTxcDzvm5MYatzXIfJGAm2pqMW6nZsi4ovigfgssfkWuAoBCwrPPfpYbmw19JGMr3DPsJ4hWghbGYQNHZt71L23foTHrVb9sdx4qX3isHV8KstCCPahji4COQIKqQsZZH3x1AvS4Fo9dL0BMcEmsUHZhXKNTAekYeIS8DOnWZy99UefNijvcLdjTZ28ZlgVUnsePeqNMBMVle34ZyKs7dDgBCQjzFTyRvJBoRnX2ZpF4pPED3Ng5WYQq75lo7NGKUstBTfB6F5Xt2ieeRqTaZECyL9D93EZwYSBOMzz4BS6Ys3bCr0woudG8QL7gHUd6X5B3fTqabqhtYLUgLR5TsJ96KJDQ9pa82lHWIk4P3g8gJ8NF0EoyvmHQCiDNRAdC93CV67qyYEgyiL",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782640826/flash-sale/1005011724105665.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-07-09T09:29:11Z"
+      "expires_at": "2026-07-09T10:00:27Z"
+    },
+    {
+      "product_id": "1005011881353376",
+      "title": "Cross-border new screenless bracelet smart heart rate body temperature monitoring women's health battery life exercise sleep",
+      "slug": "cross-border-new-screenless-bracelet-smart-heart-rate-body-t",
+      "price": "39.90",
+      "original_price": "79.81",
+      "discount_pct": 50,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mtFwM7A7sHXxLKSKKZ2jz8RXoNlYY9fJbPQi4gJcKWjFdOXBUkYYOVsdff6vSNgmrCJ2ItxrFGr65tpA7lOPtPjqOUacRnzaxm3zySSn6gdykW3Xn4dXoOOnxIdiu2VwEk84HAw54nGRHelUZCfikcGpANI8ACieRoZImLSPX9hA5dygQOhzDxlEobhx7zyfgB0gklljV3jasUFV35u4t6XUQBf9szCHiC1X5eKglYmGD6mglliuSMeW8uWsJfyZXsID8J4Mr6EsmNiMR0cM3Gj0RfNImuJlhOc3ffhrw9xgmMXy6VC8wAHNc65wGx4RukJmJxYAexUAzh2RR6hi9NLAe68oHmNOeklSkQCWQeOGeiQBLa1euuKoQQ4XB6VYeczfgHtvDB5Cdgkgct119Z2pelaUMg7twIUi4RNjHprXRo1IXnp7hxCOPNe8NEEmhksDn6UDEGctidQJkER1iSf9n8R2V3Ti6DFiFQv5U0lIIVVuTB1q0iqP5iOBXMDAxgvmC2gKAmUHiLd4PZz8uxWHujetfI8gvy6gieAIBqiJjW7UonvaGIunftzO4Y0FP2jgc8hCc5QbcIUIYIJj9J47wJs0l4Wc4hIFM24EXesX0n32N2CDoaFyUzZ4YjUZk4W7KWnsWnAkw5Om3d4RnKU5hRMciMZKT3KcuKea8vGbOq2EDFkPMSp798yJX8Nw3U8CkZiHmIPp2",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783587629/flash-sale/1005011881353376.webp",
+      "rating": 0.0,
+      "reviews_count": 0,
+      "expires_at": "2026-07-09T10:00:27Z"
+    },
+    {
+      "product_id": "1005009930041982",
+      "title": "For Whoop 4.0/5.0 Watch Straps Soft-Touch Silicone Bands For WHOOP One Peak Wristband Fitness Tracker Whoop Life ECG Straps",
+      "slug": "for-whoop-4050-watch-straps-soft-touch-silicone-bands-for-wh",
+      "price": "13.67",
+      "original_price": "27.34",
+      "discount_pct": 50,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oeZdbPN36FMwq3QBiTkvQucb5PlE8E7UDirZVL1JypizExwHa1Mf8JPu74h6jn2n7wo95JBiWjIZ97egOzyuewF0JJYjzKKXGGokWXWCqAO7MAXDkSN1aW4gcxhHdfngYW50RzXYaFrEvuvxxH1qsp6Cqd72spquyHUIZ71JRcTF0gag3kjCB15AeKh6JtdAV6ZqaAphN17lGqnRw2JojlW1kSrieuCsiY497faDuo39vMYgVqiglI6Z5iASOZ6NlKGh1FKT4ZKK1yt6NPWemCiPSqI8uOatRbHj2IsInw8877s740vAcqizqSQbo1Bul7XJ6c7JEj1YTUJ55zIbXNzG5SBKBuV82cy4VZifVueukpYX5jDX4klM5VxZTr2CVnMk94OIDfRtn5L8MYToKqjQIrycJgO9dsukUSV18YhpQrnqZiJ2M4sXDMhcPvezfeoFB32SpOV8vEE7VRQC6g0xNf9FFSw0gsn6baew0NUY3mJNbJzieVJSHtxpEO7M4pilXXi5aNu1OfbVY6y8r3KHWwQtZZsyGdSzdLGeJ8pcB5m8MfCDpA0PUId6XQRSAeFxIF4N6GulvBs9yKIrYUGBk1HemYvMFyel9NU36oNWjyy9lcZSs7JhbNe5MTHEmufNXSf2nrgd2kkh3GXDlnhAdBZ8peQdcuV079O5aLR2Qtv976kIxdpNqFdC0nJaCnC2bhZA1hDGb",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783587630/flash-sale/1005009930041982.webp",
+      "rating": 0.0,
+      "reviews_count": 2,
+      "expires_at": "2026-07-09T10:00:27Z"
+    },
+    {
+      "product_id": "1005012432627315",
+      "title": "1 Pcs 20mm Replacement Wristband Nylon Sport Bands Adjustable Breathable Fitness Tracker Strap for Hume Band for Men Women",
+      "slug": "1-pcs-20mm-replacement-wristband-nylon-sport-bands-adjustabl",
+      "price": "1.17",
+      "original_price": "2.34",
+      "discount_pct": 50,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m4ERGoCZ4bSZao9wVIDNj5RfcHpLdoIgU62YeBEJjGk94o7F2A5x5Ef4U3HGGWXEYTbQvnJd8Ygd7xb1Hf3dPHrkx2Vh4CgKgmNXE7IqnPMK6OEQsCfD2NlXmWuUxvKNEAwSGa6Xk7dOQAqainCiPWzYkYGDcrFffZOT2jlxUNbM8KPOLzs7QFGiOYc3Sj18bXARjRk9rOCSwHEpICrdnjn92pQKklMGqtlGGdrhDlpw9EJpaQGWkEDZpv0JXXR4g1h7SMFmJr8UdAOp0Bsjsf43XOgVu5flLU7eG4MjWzI77skufaDRgEjCv1344Ka98SQuaZ20G4erPtf38sWzXnvOQ0FsNGYLdI0xI3IrrovX0DoWpAhp69V6P5MmAfdKn1bVLuKRCJM0VKL0ukhJ7nhM57GrwuC9mnTRDzYMAlWoi8u6n8hRy1eMPBFNV2yceQKG5rVMmEhnJ7fmhePiZAQI6ME2zgGByUBsG8XmmXp66rlYUptToeYGEJqkLrsknDIXEcGtML86dO18DJbH8g3K14zEmISJRalGm93GAwtRSo8KHH0MI6WaWfSjEJ9jPrXT5IKm4nUV87dp2BlsznucLbpjpssK4G4XAVNbZ347CNT2ugMSc23wQ0TcxmikWelzyD91Z7C8YcITlphkwqp9e4bG0GFV1LtHPdWoTsROYNphtRdOXEPKnY2fy6U3yAK8qFGGRCVvs",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783587631/flash-sale/1005012432627315.webp",
+      "rating": 1.0,
+      "reviews_count": 3,
+      "expires_at": "2026-07-09T10:00:27Z"
     },
     {
       "product_id": "1005012272048246",
@@ -74,11 +74,11 @@
       "price": "47.72",
       "original_price": "95.44",
       "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWys7RupnYwuuy0p4HwqwOIC4wYrNDx852RyxlLyjSRrfGVSnVZBCk1osCPxQASDnOy77rL9KHeEZyB62AywS7mYa0KTscCpkDgYhvDRvjZpFEAgROoqg8sjG29FwWiK9gYOwQQuBhrj8H8w9wavxoCNQ0nBgWLjjvxpWXMbkR8pCMPv1sLTX8iUmsgVcdy4R05U7myIirhBO7DywC3EEy1rxQLFGLsiHROi9v9uPhPfsMIK4bynGgdp32BRUtGAvs1FnmJJyceZwmgMTxyhWI7x5Ag1jlo1gNo1rdBREPRIUjZTaVrwyomUFfqAhQMWT47UyXv1NGApWvhkUvm2RyGPrZw7Km5N5YNEEi6ksc5xzHOk5XWjT1gAIhcXwQIjaiRZg3nU2JmT2aoP4mJZOVsjgQx4jBGaU2rsj1kiEfZaypCR5ibdPmubvuAE8FnUygtNhXtELdo9u5e7JNOglshdH9VltDm54YNhysEtTy4bGCyfRdEmSRgTDOiyHdCX10GNnyhaegbnelOPfA6P8MaOtCk3iN2LwRMIjX7X0lwn6kmfr8cswPBqzlVsxSfRo6bGq49Uag8uTDhnrvR7WAhhUWahFVFCHhHtIr0uEVfPHGx5iKXILr9cIFxRyI4sPtrCiHEAXRnkTl2xKMMsL8UT8k81kOurqFEOV3LN5OZikyO6VE0wt0M4gtGzPEjstBIAYmFj7OQpe",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWys7RupnYwuuy0p4HwqwOIC4wYrNDx852RyxlLyjSRrfGVSnVZBCk1osCPxQASDnOy77rL9KHeEZyB62AywS7mYa0KTscCpkDgYhvDRvjZpFEAgROoqg8sjG29FwWiK9gYOwQQuBhrj8H8w9wavxoCNQ0nBgWLjjvxpWXMbkR8pCMPv1sLTX8iUmsgVcdy4R05U7myIirhBO7DywC3EEy1rxQLFGLsiHROi9v9uPhPfsMIK4bynGgdp32BRUtGAvspUmQlIidZPeXKAulrsgftqBVE6JYnD744gUsEq0LqICaXTd0il6s7k3W6xqX6UL78eXrKW7t7w3BBENvBRYhGKekvcDCtgkslf7E8IxezbIoz3EkeNFdO4qtKR60SYBiuCXgvphqt5qIUmH6h5VWy3SmEQ3bREHq6CtegWIj4lLJJTtH1Ro7RBreKXMFMVMzC90cqh3srD8MFtAZ4C1fgAcowxg6E27J3kCpO54UUQHnJDzVC9bJ5edC6ZG6cEQXEeDhVChD3n1t3i21eWr04zFGbMciGTbsrbGo88ddVripdlCE1sQJx8mW7Bxzs8Xo2udfKrJmduD2Y5zeeTd1nGLmXNMfXlUQROnCX1Oz6QygD9NqUUT7JnE0kUrdh1OC07ihVCsu4y90G2mi77KuWItlr5iMHuoshKf5zOBrWmL066ZmHy4LoDd8oS6CVdCxRtIqB00I62Y",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780948828/flash-sale/1005012272048246.webp",
       "rating": 5.0,
       "reviews_count": 6,
-      "expires_at": "2026-07-09T09:29:11Z"
+      "expires_at": "2026-07-09T10:00:27Z"
     },
     {
       "product_id": "1005012333523839",
@@ -87,37 +87,24 @@
       "price": "17.79",
       "original_price": "35.57",
       "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m7RPpPUS5lZ5TIBM9CEW5zndDMCz3zk9TTTIxvzXzpGTAOxMF4tjyeCBTPUXTQZXpMjJw7Sb0WR9YnnzkivwSiBjgkjYIpcOMgJMKuseang1gUDsc0gIc60qhwh1OsBGArLOP3Lzfu0k2PngaFmJBVELHHYNmDoCytPaqroFmsCbmhwomGAWkrwwrsHlyXhxH6UAJq1hGBRPSxwQgU9qvh7ZvxHo7sxvXbdlzhGlP4dasbuNuakvTejuSK4YV4GpUn2nrkNinZlVkoEUNbZA4H7JaT5FmRVvDZs06L03YJWrdYgUXDzVpBYCPHh61ez2QKan3glvNLUcb94ygBjorAeAVtuRrmKj0wgF6aBQPxNcHFT5OyEgveEH0xmZ7lF1Zf7tl9KXutH8bts10ikfKPz34vdWz7QJ1npj06gDhMoKq4BBoMgDnEBVky3j1uX2oOI7DCZcnyegYxo08OV9KuxXrYEe9zplDVZj7kSKSiua2aUB15QQl1Ex5PDC14Ooxw9cwKyur9yCrijoezPXxJEeC3SI1oyGzSezG9CPxFsKce6benN9TlroAKedQVVvDBYsbwf149Wg9lAw0ZFdBoQt6IJDYPuK2rIUyACHKo8jT3viNJ2Fwi4ucOPAbOA6Ww2mjj2vzdiKERKVOnac9438TLA4gMqznxxErc0dTZjtTXqj5N9SCTJ9Z3VCWn8PeOaI52Udliswg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m7RPpPUS5lZ5TIBM9CEW5zndDMCz3zk9TTTIxvzXzpGTAOxMF4tjyeCBTPUXTQZXpMjJw7Sb0WR9YnnzkivwSiBjgkjYIpcOMgJMKuseang1gUDsc0gIc60qhwh1OsBGArLOP3Lzfu0k2PngaFmJBVELHHYNmDoCytPaqroFmsCbmhwomGAWkrwwrsHlyXhxH6UAJq1hGBRPSxwQgU9qvh7ZvxHo7sxvXbdlzhGlP4dasbuNuakvTejuSK4YV4GpUn4ldMliUy7FFN3COP7555HD0MqGQDhxdJ9pM4p4CpNaK9dqNDMEK1xawtGQlkh6cfwzvaa2XUzpouB8X5f4ReAj8tx4NtY3LJvBL5SX4OnHnUIHoRadq1ZJoj3TeEQj5BjamV91VCAfebBblXF2aZL3jOBlvasExVTU0CtcHjrrCzzJ0EMGIC8x32K3SqXW7ROLegVbsOsls5iVJ41t62jnH6CRKRBF9JqohWNSuT3CrDheSpmmQ0rbidNErlenMkDvk5M0TN8NQuarw6kpxiFceDQ4BLUAjacfN34YK1I4HeK6wMHwAD3IeXqnvJGWLtn4FO99zXPB3Bk4W3sqq7Ur8D3ZaaMV8MEkN5Qyk99pf6eLzwFxrhWayOUcqEbrJgEYQK0PYLjdGtxawHX41K0FieMlltyKDfLNJbAMTnLYgr3QMGM4w6CzPXUGPrxRk2pT8npMr5oHO",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782028830/flash-sale/1005012333523839.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-07-09T09:29:11Z"
+      "expires_at": "2026-07-09T10:00:27Z"
     },
     {
-      "product_id": "1005003696509258",
-      "title": "9D Tempered Glass For Xiaomi Mi band 7 6 5 Screen Protector Film For Miband 6 5 Smart Watchband Protective Cover Strap Bracelet",
-      "slug": "9d-tempered-glass-for-xiaomi-mi-band-7-6-5-screen-protector-",
-      "price": "2.20",
-      "original_price": "4.15",
-      "discount_pct": 47,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ku8S6NDOw8Z0poapbxqjd9aH5HhtbQ8Y0V73GusyLziIOmfQapNXsuFxTVcNX3IWY2jHz0DHBeokkXaRB5TuN3hgSNssZK1ZeBvBWohYaR9SBZJQkGCssKm1AoQKcTSo8bLjnJK1oq8MtZD0sPSMWoz9bm0Wl0b2kLRvtrXWVaATXVyQzN8n60zwnbkSWQtuH3hniBd1ma3qaFirfz2MEZXOepsDzjPgXw75On1bfTDk2pPCuZ7KjkPH8EJaiSuZwJVKDtrTFYwVsyVE8sF5KHhWYSznLmi25H65wRFkdhNQdHd21cKEaJ8pAHIq9LjXvHBKubypLFQlykk7uz73EpzzWmRZtF3Qy7J3dLBJP9vfDCKxmiXrrw9CFBTWBVI04eMcmAwH2TahArKtHFKh5jRWX0INwwqs4F1zfNMcTGGyRMzrttO2HncP8UjlF1wTTLdkCfM3NyyQC2SaeeBB02bvWGyVmoeLclONsmOBEd6TotSjPoE4qEAtcuZBHtPn7JhCPA5uak3pXY7DSClPYYiFumSaS3XLYvKSMNA4WWU7X9Yj3M1Z9fQDNavItILFeR23oXjEOoZ7ddjzNe30ts4HBcTt0eUFgLyRN9cecreMKpwEfF1XHuvVVpXqvuJha29NlsQ6J70PTleuI1ONu5CRHczxu6zTu2BuaNtrwd21sNa2DVdeZm75OvhPjThC32y0AjXlVJCoe",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782043228/flash-sale/1005003696509258.webp",
-      "rating": 4.7,
-      "reviews_count": 15,
-      "expires_at": "2026-07-09T09:29:11Z"
-    },
-    {
-      "product_id": "1005012269990587",
-      "title": "S12 MAX Smart Watch for Women Bluetooth Call Heart Rate Blood Pressure Step Tracker Fitness Band Wrist Raise Screen Outdoor Spor",
-      "slug": "s12-max-smart-watch-for-women-bluetooth-call-heart-rate-bloo",
-      "price": "9.93",
-      "original_price": "15.27",
-      "discount_pct": 35,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mL9j6BtgCO8h2qizvZfswSB708XdDK9qSz7cpiREVhIGATt2Vro1NkItpsHGI2cvHg5jzfLsnGS3ede83lcOelcYf0se5WHQYnD9O0att6rLJEO6UyLIcZ9nncqBtNItnedGIOdQ5nAN6wGLCzAP0I4smBBZ3q0qzC4wwOyrKfPdLKxo8bvdvhuf1oJu9j7GrY545KnMN4ig4vna7uti476WnWTuPyrVJYd5cUqIUIZd46DvaePNjeEB6xAzYT6yl1JiEESNIZEBtdgHQhyaX4BpPXFbbl3wkX1H9uik9qHG2x9aIAROYVDNdpUoEtG4sPeCPaRLVONPx7dN0plgzkurz1tYdDIqU0KpqrAAIRWmO4nTXWGfsBMZXle3jhXLyznxWmxiMazs4jnzVWxzWowzkGVnts5FrO7ittvbyCjPPGkTP330m1qL3fr0Z6aA9ucrnr7AZdlySCD9JDexGTGWQtHMUB6pG7gdMBw6ZYYAyA0b62RIhs8sH4gbZRwRHlFQAb4Ot5d5s4rf8GHJf8gNRTDbdtzhnPbw5UK3Ne7PcrzLaTN4RvpTgYkVhPAhfxtyBkTHpdV4woeIA0oMJ1E06SqcFst6SWiI3jDeLgtxNkFCaUaVV2moerVHVLsAo7MYGkA058Tz22N5ki3oCvpnekfE5KJGAc5PQi3Uf4x0vUoHigMFjkCwXXsqjyMsU0RHbOZJrWwa0",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783306825/flash-sale/1005012269990587.webp",
+      "product_id": "1005003984714659",
+      "title": "Natural Crystal Stone Beads Bracelet Bohemian Multilayer Colorful Beaded Charm Bracelets Elastic Rope Handmade Wristband Jewelry",
+      "slug": "natural-crystal-stone-beads-bracelet-bohemian-multilayer-col",
+      "price": "2.45",
+      "original_price": "4.08",
+      "discount_pct": 40,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kV836eRJ7g7iC9QOIInDyr6fuaFfDBFRJktr6nQ5z3gmyVcM5bWLCivRv8nyJQAFnIAkvNqiqJfW9yHTq3qrZ4TxfS7PZWZ1fGlG9F7xjqlFN4TaYv4QvxLCCGuX46UmsaC17Twpx1lSqIDiBj6jppwCsu1N5zJNCBlfDaEui12eccdO6FwYg5O7I5ZR2L0zRWC0jxjmhS11di1xvyqlKUn2INi3C9O3a4XpUhf7WUu9Bau0Ll0Kk5Fjc2I2KHAxkxjdeQUlafUXcEFvSA6Z3HpvdSKprPWFp6vaKTx4X60LQrZT8zQtXV7tZYH0DL20KF2rtPljpW8IcTMKjYHizUhRosUbYPAkqYy1jzRPCwkrAEn7lQpSJNqk3BaR6FbfAJYsMxJtsT6bmQpVhOKJ6KorwD2ByZoKPpcaYyPjNe4v3oKygNKbHihMV1OnCMqudz4lOCwIwDpkaQwYoGHqWL12zYOdtFhY9I04ZM3YMZFaL62El2eaSMN0ETd32ga6o2UFsP7e1g2sf1Au6JxBIMopamdRzUjvvmZHJbk55q0VNol3906kZVj5CA18d1er7Ef2nFHNRALDvXqtgU7bvrPT1JyiucOnbP17yiqcgNmdS5DCdsujJFKBANHuYvxilTO98d09W0pCIr9nVfn9krFo20xMFowbjMFplAdx4sw1UpqH3pR0r2qDnYhhlfJqWim8eaeAdu6i6",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783587633/flash-sale/1005003984714659.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-07-09T09:29:11Z"
+      "expires_at": "2026-07-09T10:00:27Z"
     },
     {
       "product_id": "1005006340222629",
@@ -126,11 +113,24 @@
       "price": "0.49",
       "original_price": "0.74",
       "discount_pct": 33,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FE6u52AO9RFqrgPLA59PRMxc2KMHixf10pMZiECsWDUqRJh60xtFZ4yYDyGii5GcnLKpXWWtJHsqi5OjN81IoMsGPMu8izb35niCLGsbhC5sg8GYejuglcDNRm9weqZCcAhAR6JUvHB4enhvg31udGzilehXjUl8tpraugGNh8r4AbMMnvF3A9XciefACLGRKVhmiUiIDlHsuF1SC7ClCJE06qx4Tj0vaPIm9Jg0gddInVzv0GxaBddTIgpqDjhPNxE3TJgBNVoOn0MoxnQAjuAG90ho7QoZncVrvFzkQKPymj3SYkkIWTKsTrcFrETk8zXlnNFn1Z5WlTSczWoNrTB1ml3BtmrdpBD0Qwt2E1hTSADcMZzLdF50t9S6d4pGzswenbQ6CtCt8inC5kr9xMyRNCODnQACxjPz8vIN7XxT9lU6OeJ5aJeOafCW5dbat7HOYOhdD4AXOjKAjjCT0lHKOyI2GKhJFRcYOxZcv6ByccPm5ycK2vnzXsRvpidYfYbHXV4X9ODsPaIpn6lRW9gpzpdIZgGw6dA0x4dGeoQiqrAGM4ZBV1pULY244HWr54yCQbrgLQRsE3fpIgSGNA1QzwbHCBy3QXCKSlHx7tnch0pqXSTLbLKEG61Iv3CBNtIwVR3ASMOO6KVjPjKBbHCdzKkNc3RjpUl7gbTkcCwKF97xQUeEqJ1cmR6uSvd2ACLzVKLDNEN2s",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FE6u52AO9RFqrgPLA59PRMxc2KMHixf10pMZiECsWDUqRJh60xtFZ4yYDyGii5GcnLKpXWWtJHsqi5OjN81IoMsGPMu8izb35niCLGsbhC5sg8GYejuglcDNRm9weqZCcAhAR6JUvHB4enhvg31udGzilehXjUl8tpraugGNh8r4AbMMnvF3A9XciefACLGRKVhmiUiIDlHsuF1SC7ClCJE06qx4Tj0vaPIm9Jg0gddInVzv0GxaBddTIgpqDjhPNwusdcFaYaw4g1ef2QeH1J6AYDRyp935AB5o4Ew0eBl1JKRT3YHndn39iO5ARU2OrVmWr5F6Nsf27BCqDGkv72PDPMUlaV6uLJtuuqCyEFLo4cn6hECgvgbnquQS7ufgNBMuCQUR9fs0DU4MP4sMwR435DyMgdv7nNbzNZUmNNf22ZDvxxe5abLurNUXG5pTu8dsXRLGBIRChbUbTuj5pZUA2YlruqSqLIUCxrwcQeZ14JwI0sQfYSEX3YAfnwXGg4KpJ0D01ajaGtcgR5toZ0dU1CrlZHI7j9sIqzex1D1Ecbp6PmXlF59gpjyNsz1V6ZQB0BlMEx4Gkb8DMcDz2lB2JXWqtsfuQ6wZfCJDYo8KuMOU6TEnyZ9bVcsA1TKncnEIPTkMkfAwxCYR8DlrCeLCzE00NNZSFuZtcsIXRmFcXl0DNGT8RYRm51TPYoQ3In2bO3WsPrNja",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783504826/flash-sale/1005006340222629.webp",
       "rating": 4.7,
       "reviews_count": 7,
-      "expires_at": "2026-07-09T09:29:11Z"
+      "expires_at": "2026-07-09T10:00:27Z"
+    },
+    {
+      "product_id": "33007923484",
+      "title": "EVA Hard Portable Protective Carrying Box Cover Storage Speaker Case Bag for MARSHALL Stockwell Bluetooth Speaker Accessories",
+      "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
+      "price": "12.49",
+      "original_price": "17.85",
+      "discount_pct": 30,
+      "affiliate_url": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gWvhCMDnSvfljbaoOVZ2DVlEBygJRg7G3dP7jWB02AktR7kRy5lt4nVxwGc3zbd2ZomwNdnk4Ik4ilFjP1q2XiFBosoxffHNC2oeZyLDtYxGCTAEAmbTLjWuCstTcMTsGUF82rAWPgLiSZGyJEFIKZYTfbtNM3kUTzomYRKAFIFud2yvR5H30w1RDO7YqaoL1hssWdk2MzbAN1MR3VjwRZFNtAm1lREabIVgkNm9fonigPAn0HbnFH0DupGyYQIGTLrpdX1eHnShGCmJI1cHrdSKEDXhfyN3KTqrvhUuN4J2WUPZyEj1AeygNf7ZBEJFGnjXpMKWO1SLkbQqktuKF9z7LAJihwdqo9CJRigUW7kv1UailqNNwrhD5R2BJZu72v4omTqPoODzeMPvtaugIgNhOfWL0fLCRNB8a74CvlUNmAulgBGhvIt2Mh9r71vUviNwKO6JI4eCmxwVhTbS2sDACG3yXfsFpcrX5Bi6JJPJ1PWvLPaWlgit3fJ66GD9SkpqAHD8xCAO55v8xgYH1DmgLBTzM4NGoPaE364Em9wuaSQ1SnApSIHs10mmZE3KiGOUyTZAd3bznlUA5PzuOFMesR1n2qHkoAbGs68NJywJ1DlKVCtCL9XYRrKwFPZaweR2q34rSZyaMeu8SoHRFDZt9ZLkgebXHmTdEhVvnWfRG6dVfybf6w0Ybd7P7tgnppuReBS4a56c65MB",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783587634/flash-sale/33007923484.webp",
+      "rating": 4.8,
+      "reviews_count": 14,
+      "expires_at": "2026-07-09T10:00:27Z"
     }
   ]
 }
