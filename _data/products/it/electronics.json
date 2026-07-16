@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-07-15T23:00:25Z",
+  "updated_at": "2026-07-16T16:00:17Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -18,7 +18,7 @@
       "score": 0.3234,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:16Z",
-      "updated_at": "2026-07-15T23:00:16Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005007480971055",
@@ -36,14 +36,14 @@
       "score": 0.2898,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:17Z",
-      "updated_at": "2026-07-15T23:00:17Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005009369207724",
       "title": "Pocket Power Bank Portable Fast Charge Type C Batteria esterna per iPhone Guarda Samsung Xiaomi con cavo Carica rapida Powerbank",
       "slug": "pocket-power-bank-portable-fast-charge-type-c-external-batte",
-      "price": 15.88,
-      "original_price": 39.69,
+      "price": 15.91,
+      "original_price": 39.77,
       "discount_pct": 60,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXGtB8dxkVsWyAoOYfLXi9LFUviWncuDWrlXxqvXj0bQTGfVlVQOVRVKMf9f0Xn36BDGglVOirsQyDUM5K47FTDeLMMA3rcZ2ONRqc9WQCjnoOxLf02rJErvwnhqlmymMNiFJvvkDhLlz5jwiRC61J1r80GbwnZ4aOBuC01E9qymWgVGtLndv3fvvNBcijLJxSV0Mi47z3K1Tdu9R0nGQ686keS6A01T7pEc05GqGacd7vVxYjFi2TVkyxwmtNIgLaJosoQGF6RqX2Ker7dzyW5yiQ1TArmWbksGZh84pR0chcfmst9hWxkKgtsIwLp2Mbzznvy2p9W3JGLeh5hXxaOViqVhq7XIAmiC813xfzgoa2hjbsZ5T47isnXIqEIg5J80Pkf2Qr7Axk0NXD65d5T2NG0N7ASmv6bggApb3GGx8QR983zCGLk6sDUUQO5RsUydOyw70wNQqSUfP3Pbq7yBDMCbAc1CAKHT20kBdz4dmZ4Z2BUG8Gzw6NIKQj8Vxe3bmg14ljBuyXzXreWPGfqPUl3yc8irX3dKe4CGs4TIIoQgObIHPiRtFUSJrD3nuqFE6TC89ye6hIt0QAGJJwl4wcWLtc7tbZHNQzOXD79tw6oXLDoRhrqEb4NfBGR6G4cMVXR3IFXoESaXTL2Y71qOMfqBAXsONKhLCGDxoEdpd5XJbXudUHXe2cFRH6S2uRO9OWbUjojE4",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784070028/products/1005009369207724.webp",
@@ -54,7 +54,7 @@
       "score": 0.2819,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:17Z",
-      "updated_at": "2026-07-15T23:00:17Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005010253348075",
@@ -72,7 +72,7 @@
       "score": 0.2715,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:18Z",
-      "updated_at": "2026-07-15T23:00:18Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005009017398891",
@@ -90,7 +90,7 @@
       "score": 0.2697,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:18Z",
-      "updated_at": "2026-07-15T23:00:18Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005011812151458",
@@ -108,14 +108,14 @@
       "score": 0.2647,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:19Z",
-      "updated_at": "2026-07-15T23:00:19Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005012272048246",
       "title": "Altoparlante portatile del cantiere per Dewalt 20V Batteria 10W Bluetooth Wireless con USB Caricabatteria & TF Card per la costruzione del campeggio 100ft",
       "slug": "portable-jobsite-speaker-for-dewalt-20v-battery-10w-bluetoot",
-      "price": 40.5,
-      "original_price": 88.04,
+      "price": 40.58,
+      "original_price": 88.22,
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWys7RupnYwuuy0p4HwqwOIC4wYrNDx852RyxlLyjSRrfGVSnVZBCk1osCPxQASDnOy77rL9KHeEZyB62AywS7mYa0KTscCpkDgYhvDRvjZpFEAgROoqg8sjG29FwWiK9gYOwQQuBhrj8H8w9wavxoCNQ0nBgWLjjvxpWXMbkR8pCMPv1sLTX8iUmsgVcdy4R05U7myIirhBO7DywC3EEy1rxQLFGLsiHROi9vJv5JZzFVyaPf0XaNd0vjStLc5uW88u364399iCZv9Ku2TNL4j1rqBhUyieRiYnk82lGMeLmdtzOnA068taozFJ04b1bimoHwgTMrrgZYJikQHASxvBbhOay6oUzzlJrhqmXplu6Sk8LGUu0vtnryvo4xKhN21djXibdYudMVICl38rdBn5h41qVqCQ3C0dbIl7GNR3Tp5anKZ3RfAwXQtQR4SDSjcUc89NILGvXd2OGbQRtpqxlke5DrJNsHkGl2e2T2Pck2e09yZ7ae804MeFdPhVgBdEKxFs3tpIciZIj5TrpCr6QFioWJmDgHvji3eJSm8QFQtOXvJiAqDN6Ou9eHQAdVGXs2xrOABhiAqBHU7OK4oJQOOhxZVjN1gRRMVFnVKLMCNzL4n4dxaKbYoAgr0HEhwJjNMyB50rHaNDFoUGuZaTIWq74hNrjtLCvipNQNTCpby3hOaYyF1CK4sDhigzNSUzxBfWZOnMs",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1781242170/products/1005012272048246.webp",
@@ -126,14 +126,14 @@
       "score": 0.2627,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:19Z",
-      "updated_at": "2026-07-15T23:00:19Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005012075932423",
       "title": "10000/20000/30000/50000mAh Banca di potere per telefono Android IPhone Alta - Qualità e Grande - Banca di potere mobile di capacità",
       "slug": "10000200003000050000mah-power-bank-for-iphone-android-phone-",
-      "price": 18.48,
-      "original_price": 40.18,
+      "price": 18.51,
+      "original_price": 40.25,
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mWSt2v32MUnUN3unU3fkZ6oLvHZoqnaXnrSpDnxKfug2uja0sDUsRr06t53xGG1FNyW5niulpeMCE4Qs9WfPPs6DiuB3D3JD1eZeoWvfa7yHFYlQkPCsZXAjsLVWd0bNQVauAq3iKf8Bagxqb1RBtNpkJWEyGGYtn5QMdjRUZ64KrK3WqEt5EHiFmZmLSLzSceko34cmvv9kacbct7N898zkO0Y6faRxO8U9nNXAb8AcuyCvSmWIsbvtIrjgqOfZJGsPxGkLuXA0GchwhR8v5fQ2oqlEHWbL0g9ucqCUmbvEvXGROQ0ooBUTEd8ZpgPuZXbRlNJxlSn9rK1QceJqsM2GLh6IN32WKDorpUwzPu0VpadAxyxm4gv9clfnltYNkIRwaRWIrfFxIgQfBAvFTwUfBSEsb0ZPu3gDTscgq6cmKMaxBuje9tdkWBfYHobxpCavfuCCuPsuyrAsJDeZAwhu89Kab6ts4AX1DMzTzgSw8YiOrkIUz7PjGsKdkEDQXApQtfOlju2bWUlanUsK6BZTD7nvvx6EEVDVOkpftvcNl2WCrK4BPWQLdPbz7sS64g27B5zd5d7SeAnchoWxSLTc4UKPma5DWH1hUVOK5ZGhEqJiI5oUHeKtLZjfYEGpSNBsLZEWwnnWLFWskE2w5qh5KMc2y4FSgsO1wpk7RuCSmqU31ZSH8G9f3A4o5xQdqbH9JTgJiIVaM",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782450451/products/1005012075932423.webp",
@@ -144,14 +144,14 @@
       "score": 0.2627,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:20Z",
-      "updated_at": "2026-07-15T23:00:20Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005010660256913",
       "title": "High-Capacity 400W Portable Power Station 192Wh LiFePO4 Batteria AC 220V Solar Generator Fast Charge Power Bank per il campeggio",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
-      "price": 128.42,
-      "original_price": 279.17,
+      "price": 128.68,
+      "original_price": 279.74,
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m41tA0xBIpLmTqbFOhuzu3kjttJUfZqRPKlCRi95zYaqA3iCQNNXEFAiWfgZeJVu3pL4P7bkBeZEfQafzrIVY79QpiuSz7VjP2dXYFCy8nR4h562zZ7YxHe9GKcdR6nyffycwGOtcIEIgDVguSQPKVNgomKlFqpmMpBcn4VoQvdgi3e0IqF8hnqEEyWVwFrv3JCRu8z7VPeubGQLpQxtmDjZlKl6iHQqrzDx96FQLdzKrkuxKNnTE5QoRMNhipJJjzMsLPoX46lxpqLxMou7Ifbx6eTfuQiRRGOaE3QqQZsxkh6vM4PxwUAKo2MDUuDjHt8h4HckeOELbkO5JmsyJIPTAl7SglStrYLtMaHr9k2YLhrq9RCUU3B4Tqsxynqj249cfFSGWx7T7TkPvfc0SYZa8nN0KfP5UWyjdNi4JMBJZlRbWQ8Hnx9R5stE7adGaoSLRMzpv4fppZm6HVe5VNqkwHYyNQRP7YLiaXbsg3MmvVpCzXC5NQAwHzuosz73lV4KVKsKCrYcmXsENxAGREvPQFYoNJlZtZJNAt1gCIa9NmgdN3cT4nRQm4sQymrTGyjpK0NoJAnHJS1tHCIj5jCTKJLbkRb1nTfdVmflPQR5lL0BBB5IHevkBJN81tN7zLM5IEGRoJaxYSgqJChuW9t2dorEQkauy5XsCjYoxgfedLrb5XKILu0UohziHCdrva0MdvZcYbiP9",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779686693/products/1005010660256913.webp",
@@ -162,14 +162,14 @@
       "score": 0.2621,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:20Z",
-      "updated_at": "2026-07-15T23:00:20Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005008359913408",
       "title": "Power Bank 60000mAh portatile di ricarica veloce Poverbank cellulare caricatore esterno della batteria Powerbank 60000 mAh per Xiaomi iPhone",
       "slug": "power-bank-60000mah-portable-fast-charging-poverbank-mobile-",
-      "price": 29.22,
-      "original_price": 58.45,
+      "price": 29.28,
+      "original_price": 58.57,
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FCSd5ttHeSlzcQv6Oq6JhFVbXOfc23QJm9D30r39C2akFQkJqmmQhhuSCUrhZyPP03qWyiZdUaxChpxte8MCS4VMuhQ5h9GX9SmgUMnMhSfSmRt1XKeNfhp73EdICtviEQozrNl630cn2yhNgrYHqYtihimX2nP7ag9KAMdW2f7RusictKOmUKLwtgNNfLnyzVXEBtAMmQgdYlwS09ZKOibQhogUTxK3SYkzbf9xBM2D3A5Mz0ofPk4LJXjNPsAhKpUnnbHEU4vwvp5Etdl4LpScCCec3oxz5H36iHwiNm9ThsWbwP6QhY5NtlVUGzA2vQyL2FfnUxBiacRqc5yb1tXwP0K3l5tX6LVJdUBRJMlstg23xtpb9NlVnwbsQqba8s8nB5BDWWX5UAestsIi9ybhfonjNZyChytJjXLDE5rs59qbklNS9TrfOA0kAA9dPWkT6i9LuIer5x3pACEjLePN8gOmHuGa4R8qRnIhG2jZmfHCwg5N7NRqcrFtxaWbl0Bzzr0kY8nTvAF0j5uBg7gWO7iNd2W2NTW4i48CEe88vldl9f6hs4Ap52dA5t1uMIUOfUTukwav742fiHM7wKD8jGf0LkRjjxdJy8cOLLGE2kTMDZRNeqojRToUuecG0NEzPjlnXR6qVWsg9M1kr5CN3hptgEUY7JxcIyDYZ0HVhRA2zEyeLY2hyexn93HOcbKiQEmCBOvWf",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783916885/products/1005008359913408.webp",
@@ -180,14 +180,14 @@
       "score": 0.2439,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:21Z",
-      "updated_at": "2026-07-15T23:00:21Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005012259681107",
       "title": "Banca di potere di 20000mAh 5V per la ricarica senza fili aspirazione magnetica portatile veloce Banca di potere di ricarica con cavo incorporato",
       "slug": "20000mah-5v-power-bank-for-wireless-charging-magnetic-suctio",
-      "price": 26.08,
-      "original_price": 52.16,
+      "price": 26.14,
+      "original_price": 52.27,
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oL9zQNAqt2TKLJJrh0K81akR8gFOgIdXE2uN2ire1ojA76cfHVzISLuFCnPHCsK1uUYOX22thysvdJaDkM5xHaOeyUhtuGSTYED6TwwORMD9IDP5HKsN8ma1QkcaojyuYHJLsh7bvCAjrgn0q9eFOZvrcsnBhAgvYFCN9i0jmIuOq7GiR9bQUmgw6yZeG7tgFa1Yl3e4qIN9sTkeMUIpxQNS7GX7RrOmDf8yiknIvAmhGjxLWoqw8c3uehUadSU1N6rpMXvjQryljjyz8VCLW9V5QxLFKT3UiCO9Gryt5bbLdI13UCKGwRNL0pqMLtFYaWUFSBSYfHTfYCnfSqdtbykeyXIbbQ5xHGYBbasJVyB0jO3wgSQE9gw6F6jTsLdM8HNXX6vwYAPrFhjBUZyf5lbF1l9LTYZzL6GYacHTBrqy7B4hZg5mpv10LeWpm9ZVQpPwnWweLO4eqjmBBsyRJCO2XYK9JpeuUHJlWCI1ElKA8vTr5m4PJpokEFI6rEIg6diNaTs1GTLkmdp7LqdL1yK75onnivl2fZdYTfyVxxZJp6fHeBsLI02J2rFnilvFcP6ocO9kGP45piAt8cIEfzeGMyfy4AWf47rS1LbPJXEelRbaH9unhbPOCHuYq9oD1EerZGBoqG72fA5rEgkw73akYbW86wL1LnEPiDsIMNKZ18OceJLLILLHOUoeFROGEflH4aaJAibWk",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783314548/products/1005012259681107.webp",
@@ -198,7 +198,7 @@
       "score": 0.2429,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:21Z",
-      "updated_at": "2026-07-15T23:00:21Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005012229118016",
@@ -216,14 +216,14 @@
       "score": 0.2263,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:22Z",
-      "updated_at": "2026-07-15T23:00:22Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005012206657079",
       "title": "CCC certificata Magnetic Wireless Power Bank 10000mAh 5000mAh Spare batteria Caricamento rapido portatile batteria esterna",
       "slug": "ccc-certified-magnetic-wireless-power-bank-10000mah-5000mah-",
-      "price": 15.11,
-      "original_price": 33.85,
+      "price": 15.13,
+      "original_price": 33.91,
       "discount_pct": 55,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EyOANXNXOaMgJTHLreK1hvSxpfwhVTWtjR5MG67VpOECfiV1p25jUrG2vAhBhM4Nbah5h90FHJdBwdQBV6vNLlczdn9hTREtsFDIzq7FSX3U38pI6zcZ16lyBQln9BbjPOIf6r0YXCcO6v5Ni75RsWdNYyFjpOuv2q6308TZXq69Mu7zq3P84k2hJLR35yvts2VjaezwC1NvrZ9Z5hPjCgMrCTlR8cTgUDBLF5LpAtUlkILj2WFalvKYirGLqVPLbTnqzJSLYb6l17Jwguot38awrpinknWp4k4t5Sf8af5q8J2lOfWVplmXpdWNerJAz48RYvwIt41jLGjUq6WFH3qbIrZBgC2dX8dhPopt4j9D1hehGNxbIfzWW7oArZzMutz0AuGacJzhNBaGglaOGQCyg2UthTVsFyNEheLRMdMRfn7dlwIE5LtRmqGBBIe770nksXRuaN9nrDCc8GVd514G5sQYnvTbxORjXhZWfaRSO21yy28hRAdZB99ZyRI9CcG2LuOCMkscLj0m90zYO7l2nRjKU4N2d5gRh7WYpMfGoY9ckzF3OFQiNXGlwWFEamp4nJYM9dFL3UYIAexPzeqljLgTG21YkhKylVb9lAKzZqidKzcUa0D2iVGt0IP1tN1vIgxQgakJ2MKnHZNZhHo9lz3JY4JbJ5h7z3jzfdAQ3NmEIN8OPWdFc9v1Q73ikpcYPvHR8UQgU",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782109586/products/1005012206657079.webp",
@@ -234,14 +234,14 @@
       "score": 0.2255,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:22Z",
-      "updated_at": "2026-07-15T23:00:22Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005009896941801",
       "title": "Strumento eolico elettronico portatile Connessione Bluetooth elettrico Saxophone principiante Saxophone Costruito in strumento di musica del diffusore",
       "slug": "portable-electronic-wind-instrument-bluetooth-connection-ele",
-      "price": 24.32,
-      "original_price": 52.87,
+      "price": 24.37,
+      "original_price": 52.98,
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXIMl6MtBbvwsJTDGdznp9wEjW2XKaxCsoRIhsO6LwjNVcxGjPswntzYoQaRveKF5MDQUkL2wJYJnag9wpgHt5PvQpxnBDNjQRdAI5spJqq4m8DmnoOIA2goDM3s1BTZyZlHvhU7CKkkWuCBlF37TnUDtwW8SjucOFEgM3UusugAjQG47SEcVxDWbPXGdqd9vWYCgzDUuhHxubEbqBY5iBnjSaOkIwPzF5Ki6P3ZXeY2Gus4qEHGKi9wmRrcZ02q5Qfw6y0oziqoE70RNcAI3CoLSlKoLY3VY8zjtkMRXr2c335FwMFARFNP7zY9Dl3td4w7VsdqjbJoxpMtmvLDjSLiVZ82OumtTR7205Wd9uy2t6yECYahJqzYQkgJ1ITy7AW8JPqJS0VxATV3b1e6QFdLIRvgaNjgxzAdPm8F26vXXLmBqo9RjwIvGa8JaJhDDSsEYfelCFhUJAwdUAd1iU6NTupzYsJuNgRofoV4O155zW1wtQAU1BNkXZyJNE4OYqs2QAhFeqobbNMJUkfdmAGrVp9IqUfIU4E2gfVoaCIhQctrjxqI9bY5osIMg3M8oBYFm9bAjLqLegHpDXNIc7bTdslTSytvMVQkgyfXxFXueaHXSVeL6ZkBng8x0Y6qYDLX6wBBYfYvBHxPUyUUxaTte1qHx9Mm9phfzNYWAlqSkEO2gvEkBpjh2hxAQjTGMBrOf74j7oNxA",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782687631/products/1005009896941801.webp",
@@ -252,14 +252,14 @@
       "score": 0.2224,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:23Z",
-      "updated_at": "2026-07-15T23:00:23Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005011532019654",
       "title": "Per pad di ricarica wireless XPENG G7, pad tazza di silicone di controllo centrale",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
-      "price": 10.88,
-      "original_price": 38.86,
+      "price": 10.9,
+      "original_price": 38.93,
       "discount_pct": 72,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k9f1icdBSoaB0gHvwhianfy7sKcM9I8gYqJOp6i5RgK4ZPXM4sQbFJLSKraIkd3T4d902uxDfIEq9pUyHJzrsnHBXUUr9wTp0OmqYBAf3RdlD2rhW5CzoF1T819vC1mohhUjo5oZKzrVQ2SmwZCqjN2y0VWDgJPCd7fMXsnvgPOWuciHQHFejl7r6hD3zmBZmjYds1IykneMBaaKd8VtewVp6awdotxWjqo89JNvXnLFVnW9RJBYLKoiyX4JAiGTl405xoZLhovRL614sNguho6UREGXyW9OR9SCTHnUi44RJdNr7fYitZn0rxFrvohKbN9HlFAvYmpW2SgXhy6Q3QezeiNjs4QJxB3xHJ7RozWx7j0pLzOoMor55rUVs1V8Zzcmph4WADYJotVrS2VcfDT70MdrqK7JETIoBUNMYQNrlqeYS3H2FhGgmXWSdvowu6Wp21cW8OiQ8OXCiV63n7Ozouo8VhGg51sEqPScQ6rgkZKwmDIUkGD5hFIr9D1qBydMiAXoVKwYgO9yMiHsHkr0sKuAvWk1K9AOk4fSKFJGt88I0pSZoxEuetvzDVMDeALaCcK4UatkvIdbLwKQQAYXnjiebawCAMmlJKu8DlyXjPlNGq24BMFjrqzp7mr9ypnd9MAVM5PZJ7DOEOSf1mGxhmHH7ETPaNvMJF239ZqaQRwAznMttqrQdyNq9kIMxd7gQooccCNdN",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784070036/products/1005011532019654.webp",
@@ -270,7 +270,7 @@
       "score": 0.216,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:23Z",
-      "updated_at": "2026-07-15T23:00:23Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005006140632259",
@@ -288,14 +288,14 @@
       "score": 0.2151,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:23Z",
-      "updated_at": "2026-07-15T23:00:23Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005008447641986",
       "title": "Portatile senza fili Occhiali da auricolare Bluetooth Specchio rana ultra-sottile Occhiali da sole polarizzati Occhiali da sole auricolari intelligenti Dropshipping",
       "slug": "portable-wireless-bluetooth-headset-glasses-ultra-thin-frog-",
-      "price": 8.09,
-      "original_price": 12.63,
+      "price": 8.11,
+      "original_price": 12.66,
       "discount_pct": 36,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Fk7LqPwKD8xgQzg5Vzscdqh08cPCzuTOvpsKbmMGTyUxDd85O82RNuSpKKBYFh6Oxl2bFXzLVBPgjzk4L9FZuhnuI1An3lB7EWN2sfbffZbp3RgnIEGSgNGPd7EOx8fxvwZz6auUl9onavqRtLoqNYRUt90reUj7cVCP8Tliqshi6eqooD6rf8hokt6jFsYEfyMmUkJSuPYPaAIqd7M5xE91k1JXXGSmZoNAqwHcdqQYds362hee7UItITh4ZUKCpmbq0D9aghtOroyEM4kZSMm6pXr1a4b5Yv3OJ8wS1j3luFEgkPZVhtZWexJjyPl38SMwL8gbj0xsbe3NlPA6e40yHXZUc3EMtjW8tILUERmUl1c2wNWSnnYbTMzxarW765sHFawbNNK7p0AZUmIm26SFYDsz5oSlo52KdqGAIQoA6OdAFBtbG8NZABjnOvEwRmQ4EeQJvGcKb9vNgpAW48f66yZfUMIZqlYlmdQnRsxt3RbsLoIErpdcrxZAVajrVGi0UQsfgw25fzXAhUUJulaSqx3l6hUIUl6edVi35vy3ctDNcci6XzWysemgMclp75ddC4Qmo7aewLuMKF5EHrr0NE9DpTwUcYdpzLMsxy4ia6AZfv4K9iBDTbblCd5wS5A5eMkS51pRwYojlEGZK2dyTWfr4KUdwdKA1g4DcPzHGL1X1T5CqMuwGHiqWdZqgMoEqwNpTzgVe",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783465237/products/1005008447641986.webp",
@@ -306,7 +306,7 @@
       "score": 0.209,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:24Z",
-      "updated_at": "2026-07-15T23:00:24Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "33007923484",
@@ -324,7 +324,7 @@
       "score": 0.2048,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:24Z",
-      "updated_at": "2026-07-15T23:00:24Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005009873262361",
@@ -342,7 +342,7 @@
       "score": 0.1955,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:25Z",
-      "updated_at": "2026-07-15T23:00:25Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     },
     {
       "product_id": "1005006340222629",
@@ -360,7 +360,7 @@
       "score": 0.193,
       "price_history": [],
       "fetched_at": "2026-07-15T23:00:25Z",
-      "updated_at": "2026-07-15T23:00:25Z"
+      "updated_at": "2026-07-16T16:00:17Z"
     }
   ]
 }

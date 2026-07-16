@@ -212,7 +212,8 @@
     "primary_keyword": "best webcam for video calls 2026",
     "category": "electronics",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-07-16"
   },
   {
     "topic": "Best smart home devices for renters with no installation",
