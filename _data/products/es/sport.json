@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-07-18T12:06:18Z",
+  "updated_at": "2026-07-18T23:00:55Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3614,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:07Z",
-      "updated_at": "2026-07-18T12:06:07Z"
+      "fetched_at": "2026-07-18T23:00:44Z",
+      "updated_at": "2026-07-18T23:00:44Z"
     },
     {
       "product_id": "1005004369037597",
@@ -35,8 +35,8 @@
       "sales_volume": 414,
       "score": 0.3089,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:08Z",
-      "updated_at": "2026-07-18T12:06:08Z"
+      "fetched_at": "2026-07-18T23:00:45Z",
+      "updated_at": "2026-07-18T23:00:45Z"
     },
     {
       "product_id": "32286722941",
@@ -53,8 +53,8 @@
       "sales_volume": 22,
       "score": 0.3066,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:08Z",
-      "updated_at": "2026-07-18T12:06:08Z"
+      "fetched_at": "2026-07-18T23:00:45Z",
+      "updated_at": "2026-07-18T23:00:45Z"
     },
     {
       "product_id": "1005005489527499",
@@ -71,12 +71,12 @@
       "sales_volume": 311,
       "score": 0.2789,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:08Z",
-      "updated_at": "2026-07-18T12:06:08Z"
+      "fetched_at": "2026-07-18T23:00:46Z",
+      "updated_at": "2026-07-18T23:00:46Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "Botella de agua de bicicletas X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
+      "title": "Botella de agua de ciclo X-TIGER 620ml de agua fría aislado hervidor térmico al aire libre MTB Bicicleta Ciclismo Agua Botella",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 12.13,
       "original_price": 29.57,
@@ -89,8 +89,8 @@
       "sales_volume": 5,
       "score": 0.2776,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:09Z",
-      "updated_at": "2026-07-18T12:06:09Z"
+      "fetched_at": "2026-07-18T23:00:47Z",
+      "updated_at": "2026-07-18T23:00:47Z"
     },
     {
       "product_id": "1005010160889036",
@@ -107,8 +107,8 @@
       "sales_volume": 58,
       "score": 0.2675,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:09Z",
-      "updated_at": "2026-07-18T12:06:09Z"
+      "fetched_at": "2026-07-18T23:00:47Z",
+      "updated_at": "2026-07-18T23:00:47Z"
     },
     {
       "product_id": "1005007517245266",
@@ -125,8 +125,8 @@
       "sales_volume": 6,
       "score": 0.2631,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:10Z",
-      "updated_at": "2026-07-18T12:06:10Z"
+      "fetched_at": "2026-07-18T23:00:48Z",
+      "updated_at": "2026-07-18T23:00:48Z"
     },
     {
       "product_id": "1005008772408846",
@@ -143,12 +143,12 @@
       "sales_volume": 30,
       "score": 0.2626,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:11Z",
-      "updated_at": "2026-07-18T12:06:11Z"
+      "fetched_at": "2026-07-18T23:00:48Z",
+      "updated_at": "2026-07-18T23:00:48Z"
     },
     {
       "product_id": "1005006998978324",
-      "title": "Botella de agua de 650ml Kawaii con filtro Cute Sakura y Panda Tritan Deportivo Café Tea Juice Cup Gimnasio Botella regalo para las mujeres",
+      "title": "Botella de agua de 650ml Kawaii con filtro Cute Sakura y Panda Tritan Deportivo Café Tea Juice Copa Gym Bottle Gift for Girl Women",
       "slug": "650ml-kawaii-water-bottle-with-filter-cute-sakura-and-panda-",
       "price": 12.96,
       "original_price": 27.58,
@@ -161,12 +161,12 @@
       "sales_volume": 8,
       "score": 0.26,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:11Z",
-      "updated_at": "2026-07-18T12:06:11Z"
+      "fetched_at": "2026-07-18T23:00:49Z",
+      "updated_at": "2026-07-18T23:00:49Z"
     },
     {
       "product_id": "1005010382664758",
-      "title": "BATFOX Mountain Bike Helmet Puede instalar una cámara de deportes Electric Cycling Gear Safety Cap Hombre Mujer murciélago fox MTB Cascos de bicicletas",
+      "title": "BATFOX Mountain Bike Helmet Puede instalar una cámara de deportes Electric Cycling Gear Safety Cap Hombre Mujeres murciélago fox MTB Cascos de bicicletas",
       "slug": "batfox-mountain-bike-helmet-can-install-a-sports-camera-elec",
       "price": 33.27,
       "original_price": 66.53,
@@ -179,12 +179,12 @@
       "sales_volume": 41,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:12Z",
-      "updated_at": "2026-07-18T12:06:12Z"
+      "fetched_at": "2026-07-18T23:00:49Z",
+      "updated_at": "2026-07-18T23:00:49Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Botella de agua deportiva de plástico gratis 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
+      "title": "BPA Botella de agua deportiva de plástico libre 400/500/700/1000ml Bicicleta de botella a prueba de vacío",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.89,
       "original_price": 15.79,
@@ -197,12 +197,12 @@
       "sales_volume": 51,
       "score": 0.245,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:12Z",
-      "updated_at": "2026-07-18T12:06:12Z"
+      "fetched_at": "2026-07-18T23:00:50Z",
+      "updated_at": "2026-07-18T23:00:50Z"
     },
     {
       "product_id": "1005006588685488",
-      "title": "Extra Thick 15mm Yoga Mat Hombres Mujer Fitness NBR Soft Mat Sin gusto Gimnasio Ejercicio Pilates Yoga Mat",
+      "title": "Extra Thick 15mm Hombres de Yoga Mujer Fitness NBR Soft Mat Sin gusto Gimnasio Ejercicio Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
       "price": 21.23,
       "original_price": 38.6,
@@ -215,8 +215,8 @@
       "sales_volume": 11,
       "score": 0.2363,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:13Z",
-      "updated_at": "2026-07-18T12:06:13Z"
+      "fetched_at": "2026-07-18T23:00:50Z",
+      "updated_at": "2026-07-18T23:00:50Z"
     },
     {
       "product_id": "1005003674465001",
@@ -233,8 +233,8 @@
       "sales_volume": 0,
       "score": 0.223,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:13Z",
-      "updated_at": "2026-07-18T12:06:13Z"
+      "fetched_at": "2026-07-18T23:00:50Z",
+      "updated_at": "2026-07-18T23:00:50Z"
     },
     {
       "product_id": "1005008682223950",
@@ -251,12 +251,12 @@
       "sales_volume": 4,
       "score": 0.2205,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:14Z",
-      "updated_at": "2026-07-18T12:06:14Z"
+      "fetched_at": "2026-07-18T23:00:51Z",
+      "updated_at": "2026-07-18T23:00:51Z"
     },
     {
       "product_id": "1005005807293081",
-      "title": "ROCKBROS 670ML Bicicleta Agua Botella Aislante Ciclismo Agua Bicicleta Bicicleta Bicicleta Térmica Bicicleta Termal Botella",
+      "title": "ROCKBROS 670ML Bicicleta Agua Botella de agua de cilíndrilo aislado Gimnasio Running Sports Water Bottle MTB Road Bike Thermal Bottle",
       "slug": "rockbros-670ml-bicycle-water-bottle-insulated-cycling-water-",
       "price": 7.35,
       "original_price": 12.25,
@@ -269,8 +269,8 @@
       "sales_volume": 17,
       "score": 0.2193,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:15Z",
-      "updated_at": "2026-07-18T12:06:15Z"
+      "fetched_at": "2026-07-18T23:00:52Z",
+      "updated_at": "2026-07-18T23:00:52Z"
     },
     {
       "product_id": "1005008813902899",
@@ -287,12 +287,12 @@
       "sales_volume": 151,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:15Z",
-      "updated_at": "2026-07-18T12:06:15Z"
+      "fetched_at": "2026-07-18T23:00:52Z",
+      "updated_at": "2026-07-18T23:00:52Z"
     },
     {
       "product_id": "1005008686251941",
-      "title": "Caja de seguridad oculta de doble capa de acero inoxidable de almacenamiento de la taza de café oculto dinero aislado Diversión segura",
+      "title": "Caja de seguridad oculta de doble capa de acero inoxidable de almacenamiento de la taza de café oculto dinero aislado Diversión segura agua deportiva",
       "slug": "hidden-safe-box-double-layer-stainless-steel-coffee-cup-stor",
       "price": 9.17,
       "original_price": 18.35,
@@ -305,12 +305,12 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:16Z",
-      "updated_at": "2026-07-18T12:06:16Z"
+      "fetched_at": "2026-07-18T23:00:52Z",
+      "updated_at": "2026-07-18T23:00:52Z"
     },
     {
       "product_id": "1005012402329427",
-      "title": "Pantalones de banda elástica multifuncional para hombres Primavera Otoño Crossover Sport Casual Tight Trousers Outdoor Run Gimnasio Fitness Leggin",
+      "title": "Pantalones de banda elástica multifuncional para hombre Primavera Otoño Crossover Sport Casual Tight Trousers Outdoor Run Gimnasio Fitness Leggin",
       "slug": "mens-multi-functional-elastic-band-pants-spring-autumn-cross",
       "price": 2.09,
       "original_price": 6.74,
@@ -323,12 +323,12 @@
       "sales_volume": 3,
       "score": 0.2074,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:17Z",
-      "updated_at": "2026-07-18T12:06:17Z"
+      "fetched_at": "2026-07-18T23:00:53Z",
+      "updated_at": "2026-07-18T23:00:53Z"
     },
     {
       "product_id": "1005010128439719",
-      "title": "12oz Tumbler Rinstone de lujo de acero inoxidable hervidor de agua termal aislante taza de café con mango reutilizable",
+      "title": "12oz Tumbler Rinstone de lujo de acero inoxidable hervidor de agua termal aislante taza de café con mango reutilizable taza térmica",
       "slug": "12oz-luxury-rhinestone-tumbler-stainless-steel-thermal-water",
       "price": 22.47,
       "original_price": 37.44,
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.2073,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:17Z",
-      "updated_at": "2026-07-18T12:06:17Z"
+      "fetched_at": "2026-07-18T23:00:54Z",
+      "updated_at": "2026-07-18T23:00:54Z"
     },
     {
       "product_id": "1005011781529854",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.207,
       "price_history": [],
-      "fetched_at": "2026-07-18T12:06:18Z",
-      "updated_at": "2026-07-18T12:06:18Z"
+      "fetched_at": "2026-07-18T23:00:55Z",
+      "updated_at": "2026-07-18T23:00:55Z"
     }
   ]
 }
