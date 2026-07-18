@@ -241,7 +241,8 @@
     "primary_keyword": "are smart plugs worth it",
     "category": "smart-home",
     "intent": "informational",
-    "used": false
+    "used": true,
+    "used_at": "2026-07-18"
   },
   {
     "topic": "What to know before buying a cheap video doorbell",
