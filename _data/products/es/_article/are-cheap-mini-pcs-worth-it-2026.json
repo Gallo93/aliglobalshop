@@ -1,34 +1,16 @@
 {
-  "timestamp": 1784434930.818993,
+  "timestamp": 1784522205.9714396,
   "slug": "are-cheap-mini-pcs-worth-it-2026",
-  "updated_at": "2026-07-19T04:22:10Z",
+  "updated_at": "2026-07-20T04:36:45Z",
   "products": [
-    {
-      "product_id": "1005011531069625",
-      "title": "Mini PC AMD Ryzen R2544 16GB DDR4 512GB M.2 SSD (Turbo 3.7GHz) Ganar 11 Pro Radeon 4K Mostrar 3.2USB-C Max 28w Computadoras de escritorio",
-      "slug": "mini-pc-amd-ryzen-r2544-16gb-ddr4-512gb-m2-ssd-turbo-37ghz-w",
-      "price": 245.45,
-      "original_price": 818.16,
-      "discount_pct": 70,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EAXKz64G7yNpUIpSbwjBgxNazyCoygXXEVrDXexHkNVHH0OTfL4UpqoxUbEGPYQuKTL1pXeaZR7qfnoiqVKhz7RPxUW88y4nXMABJJnUdPIu12twigK61eYN36CYQuvUIlwT1R9lZrDzYSvxvPY9S7AU477j16JANEazn59a9UjLDx9YtwD2kIuv2NjzVHOfs7ClkXEzsE1LXQnltBpcUJsFszRncO651U9RhO0mG8PMPgFH7DqVnM6xNmwhhkuGJf9Xix4D76QcvZHowH5tUghkjl0TcuQgHyp2fhIPyzByh6PtsovnRaEVDMj1YYyf8lmL5SHWINqB0sJwEZtqQXPGyLpV5R9Vs5SLLDkJE7ld5zpYB0cife3VTqCyOMkTDEbhmWgQoK3VDvuKzamIFoqfGj8W6cWuOBneGyzeagjWiES19KwoFjFqiBHBw46VHcfHNfKrQw0pxRhLiRUUKp70AF605Jb8262oKpfYdXdhf1rtKjHo18eUSqB7DHwOERWkVGZEXwnIHYXX5PGguZYpsCxTwtTXCrvSRyzcTmTb1sjtifhgPdb6CIn2Zzo9YttOO7RzqHZ1GI7FhxxPJUJNlpoaifA3K7Zr5k8TLR0tqXsrGK7M9gBS0dXNvl9w7Nwggr0sx9pWLW1RGYqlwLPYd2OWDsKn9GDsQLRFaS1KFXpX3akPx8eb5KgGaSJIln7ativqYKXNJ",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784070198/products/art-1005011531069625.webp",
-      "category": "electronics",
-      "rating": 5.0,
-      "reviews_count": 3,
-      "sales_volume": 3,
-      "score": 0.3104,
-      "price_history": [],
-      "fetched_at": "2026-07-19T04:22:10Z",
-      "updated_at": "2026-07-19T04:22:10Z"
-    },
     {
       "product_id": "1005008856544793",
       "title": "Inter N200 Mini PC Barebone Kit DDR5 RAM M.2 NVME Soporte HDMI 4K 60Hz Computación compacta para teatro / oficina Windows 10 Pro listo",
       "slug": "inter-n200-mini-pc-barebone-kit-ddr5-ram-m2-nvme-support-hdm",
-      "price": 202.79,
-      "original_price": 289.69,
+      "price": 202.92,
+      "original_price": 289.88,
       "discount_pct": 30,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kGI1RwvHfODvGCbpvgBais218MTs9HhJFJuaQfnukstIFfEHB8gecORo9TFV9ql6Tpbs1h074UmE4lSKkwShH0wf4ZZ7EJvNAOv18CQDZbc8hCtLoHwRLkHI2HybOr0Y58XcHN9UhtenWlQKsvjJOzMnzVIPnZ5DGwmR1rqhPYQDP2uO8FlBWa7DB76KVtbBoVduwR0F7oImBXrAOaJfz8aNe3J9R0z6VYG11VdO0AiqR7k78aNf0O8sJcUC7vYzFTkvVHu75U9FnBa9l6Z07kkr5I0l0E4ewhX2O0A4bioyUZIKUCf1dtT1ytZ9TbWH1wC635b5lx8NomSGbFnCBPpqit4O4QSbnjAi8W24mD0E3ycBRX6OMwIb9a6dVHejzXNXhLQuuZ6jRvua0CGUkDJ4A8OqNYiKJtYsHgRmIAJZLWhaIyg2PyJBKxXMzwUnqLGU7nZU3zQFtB6uVaN1lX6kdyjkXbYWS1002FyMNYKbL2Wi9wxpW613OJFJbjD27olLpGEFPh5cBpR7KjAhkgZgtfiYdW63fMkqWgBs1H5HwujJuBwoRa7GD9R2e4KczmI6NazmlwY2WxUqToSNgA2GyPn6zVjH79qdAGSa9a7mDh027j7pfPLbLvhulucBQGQmf8gKPFjfLq1aoJoLhP0yCtM9x218AvEmrXB34NkHR0mRwNth6SjtcXO6Bqv1F3ee8hldrTldX",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kGI1RwvHfODvGCbpvgBais218MTs9HhJFJuaQfnukstIFfEHB8gecORo9TFV9ql6Tpbs1h074UmE4lSKkwShH0wf4ZZ7EJvNAOv18CQDZbc8hCtLoHwRLkHI2HybOr0Y58XcHN9UhtenWlQKsvjJOzMnzVIPnZ5DGwmR1rqhPYQDP2uO8FlBWa7DB76KVtbBoVduwR0F7oImBXrAOaJfz8aNe3J9R0z6VYG11VdO0AiqR7k78aNf0O8sJcUC7vYzFTnlYhKrI8SUrivtBs6gCRR8ATCxrlJe386EJmIZJEYk9OlqUgfDFJe8ADAu52CJiMh76k3eiHxeU2tKDmLcp0REwJtWfqd2BVqg9GAJShTlJMqPPsutfeV9UWArgSOVROSfWO8jwZUaj8DWUX3rzQ4DgVX8cZeF2VdlV7HwL5UMDlPs6rMjdIjQtrJM1qmaRLNhIhNv7UkOPr4mE1Jn9uLsQourwuBi9uJ5T71f6oJxWklOFXQInrcr70nFzwtA7USul1vcSTbu5rm669q70LgYlC29qPJOCF5UyrsoVakpaECfiO1airsOcYgmCMl9zLXQhj259bf1akA0kQRpsAr9k7Sup3OkP9pPJ8VuKrRrcLt2Kz0Euf6VsAWbVTpRIqG2VaXgzBulDZF2iOOEuC897n73YecRQdHi1E3FKtUgTVFaBXASFDiX73aiCrdIjaldVXcRZNDfx",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783314652/products/art-1005008856544793.webp",
       "category": "electronics",
       "rating": null,
@@ -36,26 +18,26 @@
       "sales_volume": 1,
       "score": 0.0901,
       "price_history": [],
-      "fetched_at": "2026-07-19T04:22:10Z",
-      "updated_at": "2026-07-19T04:22:10Z"
+      "fetched_at": "2026-07-20T04:36:45Z",
+      "updated_at": "2026-07-20T04:36:45Z"
     },
     {
       "product_id": "1005011602156695",
       "title": "Mini PC Intel i5-8259U Mini Computadoras de Escritorio 16GB RAM 1TB PCIe SSD, Windows 11 Pro Mini Computador/Cámara DDR4/HDMI2.0 4K",
       "slug": "mini-pc-intel-i5-8259u-mini-desktop-computers-16gb-ram-1tb-p",
-      "price": 226.87,
-      "original_price": 236.32,
-      "discount_pct": 4,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oF46UlOJPoPlzUnVuScdm3kADDo5BOgdmGckrSgEqQP6wnfhDq4UEFW4yJHq3YBk3VOVs4vd4m3j8W1pfWZgM1MRFMY8rTuuc02ec5WB7Bk4lJCiPyVe8CJBWvLraN5wOnbfeMULG78cMz6vazsB22BIEop5RgkiqScPONFJ3RNusKV0OItWTgcMmAefyHssh08WzvIBvGa16x9tBH6fgOiDGnFYNwxCkRTsU4CRWQsbpP2QK8lq3RNn0TzqY4dgXwgrAjREYqcSil9ImOxUaVr1qXsLB7XPOgg6zrZJEsQHdvqEuPLz0tfusgbvnRqkd4KYY5RyFeKef4YwRAVUtHcznGOb0WNOPi2Gmx0DE14Nopc9rzAXw1uEQhYcORk1leYhx9TQYSCJSUvPS9aAFiplx7GfbpCEQAuxcZi9Zl3axiMsg5JFLwXHsCVpOKRB4HmPI49tULHGCTM1bMoVduByopAFftrVcY1vPkKRV2Cj8UDJAH05TzdlRwVqHilWvdY6Varpr0zUXr7yDckvYyr7EAaZYQW2ZBTf2hGFFwS97ufORCSlNPnF3HiZmG5SmMkwxQkLnPfbkcOWMWGFNNXKsNLmTr9ZiAUMrmT7nQ3n3uXc7uDWylRRzj3F1MytViM4vzjrkJgvq37STEHdK1odaev5dRwKhgzXwpz9beBDwV3XubHPlE97eEPUgzmtbffa1mrL3L349",
+      "price": 236.48,
+      "original_price": 236.48,
+      "discount_pct": 0,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oF46UlOJPoPlzUnVuScdm3kADDo5BOgdmGckrSgEqQP6wnfhDq4UEFW4yJHq3YBk3VOVs4vd4m3j8W1pfWZgM1MRFMY8rTuuc02ec5WB7Bk4lJCiPyVe8CJBWvLraN5wOnbfeMULG78cMz6vazsB22BIEop5RgkiqScPONFJ3RNusKV0OItWTgcMmAefyHssh08WzvIBvGa16x9tBH6fgOiDGnFYNwxCkRTsU4CRWQsbpP2QK8lq3RNn0TzqY4dgXwhi0cqmRNKsugFl4UZxBAg1w0NyFDadtZxzlrOiMesUaGXfj8hqjhu32eYyKWCPuntYrCj5y9Mnx5JacYVcrcV5nl6IUu1PvCfWwTfvohovjdwfFnc8bitS4mLArLNYlDTsq1ZKpL8QLIQT2OZ1187XtzHVJvw0K06Pg3fyM2KohA6Nt6gZWupPuECsC3ntSiAO6wQjY7kEeZ37hP4hzEtzhPTtvMabeB26giaf1GyiJYDzIgxprBKPP8Se7KdwaiEzPhLFPGHoLc8gGZVJPuswZcKTpiUu5a7USsnfzAGQRc15HtvWTzVERu5a1E7PMjZIVjmR46IYRFBpYJ20dAKoJbz94V6qV42bvrk0PX4PrgXgIndzPqGgW8rp8FrWUV9pE511YMnCzSIWUJG729Wa1bOy1Msdm7MGhYtS10R5l1Qo06tok2Uq3v8rTNqskW8ba6DFxRgTJ",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783227382/products/art-1005011602156695.webp",
       "category": "electronics",
       "rating": null,
       "reviews_count": 0,
       "sales_volume": 0,
-      "score": 0.012,
+      "score": 0.0,
       "price_history": [],
-      "fetched_at": "2026-07-19T04:22:10Z",
-      "updated_at": "2026-07-19T04:22:10Z"
+      "fetched_at": "2026-07-20T04:36:45Z",
+      "updated_at": "2026-07-20T04:36:45Z"
     }
   ]
 }
