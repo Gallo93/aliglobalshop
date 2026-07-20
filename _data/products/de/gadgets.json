@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-07-20T04:35:12Z",
+  "updated_at": "2026-07-20T23:01:06Z",
   "products": [
     {
       "product_id": "1005006893229555",
@@ -17,8 +17,8 @@
       "sales_volume": 2681,
       "score": 0.4349,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:01Z",
-      "updated_at": "2026-07-20T04:35:01Z"
+      "fetched_at": "2026-07-20T23:00:57Z",
+      "updated_at": "2026-07-20T23:00:57Z"
     },
     {
       "product_id": "1005007587741414",
@@ -35,8 +35,8 @@
       "sales_volume": 70,
       "score": 0.2674,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:01Z",
-      "updated_at": "2026-07-20T04:35:01Z"
+      "fetched_at": "2026-07-20T23:00:58Z",
+      "updated_at": "2026-07-20T23:00:58Z"
     },
     {
       "product_id": "1005009210852728",
@@ -53,8 +53,8 @@
       "sales_volume": 68,
       "score": 0.2639,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:02Z",
-      "updated_at": "2026-07-20T04:35:02Z"
+      "fetched_at": "2026-07-20T23:00:58Z",
+      "updated_at": "2026-07-20T23:00:58Z"
     },
     {
       "product_id": "1005012124060756",
@@ -71,8 +71,8 @@
       "sales_volume": 87,
       "score": 0.2565,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:02Z",
-      "updated_at": "2026-07-20T04:35:02Z"
+      "fetched_at": "2026-07-20T23:00:59Z",
+      "updated_at": "2026-07-20T23:00:59Z"
     },
     {
       "product_id": "1005008323500938",
@@ -89,8 +89,8 @@
       "sales_volume": 30,
       "score": 0.2556,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:03Z",
-      "updated_at": "2026-07-20T04:35:03Z"
+      "fetched_at": "2026-07-20T23:00:59Z",
+      "updated_at": "2026-07-20T23:00:59Z"
     },
     {
       "product_id": "1005010731285437",
@@ -107,8 +107,8 @@
       "sales_volume": 13,
       "score": 0.2546,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:03Z",
-      "updated_at": "2026-07-20T04:35:03Z"
+      "fetched_at": "2026-07-20T23:01:00Z",
+      "updated_at": "2026-07-20T23:01:00Z"
     },
     {
       "product_id": "1005012124170204",
@@ -125,8 +125,8 @@
       "sales_volume": 33,
       "score": 0.254,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:04Z",
-      "updated_at": "2026-07-20T04:35:04Z"
+      "fetched_at": "2026-07-20T23:01:00Z",
+      "updated_at": "2026-07-20T23:01:00Z"
     },
     {
       "product_id": "1005010617846135",
@@ -143,8 +143,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:04Z",
-      "updated_at": "2026-07-20T04:35:04Z"
+      "fetched_at": "2026-07-20T23:01:01Z",
+      "updated_at": "2026-07-20T23:01:01Z"
     },
     {
       "product_id": "1005012379322891",
@@ -161,8 +161,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:05Z",
-      "updated_at": "2026-07-20T04:35:05Z"
+      "fetched_at": "2026-07-20T23:01:01Z",
+      "updated_at": "2026-07-20T23:01:01Z"
     },
     {
       "product_id": "1005012084510405",
@@ -179,8 +179,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:05Z",
-      "updated_at": "2026-07-20T04:35:05Z"
+      "fetched_at": "2026-07-20T23:01:02Z",
+      "updated_at": "2026-07-20T23:01:02Z"
     },
     {
       "product_id": "1005010000531819",
@@ -197,8 +197,8 @@
       "sales_volume": 17,
       "score": 0.248,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:05Z",
-      "updated_at": "2026-07-20T04:35:05Z"
+      "fetched_at": "2026-07-20T23:01:02Z",
+      "updated_at": "2026-07-20T23:01:02Z"
     },
     {
       "product_id": "1005012259681107",
@@ -215,8 +215,8 @@
       "sales_volume": 15,
       "score": 0.2398,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:06Z",
-      "updated_at": "2026-07-20T04:35:06Z"
+      "fetched_at": "2026-07-20T23:01:03Z",
+      "updated_at": "2026-07-20T23:01:03Z"
     },
     {
       "product_id": "1005007395412166",
@@ -233,8 +233,8 @@
       "sales_volume": 13,
       "score": 0.2249,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:06Z",
-      "updated_at": "2026-07-20T04:35:06Z"
+      "fetched_at": "2026-07-20T23:01:03Z",
+      "updated_at": "2026-07-20T23:01:03Z"
     },
     {
       "product_id": "1005009589681770",
@@ -251,8 +251,8 @@
       "sales_volume": 5,
       "score": 0.2236,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:07Z",
-      "updated_at": "2026-07-20T04:35:07Z"
+      "fetched_at": "2026-07-20T23:01:04Z",
+      "updated_at": "2026-07-20T23:01:04Z"
     },
     {
       "product_id": "1005004204383810",
@@ -269,12 +269,12 @@
       "sales_volume": 54,
       "score": 0.2216,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:08Z",
-      "updated_at": "2026-07-20T04:35:08Z"
+      "fetched_at": "2026-07-20T23:01:04Z",
+      "updated_at": "2026-07-20T23:01:04Z"
     },
     {
       "product_id": "1005012408073378",
-      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Übertragung 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
+      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Transmission 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
       "slug": "3m-5m-10m-usb-30-extender-high-speed-5gbps-transmission-4-po",
       "price": 16.21,
       "original_price": 27.01,
@@ -287,8 +287,8 @@
       "sales_volume": 7,
       "score": 0.2208,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:09Z",
-      "updated_at": "2026-07-20T04:35:09Z"
+      "fetched_at": "2026-07-20T23:01:04Z",
+      "updated_at": "2026-07-20T23:01:04Z"
     },
     {
       "product_id": "1005007646050752",
@@ -305,8 +305,8 @@
       "sales_volume": 44,
       "score": 0.2186,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:10Z",
-      "updated_at": "2026-07-20T04:35:10Z"
+      "fetched_at": "2026-07-20T23:01:05Z",
+      "updated_at": "2026-07-20T23:01:05Z"
     },
     {
       "product_id": "1005005363741032",
@@ -323,8 +323,8 @@
       "sales_volume": 10,
       "score": 0.2062,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:11Z",
-      "updated_at": "2026-07-20T04:35:11Z"
+      "fetched_at": "2026-07-20T23:01:05Z",
+      "updated_at": "2026-07-20T23:01:05Z"
     },
     {
       "product_id": "1005010233572038",
@@ -341,12 +341,12 @@
       "sales_volume": 13,
       "score": 0.2036,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:11Z",
-      "updated_at": "2026-07-20T04:35:11Z"
+      "fetched_at": "2026-07-20T23:01:06Z",
+      "updated_at": "2026-07-20T23:01:06Z"
     },
     {
       "product_id": "1005009849333993",
-      "title": "15W Magsafe Wireless Ladegerät mit Kabelstand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
+      "title": "15W Magsafe Wireless Ladegerät mit Kabel Stand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
       "slug": "15w-magsafe-wireless-charger-with-cable-stand-pd-225w-fast-c",
       "price": 14.92,
       "original_price": 24.88,
@@ -359,8 +359,8 @@
       "sales_volume": 8,
       "score": 0.191,
       "price_history": [],
-      "fetched_at": "2026-07-20T04:35:12Z",
-      "updated_at": "2026-07-20T04:35:12Z"
+      "fetched_at": "2026-07-20T23:01:06Z",
+      "updated_at": "2026-07-20T23:01:06Z"
     }
   ]
 }
