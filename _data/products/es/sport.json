@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-07-20T23:00:55Z",
+  "updated_at": "2026-07-21T04:13:44Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3554,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:45Z",
-      "updated_at": "2026-07-20T23:00:45Z"
+      "fetched_at": "2026-07-21T04:13:34Z",
+      "updated_at": "2026-07-21T04:13:34Z"
     },
     {
       "product_id": "32286722941",
@@ -35,8 +35,8 @@
       "sales_volume": 23,
       "score": 0.2978,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:45Z",
-      "updated_at": "2026-07-20T23:00:45Z"
+      "fetched_at": "2026-07-21T04:13:34Z",
+      "updated_at": "2026-07-21T04:13:34Z"
     },
     {
       "product_id": "1005005489527499",
@@ -53,8 +53,8 @@
       "sales_volume": 313,
       "score": 0.2792,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:46Z",
-      "updated_at": "2026-07-20T23:00:46Z"
+      "fetched_at": "2026-07-21T04:13:35Z",
+      "updated_at": "2026-07-21T04:13:35Z"
     },
     {
       "product_id": "1005010160889036",
@@ -71,12 +71,12 @@
       "sales_volume": 63,
       "score": 0.2681,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:46Z",
-      "updated_at": "2026-07-20T23:00:46Z"
+      "fetched_at": "2026-07-21T04:13:36Z",
+      "updated_at": "2026-07-21T04:13:36Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "Botella de agua de ciclo X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
+      "title": "Botella de agua de bicicletas X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 13.3,
       "original_price": 29.57,
@@ -89,12 +89,12 @@
       "sales_volume": 2,
       "score": 0.2652,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:47Z",
-      "updated_at": "2026-07-20T23:00:47Z"
+      "fetched_at": "2026-07-21T04:13:36Z",
+      "updated_at": "2026-07-21T04:13:36Z"
     },
     {
       "product_id": "1005010382664758",
-      "title": "BATFOX Mountain Bike Helmet Puede instalar una cámara de deportes Electric Cycling Gear Safety Cap Hombre Mujeres murciélago fox MTB Cascos de bicicletas",
+      "title": "BATFOX Mountain Bike Helmet Puede instalar una cámara de deportes Electric Cycling Gear Safety Cap Hombre Mujer murciélago fox MTB Cascos de bicicletas",
       "slug": "batfox-mountain-bike-helmet-can-install-a-sports-camera-elec",
       "price": 33.29,
       "original_price": 66.58,
@@ -107,8 +107,8 @@
       "sales_volume": 41,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:47Z",
-      "updated_at": "2026-07-20T23:00:47Z"
+      "fetched_at": "2026-07-21T04:13:37Z",
+      "updated_at": "2026-07-21T04:13:37Z"
     },
     {
       "product_id": "1005008772408846",
@@ -125,12 +125,12 @@
       "sales_volume": 30,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:48Z",
-      "updated_at": "2026-07-20T23:00:48Z"
+      "fetched_at": "2026-07-21T04:13:38Z",
+      "updated_at": "2026-07-21T04:13:38Z"
     },
     {
       "product_id": "1005001953612898",
-      "title": "Casco de bicicletas ROCKBROS Hombres Mujeres EPS Ciclismo de seguridad Casco Ultraligero Molido integralmente MTB Mountain Road",
+      "title": "Casco de bicicletas ROCKBROS Hombres Mujeres Ciclismo de seguridad EPS Casco Ultraligero Molido integralmente MTB Mountain Road",
       "slug": "rockbros-bike-helmet-men-women-eps-safety-cycling-helmet-ult",
       "price": 37.53,
       "original_price": 75.05,
@@ -143,12 +143,12 @@
       "sales_volume": 8,
       "score": 0.251,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:48Z",
-      "updated_at": "2026-07-20T23:00:48Z"
+      "fetched_at": "2026-07-21T04:13:38Z",
+      "updated_at": "2026-07-21T04:13:38Z"
     },
     {
       "product_id": "1005006998978324",
-      "title": "Botella de agua de 650ml Kawaii con filtro Cute Sakura y Panda Tritan Deportivo Café Tea Juice Copa Gym Bottle Gift for Girl Women",
+      "title": "Botella de agua de 650ml Kawaii con filtro Cute Sakura y Panda Tritan Deportivo Café Tea Juice Cup Gimnasio Botella regalo para las mujeres",
       "slug": "650ml-kawaii-water-bottle-with-filter-cute-sakura-and-panda-",
       "price": 13.79,
       "original_price": 27.58,
@@ -161,12 +161,12 @@
       "sales_volume": 8,
       "score": 0.251,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:49Z",
-      "updated_at": "2026-07-20T23:00:49Z"
+      "fetched_at": "2026-07-21T04:13:39Z",
+      "updated_at": "2026-07-21T04:13:39Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Botella de agua deportiva de plástico libre 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
+      "title": "BPA Botella de agua deportiva de plástico gratis 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.89,
       "original_price": 15.79,
@@ -179,12 +179,12 @@
       "sales_volume": 53,
       "score": 0.2453,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:49Z",
-      "updated_at": "2026-07-20T23:00:49Z"
+      "fetched_at": "2026-07-21T04:13:39Z",
+      "updated_at": "2026-07-21T04:13:39Z"
     },
     {
       "product_id": "1005007517245266",
-      "title": "Construir XT - Suplemento de entrenamiento - Ayuda a promover el crecimiento del músculo magro, las ganancias de fuerza, potencia y resistencia en el gimnasio",
+      "title": "Construir XT - Suplemento de entrenamiento - Ayuda a promover el crecimiento del músculo magro, las ganancias de fuerza, la potencia y la resistencia en el gimnasio",
       "slug": "build-xt-workout-supplement-helps-promote-lean-muscle-growth",
       "price": 6.86,
       "original_price": 13.73,
@@ -197,12 +197,12 @@
       "sales_volume": 6,
       "score": 0.2451,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:50Z",
-      "updated_at": "2026-07-20T23:00:50Z"
+      "fetched_at": "2026-07-21T04:13:40Z",
+      "updated_at": "2026-07-21T04:13:40Z"
     },
     {
       "product_id": "1005006588685488",
-      "title": "Extra Thick 15mm Hombres de Yoga Mujer Fitness NBR Soft Mat Sin gusto Gimnasio Ejercicio Pilates Yoga Mat",
+      "title": "Extra Thick 15mm Yoga Mat Hombres Mujer Fitness NBR Soft Mat Sin gusto Gimnasio Ejercicio Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
       "price": 23.17,
       "original_price": 38.63,
@@ -215,8 +215,8 @@
       "sales_volume": 11,
       "score": 0.2213,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:50Z",
-      "updated_at": "2026-07-20T23:00:50Z"
+      "fetched_at": "2026-07-21T04:13:40Z",
+      "updated_at": "2026-07-21T04:13:40Z"
     },
     {
       "product_id": "1005008682223950",
@@ -233,8 +233,8 @@
       "sales_volume": 4,
       "score": 0.2205,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:51Z",
-      "updated_at": "2026-07-20T23:00:51Z"
+      "fetched_at": "2026-07-21T04:13:41Z",
+      "updated_at": "2026-07-21T04:13:41Z"
     },
     {
       "product_id": "1005003674465001",
@@ -251,8 +251,8 @@
       "sales_volume": 0,
       "score": 0.211,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:51Z",
-      "updated_at": "2026-07-20T23:00:51Z"
+      "fetched_at": "2026-07-21T04:13:41Z",
+      "updated_at": "2026-07-21T04:13:41Z"
     },
     {
       "product_id": "1005008686251941",
@@ -269,12 +269,12 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:52Z",
-      "updated_at": "2026-07-20T23:00:52Z"
+      "fetched_at": "2026-07-21T04:13:42Z",
+      "updated_at": "2026-07-21T04:13:42Z"
     },
     {
       "product_id": "1005010128439719",
-      "title": "12oz Tumbler Rinstone de lujo de acero inoxidable hervidor de agua termal aislante taza de café con mango reutilizable taza térmica",
+      "title": "12oz Tumbler Rinstone de lujo de acero inoxidable hervidor de agua termal aislante taza de café con mango reutilizable",
       "slug": "12oz-luxury-rhinestone-tumbler-stainless-steel-thermal-water",
       "price": 22.47,
       "original_price": 37.44,
@@ -287,8 +287,8 @@
       "sales_volume": 5,
       "score": 0.2073,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:52Z",
-      "updated_at": "2026-07-20T23:00:52Z"
+      "fetched_at": "2026-07-21T04:13:42Z",
+      "updated_at": "2026-07-21T04:13:42Z"
     },
     {
       "product_id": "1005008813902899",
@@ -305,12 +305,12 @@
       "sales_volume": 144,
       "score": 0.2038,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:53Z",
-      "updated_at": "2026-07-20T23:00:53Z"
+      "fetched_at": "2026-07-21T04:13:43Z",
+      "updated_at": "2026-07-21T04:13:43Z"
     },
     {
       "product_id": "1005007541859728",
-      "title": "3pcs Bandas de pelo de color sólido elástico para mujer y hombre corren el pelo Fitness Deportes Yoga Headbands Girls Head Band Accesorios",
+      "title": "3pcs Elastic Solid Color Bandas de pelo para Mujer y Hombre Carrera de Peluquería Fitness Deportes Yoga Headbands Girls Head Band Accesorios",
       "slug": "3pcs-elastic-solid-color-hair-bands-for-women-and-men-hairba",
       "price": 3.17,
       "original_price": 3.45,
@@ -323,12 +323,12 @@
       "sales_volume": 668,
       "score": 0.1967,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:53Z",
-      "updated_at": "2026-07-20T23:00:53Z"
+      "fetched_at": "2026-07-21T04:13:43Z",
+      "updated_at": "2026-07-21T04:13:43Z"
     },
     {
       "product_id": "1005009057790832",
-      "title": "64OZ Gran capacidad Copa de Teramos Deportivos con Manija,Stainless Steel Vacuum Flasks,Wide Mouth Drinkware,Camping Gym Water Bottle",
+      "title": "64OZ Gran capacidad Copa de Teramos Deportivos con Manija,Pulsas de vapor de acero inoxidable,Botella de agua de la boca húmeda,",
       "slug": "64oz-large-capacity-sports-thermos-cup-with-handlestainless-",
       "price": 27.64,
       "original_price": 40.05,
@@ -341,12 +341,12 @@
       "sales_volume": 2,
       "score": 0.1932,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:54Z",
-      "updated_at": "2026-07-20T23:00:54Z"
+      "fetched_at": "2026-07-21T04:13:44Z",
+      "updated_at": "2026-07-21T04:13:44Z"
     },
     {
       "product_id": "1005003568008959",
-      "title": "800ml Portable Copa de vacío aislado de acero inoxidable termos de agua botella de agua al aire libre",
+      "title": "800ml Copa de vacío aislado portátil de acero inoxidable termos de agua botella de agua al aire libre",
       "slug": "800ml-portable-insulated-vacuum-cup-stainless-steel-thermos-",
       "price": 21.82,
       "original_price": 54.56,
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.18,
       "price_history": [],
-      "fetched_at": "2026-07-20T23:00:54Z",
-      "updated_at": "2026-07-20T23:00:54Z"
+      "fetched_at": "2026-07-21T04:13:44Z",
+      "updated_at": "2026-07-21T04:13:44Z"
     }
   ]
 }
