@@ -333,7 +333,8 @@
     "primary_keyword": "best insulated travel mug",
     "category": "gadgets",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-07-22"
   },
   {
     "topic": "Best budget dash cam for your car in 2026",
