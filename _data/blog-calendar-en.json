@@ -414,8 +414,8 @@
     "primary_keyword": "how to choose a smart lock",
     "category": "smart-home",
     "intent": "informational",
-    "used": false,
-    "used_at": null
+    "used": true,
+    "used_at": "2026-07-28"
   },
   {
     "topic": "Best budget air purifier for a small bedroom in 2026",
