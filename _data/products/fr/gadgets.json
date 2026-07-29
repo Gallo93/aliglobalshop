@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-07-29T04:09:52Z",
+  "updated_at": "2026-07-29T23:01:18Z",
   "products": [
     {
       "product_id": "1005006893229555",
@@ -17,8 +17,8 @@
       "sales_volume": 2766,
       "score": 0.4541,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:42Z",
-      "updated_at": "2026-07-29T04:09:42Z"
+      "fetched_at": "2026-07-29T23:01:07Z",
+      "updated_at": "2026-07-29T23:01:07Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,12 +35,12 @@
       "sales_volume": 119,
       "score": 0.3183,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:42Z",
-      "updated_at": "2026-07-29T04:09:42Z"
+      "fetched_at": "2026-07-29T23:01:08Z",
+      "updated_at": "2026-07-29T23:01:08Z"
     },
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacité de batterie externe Chargeur Portable Chargeur rapide Powerbank pour iPhone portable Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacité de batterie externe Chargeur Portable Chargeur rapide Powerbank Pour Ordinateur portable iPhone Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 33.18,
       "original_price": 72.14,
@@ -53,12 +53,12 @@
       "sales_volume": 252,
       "score": 0.2829,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:43Z",
-      "updated_at": "2026-07-29T04:09:43Z"
+      "fetched_at": "2026-07-29T23:01:08Z",
+      "updated_at": "2026-07-29T23:01:08Z"
     },
     {
       "product_id": "1005011981593933",
-      "title": "Hichain PD65W Power Bank 20000mAh Câble USB-C intégré Chargeur de téléphone multifonctionnel pour téléphones portables Tablettes Autre périphérique",
+      "title": "Hichain PD65W Power Bank 20000mAh Câble USB-C intégré Chargeur de téléphone multifonctionnel pour téléphones portables Tablettes Autre appareil",
       "slug": "hichain-pd65w-power-bank-20000mah-built-in-usb-c-cable-multi",
       "price": 36.42,
       "original_price": 86.73,
@@ -71,8 +71,8 @@
       "sales_volume": 11,
       "score": 0.2753,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:44Z",
-      "updated_at": "2026-07-29T04:09:44Z"
+      "fetched_at": "2026-07-29T23:01:09Z",
+      "updated_at": "2026-07-29T23:01:09Z"
     },
     {
       "product_id": "1005007587741414",
@@ -89,12 +89,12 @@
       "sales_volume": 80,
       "score": 0.2716,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:44Z",
-      "updated_at": "2026-07-29T04:09:44Z"
+      "fetched_at": "2026-07-29T23:01:10Z",
+      "updated_at": "2026-07-29T23:01:10Z"
     },
     {
       "product_id": "1005010617846135",
-      "title": "20000mAh 10000mAh Banque de puissance avec grande capacité de fibre de conception de boîtier de texture mince et facile à transporter double entrée",
+      "title": "20000mAh 10000mAh Power Bank avec une grande capacité de conception de boîtier de texture fibre mince et facile à transporter double entrée",
       "slug": "20000mah-10000mah-power-bank-with-large-capacity-fiber-textu",
       "price": 16.84,
       "original_price": 36.61,
@@ -107,8 +107,8 @@
       "sales_volume": 15,
       "score": 0.2638,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:45Z",
-      "updated_at": "2026-07-29T04:09:45Z"
+      "fetched_at": "2026-07-29T23:01:11Z",
+      "updated_at": "2026-07-29T23:01:11Z"
     },
     {
       "product_id": "1005012333786293",
@@ -125,8 +125,8 @@
       "sales_volume": 4,
       "score": 0.2625,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:45Z",
-      "updated_at": "2026-07-29T04:09:45Z"
+      "fetched_at": "2026-07-29T23:01:11Z",
+      "updated_at": "2026-07-29T23:01:11Z"
     },
     {
       "product_id": "1005008323500938",
@@ -143,8 +143,8 @@
       "sales_volume": 31,
       "score": 0.2617,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:46Z",
-      "updated_at": "2026-07-29T04:09:46Z"
+      "fetched_at": "2026-07-29T23:01:12Z",
+      "updated_at": "2026-07-29T23:01:12Z"
     },
     {
       "product_id": "1005012124060756",
@@ -161,8 +161,8 @@
       "sales_volume": 89,
       "score": 0.257,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:46Z",
-      "updated_at": "2026-07-29T04:09:46Z"
+      "fetched_at": "2026-07-29T23:01:12Z",
+      "updated_at": "2026-07-29T23:01:12Z"
     },
     {
       "product_id": "1005012349888176",
@@ -179,12 +179,12 @@
       "sales_volume": 6,
       "score": 0.2567,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:47Z",
-      "updated_at": "2026-07-29T04:09:47Z"
+      "fetched_at": "2026-07-29T23:01:13Z",
+      "updated_at": "2026-07-29T23:01:13Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Large-capacité Mobile Power Bank for IPhone Android Phone Shared Self - Cable Contained (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Grande capacité Mobile Power Bank for IPhone Android Phone Shared Self - Cable Contained (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.5,
       "original_price": 41.0,
@@ -197,12 +197,12 @@
       "sales_volume": 37,
       "score": 0.2544,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:47Z",
-      "updated_at": "2026-07-29T04:09:47Z"
+      "fetched_at": "2026-07-29T23:01:13Z",
+      "updated_at": "2026-07-29T23:01:13Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Banque de Puissance Construite en 4 Câble Portable Chargeur Mignon Animaux Cartoon Maquillage Miroir Powerbank Batterie externe Banque de Puissance",
+      "title": "20000mAh Mini Banque de puissance construite en 4 câbles Portable Chargeur Cute Pet Cartoon Maquillage Miroir Banque de puissance de batterie externe",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.6,
       "original_price": 21.2,
@@ -215,8 +215,8 @@
       "sales_volume": 17,
       "score": 0.248,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:48Z",
-      "updated_at": "2026-07-29T04:09:48Z"
+      "fetched_at": "2026-07-29T23:01:14Z",
+      "updated_at": "2026-07-29T23:01:14Z"
     },
     {
       "product_id": "1005007395412166",
@@ -233,8 +233,8 @@
       "sales_volume": 13,
       "score": 0.2249,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:48Z",
-      "updated_at": "2026-07-29T04:09:48Z"
+      "fetched_at": "2026-07-29T23:01:14Z",
+      "updated_at": "2026-07-29T23:01:14Z"
     },
     {
       "product_id": "1005009589681770",
@@ -251,12 +251,12 @@
       "sales_volume": 3,
       "score": 0.2234,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:49Z",
-      "updated_at": "2026-07-29T04:09:49Z"
+      "fetched_at": "2026-07-29T23:01:15Z",
+      "updated_at": "2026-07-29T23:01:15Z"
     },
     {
       "product_id": "1005012408073378",
-      "title": "3M 5M 10M USB 3.0 Extendeur Transmission haute vitesse 5GBPS Station d'accueil 4 ports Hub multi port Type d'alimentation externe c",
+      "title": "3M 5M 10M USB 3.0 Extendeur à grande vitesse 5GBPS Transmission 4 ports Station d'accueil HUB Hub multi port Type d'alimentation externe c",
       "slug": "3m-5m-10m-usb-30-extender-high-speed-5gbps-transmission-4-po",
       "price": 16.22,
       "original_price": 27.03,
@@ -269,12 +269,12 @@
       "sales_volume": 7,
       "score": 0.2208,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:49Z",
-      "updated_at": "2026-07-29T04:09:49Z"
+      "fetched_at": "2026-07-29T23:01:15Z",
+      "updated_at": "2026-07-29T23:01:15Z"
     },
     {
       "product_id": "1005004204383810",
-      "title": "Universal Portable Mini Flexible Trépied 2 Support de Section pour Caméra de Projecteur Support de Trépied pour Téléphone Mobile",
+      "title": "Universal Portable Mini Support de Section Flexible Tripod 2 pour Caméra de Projecteur Support de trépied pour Téléphone Mobile",
       "slug": "universal-portable-mini-flexible-tripod-2-section-holder-for",
       "price": 1.41,
       "original_price": 2.39,
@@ -287,12 +287,12 @@
       "sales_volume": 46,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:50Z",
-      "updated_at": "2026-07-29T04:09:50Z"
+      "fetched_at": "2026-07-29T23:01:16Z",
+      "updated_at": "2026-07-29T23:01:16Z"
     },
     {
       "product_id": "1005007646050752",
-      "title": "Hagibis USB C HUB Type-C Station d'accueil Interrupteurs individuels en marche/arrêt avec affichage LED 10 Gbps USB C Splitter pour Macbook Pro Air",
+      "title": "Hagibis USB C HUB Type-C Station d'accueil Interrupteurs individuels en marche/arrêt avec écran LED 10 Gbps USB C Splitter pour Macbook Pro Air",
       "slug": "hagibis-usb-c-hub-type-c-docking-station-individual-onoff-sw",
       "price": 27.59,
       "original_price": 45.99,
@@ -305,8 +305,8 @@
       "sales_volume": 45,
       "score": 0.2187,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:51Z",
-      "updated_at": "2026-07-29T04:09:51Z"
+      "fetched_at": "2026-07-29T23:01:16Z",
+      "updated_at": "2026-07-29T23:01:16Z"
     },
     {
       "product_id": "1005005363741032",
@@ -323,8 +323,8 @@
       "sales_volume": 10,
       "score": 0.2122,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:51Z",
-      "updated_at": "2026-07-29T04:09:51Z"
+      "fetched_at": "2026-07-29T23:01:16Z",
+      "updated_at": "2026-07-29T23:01:16Z"
     },
     {
       "product_id": "1005006536808127",
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.2043,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:52Z",
-      "updated_at": "2026-07-29T04:09:52Z"
+      "fetched_at": "2026-07-29T23:01:17Z",
+      "updated_at": "2026-07-29T23:01:17Z"
     },
     {
       "product_id": "1005009849333993",
@@ -359,8 +359,8 @@
       "sales_volume": 10,
       "score": 0.1912,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:52Z",
-      "updated_at": "2026-07-29T04:09:52Z"
+      "fetched_at": "2026-07-29T23:01:17Z",
+      "updated_at": "2026-07-29T23:01:17Z"
     }
   ]
 }

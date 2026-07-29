@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-07-29T04:09:39Z",
+  "updated_at": "2026-07-29T23:01:04Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3614,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:29Z",
-      "updated_at": "2026-07-29T04:09:29Z"
+      "fetched_at": "2026-07-29T23:00:54Z",
+      "updated_at": "2026-07-29T23:00:54Z"
     },
     {
       "product_id": "1005004369037597",
@@ -35,8 +35,8 @@
       "sales_volume": 419,
       "score": 0.3099,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:29Z",
-      "updated_at": "2026-07-29T04:09:29Z"
+      "fetched_at": "2026-07-29T23:00:54Z",
+      "updated_at": "2026-07-29T23:00:54Z"
     },
     {
       "product_id": "32286722941",
@@ -53,8 +53,8 @@
       "sales_volume": 22,
       "score": 0.3066,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:30Z",
-      "updated_at": "2026-07-29T04:09:30Z"
+      "fetched_at": "2026-07-29T23:00:55Z",
+      "updated_at": "2026-07-29T23:00:55Z"
     },
     {
       "product_id": "1005006012278000",
@@ -71,8 +71,8 @@
       "sales_volume": 22,
       "score": 0.3059,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:30Z",
-      "updated_at": "2026-07-29T04:09:30Z"
+      "fetched_at": "2026-07-29T23:00:55Z",
+      "updated_at": "2026-07-29T23:00:55Z"
     },
     {
       "product_id": "1005005489527499",
@@ -89,12 +89,12 @@
       "sales_volume": 321,
       "score": 0.2861,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:31Z",
-      "updated_at": "2026-07-29T04:09:31Z"
+      "fetched_at": "2026-07-29T23:00:56Z",
+      "updated_at": "2026-07-29T23:00:56Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "X-TIGER Fahrrad-Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenrad Radfahren Wasserflasche",
+      "title": "X-TIGER Fahrrad-Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenfahrrad-Wasserflasche",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 12.13,
       "original_price": 29.57,
@@ -107,12 +107,12 @@
       "sales_volume": 2,
       "score": 0.2772,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:31Z",
-      "updated_at": "2026-07-29T04:09:31Z"
+      "fetched_at": "2026-07-29T23:00:57Z",
+      "updated_at": "2026-07-29T23:00:57Z"
     },
     {
       "product_id": "1005010160889036",
-      "title": "Eastinear Bicycle Helmet Ride Led Lights vorne und hinten, Urban Road Cycling Helmet, Wiederaufladbares Blinksignal Fahrradzubehör",
+      "title": "Eastinear Bicycle Helmet Ride Led Lights vorne und hinten, Urban Road Cycling Helmet, wiederaufladbares Blinksignal Fahrradzubehör",
       "slug": "eastinear-bicycle-helmet-ride-led-lights-front-and-rearurban",
       "price": 35.39,
       "original_price": 78.66,
@@ -125,8 +125,8 @@
       "sales_volume": 80,
       "score": 0.2698,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:32Z",
-      "updated_at": "2026-07-29T04:09:32Z"
+      "fetched_at": "2026-07-29T23:00:58Z",
+      "updated_at": "2026-07-29T23:00:58Z"
     },
     {
       "product_id": "1005010382664758",
@@ -143,8 +143,8 @@
       "sales_volume": 41,
       "score": 0.2596,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:33Z",
-      "updated_at": "2026-07-29T04:09:33Z"
+      "fetched_at": "2026-07-29T23:00:59Z",
+      "updated_at": "2026-07-29T23:00:59Z"
     },
     {
       "product_id": "1005008772408846",
@@ -161,12 +161,12 @@
       "sales_volume": 30,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:33Z",
-      "updated_at": "2026-07-29T04:09:33Z"
+      "fetched_at": "2026-07-29T23:00:59Z",
+      "updated_at": "2026-07-29T23:00:59Z"
     },
     {
       "product_id": "1005006998978324",
-      "title": "650ml Kawaii Wasserflasche mit Filter süße Sakura und Panda Tritan Sport Kaffee Tee Juice Cup Gym Flasche Geschenk für Mädchen Frauen",
+      "title": "650ml Kawaii Wasserflasche mit Filter süße Sakura und Panda Tritan Sport Kaffee Tee Saft Cup Gym Flasche Geschenk für Mädchen Frauen",
       "slug": "650ml-kawaii-water-bottle-with-filter-cute-sakura-and-panda-",
       "price": 13.79,
       "original_price": 27.58,
@@ -179,12 +179,12 @@
       "sales_volume": 9,
       "score": 0.2511,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:34Z",
-      "updated_at": "2026-07-29T04:09:34Z"
+      "fetched_at": "2026-07-29T23:00:59Z",
+      "updated_at": "2026-07-29T23:00:59Z"
     },
     {
       "product_id": "1005010451280542",
-      "title": "Eastinear Aero Road Fahrrad Helm Fahrrad Helme Ultraleichte Erwachsene Fahrrad Fahrrad Helm mit Led Männer Frauen Neu",
+      "title": "Eastinear Aero Road Fahrrad Helm Fahrrad Helme Ultraleichte Erwachsene Fahrrad Fahrrad Helm mit Led Männer Frauen New",
       "slug": "eastinear-aero-road-bicycle-helmet-cycling-helmets-ultraligh",
       "price": 25.25,
       "original_price": 50.52,
@@ -197,8 +197,8 @@
       "sales_volume": 24,
       "score": 0.2479,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:34Z",
-      "updated_at": "2026-07-29T04:09:34Z"
+      "fetched_at": "2026-07-29T23:01:00Z",
+      "updated_at": "2026-07-29T23:01:00Z"
     },
     {
       "product_id": "1005003472116469",
@@ -215,8 +215,8 @@
       "sales_volume": 51,
       "score": 0.2456,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:35Z",
-      "updated_at": "2026-07-29T04:09:35Z"
+      "fetched_at": "2026-07-29T23:01:00Z",
+      "updated_at": "2026-07-29T23:01:00Z"
     },
     {
       "product_id": "1005007517245266",
@@ -233,12 +233,12 @@
       "sales_volume": 7,
       "score": 0.2455,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:35Z",
-      "updated_at": "2026-07-29T04:09:35Z"
+      "fetched_at": "2026-07-29T23:01:01Z",
+      "updated_at": "2026-07-29T23:01:01Z"
     },
     {
       "product_id": "1005006588685488",
-      "title": "Non-Slip Extra Dick 15mm Yoga Mat Männer Frauen Fitness NBR Soft Mat Geschmacklose Gym Haus Übung Pilates Yoga Mat",
+      "title": "Non-Slip Extra dick 15mm Yoga Mat Männer Frauen Fitness NBR Soft Mat Geschmacklose Gym Haus Übung Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
       "price": 21.26,
       "original_price": 38.66,
@@ -251,8 +251,8 @@
       "sales_volume": 10,
       "score": 0.2362,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:36Z",
-      "updated_at": "2026-07-29T04:09:36Z"
+      "fetched_at": "2026-07-29T23:01:01Z",
+      "updated_at": "2026-07-29T23:01:01Z"
     },
     {
       "product_id": "1005005807293081",
@@ -269,12 +269,12 @@
       "sales_volume": 19,
       "score": 0.2242,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:36Z",
-      "updated_at": "2026-07-29T04:09:36Z"
+      "fetched_at": "2026-07-29T23:01:02Z",
+      "updated_at": "2026-07-29T23:01:02Z"
     },
     {
       "product_id": "1005003674465001",
-      "title": "Boxing Jump Seil mit schweren Foam Grip Griffe, Crossfit Skipping Seil, Fitness Workouts, Ausdauerkrafttraining",
+      "title": "Boxing Jump Seil mit schweren Foam Grip Griffe, Crossfit Skipping Seil, Fitness-Workouts, Ausdauer Krafttraining",
       "slug": "boxing-jump-rope-with-heavy-foam-grip-handles-crossfit-skipp",
       "price": 12.05,
       "original_price": 20.43,
@@ -287,8 +287,8 @@
       "sales_volume": 0,
       "score": 0.223,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:37Z",
-      "updated_at": "2026-07-29T04:09:37Z"
+      "fetched_at": "2026-07-29T23:01:02Z",
+      "updated_at": "2026-07-29T23:01:02Z"
     },
     {
       "product_id": "1005008682223950",
@@ -305,8 +305,8 @@
       "sales_volume": 4,
       "score": 0.2205,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:37Z",
-      "updated_at": "2026-07-29T04:09:37Z"
+      "fetched_at": "2026-07-29T23:01:03Z",
+      "updated_at": "2026-07-29T23:01:03Z"
     },
     {
       "product_id": "1005010464486496",
@@ -323,8 +323,8 @@
       "sales_volume": 8,
       "score": 0.215,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:38Z",
-      "updated_at": "2026-07-29T04:09:38Z"
+      "fetched_at": "2026-07-29T23:01:03Z",
+      "updated_at": "2026-07-29T23:01:03Z"
     },
     {
       "product_id": "1005008686251941",
@@ -341,12 +341,12 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:38Z",
-      "updated_at": "2026-07-29T04:09:38Z"
+      "fetched_at": "2026-07-29T23:01:04Z",
+      "updated_at": "2026-07-29T23:01:04Z"
     },
     {
       "product_id": "1005010128439719",
-      "title": "12oz Luxus Rhinestone Tumbler Edelstahl Thermalwasserflasche Isolierter Kaffeebecher mit wiederverwendbarem Vakuum-Thermalbecher",
+      "title": "12oz Luxus Rhinestone Tumbler Edelstahl Thermalwasserflasche isolierte Kaffeetasse mit wiederverwendbarem Vakuum-Thermalbecher",
       "slug": "12oz-luxury-rhinestone-tumbler-stainless-steel-thermal-water",
       "price": 22.47,
       "original_price": 37.44,
@@ -359,8 +359,8 @@
       "sales_volume": 5,
       "score": 0.2073,
       "price_history": [],
-      "fetched_at": "2026-07-29T04:09:39Z",
-      "updated_at": "2026-07-29T04:09:39Z"
+      "fetched_at": "2026-07-29T23:01:04Z",
+      "updated_at": "2026-07-29T23:01:04Z"
     }
   ]
 }
