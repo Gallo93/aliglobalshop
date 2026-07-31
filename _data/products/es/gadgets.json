@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-07-31T04:21:03Z",
+  "updated_at": "2026-07-31T23:01:01Z",
   "products": [
     {
       "product_id": "1005006893229555",
@@ -17,8 +17,8 @@
       "sales_volume": 2781,
       "score": 0.4469,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:55Z",
-      "updated_at": "2026-07-31T04:20:55Z"
+      "fetched_at": "2026-07-31T23:00:53Z",
+      "updated_at": "2026-07-31T23:00:53Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,8 +35,8 @@
       "sales_volume": 119,
       "score": 0.3123,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:56Z",
-      "updated_at": "2026-07-31T04:20:56Z"
+      "fetched_at": "2026-07-31T23:00:54Z",
+      "updated_at": "2026-07-31T23:00:54Z"
     },
     {
       "product_id": "1005007587741414",
@@ -53,12 +53,12 @@
       "sales_volume": 80,
       "score": 0.2686,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:56Z",
-      "updated_at": "2026-07-31T04:20:56Z"
+      "fetched_at": "2026-07-31T23:00:54Z",
+      "updated_at": "2026-07-31T23:00:54Z"
     },
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Cargador rápido Powerbank portátil para iPhone portátil Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Carga rápida Powerbank portátil para iPhone portátil Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 36.79,
       "original_price": 72.14,
@@ -71,12 +71,12 @@
       "sales_volume": 250,
       "score": 0.2676,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:56Z",
-      "updated_at": "2026-07-31T04:20:56Z"
+      "fetched_at": "2026-07-31T23:00:55Z",
+      "updated_at": "2026-07-31T23:00:55Z"
     },
     {
       "product_id": "1005008323500938",
-      "title": "Soporte de carga inalámbrico para Volvo XC60 XC90 S90 V90 V60 S60 Super Fast Charging Dock USB Tipo-C",
+      "title": "Soporte de carga inalámbrico para Volvo XC60 XC90 S90 V90 V60 S60 Super de carga rápida USB Tipo-C",
       "slug": "magnetic-adsorption-wireless-charging-holder-for-volvo-xc60-",
       "price": 41.9,
       "original_price": 91.08,
@@ -89,12 +89,12 @@
       "sales_volume": 32,
       "score": 0.2558,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:57Z",
-      "updated_at": "2026-07-31T04:20:57Z"
+      "fetched_at": "2026-07-31T23:00:55Z",
+      "updated_at": "2026-07-31T23:00:55Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.57,
       "original_price": 41.14,
@@ -107,12 +107,12 @@
       "sales_volume": 39,
       "score": 0.2547,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:57Z",
-      "updated_at": "2026-07-31T04:20:57Z"
+      "fetched_at": "2026-07-31T23:00:55Z",
+      "updated_at": "2026-07-31T23:00:55Z"
     },
     {
       "product_id": "1005010731285437",
-      "title": "2025 Nuevo CCC Certified 20000mAh 74Wh 120Ws Гיייייייייייירירייירי Tipo C Digital Display Magnetic Power Bank para iOS Android",
+      "title": "2025 Nuevo CCC Certified 20000mAh 74Wh 120Ws Гיייייייייייייירייריריריی Type C Digital Display Magnetic Power Bank para iOS Android",
       "slug": "2025-new-ccc-certified-20000mah-74wh-120w-type-c-digital-dis",
       "price": 16.98,
       "original_price": 35.02,
@@ -125,12 +125,12 @@
       "sales_volume": 13,
       "score": 0.2546,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:58Z",
-      "updated_at": "2026-07-31T04:20:58Z"
+      "fetched_at": "2026-07-31T23:00:56Z",
+      "updated_at": "2026-07-31T23:00:56Z"
     },
     {
       "product_id": "1005010617846135",
-      "title": "20000mAh 10000mAh Banco de alimentación con gran capacidad de diseño de caja de fibra de espesor y fácil de carga de doble entrada",
+      "title": "20000mAh 10000mAh Banco de alimentación con gran capacidad de diseño de caja de fibra de espesor y fácil de cargar doble entrada",
       "slug": "20000mah-10000mah-power-bank-with-large-capacity-fiber-textu",
       "price": 18.36,
       "original_price": 36.73,
@@ -143,8 +143,8 @@
       "sales_volume": 15,
       "score": 0.2518,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:58Z",
-      "updated_at": "2026-07-31T04:20:58Z"
+      "fetched_at": "2026-07-31T23:00:56Z",
+      "updated_at": "2026-07-31T23:00:56Z"
     },
     {
       "product_id": "1005012349888176",
@@ -161,8 +161,8 @@
       "sales_volume": 6,
       "score": 0.2507,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:58Z",
-      "updated_at": "2026-07-31T04:20:58Z"
+      "fetched_at": "2026-07-31T23:00:57Z",
+      "updated_at": "2026-07-31T23:00:57Z"
     },
     {
       "product_id": "1005012333786293",
@@ -179,12 +179,12 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:59Z",
-      "updated_at": "2026-07-31T04:20:59Z"
+      "fetched_at": "2026-07-31T23:00:57Z",
+      "updated_at": "2026-07-31T23:00:57Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank Construido en 4 Cable Cargador portable Cute Pet Cartoon Espejo de maquillaje Powerbank Power Bank",
+      "title": "20000mAh Mini Power Bank Construido en 4 Cable Portable Cargador Cute Pet Cartoon maquillaje Espejo Powerbank Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.64,
       "original_price": 21.27,
@@ -197,8 +197,8 @@
       "sales_volume": 16,
       "score": 0.2479,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:59Z",
-      "updated_at": "2026-07-31T04:20:59Z"
+      "fetched_at": "2026-07-31T23:00:57Z",
+      "updated_at": "2026-07-31T23:00:57Z"
     },
     {
       "product_id": "1005011981593933",
@@ -215,8 +215,8 @@
       "sales_volume": 11,
       "score": 0.2423,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:00Z",
-      "updated_at": "2026-07-31T04:21:00Z"
+      "fetched_at": "2026-07-31T23:00:58Z",
+      "updated_at": "2026-07-31T23:00:58Z"
     },
     {
       "product_id": "1005010401185659",
@@ -233,8 +233,8 @@
       "sales_volume": 4,
       "score": 0.2355,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:00Z",
-      "updated_at": "2026-07-31T04:21:00Z"
+      "fetched_at": "2026-07-31T23:00:58Z",
+      "updated_at": "2026-07-31T23:00:58Z"
     },
     {
       "product_id": "1005007395412166",
@@ -251,8 +251,8 @@
       "sales_volume": 13,
       "score": 0.2249,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:01Z",
-      "updated_at": "2026-07-31T04:21:01Z"
+      "fetched_at": "2026-07-31T23:00:59Z",
+      "updated_at": "2026-07-31T23:00:59Z"
     },
     {
       "product_id": "1005009589681770",
@@ -269,8 +269,8 @@
       "sales_volume": 3,
       "score": 0.2234,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:01Z",
-      "updated_at": "2026-07-31T04:21:01Z"
+      "fetched_at": "2026-07-31T23:00:59Z",
+      "updated_at": "2026-07-31T23:00:59Z"
     },
     {
       "product_id": "1005012408073378",
@@ -287,8 +287,8 @@
       "sales_volume": 7,
       "score": 0.2208,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:01Z",
-      "updated_at": "2026-07-31T04:21:01Z"
+      "fetched_at": "2026-07-31T23:00:59Z",
+      "updated_at": "2026-07-31T23:00:59Z"
     },
     {
       "product_id": "1005007646050752",
@@ -305,8 +305,8 @@
       "sales_volume": 44,
       "score": 0.2186,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:02Z",
-      "updated_at": "2026-07-31T04:21:02Z"
+      "fetched_at": "2026-07-31T23:01:00Z",
+      "updated_at": "2026-07-31T23:01:00Z"
     },
     {
       "product_id": "1005010233572038",
@@ -323,8 +323,8 @@
       "sales_volume": 12,
       "score": 0.2034,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:02Z",
-      "updated_at": "2026-07-31T04:21:02Z"
+      "fetched_at": "2026-07-31T23:01:00Z",
+      "updated_at": "2026-07-31T23:01:00Z"
     },
     {
       "product_id": "1005009849333993",
@@ -341,8 +341,8 @@
       "sales_volume": 9,
       "score": 0.1911,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:03Z",
-      "updated_at": "2026-07-31T04:21:03Z"
+      "fetched_at": "2026-07-31T23:01:01Z",
+      "updated_at": "2026-07-31T23:01:01Z"
     },
     {
       "product_id": "32872425924",
@@ -359,8 +359,8 @@
       "sales_volume": 5,
       "score": 0.1906,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:21:03Z",
-      "updated_at": "2026-07-31T04:21:03Z"
+      "fetched_at": "2026-07-31T23:01:01Z",
+      "updated_at": "2026-07-31T23:01:01Z"
     }
   ]
 }

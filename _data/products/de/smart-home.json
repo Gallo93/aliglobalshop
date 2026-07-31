@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-07-31T04:20:23Z",
+  "updated_at": "2026-07-31T23:00:39Z",
   "products": [
     {
       "product_id": "1005006593842093",
@@ -17,8 +17,8 @@
       "sales_volume": 429,
       "score": 0.3125,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:15Z",
-      "updated_at": "2026-07-31T04:20:15Z"
+      "fetched_at": "2026-07-31T23:00:31Z",
+      "updated_at": "2026-07-31T23:00:31Z"
     },
     {
       "product_id": "1005012611600751",
@@ -35,8 +35,8 @@
       "sales_volume": 6,
       "score": 0.3107,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:15Z",
-      "updated_at": "2026-07-31T04:20:15Z"
+      "fetched_at": "2026-07-31T23:00:31Z",
+      "updated_at": "2026-07-31T23:00:31Z"
     },
     {
       "product_id": "1005012445621796",
@@ -53,8 +53,8 @@
       "sales_volume": 16,
       "score": 0.2819,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:16Z",
-      "updated_at": "2026-07-31T04:20:16Z"
+      "fetched_at": "2026-07-31T23:00:32Z",
+      "updated_at": "2026-07-31T23:00:32Z"
     },
     {
       "product_id": "1005001394925942",
@@ -71,12 +71,12 @@
       "sales_volume": 9,
       "score": 0.2511,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:16Z",
-      "updated_at": "2026-07-31T04:20:16Z"
+      "fetched_at": "2026-07-31T23:00:32Z",
+      "updated_at": "2026-07-31T23:00:32Z"
     },
     {
       "product_id": "1005006116663438",
-      "title": "Hiseeu 4K 8MP Wifi Überwachungskamera Dual Lens 4X Digital Zoom AI Human Detect Wireless Outdoor Security PTZ IP Kameras",
+      "title": "Hiseeu 4K 8MP Wifi Überwachungskamera Dual Lens 4X Digital Zoom AI Mensch erkennen Wireless Outdoor Security PTZ IP Kameras",
       "slug": "hiseeu-4k-8mp-wifi-surveillance-camera-dual-lens-4x-digital-",
       "price": 37.55,
       "original_price": 75.09,
@@ -89,8 +89,8 @@
       "sales_volume": 14,
       "score": 0.246,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:17Z",
-      "updated_at": "2026-07-31T04:20:17Z"
+      "fetched_at": "2026-07-31T23:00:33Z",
+      "updated_at": "2026-07-31T23:00:33Z"
     },
     {
       "product_id": "1005005604363467",
@@ -107,8 +107,8 @@
       "sales_volume": 35,
       "score": 0.242,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:17Z",
-      "updated_at": "2026-07-31T04:20:17Z"
+      "fetched_at": "2026-07-31T23:00:33Z",
+      "updated_at": "2026-07-31T23:00:33Z"
     },
     {
       "product_id": "1005005807578430",
@@ -125,12 +125,12 @@
       "sales_volume": 4,
       "score": 0.2378,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:17Z",
-      "updated_at": "2026-07-31T04:20:17Z"
+      "fetched_at": "2026-07-31T23:00:34Z",
+      "updated_at": "2026-07-31T23:00:34Z"
     },
     {
       "product_id": "1005003462342443",
-      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth Betriebene Relais Niederspannungsunterstützung über Temperaturschutz",
+      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth betrieben Relais Niederspannungsunterstützung über Temperaturschutz",
       "slug": "shelly-1-gen3-dry-contact-smart-switch-wifi-bluetooth-operat",
       "price": 17.2,
       "original_price": 23.25,
@@ -143,8 +143,8 @@
       "sales_volume": 463,
       "score": 0.231,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:18Z",
-      "updated_at": "2026-07-31T04:20:18Z"
+      "fetched_at": "2026-07-31T23:00:34Z",
+      "updated_at": "2026-07-31T23:00:34Z"
     },
     {
       "product_id": "1005010463738860",
@@ -161,8 +161,8 @@
       "sales_volume": 50,
       "score": 0.2252,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:18Z",
-      "updated_at": "2026-07-31T04:20:18Z"
+      "fetched_at": "2026-07-31T23:00:34Z",
+      "updated_at": "2026-07-31T23:00:34Z"
     },
     {
       "product_id": "4000143784956",
@@ -179,8 +179,8 @@
       "sales_volume": 312,
       "score": 0.2244,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:19Z",
-      "updated_at": "2026-07-31T04:20:19Z"
+      "fetched_at": "2026-07-31T23:00:35Z",
+      "updated_at": "2026-07-31T23:00:35Z"
     },
     {
       "product_id": "1005011764540594",
@@ -197,8 +197,8 @@
       "sales_volume": 22,
       "score": 0.2226,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:19Z",
-      "updated_at": "2026-07-31T04:20:19Z"
+      "fetched_at": "2026-07-31T23:00:35Z",
+      "updated_at": "2026-07-31T23:00:35Z"
     },
     {
       "product_id": "1005008550334064",
@@ -215,12 +215,12 @@
       "sales_volume": 6,
       "score": 0.2207,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:19Z",
-      "updated_at": "2026-07-31T04:20:19Z"
+      "fetched_at": "2026-07-31T23:00:36Z",
+      "updated_at": "2026-07-31T23:00:36Z"
     },
     {
       "product_id": "1005004352005250",
-      "title": "Motor-Vakuum-Modul für Roboter-Vakuumreiniger für iRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Ventilator-Reparaturteile",
+      "title": "Motor-Vakuum-Modul für Roboter-Vakuumreiniger für iRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Kühlventilator-Reparaturteile",
       "slug": "robot-vacuum-cleaner-fan-assembly-motor-vacuum-module-for-ir",
       "price": 28.91,
       "original_price": 38.54,
@@ -233,8 +233,8 @@
       "sales_volume": 470,
       "score": 0.2194,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:20Z",
-      "updated_at": "2026-07-31T04:20:20Z"
+      "fetched_at": "2026-07-31T23:00:36Z",
+      "updated_at": "2026-07-31T23:00:36Z"
     },
     {
       "product_id": "1005009306467710",
@@ -251,8 +251,8 @@
       "sales_volume": 156,
       "score": 0.2187,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:20Z",
-      "updated_at": "2026-07-31T04:20:20Z"
+      "fetched_at": "2026-07-31T23:00:36Z",
+      "updated_at": "2026-07-31T23:00:36Z"
     },
     {
       "product_id": "1005003568997399",
@@ -269,8 +269,8 @@
       "sales_volume": 106,
       "score": 0.2177,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:21Z",
-      "updated_at": "2026-07-31T04:20:21Z"
+      "fetched_at": "2026-07-31T23:00:37Z",
+      "updated_at": "2026-07-31T23:00:37Z"
     },
     {
       "product_id": "1005004774956386",
@@ -287,8 +287,8 @@
       "sales_volume": 146,
       "score": 0.2155,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:21Z",
-      "updated_at": "2026-07-31T04:20:21Z"
+      "fetched_at": "2026-07-31T23:00:37Z",
+      "updated_at": "2026-07-31T23:00:37Z"
     },
     {
       "product_id": "1005008437549906",
@@ -305,8 +305,8 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:21Z",
-      "updated_at": "2026-07-31T04:20:21Z"
+      "fetched_at": "2026-07-31T23:00:38Z",
+      "updated_at": "2026-07-31T23:00:38Z"
     },
     {
       "product_id": "1005009559994857",
@@ -323,8 +323,8 @@
       "sales_volume": 8,
       "score": 0.2053,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:22Z",
-      "updated_at": "2026-07-31T04:20:22Z"
+      "fetched_at": "2026-07-31T23:00:38Z",
+      "updated_at": "2026-07-31T23:00:38Z"
     },
     {
       "product_id": "1005004966987077",
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:22Z",
-      "updated_at": "2026-07-31T04:20:22Z"
+      "fetched_at": "2026-07-31T23:00:39Z",
+      "updated_at": "2026-07-31T23:00:39Z"
     },
     {
       "product_id": "1005004556206576",
@@ -359,8 +359,8 @@
       "sales_volume": 38,
       "score": 0.1931,
       "price_history": [],
-      "fetched_at": "2026-07-31T04:20:23Z",
-      "updated_at": "2026-07-31T04:20:23Z"
+      "fetched_at": "2026-07-31T23:00:39Z",
+      "updated_at": "2026-07-31T23:00:39Z"
     }
   ]
 }
