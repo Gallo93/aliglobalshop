@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-07-31T23:00:50Z",
+  "updated_at": "2026-08-01T04:18:53Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3464,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:42Z",
-      "updated_at": "2026-07-31T23:00:42Z"
+      "fetched_at": "2026-08-01T04:18:44Z",
+      "updated_at": "2026-08-01T04:18:44Z"
     },
     {
       "product_id": "1005004369037597",
@@ -35,8 +35,8 @@
       "sales_volume": 418,
       "score": 0.3098,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:42Z",
-      "updated_at": "2026-07-31T23:00:42Z"
+      "fetched_at": "2026-08-01T04:18:44Z",
+      "updated_at": "2026-08-01T04:18:44Z"
     },
     {
       "product_id": "32286722941",
@@ -53,8 +53,8 @@
       "sales_volume": 23,
       "score": 0.2978,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:43Z",
-      "updated_at": "2026-07-31T23:00:43Z"
+      "fetched_at": "2026-08-01T04:18:45Z",
+      "updated_at": "2026-08-01T04:18:45Z"
     },
     {
       "product_id": "1005005489527499",
@@ -71,12 +71,12 @@
       "sales_volume": 320,
       "score": 0.286,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:43Z",
-      "updated_at": "2026-07-31T23:00:43Z"
+      "fetched_at": "2026-08-01T04:18:45Z",
+      "updated_at": "2026-08-01T04:18:45Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "X-TIGER Fahrrad-Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenfahrrad-Wasserflasche",
+      "title": "X-TIGER Fahrrad-Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenrad Radfahren Wasserflasche",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 13.3,
       "original_price": 29.57,
@@ -89,12 +89,12 @@
       "sales_volume": 1,
       "score": 0.2651,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:44Z",
-      "updated_at": "2026-07-31T23:00:44Z"
+      "fetched_at": "2026-08-01T04:18:46Z",
+      "updated_at": "2026-08-01T04:18:46Z"
     },
     {
       "product_id": "1005010160889036",
-      "title": "Eastinear Bicycle Helmet Ride Led Lights vorne und hinten, Urban Road Cycling Helmet, wiederaufladbares Blinksignal Fahrradzubehör",
+      "title": "Eastinear Bicycle Helmet Ride Led Lights vorne und hinten, Urban Road Cycling Helmet, Wiederaufladbares Blinksignal Fahrradzubehör",
       "slug": "eastinear-bicycle-helmet-ride-led-lights-front-and-rearurban",
       "price": 37.89,
       "original_price": 78.93,
@@ -107,8 +107,8 @@
       "sales_volume": 88,
       "score": 0.2619,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:44Z",
-      "updated_at": "2026-07-31T23:00:44Z"
+      "fetched_at": "2026-08-01T04:18:46Z",
+      "updated_at": "2026-08-01T04:18:46Z"
     },
     {
       "product_id": "1005010382664758",
@@ -125,8 +125,8 @@
       "sales_volume": 41,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:45Z",
-      "updated_at": "2026-07-31T23:00:45Z"
+      "fetched_at": "2026-08-01T04:18:47Z",
+      "updated_at": "2026-08-01T04:18:47Z"
     },
     {
       "product_id": "1005008772408846",
@@ -143,12 +143,12 @@
       "sales_volume": 30,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:45Z",
-      "updated_at": "2026-07-31T23:00:45Z"
+      "fetched_at": "2026-08-01T04:18:47Z",
+      "updated_at": "2026-08-01T04:18:47Z"
     },
     {
       "product_id": "1005006998978324",
-      "title": "650ml Kawaii Wasserflasche mit Filter süße Sakura und Panda Tritan Sport Kaffee Tee Saft Cup Gym Flasche Geschenk für Mädchen Frauen",
+      "title": "650ml Kawaii Wasserflasche mit Filter süße Sakura und Panda Tritan Sport Kaffee Tee Juice Cup Gym Flasche Geschenk für Mädchen Frauen",
       "slug": "650ml-kawaii-water-bottle-with-filter-cute-sakura-and-panda-",
       "price": 13.79,
       "original_price": 27.58,
@@ -161,8 +161,8 @@
       "sales_volume": 9,
       "score": 0.2511,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:45Z",
-      "updated_at": "2026-07-31T23:00:45Z"
+      "fetched_at": "2026-08-01T04:18:48Z",
+      "updated_at": "2026-08-01T04:18:48Z"
     },
     {
       "product_id": "1005003472116469",
@@ -179,8 +179,8 @@
       "sales_volume": 50,
       "score": 0.246,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:46Z",
-      "updated_at": "2026-07-31T23:00:46Z"
+      "fetched_at": "2026-08-01T04:18:48Z",
+      "updated_at": "2026-08-01T04:18:48Z"
     },
     {
       "product_id": "1005007517245266",
@@ -197,12 +197,12 @@
       "sales_volume": 7,
       "score": 0.2455,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:46Z",
-      "updated_at": "2026-07-31T23:00:46Z"
+      "fetched_at": "2026-08-01T04:18:48Z",
+      "updated_at": "2026-08-01T04:18:48Z"
     },
     {
       "product_id": "1005009049503829",
-      "title": "BATFOX 3/4 MTB Fahrradhelm Männer Frauen Ear Protection Bike Off Road Speed Reduction Sicher Kappe Tight Breathable Cycling Helme",
+      "title": "BATFOX 3/4 MTB Fahrradhelm Männer Ear Protection Bike Off Road Speed Reduction Sicher Kappe Tight Breathable Cycling Helme",
       "slug": "batfox-34-mtb-bicycle-helmet-men-women-ear-protection-bike-o",
       "price": 50.11,
       "original_price": 100.22,
@@ -215,12 +215,12 @@
       "sales_volume": 17,
       "score": 0.2438,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:47Z",
-      "updated_at": "2026-07-31T23:00:47Z"
+      "fetched_at": "2026-08-01T04:18:49Z",
+      "updated_at": "2026-08-01T04:18:49Z"
     },
     {
       "product_id": "1005006588685488",
-      "title": "Non-Slip Extra dick 15mm Yoga Mat Männer Frauen Fitness NBR Soft Mat Geschmacklose Gym Haus Übung Pilates Yoga Mat",
+      "title": "Non-Slip Extra Dick 15mm Yoga Mat Männer Frauen Fitness NBR Soft Mat Geschmacklose Gym Haus Übung Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
       "price": 23.28,
       "original_price": 38.79,
@@ -233,8 +233,8 @@
       "sales_volume": 10,
       "score": 0.2212,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:47Z",
-      "updated_at": "2026-07-31T23:00:47Z"
+      "fetched_at": "2026-08-01T04:18:49Z",
+      "updated_at": "2026-08-01T04:18:49Z"
     },
     {
       "product_id": "1005005807293081",
@@ -251,12 +251,12 @@
       "sales_volume": 19,
       "score": 0.2152,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:48Z",
-      "updated_at": "2026-07-31T23:00:48Z"
+      "fetched_at": "2026-08-01T04:18:50Z",
+      "updated_at": "2026-08-01T04:18:50Z"
     },
     {
       "product_id": "1005003674465001",
-      "title": "Boxing Jump Seil mit schweren Foam Grip Griffe, Crossfit Skipping Seil, Fitness-Workouts, Ausdauer Krafttraining",
+      "title": "Boxing Jump Seil mit schweren Foam Grip Griffe, Crossfit Skipping Seil, Fitness Workouts, Ausdauerkrafttraining",
       "slug": "boxing-jump-rope-with-heavy-foam-grip-handles-crossfit-skipp",
       "price": 12.87,
       "original_price": 20.43,
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.211,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:48Z",
-      "updated_at": "2026-07-31T23:00:48Z"
+      "fetched_at": "2026-08-01T04:18:50Z",
+      "updated_at": "2026-08-01T04:18:50Z"
     },
     {
       "product_id": "1005008686251941",
@@ -287,12 +287,12 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:48Z",
-      "updated_at": "2026-07-31T23:00:48Z"
+      "fetched_at": "2026-08-01T04:18:51Z",
+      "updated_at": "2026-08-01T04:18:51Z"
     },
     {
       "product_id": "1005010128439719",
-      "title": "12oz Luxus Rhinestone Tumbler Edelstahl Thermalwasserflasche isolierte Kaffeetasse mit wiederverwendbarem Vakuum-Thermalbecher",
+      "title": "12oz Luxus Rhinestone Tumbler Edelstahl Thermalwasserflasche Isolierter Kaffeebecher mit wiederverwendbarem Vakuum-Thermalbecher",
       "slug": "12oz-luxury-rhinestone-tumbler-stainless-steel-thermal-water",
       "price": 22.47,
       "original_price": 37.44,
@@ -305,12 +305,12 @@
       "sales_volume": 5,
       "score": 0.2073,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:49Z",
-      "updated_at": "2026-07-31T23:00:49Z"
+      "fetched_at": "2026-08-01T04:18:51Z",
+      "updated_at": "2026-08-01T04:18:51Z"
     },
     {
       "product_id": "1005008813902899",
-      "title": "1 ~ 10m Natur Latex Gummischläuche ID 1.6 ~ 18mm Gelb Hoch elastisch Go Fishing Tube Slingshot Catapult Elastic Fitness Band",
+      "title": "1 ~ 10m Natur Latex Gummischläuche ID 1.6 ~ 18mm Gelbes hochelastisches Go Fishing Tube Slingshot Catapult Elastic Fitness Band",
       "slug": "110m-nature-latex-rubber-hoses-id-1618mm-yellow-high-resilie",
       "price": 0.7,
       "original_price": 0.99,
@@ -323,8 +323,8 @@
       "sales_volume": 142,
       "score": 0.2034,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:49Z",
-      "updated_at": "2026-07-31T23:00:49Z"
+      "fetched_at": "2026-08-01T04:18:52Z",
+      "updated_at": "2026-08-01T04:18:52Z"
     },
     {
       "product_id": "1005010464486496",
@@ -341,12 +341,12 @@
       "sales_volume": 8,
       "score": 0.197,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:50Z",
-      "updated_at": "2026-07-31T23:00:50Z"
+      "fetched_at": "2026-08-01T04:18:52Z",
+      "updated_at": "2026-08-01T04:18:52Z"
     },
     {
       "product_id": "1005009057790832",
-      "title": "64OZ Große Kapazität Sport-Thermos-Cup mit Griff,Edelstahl Vakuum Flasks, Wide Mouth Drinkware, Camping Gym Wasserflasche",
+      "title": "64OZ Große Kapazität Sport-Thermos-Cup mit Griff,Edelstahl-Vakuum-Flaschen, Wide Mouth Drinkware, Camping Gym Wasserflasche",
       "slug": "64oz-large-capacity-sports-thermos-cup-with-handlestainless-",
       "price": 27.75,
       "original_price": 40.21,
@@ -359,8 +359,8 @@
       "sales_volume": 2,
       "score": 0.1932,
       "price_history": [],
-      "fetched_at": "2026-07-31T23:00:50Z",
-      "updated_at": "2026-07-31T23:00:50Z"
+      "fetched_at": "2026-08-01T04:18:52Z",
+      "updated_at": "2026-08-01T04:18:52Z"
     }
   ]
 }
