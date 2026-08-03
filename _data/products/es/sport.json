@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-08-02T23:01:33Z",
+  "updated_at": "2026-08-03T04:27:38Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3584,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:23Z",
-      "updated_at": "2026-08-02T23:01:23Z"
+      "fetched_at": "2026-08-03T04:27:29Z",
+      "updated_at": "2026-08-03T04:27:29Z"
     },
     {
       "product_id": "1005004369037597",
@@ -35,8 +35,8 @@
       "sales_volume": 424,
       "score": 0.3105,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:23Z",
-      "updated_at": "2026-08-02T23:01:23Z"
+      "fetched_at": "2026-08-03T04:27:29Z",
+      "updated_at": "2026-08-03T04:27:29Z"
     },
     {
       "product_id": "32286722941",
@@ -53,12 +53,12 @@
       "sales_volume": 22,
       "score": 0.3066,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:24Z",
-      "updated_at": "2026-08-02T23:01:24Z"
+      "fetched_at": "2026-08-03T04:27:30Z",
+      "updated_at": "2026-08-03T04:27:30Z"
     },
     {
       "product_id": "1005006012278000",
-      "title": "Copa de 860ml de mango 316 de acero inoxidable Copa de crema de hielo Copa termal botella de agua tazas de botella de vacío",
+      "title": "Copa de 860ml de mango 316 Copa de acero inoxidable Copa de crema de hielo Copa termal botella de agua tazas de botella de vacío",
       "slug": "860ml-handle-cup-316-stainless-steel-insulated-cupice-cream-",
       "price": 5.5,
       "original_price": 18.34,
@@ -71,12 +71,12 @@
       "sales_volume": 22,
       "score": 0.3059,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:24Z",
-      "updated_at": "2026-08-02T23:01:24Z"
+      "fetched_at": "2026-08-03T04:27:30Z",
+      "updated_at": "2026-08-03T04:27:30Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "Botella de agua de ciclo X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
+      "title": "Botella de agua de bicicletas X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 12.13,
       "original_price": 29.57,
@@ -89,12 +89,12 @@
       "sales_volume": 1,
       "score": 0.2771,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:25Z",
-      "updated_at": "2026-08-02T23:01:25Z"
+      "fetched_at": "2026-08-03T04:27:31Z",
+      "updated_at": "2026-08-03T04:27:31Z"
     },
     {
       "product_id": "1005007517245266",
-      "title": "Construir XT - Suplemento de entrenamiento - Ayuda a promover el crecimiento del músculo magro, las ganancias de fuerza, potencia y resistencia en el gimnasio",
+      "title": "Construir XT - Suplemento de entrenamiento - Ayuda a promover el crecimiento del músculo magro, las ganancias de fuerza, la potencia y la resistencia en el gimnasio",
       "slug": "build-xt-workout-supplement-helps-promote-lean-muscle-growth",
       "price": 5.93,
       "original_price": 13.49,
@@ -107,8 +107,8 @@
       "sales_volume": 8,
       "score": 0.2634,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:25Z",
-      "updated_at": "2026-08-02T23:01:25Z"
+      "fetched_at": "2026-08-03T04:27:31Z",
+      "updated_at": "2026-08-03T04:27:31Z"
     },
     {
       "product_id": "1005008772408846",
@@ -125,8 +125,8 @@
       "sales_volume": 30,
       "score": 0.2626,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:26Z",
-      "updated_at": "2026-08-02T23:01:26Z"
+      "fetched_at": "2026-08-03T04:27:32Z",
+      "updated_at": "2026-08-03T04:27:32Z"
     },
     {
       "product_id": "1005010160889036",
@@ -143,12 +143,12 @@
       "sales_volume": 94,
       "score": 0.2626,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:26Z",
-      "updated_at": "2026-08-02T23:01:26Z"
+      "fetched_at": "2026-08-03T04:27:32Z",
+      "updated_at": "2026-08-03T04:27:32Z"
     },
     {
       "product_id": "1005010382664758",
-      "title": "BATFOX Mountain Bike Helmet Puede instalar una cámara de deportes Electric Cycling Gear Safety Cap Hombre Mujeres murciélago fox MTB Cascos de bicicletas",
+      "title": "BATFOX Mountain Bike Helmet Puede instalar una cámara de deportes Electric Cycling Gear Safety Cap Hombre Mujer murciélago fox MTB Cascos de bicicletas",
       "slug": "batfox-mountain-bike-helmet-can-install-a-sports-camera-elec",
       "price": 32.09,
       "original_price": 66.85,
@@ -161,12 +161,12 @@
       "sales_volume": 40,
       "score": 0.2595,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:26Z",
-      "updated_at": "2026-08-02T23:01:26Z"
+      "fetched_at": "2026-08-03T04:27:32Z",
+      "updated_at": "2026-08-03T04:27:32Z"
     },
     {
       "product_id": "1005009049503829",
-      "title": "BATFOX 3/4 MTB Casco para bicicletas Hombre Mujeres Protección del oído Bicicleta fuera de carretera Reducción de la velocidad de la velocidad Cap Tight Cascos transpirables",
+      "title": "BATFOX 3/4 MTB Casco de bicicletas Hombre Mujeres Protección del oído Bicicleta fuera de carretera Reducción de la velocidad de la velocidad Cap Tight Cascos transpirables",
       "slug": "batfox-34-mtb-bicycle-helmet-men-women-ear-protection-bike-o",
       "price": 48.11,
       "original_price": 100.22,
@@ -179,12 +179,12 @@
       "sales_volume": 17,
       "score": 0.2498,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:27Z",
-      "updated_at": "2026-08-02T23:01:27Z"
+      "fetched_at": "2026-08-03T04:27:33Z",
+      "updated_at": "2026-08-03T04:27:33Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Botella de agua deportiva de plástico libre 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
+      "title": "BPA Botella de agua deportiva de plástico gratis 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.89,
       "original_price": 15.79,
@@ -197,8 +197,8 @@
       "sales_volume": 48,
       "score": 0.2458,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:27Z",
-      "updated_at": "2026-08-02T23:01:27Z"
+      "fetched_at": "2026-08-03T04:27:33Z",
+      "updated_at": "2026-08-03T04:27:33Z"
     },
     {
       "product_id": "1005003674465001",
@@ -215,12 +215,12 @@
       "sales_volume": 0,
       "score": 0.223,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:28Z",
-      "updated_at": "2026-08-02T23:01:28Z"
+      "fetched_at": "2026-08-03T04:27:34Z",
+      "updated_at": "2026-08-03T04:27:34Z"
     },
     {
       "product_id": "1005005807293081",
-      "title": "ROCKBROS 670ML Bicicleta Agua Botella de agua de cilíndrilo aislado Gimnasio Running Sports Water Bottle MTB Road Bike Thermal Bottle",
+      "title": "ROCKBROS 670ML Bicicleta Agua Botella Aislante Ciclismo Agua Bicicleta Bicicleta Bicicleta Térmica Bicicleta Termal Botella",
       "slug": "rockbros-670ml-bicycle-water-bottle-insulated-cycling-water-",
       "price": 7.35,
       "original_price": 12.25,
@@ -233,12 +233,12 @@
       "sales_volume": 19,
       "score": 0.2152,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:28Z",
-      "updated_at": "2026-08-02T23:01:28Z"
+      "fetched_at": "2026-08-03T04:27:34Z",
+      "updated_at": "2026-08-03T04:27:34Z"
     },
     {
       "product_id": "1005010464486496",
-      "title": "15MM-20MM Thick Yoga Mats Anti-slip Sport Fitness Blanket Ejercicio Yoga y Pilates Gimnasia Mat Fitness Equipamiento 183×60cm",
+      "title": "15MM-20MM Thick Yoga Mats Anti-slip Sport Fitness Blanket Ejercicio Yoga y Pilates Gimnasia Mat Fitness Equipment 183×60cm",
       "slug": "15mm-20mm-thick-yoga-mats-anti-slip-sport-fitness-blanket-ex",
       "price": 24.16,
       "original_price": 38.97,
@@ -251,8 +251,8 @@
       "sales_volume": 8,
       "score": 0.215,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:29Z",
-      "updated_at": "2026-08-02T23:01:29Z"
+      "fetched_at": "2026-08-03T04:27:35Z",
+      "updated_at": "2026-08-03T04:27:35Z"
     },
     {
       "product_id": "1005008813902899",
@@ -269,8 +269,8 @@
       "sales_volume": 142,
       "score": 0.2124,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:29Z",
-      "updated_at": "2026-08-02T23:01:29Z"
+      "fetched_at": "2026-08-03T04:27:35Z",
+      "updated_at": "2026-08-03T04:27:35Z"
     },
     {
       "product_id": "1005008686251941",
@@ -287,8 +287,8 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:30Z",
-      "updated_at": "2026-08-02T23:01:30Z"
+      "fetched_at": "2026-08-03T04:27:36Z",
+      "updated_at": "2026-08-03T04:27:36Z"
     },
     {
       "product_id": "1005011781529854",
@@ -305,12 +305,12 @@
       "sales_volume": 0,
       "score": 0.207,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:30Z",
-      "updated_at": "2026-08-02T23:01:30Z"
+      "fetched_at": "2026-08-03T04:27:36Z",
+      "updated_at": "2026-08-03T04:27:36Z"
     },
     {
       "product_id": "1005009057790832",
-      "title": "64OZ Gran capacidad Copa de Teramos Deportivos con Manija,Stainless Steel Vacuum Flasks,Wide Mouth Drinkware,Camping Gym Water Bottle",
+      "title": "64OZ Gran capacidad Copa de Teramos Deportivos con Manija,Pulsas de vapor de acero inoxidable,Botella de agua de la boca húmeda,",
       "slug": "64oz-large-capacity-sports-thermos-cup-with-handlestainless-",
       "price": 27.75,
       "original_price": 40.21,
@@ -323,8 +323,8 @@
       "sales_volume": 2,
       "score": 0.1932,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:31Z",
-      "updated_at": "2026-08-02T23:01:31Z"
+      "fetched_at": "2026-08-03T04:27:36Z",
+      "updated_at": "2026-08-03T04:27:36Z"
     },
     {
       "product_id": "1005007585433148",
@@ -341,8 +341,8 @@
       "sales_volume": 16,
       "score": 0.1769,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:32Z",
-      "updated_at": "2026-08-02T23:01:32Z"
+      "fetched_at": "2026-08-03T04:27:37Z",
+      "updated_at": "2026-08-03T04:27:37Z"
     },
     {
       "product_id": "1005004337800292",
@@ -359,8 +359,8 @@
       "sales_volume": 14,
       "score": 0.1717,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:33Z",
-      "updated_at": "2026-08-02T23:01:33Z"
+      "fetched_at": "2026-08-03T04:27:37Z",
+      "updated_at": "2026-08-03T04:27:37Z"
     }
   ]
 }

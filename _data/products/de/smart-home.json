@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-02T23:01:12Z",
+  "updated_at": "2026-08-03T04:27:26Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1671,
       "score": 0.3215,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:01Z",
-      "updated_at": "2026-08-02T23:01:01Z"
+      "fetched_at": "2026-08-03T04:27:17Z",
+      "updated_at": "2026-08-03T04:27:17Z"
     },
     {
       "product_id": "1005006593842093",
@@ -35,8 +35,8 @@
       "sales_volume": 401,
       "score": 0.3151,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:02Z",
-      "updated_at": "2026-08-02T23:01:02Z"
+      "fetched_at": "2026-08-03T04:27:17Z",
+      "updated_at": "2026-08-03T04:27:17Z"
     },
     {
       "product_id": "1005012445621796",
@@ -53,12 +53,12 @@
       "sales_volume": 16,
       "score": 0.2999,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:02Z",
-      "updated_at": "2026-08-02T23:01:02Z"
+      "fetched_at": "2026-08-03T04:27:18Z",
+      "updated_at": "2026-08-03T04:27:18Z"
     },
     {
       "product_id": "1005006116663438",
-      "title": "Hiseeu 4K 8MP Wifi Überwachungskamera Dual Lens 4X Digital Zoom AI Mensch erkennen Wireless Outdoor Security PTZ IP Kameras",
+      "title": "Hiseeu 4K 8MP Wifi Überwachungskamera Dual Lens 4X Digital Zoom AI Human Detect Wireless Outdoor Security PTZ IP Kameras",
       "slug": "hiseeu-4k-8mp-wifi-surveillance-camera-dual-lens-4x-digital-",
       "price": 33.04,
       "original_price": 75.09,
@@ -71,8 +71,8 @@
       "sales_volume": 14,
       "score": 0.264,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:03Z",
-      "updated_at": "2026-08-02T23:01:03Z"
+      "fetched_at": "2026-08-03T04:27:18Z",
+      "updated_at": "2026-08-03T04:27:18Z"
     },
     {
       "product_id": "1005001394925942",
@@ -89,8 +89,8 @@
       "sales_volume": 9,
       "score": 0.2511,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:04Z",
-      "updated_at": "2026-08-02T23:01:04Z"
+      "fetched_at": "2026-08-03T04:27:19Z",
+      "updated_at": "2026-08-03T04:27:19Z"
     },
     {
       "product_id": "1005005604363467",
@@ -107,8 +107,8 @@
       "sales_volume": 35,
       "score": 0.242,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:04Z",
-      "updated_at": "2026-08-02T23:01:04Z"
+      "fetched_at": "2026-08-03T04:27:19Z",
+      "updated_at": "2026-08-03T04:27:19Z"
     },
     {
       "product_id": "1005005807578430",
@@ -125,8 +125,8 @@
       "sales_volume": 4,
       "score": 0.2378,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:05Z",
-      "updated_at": "2026-08-02T23:01:05Z"
+      "fetched_at": "2026-08-03T04:27:19Z",
+      "updated_at": "2026-08-03T04:27:19Z"
     },
     {
       "product_id": "1005009306467710",
@@ -143,12 +143,12 @@
       "sales_volume": 167,
       "score": 0.2354,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:05Z",
-      "updated_at": "2026-08-02T23:01:05Z"
+      "fetched_at": "2026-08-03T04:27:20Z",
+      "updated_at": "2026-08-03T04:27:20Z"
     },
     {
       "product_id": "1005003462342443",
-      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth betrieben Relais Niederspannungsunterstützung über Temperaturschutz",
+      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth Betriebene Relais Niederspannungsunterstützung über Temperaturschutz",
       "slug": "shelly-1-gen3-dry-contact-smart-switch-wifi-bluetooth-operat",
       "price": 17.2,
       "original_price": 23.25,
@@ -161,8 +161,8 @@
       "sales_volume": 461,
       "score": 0.2307,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:06Z",
-      "updated_at": "2026-08-02T23:01:06Z"
+      "fetched_at": "2026-08-03T04:27:21Z",
+      "updated_at": "2026-08-03T04:27:21Z"
     },
     {
       "product_id": "4000143784956",
@@ -179,8 +179,8 @@
       "sales_volume": 318,
       "score": 0.2282,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:06Z",
-      "updated_at": "2026-08-02T23:01:06Z"
+      "fetched_at": "2026-08-03T04:27:21Z",
+      "updated_at": "2026-08-03T04:27:21Z"
     },
     {
       "product_id": "1005004774956386",
@@ -197,8 +197,8 @@
       "sales_volume": 145,
       "score": 0.2274,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:07Z",
-      "updated_at": "2026-08-02T23:01:07Z"
+      "fetched_at": "2026-08-03T04:27:22Z",
+      "updated_at": "2026-08-03T04:27:22Z"
     },
     {
       "product_id": "1005010463738860",
@@ -215,8 +215,8 @@
       "sales_volume": 51,
       "score": 0.2253,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:07Z",
-      "updated_at": "2026-08-02T23:01:07Z"
+      "fetched_at": "2026-08-03T04:27:22Z",
+      "updated_at": "2026-08-03T04:27:22Z"
     },
     {
       "product_id": "1005011764540594",
@@ -233,12 +233,12 @@
       "sales_volume": 22,
       "score": 0.2226,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:08Z",
-      "updated_at": "2026-08-02T23:01:08Z"
+      "fetched_at": "2026-08-03T04:27:22Z",
+      "updated_at": "2026-08-03T04:27:22Z"
     },
     {
       "product_id": "1005004352005250",
-      "title": "Motor-Vakuum-Modul für Roboter-Vakuumreiniger für iRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Kühlventilator-Reparaturteile",
+      "title": "Motor-Vakuum-Modul für Roboter-Vakuumreiniger für iRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Ventilator-Reparaturteile",
       "slug": "robot-vacuum-cleaner-fan-assembly-motor-vacuum-module-for-ir",
       "price": 28.91,
       "original_price": 38.54,
@@ -251,8 +251,8 @@
       "sales_volume": 468,
       "score": 0.2192,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:09Z",
-      "updated_at": "2026-08-02T23:01:09Z"
+      "fetched_at": "2026-08-03T04:27:23Z",
+      "updated_at": "2026-08-03T04:27:23Z"
     },
     {
       "product_id": "1005004966987077",
@@ -269,8 +269,8 @@
       "sales_volume": 1,
       "score": 0.2151,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:09Z",
-      "updated_at": "2026-08-02T23:01:09Z"
+      "fetched_at": "2026-08-03T04:27:23Z",
+      "updated_at": "2026-08-03T04:27:23Z"
     },
     {
       "product_id": "1005008437549906",
@@ -287,12 +287,12 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:10Z",
-      "updated_at": "2026-08-02T23:01:10Z"
+      "fetched_at": "2026-08-03T04:27:24Z",
+      "updated_at": "2026-08-03T04:27:24Z"
     },
     {
       "product_id": "1005003990707766",
-      "title": "Sricam SH038 HD 4.0MP Wifi IP Kamera 360° Mobile Remote View Indoor Baby Monitor Nacht Farb-Videoüberwachung CCTV Kamera",
+      "title": "Sricam SH038 HD 4.0MP Wifi IP Kamera 360° Mobile Remote View Indoor Baby Monitor Nachtfarb-Videoüberwachung CCTV Kamera",
       "slug": "sricam-sh038-hd-40mp-wifi-ip-camera-360-mobile-remote-view-i",
       "price": 27.03,
       "original_price": 42.24,
@@ -305,8 +305,8 @@
       "sales_volume": 10,
       "score": 0.2092,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:10Z",
-      "updated_at": "2026-08-02T23:01:10Z"
+      "fetched_at": "2026-08-03T04:27:24Z",
+      "updated_at": "2026-08-03T04:27:24Z"
     },
     {
       "product_id": "1005009858194664",
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.2084,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:10Z",
-      "updated_at": "2026-08-02T23:01:10Z"
+      "fetched_at": "2026-08-03T04:27:25Z",
+      "updated_at": "2026-08-03T04:27:25Z"
     },
     {
       "product_id": "1005004556206576",
@@ -341,8 +341,8 @@
       "sales_volume": 37,
       "score": 0.2017,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:11Z",
-      "updated_at": "2026-08-02T23:01:11Z"
+      "fetched_at": "2026-08-03T04:27:26Z",
+      "updated_at": "2026-08-03T04:27:26Z"
     },
     {
       "product_id": "32898805107",
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.201,
       "price_history": [],
-      "fetched_at": "2026-08-02T23:01:12Z",
-      "updated_at": "2026-08-02T23:01:12Z"
+      "fetched_at": "2026-08-03T04:27:26Z",
+      "updated_at": "2026-08-03T04:27:26Z"
     }
   ]
 }
