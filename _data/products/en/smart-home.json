@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-05T04:00:24Z",
+  "updated_at": "2026-08-05T08:37:01Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -18,7 +18,7 @@
       "score": 0.3225,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:29Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005012611600751",
@@ -36,7 +36,7 @@
       "score": 0.3197,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:30Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005006593842093",
@@ -54,7 +54,7 @@
       "score": 0.3138,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:30Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005012445621796",
@@ -72,7 +72,7 @@
       "score": 0.2999,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:31Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005006116663438",
@@ -90,7 +90,7 @@
       "score": 0.264,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:31Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005001394925942",
@@ -108,7 +108,7 @@
       "score": 0.2511,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:32Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005005604363467",
@@ -126,7 +126,7 @@
       "score": 0.2421,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:33Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005005807578430",
@@ -144,7 +144,7 @@
       "score": 0.2378,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:33Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005009306467710",
@@ -162,7 +162,7 @@
       "score": 0.2357,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:34Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "4000143784956",
@@ -180,7 +180,7 @@
       "score": 0.2282,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:34Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005004774956386",
@@ -198,7 +198,7 @@
       "score": 0.2272,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:35Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005010463738860",
@@ -216,7 +216,7 @@
       "score": 0.2254,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:35Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005011764540594",
@@ -234,7 +234,7 @@
       "score": 0.2228,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:36Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005004966987077",
@@ -252,7 +252,7 @@
       "score": 0.2151,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:36Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005008437549906",
@@ -270,14 +270,14 @@
       "score": 0.2101,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:37Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005003990707766",
       "title": "Sricam SH038 HD 4.0MP Wifi IP Camera 360° Mobile Remote View Indoor Baby Monitor Night Color Video Surveillance CCTV Camera",
       "slug": "sricam-sh038-hd-40mp-wifi-ip-camera-360-mobile-remote-view-i",
-      "price": "29.38",
-      "original_price": "45.91",
+      "price": "29.47",
+      "original_price": "46.04",
       "discount_pct": 36,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXPHO4jfUuj3OHiXW1zuseScT2rJAW93O8aihdxKweAZ55gdkpxw7ekCAQQPPoee19elwoBPCCWRVJnXBvGkvDPAmj7iE4VG7sEXr2OwGn3CfLmrHzYJTQiGUxiAskwrZqaPihjKMBau08EPGsjEKpdzs9DmTmzj7t5y1nt6uODvakxCwWyGogrviEh0zQ0T5QaXkEXSBFaVqe4QqhsQD6f4kOyw90f1fF2hGu7RwwVnW7RclwExtosKUp1tUVbLtF9idClhhvrF8436FJQAvw42lVUwxuTZLxfRahkGyhJQxnLrMpl2AOrcjQn6lA37ZP5HlyFlkGyvxgsytesxTpd8aMJEoby3x8cMDfefq9NmRAdDyEZ2YWBdVmJDvEClaxWN4ndeAze9ZDy2HMmE7vRrFLHF5BHJuQ1ElywWxMnUFplomNoAWPugHktKp7QvN8ZlVAKEDqmxThlG8Kfad5OH1cPVfzisTpAJYmDKyn1BJaR6nuxQLiLM1DJyOdwTWVp3XdV0WiaA28iSEqsYBpXOtYERJ6x5z0ebcgpcQKoF027mWscZQL1VLkl04Au38yAj4hGgXGxVycoX7mPWMw98z5NrMCluX8z7r3WR0UPx19Lajf0h200eVeutZdiYGTKJCYmd2zJxi7cffLagmHWFIcxlIclRXJuK53xZviotUiVqO4SBSsdkKoNJZLzwOFtZ9sC7Ak3bq",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1785126857/products/1005003990707766.webp",
@@ -288,7 +288,7 @@
       "score": 0.2092,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:38Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005009858194664",
@@ -306,7 +306,7 @@
       "score": 0.2084,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:38Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "32898805107",
@@ -324,7 +324,7 @@
       "score": 0.201,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:39Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "4001041588925",
@@ -342,7 +342,7 @@
       "score": 0.1998,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:39Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     },
     {
       "product_id": "1005006118602003",
@@ -360,7 +360,7 @@
       "score": 0.1994,
       "price_history": [],
       "fetched_at": "2026-08-04T23:00:40Z",
-      "updated_at": "2026-08-05T04:00:24Z"
+      "updated_at": "2026-08-05T08:37:01Z"
     }
   ]
 }
