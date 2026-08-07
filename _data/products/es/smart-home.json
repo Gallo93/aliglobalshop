@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-07T03:47:54Z",
+  "updated_at": "2026-08-07T23:00:43Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,12 +17,12 @@
       "sales_volume": 1670,
       "score": 0.3213,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:44Z",
-      "updated_at": "2026-08-07T03:47:44Z"
+      "fetched_at": "2026-08-07T23:00:33Z",
+      "updated_at": "2026-08-07T23:00:33Z"
     },
     {
       "product_id": "1005012611600751",
-      "title": "Cámara a granel Tuya Wireless Light 2MP HD E27 WiFi Seguridad IP Cámara 360 Pan Tilt Night Vision Motion Detection Two Way Audio Cam",
+      "title": "Cámara de bombilla Tuya Wireless Light 2MP HD E27 WiFi Seguridad IP Cámara 360 Pan Tilt Night Vision Detección de movimiento de dos formas Audio Cam",
       "slug": "bulb-camera-tuya-wireless-light-2mp-hd-e27-wifi-security-ip-",
       "price": 19.56,
       "original_price": 72.46,
@@ -35,8 +35,8 @@
       "sales_volume": 7,
       "score": 0.3198,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:45Z",
-      "updated_at": "2026-08-07T03:47:45Z"
+      "fetched_at": "2026-08-07T23:00:33Z",
+      "updated_at": "2026-08-07T23:00:33Z"
     },
     {
       "product_id": "1005006593842093",
@@ -53,8 +53,8 @@
       "sales_volume": 372,
       "score": 0.3116,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:45Z",
-      "updated_at": "2026-08-07T03:47:45Z"
+      "fetched_at": "2026-08-07T23:00:34Z",
+      "updated_at": "2026-08-07T23:00:34Z"
     },
     {
       "product_id": "1005012445621796",
@@ -71,8 +71,8 @@
       "sales_volume": 17,
       "score": 0.3,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:46Z",
-      "updated_at": "2026-08-07T03:47:46Z"
+      "fetched_at": "2026-08-07T23:00:34Z",
+      "updated_at": "2026-08-07T23:00:34Z"
     },
     {
       "product_id": "1005006116663438",
@@ -89,12 +89,12 @@
       "sales_volume": 14,
       "score": 0.2664,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:46Z",
-      "updated_at": "2026-08-07T03:47:46Z"
+      "fetched_at": "2026-08-07T23:00:34Z",
+      "updated_at": "2026-08-07T23:00:34Z"
     },
     {
       "product_id": "1005001394925942",
-      "title": "Cámara de goteo Wifi Onvif 3MP E27 lámpara a granel PTZ impermeable 4X zoom digital fácil de instalar al aire libre Inicio seguridad Ycc365plus",
+      "title": "Cámara de goteo Wifi Onvif 3MP E27 Lámpara a granel PTZ impermeable 4X zoom digital fácil de instalar al aire libre Inicio Seguridad Ycc365plus",
       "slug": "dropshipping-camera-wifi-onvif-3mp-e27-bulb-lamp-ptz-waterpr",
       "price": 27.59,
       "original_price": 55.18,
@@ -107,8 +107,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:47Z",
-      "updated_at": "2026-08-07T03:47:47Z"
+      "fetched_at": "2026-08-07T23:00:35Z",
+      "updated_at": "2026-08-07T23:00:35Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,8 +125,8 @@
       "sales_volume": 34,
       "score": 0.2419,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:47Z",
-      "updated_at": "2026-08-07T03:47:47Z"
+      "fetched_at": "2026-08-07T23:00:35Z",
+      "updated_at": "2026-08-07T23:00:35Z"
     },
     {
       "product_id": "1005009306467710",
@@ -143,8 +143,8 @@
       "sales_volume": 180,
       "score": 0.2383,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:48Z",
-      "updated_at": "2026-08-07T03:47:48Z"
+      "fetched_at": "2026-08-07T23:00:36Z",
+      "updated_at": "2026-08-07T23:00:36Z"
     },
     {
       "product_id": "1005005807578430",
@@ -161,8 +161,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:48Z",
-      "updated_at": "2026-08-07T03:47:48Z"
+      "fetched_at": "2026-08-07T23:00:37Z",
+      "updated_at": "2026-08-07T23:00:37Z"
     },
     {
       "product_id": "1005003462342443",
@@ -179,8 +179,8 @@
       "sales_volume": 451,
       "score": 0.2295,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:49Z",
-      "updated_at": "2026-08-07T03:47:49Z"
+      "fetched_at": "2026-08-07T23:00:38Z",
+      "updated_at": "2026-08-07T23:00:38Z"
     },
     {
       "product_id": "4000143784956",
@@ -197,8 +197,8 @@
       "sales_volume": 320,
       "score": 0.2287,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:49Z",
-      "updated_at": "2026-08-07T03:47:49Z"
+      "fetched_at": "2026-08-07T23:00:38Z",
+      "updated_at": "2026-08-07T23:00:38Z"
     },
     {
       "product_id": "1005004774956386",
@@ -215,12 +215,12 @@
       "sales_volume": 144,
       "score": 0.2273,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:50Z",
-      "updated_at": "2026-08-07T03:47:50Z"
+      "fetched_at": "2026-08-07T23:00:39Z",
+      "updated_at": "2026-08-07T23:00:39Z"
     },
     {
       "product_id": "1005010463738860",
-      "title": "Yoosee 5MP WiFi Seguridad PTZ Indoor IP Cámara 3MP Smart Home Seguridad Color Noche Visión Siren Alarm Humanoid Detection Ai Track",
+      "title": "Yoosee 5MP WiFi Seguridad PTZ Interior Cámara IP 3MP Smart Home Seguridad Color Noche Visión Siren Alarma Humanoide Detection Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
       "price": 24.75,
       "original_price": 41.25,
@@ -233,12 +233,12 @@
       "sales_volume": 52,
       "score": 0.2254,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:50Z",
-      "updated_at": "2026-08-07T03:47:50Z"
+      "fetched_at": "2026-08-07T23:00:39Z",
+      "updated_at": "2026-08-07T23:00:39Z"
     },
     {
       "product_id": "1005011764540594",
-      "title": "OKAM PRO 4G HD 5MP Cámara de cable Mini cámara de vigilancia inalámbrica 2400mAh batería potenciada PIR protección de seguridad",
+      "title": "OKAM PRO 4G HD 5MP Cámara de cable Mini cámara de vigilancia inalámbrica 2400mAh batería PIR detección humana protección de seguridad",
       "slug": "okam-pro-4g-hd-5mp-wifi-camera-mini-wireless-surveillance-ca",
       "price": 37.58,
       "original_price": 62.63,
@@ -251,8 +251,8 @@
       "sales_volume": 23,
       "score": 0.2228,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:51Z",
-      "updated_at": "2026-08-07T03:47:51Z"
+      "fetched_at": "2026-08-07T23:00:40Z",
+      "updated_at": "2026-08-07T23:00:40Z"
     },
     {
       "product_id": "1005004966987077",
@@ -269,8 +269,8 @@
       "sales_volume": 1,
       "score": 0.2151,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:51Z",
-      "updated_at": "2026-08-07T03:47:51Z"
+      "fetched_at": "2026-08-07T23:00:40Z",
+      "updated_at": "2026-08-07T23:00:40Z"
     },
     {
       "product_id": "1005008437549906",
@@ -287,8 +287,8 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:52Z",
-      "updated_at": "2026-08-07T03:47:52Z"
+      "fetched_at": "2026-08-07T23:00:41Z",
+      "updated_at": "2026-08-07T23:00:41Z"
     },
     {
       "product_id": "1005003990707766",
@@ -305,8 +305,8 @@
       "sales_volume": 11,
       "score": 0.2093,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:52Z",
-      "updated_at": "2026-08-07T03:47:52Z"
+      "fetched_at": "2026-08-07T23:00:41Z",
+      "updated_at": "2026-08-07T23:00:41Z"
     },
     {
       "product_id": "1005009858194664",
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.2084,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:53Z",
-      "updated_at": "2026-08-07T03:47:53Z"
+      "fetched_at": "2026-08-07T23:00:42Z",
+      "updated_at": "2026-08-07T23:00:42Z"
     },
     {
       "product_id": "1005003906939600",
@@ -341,8 +341,8 @@
       "sales_volume": 9,
       "score": 0.2028,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:54Z",
-      "updated_at": "2026-08-07T03:47:54Z"
+      "fetched_at": "2026-08-07T23:00:42Z",
+      "updated_at": "2026-08-07T23:00:42Z"
     },
     {
       "product_id": "32898805107",
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.201,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:54Z",
-      "updated_at": "2026-08-07T03:47:54Z"
+      "fetched_at": "2026-08-07T23:00:43Z",
+      "updated_at": "2026-08-07T23:00:43Z"
     }
   ]
 }

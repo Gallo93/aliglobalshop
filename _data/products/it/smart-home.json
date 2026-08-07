@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-07T03:47:54Z",
+  "updated_at": "2026-08-07T23:00:43Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1670,
       "score": 0.3213,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:44Z",
-      "updated_at": "2026-08-07T03:47:44Z"
+      "fetched_at": "2026-08-07T23:00:33Z",
+      "updated_at": "2026-08-07T23:00:33Z"
     },
     {
       "product_id": "1005012611600751",
@@ -35,8 +35,8 @@
       "sales_volume": 7,
       "score": 0.3198,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:45Z",
-      "updated_at": "2026-08-07T03:47:45Z"
+      "fetched_at": "2026-08-07T23:00:33Z",
+      "updated_at": "2026-08-07T23:00:33Z"
     },
     {
       "product_id": "1005006593842093",
@@ -53,8 +53,8 @@
       "sales_volume": 372,
       "score": 0.3116,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:45Z",
-      "updated_at": "2026-08-07T03:47:45Z"
+      "fetched_at": "2026-08-07T23:00:34Z",
+      "updated_at": "2026-08-07T23:00:34Z"
     },
     {
       "product_id": "1005012445621796",
@@ -71,12 +71,12 @@
       "sales_volume": 17,
       "score": 0.3,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:46Z",
-      "updated_at": "2026-08-07T03:47:46Z"
+      "fetched_at": "2026-08-07T23:00:34Z",
+      "updated_at": "2026-08-07T23:00:34Z"
     },
     {
       "product_id": "1005006116663438",
-      "title": "Hiseeu 4K 8MP telecamera di sorveglianza Wi-Fi Dual Lens 4X Digital Zoom AI Human Detect Wireless Outdoor Security PTZ telecamere IP",
+      "title": "Hiseeu 4K 8MP Telecamera di sorveglianza Wi-Fi Dual Lens 4X Digital Zoom AI Human Detect Wireless Outdoor Security PTZ telecamere IP",
       "slug": "hiseeu-4k-8mp-wifi-surveillance-camera-dual-lens-4x-digital-",
       "price": 33.04,
       "original_price": 75.09,
@@ -89,8 +89,8 @@
       "sales_volume": 14,
       "score": 0.2664,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:46Z",
-      "updated_at": "2026-08-07T03:47:46Z"
+      "fetched_at": "2026-08-07T23:00:34Z",
+      "updated_at": "2026-08-07T23:00:34Z"
     },
     {
       "product_id": "1005001394925942",
@@ -107,8 +107,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:47Z",
-      "updated_at": "2026-08-07T03:47:47Z"
+      "fetched_at": "2026-08-07T23:00:35Z",
+      "updated_at": "2026-08-07T23:00:35Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,12 +125,12 @@
       "sales_volume": 34,
       "score": 0.2419,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:47Z",
-      "updated_at": "2026-08-07T03:47:47Z"
+      "fetched_at": "2026-08-07T23:00:35Z",
+      "updated_at": "2026-08-07T23:00:35Z"
     },
     {
       "product_id": "1005009306467710",
-      "title": "4MP HD 5G WiFi PTZ Macchina fotografica Auto Tracking Cry Detector Home Sicurezza Interna Telecamere di sorveglianza CCTV Baby Monitor",
+      "title": "4MP HD 5G WiFi PTZ telecamera auto Tracking Cry Detector Home Sicurezza Interna telecamere di sorveglianza CCTV Baby Monitor",
       "slug": "4mp-hd-5g-wifi-ptz-camera-auto-tracking-cry-detector-home-in",
       "price": 10.12,
       "original_price": 18.4,
@@ -143,8 +143,8 @@
       "sales_volume": 180,
       "score": 0.2383,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:48Z",
-      "updated_at": "2026-08-07T03:47:48Z"
+      "fetched_at": "2026-08-07T23:00:36Z",
+      "updated_at": "2026-08-07T23:00:36Z"
     },
     {
       "product_id": "1005005807578430",
@@ -161,8 +161,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:48Z",
-      "updated_at": "2026-08-07T03:47:48Z"
+      "fetched_at": "2026-08-07T23:00:37Z",
+      "updated_at": "2026-08-07T23:00:37Z"
     },
     {
       "product_id": "1005003462342443",
@@ -179,8 +179,8 @@
       "sales_volume": 451,
       "score": 0.2295,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:49Z",
-      "updated_at": "2026-08-07T03:47:49Z"
+      "fetched_at": "2026-08-07T23:00:38Z",
+      "updated_at": "2026-08-07T23:00:38Z"
     },
     {
       "product_id": "4000143784956",
@@ -197,8 +197,8 @@
       "sales_volume": 320,
       "score": 0.2287,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:49Z",
-      "updated_at": "2026-08-07T03:47:49Z"
+      "fetched_at": "2026-08-07T23:00:38Z",
+      "updated_at": "2026-08-07T23:00:38Z"
     },
     {
       "product_id": "1005004774956386",
@@ -215,8 +215,8 @@
       "sales_volume": 144,
       "score": 0.2273,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:50Z",
-      "updated_at": "2026-08-07T03:47:50Z"
+      "fetched_at": "2026-08-07T23:00:39Z",
+      "updated_at": "2026-08-07T23:00:39Z"
     },
     {
       "product_id": "1005010463738860",
@@ -233,8 +233,8 @@
       "sales_volume": 52,
       "score": 0.2254,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:50Z",
-      "updated_at": "2026-08-07T03:47:50Z"
+      "fetched_at": "2026-08-07T23:00:39Z",
+      "updated_at": "2026-08-07T23:00:39Z"
     },
     {
       "product_id": "1005011764540594",
@@ -251,8 +251,8 @@
       "sales_volume": 23,
       "score": 0.2228,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:51Z",
-      "updated_at": "2026-08-07T03:47:51Z"
+      "fetched_at": "2026-08-07T23:00:40Z",
+      "updated_at": "2026-08-07T23:00:40Z"
     },
     {
       "product_id": "1005004966987077",
@@ -269,8 +269,8 @@
       "sales_volume": 1,
       "score": 0.2151,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:51Z",
-      "updated_at": "2026-08-07T03:47:51Z"
+      "fetched_at": "2026-08-07T23:00:40Z",
+      "updated_at": "2026-08-07T23:00:40Z"
     },
     {
       "product_id": "1005008437549906",
@@ -287,8 +287,8 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:52Z",
-      "updated_at": "2026-08-07T03:47:52Z"
+      "fetched_at": "2026-08-07T23:00:41Z",
+      "updated_at": "2026-08-07T23:00:41Z"
     },
     {
       "product_id": "1005003990707766",
@@ -305,8 +305,8 @@
       "sales_volume": 11,
       "score": 0.2093,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:52Z",
-      "updated_at": "2026-08-07T03:47:52Z"
+      "fetched_at": "2026-08-07T23:00:41Z",
+      "updated_at": "2026-08-07T23:00:41Z"
     },
     {
       "product_id": "1005009858194664",
@@ -323,12 +323,12 @@
       "sales_volume": 3,
       "score": 0.2084,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:53Z",
-      "updated_at": "2026-08-07T03:47:53Z"
+      "fetched_at": "2026-08-07T23:00:42Z",
+      "updated_at": "2026-08-07T23:00:42Z"
     },
     {
       "product_id": "1005003906939600",
-      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Serie 560 620 650 760 770 870 R3",
+      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Series 560 620 630 650 760 770 870 R3",
       "slug": "sparkole-53-ah-148v-li-ion-battery-with-brand-cells-for-irob",
       "price": 21.01,
       "original_price": 32.33,
@@ -341,12 +341,12 @@
       "sales_volume": 9,
       "score": 0.2028,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:54Z",
-      "updated_at": "2026-08-07T03:47:54Z"
+      "fetched_at": "2026-08-07T23:00:42Z",
+      "updated_at": "2026-08-07T23:00:42Z"
     },
     {
       "product_id": "32898805107",
-      "title": "Mi luce dimmerabile 4W GU10/MR16 Led lampadina RGB CCT (2700-6500K) lampada Decorazione interna + 2.4G RF LED Remote Control Home Illuminazione",
+      "title": "Mi Light Dimmerable 4W GU10/MR16 Led Bulb RGB CCT (2700-6500K) Decorazione interna della lampada + 2.4G RF LED Remote Control Home Illuminazione",
       "slug": "mi-light-dimmable-4w-gu10mr16-led-bulb-rgb-cct-2700-6500k-la",
       "price": 12.74,
       "original_price": 19.02,
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.201,
       "price_history": [],
-      "fetched_at": "2026-08-07T03:47:54Z",
-      "updated_at": "2026-08-07T03:47:54Z"
+      "fetched_at": "2026-08-07T23:00:43Z",
+      "updated_at": "2026-08-07T23:00:43Z"
     }
   ]
 }
