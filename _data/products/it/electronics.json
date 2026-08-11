@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-08-11T03:02:33Z",
+  "updated_at": "2026-08-11T23:00:26Z",
   "products": [
     {
       "product_id": "1005012724174270",
@@ -17,8 +17,8 @@
       "sales_volume": 15,
       "score": 0.3001,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:18Z",
-      "updated_at": "2026-08-11T03:02:18Z"
+      "fetched_at": "2026-08-11T23:00:17Z",
+      "updated_at": "2026-08-11T23:00:17Z"
     },
     {
       "product_id": "1005009369207724",
@@ -35,12 +35,12 @@
       "sales_volume": 17,
       "score": 0.282,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:19Z",
-      "updated_at": "2026-08-11T03:02:19Z"
+      "fetched_at": "2026-08-11T23:00:17Z",
+      "updated_at": "2026-08-11T23:00:17Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holding Accessori",
+      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holder Accessori",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 43.72,
       "original_price": 91.08,
@@ -53,8 +53,8 @@
       "sales_volume": 27,
       "score": 0.2592,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:19Z",
-      "updated_at": "2026-08-11T03:02:19Z"
+      "fetched_at": "2026-08-11T23:00:18Z",
+      "updated_at": "2026-08-11T23:00:18Z"
     },
     {
       "product_id": "1005012333786293",
@@ -71,8 +71,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:20Z",
-      "updated_at": "2026-08-11T03:02:20Z"
+      "fetched_at": "2026-08-11T23:00:18Z",
+      "updated_at": "2026-08-11T23:00:18Z"
     },
     {
       "product_id": "1005010660256913",
@@ -89,8 +89,8 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:20Z",
-      "updated_at": "2026-08-11T03:02:20Z"
+      "fetched_at": "2026-08-11T23:00:18Z",
+      "updated_at": "2026-08-11T23:00:18Z"
     },
     {
       "product_id": "1005012469010860",
@@ -107,8 +107,8 @@
       "sales_volume": 14,
       "score": 0.2403,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:21Z",
-      "updated_at": "2026-08-11T03:02:21Z"
+      "fetched_at": "2026-08-11T23:00:19Z",
+      "updated_at": "2026-08-11T23:00:19Z"
     },
     {
       "product_id": "1005012206657079",
@@ -125,12 +125,12 @@
       "sales_volume": 5,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:22Z",
-      "updated_at": "2026-08-11T03:02:22Z"
+      "fetched_at": "2026-08-11T23:00:20Z",
+      "updated_at": "2026-08-11T23:00:20Z"
     },
     {
       "product_id": "1005011532019654",
-      "title": "Per pad di ricarica wireless XPENG G7, pad tazza di silicone di controllo centrale",
+      "title": "Per pad di ricarica wireless XPENG G7, pad tazza in silicone di controllo centrale",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
       "price": 11.72,
       "original_price": 39.09,
@@ -143,8 +143,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:22Z",
-      "updated_at": "2026-08-11T03:02:22Z"
+      "fetched_at": "2026-08-11T23:00:21Z",
+      "updated_at": "2026-08-11T23:00:21Z"
     },
     {
       "product_id": "1005011532039236",
@@ -161,12 +161,12 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:23Z",
-      "updated_at": "2026-08-11T03:02:23Z"
+      "fetched_at": "2026-08-11T23:00:21Z",
+      "updated_at": "2026-08-11T23:00:21Z"
     },
     {
       "product_id": "1005011774391020",
-      "title": "ROSESELSA Earfeel i5\\Earfree i5 True Wireless Earbuds IPX5 Impermeabile ibrido ANC\\LDAC HiFi Sound Wireless Earphones",
+      "title": "ROSESELSA Earfeel i5\\Earfree i5 True Wireless Earbuds IPX5 impermeabile ibrido ANC\\LDAC HiFi audio wireless auricolari",
       "slug": "roseselsa-earfeel-i5earfree-i5-true-wireless-earbuds-ipx5-wa",
       "price": 54.16,
       "original_price": 84.63,
@@ -179,8 +179,8 @@
       "sales_volume": 9,
       "score": 0.2091,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:24Z",
-      "updated_at": "2026-08-11T03:02:24Z"
+      "fetched_at": "2026-08-11T23:00:21Z",
+      "updated_at": "2026-08-11T23:00:21Z"
     },
     {
       "product_id": "1005009896941801",
@@ -197,8 +197,8 @@
       "sales_volume": 2,
       "score": 0.2072,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:24Z",
-      "updated_at": "2026-08-11T03:02:24Z"
+      "fetched_at": "2026-08-11T23:00:22Z",
+      "updated_at": "2026-08-11T23:00:22Z"
     },
     {
       "product_id": "1005009093766779",
@@ -215,8 +215,8 @@
       "sales_volume": 9,
       "score": 0.2051,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:25Z",
-      "updated_at": "2026-08-11T03:02:25Z"
+      "fetched_at": "2026-08-11T23:00:22Z",
+      "updated_at": "2026-08-11T23:00:22Z"
     },
     {
       "product_id": "1005009849333993",
@@ -233,8 +233,8 @@
       "sales_volume": 9,
       "score": 0.1911,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:25Z",
-      "updated_at": "2026-08-11T03:02:25Z"
+      "fetched_at": "2026-08-11T23:00:23Z",
+      "updated_at": "2026-08-11T23:00:23Z"
     },
     {
       "product_id": "1005008172692579",
@@ -251,8 +251,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:26Z",
-      "updated_at": "2026-08-11T03:02:26Z"
+      "fetched_at": "2026-08-11T23:00:23Z",
+      "updated_at": "2026-08-11T23:00:23Z"
     },
     {
       "product_id": "1005005493124553",
@@ -269,12 +269,12 @@
       "sales_volume": 4,
       "score": 0.1905,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:27Z",
-      "updated_at": "2026-08-11T03:02:27Z"
+      "fetched_at": "2026-08-11T23:00:24Z",
+      "updated_at": "2026-08-11T23:00:24Z"
     },
     {
       "product_id": "33007923484",
-      "title": "Borsa per diffusore di stoccaggio della custodia della scatola di trasporto portatile resistente EVA per accessori Bluetooth del diffusore di Stockwell di MARSHALL",
+      "title": "Borsa per diffusore di stoccaggio della custodia della scatola di trasporto portatile resistente EVA per accessori di altoparlante Bluetooth di Stockwell MARSHALL",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 11.49,
       "original_price": 16.42,
@@ -287,8 +287,8 @@
       "sales_volume": 17,
       "score": 0.187,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:28Z",
-      "updated_at": "2026-08-11T03:02:28Z"
+      "fetched_at": "2026-08-11T23:00:24Z",
+      "updated_at": "2026-08-11T23:00:24Z"
     },
     {
       "product_id": "1005010537643071",
@@ -305,8 +305,8 @@
       "sales_volume": 5,
       "score": 0.1846,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:29Z",
-      "updated_at": "2026-08-11T03:02:29Z"
+      "fetched_at": "2026-08-11T23:00:25Z",
+      "updated_at": "2026-08-11T23:00:25Z"
     },
     {
       "product_id": "1005007065066717",
@@ -323,8 +323,8 @@
       "sales_volume": 73,
       "score": 0.1778,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:31Z",
-      "updated_at": "2026-08-11T03:02:31Z"
+      "fetched_at": "2026-08-11T23:00:25Z",
+      "updated_at": "2026-08-11T23:00:25Z"
     },
     {
       "product_id": "1005009251414102",
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.1751,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:32Z",
-      "updated_at": "2026-08-11T03:02:32Z"
+      "fetched_at": "2026-08-11T23:00:26Z",
+      "updated_at": "2026-08-11T23:00:26Z"
     },
     {
       "product_id": "1005012745139264",
@@ -359,8 +359,8 @@
       "sales_volume": 1,
       "score": 0.1701,
       "price_history": [],
-      "fetched_at": "2026-08-11T03:02:33Z",
-      "updated_at": "2026-08-11T03:02:33Z"
+      "fetched_at": "2026-08-11T23:00:26Z",
+      "updated_at": "2026-08-11T23:00:26Z"
     }
   ]
 }
