@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-12T03:21:53Z",
+  "updated_at": "2026-08-12T23:00:36Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,12 +17,12 @@
       "sales_volume": 1662,
       "score": 0.3504,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:44Z",
-      "updated_at": "2026-08-12T03:21:44Z"
+      "fetched_at": "2026-08-12T23:00:27Z",
+      "updated_at": "2026-08-12T23:00:27Z"
     },
     {
       "product_id": "1005012611600751",
-      "title": "Bulb Camera Tuya Wireless Light 2MP HD E27 WiFi Telecamera IP di sicurezza 360 Pan Tilt notte Visione di movimento Detection Two Way Audio Cam",
+      "title": "Bulb Camera Tuya Wireless Light 2MP HD E27 WiFi Telecamera IP di sicurezza 360 Pan Tilt Night Vision Motion Detection Two Way Audio Cam",
       "slug": "bulb-camera-tuya-wireless-light-2mp-hd-e27-wifi-security-ip-",
       "price": 20.29,
       "original_price": 72.46,
@@ -35,8 +35,8 @@
       "sales_volume": 9,
       "score": 0.3171,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:44Z",
-      "updated_at": "2026-08-12T03:21:44Z"
+      "fetched_at": "2026-08-12T23:00:28Z",
+      "updated_at": "2026-08-12T23:00:28Z"
     },
     {
       "product_id": "1005006593842093",
@@ -53,8 +53,8 @@
       "sales_volume": 342,
       "score": 0.302,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:44Z",
-      "updated_at": "2026-08-12T03:21:44Z"
+      "fetched_at": "2026-08-12T23:00:28Z",
+      "updated_at": "2026-08-12T23:00:28Z"
     },
     {
       "product_id": "1005012445621796",
@@ -71,8 +71,8 @@
       "sales_volume": 18,
       "score": 0.2822,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:45Z",
-      "updated_at": "2026-08-12T03:21:45Z"
+      "fetched_at": "2026-08-12T23:00:29Z",
+      "updated_at": "2026-08-12T23:00:29Z"
     },
     {
       "product_id": "1005002334218166",
@@ -89,8 +89,8 @@
       "sales_volume": 226,
       "score": 0.2709,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:46Z",
-      "updated_at": "2026-08-12T03:21:46Z"
+      "fetched_at": "2026-08-12T23:00:29Z",
+      "updated_at": "2026-08-12T23:00:29Z"
     },
     {
       "product_id": "1005001394925942",
@@ -107,8 +107,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:47Z",
-      "updated_at": "2026-08-12T03:21:47Z"
+      "fetched_at": "2026-08-12T23:00:30Z",
+      "updated_at": "2026-08-12T23:00:30Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,8 +125,8 @@
       "sales_volume": 35,
       "score": 0.2384,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:47Z",
-      "updated_at": "2026-08-12T03:21:47Z"
+      "fetched_at": "2026-08-12T23:00:30Z",
+      "updated_at": "2026-08-12T23:00:30Z"
     },
     {
       "product_id": "1005005807578430",
@@ -143,8 +143,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:48Z",
-      "updated_at": "2026-08-12T03:21:48Z"
+      "fetched_at": "2026-08-12T23:00:31Z",
+      "updated_at": "2026-08-12T23:00:31Z"
     },
     {
       "product_id": "1005003462342443",
@@ -161,8 +161,8 @@
       "sales_volume": 427,
       "score": 0.2265,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:48Z",
-      "updated_at": "2026-08-12T03:21:48Z"
+      "fetched_at": "2026-08-12T23:00:31Z",
+      "updated_at": "2026-08-12T23:00:31Z"
     },
     {
       "product_id": "4000143784956",
@@ -179,12 +179,12 @@
       "sales_volume": 320,
       "score": 0.2257,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:49Z",
-      "updated_at": "2026-08-12T03:21:49Z"
+      "fetched_at": "2026-08-12T23:00:32Z",
+      "updated_at": "2026-08-12T23:00:32Z"
     },
     {
       "product_id": "1005009306467710",
-      "title": "4MP HD 5G WiFi PTZ telecamera auto Tracking Cry Detector Home Sicurezza Interna telecamere di sorveglianza CCTV Baby Monitor",
+      "title": "4MP HD 5G WiFi PTZ Macchina fotografica Auto Tracking Cry Detector Home Sicurezza Interna Telecamere di sorveglianza CCTV Baby Monitor",
       "slug": "4mp-hd-5g-wifi-ptz-camera-auto-tracking-cry-detector-home-in",
       "price": 11.04,
       "original_price": 18.4,
@@ -197,8 +197,8 @@
       "sales_volume": 194,
       "score": 0.2253,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:49Z",
-      "updated_at": "2026-08-12T03:21:49Z"
+      "fetched_at": "2026-08-12T23:00:32Z",
+      "updated_at": "2026-08-12T23:00:32Z"
     },
     {
       "product_id": "1005010463738860",
@@ -215,8 +215,8 @@
       "sales_volume": 50,
       "score": 0.2252,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:49Z",
-      "updated_at": "2026-08-12T03:21:49Z"
+      "fetched_at": "2026-08-12T23:00:32Z",
+      "updated_at": "2026-08-12T23:00:32Z"
     },
     {
       "product_id": "1005011764540594",
@@ -233,8 +233,8 @@
       "sales_volume": 22,
       "score": 0.2226,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:50Z",
-      "updated_at": "2026-08-12T03:21:50Z"
+      "fetched_at": "2026-08-12T23:00:33Z",
+      "updated_at": "2026-08-12T23:00:33Z"
     },
     {
       "product_id": "1005012750087339",
@@ -251,12 +251,12 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:50Z",
-      "updated_at": "2026-08-12T03:21:50Z"
+      "fetched_at": "2026-08-12T23:00:33Z",
+      "updated_at": "2026-08-12T23:00:33Z"
     },
     {
       "product_id": "1005008090894761",
-      "title": "Telecamera HiEasy Robot 5MP Wifi Indoor PTZ telecamera di sicurezza senza fili IR visione notturna Monitor auto a due vie Audio per il bambino",
+      "title": "Telecamera HiEasy Robot 5MP Wifi Telecamera di sicurezza senza fili PTZ Interno IR Visione notturna Monitor auto a due vie",
       "slug": "hieasy-robot-camera-5mp-wifi-indoor-ptz-wireless-security-ca",
       "price": 30.64,
       "original_price": 51.06,
@@ -269,12 +269,12 @@
       "sales_volume": 22,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:51Z",
-      "updated_at": "2026-08-12T03:21:51Z"
+      "fetched_at": "2026-08-12T23:00:34Z",
+      "updated_at": "2026-08-12T23:00:34Z"
     },
     {
       "product_id": "1005004774956386",
-      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 sensore funziona con Alexa Google Home Assistant",
+      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 Sensor funziona con Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
       "price": 31.61,
       "original_price": 47.19,
@@ -287,8 +287,8 @@
       "sales_volume": 141,
       "score": 0.2149,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:51Z",
-      "updated_at": "2026-08-12T03:21:51Z"
+      "fetched_at": "2026-08-12T23:00:34Z",
+      "updated_at": "2026-08-12T23:00:34Z"
     },
     {
       "product_id": "1005003568997399",
@@ -305,8 +305,8 @@
       "sales_volume": 97,
       "score": 0.2106,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:52Z",
-      "updated_at": "2026-08-12T03:21:52Z"
+      "fetched_at": "2026-08-12T23:00:35Z",
+      "updated_at": "2026-08-12T23:00:35Z"
     },
     {
       "product_id": "1005008437549906",
@@ -323,8 +323,8 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:52Z",
-      "updated_at": "2026-08-12T03:21:52Z"
+      "fetched_at": "2026-08-12T23:00:35Z",
+      "updated_at": "2026-08-12T23:00:35Z"
     },
     {
       "product_id": "1005009559994857",
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.2036,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:53Z",
-      "updated_at": "2026-08-12T03:21:53Z"
+      "fetched_at": "2026-08-12T23:00:35Z",
+      "updated_at": "2026-08-12T23:00:35Z"
     },
     {
       "product_id": "1005004966987077",
@@ -359,8 +359,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:53Z",
-      "updated_at": "2026-08-12T03:21:53Z"
+      "fetched_at": "2026-08-12T23:00:36Z",
+      "updated_at": "2026-08-12T23:00:36Z"
     }
   ]
 }

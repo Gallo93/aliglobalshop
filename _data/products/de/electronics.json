@@ -1,10 +1,10 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-08-12T03:21:32Z",
+  "updated_at": "2026-08-12T23:00:25Z",
   "products": [
     {
       "product_id": "4001142960865",
-      "title": "LED Strip Light , RGB 5050 / SMD3535, Flexibles Band, DIY Led Light Strip RGB Tape Diode DC 12V Bluetooth Weihnachtsbeleuchtung",
+      "title": "LED Strip Light, RGB 5050 / SMD3535, Flexibles Band, DIY Led Light Strip RGB Tape Diode DC 12V Bluetooth Weihnachtsbeleuchtung",
       "slug": "led-strip-light-rgb-5050smd3535-flexible-ribbon-diy-led-ligh",
       "price": 11.56,
       "original_price": 42.8,
@@ -17,8 +17,8 @@
       "sales_volume": 31,
       "score": 0.3227,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:22Z",
-      "updated_at": "2026-08-12T03:21:22Z"
+      "fetched_at": "2026-08-12T23:00:16Z",
+      "updated_at": "2026-08-12T23:00:16Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,8 +35,8 @@
       "sales_volume": 121,
       "score": 0.3125,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:22Z",
-      "updated_at": "2026-08-12T03:21:22Z"
+      "fetched_at": "2026-08-12T23:00:16Z",
+      "updated_at": "2026-08-12T23:00:16Z"
     },
     {
       "product_id": "1005007480971055",
@@ -53,8 +53,8 @@
       "sales_volume": 232,
       "score": 0.2836,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:23Z",
-      "updated_at": "2026-08-12T03:21:23Z"
+      "fetched_at": "2026-08-12T23:00:17Z",
+      "updated_at": "2026-08-12T23:00:17Z"
     },
     {
       "product_id": "1005012229118016",
@@ -71,8 +71,8 @@
       "sales_volume": 585,
       "score": 0.2694,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:23Z",
-      "updated_at": "2026-08-12T03:21:23Z"
+      "fetched_at": "2026-08-12T23:00:17Z",
+      "updated_at": "2026-08-12T23:00:17Z"
     },
     {
       "product_id": "1005009017398891",
@@ -89,8 +89,8 @@
       "sales_volume": 248,
       "score": 0.2618,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:24Z",
-      "updated_at": "2026-08-12T03:21:24Z"
+      "fetched_at": "2026-08-12T23:00:18Z",
+      "updated_at": "2026-08-12T23:00:18Z"
     },
     {
       "product_id": "1005010253348075",
@@ -107,8 +107,8 @@
       "sales_volume": 27,
       "score": 0.2592,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:24Z",
-      "updated_at": "2026-08-12T03:21:24Z"
+      "fetched_at": "2026-08-12T23:00:18Z",
+      "updated_at": "2026-08-12T23:00:18Z"
     },
     {
       "product_id": "1005012272048246",
@@ -125,8 +125,8 @@
       "sales_volume": 8,
       "score": 0.254,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:24Z",
-      "updated_at": "2026-08-12T03:21:24Z"
+      "fetched_at": "2026-08-12T23:00:18Z",
+      "updated_at": "2026-08-12T23:00:18Z"
     },
     {
       "product_id": "1005012219557684",
@@ -143,8 +143,8 @@
       "sales_volume": 35,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:25Z",
-      "updated_at": "2026-08-12T03:21:25Z"
+      "fetched_at": "2026-08-12T23:00:19Z",
+      "updated_at": "2026-08-12T23:00:19Z"
     },
     {
       "product_id": "1005011812151458",
@@ -161,8 +161,8 @@
       "sales_volume": 81,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:25Z",
-      "updated_at": "2026-08-12T03:21:25Z"
+      "fetched_at": "2026-08-12T23:00:19Z",
+      "updated_at": "2026-08-12T23:00:19Z"
     },
     {
       "product_id": "1005010660256913",
@@ -179,8 +179,8 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:26Z",
-      "updated_at": "2026-08-12T03:21:26Z"
+      "fetched_at": "2026-08-12T23:00:20Z",
+      "updated_at": "2026-08-12T23:00:20Z"
     },
     {
       "product_id": "1005012124170204",
@@ -197,8 +197,8 @@
       "sales_volume": 50,
       "score": 0.2477,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:26Z",
-      "updated_at": "2026-08-12T03:21:26Z"
+      "fetched_at": "2026-08-12T23:00:20Z",
+      "updated_at": "2026-08-12T23:00:20Z"
     },
     {
       "product_id": "1005012206657079",
@@ -215,8 +215,8 @@
       "sales_volume": 5,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:28Z",
-      "updated_at": "2026-08-12T03:21:28Z"
+      "fetched_at": "2026-08-12T23:00:21Z",
+      "updated_at": "2026-08-12T23:00:21Z"
     },
     {
       "product_id": "1005011532039236",
@@ -233,8 +233,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:28Z",
-      "updated_at": "2026-08-12T03:21:28Z"
+      "fetched_at": "2026-08-12T23:00:21Z",
+      "updated_at": "2026-08-12T23:00:21Z"
     },
     {
       "product_id": "1005009896941801",
@@ -251,8 +251,8 @@
       "sales_volume": 1,
       "score": 0.2071,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:28Z",
-      "updated_at": "2026-08-12T03:21:28Z"
+      "fetched_at": "2026-08-12T23:00:22Z",
+      "updated_at": "2026-08-12T23:00:22Z"
     },
     {
       "product_id": "1005009873262361",
@@ -269,8 +269,8 @@
       "sales_volume": 18,
       "score": 0.1931,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:29Z",
-      "updated_at": "2026-08-12T03:21:29Z"
+      "fetched_at": "2026-08-12T23:00:22Z",
+      "updated_at": "2026-08-12T23:00:22Z"
     },
     {
       "product_id": "1005008172692579",
@@ -287,8 +287,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:29Z",
-      "updated_at": "2026-08-12T03:21:29Z"
+      "fetched_at": "2026-08-12T23:00:23Z",
+      "updated_at": "2026-08-12T23:00:23Z"
     },
     {
       "product_id": "1005005493124553",
@@ -305,12 +305,12 @@
       "sales_volume": 4,
       "score": 0.1905,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:30Z",
-      "updated_at": "2026-08-12T03:21:30Z"
+      "fetched_at": "2026-08-12T23:00:23Z",
+      "updated_at": "2026-08-12T23:00:23Z"
     },
     {
       "product_id": "33007923484",
-      "title": "EVA Hard Portable Schutzbox Abdeckung Speicher-Lautsprecher für MARSHALL Stockwell Bluetooth Lautsprecher Zubehör",
+      "title": "EVA Hard Portable Protective Carrying Box Cover Speichertasche für MARSHALL Stockwell Bluetooth Lautsprecherzubehör",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 11.49,
       "original_price": 16.42,
@@ -323,8 +323,8 @@
       "sales_volume": 17,
       "score": 0.187,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:30Z",
-      "updated_at": "2026-08-12T03:21:30Z"
+      "fetched_at": "2026-08-12T23:00:24Z",
+      "updated_at": "2026-08-12T23:00:24Z"
     },
     {
       "product_id": "1005010537643071",
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.1846,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:31Z",
-      "updated_at": "2026-08-12T03:21:31Z"
+      "fetched_at": "2026-08-12T23:00:24Z",
+      "updated_at": "2026-08-12T23:00:24Z"
     },
     {
       "product_id": "1005005632971536",
@@ -359,8 +359,8 @@
       "sales_volume": 16,
       "score": 0.1769,
       "price_history": [],
-      "fetched_at": "2026-08-12T03:21:31Z",
-      "updated_at": "2026-08-12T03:21:31Z"
+      "fetched_at": "2026-08-12T23:00:24Z",
+      "updated_at": "2026-08-12T23:00:24Z"
     }
   ]
 }
