@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-08-13T03:25:08Z",
+  "updated_at": "2026-08-13T23:00:32Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -17,8 +17,8 @@
       "sales_volume": 30,
       "score": 0.3226,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:54Z",
-      "updated_at": "2026-08-13T03:24:54Z"
+      "fetched_at": "2026-08-13T23:00:20Z",
+      "updated_at": "2026-08-13T23:00:20Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,8 +35,8 @@
       "sales_volume": 121,
       "score": 0.3125,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:54Z",
-      "updated_at": "2026-08-13T03:24:54Z"
+      "fetched_at": "2026-08-13T23:00:21Z",
+      "updated_at": "2026-08-13T23:00:21Z"
     },
     {
       "product_id": "1005009369207724",
@@ -53,8 +53,8 @@
       "sales_volume": 17,
       "score": 0.282,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:55Z",
-      "updated_at": "2026-08-13T03:24:55Z"
+      "fetched_at": "2026-08-13T23:00:21Z",
+      "updated_at": "2026-08-13T23:00:21Z"
     },
     {
       "product_id": "1005012229118016",
@@ -71,8 +71,8 @@
       "sales_volume": 610,
       "score": 0.2717,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:56Z",
-      "updated_at": "2026-08-13T03:24:56Z"
+      "fetched_at": "2026-08-13T23:00:22Z",
+      "updated_at": "2026-08-13T23:00:22Z"
     },
     {
       "product_id": "1005009017398891",
@@ -89,12 +89,12 @@
       "sales_volume": 246,
       "score": 0.2615,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:56Z",
-      "updated_at": "2026-08-13T03:24:56Z"
+      "fetched_at": "2026-08-13T23:00:22Z",
+      "updated_at": "2026-08-13T23:00:22Z"
     },
     {
       "product_id": "1005008765017959",
-      "title": "Altoparlante del suono dello stereo del basso dell'altoparlante della doppia modalità cablato del Bluetooth dell'aggiornamento nero per il computer portatile",
+      "title": "Altoparlante del suono dello stereo del basso dell'involucro del cavo di Bluetooth dell'aggiornamento nero per la TV del computer portatile del desktop",
       "slug": "black-upgrade-bluetooth-wired-dual-mode-surround-bass-stereo",
       "price": 8.03,
       "original_price": 20.08,
@@ -107,12 +107,12 @@
       "sales_volume": 11,
       "score": 0.2613,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:57Z",
-      "updated_at": "2026-08-13T03:24:57Z"
+      "fetched_at": "2026-08-13T23:00:23Z",
+      "updated_at": "2026-08-13T23:00:23Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holding Accessori",
+      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holder Accessori",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 43.72,
       "original_price": 91.08,
@@ -125,8 +125,8 @@
       "sales_volume": 27,
       "score": 0.2592,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:58Z",
-      "updated_at": "2026-08-13T03:24:58Z"
+      "fetched_at": "2026-08-13T23:00:23Z",
+      "updated_at": "2026-08-13T23:00:23Z"
     },
     {
       "product_id": "1005012219557684",
@@ -143,12 +143,12 @@
       "sales_volume": 35,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:58Z",
-      "updated_at": "2026-08-13T03:24:58Z"
+      "fetched_at": "2026-08-13T23:00:24Z",
+      "updated_at": "2026-08-13T23:00:24Z"
     },
     {
       "product_id": "1005011812151458",
-      "title": "QOOVI Qi2 35W caricatore portatile 10000mah della banca di potere magnetica per la ricarica veloce wireless di MagSafe 15W per iPhone 17 16 15 iWatch",
+      "title": "QOOVI Qi2 35W caricatore portatile della banca di potere magnetico 10000mah per la ricarica veloce wireless di MagSafe 15W per iPhone 17 16 15 iWatch",
       "slug": "qoovi-qi2-35w-magnetic-power-bank-10000mah-portable-charger-",
       "price": 45.99,
       "original_price": 90.18,
@@ -161,8 +161,8 @@
       "sales_volume": 81,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:00Z",
-      "updated_at": "2026-08-13T03:25:00Z"
+      "fetched_at": "2026-08-13T23:00:24Z",
+      "updated_at": "2026-08-13T23:00:24Z"
     },
     {
       "product_id": "1005010660256913",
@@ -179,12 +179,12 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:00Z",
-      "updated_at": "2026-08-13T03:25:00Z"
+      "fetched_at": "2026-08-13T23:00:25Z",
+      "updated_at": "2026-08-13T23:00:25Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Large-capacity Mobile Power Bank for IPhone Android Phone Shared Self - cavo contenuto (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Large-capacity Mobile Power Bank per IPhone Android Phone Shared Self - cavo contenuto (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 21.25,
       "original_price": 42.5,
@@ -197,12 +197,12 @@
       "sales_volume": 50,
       "score": 0.2483,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:01Z",
-      "updated_at": "2026-08-13T03:25:01Z"
+      "fetched_at": "2026-08-13T23:00:25Z",
+      "updated_at": "2026-08-13T23:00:25Z"
     },
     {
       "product_id": "1005012593025805",
-      "title": "120W Super Fast Charging Power Bank 20000mAh Batteria a carica rapida a due vie con cavo incorporato per iPhone Samsung Etc",
+      "title": "120W Super Fast Charging Power Bank 20000mAh batteria ricarica rapida a due vie con cavo incorporato per iPhone Samsung Etc",
       "slug": "120w-super-fast-charging-power-bank-20000mah-two-way-quick-c",
       "price": 27.42,
       "original_price": 48.95,
@@ -215,8 +215,8 @@
       "sales_volume": 1,
       "score": 0.2321,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:02Z",
-      "updated_at": "2026-08-13T03:25:02Z"
+      "fetched_at": "2026-08-13T23:00:26Z",
+      "updated_at": "2026-08-13T23:00:26Z"
     },
     {
       "product_id": "1005011812510333",
@@ -233,8 +233,8 @@
       "sales_volume": 81,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:04Z",
-      "updated_at": "2026-08-13T03:25:04Z"
+      "fetched_at": "2026-08-13T23:00:26Z",
+      "updated_at": "2026-08-13T23:00:26Z"
     },
     {
       "product_id": "1005012206657079",
@@ -251,12 +251,12 @@
       "sales_volume": 5,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:04Z",
-      "updated_at": "2026-08-13T03:25:04Z"
+      "fetched_at": "2026-08-13T23:00:27Z",
+      "updated_at": "2026-08-13T23:00:27Z"
     },
     {
       "product_id": "1005011532019654",
-      "title": "Per pad di ricarica wireless XPENG G7, pad tazza di silicone di controllo centrale",
+      "title": "Per pad di ricarica wireless XPENG G7, pad tazza in silicone di controllo centrale",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
       "price": 11.71,
       "original_price": 39.06,
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:05Z",
-      "updated_at": "2026-08-13T03:25:05Z"
+      "fetched_at": "2026-08-13T23:00:27Z",
+      "updated_at": "2026-08-13T23:00:27Z"
     },
     {
       "product_id": "1005011532039236",
@@ -287,8 +287,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:05Z",
-      "updated_at": "2026-08-13T03:25:05Z"
+      "fetched_at": "2026-08-13T23:00:28Z",
+      "updated_at": "2026-08-13T23:00:28Z"
     },
     {
       "product_id": "1005009896941801",
@@ -305,12 +305,12 @@
       "sales_volume": 1,
       "score": 0.2071,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:06Z",
-      "updated_at": "2026-08-13T03:25:06Z"
+      "fetched_at": "2026-08-13T23:00:29Z",
+      "updated_at": "2026-08-13T23:00:29Z"
     },
     {
       "product_id": "1005007065066717",
-      "title": "10set/Lot OEM nuovo telefono Seal Box adesivi per Apqle 17 16 15 14 Pro Max 17Air Airpods Pro 3 Etichette di tenuta di imballaggio esterna",
+      "title": "10set/Lot OEM nuovo telefono Seal Box adesivi per Apqle 17 16 15 14 Pro Max 17Air Airpods Pro 3 Etichette di sigillatura di imballaggio esterna",
       "slug": "10setlot-oem-new-phone-seal-box-stickers-for-apqle-17-16-15-",
       "price": 2.99,
       "original_price": 4.28,
@@ -323,8 +323,8 @@
       "sales_volume": 72,
       "score": 0.1986,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:06Z",
-      "updated_at": "2026-08-13T03:25:06Z"
+      "fetched_at": "2026-08-13T23:00:30Z",
+      "updated_at": "2026-08-13T23:00:30Z"
     },
     {
       "product_id": "1005009873262361",
@@ -341,8 +341,8 @@
       "sales_volume": 18,
       "score": 0.1931,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:07Z",
-      "updated_at": "2026-08-13T03:25:07Z"
+      "fetched_at": "2026-08-13T23:00:31Z",
+      "updated_at": "2026-08-13T23:00:31Z"
     },
     {
       "product_id": "1005008172692579",
@@ -359,8 +359,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:07Z",
-      "updated_at": "2026-08-13T03:25:07Z"
+      "fetched_at": "2026-08-13T23:00:31Z",
+      "updated_at": "2026-08-13T23:00:31Z"
     }
   ]
 }

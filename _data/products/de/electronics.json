@@ -1,10 +1,10 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-08-13T03:25:08Z",
+  "updated_at": "2026-08-13T23:00:32Z",
   "products": [
     {
       "product_id": "4001142960865",
-      "title": "LED Strip Light , RGB 5050 / SMD3535, Flexibles Band, DIY Led Light Strip RGB Tape Diode DC 12V Bluetooth Weihnachtsbeleuchtung",
+      "title": "LED Strip Light, RGB 5050 / SMD3535, Flexibles Band, DIY Led Light Strip RGB Tape Diode DC 12V Bluetooth Weihnachtsbeleuchtung",
       "slug": "led-strip-light-rgb-5050smd3535-flexible-ribbon-diy-led-ligh",
       "price": 11.56,
       "original_price": 42.8,
@@ -17,8 +17,8 @@
       "sales_volume": 30,
       "score": 0.3226,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:54Z",
-      "updated_at": "2026-08-13T03:24:54Z"
+      "fetched_at": "2026-08-13T23:00:20Z",
+      "updated_at": "2026-08-13T23:00:20Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,8 +35,8 @@
       "sales_volume": 121,
       "score": 0.3125,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:54Z",
-      "updated_at": "2026-08-13T03:24:54Z"
+      "fetched_at": "2026-08-13T23:00:21Z",
+      "updated_at": "2026-08-13T23:00:21Z"
     },
     {
       "product_id": "1005009369207724",
@@ -53,8 +53,8 @@
       "sales_volume": 17,
       "score": 0.282,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:55Z",
-      "updated_at": "2026-08-13T03:24:55Z"
+      "fetched_at": "2026-08-13T23:00:21Z",
+      "updated_at": "2026-08-13T23:00:21Z"
     },
     {
       "product_id": "1005012229118016",
@@ -71,8 +71,8 @@
       "sales_volume": 610,
       "score": 0.2717,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:56Z",
-      "updated_at": "2026-08-13T03:24:56Z"
+      "fetched_at": "2026-08-13T23:00:22Z",
+      "updated_at": "2026-08-13T23:00:22Z"
     },
     {
       "product_id": "1005009017398891",
@@ -89,8 +89,8 @@
       "sales_volume": 246,
       "score": 0.2615,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:56Z",
-      "updated_at": "2026-08-13T03:24:56Z"
+      "fetched_at": "2026-08-13T23:00:22Z",
+      "updated_at": "2026-08-13T23:00:22Z"
     },
     {
       "product_id": "1005008765017959",
@@ -107,8 +107,8 @@
       "sales_volume": 11,
       "score": 0.2613,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:57Z",
-      "updated_at": "2026-08-13T03:24:57Z"
+      "fetched_at": "2026-08-13T23:00:23Z",
+      "updated_at": "2026-08-13T23:00:23Z"
     },
     {
       "product_id": "1005010253348075",
@@ -125,8 +125,8 @@
       "sales_volume": 27,
       "score": 0.2592,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:58Z",
-      "updated_at": "2026-08-13T03:24:58Z"
+      "fetched_at": "2026-08-13T23:00:23Z",
+      "updated_at": "2026-08-13T23:00:23Z"
     },
     {
       "product_id": "1005012219557684",
@@ -143,8 +143,8 @@
       "sales_volume": 35,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:24:58Z",
-      "updated_at": "2026-08-13T03:24:58Z"
+      "fetched_at": "2026-08-13T23:00:24Z",
+      "updated_at": "2026-08-13T23:00:24Z"
     },
     {
       "product_id": "1005011812151458",
@@ -161,8 +161,8 @@
       "sales_volume": 81,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:00Z",
-      "updated_at": "2026-08-13T03:25:00Z"
+      "fetched_at": "2026-08-13T23:00:24Z",
+      "updated_at": "2026-08-13T23:00:24Z"
     },
     {
       "product_id": "1005010660256913",
@@ -179,8 +179,8 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:00Z",
-      "updated_at": "2026-08-13T03:25:00Z"
+      "fetched_at": "2026-08-13T23:00:25Z",
+      "updated_at": "2026-08-13T23:00:25Z"
     },
     {
       "product_id": "1005012124170204",
@@ -197,8 +197,8 @@
       "sales_volume": 50,
       "score": 0.2483,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:01Z",
-      "updated_at": "2026-08-13T03:25:01Z"
+      "fetched_at": "2026-08-13T23:00:25Z",
+      "updated_at": "2026-08-13T23:00:25Z"
     },
     {
       "product_id": "1005012593025805",
@@ -215,8 +215,8 @@
       "sales_volume": 1,
       "score": 0.2321,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:02Z",
-      "updated_at": "2026-08-13T03:25:02Z"
+      "fetched_at": "2026-08-13T23:00:26Z",
+      "updated_at": "2026-08-13T23:00:26Z"
     },
     {
       "product_id": "1005011812510333",
@@ -233,8 +233,8 @@
       "sales_volume": 81,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:04Z",
-      "updated_at": "2026-08-13T03:25:04Z"
+      "fetched_at": "2026-08-13T23:00:26Z",
+      "updated_at": "2026-08-13T23:00:26Z"
     },
     {
       "product_id": "1005012206657079",
@@ -251,12 +251,12 @@
       "sales_volume": 5,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:04Z",
-      "updated_at": "2026-08-13T03:25:04Z"
+      "fetched_at": "2026-08-13T23:00:27Z",
+      "updated_at": "2026-08-13T23:00:27Z"
     },
     {
       "product_id": "1005011532019654",
-      "title": "Für XPENG G7 Wireless Ladepad, zentrale Steuerung Silikon Cup Pad",
+      "title": "Für XPENG G7 Wireless-Ladepad, zentrale Steuerung Silicon Cup Pad",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
       "price": 11.71,
       "original_price": 39.06,
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:05Z",
-      "updated_at": "2026-08-13T03:25:05Z"
+      "fetched_at": "2026-08-13T23:00:27Z",
+      "updated_at": "2026-08-13T23:00:27Z"
     },
     {
       "product_id": "1005011532039236",
@@ -287,8 +287,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:05Z",
-      "updated_at": "2026-08-13T03:25:05Z"
+      "fetched_at": "2026-08-13T23:00:28Z",
+      "updated_at": "2026-08-13T23:00:28Z"
     },
     {
       "product_id": "1005009896941801",
@@ -305,8 +305,8 @@
       "sales_volume": 1,
       "score": 0.2071,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:06Z",
-      "updated_at": "2026-08-13T03:25:06Z"
+      "fetched_at": "2026-08-13T23:00:29Z",
+      "updated_at": "2026-08-13T23:00:29Z"
     },
     {
       "product_id": "1005007065066717",
@@ -323,12 +323,12 @@
       "sales_volume": 72,
       "score": 0.1986,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:06Z",
-      "updated_at": "2026-08-13T03:25:06Z"
+      "fetched_at": "2026-08-13T23:00:30Z",
+      "updated_at": "2026-08-13T23:00:30Z"
     },
     {
       "product_id": "1005009873262361",
-      "title": "Original 120W Powerbank 50000mAh Mobile externe Ersatzbatterie tragbares Ladegerät Super Schnelles Laden für iPhone Xiaomi Power Bank",
+      "title": "Original 120W Powerbank 50000mAh Mobile externe Ersatzbatterie tragbares Ladegerät Super Schnelles Aufladen für iPhone Xiaomi Power Bank",
       "slug": "original-120w-powerbank-50000mah-mobile-external-spare-batte",
       "price": 17.52,
       "original_price": 26.96,
@@ -341,8 +341,8 @@
       "sales_volume": 18,
       "score": 0.1931,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:07Z",
-      "updated_at": "2026-08-13T03:25:07Z"
+      "fetched_at": "2026-08-13T23:00:31Z",
+      "updated_at": "2026-08-13T23:00:31Z"
     },
     {
       "product_id": "1005008172692579",
@@ -359,8 +359,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-08-13T03:25:07Z",
-      "updated_at": "2026-08-13T03:25:07Z"
+      "fetched_at": "2026-08-13T23:00:31Z",
+      "updated_at": "2026-08-13T23:00:31Z"
     }
   ]
 }
