@@ -285,7 +285,8 @@
     "primary_keyword": "best adjustable dumbbells 2026",
     "category": "sport",
     "intent": "commercial",
-    "used": false
+    "used": true,
+    "used_at": "2026-08-14"
   },
   {
     "topic": "What to look for in a beginner road cycling helmet",
