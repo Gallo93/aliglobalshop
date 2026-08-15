@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-08-14T23:01:16Z",
+  "updated_at": "2026-08-15T02:12:22Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3464,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:05Z",
-      "updated_at": "2026-08-14T23:01:05Z"
+      "fetched_at": "2026-08-15T02:12:13Z",
+      "updated_at": "2026-08-15T02:12:13Z"
     },
     {
       "product_id": "1005004369037597",
@@ -35,8 +35,8 @@
       "sales_volume": 429,
       "score": 0.3111,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:05Z",
-      "updated_at": "2026-08-14T23:01:05Z"
+      "fetched_at": "2026-08-15T02:12:13Z",
+      "updated_at": "2026-08-15T02:12:13Z"
     },
     {
       "product_id": "1005006012278000",
@@ -53,8 +53,8 @@
       "sales_volume": 21,
       "score": 0.3025,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:06Z",
-      "updated_at": "2026-08-14T23:01:06Z"
+      "fetched_at": "2026-08-15T02:12:14Z",
+      "updated_at": "2026-08-15T02:12:14Z"
     },
     {
       "product_id": "32286722941",
@@ -71,12 +71,12 @@
       "sales_volume": 20,
       "score": 0.2824,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:06Z",
-      "updated_at": "2026-08-14T23:01:06Z"
+      "fetched_at": "2026-08-15T02:12:14Z",
+      "updated_at": "2026-08-15T02:12:14Z"
     },
     {
       "product_id": "1005010160889036",
-      "title": "Eastinear Bicycle Helmet Ride Led Lights vorne und hinten, Urban Road Cycling Helmet, Wiederaufladbares Blinksignal Fahrradzubehör",
+      "title": "Eastinear Bicycle Helmet Ride Led Lights vorne und hinten, Urban Road Cycling Helmet, wiederaufladbares Blinksignal Fahrradzubehör",
       "slug": "eastinear-bicycle-helmet-ride-led-lights-front-and-rearurban",
       "price": 37.12,
       "original_price": 78.98,
@@ -89,12 +89,12 @@
       "sales_volume": 102,
       "score": 0.267,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:07Z",
-      "updated_at": "2026-08-14T23:01:07Z"
+      "fetched_at": "2026-08-15T02:12:15Z",
+      "updated_at": "2026-08-15T02:12:15Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "X-TIGER Fahrrad-Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenrad Radfahren Wasserflasche",
+      "title": "X-TIGER Fahrrad-Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenfahrrad-Wasserflasche",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 13.3,
       "original_price": 29.57,
@@ -107,8 +107,8 @@
       "sales_volume": 1,
       "score": 0.2651,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:07Z",
-      "updated_at": "2026-08-14T23:01:07Z"
+      "fetched_at": "2026-08-15T02:12:15Z",
+      "updated_at": "2026-08-15T02:12:15Z"
     },
     {
       "product_id": "1005006110617990",
@@ -125,8 +125,8 @@
       "sales_volume": 12,
       "score": 0.2544,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:08Z",
-      "updated_at": "2026-08-14T23:01:08Z"
+      "fetched_at": "2026-08-15T02:12:16Z",
+      "updated_at": "2026-08-15T02:12:16Z"
     },
     {
       "product_id": "1005008772408846",
@@ -143,8 +143,8 @@
       "sales_volume": 33,
       "score": 0.254,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:08Z",
-      "updated_at": "2026-08-14T23:01:08Z"
+      "fetched_at": "2026-08-15T02:12:16Z",
+      "updated_at": "2026-08-15T02:12:16Z"
     },
     {
       "product_id": "1005010382664758",
@@ -161,12 +161,12 @@
       "sales_volume": 41,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:10Z",
-      "updated_at": "2026-08-14T23:01:10Z"
+      "fetched_at": "2026-08-15T02:12:17Z",
+      "updated_at": "2026-08-15T02:12:17Z"
     },
     {
       "product_id": "1005006998978324",
-      "title": "650ml Kawaii Wasserflasche mit Filter süße Sakura und Panda Tritan Sport Kaffee Tee Juice Cup Gym Flasche Geschenk für Mädchen Frauen",
+      "title": "650ml Kawaii Wasserflasche mit Filter süße Sakura und Panda Tritan Sport Kaffee Tee Saft Cup Gym Flasche Geschenk für Mädchen Frauen",
       "slug": "650ml-kawaii-water-bottle-with-filter-cute-sakura-and-panda-",
       "price": 13.79,
       "original_price": 27.58,
@@ -179,8 +179,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:10Z",
-      "updated_at": "2026-08-14T23:01:10Z"
+      "fetched_at": "2026-08-15T02:12:17Z",
+      "updated_at": "2026-08-15T02:12:17Z"
     },
     {
       "product_id": "1005003472116469",
@@ -197,12 +197,12 @@
       "sales_volume": 53,
       "score": 0.2464,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:11Z",
-      "updated_at": "2026-08-14T23:01:11Z"
+      "fetched_at": "2026-08-15T02:12:17Z",
+      "updated_at": "2026-08-15T02:12:17Z"
     },
     {
       "product_id": "1005009049503829",
-      "title": "BATFOX 3/4 MTB Fahrradhelm Männer Ear Protection Bike Off Road Speed Reduction Sicher Kappe Tight Breathable Cycling Helme",
+      "title": "BATFOX 3/4 MTB Fahrradhelm Männer Frauen Ear Protection Bike Off Road Speed Reduction Sicher Kappe Tight Breathable Cycling Helme",
       "slug": "batfox-34-mtb-bicycle-helmet-men-women-ear-protection-bike-o",
       "price": 50.15,
       "original_price": 100.3,
@@ -215,12 +215,12 @@
       "sales_volume": 18,
       "score": 0.2435,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:11Z",
-      "updated_at": "2026-08-14T23:01:11Z"
+      "fetched_at": "2026-08-15T02:12:18Z",
+      "updated_at": "2026-08-15T02:12:18Z"
     },
     {
       "product_id": "1005006588685488",
-      "title": "Non-Slip Extra Dick 15mm Yoga Mat Männer Frauen Fitness NBR Soft Mat Geschmacklose Gym Haus Übung Pilates Yoga Mat",
+      "title": "Non-Slip Extra dick 15mm Yoga Mat Männer Frauen Fitness NBR Soft Mat Geschmacklose Gym Haus Übung Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
       "price": 23.29,
       "original_price": 38.81,
@@ -233,8 +233,8 @@
       "sales_volume": 8,
       "score": 0.221,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:12Z",
-      "updated_at": "2026-08-14T23:01:12Z"
+      "fetched_at": "2026-08-15T02:12:18Z",
+      "updated_at": "2026-08-15T02:12:18Z"
     },
     {
       "product_id": "1005008682223950",
@@ -251,8 +251,8 @@
       "sales_volume": 5,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:12Z",
-      "updated_at": "2026-08-14T23:01:12Z"
+      "fetched_at": "2026-08-15T02:12:19Z",
+      "updated_at": "2026-08-15T02:12:19Z"
     },
     {
       "product_id": "1005005807293081",
@@ -269,12 +269,12 @@
       "sales_volume": 21,
       "score": 0.215,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:13Z",
-      "updated_at": "2026-08-14T23:01:13Z"
+      "fetched_at": "2026-08-15T02:12:19Z",
+      "updated_at": "2026-08-15T02:12:19Z"
     },
     {
       "product_id": "1005003674465001",
-      "title": "Boxing Jump Seil mit schweren Foam Grip Griffe, Crossfit Skipping Seil, Fitness Workouts, Ausdauerkrafttraining",
+      "title": "Boxing Jump Seil mit schweren Foam Grip Griffe, Crossfit Skipping Seil, Fitness-Workouts, Ausdauer Krafttraining",
       "slug": "boxing-jump-rope-with-heavy-foam-grip-handles-crossfit-skipp",
       "price": 12.87,
       "original_price": 20.43,
@@ -287,12 +287,12 @@
       "sales_volume": 0,
       "score": 0.211,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:14Z",
-      "updated_at": "2026-08-14T23:01:14Z"
+      "fetched_at": "2026-08-15T02:12:20Z",
+      "updated_at": "2026-08-15T02:12:20Z"
     },
     {
       "product_id": "1005008813902899",
-      "title": "1 ~ 10m Natur Latex Gummischläuche ID 1.6 ~ 18mm Gelbes hochelastisches Go Fishing Tube Slingshot Catapult Elastic Fitness Band",
+      "title": "1 ~ 10m Natur Latex Gummischläuche ID 1.6 ~ 18mm Gelb Hoch elastisch Go Fishing Tube Slingshot Catapult Elastic Fitness Band",
       "slug": "110m-nature-latex-rubber-hoses-id-1618mm-yellow-high-resilie",
       "price": 0.7,
       "original_price": 0.99,
@@ -305,8 +305,8 @@
       "sales_volume": 140,
       "score": 0.2031,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:14Z",
-      "updated_at": "2026-08-14T23:01:14Z"
+      "fetched_at": "2026-08-15T02:12:20Z",
+      "updated_at": "2026-08-15T02:12:20Z"
     },
     {
       "product_id": "1005010464486496",
@@ -323,8 +323,8 @@
       "sales_volume": 9,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:14Z",
-      "updated_at": "2026-08-14T23:01:14Z"
+      "fetched_at": "2026-08-15T02:12:21Z",
+      "updated_at": "2026-08-15T02:12:21Z"
     },
     {
       "product_id": "1005012789843658",
@@ -341,12 +341,12 @@
       "sales_volume": 2,
       "score": 0.1952,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:15Z",
-      "updated_at": "2026-08-14T23:01:15Z"
+      "fetched_at": "2026-08-15T02:12:21Z",
+      "updated_at": "2026-08-15T02:12:21Z"
     },
     {
       "product_id": "1005007541859728",
-      "title": "3pcs Elastic Solid Color Haarbänder für Frauen und Männer Hairband Running Fitness Sport Yoga Kopfbänder Mädchen Kopf Band Zubehör",
+      "title": "3pcs Elastic Solid Color Haarbänder für Frauen und Männer Hairband Running Fitness Sport Yoga Headbands Girls Head Band Zubehör",
       "slug": "3pcs-elastic-solid-color-hair-bands-for-women-and-men-hairba",
       "price": 3.21,
       "original_price": 3.45,
@@ -359,8 +359,8 @@
       "sales_volume": 639,
       "score": 0.188,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:16Z",
-      "updated_at": "2026-08-14T23:01:16Z"
+      "fetched_at": "2026-08-15T02:12:22Z",
+      "updated_at": "2026-08-15T02:12:22Z"
     }
   ]
 }

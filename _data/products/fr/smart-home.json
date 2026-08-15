@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-14T23:00:54Z",
+  "updated_at": "2026-08-15T02:12:10Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1658,
       "score": 0.35,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:44Z",
-      "updated_at": "2026-08-14T23:00:44Z"
+      "fetched_at": "2026-08-15T02:12:01Z",
+      "updated_at": "2026-08-15T02:12:01Z"
     },
     {
       "product_id": "1005006593842093",
@@ -35,12 +35,12 @@
       "sales_volume": 320,
       "score": 0.2996,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:45Z",
-      "updated_at": "2026-08-14T23:00:45Z"
+      "fetched_at": "2026-08-15T02:12:01Z",
+      "updated_at": "2026-08-15T02:12:01Z"
     },
     {
       "product_id": "1005012445621796",
-      "title": "Batterie MDKSLS 4800-12800mAh 14.4V pour iRobot 500 600 700 800 900 Série Batterie pour iRobot Roomba 14.4V 620 650 770 780 580",
+      "title": "MDKSLS 4800-12800mAh Batterie 14.4V pour iRobot 500 600 700 800 900 Série Batterie pour iRobot Roomba 14.4V 620 650 770 780 580",
       "slug": "mdksls-4800-12800mah-battery-144v-for-irobot-500-600-700-800",
       "price": 20.63,
       "original_price": 51.58,
@@ -53,12 +53,12 @@
       "sales_volume": 19,
       "score": 0.2823,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:45Z",
-      "updated_at": "2026-08-14T23:00:45Z"
+      "fetched_at": "2026-08-15T02:12:02Z",
+      "updated_at": "2026-08-15T02:12:02Z"
     },
     {
       "product_id": "1005002334218166",
-      "title": "Module d'assemblage du cadre de brosse principal Pièces pour irobot Roomba 800 900 Série 870 880 980 Module de tête de nettoyage",
+      "title": "Module d'assemblage du cadre de brosse principal Pièces pour irobot Roomba 800 900 Series 870 880 980 Module de tête de nettoyage",
       "slug": "main-brush-frame-assembly-module-components-parts-for-irobot",
       "price": 23.44,
       "original_price": 46.88,
@@ -71,12 +71,12 @@
       "sales_volume": 224,
       "score": 0.2707,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:46Z",
-      "updated_at": "2026-08-14T23:00:46Z"
+      "fetched_at": "2026-08-15T02:12:02Z",
+      "updated_at": "2026-08-15T02:12:02Z"
     },
     {
       "product_id": "1005001394925942",
-      "title": "Caméra dropshipping Wifi Onvif 3MP E27 Ampoule PTZ Imperméable 4X Digital Zoom Facile à installer Outdoor Home Security Ycc365plus",
+      "title": "Caméra dropshipping Wifi Onvif 3MP E27 Ampoule PTZ Imperméable 4X Digital Zoom Facile Installer Outdoor Home Security Ycc365plus",
       "slug": "dropshipping-camera-wifi-onvif-3mp-e27-bulb-lamp-ptz-waterpr",
       "price": 27.59,
       "original_price": 55.18,
@@ -89,12 +89,12 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:46Z",
-      "updated_at": "2026-08-14T23:00:46Z"
+      "fetched_at": "2026-08-15T02:12:03Z",
+      "updated_at": "2026-08-15T02:12:03Z"
     },
     {
       "product_id": "1005006116663438",
-      "title": "Hiseeu 4K 8MP Wifi Caméra de surveillance double objectif 4X Digital Zoom AI Humain Détecter sans fil Sécurité extérieure Caméras IP PTZ",
+      "title": "Caméra de surveillance Wi-Fi Hiseeu 4K 8MP Double objectif 4X Digital Zoom AI Human Detect Wireless Outdoor Security Caméras IP PTZ",
       "slug": "hiseeu-4k-8mp-wifi-surveillance-camera-dual-lens-4x-digital-",
       "price": 37.55,
       "original_price": 75.09,
@@ -107,12 +107,12 @@
       "sales_volume": 13,
       "score": 0.2476,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:47Z",
-      "updated_at": "2026-08-14T23:00:47Z"
+      "fetched_at": "2026-08-15T02:12:03Z",
+      "updated_at": "2026-08-15T02:12:03Z"
     },
     {
       "product_id": "1005005604363467",
-      "title": "Camnsmart Tuya 5MP Alexa Wifi Ampoule Caméra E27 Google Home Vidéosurveillance en plein air sans fil Surveillance de sécurité Support Onvif NVR",
+      "title": "Camnsmart Tuya 5MP Alexa Wifi Ampoule Caméra E27 Google Home Vidéosurveillance en plein air sans fil Surveillance vidéo Support de sécurité Onvif NVR",
       "slug": "camnsmart-tuya-5mp-alexa-wifi-bulb-camera-e27-google-home-wi",
       "price": 36.79,
       "original_price": 73.58,
@@ -125,8 +125,8 @@
       "sales_volume": 32,
       "score": 0.238,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:47Z",
-      "updated_at": "2026-08-14T23:00:47Z"
+      "fetched_at": "2026-08-15T02:12:04Z",
+      "updated_at": "2026-08-15T02:12:04Z"
     },
     {
       "product_id": "1005005807578430",
@@ -143,12 +143,12 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:48Z",
-      "updated_at": "2026-08-14T23:00:48Z"
+      "fetched_at": "2026-08-15T02:12:04Z",
+      "updated_at": "2026-08-15T02:12:04Z"
     },
     {
       "product_id": "1005009195955688",
-      "title": "6MP Smart Camera Wifi Security Accueil Tuya Smart Life Glass Fenêtre Caméra Bluetooth Connexion Couleur Night Vision Facile à installer",
+      "title": "6MP Smart Camera Wifi Security Accueil Tuya Smart Life Glass Fenêtre Caméra Connexion Bluetooth Couleur Night Vision Facile à installer",
       "slug": "6mp-smart-camera-wifi-security-home-tuya-smart-life-glass-wi",
       "price": 25.29,
       "original_price": 45.98,
@@ -161,12 +161,12 @@
       "sales_volume": 10,
       "score": 0.227,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:48Z",
-      "updated_at": "2026-08-14T23:00:48Z"
+      "fetched_at": "2026-08-15T02:12:05Z",
+      "updated_at": "2026-08-15T02:12:05Z"
     },
     {
       "product_id": "4000143784956",
-      "title": "HEIMAN Zigbee détecteur de fumée – détecteur d'alarme d'incendie, haute sensibilité, Smart Home System, protection de sécurité, livraison gratuite",
+      "title": "Détecteur de fumée HEIMAN Zigbee – Capteur d'alarme incendie, haute sensibilité, système maison intelligent, protection de sécurité, livraison gratuite",
       "slug": "heiman-zigbee-smoke-detector-fire-alarm-sensor-high-sensitiv",
       "price": 25.75,
       "original_price": 36.79,
@@ -179,12 +179,12 @@
       "sales_volume": 320,
       "score": 0.2257,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:49Z",
-      "updated_at": "2026-08-14T23:00:49Z"
+      "fetched_at": "2026-08-15T02:12:05Z",
+      "updated_at": "2026-08-15T02:12:05Z"
     },
     {
       "product_id": "1005003462342443",
-      "title": "Shelly 1 Gen3 Dry Contact Smart Switch WiFi Relais Bluetooth fonctionnant Assistance basse tension Contrôle de la protection contre la température",
+      "title": "Shelly 1 Gen3 Dry Contact Smart Switch WiFi Relais Bluetooth à basse tension Support sur la protection contre la température",
       "slug": "shelly-1-gen3-dry-contact-smart-switch-wifi-bluetooth-operat",
       "price": 17.2,
       "original_price": 23.25,
@@ -197,8 +197,8 @@
       "sales_volume": 414,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:49Z",
-      "updated_at": "2026-08-14T23:00:49Z"
+      "fetched_at": "2026-08-15T02:12:06Z",
+      "updated_at": "2026-08-15T02:12:06Z"
     },
     {
       "product_id": "1005011764540594",
@@ -215,12 +215,12 @@
       "sales_volume": 21,
       "score": 0.2225,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:49Z",
-      "updated_at": "2026-08-14T23:00:49Z"
+      "fetched_at": "2026-08-15T02:12:06Z",
+      "updated_at": "2026-08-15T02:12:06Z"
     },
     {
       "product_id": "1005012750087339",
-      "title": "IMILAB EC6 Dual Pro 10MP Caméra Wi-Fi de sécurité avec vision de nuit couleur Smart Human Detection &Tracking Compatible avec l'application MiHome",
+      "title": "IMILAB EC6 Dual Pro 10MP Caméra Wi-Fi de sécurité avec vision de nuit couleur Smart Human Detection & Tracing Compatible avec l'application MiHome",
       "slug": "imilab-ec6-dual-pro-10mp-security-wifi-camera-with-colour-ni",
       "price": 89.27,
       "original_price": 148.77,
@@ -233,8 +233,8 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:50Z",
-      "updated_at": "2026-08-14T23:00:50Z"
+      "fetched_at": "2026-08-15T02:12:06Z",
+      "updated_at": "2026-08-15T02:12:06Z"
     },
     {
       "product_id": "1005008090894761",
@@ -251,12 +251,12 @@
       "sales_volume": 22,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:50Z",
-      "updated_at": "2026-08-14T23:00:50Z"
+      "fetched_at": "2026-08-15T02:12:07Z",
+      "updated_at": "2026-08-15T02:12:07Z"
     },
     {
       "product_id": "1005004774956386",
-      "title": "BroadLink RM4 Pro IR WiFi Commutateur RF Contrôle à distance universel Smart Controller HTS2 Sensor fonctionne avec Alexa Google Home Assistant",
+      "title": "BroadLink RM4 Pro IR WiFi RF Switch Universal Remote Control Smart Control HTS2 Sensor fonctionne avec Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
       "price": 31.61,
       "original_price": 47.19,
@@ -269,12 +269,12 @@
       "sales_volume": 140,
       "score": 0.2148,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:51Z",
-      "updated_at": "2026-08-14T23:00:51Z"
+      "fetched_at": "2026-08-15T02:12:07Z",
+      "updated_at": "2026-08-15T02:12:07Z"
     },
     {
       "product_id": "1005003568997399",
-      "title": "Shelly Pro 4PM Four Channels Relay LAN Wi-Fi Commutateur adapté pour l'automatisation d'installation à domicile avec télécommande",
+      "title": "Shelly Pro 4PM Four Channels Relay LAN Wi-Fi Commutateur approprié pour l'automatisation d'installation à domicile avec télécommande de mesure de puissance",
       "slug": "shelly-pro-4pm-four-channels-relay-lan-wifi-switch-suitable-",
       "price": 101.77,
       "original_price": 153.03,
@@ -287,12 +287,12 @@
       "sales_volume": 96,
       "score": 0.2105,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:51Z",
-      "updated_at": "2026-08-14T23:00:51Z"
+      "fetched_at": "2026-08-15T02:12:08Z",
+      "updated_at": "2026-08-15T02:12:08Z"
     },
     {
       "product_id": "1005010659622111",
-      "title": "pour Geely EX2 Xingyuan Proton EMas 5 4K DVR Dash Cam OEM Caméra arrière avant enregistreur vidéo Wifi 2160 P Loop enregistrement nuit vision",
+      "title": "pour Geely EX2 Xingyuan Proton EMas 5 4K DVR Dash Cam OEM caméra arrière avant enregistreur vidéo Wifi 2160 P Loop enregistrement vision nocturne",
       "slug": "for-geely-ex2-xingyuan-proton-emas-5-4k-dvr-dash-cam-oem-fro",
       "price": 119.38,
       "original_price": 183.67,
@@ -305,12 +305,12 @@
       "sales_volume": 8,
       "score": 0.206,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:52Z",
-      "updated_at": "2026-08-14T23:00:52Z"
+      "fetched_at": "2026-08-15T02:12:08Z",
+      "updated_at": "2026-08-15T02:12:08Z"
     },
     {
       "product_id": "1005009559994857",
-      "title": "MOES Tuya ZigBee Smart Window Door Gate Detector Smart Home Security Alarm System Smart Life Tuya App Télécommande",
+      "title": "MOES Tuya ZigBee Smart Window Door Gate Detector Smart Home Security Alarm System Smart Life Application Tuya Télécommande",
       "slug": "moes-tuya-zigbee-smart-window-door-gate-sensor-detector-smar",
       "price": 12.55,
       "original_price": 19.92,
@@ -323,8 +323,8 @@
       "sales_volume": 5,
       "score": 0.2036,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:52Z",
-      "updated_at": "2026-08-14T23:00:52Z"
+      "fetched_at": "2026-08-15T02:12:09Z",
+      "updated_at": "2026-08-15T02:12:09Z"
     },
     {
       "product_id": "1005004966987077",
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:53Z",
-      "updated_at": "2026-08-14T23:00:53Z"
+      "fetched_at": "2026-08-15T02:12:09Z",
+      "updated_at": "2026-08-15T02:12:09Z"
     },
     {
       "product_id": "32898805107",
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.192,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:54Z",
-      "updated_at": "2026-08-14T23:00:54Z"
+      "fetched_at": "2026-08-15T02:12:10Z",
+      "updated_at": "2026-08-15T02:12:10Z"
     }
   ]
 }

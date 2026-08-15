@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-08-14T23:01:37Z",
+  "updated_at": "2026-08-15T02:12:34Z",
   "products": [
     {
       "product_id": "1005006893229555",
@@ -17,8 +17,8 @@
       "sales_volume": 2899,
       "score": 0.4611,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:28Z",
-      "updated_at": "2026-08-14T23:01:28Z"
+      "fetched_at": "2026-08-15T02:12:25Z",
+      "updated_at": "2026-08-15T02:12:25Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,12 +35,12 @@
       "sales_volume": 121,
       "score": 0.3125,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:28Z",
-      "updated_at": "2026-08-14T23:01:28Z"
+      "fetched_at": "2026-08-15T02:12:25Z",
+      "updated_at": "2026-08-15T02:12:25Z"
     },
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacité de batterie externe Chargeur Portable Chargeur rapide Powerbank pour iPhone portable Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacité de batterie externe Chargeur Portable Chargeur rapide Powerbank Pour Ordinateur portable iPhone Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 32.46,
       "original_price": 72.14,
@@ -53,8 +53,8 @@
       "sales_volume": 235,
       "score": 0.2839,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:29Z",
-      "updated_at": "2026-08-14T23:01:29Z"
+      "fetched_at": "2026-08-15T02:12:26Z",
+      "updated_at": "2026-08-15T02:12:26Z"
     },
     {
       "product_id": "1005007587741414",
@@ -71,12 +71,12 @@
       "sales_volume": 88,
       "score": 0.2696,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:29Z",
-      "updated_at": "2026-08-14T23:01:29Z"
+      "fetched_at": "2026-08-15T02:12:26Z",
+      "updated_at": "2026-08-15T02:12:26Z"
     },
     {
       "product_id": "1005011981593933",
-      "title": "Hichain PD65W Power Bank 20000mAh Câble USB-C intégré Chargeur de téléphone multifonctionnel pour téléphones portables Tablettes Autre périphérique",
+      "title": "Hichain PD65W Power Bank 20000mAh Câble USB-C intégré Chargeur de téléphone multifonctionnel pour téléphones portables Tablettes Autre appareil",
       "slug": "hichain-pd65w-power-bank-20000mah-built-in-usb-c-cable-multi",
       "price": 39.18,
       "original_price": 87.08,
@@ -89,12 +89,12 @@
       "sales_volume": 15,
       "score": 0.2668,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:29Z",
-      "updated_at": "2026-08-14T23:01:29Z"
+      "fetched_at": "2026-08-15T02:12:27Z",
+      "updated_at": "2026-08-15T02:12:27Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de charge pour téléphone portable",
+      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de téléphone mobile Accessoires",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 43.72,
       "original_price": 91.08,
@@ -107,8 +107,8 @@
       "sales_volume": 28,
       "score": 0.2594,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:30Z",
-      "updated_at": "2026-08-14T23:01:30Z"
+      "fetched_at": "2026-08-15T02:12:27Z",
+      "updated_at": "2026-08-15T02:12:27Z"
     },
     {
       "product_id": "1005012124060756",
@@ -125,12 +125,12 @@
       "sales_volume": 96,
       "score": 0.2578,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:30Z",
-      "updated_at": "2026-08-14T23:01:30Z"
+      "fetched_at": "2026-08-15T02:12:28Z",
+      "updated_at": "2026-08-15T02:12:28Z"
     },
     {
       "product_id": "1005010617846135",
-      "title": "20000mAh 10000mAh Banque de puissance avec grande capacité de fibre de conception de boîtier de texture mince et facile à transporter double entrée",
+      "title": "20000mAh 10000mAh Power Bank avec une grande capacité de conception de boîtier de texture fibre mince et facile à transporter double entrée",
       "slug": "20000mah-10000mah-power-bank-with-large-capacity-fiber-textu",
       "price": 18.52,
       "original_price": 37.03,
@@ -143,8 +143,8 @@
       "sales_volume": 19,
       "score": 0.2523,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:31Z",
-      "updated_at": "2026-08-14T23:01:31Z"
+      "fetched_at": "2026-08-15T02:12:28Z",
+      "updated_at": "2026-08-15T02:12:28Z"
     },
     {
       "product_id": "1005012349888176",
@@ -161,12 +161,12 @@
       "sales_volume": 7,
       "score": 0.2508,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:31Z",
-      "updated_at": "2026-08-14T23:01:31Z"
+      "fetched_at": "2026-08-15T02:12:29Z",
+      "updated_at": "2026-08-15T02:12:29Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Large-capacité Mobile Power Bank for IPhone Android Phone Shared Self - Cable Contained (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Grande capacité Mobile Power Bank for IPhone Android Phone Shared Self - Cable Contained (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 21.26,
       "original_price": 42.53,
@@ -179,12 +179,12 @@
       "sales_volume": 50,
       "score": 0.2489,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:32Z",
-      "updated_at": "2026-08-14T23:01:32Z"
+      "fetched_at": "2026-08-15T02:12:29Z",
+      "updated_at": "2026-08-15T02:12:29Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Banque de Puissance Construite en 4 Câble Portable Chargeur Mignon Animaux Cartoon Maquillage Miroir Powerbank Batterie externe Banque de Puissance",
+      "title": "20000mAh Mini Banque de puissance construite en 4 câbles Portable Chargeur Cute Pet Cartoon Maquillage Miroir Banque de puissance de batterie externe",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.64,
       "original_price": 21.29,
@@ -197,8 +197,8 @@
       "sales_volume": 15,
       "score": 0.2478,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:32Z",
-      "updated_at": "2026-08-14T23:01:32Z"
+      "fetched_at": "2026-08-15T02:12:30Z",
+      "updated_at": "2026-08-15T02:12:30Z"
     },
     {
       "product_id": "1005012593025805",
@@ -215,8 +215,8 @@
       "sales_volume": 1,
       "score": 0.2321,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:33Z",
-      "updated_at": "2026-08-14T23:01:33Z"
+      "fetched_at": "2026-08-15T02:12:30Z",
+      "updated_at": "2026-08-15T02:12:30Z"
     },
     {
       "product_id": "1005007395412166",
@@ -233,8 +233,8 @@
       "sales_volume": 14,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:33Z",
-      "updated_at": "2026-08-14T23:01:33Z"
+      "fetched_at": "2026-08-15T02:12:30Z",
+      "updated_at": "2026-08-15T02:12:30Z"
     },
     {
       "product_id": "1005009589681770",
@@ -251,12 +251,12 @@
       "sales_volume": 4,
       "score": 0.2235,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:33Z",
-      "updated_at": "2026-08-14T23:01:33Z"
+      "fetched_at": "2026-08-15T02:12:31Z",
+      "updated_at": "2026-08-15T02:12:31Z"
     },
     {
       "product_id": "1005004204383810",
-      "title": "Universal Portable Mini Flexible Trépied 2 Support de Section pour Caméra de Projecteur Support de Trépied pour Téléphone Mobile",
+      "title": "Universal Portable Mini Support de Section Flexible Tripod 2 pour Caméra de Projecteur Support de trépied pour Téléphone Mobile",
       "slug": "universal-portable-mini-flexible-tripod-2-section-holder-for",
       "price": 1.44,
       "original_price": 2.39,
@@ -269,8 +269,8 @@
       "sales_volume": 44,
       "score": 0.2182,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:34Z",
-      "updated_at": "2026-08-14T23:01:34Z"
+      "fetched_at": "2026-08-15T02:12:31Z",
+      "updated_at": "2026-08-15T02:12:31Z"
     },
     {
       "product_id": "1005009849333993",
@@ -287,12 +287,12 @@
       "sales_volume": 9,
       "score": 0.1911,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:34Z",
-      "updated_at": "2026-08-14T23:01:34Z"
+      "fetched_at": "2026-08-15T02:12:32Z",
+      "updated_at": "2026-08-15T02:12:32Z"
     },
     {
       "product_id": "32872425924",
-      "title": "Nouveau BP59-00149A TM2261S fit Pour Samsung Freestyle Portable Projector Remote Control LS43BM702UNXZA SP-LSP38LA",
+      "title": "Nouveau BP59-00149A TM2261S pour Samsung Freestyle Portable Projector Remote Control LS43BM702UNXZA SP-LSP38LA",
       "slug": "new-bp59-00149a-tm2261s-fit-for-samsung-freestyle-portable-p",
       "price": 17.38,
       "original_price": 24.83,
@@ -305,12 +305,12 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:36Z",
-      "updated_at": "2026-08-14T23:01:36Z"
+      "fetched_at": "2026-08-15T02:12:32Z",
+      "updated_at": "2026-08-15T02:12:32Z"
     },
     {
       "product_id": "1005005070548245",
-      "title": "Station de recharge USB 10 ports 50W/10A Port Multi USB C Chargeur Hub pour tablette de téléphone cellulaire",
+      "title": "Station de recharge USB 10 ports 50W/10A Port Multi USB C Chargeur Hub pour tablette de téléphone cellulaire Prise d'extension pour appareils multiples",
       "slug": "usb-charging-station-10-ports-50w10a-multi-port-usb-c-hub-ch",
       "price": 9.12,
       "original_price": 13.03,
@@ -323,12 +323,12 @@
       "sales_volume": 0,
       "score": 0.19,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:36Z",
-      "updated_at": "2026-08-14T23:01:36Z"
+      "fetched_at": "2026-08-15T02:12:33Z",
+      "updated_at": "2026-08-15T02:12:33Z"
     },
     {
       "product_id": "1005009489688001",
-      "title": "20000mAh Qi Banque d'alimentation sans fil 22.5W Charge rapide 15W Chargeur sans fil Batterie portable pour iPhone 15 Samsung Xiaomi Huawei",
+      "title": "20000mAh Qi Wireless Power Bank 22.5W Chargeur sans fil rapide 15W batterie portable pour iPhone 15 Samsung Xiaomi Huawei",
       "slug": "20000mah-qi-wireless-power-bank-225w-fast-charging-15w-wirel",
       "price": 26.85,
       "original_price": 67.11,
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.1801,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:37Z",
-      "updated_at": "2026-08-14T23:01:37Z"
+      "fetched_at": "2026-08-15T02:12:33Z",
+      "updated_at": "2026-08-15T02:12:33Z"
     },
     {
       "product_id": "1005012745139264",
@@ -359,8 +359,8 @@
       "sales_volume": 1,
       "score": 0.1701,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:01:37Z",
-      "updated_at": "2026-08-14T23:01:37Z"
+      "fetched_at": "2026-08-15T02:12:34Z",
+      "updated_at": "2026-08-15T02:12:34Z"
     }
   ]
 }

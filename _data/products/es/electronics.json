@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-08-14T23:00:34Z",
+  "updated_at": "2026-08-15T02:11:58Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -17,8 +17,8 @@
       "sales_volume": 31,
       "score": 0.3227,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:25Z",
-      "updated_at": "2026-08-14T23:00:25Z"
+      "fetched_at": "2026-08-15T02:11:48Z",
+      "updated_at": "2026-08-15T02:11:48Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,12 +35,12 @@
       "sales_volume": 121,
       "score": 0.3125,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:26Z",
-      "updated_at": "2026-08-14T23:00:26Z"
+      "fetched_at": "2026-08-15T02:11:49Z",
+      "updated_at": "2026-08-15T02:11:49Z"
     },
     {
       "product_id": "1005009369207724",
-      "title": "Pocket Power Bank Carga rápida portátil Tipo C Batería externa para iPhone Watch Samsung Xiaomi con cable de carga rápida Powerbank",
+      "title": "Pocket Power Bank Portable Fast Charge Tipo C batería externa para iPhone Watch Samsung Xiaomi con cable de carga rápida Powerbank",
       "slug": "pocket-power-bank-portable-fast-charge-type-c-external-batte",
       "price": 16.04,
       "original_price": 40.12,
@@ -53,12 +53,12 @@
       "sales_volume": 17,
       "score": 0.282,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:26Z",
-      "updated_at": "2026-08-14T23:00:26Z"
+      "fetched_at": "2026-08-15T02:11:49Z",
+      "updated_at": "2026-08-15T02:11:49Z"
     },
     {
       "product_id": "1005012229118016",
-      "title": "Para Xiaomi Original 500000mAh Powerbank Externo Batería Cargador portátil para iPhone Samsung Super Fast Charging PowerBank",
+      "title": "Para Xiaomi Original 500000mAh Powerbank Externo de batería de repuesto portátil para iPhone Samsung Super Fast Charging PowerBank",
       "slug": "for-xiaomi-original-500000mah-powerbank-external-spare-batte",
       "price": 18.55,
       "original_price": 28.53,
@@ -71,8 +71,8 @@
       "sales_volume": 651,
       "score": 0.2742,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:27Z",
-      "updated_at": "2026-08-14T23:00:27Z"
+      "fetched_at": "2026-08-15T02:11:50Z",
+      "updated_at": "2026-08-15T02:11:50Z"
     },
     {
       "product_id": "1005010253348075",
@@ -89,8 +89,8 @@
       "sales_volume": 28,
       "score": 0.2594,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:27Z",
-      "updated_at": "2026-08-14T23:00:27Z"
+      "fetched_at": "2026-08-15T02:11:50Z",
+      "updated_at": "2026-08-15T02:11:50Z"
     },
     {
       "product_id": "1005012272048246",
@@ -107,8 +107,8 @@
       "sales_volume": 8,
       "score": 0.254,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:27Z",
-      "updated_at": "2026-08-14T23:00:27Z"
+      "fetched_at": "2026-08-15T02:11:51Z",
+      "updated_at": "2026-08-15T02:11:51Z"
     },
     {
       "product_id": "1005012219557684",
@@ -125,12 +125,12 @@
       "sales_volume": 38,
       "score": 0.2535,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:28Z",
-      "updated_at": "2026-08-14T23:00:28Z"
+      "fetched_at": "2026-08-15T02:11:51Z",
+      "updated_at": "2026-08-15T02:11:51Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "Estación de alimentación portátil de 400W de alta capacidad 192Wh LiFePO4 batería AC 220V generador solar Banco de potencia de carga rápida para camping",
+      "title": "Estación de alimentación portátil de 400W de alta capacidad 192Wh LiFePO4 batería AC 220V generador solar Banco de alimentación de carga rápida para camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
       "price": 140.44,
       "original_price": 280.87,
@@ -143,12 +143,12 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:28Z",
-      "updated_at": "2026-08-14T23:00:28Z"
+      "fetched_at": "2026-08-15T02:11:52Z",
+      "updated_at": "2026-08-15T02:11:52Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 21.26,
       "original_price": 42.53,
@@ -161,8 +161,8 @@
       "sales_volume": 50,
       "score": 0.2489,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:29Z",
-      "updated_at": "2026-08-14T23:00:29Z"
+      "fetched_at": "2026-08-15T02:11:52Z",
+      "updated_at": "2026-08-15T02:11:52Z"
     },
     {
       "product_id": "1005012206657079",
@@ -179,8 +179,8 @@
       "sales_volume": 5,
       "score": 0.2336,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:29Z",
-      "updated_at": "2026-08-14T23:00:29Z"
+      "fetched_at": "2026-08-15T02:11:53Z",
+      "updated_at": "2026-08-15T02:11:53Z"
     },
     {
       "product_id": "1005012593025805",
@@ -197,8 +197,8 @@
       "sales_volume": 1,
       "score": 0.2321,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:30Z",
-      "updated_at": "2026-08-14T23:00:30Z"
+      "fetched_at": "2026-08-15T02:11:53Z",
+      "updated_at": "2026-08-15T02:11:53Z"
     },
     {
       "product_id": "1005011532039236",
@@ -215,12 +215,12 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:30Z",
-      "updated_at": "2026-08-14T23:00:30Z"
+      "fetched_at": "2026-08-15T02:11:54Z",
+      "updated_at": "2026-08-15T02:11:54Z"
     },
     {
       "product_id": "1005009896941801",
-      "title": "Instrumento electrónico de viento portátil Bluetooth conexión Saxofono eléctrico Saxofon construido en el instrumento de música de altavoz",
+      "title": "Instrumento de viento electrónico portátil Bluetooth conexión Saxofono de inicio eléctrico Construido en Instrumento de música de altavoz",
       "slug": "portable-electronic-wind-instrument-bluetooth-connection-ele",
       "price": 27.13,
       "original_price": 53.19,
@@ -233,8 +233,8 @@
       "sales_volume": 1,
       "score": 0.2071,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:31Z",
-      "updated_at": "2026-08-14T23:00:31Z"
+      "fetched_at": "2026-08-15T02:11:54Z",
+      "updated_at": "2026-08-15T02:11:54Z"
     },
     {
       "product_id": "1005009093766779",
@@ -251,8 +251,8 @@
       "sales_volume": 9,
       "score": 0.2051,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:31Z",
-      "updated_at": "2026-08-14T23:00:31Z"
+      "fetched_at": "2026-08-15T02:11:55Z",
+      "updated_at": "2026-08-15T02:11:55Z"
     },
     {
       "product_id": "1005007065066717",
@@ -269,12 +269,12 @@
       "sales_volume": 72,
       "score": 0.1986,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:31Z",
-      "updated_at": "2026-08-14T23:00:31Z"
+      "fetched_at": "2026-08-15T02:11:55Z",
+      "updated_at": "2026-08-15T02:11:55Z"
     },
     {
       "product_id": "1005008172692579",
-      "title": "1PCS para JBL Charge5 ND Carga de carga USB ND 5 Junta",
+      "title": "1PCS para JBL Charge5 ND Carga de carga USB de placa 5",
       "slug": "1pcs-for-jbl-charge5-nd-motherboard-usb-charging-charge-5-bo",
       "price": 58.13,
       "original_price": 83.04,
@@ -287,8 +287,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:32Z",
-      "updated_at": "2026-08-14T23:00:32Z"
+      "fetched_at": "2026-08-15T02:11:56Z",
+      "updated_at": "2026-08-15T02:11:56Z"
     },
     {
       "product_id": "1005005493124553",
@@ -305,12 +305,12 @@
       "sales_volume": 4,
       "score": 0.1905,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:32Z",
-      "updated_at": "2026-08-14T23:00:32Z"
+      "fetched_at": "2026-08-15T02:11:56Z",
+      "updated_at": "2026-08-15T02:11:56Z"
     },
     {
       "product_id": "33007923484",
-      "title": "Caja de carga protectora portátil resistente EVA Bolsa de altavoz caja de almacenamiento para MARSHALL Stockwell Bluetooth Accesorios de altavoz",
+      "title": "Caja de carga protectora portátil resistente EVA Bolsa de altavoces de caja para MARSHALL Stockwell Bluetooth Accesorios de altavoz",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 11.49,
       "original_price": 16.42,
@@ -323,8 +323,8 @@
       "sales_volume": 18,
       "score": 0.1872,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:33Z",
-      "updated_at": "2026-08-14T23:00:33Z"
+      "fetched_at": "2026-08-15T02:11:57Z",
+      "updated_at": "2026-08-15T02:11:57Z"
     },
     {
       "product_id": "1005010537643071",
@@ -341,12 +341,12 @@
       "sales_volume": 5,
       "score": 0.1846,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:33Z",
-      "updated_at": "2026-08-14T23:00:33Z"
+      "fetched_at": "2026-08-15T02:11:58Z",
+      "updated_at": "2026-08-15T02:11:58Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Controlador de WIFI inteligente inalámbrico 2.4GHz Gateway Voz WiFi rgb Controller Tuya Para Mi Boxer Lámpara de luz de la tira LED",
+      "title": "WL-Box2 Controlador de WIFI inteligente inalámbrico 2.4GHz Gateway Voz WiFi rgb Controller Tuya Para Mi Boxer LED Bombilla de luz",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-08-14T23:00:34Z",
-      "updated_at": "2026-08-14T23:00:34Z"
+      "fetched_at": "2026-08-15T02:11:58Z",
+      "updated_at": "2026-08-15T02:11:58Z"
     }
   ]
 }
