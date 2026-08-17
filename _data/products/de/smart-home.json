@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-17T02:18:30Z",
+  "updated_at": "2026-08-17T23:00:37Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1615,
       "score": 0.3537,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:15Z",
-      "updated_at": "2026-08-17T02:18:15Z"
+      "fetched_at": "2026-08-17T23:00:28Z",
+      "updated_at": "2026-08-17T23:00:28Z"
     },
     {
       "product_id": "1005012611600751",
@@ -35,8 +35,8 @@
       "sales_volume": 9,
       "score": 0.3171,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:15Z",
-      "updated_at": "2026-08-17T02:18:15Z"
+      "fetched_at": "2026-08-17T23:00:29Z",
+      "updated_at": "2026-08-17T23:00:29Z"
     },
     {
       "product_id": "1005006593842093",
@@ -53,8 +53,8 @@
       "sales_volume": 303,
       "score": 0.3096,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:16Z",
-      "updated_at": "2026-08-17T02:18:16Z"
+      "fetched_at": "2026-08-17T23:00:29Z",
+      "updated_at": "2026-08-17T23:00:29Z"
     },
     {
       "product_id": "1005012445621796",
@@ -71,12 +71,12 @@
       "sales_volume": 19,
       "score": 0.3033,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:17Z",
-      "updated_at": "2026-08-17T02:18:17Z"
+      "fetched_at": "2026-08-17T23:00:30Z",
+      "updated_at": "2026-08-17T23:00:30Z"
     },
     {
       "product_id": "1005012370701528",
-      "title": "PEGATAH 2K 4G / WiFi-Batterie Kamera Outdoor Solar Cam AI Motion Detection Spotlight Siren Alarm Cam 2-Way Talk für Home Security",
+      "title": "PEGATAH 2K 4G / WiFi-Batteriekamera Outdoor Solar Cam AI Motion Detection Spotlight Siren Alarm Cam 2-Way Talk für Home Security",
       "slug": "pegatah-2k-4gwifi-battery-camera-outdoor-solar-cam-ai-motion",
       "price": 14.48,
       "original_price": 43.29,
@@ -89,8 +89,8 @@
       "sales_volume": 3,
       "score": 0.2984,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:18Z",
-      "updated_at": "2026-08-17T02:18:18Z"
+      "fetched_at": "2026-08-17T23:00:30Z",
+      "updated_at": "2026-08-17T23:00:30Z"
     },
     {
       "product_id": "1005001394925942",
@@ -107,8 +107,8 @@
       "sales_volume": 11,
       "score": 0.2663,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:19Z",
-      "updated_at": "2026-08-17T02:18:19Z"
+      "fetched_at": "2026-08-17T23:00:30Z",
+      "updated_at": "2026-08-17T23:00:30Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,8 +125,8 @@
       "sales_volume": 32,
       "score": 0.253,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:19Z",
-      "updated_at": "2026-08-17T02:18:19Z"
+      "fetched_at": "2026-08-17T23:00:31Z",
+      "updated_at": "2026-08-17T23:00:31Z"
     },
     {
       "product_id": "4000143784956",
@@ -143,12 +143,12 @@
       "sales_volume": 320,
       "score": 0.2467,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:20Z",
-      "updated_at": "2026-08-17T02:18:20Z"
+      "fetched_at": "2026-08-17T23:00:31Z",
+      "updated_at": "2026-08-17T23:00:31Z"
     },
     {
       "product_id": "1005003462342443",
-      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth Betriebene Relais Niederspannungsunterstützung über Temperaturschutz",
+      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth betrieben Relais Niederspannungsunterstützung über Temperaturschutz",
       "slug": "shelly-1-gen3-dry-contact-smart-switch-wifi-bluetooth-operat",
       "price": 15.58,
       "original_price": 23.25,
@@ -161,8 +161,8 @@
       "sales_volume": 399,
       "score": 0.2442,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:21Z",
-      "updated_at": "2026-08-17T02:18:21Z"
+      "fetched_at": "2026-08-17T23:00:32Z",
+      "updated_at": "2026-08-17T23:00:32Z"
     },
     {
       "product_id": "1005010463738860",
@@ -179,8 +179,8 @@
       "sales_volume": 49,
       "score": 0.2431,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:22Z",
-      "updated_at": "2026-08-17T02:18:22Z"
+      "fetched_at": "2026-08-17T23:00:32Z",
+      "updated_at": "2026-08-17T23:00:32Z"
     },
     {
       "product_id": "1005009306467710",
@@ -197,8 +197,8 @@
       "sales_volume": 201,
       "score": 0.2421,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:23Z",
-      "updated_at": "2026-08-17T02:18:23Z"
+      "fetched_at": "2026-08-17T23:00:33Z",
+      "updated_at": "2026-08-17T23:00:33Z"
     },
     {
       "product_id": "1005009195955688",
@@ -215,8 +215,8 @@
       "sales_volume": 10,
       "score": 0.242,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:23Z",
-      "updated_at": "2026-08-17T02:18:23Z"
+      "fetched_at": "2026-08-17T23:00:33Z",
+      "updated_at": "2026-08-17T23:00:33Z"
     },
     {
       "product_id": "1005004774956386",
@@ -233,8 +233,8 @@
       "sales_volume": 137,
       "score": 0.2384,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:24Z",
-      "updated_at": "2026-08-17T02:18:24Z"
+      "fetched_at": "2026-08-17T23:00:34Z",
+      "updated_at": "2026-08-17T23:00:34Z"
     },
     {
       "product_id": "1005005807578430",
@@ -251,8 +251,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:25Z",
-      "updated_at": "2026-08-17T02:18:25Z"
+      "fetched_at": "2026-08-17T23:00:34Z",
+      "updated_at": "2026-08-17T23:00:34Z"
     },
     {
       "product_id": "1005003065099697",
@@ -269,12 +269,12 @@
       "sales_volume": 10,
       "score": 0.2242,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:25Z",
-      "updated_at": "2026-08-17T02:18:25Z"
+      "fetched_at": "2026-08-17T23:00:34Z",
+      "updated_at": "2026-08-17T23:00:34Z"
     },
     {
       "product_id": "1005003990707766",
-      "title": "Sricam SH038 HD 4.0MP Wifi IP Kamera 360° Mobile Remote View Indoor Baby Monitor Nachtfarb-Videoüberwachung CCTV Kamera",
+      "title": "Sricam SH038 HD 4.0MP Wifi IP Kamera 360° Mobile Remote View Indoor Baby Monitor Nacht Farb-Videoüberwachung CCTV Kamera",
       "slug": "sricam-sh038-hd-40mp-wifi-ip-camera-360-mobile-remote-view-i",
       "price": 25.01,
       "original_price": 42.38,
@@ -287,8 +287,8 @@
       "sales_volume": 10,
       "score": 0.2242,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:27Z",
-      "updated_at": "2026-08-17T02:18:27Z"
+      "fetched_at": "2026-08-17T23:00:35Z",
+      "updated_at": "2026-08-17T23:00:35Z"
     },
     {
       "product_id": "1005011764540594",
@@ -305,8 +305,8 @@
       "sales_volume": 21,
       "score": 0.2225,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:28Z",
-      "updated_at": "2026-08-17T02:18:28Z"
+      "fetched_at": "2026-08-17T23:00:35Z",
+      "updated_at": "2026-08-17T23:00:35Z"
     },
     {
       "product_id": "1005012750087339",
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:28Z",
-      "updated_at": "2026-08-17T02:18:28Z"
+      "fetched_at": "2026-08-17T23:00:36Z",
+      "updated_at": "2026-08-17T23:00:36Z"
     },
     {
       "product_id": "1005008090894761",
@@ -341,8 +341,8 @@
       "sales_volume": 22,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:29Z",
-      "updated_at": "2026-08-17T02:18:29Z"
+      "fetched_at": "2026-08-17T23:00:37Z",
+      "updated_at": "2026-08-17T23:00:37Z"
     },
     {
       "product_id": "1005003906939600",
@@ -359,8 +359,8 @@
       "sales_volume": 9,
       "score": 0.2178,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:30Z",
-      "updated_at": "2026-08-17T02:18:30Z"
+      "fetched_at": "2026-08-17T23:00:37Z",
+      "updated_at": "2026-08-17T23:00:37Z"
     }
   ]
 }

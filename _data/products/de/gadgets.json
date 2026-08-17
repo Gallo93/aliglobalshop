@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-08-17T02:19:14Z",
+  "updated_at": "2026-08-17T23:01:02Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -17,8 +17,8 @@
       "sales_volume": 121,
       "score": 0.3245,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:03Z",
-      "updated_at": "2026-08-17T02:19:03Z"
+      "fetched_at": "2026-08-17T23:00:53Z",
+      "updated_at": "2026-08-17T23:00:53Z"
     },
     {
       "product_id": "1005007480971055",
@@ -35,12 +35,12 @@
       "sales_volume": 238,
       "score": 0.2962,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:04Z",
-      "updated_at": "2026-08-17T02:19:04Z"
+      "fetched_at": "2026-08-17T23:00:53Z",
+      "updated_at": "2026-08-17T23:00:53Z"
     },
     {
       "product_id": "1005007587741414",
-      "title": "BYINTEK Full HD Miniprojektor U4 LOVE 1 1080P 4K Video WIFI Android Auto Focus Portable Smart Projectors Heimkino",
+      "title": "BYINTEK Full HD Mini Projektor U4 LOVE 1 1080P 4K Video WIFI Android Auto Focus Portable Smart Projektor Heimkino",
       "slug": "byintek-full-hd-mini-projector-u4-love-1-1080p-4k-video-wifi",
       "price": 116.26,
       "original_price": 276.82,
@@ -53,8 +53,8 @@
       "sales_volume": 88,
       "score": 0.2846,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:05Z",
-      "updated_at": "2026-08-17T02:19:05Z"
+      "fetched_at": "2026-08-17T23:00:54Z",
+      "updated_at": "2026-08-17T23:00:54Z"
     },
     {
       "product_id": "1005011981593933",
@@ -71,8 +71,8 @@
       "sales_volume": 15,
       "score": 0.2818,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:05Z",
-      "updated_at": "2026-08-17T02:19:05Z"
+      "fetched_at": "2026-08-17T23:00:54Z",
+      "updated_at": "2026-08-17T23:00:54Z"
     },
     {
       "product_id": "1005008323500938",
@@ -89,8 +89,8 @@
       "sales_volume": 31,
       "score": 0.2767,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:06Z",
-      "updated_at": "2026-08-17T02:19:06Z"
+      "fetched_at": "2026-08-17T23:00:55Z",
+      "updated_at": "2026-08-17T23:00:55Z"
     },
     {
       "product_id": "1005012349888176",
@@ -107,8 +107,8 @@
       "sales_volume": 7,
       "score": 0.2658,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:07Z",
-      "updated_at": "2026-08-17T02:19:07Z"
+      "fetched_at": "2026-08-17T23:00:55Z",
+      "updated_at": "2026-08-17T23:00:55Z"
     },
     {
       "product_id": "1005012124060756",
@@ -125,8 +125,8 @@
       "sales_volume": 96,
       "score": 0.2578,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:07Z",
-      "updated_at": "2026-08-17T02:19:07Z"
+      "fetched_at": "2026-08-17T23:00:56Z",
+      "updated_at": "2026-08-17T23:00:56Z"
     },
     {
       "product_id": "1005012124170204",
@@ -143,12 +143,12 @@
       "sales_volume": 51,
       "score": 0.2494,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:08Z",
-      "updated_at": "2026-08-17T02:19:08Z"
+      "fetched_at": "2026-08-17T23:00:57Z",
+      "updated_at": "2026-08-17T23:00:57Z"
     },
     {
       "product_id": "1005012408073378",
-      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Übertragung 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
+      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Transmission 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
       "slug": "3m-5m-10m-usb-30-extender-high-speed-5gbps-transmission-4-po",
       "price": 13.84,
       "original_price": 27.13,
@@ -161,8 +161,8 @@
       "sales_volume": 9,
       "score": 0.2481,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:08Z",
-      "updated_at": "2026-08-17T02:19:08Z"
+      "fetched_at": "2026-08-17T23:00:57Z",
+      "updated_at": "2026-08-17T23:00:57Z"
     },
     {
       "product_id": "1005010000531819",
@@ -179,8 +179,8 @@
       "sales_volume": 15,
       "score": 0.2478,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:08Z",
-      "updated_at": "2026-08-17T02:19:08Z"
+      "fetched_at": "2026-08-17T23:00:58Z",
+      "updated_at": "2026-08-17T23:00:58Z"
     },
     {
       "product_id": "1005007646050752",
@@ -197,8 +197,8 @@
       "sales_volume": 40,
       "score": 0.2438,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:09Z",
-      "updated_at": "2026-08-17T02:19:09Z"
+      "fetched_at": "2026-08-17T23:00:58Z",
+      "updated_at": "2026-08-17T23:00:58Z"
     },
     {
       "product_id": "1005009589681770",
@@ -215,8 +215,8 @@
       "sales_volume": 4,
       "score": 0.2415,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:09Z",
-      "updated_at": "2026-08-17T02:19:09Z"
+      "fetched_at": "2026-08-17T23:00:59Z",
+      "updated_at": "2026-08-17T23:00:59Z"
     },
     {
       "product_id": "1005012593025805",
@@ -233,8 +233,8 @@
       "sales_volume": 1,
       "score": 0.2321,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:10Z",
-      "updated_at": "2026-08-17T02:19:10Z"
+      "fetched_at": "2026-08-17T23:00:59Z",
+      "updated_at": "2026-08-17T23:00:59Z"
     },
     {
       "product_id": "1005012885177087",
@@ -251,8 +251,8 @@
       "sales_volume": 3,
       "score": 0.2294,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:11Z",
-      "updated_at": "2026-08-17T02:19:11Z"
+      "fetched_at": "2026-08-17T23:00:59Z",
+      "updated_at": "2026-08-17T23:00:59Z"
     },
     {
       "product_id": "1005007395412166",
@@ -269,8 +269,8 @@
       "sales_volume": 14,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:11Z",
-      "updated_at": "2026-08-17T02:19:11Z"
+      "fetched_at": "2026-08-17T23:01:00Z",
+      "updated_at": "2026-08-17T23:01:00Z"
     },
     {
       "product_id": "32872425924",
@@ -287,8 +287,8 @@
       "sales_volume": 7,
       "score": 0.2238,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:12Z",
-      "updated_at": "2026-08-17T02:19:12Z"
+      "fetched_at": "2026-08-17T23:01:00Z",
+      "updated_at": "2026-08-17T23:01:00Z"
     },
     {
       "product_id": "1005004204383810",
@@ -305,8 +305,8 @@
       "sales_volume": 45,
       "score": 0.2183,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:12Z",
-      "updated_at": "2026-08-17T02:19:12Z"
+      "fetched_at": "2026-08-17T23:01:01Z",
+      "updated_at": "2026-08-17T23:01:01Z"
     },
     {
       "product_id": "1005012745139264",
@@ -323,12 +323,12 @@
       "sales_volume": 1,
       "score": 0.2031,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:13Z",
-      "updated_at": "2026-08-17T02:19:13Z"
+      "fetched_at": "2026-08-17T23:01:01Z",
+      "updated_at": "2026-08-17T23:01:01Z"
     },
     {
       "product_id": "1005009849333993",
-      "title": "15W Magsafe Wireless Ladegerät mit Kabelstand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
+      "title": "15W Magsafe Wireless Ladegerät mit Kabel Stand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
       "slug": "15w-magsafe-wireless-charger-with-cable-stand-pd-225w-fast-c",
       "price": 15.0,
       "original_price": 25.0,
@@ -341,8 +341,8 @@
       "sales_volume": 9,
       "score": 0.1911,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:13Z",
-      "updated_at": "2026-08-17T02:19:13Z"
+      "fetched_at": "2026-08-17T23:01:02Z",
+      "updated_at": "2026-08-17T23:01:02Z"
     },
     {
       "product_id": "1005012209727480",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:19:14Z",
-      "updated_at": "2026-08-17T02:19:14Z"
+      "fetched_at": "2026-08-17T23:01:02Z",
+      "updated_at": "2026-08-17T23:01:02Z"
     }
   ]
 }

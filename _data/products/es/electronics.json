@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-08-17T02:18:04Z",
+  "updated_at": "2026-08-17T23:00:25Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -17,8 +17,8 @@
       "sales_volume": 121,
       "score": 0.3245,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:52Z",
-      "updated_at": "2026-08-17T02:17:52Z"
+      "fetched_at": "2026-08-17T23:00:16Z",
+      "updated_at": "2026-08-17T23:00:16Z"
     },
     {
       "product_id": "4001142960865",
@@ -35,12 +35,12 @@
       "sales_volume": 30,
       "score": 0.3226,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:52Z",
-      "updated_at": "2026-08-17T02:17:52Z"
+      "fetched_at": "2026-08-17T23:00:16Z",
+      "updated_at": "2026-08-17T23:00:16Z"
     },
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Cargador rápido Powerbank portátil para iPhone portátil Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Carga rápida Powerbank portátil para iPhone portátil Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 28.97,
       "original_price": 72.14,
@@ -53,8 +53,8 @@
       "sales_volume": 238,
       "score": 0.2962,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:53Z",
-      "updated_at": "2026-08-17T02:17:53Z"
+      "fetched_at": "2026-08-17T23:00:17Z",
+      "updated_at": "2026-08-17T23:00:17Z"
     },
     {
       "product_id": "1005010253348075",
@@ -71,8 +71,8 @@
       "sales_volume": 27,
       "score": 0.2832,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:53Z",
-      "updated_at": "2026-08-17T02:17:53Z"
+      "fetched_at": "2026-08-17T23:00:18Z",
+      "updated_at": "2026-08-17T23:00:18Z"
     },
     {
       "product_id": "1005012272048246",
@@ -89,8 +89,8 @@
       "sales_volume": 8,
       "score": 0.278,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:54Z",
-      "updated_at": "2026-08-17T02:17:54Z"
+      "fetched_at": "2026-08-17T23:00:18Z",
+      "updated_at": "2026-08-17T23:00:18Z"
     },
     {
       "product_id": "1005009017398891",
@@ -107,8 +107,8 @@
       "sales_volume": 240,
       "score": 0.2608,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:54Z",
-      "updated_at": "2026-08-17T02:17:54Z"
+      "fetched_at": "2026-08-17T23:00:19Z",
+      "updated_at": "2026-08-17T23:00:19Z"
     },
     {
       "product_id": "1005012219557684",
@@ -125,12 +125,12 @@
       "sales_volume": 39,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:55Z",
-      "updated_at": "2026-08-17T02:17:55Z"
+      "fetched_at": "2026-08-17T23:00:19Z",
+      "updated_at": "2026-08-17T23:00:19Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 21.26,
       "original_price": 42.53,
@@ -143,8 +143,8 @@
       "sales_volume": 51,
       "score": 0.2494,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:55Z",
-      "updated_at": "2026-08-17T02:17:55Z"
+      "fetched_at": "2026-08-17T23:00:20Z",
+      "updated_at": "2026-08-17T23:00:20Z"
     },
     {
       "product_id": "1005012206657079",
@@ -161,12 +161,12 @@
       "sales_volume": 5,
       "score": 0.2336,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:56Z",
-      "updated_at": "2026-08-17T02:17:56Z"
+      "fetched_at": "2026-08-17T23:00:20Z",
+      "updated_at": "2026-08-17T23:00:20Z"
     },
     {
       "product_id": "1005009896941801",
-      "title": "Instrumento electrónico de viento portátil Bluetooth conexión Saxofono eléctrico Saxofon construido en el instrumento de música de altavoz",
+      "title": "Instrumento de viento electrónico portátil Bluetooth conexión Saxofono de inicio eléctrico Construido en Instrumento de música de altavoz",
       "slug": "portable-electronic-wind-instrument-bluetooth-connection-ele",
       "price": 23.94,
       "original_price": 53.19,
@@ -179,12 +179,12 @@
       "sales_volume": 1,
       "score": 0.2251,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:56Z",
-      "updated_at": "2026-08-17T02:17:56Z"
+      "fetched_at": "2026-08-17T23:00:20Z",
+      "updated_at": "2026-08-17T23:00:20Z"
     },
     {
       "product_id": "33007923484",
-      "title": "Caja de carga protectora portátil resistente EVA Bolsa de altavoz caja de almacenamiento para MARSHALL Stockwell Bluetooth Accesorios de altavoz",
+      "title": "Caja de carga protectora portátil resistente EVA Bolsa de altavoces de caja para MARSHALL Stockwell Bluetooth Accesorios de altavoz",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 9.69,
       "original_price": 16.42,
@@ -197,8 +197,8 @@
       "sales_volume": 18,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:57Z",
-      "updated_at": "2026-08-17T02:17:57Z"
+      "fetched_at": "2026-08-17T23:00:21Z",
+      "updated_at": "2026-08-17T23:00:21Z"
     },
     {
       "product_id": "1005011532039236",
@@ -215,8 +215,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:57Z",
-      "updated_at": "2026-08-17T02:17:57Z"
+      "fetched_at": "2026-08-17T23:00:21Z",
+      "updated_at": "2026-08-17T23:00:21Z"
     },
     {
       "product_id": "1005007065066717",
@@ -233,8 +233,8 @@
       "sales_volume": 72,
       "score": 0.2166,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:58Z",
-      "updated_at": "2026-08-17T02:17:58Z"
+      "fetched_at": "2026-08-17T23:00:22Z",
+      "updated_at": "2026-08-17T23:00:22Z"
     },
     {
       "product_id": "1005012113585963",
@@ -251,12 +251,12 @@
       "sales_volume": 63,
       "score": 0.2059,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:17:59Z",
-      "updated_at": "2026-08-17T02:17:59Z"
+      "fetched_at": "2026-08-17T23:00:22Z",
+      "updated_at": "2026-08-17T23:00:22Z"
     },
     {
       "product_id": "1005012745139264",
-      "title": "JINVAL 20000mAh PD45W Power Bank Pantalla LED de carga rápida Cargador portátil 3-port Cable incorporado para iPhone 17 Samsung",
+      "title": "JINVAL 20000mAh PD45W Power Bank LED Display Cargador portátil de carga rápida Cable integrado para iPhone 17 Samsung",
       "slug": "jinval-20000mah-pd45w-power-bank-led-display-fast-charging-p",
       "price": 17.68,
       "original_price": 29.97,
@@ -269,8 +269,8 @@
       "sales_volume": 1,
       "score": 0.2031,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:00Z",
-      "updated_at": "2026-08-17T02:18:00Z"
+      "fetched_at": "2026-08-17T23:00:23Z",
+      "updated_at": "2026-08-17T23:00:23Z"
     },
     {
       "product_id": "1005009251414102",
@@ -287,12 +287,12 @@
       "sales_volume": 1,
       "score": 0.2021,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:00Z",
-      "updated_at": "2026-08-17T02:18:00Z"
+      "fetched_at": "2026-08-17T23:00:23Z",
+      "updated_at": "2026-08-17T23:00:23Z"
     },
     {
       "product_id": "1005012327079554",
-      "title": "BIGTREETECH Panda Status P2 Smart LED Light Strip Para Bambu Lab P2S/X2D Impresora 3D RGB Light Bar en tiempo real Imprimir estado Advertencia",
+      "title": "BIGTREETECH Panda Status P2 Smart LED Light Strip For Bambu Lab P2S/X2D 3D Printer RGB Light Bar en tiempo real Imprimir estado Advertencia",
       "slug": "bigtreetech-panda-status-p2-smart-led-light-strip-for-bambu-",
       "price": 25.8,
       "original_price": 37.94,
@@ -305,8 +305,8 @@
       "sales_volume": 31,
       "score": 0.1997,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:01Z",
-      "updated_at": "2026-08-17T02:18:01Z"
+      "fetched_at": "2026-08-17T23:00:24Z",
+      "updated_at": "2026-08-17T23:00:24Z"
     },
     {
       "product_id": "1005009849333993",
@@ -323,12 +323,12 @@
       "sales_volume": 9,
       "score": 0.1911,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:02Z",
-      "updated_at": "2026-08-17T02:18:02Z"
+      "fetched_at": "2026-08-17T23:00:24Z",
+      "updated_at": "2026-08-17T23:00:24Z"
     },
     {
       "product_id": "1005008172692579",
-      "title": "1PCS para JBL Charge5 ND Carga de carga USB ND 5 Junta",
+      "title": "1PCS para JBL Charge5 ND Carga de carga USB de placa 5",
       "slug": "1pcs-for-jbl-charge5-nd-motherboard-usb-charging-charge-5-bo",
       "price": 58.13,
       "original_price": 83.04,
@@ -341,8 +341,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:03Z",
-      "updated_at": "2026-08-17T02:18:03Z"
+      "fetched_at": "2026-08-17T23:00:25Z",
+      "updated_at": "2026-08-17T23:00:25Z"
     },
     {
       "product_id": "1005005493124553",
@@ -359,8 +359,8 @@
       "sales_volume": 4,
       "score": 0.1905,
       "price_history": [],
-      "fetched_at": "2026-08-17T02:18:03Z",
-      "updated_at": "2026-08-17T02:18:03Z"
+      "fetched_at": "2026-08-17T23:00:25Z",
+      "updated_at": "2026-08-17T23:00:25Z"
     }
   ]
 }
