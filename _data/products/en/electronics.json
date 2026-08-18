@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-08-18T06:43:33Z",
+  "updated_at": "2026-08-18T10:00:17Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -18,7 +18,7 @@
       "score": 0.3245,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:36Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "4001142960865",
@@ -36,7 +36,7 @@
       "score": 0.3226,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:36Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005007480971055",
@@ -54,7 +54,7 @@
       "score": 0.2962,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:37Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005010253348075",
@@ -72,7 +72,7 @@
       "score": 0.2832,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:37Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005012272048246",
@@ -90,7 +90,7 @@
       "score": 0.278,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:38Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005009017398891",
@@ -108,7 +108,7 @@
       "score": 0.2608,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:38Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005012219557684",
@@ -126,7 +126,7 @@
       "score": 0.2536,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:39Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005012124170204",
@@ -144,7 +144,7 @@
       "score": 0.2494,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:39Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005012206657079",
@@ -162,7 +162,7 @@
       "score": 0.2336,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:39Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005009896941801",
@@ -180,7 +180,7 @@
       "score": 0.2251,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:40Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "33007923484",
@@ -198,7 +198,7 @@
       "score": 0.2202,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:41Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005011532039236",
@@ -216,7 +216,7 @@
       "score": 0.219,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:41Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005007065066717",
@@ -234,7 +234,7 @@
       "score": 0.2166,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:41Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005012113585963",
@@ -252,13 +252,13 @@
       "score": 0.2059,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:43Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005012745139264",
       "title": "JINVAL 20000mAh PD45W Power Bank LED Display Fast Charging Portable Charger 3-port Output Built-in Cable For iPhone 17 Samsung",
       "slug": "jinval-20000mah-pd45w-power-bank-led-display-fast-charging-p",
-      "price": "19.22",
+      "price": "18.64",
       "original_price": "32.58",
       "discount_pct": 41,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nu1crg6IMzX7LB5VMlABCsV9Bi7tLAz9LWkMQy7Tq8jvwjIquiaVyIEDbAQCmLc0CF61v9CxA0kFIbJNmlFDsM1fPeAZqBHr0pKAzL0Jl5fiIzhPn5OzkoeOw2qvm76XcIZFqnxopGgK35lWEegvD5hLjo7DS5zAD0XxKoZLBTT64xgqNFOpH4g2WZ3N17h5OFoukNMwr1ssjSwUEHrD44f7u8vqmaQ4naCjseFzIvs0i5aBTa0GCj9Xo9lubVqCrDgjLc4qWnGuiytJdloRoHhZsh8spauGmL8iCumQp0YIXsqnQmFikwT4Sgc8G3DMn4qWbqYgdHqZahMJz23cnIYwaF45iS8xYW1CCdhNqrqLf8xrf9rFVnwyRpNw96YFAlymnTK1nOcrflxR2z83xihvu7HxHXgnw9CChznuRbNXXkMLENE4J4RU9mRTCmhLwByTe1XtqM3eDB8Zav7eLEJL18JRnRsRwAULYGrOO1fxVQRqLdNsX2PZPFlT3ut1oFjRHersl9OCuuYT1RTQlO1qZxJasShspQdMuUKnKBe3deSYZSdHCPnOStmMP1Cac1C5117WuuxHFCYuhtdqXXcscIrTBZSNxUlGm6Pjfpndf2ClKrS3uAi75w6Mu8eDAilM5bVWrXel2Vip3zwi4uJUKnKOzfiDqJGxg5ZAHB2OHTYeBUdN5JCyhFSEmhxQiyWdVN1tlgvfe",
@@ -270,7 +270,7 @@
       "score": 0.2031,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:43Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005009251414102",
@@ -288,13 +288,13 @@
       "score": 0.2021,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:44Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005012327079554",
       "title": "BIGTREETECH Panda Status P2 Smart LED Light Strip For Bambu Lab P2S/X2D 3D Printer RGB Light Bar Real-Time Print Status Warning",
       "slug": "bigtreetech-panda-status-p2-smart-led-light-strip-for-bambu-",
-      "price": "28.04",
+      "price": "25.52",
       "original_price": "41.24",
       "discount_pct": 32,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mVgopLpDHfzfJIKpaMGMRazWDYgRPS0PF73YY9gM99DEw4Maa301xFJ4tC8XA2mXiI4KKiA7QG5QkiZWNtd4d2JlAJX9ueS700pKUXFxcJtT9yZGClJGqzpYVZc6m5hMu11ySJbZXH1zK4IRsQ0U7j0i4P876Ks5Es0GW89zBrVGtZqkEcrNSt0xXTfFZ0W5KAEY0rCYC1BLWflytyz8XB4mtXnkdb13QNV6B9pdzCol07snFh4JdBJmxjRkUqeBf8HR4HFwShCgPOpKGBSQWWhRdUhtRnPflK8QJ5Zr4kyVwZbg5k00B5nMhQ5oGeFk3cquaPSjEMDgoSOP2p1Lod8p7uUAouac9t0YMI55jAVEOCtFn0fnOCybeaDKwfw2nUuZWfDjfXOuoopbRS7Nj6tf6cda0vvcpvkEs91XdquJULIGRvvaEhYY1pAvCrAv3ckJPEo4WmroHAY3qQjRKMr2EhqEu3wtRm0rtg7WqsK6d6dF4HOF7MeeUAFot1lrTqypbvK6stduJo6LtkbZ3sIh1jHRtLxgEi3GlE8siElwrCMDOjM5JRJz3u5prEQls5AZulZyg4S02BjEqNIRtbzkpryMgROWCDifYsQDS52QjTLxnY5Lqxi7ED0ZkxncozEIkd8PiQGslJLg2dOOVeF6KSqdZcN40FXKRzJMceKjrt1yoax1RkE4HAXe6jYvxEafVK8h3MV2c",
@@ -306,7 +306,7 @@
       "score": 0.1997,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:44Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005009849333993",
@@ -324,7 +324,7 @@
       "score": 0.1911,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:45Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005008172692579",
@@ -342,7 +342,7 @@
       "score": 0.1908,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:45Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     },
     {
       "product_id": "1005005493124553",
@@ -360,7 +360,7 @@
       "score": 0.1905,
       "price_history": [],
       "fetched_at": "2026-08-18T02:13:46Z",
-      "updated_at": "2026-08-18T06:43:33Z"
+      "updated_at": "2026-08-18T10:00:17Z"
     }
   ]
 }
