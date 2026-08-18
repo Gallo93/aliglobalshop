@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-17T23:00:37Z",
+  "updated_at": "2026-08-18T02:14:02Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,12 +17,12 @@
       "sales_volume": 1615,
       "score": 0.3537,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:28Z",
-      "updated_at": "2026-08-17T23:00:28Z"
+      "fetched_at": "2026-08-18T02:13:49Z",
+      "updated_at": "2026-08-18T02:13:49Z"
     },
     {
       "product_id": "1005012611600751",
-      "title": "Bulb Camera Tuya Wireless Light 2MP HD E27 WiFi Telecamera IP di sicurezza 360 Pan Tilt Night Vision Motion Detection Two Way Audio Cam",
+      "title": "Bulb Camera Tuya Wireless Light 2MP HD E27 WiFi Telecamera IP di sicurezza 360 Pan Tilt notte Visione di movimento Detection Two Way Audio Cam",
       "slug": "bulb-camera-tuya-wireless-light-2mp-hd-e27-wifi-security-ip-",
       "price": 20.3,
       "original_price": 72.51,
@@ -35,8 +35,8 @@
       "sales_volume": 9,
       "score": 0.3171,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:29Z",
-      "updated_at": "2026-08-17T23:00:29Z"
+      "fetched_at": "2026-08-18T02:13:50Z",
+      "updated_at": "2026-08-18T02:13:50Z"
     },
     {
       "product_id": "1005006593842093",
@@ -53,8 +53,8 @@
       "sales_volume": 303,
       "score": 0.3096,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:29Z",
-      "updated_at": "2026-08-17T23:00:29Z"
+      "fetched_at": "2026-08-18T02:13:50Z",
+      "updated_at": "2026-08-18T02:13:50Z"
     },
     {
       "product_id": "1005012445621796",
@@ -71,8 +71,8 @@
       "sales_volume": 19,
       "score": 0.3033,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:30Z",
-      "updated_at": "2026-08-17T23:00:30Z"
+      "fetched_at": "2026-08-18T02:13:51Z",
+      "updated_at": "2026-08-18T02:13:51Z"
     },
     {
       "product_id": "1005012370701528",
@@ -89,8 +89,8 @@
       "sales_volume": 3,
       "score": 0.2984,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:30Z",
-      "updated_at": "2026-08-17T23:00:30Z"
+      "fetched_at": "2026-08-18T02:13:51Z",
+      "updated_at": "2026-08-18T02:13:51Z"
     },
     {
       "product_id": "1005001394925942",
@@ -107,8 +107,8 @@
       "sales_volume": 11,
       "score": 0.2663,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:30Z",
-      "updated_at": "2026-08-17T23:00:30Z"
+      "fetched_at": "2026-08-18T02:13:52Z",
+      "updated_at": "2026-08-18T02:13:52Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,8 +125,8 @@
       "sales_volume": 32,
       "score": 0.253,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:31Z",
-      "updated_at": "2026-08-17T23:00:31Z"
+      "fetched_at": "2026-08-18T02:13:52Z",
+      "updated_at": "2026-08-18T02:13:52Z"
     },
     {
       "product_id": "4000143784956",
@@ -143,8 +143,8 @@
       "sales_volume": 320,
       "score": 0.2467,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:31Z",
-      "updated_at": "2026-08-17T23:00:31Z"
+      "fetched_at": "2026-08-18T02:13:53Z",
+      "updated_at": "2026-08-18T02:13:53Z"
     },
     {
       "product_id": "1005003462342443",
@@ -161,8 +161,8 @@
       "sales_volume": 399,
       "score": 0.2442,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:32Z",
-      "updated_at": "2026-08-17T23:00:32Z"
+      "fetched_at": "2026-08-18T02:13:53Z",
+      "updated_at": "2026-08-18T02:13:53Z"
     },
     {
       "product_id": "1005010463738860",
@@ -179,12 +179,12 @@
       "sales_volume": 49,
       "score": 0.2431,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:32Z",
-      "updated_at": "2026-08-17T23:00:32Z"
+      "fetched_at": "2026-08-18T02:13:54Z",
+      "updated_at": "2026-08-18T02:13:54Z"
     },
     {
       "product_id": "1005009306467710",
-      "title": "4MP HD 5G WiFi PTZ Macchina fotografica Auto Tracking Cry Detector Home Sicurezza Interna Telecamere di sorveglianza CCTV Baby Monitor",
+      "title": "4MP HD 5G WiFi PTZ telecamera auto Tracking Cry Detector Home Sicurezza Interna telecamere di sorveglianza CCTV Baby Monitor",
       "slug": "4mp-hd-5g-wifi-ptz-camera-auto-tracking-cry-detector-home-in",
       "price": 9.94,
       "original_price": 18.4,
@@ -197,12 +197,12 @@
       "sales_volume": 201,
       "score": 0.2421,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:33Z",
-      "updated_at": "2026-08-17T23:00:33Z"
+      "fetched_at": "2026-08-18T02:13:54Z",
+      "updated_at": "2026-08-18T02:13:54Z"
     },
     {
       "product_id": "1005009195955688",
-      "title": "6MP Smart Camera Wifi Security Home Tuya Smart Life Glass Telecamera Bluetooth Connessione a colori Visione notturna Facile da installare",
+      "title": "6MP Smart Camera Wifi Sicurezza Home Tuya Smart Life Glass Telecamera Bluetooth Connessione Colore Notte Vision Facile da installare",
       "slug": "6mp-smart-camera-wifi-security-home-tuya-smart-life-glass-wi",
       "price": 22.99,
       "original_price": 45.98,
@@ -215,12 +215,12 @@
       "sales_volume": 10,
       "score": 0.242,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:33Z",
-      "updated_at": "2026-08-17T23:00:33Z"
+      "fetched_at": "2026-08-18T02:13:54Z",
+      "updated_at": "2026-08-18T02:13:54Z"
     },
     {
       "product_id": "1005004774956386",
-      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 Sensor funziona con Alexa Google Home Assistant",
+      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 sensore funziona con Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
       "price": 27.84,
       "original_price": 47.19,
@@ -233,8 +233,8 @@
       "sales_volume": 137,
       "score": 0.2384,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:34Z",
-      "updated_at": "2026-08-17T23:00:34Z"
+      "fetched_at": "2026-08-18T02:13:55Z",
+      "updated_at": "2026-08-18T02:13:55Z"
     },
     {
       "product_id": "1005005807578430",
@@ -251,8 +251,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:34Z",
-      "updated_at": "2026-08-17T23:00:34Z"
+      "fetched_at": "2026-08-18T02:13:55Z",
+      "updated_at": "2026-08-18T02:13:55Z"
     },
     {
       "product_id": "1005003065099697",
@@ -269,8 +269,8 @@
       "sales_volume": 10,
       "score": 0.2242,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:34Z",
-      "updated_at": "2026-08-17T23:00:34Z"
+      "fetched_at": "2026-08-18T02:13:56Z",
+      "updated_at": "2026-08-18T02:13:56Z"
     },
     {
       "product_id": "1005003990707766",
@@ -287,8 +287,8 @@
       "sales_volume": 10,
       "score": 0.2242,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:35Z",
-      "updated_at": "2026-08-17T23:00:35Z"
+      "fetched_at": "2026-08-18T02:13:56Z",
+      "updated_at": "2026-08-18T02:13:56Z"
     },
     {
       "product_id": "1005011764540594",
@@ -305,8 +305,8 @@
       "sales_volume": 21,
       "score": 0.2225,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:35Z",
-      "updated_at": "2026-08-17T23:00:35Z"
+      "fetched_at": "2026-08-18T02:13:57Z",
+      "updated_at": "2026-08-18T02:13:57Z"
     },
     {
       "product_id": "1005012750087339",
@@ -323,12 +323,12 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:36Z",
-      "updated_at": "2026-08-17T23:00:36Z"
+      "fetched_at": "2026-08-18T02:13:57Z",
+      "updated_at": "2026-08-18T02:13:57Z"
     },
     {
       "product_id": "1005008090894761",
-      "title": "Telecamera HiEasy Robot 5MP Wifi Telecamera di sicurezza senza fili PTZ Interno IR Visione notturna Monitor auto a due vie",
+      "title": "Telecamera HiEasy Robot 5MP Wifi Indoor PTZ telecamera di sicurezza senza fili IR visione notturna Monitor auto a due vie Audio per il bambino",
       "slug": "hieasy-robot-camera-5mp-wifi-indoor-ptz-wireless-security-ca",
       "price": 30.64,
       "original_price": 51.06,
@@ -341,12 +341,12 @@
       "sales_volume": 22,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:37Z",
-      "updated_at": "2026-08-17T23:00:37Z"
+      "fetched_at": "2026-08-18T02:13:58Z",
+      "updated_at": "2026-08-18T02:13:58Z"
     },
     {
       "product_id": "1005003906939600",
-      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 serie 560 620 630 650 760 770 870 R3",
+      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Series 560 620 630 650 760 770 870 R3",
       "slug": "sparkole-53-ah-148v-li-ion-battery-with-brand-cells-for-irob",
       "price": 19.41,
       "original_price": 32.36,
@@ -359,8 +359,8 @@
       "sales_volume": 9,
       "score": 0.2178,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:37Z",
-      "updated_at": "2026-08-17T23:00:37Z"
+      "fetched_at": "2026-08-18T02:14:02Z",
+      "updated_at": "2026-08-18T02:14:02Z"
     }
   ]
 }

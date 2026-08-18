@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-17T23:00:37Z",
+  "updated_at": "2026-08-18T02:14:02Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,12 +17,12 @@
       "sales_volume": 1615,
       "score": 0.3537,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:28Z",
-      "updated_at": "2026-08-17T23:00:28Z"
+      "fetched_at": "2026-08-18T02:13:49Z",
+      "updated_at": "2026-08-18T02:13:49Z"
     },
     {
       "product_id": "1005012611600751",
-      "title": "Cámara a granel Tuya Wireless Light 2MP HD E27 WiFi Seguridad IP Cámara 360 Pan Tilt Night Vision Motion Detection Two Way Audio Cam",
+      "title": "Cámara de bombilla Tuya Wireless Light 2MP HD E27 WiFi Seguridad IP Cámara 360 Pan Tilt Night Vision Detección de movimiento de dos formas Audio Cam",
       "slug": "bulb-camera-tuya-wireless-light-2mp-hd-e27-wifi-security-ip-",
       "price": 20.3,
       "original_price": 72.51,
@@ -35,8 +35,8 @@
       "sales_volume": 9,
       "score": 0.3171,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:29Z",
-      "updated_at": "2026-08-17T23:00:29Z"
+      "fetched_at": "2026-08-18T02:13:50Z",
+      "updated_at": "2026-08-18T02:13:50Z"
     },
     {
       "product_id": "1005006593842093",
@@ -53,8 +53,8 @@
       "sales_volume": 303,
       "score": 0.3096,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:29Z",
-      "updated_at": "2026-08-17T23:00:29Z"
+      "fetched_at": "2026-08-18T02:13:50Z",
+      "updated_at": "2026-08-18T02:13:50Z"
     },
     {
       "product_id": "1005012445621796",
@@ -71,8 +71,8 @@
       "sales_volume": 19,
       "score": 0.3033,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:30Z",
-      "updated_at": "2026-08-17T23:00:30Z"
+      "fetched_at": "2026-08-18T02:13:51Z",
+      "updated_at": "2026-08-18T02:13:51Z"
     },
     {
       "product_id": "1005012370701528",
@@ -89,12 +89,12 @@
       "sales_volume": 3,
       "score": 0.2984,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:30Z",
-      "updated_at": "2026-08-17T23:00:30Z"
+      "fetched_at": "2026-08-18T02:13:51Z",
+      "updated_at": "2026-08-18T02:13:51Z"
     },
     {
       "product_id": "1005001394925942",
-      "title": "Cámara de goteo Wifi Onvif 3MP E27 lámpara a granel PTZ impermeable 4X zoom digital fácil de instalar al aire libre Inicio seguridad Ycc365plus",
+      "title": "Cámara de goteo Wifi Onvif 3MP E27 Lámpara a granel PTZ impermeable 4X zoom digital fácil de instalar al aire libre Inicio Seguridad Ycc365plus",
       "slug": "dropshipping-camera-wifi-onvif-3mp-e27-bulb-lamp-ptz-waterpr",
       "price": 24.83,
       "original_price": 55.18,
@@ -107,8 +107,8 @@
       "sales_volume": 11,
       "score": 0.2663,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:30Z",
-      "updated_at": "2026-08-17T23:00:30Z"
+      "fetched_at": "2026-08-18T02:13:52Z",
+      "updated_at": "2026-08-18T02:13:52Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,8 +125,8 @@
       "sales_volume": 32,
       "score": 0.253,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:31Z",
-      "updated_at": "2026-08-17T23:00:31Z"
+      "fetched_at": "2026-08-18T02:13:52Z",
+      "updated_at": "2026-08-18T02:13:52Z"
     },
     {
       "product_id": "4000143784956",
@@ -143,8 +143,8 @@
       "sales_volume": 320,
       "score": 0.2467,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:31Z",
-      "updated_at": "2026-08-17T23:00:31Z"
+      "fetched_at": "2026-08-18T02:13:53Z",
+      "updated_at": "2026-08-18T02:13:53Z"
     },
     {
       "product_id": "1005003462342443",
@@ -161,12 +161,12 @@
       "sales_volume": 399,
       "score": 0.2442,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:32Z",
-      "updated_at": "2026-08-17T23:00:32Z"
+      "fetched_at": "2026-08-18T02:13:53Z",
+      "updated_at": "2026-08-18T02:13:53Z"
     },
     {
       "product_id": "1005010463738860",
-      "title": "Yoosee 5MP WiFi Seguridad PTZ Indoor IP Cámara 3MP Smart Home Seguridad Color Noche Visión Siren Alarm Humanoid Detection Ai Track",
+      "title": "Yoosee 5MP WiFi Seguridad PTZ Interior Cámara IP 3MP Smart Home Seguridad Color Noche Visión Siren Alarma Humanoide Detection Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
       "price": 22.27,
       "original_price": 41.25,
@@ -179,8 +179,8 @@
       "sales_volume": 49,
       "score": 0.2431,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:32Z",
-      "updated_at": "2026-08-17T23:00:32Z"
+      "fetched_at": "2026-08-18T02:13:54Z",
+      "updated_at": "2026-08-18T02:13:54Z"
     },
     {
       "product_id": "1005009306467710",
@@ -197,8 +197,8 @@
       "sales_volume": 201,
       "score": 0.2421,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:33Z",
-      "updated_at": "2026-08-17T23:00:33Z"
+      "fetched_at": "2026-08-18T02:13:54Z",
+      "updated_at": "2026-08-18T02:13:54Z"
     },
     {
       "product_id": "1005009195955688",
@@ -215,8 +215,8 @@
       "sales_volume": 10,
       "score": 0.242,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:33Z",
-      "updated_at": "2026-08-17T23:00:33Z"
+      "fetched_at": "2026-08-18T02:13:54Z",
+      "updated_at": "2026-08-18T02:13:54Z"
     },
     {
       "product_id": "1005004774956386",
@@ -233,8 +233,8 @@
       "sales_volume": 137,
       "score": 0.2384,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:34Z",
-      "updated_at": "2026-08-17T23:00:34Z"
+      "fetched_at": "2026-08-18T02:13:55Z",
+      "updated_at": "2026-08-18T02:13:55Z"
     },
     {
       "product_id": "1005005807578430",
@@ -251,8 +251,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:34Z",
-      "updated_at": "2026-08-17T23:00:34Z"
+      "fetched_at": "2026-08-18T02:13:55Z",
+      "updated_at": "2026-08-18T02:13:55Z"
     },
     {
       "product_id": "1005003065099697",
@@ -269,8 +269,8 @@
       "sales_volume": 10,
       "score": 0.2242,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:34Z",
-      "updated_at": "2026-08-17T23:00:34Z"
+      "fetched_at": "2026-08-18T02:13:56Z",
+      "updated_at": "2026-08-18T02:13:56Z"
     },
     {
       "product_id": "1005003990707766",
@@ -287,8 +287,8 @@
       "sales_volume": 10,
       "score": 0.2242,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:35Z",
-      "updated_at": "2026-08-17T23:00:35Z"
+      "fetched_at": "2026-08-18T02:13:56Z",
+      "updated_at": "2026-08-18T02:13:56Z"
     },
     {
       "product_id": "1005011764540594",
@@ -305,8 +305,8 @@
       "sales_volume": 21,
       "score": 0.2225,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:35Z",
-      "updated_at": "2026-08-17T23:00:35Z"
+      "fetched_at": "2026-08-18T02:13:57Z",
+      "updated_at": "2026-08-18T02:13:57Z"
     },
     {
       "product_id": "1005012750087339",
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:36Z",
-      "updated_at": "2026-08-17T23:00:36Z"
+      "fetched_at": "2026-08-18T02:13:57Z",
+      "updated_at": "2026-08-18T02:13:57Z"
     },
     {
       "product_id": "1005008090894761",
@@ -341,8 +341,8 @@
       "sales_volume": 22,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:37Z",
-      "updated_at": "2026-08-17T23:00:37Z"
+      "fetched_at": "2026-08-18T02:13:58Z",
+      "updated_at": "2026-08-18T02:13:58Z"
     },
     {
       "product_id": "1005003906939600",
@@ -359,8 +359,8 @@
       "sales_volume": 9,
       "score": 0.2178,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:37Z",
-      "updated_at": "2026-08-17T23:00:37Z"
+      "fetched_at": "2026-08-18T02:14:02Z",
+      "updated_at": "2026-08-18T02:14:02Z"
     }
   ]
 }

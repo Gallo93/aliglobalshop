@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-08-17T23:01:02Z",
+  "updated_at": "2026-08-18T02:14:25Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -17,8 +17,8 @@
       "sales_volume": 121,
       "score": 0.3245,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:53Z",
-      "updated_at": "2026-08-17T23:00:53Z"
+      "fetched_at": "2026-08-18T02:14:17Z",
+      "updated_at": "2026-08-18T02:14:17Z"
     },
     {
       "product_id": "1005007480971055",
@@ -35,12 +35,12 @@
       "sales_volume": 238,
       "score": 0.2962,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:53Z",
-      "updated_at": "2026-08-17T23:00:53Z"
+      "fetched_at": "2026-08-18T02:14:17Z",
+      "updated_at": "2026-08-18T02:14:17Z"
     },
     {
       "product_id": "1005007587741414",
-      "title": "BYINTEK Full HD Mini proiettore U4 LOVE 1 1080P 4K Video WIFI Android Auto Focus Portable Smart Projectors Home Theater Cinema",
+      "title": "BYINTEK Full HD Mini proiettore U4 LOVE 1 1080P 4K Video WIFI Android Auto Focus Portable Smart Projectors Home Theater",
       "slug": "byintek-full-hd-mini-projector-u4-love-1-1080p-4k-video-wifi",
       "price": 116.26,
       "original_price": 276.82,
@@ -53,8 +53,8 @@
       "sales_volume": 88,
       "score": 0.2846,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:54Z",
-      "updated_at": "2026-08-17T23:00:54Z"
+      "fetched_at": "2026-08-18T02:14:18Z",
+      "updated_at": "2026-08-18T02:14:18Z"
     },
     {
       "product_id": "1005011981593933",
@@ -71,12 +71,12 @@
       "sales_volume": 15,
       "score": 0.2818,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:54Z",
-      "updated_at": "2026-08-17T23:00:54Z"
+      "fetched_at": "2026-08-18T02:14:18Z",
+      "updated_at": "2026-08-18T02:14:18Z"
     },
     {
       "product_id": "1005008323500938",
-      "title": "Supporto di ricarica senza fili ad assorbimento magnetico per Volvo XC60 XC90 S90 V60 S60 Super Fast Charging Dock USB Tipo-C",
+      "title": "Supporto di ricarica senza fili per Volvo XC60 XC90 S90 V90 V60 S60 Super Fast Charging Dock USB Tipo-C",
       "slug": "magnetic-adsorption-wireless-charging-holder-for-volvo-xc60-",
       "price": 35.52,
       "original_price": 91.08,
@@ -89,8 +89,8 @@
       "sales_volume": 31,
       "score": 0.2767,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:55Z",
-      "updated_at": "2026-08-17T23:00:55Z"
+      "fetched_at": "2026-08-18T02:14:18Z",
+      "updated_at": "2026-08-18T02:14:18Z"
     },
     {
       "product_id": "1005012349888176",
@@ -107,8 +107,8 @@
       "sales_volume": 7,
       "score": 0.2658,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:55Z",
-      "updated_at": "2026-08-17T23:00:55Z"
+      "fetched_at": "2026-08-18T02:14:19Z",
+      "updated_at": "2026-08-18T02:14:19Z"
     },
     {
       "product_id": "1005012124060756",
@@ -125,8 +125,8 @@
       "sales_volume": 96,
       "score": 0.2578,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:56Z",
-      "updated_at": "2026-08-17T23:00:56Z"
+      "fetched_at": "2026-08-18T02:14:19Z",
+      "updated_at": "2026-08-18T02:14:19Z"
     },
     {
       "product_id": "1005012124170204",
@@ -143,8 +143,8 @@
       "sales_volume": 51,
       "score": 0.2494,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:57Z",
-      "updated_at": "2026-08-17T23:00:57Z"
+      "fetched_at": "2026-08-18T02:14:20Z",
+      "updated_at": "2026-08-18T02:14:20Z"
     },
     {
       "product_id": "1005012408073378",
@@ -161,12 +161,12 @@
       "sales_volume": 9,
       "score": 0.2481,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:57Z",
-      "updated_at": "2026-08-17T23:00:57Z"
+      "fetched_at": "2026-08-18T02:14:20Z",
+      "updated_at": "2026-08-18T02:14:20Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank Costruito in 4 cavi Portable Charger Cute Pet Cartoon Makeup Mirror Powerbank Batteria esterna Power Bank",
+      "title": "20000mAh Mini Power Bank Costruito in 4 Cavo Caricabatteria portatile Cute Pet Cartoon Makeup Mirror Powerbank Batteria esterna Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.64,
       "original_price": 21.29,
@@ -179,12 +179,12 @@
       "sales_volume": 15,
       "score": 0.2478,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:58Z",
-      "updated_at": "2026-08-17T23:00:58Z"
+      "fetched_at": "2026-08-18T02:14:21Z",
+      "updated_at": "2026-08-18T02:14:21Z"
     },
     {
       "product_id": "1005007646050752",
-      "title": "Hagibis USB C HUB Tipo-C Docking Station Interruttori singoli On/Off con display LED 10Gbps USB C Splitter per Macbook Pro Air",
+      "title": "Hagibis USB C HUB Tipo-C Docking Station Interruttori singoli On / Off con LED Display 10Gbps USB C Splitter per Macbook Pro Air",
       "slug": "hagibis-usb-c-hub-type-c-docking-station-individual-onoff-sw",
       "price": 23.45,
       "original_price": 45.99,
@@ -197,8 +197,8 @@
       "sales_volume": 40,
       "score": 0.2438,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:58Z",
-      "updated_at": "2026-08-17T23:00:58Z"
+      "fetched_at": "2026-08-18T02:14:21Z",
+      "updated_at": "2026-08-18T02:14:21Z"
     },
     {
       "product_id": "1005009589681770",
@@ -215,12 +215,12 @@
       "sales_volume": 4,
       "score": 0.2415,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:59Z",
-      "updated_at": "2026-08-17T23:00:59Z"
+      "fetched_at": "2026-08-18T02:14:21Z",
+      "updated_at": "2026-08-18T02:14:21Z"
     },
     {
       "product_id": "1005012593025805",
-      "title": "120W Super Fast Charging Power Bank 20000mAh batteria ricarica rapida a due vie con cavo incorporato per iPhone Samsung Etc",
+      "title": "120W Super Fast Charging Power Bank 20000mAh Batteria a carica rapida a due vie con cavo incorporato per iPhone Samsung Etc",
       "slug": "120w-super-fast-charging-power-bank-20000mah-two-way-quick-c",
       "price": 27.43,
       "original_price": 48.98,
@@ -233,8 +233,8 @@
       "sales_volume": 1,
       "score": 0.2321,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:59Z",
-      "updated_at": "2026-08-17T23:00:59Z"
+      "fetched_at": "2026-08-18T02:14:22Z",
+      "updated_at": "2026-08-18T02:14:22Z"
     },
     {
       "product_id": "1005012885177087",
@@ -251,12 +251,12 @@
       "sales_volume": 3,
       "score": 0.2294,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:00:59Z",
-      "updated_at": "2026-08-17T23:00:59Z"
+      "fetched_at": "2026-08-18T02:14:22Z",
+      "updated_at": "2026-08-18T02:14:22Z"
     },
     {
       "product_id": "1005007395412166",
-      "title": "Power Bank 20000mAh Caricabatterie wireless Powerbank costruito in cavo caricatore portatile per iPhone 15 Samsung S23 Huawei Xiaomi Poverbank",
+      "title": "Power Bank 20000mAh Caricabatterie wireless Powerbank Costruito in cavo caricatore portatile per iPhone 15 Samsung S23 Huawei Xiaomi Poverbank",
       "slug": "power-bank-20000mah-wireless-charger-powerbank-built-in-cabl",
       "price": 17.37,
       "original_price": 34.74,
@@ -269,8 +269,8 @@
       "sales_volume": 14,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:01:00Z",
-      "updated_at": "2026-08-17T23:01:00Z"
+      "fetched_at": "2026-08-18T02:14:23Z",
+      "updated_at": "2026-08-18T02:14:23Z"
     },
     {
       "product_id": "32872425924",
@@ -287,12 +287,12 @@
       "sales_volume": 7,
       "score": 0.2238,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:01:00Z",
-      "updated_at": "2026-08-17T23:01:00Z"
+      "fetched_at": "2026-08-18T02:14:23Z",
+      "updated_at": "2026-08-18T02:14:23Z"
     },
     {
       "product_id": "1005004204383810",
-      "title": "Supporto universale portatile mini flessibile del treppiede 2 della sezione per il supporto del cavalletto desktop della macchina fotografica del proiettore per il telefono cellulare",
+      "title": "Supporto universale portatile mini flessibile di treppiede 2 sezione per proiettore fotocamera desktop treppiede supporto per telefono cellulare",
       "slug": "universal-portable-mini-flexible-tripod-2-section-holder-for",
       "price": 1.44,
       "original_price": 2.39,
@@ -305,8 +305,8 @@
       "sales_volume": 45,
       "score": 0.2183,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:01:01Z",
-      "updated_at": "2026-08-17T23:01:01Z"
+      "fetched_at": "2026-08-18T02:14:24Z",
+      "updated_at": "2026-08-18T02:14:24Z"
     },
     {
       "product_id": "1005012745139264",
@@ -323,8 +323,8 @@
       "sales_volume": 1,
       "score": 0.2031,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:01:01Z",
-      "updated_at": "2026-08-17T23:01:01Z"
+      "fetched_at": "2026-08-18T02:14:24Z",
+      "updated_at": "2026-08-18T02:14:24Z"
     },
     {
       "product_id": "1005009849333993",
@@ -341,12 +341,12 @@
       "sales_volume": 9,
       "score": 0.1911,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:01:02Z",
-      "updated_at": "2026-08-17T23:01:02Z"
+      "fetched_at": "2026-08-18T02:14:25Z",
+      "updated_at": "2026-08-18T02:14:25Z"
     },
     {
       "product_id": "1005012209727480",
-      "title": "[ Spedizione veloce] XPENG P7+ Contenitore di stoccaggio in silicone ricaricabile senza fili",
+      "title": "[ Spedizione veloce] XPENG P7+ Scatola di stoccaggio del cuscinetto in silicone senza fili",
       "slug": "fast-shipping-xpeng-p7-wireless-charging-silicone-pad-storag",
       "price": 34.83,
       "original_price": 85.5,
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-08-17T23:01:02Z",
-      "updated_at": "2026-08-17T23:01:02Z"
+      "fetched_at": "2026-08-18T02:14:25Z",
+      "updated_at": "2026-08-18T02:14:25Z"
     }
   ]
 }
