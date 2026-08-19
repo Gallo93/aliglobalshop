@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-18T23:01:03Z",
+  "updated_at": "2026-08-19T02:16:36Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,12 +17,12 @@
       "sales_volume": 1617,
       "score": 0.3539,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:49Z",
-      "updated_at": "2026-08-18T23:00:49Z"
+      "fetched_at": "2026-08-19T02:16:27Z",
+      "updated_at": "2026-08-19T02:16:27Z"
     },
     {
       "product_id": "1005012611600751",
-      "title": "Cámara a granel Tuya Wireless Light 2MP HD E27 WiFi Seguridad IP Cámara 360 Pan Tilt Night Vision Motion Detection Two Way Audio Cam",
+      "title": "Cámara de bombilla Tuya Wireless Light 2MP HD E27 WiFi Seguridad IP Cámara 360 Pan Tilt Night Vision Detección de movimiento de dos formas Audio Cam",
       "slug": "bulb-camera-tuya-wireless-light-2mp-hd-e27-wifi-security-ip-",
       "price": 20.3,
       "original_price": 72.51,
@@ -35,12 +35,12 @@
       "sales_volume": 9,
       "score": 0.3171,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:49Z",
-      "updated_at": "2026-08-18T23:00:49Z"
+      "fetched_at": "2026-08-19T02:16:27Z",
+      "updated_at": "2026-08-19T02:16:27Z"
     },
     {
       "product_id": "1005010374390737",
-      "title": "Sectec 5MP Mini Solar 4G Cámara de vigilancia exterior Camuflaje Color WiFi Seguridad Cámara PIR Detección Auto Tracking UBox App",
+      "title": "Sectec 5MP Mini Solar 4G Cámara de vigilancia al aire libre Camuflaje Color WiFi Seguridad Cámara PIR Detección Auto Tracking UBox App",
       "slug": "sectec-5mp-mini-solar-4g-camera-outdoor-surveillance-camoufl",
       "price": 36.63,
       "original_price": 111.05,
@@ -53,8 +53,8 @@
       "sales_volume": 104,
       "score": 0.308,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:50Z",
-      "updated_at": "2026-08-18T23:00:50Z"
+      "fetched_at": "2026-08-19T02:16:27Z",
+      "updated_at": "2026-08-19T02:16:27Z"
     },
     {
       "product_id": "1005012445621796",
@@ -71,8 +71,8 @@
       "sales_volume": 19,
       "score": 0.3033,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:51Z",
-      "updated_at": "2026-08-18T23:00:51Z"
+      "fetched_at": "2026-08-19T02:16:28Z",
+      "updated_at": "2026-08-19T02:16:28Z"
     },
     {
       "product_id": "1005007628312243",
@@ -89,8 +89,8 @@
       "sales_volume": 28,
       "score": 0.2834,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:52Z",
-      "updated_at": "2026-08-18T23:00:52Z"
+      "fetched_at": "2026-08-19T02:16:28Z",
+      "updated_at": "2026-08-19T02:16:28Z"
     },
     {
       "product_id": "1005005604363467",
@@ -107,8 +107,8 @@
       "sales_volume": 32,
       "score": 0.253,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:52Z",
-      "updated_at": "2026-08-18T23:00:52Z"
+      "fetched_at": "2026-08-19T02:16:29Z",
+      "updated_at": "2026-08-19T02:16:29Z"
     },
     {
       "product_id": "4000143784956",
@@ -125,8 +125,8 @@
       "sales_volume": 325,
       "score": 0.2473,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:54Z",
-      "updated_at": "2026-08-18T23:00:54Z"
+      "fetched_at": "2026-08-19T02:16:29Z",
+      "updated_at": "2026-08-19T02:16:29Z"
     },
     {
       "product_id": "1005004774956386",
@@ -143,8 +143,8 @@
       "sales_volume": 135,
       "score": 0.2382,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:55Z",
-      "updated_at": "2026-08-18T23:00:55Z"
+      "fetched_at": "2026-08-19T02:16:30Z",
+      "updated_at": "2026-08-19T02:16:30Z"
     },
     {
       "product_id": "1005005807578430",
@@ -161,8 +161,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:55Z",
-      "updated_at": "2026-08-18T23:00:55Z"
+      "fetched_at": "2026-08-19T02:16:30Z",
+      "updated_at": "2026-08-19T02:16:30Z"
     },
     {
       "product_id": "1005003990707766",
@@ -179,8 +179,8 @@
       "sales_volume": 10,
       "score": 0.2242,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:56Z",
-      "updated_at": "2026-08-18T23:00:56Z"
+      "fetched_at": "2026-08-19T02:16:31Z",
+      "updated_at": "2026-08-19T02:16:31Z"
     },
     {
       "product_id": "1005012750087339",
@@ -197,8 +197,8 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:57Z",
-      "updated_at": "2026-08-18T23:00:57Z"
+      "fetched_at": "2026-08-19T02:16:31Z",
+      "updated_at": "2026-08-19T02:16:31Z"
     },
     {
       "product_id": "1005008090894761",
@@ -215,8 +215,8 @@
       "sales_volume": 22,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:57Z",
-      "updated_at": "2026-08-18T23:00:57Z"
+      "fetched_at": "2026-08-19T02:16:32Z",
+      "updated_at": "2026-08-19T02:16:32Z"
     },
     {
       "product_id": "1005003906939600",
@@ -233,8 +233,8 @@
       "sales_volume": 9,
       "score": 0.2178,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:58Z",
-      "updated_at": "2026-08-18T23:00:58Z"
+      "fetched_at": "2026-08-19T02:16:33Z",
+      "updated_at": "2026-08-19T02:16:33Z"
     },
     {
       "product_id": "32898805107",
@@ -251,12 +251,12 @@
       "sales_volume": 17,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:58Z",
-      "updated_at": "2026-08-18T23:00:58Z"
+      "fetched_at": "2026-08-19T02:16:33Z",
+      "updated_at": "2026-08-19T02:16:33Z"
     },
     {
       "product_id": "4001041588925",
-      "title": "MoesHouse GU10 WiFi Bombillas LED inteligentes RGBW C+W Lámparas Dimmable blanco Tuya Control remoto Bombillas de luz Trabaja con Alexa/Google",
+      "title": "MoesHouse GU10 WiFi Smart LED Bulbs RGBW C+W Lámparas Dimmable blanco Tuya Bombillas de control remoto Trabaja con Alexa/Google",
       "slug": "moeshouse-gu10-wifi-smart-led-bulbs-rgbw-cw-white-dimmable-l",
       "price": 6.56,
       "original_price": 10.41,
@@ -269,8 +269,8 @@
       "sales_volume": 7,
       "score": 0.2118,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:59Z",
-      "updated_at": "2026-08-18T23:00:59Z"
+      "fetched_at": "2026-08-19T02:16:34Z",
+      "updated_at": "2026-08-19T02:16:34Z"
     },
     {
       "product_id": "1005006118602003",
@@ -287,8 +287,8 @@
       "sales_volume": 3,
       "score": 0.2114,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:00:59Z",
-      "updated_at": "2026-08-18T23:00:59Z"
+      "fetched_at": "2026-08-19T02:16:34Z",
+      "updated_at": "2026-08-19T02:16:34Z"
     },
     {
       "product_id": "1005007374302567",
@@ -305,8 +305,8 @@
       "sales_volume": 3,
       "score": 0.2084,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:01:01Z",
-      "updated_at": "2026-08-18T23:01:01Z"
+      "fetched_at": "2026-08-19T02:16:35Z",
+      "updated_at": "2026-08-19T02:16:35Z"
     },
     {
       "product_id": "1005010659622111",
@@ -323,8 +323,8 @@
       "sales_volume": 8,
       "score": 0.206,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:01:01Z",
-      "updated_at": "2026-08-18T23:01:01Z"
+      "fetched_at": "2026-08-19T02:16:35Z",
+      "updated_at": "2026-08-19T02:16:35Z"
     },
     {
       "product_id": "1005012717523729",
@@ -341,8 +341,8 @@
       "sales_volume": 15,
       "score": 0.2038,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:01:02Z",
-      "updated_at": "2026-08-18T23:01:02Z"
+      "fetched_at": "2026-08-19T02:16:36Z",
+      "updated_at": "2026-08-19T02:16:36Z"
     },
     {
       "product_id": "1005009559994857",
@@ -359,8 +359,8 @@
       "sales_volume": 5,
       "score": 0.2036,
       "price_history": [],
-      "fetched_at": "2026-08-18T23:01:02Z",
-      "updated_at": "2026-08-18T23:01:02Z"
+      "fetched_at": "2026-08-19T02:16:36Z",
+      "updated_at": "2026-08-19T02:16:36Z"
     }
   ]
 }
