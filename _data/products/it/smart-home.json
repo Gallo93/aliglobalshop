@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-20T02:15:37Z",
+  "updated_at": "2026-08-20T23:00:39Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,12 +17,12 @@
       "sales_volume": 1599,
       "score": 0.3518,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:26Z",
-      "updated_at": "2026-08-20T02:15:26Z"
+      "fetched_at": "2026-08-20T23:00:30Z",
+      "updated_at": "2026-08-20T23:00:30Z"
     },
     {
       "product_id": "1005012611600751",
-      "title": "Bulb Camera Tuya Wireless Light 2MP HD E27 WiFi Telecamera IP di sicurezza 360 Pan Tilt Night Vision Motion Detection Two Way Audio Cam",
+      "title": "Bulb Camera Tuya Wireless Light 2MP HD E27 WiFi Telecamera IP di sicurezza 360 Pan Tilt notte Visione di movimento Detection Two Way Audio Cam",
       "slug": "bulb-camera-tuya-wireless-light-2mp-hd-e27-wifi-security-ip-",
       "price": 20.29,
       "original_price": 72.46,
@@ -35,8 +35,8 @@
       "sales_volume": 9,
       "score": 0.3171,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:26Z",
-      "updated_at": "2026-08-20T02:15:26Z"
+      "fetched_at": "2026-08-20T23:00:31Z",
+      "updated_at": "2026-08-20T23:00:31Z"
     },
     {
       "product_id": "1005010374390737",
@@ -53,8 +53,8 @@
       "sales_volume": 105,
       "score": 0.3081,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:27Z",
-      "updated_at": "2026-08-20T02:15:27Z"
+      "fetched_at": "2026-08-20T23:00:31Z",
+      "updated_at": "2026-08-20T23:00:31Z"
     },
     {
       "product_id": "1005006593842093",
@@ -71,8 +71,8 @@
       "sales_volume": 286,
       "score": 0.3075,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:27Z",
-      "updated_at": "2026-08-20T02:15:27Z"
+      "fetched_at": "2026-08-20T23:00:32Z",
+      "updated_at": "2026-08-20T23:00:32Z"
     },
     {
       "product_id": "1005012445621796",
@@ -89,12 +89,12 @@
       "sales_volume": 20,
       "score": 0.3034,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:28Z",
-      "updated_at": "2026-08-20T02:15:28Z"
+      "fetched_at": "2026-08-20T23:00:32Z",
+      "updated_at": "2026-08-20T23:00:32Z"
     },
     {
       "product_id": "1005007628312243",
-      "title": "Tipo 2 caricatore portatile EV 3.6KW 16A 1Phase Wallbox Tipo1/GBT Cavo di ricarica rapido EVSE Plug EU WiFi APP Controllo Bluetooth",
+      "title": "AFEEV Tipo 2 Caricabatterie portatile EV 3.6KW 16A 1Phase Wallbox Tipo1/GBT Cavo di ricarica rapido EVSE Plug EU WiFi APP Controllo Bluetooth",
       "slug": "afeev-type-2-portable-ev-charger-36kw-16a-1phase-wallbox-typ",
       "price": 78.28,
       "original_price": 195.72,
@@ -107,8 +107,8 @@
       "sales_volume": 28,
       "score": 0.2834,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:28Z",
-      "updated_at": "2026-08-20T02:15:28Z"
+      "fetched_at": "2026-08-20T23:00:32Z",
+      "updated_at": "2026-08-20T23:00:32Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,8 +125,8 @@
       "sales_volume": 32,
       "score": 0.253,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:29Z",
-      "updated_at": "2026-08-20T02:15:29Z"
+      "fetched_at": "2026-08-20T23:00:33Z",
+      "updated_at": "2026-08-20T23:00:33Z"
     },
     {
       "product_id": "4000143784956",
@@ -143,8 +143,8 @@
       "sales_volume": 325,
       "score": 0.2473,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:29Z",
-      "updated_at": "2026-08-20T02:15:29Z"
+      "fetched_at": "2026-08-20T23:00:33Z",
+      "updated_at": "2026-08-20T23:00:33Z"
     },
     {
       "product_id": "1005009306467710",
@@ -161,8 +161,8 @@
       "sales_volume": 224,
       "score": 0.2449,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:30Z",
-      "updated_at": "2026-08-20T02:15:30Z"
+      "fetched_at": "2026-08-20T23:00:34Z",
+      "updated_at": "2026-08-20T23:00:34Z"
     },
     {
       "product_id": "1005010463738860",
@@ -179,8 +179,8 @@
       "sales_volume": 53,
       "score": 0.2436,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:31Z",
-      "updated_at": "2026-08-20T02:15:31Z"
+      "fetched_at": "2026-08-20T23:00:34Z",
+      "updated_at": "2026-08-20T23:00:34Z"
     },
     {
       "product_id": "1005003462342443",
@@ -197,12 +197,12 @@
       "sales_volume": 391,
       "score": 0.2432,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:31Z",
-      "updated_at": "2026-08-20T02:15:31Z"
+      "fetched_at": "2026-08-20T23:00:35Z",
+      "updated_at": "2026-08-20T23:00:35Z"
     },
     {
       "product_id": "1005004774956386",
-      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 Sensor funziona con Alexa Google Home Assistant",
+      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 sensore funziona con Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
       "price": 27.84,
       "original_price": 47.19,
@@ -215,8 +215,8 @@
       "sales_volume": 134,
       "score": 0.2381,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:32Z",
-      "updated_at": "2026-08-20T02:15:32Z"
+      "fetched_at": "2026-08-20T23:00:35Z",
+      "updated_at": "2026-08-20T23:00:35Z"
     },
     {
       "product_id": "1005005807578430",
@@ -233,8 +233,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:32Z",
-      "updated_at": "2026-08-20T02:15:32Z"
+      "fetched_at": "2026-08-20T23:00:35Z",
+      "updated_at": "2026-08-20T23:00:35Z"
     },
     {
       "product_id": "1005010445247796",
@@ -251,8 +251,8 @@
       "sales_volume": 6,
       "score": 0.2347,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:33Z",
-      "updated_at": "2026-08-20T02:15:33Z"
+      "fetched_at": "2026-08-20T23:00:36Z",
+      "updated_at": "2026-08-20T23:00:36Z"
     },
     {
       "product_id": "1005003065099697",
@@ -269,8 +269,8 @@
       "sales_volume": 11,
       "score": 0.2243,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:33Z",
-      "updated_at": "2026-08-20T02:15:33Z"
+      "fetched_at": "2026-08-20T23:00:36Z",
+      "updated_at": "2026-08-20T23:00:36Z"
     },
     {
       "product_id": "1005011764540594",
@@ -287,12 +287,12 @@
       "sales_volume": 22,
       "score": 0.2226,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:34Z",
-      "updated_at": "2026-08-20T02:15:34Z"
+      "fetched_at": "2026-08-20T23:00:37Z",
+      "updated_at": "2026-08-20T23:00:37Z"
     },
     {
       "product_id": "1005008090894761",
-      "title": "Telecamera HiEasy Robot 5MP Wifi Telecamera di sicurezza senza fili PTZ Interno IR Visione notturna Monitor auto a due vie",
+      "title": "Telecamera HiEasy Robot 5MP Wifi Indoor PTZ telecamera di sicurezza senza fili IR visione notturna Monitor auto a due vie Audio per il bambino",
       "slug": "hieasy-robot-camera-5mp-wifi-indoor-ptz-wireless-security-ca",
       "price": 30.64,
       "original_price": 51.06,
@@ -305,12 +305,12 @@
       "sales_volume": 22,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:34Z",
-      "updated_at": "2026-08-20T02:15:34Z"
+      "fetched_at": "2026-08-20T23:00:37Z",
+      "updated_at": "2026-08-20T23:00:37Z"
     },
     {
       "product_id": "1005003906939600",
-      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 serie 560 620 630 650 760 770 870 R3",
+      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Serie 560 620 650 760 770 870 R3",
       "slug": "sparkole-53-ah-148v-li-ion-battery-with-brand-cells-for-irob",
       "price": 19.39,
       "original_price": 32.33,
@@ -323,8 +323,8 @@
       "sales_volume": 9,
       "score": 0.2178,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:35Z",
-      "updated_at": "2026-08-20T02:15:35Z"
+      "fetched_at": "2026-08-20T23:00:38Z",
+      "updated_at": "2026-08-20T23:00:38Z"
     },
     {
       "product_id": "32898805107",
@@ -341,8 +341,8 @@
       "sales_volume": 17,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:35Z",
-      "updated_at": "2026-08-20T02:15:35Z"
+      "fetched_at": "2026-08-20T23:00:38Z",
+      "updated_at": "2026-08-20T23:00:38Z"
     },
     {
       "product_id": "1005004556206576",
@@ -359,8 +359,8 @@
       "sales_volume": 37,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:36Z",
-      "updated_at": "2026-08-20T02:15:36Z"
+      "fetched_at": "2026-08-20T23:00:39Z",
+      "updated_at": "2026-08-20T23:00:39Z"
     }
   ]
 }

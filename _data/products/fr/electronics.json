@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-08-20T02:15:15Z",
+  "updated_at": "2026-08-20T23:00:27Z",
   "products": [
     {
       "product_id": "1005007872748733",
@@ -17,8 +17,8 @@
       "sales_volume": 11490,
       "score": 0.7087,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:04Z",
-      "updated_at": "2026-08-20T02:15:04Z"
+      "fetched_at": "2026-08-20T23:00:18Z",
+      "updated_at": "2026-08-20T23:00:18Z"
     },
     {
       "product_id": "1005009201017086",
@@ -35,8 +35,8 @@
       "sales_volume": 2230,
       "score": 0.3932,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:05Z",
-      "updated_at": "2026-08-20T02:15:05Z"
+      "fetched_at": "2026-08-20T23:00:18Z",
+      "updated_at": "2026-08-20T23:00:18Z"
     },
     {
       "product_id": "1005011795391651",
@@ -53,12 +53,12 @@
       "sales_volume": 122,
       "score": 0.3246,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:05Z",
-      "updated_at": "2026-08-20T02:15:05Z"
+      "fetched_at": "2026-08-20T23:00:19Z",
+      "updated_at": "2026-08-20T23:00:19Z"
     },
     {
       "product_id": "4001142960865",
-      "title": "LED Strip Light ,RGB 5050/SMD3535, Ruban flexible, DIY Led Light Strip RGB Tape Diode DC 12V bluetooth lumières de Noël",
+      "title": "LED Strip Light ,RGB 5050/SMD3535, Ruban flexible, DIY LED Light Strip RGB Tape Diode DC 12V bluetooth lumières de Noël",
       "slug": "led-strip-light-rgb-5050smd3535-flexible-ribbon-diy-led-ligh",
       "price": 11.56,
       "original_price": 42.8,
@@ -71,8 +71,8 @@
       "sales_volume": 29,
       "score": 0.3225,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:06Z",
-      "updated_at": "2026-08-20T02:15:06Z"
+      "fetched_at": "2026-08-20T23:00:19Z",
+      "updated_at": "2026-08-20T23:00:19Z"
     },
     {
       "product_id": "1005011812151458",
@@ -89,12 +89,12 @@
       "sales_volume": 87,
       "score": 0.2847,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:07Z",
-      "updated_at": "2026-08-20T02:15:07Z"
+      "fetched_at": "2026-08-20T23:00:20Z",
+      "updated_at": "2026-08-20T23:00:20Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de téléphone mobile Accessoires",
+      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double Type-C 65W Plaque de recharge rapide Support pour téléphone mobile Accessoires",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 36.43,
       "original_price": 91.08,
@@ -107,8 +107,8 @@
       "sales_volume": 26,
       "score": 0.2831,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:08Z",
-      "updated_at": "2026-08-20T02:15:08Z"
+      "fetched_at": "2026-08-20T23:00:20Z",
+      "updated_at": "2026-08-20T23:00:20Z"
     },
     {
       "product_id": "1005012229118016",
@@ -125,8 +125,8 @@
       "sales_volume": 736,
       "score": 0.2831,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:08Z",
-      "updated_at": "2026-08-20T02:15:08Z"
+      "fetched_at": "2026-08-20T23:00:21Z",
+      "updated_at": "2026-08-20T23:00:21Z"
     },
     {
       "product_id": "1005012272048246",
@@ -143,8 +143,8 @@
       "sales_volume": 8,
       "score": 0.278,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:09Z",
-      "updated_at": "2026-08-20T02:15:09Z"
+      "fetched_at": "2026-08-20T23:00:21Z",
+      "updated_at": "2026-08-20T23:00:21Z"
     },
     {
       "product_id": "1005010660256913",
@@ -161,8 +161,8 @@
       "sales_volume": 10,
       "score": 0.2732,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:09Z",
-      "updated_at": "2026-08-20T02:15:09Z"
+      "fetched_at": "2026-08-20T23:00:22Z",
+      "updated_at": "2026-08-20T23:00:22Z"
     },
     {
       "product_id": "1005012522336005",
@@ -179,8 +179,8 @@
       "sales_volume": 7,
       "score": 0.2658,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:09Z",
-      "updated_at": "2026-08-20T02:15:09Z"
+      "fetched_at": "2026-08-20T23:00:22Z",
+      "updated_at": "2026-08-20T23:00:22Z"
     },
     {
       "product_id": "1005012206657079",
@@ -197,8 +197,8 @@
       "sales_volume": 5,
       "score": 0.2336,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:10Z",
-      "updated_at": "2026-08-20T02:15:10Z"
+      "fetched_at": "2026-08-20T23:00:23Z",
+      "updated_at": "2026-08-20T23:00:23Z"
     },
     {
       "product_id": "1005009896941801",
@@ -215,8 +215,8 @@
       "sales_volume": 0,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:11Z",
-      "updated_at": "2026-08-20T02:15:11Z"
+      "fetched_at": "2026-08-20T23:00:23Z",
+      "updated_at": "2026-08-20T23:00:23Z"
     },
     {
       "product_id": "33007923484",
@@ -233,8 +233,8 @@
       "sales_volume": 18,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:11Z",
-      "updated_at": "2026-08-20T02:15:11Z"
+      "fetched_at": "2026-08-20T23:00:24Z",
+      "updated_at": "2026-08-20T23:00:24Z"
     },
     {
       "product_id": "1005011532019654",
@@ -251,8 +251,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:12Z",
-      "updated_at": "2026-08-20T02:15:12Z"
+      "fetched_at": "2026-08-20T23:00:24Z",
+      "updated_at": "2026-08-20T23:00:24Z"
     },
     {
       "product_id": "1005011532039236",
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:12Z",
-      "updated_at": "2026-08-20T02:15:12Z"
+      "fetched_at": "2026-08-20T23:00:25Z",
+      "updated_at": "2026-08-20T23:00:25Z"
     },
     {
       "product_id": "1005012327079554",
@@ -287,8 +287,8 @@
       "sales_volume": 35,
       "score": 0.2182,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:13Z",
-      "updated_at": "2026-08-20T02:15:13Z"
+      "fetched_at": "2026-08-20T23:00:25Z",
+      "updated_at": "2026-08-20T23:00:25Z"
     },
     {
       "product_id": "1005012745139264",
@@ -305,8 +305,8 @@
       "sales_volume": 1,
       "score": 0.2061,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:13Z",
-      "updated_at": "2026-08-20T02:15:13Z"
+      "fetched_at": "2026-08-20T23:00:26Z",
+      "updated_at": "2026-08-20T23:00:26Z"
     },
     {
       "product_id": "1005009251414102",
@@ -323,8 +323,8 @@
       "sales_volume": 1,
       "score": 0.2021,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:14Z",
-      "updated_at": "2026-08-20T02:15:14Z"
+      "fetched_at": "2026-08-20T23:00:26Z",
+      "updated_at": "2026-08-20T23:00:26Z"
     },
     {
       "product_id": "1005007065066717",
@@ -341,12 +341,12 @@
       "sales_volume": 73,
       "score": 0.1988,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:14Z",
-      "updated_at": "2026-08-20T02:15:14Z"
+      "fetched_at": "2026-08-20T23:00:27Z",
+      "updated_at": "2026-08-20T23:00:27Z"
     },
     {
       "product_id": "1005005493124553",
-      "title": "Cuir véritable pour AirPods Pro 2 boîtier AirPods 1 2 3 housse Bluetooth Accessoires d'oreilles Cowhide modèle avec boucle",
+      "title": "Cuir véritable pour AirPods Pro 2 cas AirPods 1 2 3 housse Bluetooth Accessoires d'oreilles Cowhide modèle avec boucle",
       "slug": "genuine-leather-for-airpods-pro-2-case-airpods-1-2-3-cover-b",
       "price": 8.27,
       "original_price": 11.81,
@@ -359,8 +359,8 @@
       "sales_volume": 4,
       "score": 0.1905,
       "price_history": [],
-      "fetched_at": "2026-08-20T02:15:14Z",
-      "updated_at": "2026-08-20T02:15:14Z"
+      "fetched_at": "2026-08-20T23:00:27Z",
+      "updated_at": "2026-08-20T23:00:27Z"
     }
   ]
 }
