@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-08-20T06:47:24Z",
+  "updated_at": "2026-08-20T10:00:24Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -18,7 +18,7 @@
       "score": 0.3644,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:48Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005004369037597",
@@ -36,7 +36,7 @@
       "score": 0.3114,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:48Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005006012278000",
@@ -54,7 +54,7 @@
       "score": 0.3025,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:48Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005010786413625",
@@ -72,14 +72,14 @@
       "score": 0.2861,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:49Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005007517245266",
       "title": "Build XT - Workout Supplement - Helps Promote Lean Muscle Growth, Strength Gains, Power Output and Endurance in The Gym",
       "slug": "build-xt-workout-supplement-helps-promote-lean-muscle-growth",
-      "price": "5.73",
-      "original_price": "14.99",
+      "price": "5.79",
+      "original_price": "15.14",
       "discount_pct": 61,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ocCiqCKC0FyTDCng4XaoifqCtuUs1Zrmsf7azl6tmMeQDs20SZNaeKwQjlsevH3H6YD6bkhcxLldl6ECJZQhjwr0Z1voS3p1zLB6H6OgEiSZhulnh9a91l3gDsx1NlMBSjoraFKGEiIJpluGHzdk2VPhKrWUrf6doxDLkBDEIccHw8kaMwzbk3hQayqSgpwGrtby1C3RcymNggjAseDj87sPwwT4vcazcLO8wmCmbl42Rh5GqZrvecboZI4t2xkulgfCW476Fppv2LdWFTOHRzse3HywnO378mfWuhO9CB79ENSLezO7gEhTr1o3ifgH3tPnBQUndpN7WIamd3XDl7wnEKYxQCH4aoEGsoA1hOaBpxlSfUyrKWD332a4TeIMgSIiq7a44IqCCxjLdO8KVW82oX9BvWENuToclaiNdRI3pujKg7hprhaYsxKMbeUsbGmiZqbOnjVNZxx7zacQaT5dFa9iQFsBFZ6nOrm6hqxfmR8BWoArNPKNpzVpgPsDnOkLCYzmIE2Dtke891xP8HZvks6oYyCUyTAEVLiGglM43SV3h5kYZzyaTyNqdTs7I63Yq49pqadbNIqfLCNIrgAIPIr5PU9uYDgoJ4GnjiBKXzLlAl0NB7QeM44UtyAzupysKnvoISMJnNJKfb7068f2SFtF4lf3Y0DOrJH3fcGUKDxX637fgMtt1xmP4UvcLQ1rLx50tBpMe",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783572916/products/1005007517245266.webp",
@@ -90,7 +90,7 @@
       "score": 0.279,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:49Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005008772408846",
@@ -108,7 +108,7 @@
       "score": 0.2691,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:50Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005010160889036",
@@ -126,7 +126,7 @@
       "score": 0.2677,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:50Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005010382664758",
@@ -144,7 +144,7 @@
       "score": 0.2626,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:50Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005006998978324",
@@ -162,7 +162,7 @@
       "score": 0.2512,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:51Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005008062932682",
@@ -180,7 +180,7 @@
       "score": 0.2505,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:51Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005009049503829",
@@ -198,7 +198,7 @@
       "score": 0.2487,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:52Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005006588685488",
@@ -216,7 +216,7 @@
       "score": 0.248,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:52Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005003472116469",
@@ -234,7 +234,7 @@
       "score": 0.2465,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:53Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005003674465001",
@@ -252,7 +252,7 @@
       "score": 0.229,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:53Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005008813902899",
@@ -270,7 +270,7 @@
       "score": 0.224,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:54Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005008682223950",
@@ -288,7 +288,7 @@
       "score": 0.2206,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:54Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005005807293081",
@@ -306,7 +306,7 @@
       "score": 0.2151,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:54Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005007541859728",
@@ -324,7 +324,7 @@
       "score": 0.1938,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:55Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005007309850404",
@@ -342,7 +342,7 @@
       "score": 0.1911,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:55Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     },
     {
       "product_id": "1005012789843658",
@@ -360,7 +360,7 @@
       "score": 0.1777,
       "price_history": [],
       "fetched_at": "2026-08-20T02:15:56Z",
-      "updated_at": "2026-08-20T06:47:24Z"
+      "updated_at": "2026-08-20T10:00:24Z"
     }
   ]
 }
