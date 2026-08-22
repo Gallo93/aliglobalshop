@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-08-21T23:01:08Z",
+  "updated_at": "2026-08-22T02:14:33Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -17,8 +17,8 @@
       "sales_volume": 122,
       "score": 0.3246,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:58Z",
-      "updated_at": "2026-08-21T23:00:58Z"
+      "fetched_at": "2026-08-22T02:14:25Z",
+      "updated_at": "2026-08-22T02:14:25Z"
     },
     {
       "product_id": "1005011540558054",
@@ -35,12 +35,12 @@
       "sales_volume": 43,
       "score": 0.2942,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:58Z",
-      "updated_at": "2026-08-21T23:00:58Z"
+      "fetched_at": "2026-08-22T02:14:26Z",
+      "updated_at": "2026-08-22T02:14:26Z"
     },
     {
       "product_id": "1005008323500938",
-      "title": "Drahtloser Magnetadsorptions-Ladehalter für Volvo XC60 XC90 S90 V90 V60 S60 Superschnelles Ladegerät USB Type-C",
+      "title": "Drahtloser Magnetadsorptions-Ladehalter für Volvo XC60 XC90 S90 V90 V60 S60 Superschnelles Ladegerät USB Typ-C",
       "slug": "magnetic-adsorption-wireless-charging-holder-for-volvo-xc60-",
       "price": 35.52,
       "original_price": 91.08,
@@ -53,8 +53,8 @@
       "sales_volume": 31,
       "score": 0.2767,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:59Z",
-      "updated_at": "2026-08-21T23:00:59Z"
+      "fetched_at": "2026-08-22T02:14:26Z",
+      "updated_at": "2026-08-22T02:14:26Z"
     },
     {
       "product_id": "1005012349888176",
@@ -71,8 +71,8 @@
       "sales_volume": 8,
       "score": 0.266,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:00Z",
-      "updated_at": "2026-08-21T23:01:00Z"
+      "fetched_at": "2026-08-22T02:14:27Z",
+      "updated_at": "2026-08-22T02:14:27Z"
     },
     {
       "product_id": "1005010731285437",
@@ -89,8 +89,8 @@
       "sales_volume": 13,
       "score": 0.2546,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:00Z",
-      "updated_at": "2026-08-21T23:01:00Z"
+      "fetched_at": "2026-08-22T02:14:27Z",
+      "updated_at": "2026-08-22T02:14:27Z"
     },
     {
       "product_id": "1005012379322891",
@@ -107,8 +107,8 @@
       "sales_volume": 10,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:01Z",
-      "updated_at": "2026-08-21T23:01:01Z"
+      "fetched_at": "2026-08-22T02:14:27Z",
+      "updated_at": "2026-08-22T02:14:27Z"
     },
     {
       "product_id": "1005012124170204",
@@ -125,12 +125,12 @@
       "sales_volume": 51,
       "score": 0.2494,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:01Z",
-      "updated_at": "2026-08-21T23:01:01Z"
+      "fetched_at": "2026-08-22T02:14:28Z",
+      "updated_at": "2026-08-22T02:14:28Z"
     },
     {
       "product_id": "1005012408073378",
-      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Übertragung 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
+      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Transmission 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
       "slug": "3m-5m-10m-usb-30-extender-high-speed-5gbps-transmission-4-po",
       "price": 13.87,
       "original_price": 27.2,
@@ -143,12 +143,12 @@
       "sales_volume": 10,
       "score": 0.2482,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:02Z",
-      "updated_at": "2026-08-21T23:01:02Z"
+      "fetched_at": "2026-08-22T02:14:28Z",
+      "updated_at": "2026-08-22T02:14:28Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank in 4 Kabel tragbaren Ladegerät niedlich Pet Cartoon Make-up Spiegel Powerbank externe Batterie Power Bank",
+      "title": "20000mAh Mini Power Bank in 4 Kabel tragbaren Ladegerät niedlich Pet Cartoon Make-up Spiegel Powerbank Externe Batterie Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.67,
       "original_price": 21.34,
@@ -161,8 +161,8 @@
       "sales_volume": 17,
       "score": 0.248,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:02Z",
-      "updated_at": "2026-08-21T23:01:02Z"
+      "fetched_at": "2026-08-22T02:14:29Z",
+      "updated_at": "2026-08-22T02:14:29Z"
     },
     {
       "product_id": "1005007646050752",
@@ -179,8 +179,8 @@
       "sales_volume": 41,
       "score": 0.2439,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:03Z",
-      "updated_at": "2026-08-21T23:01:03Z"
+      "fetched_at": "2026-08-22T02:14:29Z",
+      "updated_at": "2026-08-22T02:14:29Z"
     },
     {
       "product_id": "1005009589681770",
@@ -197,12 +197,12 @@
       "sales_volume": 4,
       "score": 0.2415,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:03Z",
-      "updated_at": "2026-08-21T23:01:03Z"
+      "fetched_at": "2026-08-22T02:14:29Z",
+      "updated_at": "2026-08-22T02:14:29Z"
     },
     {
       "product_id": "1005010423192710",
-      "title": "20000MAH Große Kapazität Powerbank für Klimaanlage Arbeitskleidung Power Bank 12V Fan-Kleidung Ausgabe Lithium-Batterie Zubehör",
+      "title": "20000MAH Große Kapazität Powerbank für Klimaanlagen-Arbeitskleidung Power Bank 12V Ventilator-Ausgangskleidung Lithium-Batterie Zubehör",
       "slug": "20000mah-large-capacity-powerbank-for-air-conditioner-work-c",
       "price": 47.59,
       "original_price": 95.19,
@@ -215,8 +215,8 @@
       "sales_volume": 3,
       "score": 0.2404,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:04Z",
-      "updated_at": "2026-08-21T23:01:04Z"
+      "fetched_at": "2026-08-22T02:14:30Z",
+      "updated_at": "2026-08-22T02:14:30Z"
     },
     {
       "product_id": "1005012259681107",
@@ -233,8 +233,8 @@
       "sales_volume": 16,
       "score": 0.2399,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:04Z",
-      "updated_at": "2026-08-21T23:01:04Z"
+      "fetched_at": "2026-08-22T02:14:30Z",
+      "updated_at": "2026-08-22T02:14:30Z"
     },
     {
       "product_id": "1005007395412166",
@@ -251,8 +251,8 @@
       "sales_volume": 14,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:05Z",
-      "updated_at": "2026-08-21T23:01:05Z"
+      "fetched_at": "2026-08-22T02:14:30Z",
+      "updated_at": "2026-08-22T02:14:30Z"
     },
     {
       "product_id": "1005012648404171",
@@ -269,8 +269,8 @@
       "sales_volume": 11,
       "score": 0.2243,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:05Z",
-      "updated_at": "2026-08-21T23:01:05Z"
+      "fetched_at": "2026-08-22T02:14:31Z",
+      "updated_at": "2026-08-22T02:14:31Z"
     },
     {
       "product_id": "1005012745139264",
@@ -287,12 +287,12 @@
       "sales_volume": 1,
       "score": 0.2061,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:06Z",
-      "updated_at": "2026-08-21T23:01:06Z"
+      "fetched_at": "2026-08-22T02:14:31Z",
+      "updated_at": "2026-08-22T02:14:31Z"
     },
     {
       "product_id": "1005009849333993",
-      "title": "15W Magsafe Wireless Ladegerät mit Kabelstand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
+      "title": "15W Magsafe Wireless Ladegerät mit Kabel Stand PD 22,5W Schnelllade Power Bank 20000mAh für iPhone 16 Samsung Xiaomi Powerbank",
       "slug": "15w-magsafe-wireless-charger-with-cable-stand-pd-225w-fast-c",
       "price": 15.03,
       "original_price": 25.06,
@@ -305,8 +305,8 @@
       "sales_volume": 9,
       "score": 0.1911,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:06Z",
-      "updated_at": "2026-08-21T23:01:06Z"
+      "fetched_at": "2026-08-22T02:14:32Z",
+      "updated_at": "2026-08-22T02:14:32Z"
     },
     {
       "product_id": "1005009489688001",
@@ -323,8 +323,8 @@
       "sales_volume": 1,
       "score": 0.1801,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:07Z",
-      "updated_at": "2026-08-21T23:01:07Z"
+      "fetched_at": "2026-08-22T02:14:32Z",
+      "updated_at": "2026-08-22T02:14:32Z"
     },
     {
       "product_id": "1005012209727480",
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:07Z",
-      "updated_at": "2026-08-21T23:01:07Z"
+      "fetched_at": "2026-08-22T02:14:32Z",
+      "updated_at": "2026-08-22T02:14:32Z"
     },
     {
       "product_id": "1005012458566724",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.174,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:01:08Z",
-      "updated_at": "2026-08-21T23:01:08Z"
+      "fetched_at": "2026-08-22T02:14:33Z",
+      "updated_at": "2026-08-22T02:14:33Z"
     }
   ]
 }

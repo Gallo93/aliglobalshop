@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-08-21T23:00:43Z",
+  "updated_at": "2026-08-22T02:14:12Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1610,
       "score": 0.3531,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:33Z",
-      "updated_at": "2026-08-21T23:00:33Z"
+      "fetched_at": "2026-08-22T02:14:04Z",
+      "updated_at": "2026-08-22T02:14:04Z"
     },
     {
       "product_id": "1005012611600751",
@@ -35,8 +35,8 @@
       "sales_volume": 9,
       "score": 0.3171,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:33Z",
-      "updated_at": "2026-08-21T23:00:33Z"
+      "fetched_at": "2026-08-22T02:14:04Z",
+      "updated_at": "2026-08-22T02:14:04Z"
     },
     {
       "product_id": "1005010374390737",
@@ -53,8 +53,8 @@
       "sales_volume": 104,
       "score": 0.308,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:34Z",
-      "updated_at": "2026-08-21T23:00:34Z"
+      "fetched_at": "2026-08-22T02:14:05Z",
+      "updated_at": "2026-08-22T02:14:05Z"
     },
     {
       "product_id": "1005012445621796",
@@ -71,8 +71,8 @@
       "sales_volume": 20,
       "score": 0.3034,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:34Z",
-      "updated_at": "2026-08-21T23:00:34Z"
+      "fetched_at": "2026-08-22T02:14:05Z",
+      "updated_at": "2026-08-22T02:14:05Z"
     },
     {
       "product_id": "1005005604363467",
@@ -89,8 +89,8 @@
       "sales_volume": 32,
       "score": 0.253,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:34Z",
-      "updated_at": "2026-08-21T23:00:34Z"
+      "fetched_at": "2026-08-22T02:14:06Z",
+      "updated_at": "2026-08-22T02:14:06Z"
     },
     {
       "product_id": "1005010057510845",
@@ -107,8 +107,8 @@
       "sales_volume": 1,
       "score": 0.2501,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:35Z",
-      "updated_at": "2026-08-21T23:00:35Z"
+      "fetched_at": "2026-08-22T02:14:06Z",
+      "updated_at": "2026-08-22T02:14:06Z"
     },
     {
       "product_id": "4000143784956",
@@ -125,8 +125,8 @@
       "sales_volume": 330,
       "score": 0.2479,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:35Z",
-      "updated_at": "2026-08-21T23:00:35Z"
+      "fetched_at": "2026-08-22T02:14:06Z",
+      "updated_at": "2026-08-22T02:14:06Z"
     },
     {
       "product_id": "1005005807578430",
@@ -143,8 +143,8 @@
       "sales_volume": 5,
       "score": 0.2379,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:36Z",
-      "updated_at": "2026-08-21T23:00:36Z"
+      "fetched_at": "2026-08-22T02:14:07Z",
+      "updated_at": "2026-08-22T02:14:07Z"
     },
     {
       "product_id": "1005003065099697",
@@ -161,8 +161,8 @@
       "sales_volume": 12,
       "score": 0.2244,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:37Z",
-      "updated_at": "2026-08-21T23:00:37Z"
+      "fetched_at": "2026-08-22T02:14:07Z",
+      "updated_at": "2026-08-22T02:14:07Z"
     },
     {
       "product_id": "1005012750087339",
@@ -179,12 +179,12 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:38Z",
-      "updated_at": "2026-08-21T23:00:38Z"
+      "fetched_at": "2026-08-22T02:14:08Z",
+      "updated_at": "2026-08-22T02:14:08Z"
     },
     {
       "product_id": "1005003906939600",
-      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Series 560 620 630 650 760 770 870 R3",
+      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Serie 560 620 650 760 770 870 R3",
       "slug": "sparkole-53-ah-148v-li-ion-battery-with-brand-cells-for-irob",
       "price": 19.46,
       "original_price": 32.44,
@@ -197,12 +197,12 @@
       "sales_volume": 9,
       "score": 0.2178,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:38Z",
-      "updated_at": "2026-08-21T23:00:38Z"
+      "fetched_at": "2026-08-22T02:14:08Z",
+      "updated_at": "2026-08-22T02:14:08Z"
     },
     {
       "product_id": "32898805107",
-      "title": "Mi Light Dimmerable 4W GU10/MR16 Led Bulb RGB CCT (2700-6500K) Decorazione interna della lampada + 2.4G RF LED Remote Control Home Illuminazione",
+      "title": "Mi luce dimmerabile 4W GU10/MR16 Led lampadina RGB CCT (2700-6500K) lampada Decorazione interna + 2.4G RF LED Remote Control Home Illuminazione",
       "slug": "mi-light-dimmable-4w-gu10mr16-led-bulb-rgb-cct-2700-6500k-la",
       "price": 11.79,
       "original_price": 19.02,
@@ -215,8 +215,8 @@
       "sales_volume": 17,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:39Z",
-      "updated_at": "2026-08-21T23:00:39Z"
+      "fetched_at": "2026-08-22T02:14:08Z",
+      "updated_at": "2026-08-22T02:14:08Z"
     },
     {
       "product_id": "1005004556206576",
@@ -233,8 +233,8 @@
       "sales_volume": 37,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:39Z",
-      "updated_at": "2026-08-21T23:00:39Z"
+      "fetched_at": "2026-08-22T02:14:09Z",
+      "updated_at": "2026-08-22T02:14:09Z"
     },
     {
       "product_id": "4001041588925",
@@ -251,8 +251,8 @@
       "sales_volume": 7,
       "score": 0.2118,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:40Z",
-      "updated_at": "2026-08-21T23:00:40Z"
+      "fetched_at": "2026-08-22T02:14:09Z",
+      "updated_at": "2026-08-22T02:14:09Z"
     },
     {
       "product_id": "1005006118602003",
@@ -269,8 +269,8 @@
       "sales_volume": 4,
       "score": 0.2115,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:40Z",
-      "updated_at": "2026-08-21T23:00:40Z"
+      "fetched_at": "2026-08-22T02:14:10Z",
+      "updated_at": "2026-08-22T02:14:10Z"
     },
     {
       "product_id": "1005007374302567",
@@ -287,12 +287,12 @@
       "sales_volume": 3,
       "score": 0.2084,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:41Z",
-      "updated_at": "2026-08-21T23:00:41Z"
+      "fetched_at": "2026-08-22T02:14:10Z",
+      "updated_at": "2026-08-22T02:14:10Z"
     },
     {
       "product_id": "1005010659622111",
-      "title": "per Geely EX2 Xingyuan Proton EMas 5 4K DVR Dash Cam fotocamera posteriore anteriore posteriore posteriore posteriore posteriore video registratore Wifi 2160 P Loop Registrazione visione notturna",
+      "title": "per Geely EX2 Xingyuan Proton EMas 5 4K DVR Dash Cam fotocamera posteriore anteriore posteriore posteriore posteriore video registratore Wifi 2160 P Loop Registrazione visione notturna",
       "slug": "for-geely-ex2-xingyuan-proton-emas-5-4k-dvr-dash-cam-oem-fro",
       "price": 119.71,
       "original_price": 184.17,
@@ -305,8 +305,8 @@
       "sales_volume": 8,
       "score": 0.206,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:41Z",
-      "updated_at": "2026-08-21T23:00:41Z"
+      "fetched_at": "2026-08-22T02:14:11Z",
+      "updated_at": "2026-08-22T02:14:11Z"
     },
     {
       "product_id": "1005009559994857",
@@ -323,8 +323,8 @@
       "sales_volume": 5,
       "score": 0.2036,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:42Z",
-      "updated_at": "2026-08-21T23:00:42Z"
+      "fetched_at": "2026-08-22T02:14:11Z",
+      "updated_at": "2026-08-22T02:14:11Z"
     },
     {
       "product_id": "1005004966987077",
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:42Z",
-      "updated_at": "2026-08-21T23:00:42Z"
+      "fetched_at": "2026-08-22T02:14:11Z",
+      "updated_at": "2026-08-22T02:14:11Z"
     },
     {
       "product_id": "1005007321083900",
@@ -359,8 +359,8 @@
       "sales_volume": 14,
       "score": 0.1977,
       "price_history": [],
-      "fetched_at": "2026-08-21T23:00:43Z",
-      "updated_at": "2026-08-21T23:00:43Z"
+      "fetched_at": "2026-08-22T02:14:12Z",
+      "updated_at": "2026-08-22T02:14:12Z"
     }
   ]
 }
