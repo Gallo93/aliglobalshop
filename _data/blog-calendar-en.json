@@ -343,8 +343,8 @@
     "primary_keyword": "best budget dash cam 2026",
     "category": "electronics",
     "intent": "commercial",
-    "used": false,
-    "used_at": null
+    "used": true,
+    "used_at": "2026-08-23"
   },
   {
     "topic": "Best wireless charger for phones and earbuds under $25",
