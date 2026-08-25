@@ -1,26 +1,8 @@
 {
-  "timestamp": 1787451885.5208488,
+  "timestamp": 1787624373.0645065,
   "slug": "what-to-look-for-budget-projector-2026",
-  "updated_at": "2026-08-23T02:24:45Z",
+  "updated_at": "2026-08-25T02:19:33Z",
   "products": [
-    {
-      "product_id": "1005008564362053",
-      "title": "Wimius L1 Mini Projecteur 1080P Support 300 ANSI Android 11 Wifi Bluetooth Projecteur automatique Keystone Maison Projecteur Portable",
-      "slug": "wimius-l1-mini-projector-1080p-support-300-ansi-android-11-w",
-      "price": 33.84,
-      "original_price": 112.78,
-      "discount_pct": 70,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ob7v5hF0gNxIBZWqbn44yxHsLFPv8EQUPNO4u44tNwo2tABwY1ibW7cNligkn5b1mjFrX5WTQyPfJpPu64cPNP1TTp79g1pbYfvUFzVbf8Ay5hV4c95H1SVljg2iq9fozy5CzA8XJHSltBfMiG2V5G1XCXv9lOP9R1AK7djWE7PDxyVOHxl5zjVjZCCxN9qAE3Mfm1uzA3019bXTlDiMdlqxgb1wcq20HwhERMY8TcjOBkeD6yxVzTjSihO9CUxQ2umb2sEyG4qF4WuPjy7vS8K8MpDeSl1ilaGgAZiXaTRzb9RshMIOvcnfGOLTct3IWgqkhlY9xFJ80OvZKy135pdGFsgXFKD0i1QK1VjqYu2vFeyJFRS0NQo9hRs6X04rjh1dnddnBTyfD9CtcsErkycfuJkfbtgdAsV94HvBH4vXAMteuyoulSN1QmL8fZse7OjyJ5mjwBLOWTC8HoHSn9CDn2qVqVxnrJaQsf8Zr8Bu1w53KkaAhRmwlN7T6raALlhifku1RZaVH0tMQoHoHYQTJ1AtDk6jNKgbZ8vrlDkzfv7LC3x6R0SLvFTh3bC4X6sOeQ4j5pn24NGfDbyxHd41WMxTAhiCQRgekUuvk5uO54WQOanY7fILCfV9l4p2FG1tnyFMF0Ot6bIaquVWvxUok9c5ZdrbhmJ4qWYS2pPg3Rua1dwtA32mNjtGd4X6r9ntT0rVPmIGZ",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1785711810/products/art-1005008564362053.webp",
-      "category": "electronics",
-      "rating": 4.6,
-      "reviews_count": 903,
-      "sales_volume": 903,
-      "score": 0.4109,
-      "price_history": [],
-      "fetched_at": "2026-08-23T02:24:43Z",
-      "updated_at": "2026-08-23T02:24:43Z"
-    },
     {
       "product_id": "1005007587741414",
       "title": "BYINTEK Full HD Mini Projector U4 LOVE 1 1080P 4K Video WIFI Android Auto Focus Portable Smart Projectors Home Theater Cinema",
@@ -28,16 +10,16 @@
       "price": 116.26,
       "original_price": 276.82,
       "discount_pct": 58,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FlZcwVn6zk3o43MOFzgHCncrRBSgUP1rklXl58sURFvTFZvn3ZyAYUx0mT3UBiJ9Do8Mm3dAuYYFX6fdNu8pp2QHRLf3yJqF2ccMyBomCAtSqutoWs7vxZnJUyxHhphIQC8Pmuc767k9B7oODvA88GoJYMz2WeEVEl85gXoWDSjTKNs9LZo5SmzjQ0YTeOnAiHZcUAFZ7nuw7ijWMoptafYf8lSfDi8NXboShN28cyi6EIiALafByzYjkp23t1Zg9INJlx8Hqg5YSrQYbTGCb6LpCHnChnpJs8zJlHrLsdYL1ThvTGnb3FDvq6XotCiVSMulZRMBL7H4kPFz6E5IJiR1kc4XzLY333hJxHACLFkVQxIQlWrg8L5hvzaY4NIefev1rpIZep2zRi5GhjB4rJC0LPJJHsd9VGu0ijJenTFVTP4QtaYdN8C5o2cu3V7XeeV25HNnkKUCMyUjzsalZCEy84cXg4Y5Yu6FGhVAsLbyrF2C0JnolbiJPc6H9Z38v1ogDZSe3R9L1Uqhs0hrqSPUW5qfsIJR3dQjqkP0wAdHcnBibQsZplAdtoxAaJfEPIlml9lU8iIOs4kEAHixALjXj9C6NTPlbYFXypAY2CxyKahZLMV0TMzlLvzVxMLkXtTTuEIwi29LrvMZW8AWksDTvB6NZCE8rcB1RSKG4HKt43fpEwQk2HxenpppZhXEAjHEp3d3nwfoN",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FlZcwVn6zk3o43MOFzgHCncrRBSgUP1rklXl58sURFvTFZvn3ZyAYUx0mT3UBiJ9Do8Mm3dAuYYFX6fdNu8pp2QHRLf3yJqF2ccMyBomCAtSqutoWs7vxZnJUyxHhphIQC8Pmuc767k9B7oODvA88GoJYMz2WeEVEl85gXoWDSjTKNs9LZo5SmzjQ0YTeOnAiHZcUAFZ7nuw7ijWMoptafYf8lSfDi8NXboShN0xmkGNvYx3ePg87GQ8QDjbNnxk1cDXdaZvKdgdyaU3FkJRJIofU4wIyCrcipNwEqyEnsGREEweh4g9ws66uzuCv8OQsOeSQEwztlWREJHVkPY0hLzWOVn7xDGt8P4nUie8lV8IyPuS3VQyhqqa1T1JjOLGIp9MDcyAsuX8F2rFwr99C7Nw6PHgmg5z0ACYiIDhZRy2P2hfORn24BupC0c4yzfA18oCpHBSrqdZs6U7Ds69QmNXQuAvBvD0JjdK3CRTiK08PTBRNuju6aa370uIWVTbgZAg5OJhDGDAXzHL6X1c4sUJeeqTZOL8ZAHHuWrjbQ9hratxT6PikvXv8BEueBRmzDNZ1qau1udpfI7p3YnBbhXqYAAPxe3aU9qRsIZU1PVz0CdLbJqUhcW4slOfMsxGpXhikvQfR8RTk8Kki9tOVWrVnqxfOjQxVVYp28Cia7cewSbezpLwpGJsGdKzd655b9D1gs39nvMJf",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783917060/products/art-1005007587741414.webp",
       "category": "electronics",
       "rating": 5.0,
-      "reviews_count": 93,
-      "sales_volume": 93,
-      "score": 0.2844,
+      "reviews_count": 95,
+      "sales_volume": 95,
+      "score": 0.2846,
       "price_history": [],
-      "fetched_at": "2026-08-23T02:24:44Z",
-      "updated_at": "2026-08-23T02:24:44Z"
+      "fetched_at": "2026-08-25T02:19:30Z",
+      "updated_at": "2026-08-25T02:19:30Z"
     },
     {
       "product_id": "1005010206431014",
@@ -46,7 +28,7 @@
       "price": 172.45,
       "original_price": 383.22,
       "discount_pct": 55,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okUI4DrhOPJAAEsZs5I14ElXlbsE4UU3cYt1NebROL2XH7l36k3rZvnQIUGgufzvj9GPCQN6Aic1O18fCkao0nrHVauOXejHgIaDQAO4EuT8khlQaBWaA19JVYV8Xd2Mt2t0j5A4oFyk9ZtdlKe8e8Yw1ZSwlct1Y1OrXooHZP1gYd0Vn4bYneQPeQiVB95XEkwWJ6hBR7pAKVm8AJwE5uR8bLs88q3KYm051ucd9w8pE3rIIn5xC2W60Z452S9c2CpbtFDTm1rhvAMHw7DjgqzFwTj08SzyFbPwtMo3h6pvcRbjngAoPgj2enzLZ26f0CYmgZjxrD3PJbAmDEDhNwfh3G5Cs2RiUBGJ3vSthQD5MQ6doLFX6seoOw2Gr3yZ4rPupf43WPtn6ZQkAKZv5ZX7NQXscaNQB0rRge3QBNaHfKmfjNttiAnieVUiOorjemOr0fBE8fq6TKGTzcfir9eCFENz5KdXIePHWhlUbypKHZETyzI5tcGs7FRd2FY8JyAOpRK9PAd0ErIAVGTZW2mtVPXNZbmfgm9z2nTQ6wmz4f77AYyzGl70bNxEQHnR0qkDfNxJMwGPI6O4HjWxNiHU93nw2swEOah6uc3kcmf71D8zYXufMs7dsJEZ3z9Xmsdth4YsagbqO0wUWoGRHUp60jhRl98Gy5rGquDWSrvHCEaZaVcLJHBBAh2Vc30nA6athY0KnVDKp",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okUI4DrhOPJAAEsZs5I14ElXlbsE4UU3cYt1NebROL2XH7l36k3rZvnQIUGgufzvj9GPCQN6Aic1O18fCkao0nrHVauOXejHgIaDQAO4EuT8khlQaBWaA19JVYV8Xd2Mt2t0j5A4oFyk9ZtdlKe8e8Yw1ZSwlct1Y1OrXooHZP1gYd0Vn4bYneQPeQiVB95XEkwWJ6hBR7pAKVm8AJwE5uR8bLs88q3KYm051ucd9w8pE3rIIn5xC2W60Z452S9c2C31Sth4ka0fVg2rOmdSPrUurpyFLv7XuXOllWK29AXE4px2U6FDNR2jjLQDg1Nozb4GsBjeGHQV4Ymfkq3gcxfvgmCavToU4f4oAq5bDYkYPN5bWdVSFIHuBaJm5SwdHDMady3rzFICvT1GhoosLfqAfPSzw8tcbJCSkIeuuxzJGi1iaXCZA25WeDrqHHluJxr2yljS2JqB57U4Vieeg3COaRfVSLiiICvB3nOFoeXkdapqSavekPsNlFGmbf2lhlSyT8TkQsSFousvp7CoKhFXOXooTb1wblRe8NrNGdRpMj1oFw0REIvQ2uWkHLs5C9BOSwa3WG01FxCFt8Z7BUp7hvzMb9XKGMsIOOq12KKUYVdkv9iSGQWnoFsoZ1RDaDYJ3ooyCmGaZHBjULtOVk9uXODEtxgQeMKItN1a7akTnSN1yQVfTtgQGB5e8395aDJbNyHLRLq8p",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1786933257/products/art-1005010206431014.webp",
       "category": "electronics",
       "rating": 4.8,
@@ -54,8 +36,8 @@
       "sales_volume": 57,
       "score": 0.2678,
       "price_history": [],
-      "fetched_at": "2026-08-23T02:24:44Z",
-      "updated_at": "2026-08-23T02:24:44Z"
+      "fetched_at": "2026-08-25T02:19:31Z",
+      "updated_at": "2026-08-25T02:19:31Z"
     },
     {
       "product_id": "1005007353455250",
@@ -64,25 +46,25 @@
       "price": 263.91,
       "original_price": 618.89,
       "discount_pct": 57,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EybMHTxyJHff94rXMLUJp73fb4cXoHUJ8AS86SskczDSArMxuKUMd8jZXy5AfXDuitjICYLoBiqwhUDgadv58ZIrr0VIHZSfyKbNcoshKgJTnzR0KvMpIVveZIrGnZPc3Ie6cyKkfrPzpoyfiZUrDlOzdLtFe4jxT1oRsbbJ65JzIw8NiBlpkebEu6APZShq0cGaKEJAJOKUTL4WquL4Sx1RBAhrQ4FYpQBHbzRZeTVX4Cd2sdZjms72tQtDdISHoW9tWGD9NXWYPzOcZ8rlvxWBZQaQwoeriUlh3eLvhLK6H8WALTN2QkbETlq2gSVUUAJJJ94zfZy9wLfjtZ1U7jVltPaqfldWO1a0dhqR5lZDw7dv6dhzgmqXBTF9sKnQUE9xe221MoOWVx9X4Xtkff4beMHtp2vJSBy63cdmjwa5qtIPrUGkCzKlq3wtFv0iub66oUCFnhwc1FKXzS120PEIwi59bnM7GMW7X8jGBzkNRxMZGlL2EXm0Ez8LnZttrjj7JEDXGrJIfHaHpAuI6sha7Sl7HZlKIP8YvOosn10HLPvsmImD864jap3zCVaijoGapMrpKmSwbOq8fyglxTH0pdDoRk8hNfaDBHTDl6n3SewTrnvwy43Agl3DB3l0sjephbMoeUIkXlRyoeVogic2TjOuyzXYTsQdOtAcvPfCzGXdfKAksl0HXGQexIhVMo8HulI8Y6S1b",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EybMHTxyJHff94rXMLUJp73fb4cXoHUJ8AS86SskczDSArMxuKUMd8jZXy5AfXDuitjICYLoBiqwhUDgadv58ZIrr0VIHZSfyKbNcoshKgJTnzR0KvMpIVveZIrGnZPc3Ie6cyKkfrPzpoyfiZUrDlOzdLtFe4jxT1oRsbbJ65JzIw8NiBlpkebEu6APZShq0cGaKEJAJOKUTL4WquL4Sx1RBAhrQ4FYpQBHbQnunhXLculHbS7txobklIvJDUGpbimI6qwOL8oZoNZRBCbd2rWfPT2dZNYA8CsBOQBO3e6gYT8NUA4gmGLpn0qoxto3trqnZ8wCjnAArwU8d6SkgO22iIhV5B0eAMlGPnh0Jr5pLGXMTkTcARLMg8wCSx1JbRm84gFJnqbyZCEfQK5c7ZeDt0OJQ8ODJIYFShZ6pl2TJn9ZY0xfJBWkmKXTeriadgOE2CW2ujOIbPB3s0AmjeGPY9LqJw20LSti3lJZxwDxJ0MhkCfQMSmte69tO9W20QhMtqVwDjdoqYCWJExxztf7cyGa14FuiXXu8uc7cOHlhFR9tkpDWjsE4qlTo2Qb10kvqqxVGEUdbUhXv7mNQcLt3IGIWlQuumX0JZmNNx941cR9JiLjVqMUXCppRYTtc9BRokWYrN8PbyuQqNHWCzNzznRZ8M7M2qQCV93b0bIGXMOUZaiLUvRLZXbltTEkwb6JQMiBTgtfT",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1787192276/products/art-1005007353455250.webp",
       "category": "electronics",
       "rating": 4.7,
-      "reviews_count": 29,
-      "sales_volume": 29,
-      "score": 0.2678,
+      "reviews_count": 28,
+      "sales_volume": 28,
+      "score": 0.2677,
       "price_history": [],
-      "fetched_at": "2026-08-23T02:24:44Z",
-      "updated_at": "2026-08-23T02:24:44Z"
+      "fetched_at": "2026-08-25T02:19:31Z",
+      "updated_at": "2026-08-25T02:19:31Z"
     },
     {
       "product_id": "1005011978240206",
-      "title": "Haute qualité Mini portable Android TV Smart Projector 8000 ANSI Lumens 2G RAM WiFi 6 Full high définition 4K Native 1080p",
+      "title": "Mini portable de haute qualité TV Android Smart Projector 8000 ANSI Lumens 2G RAM WiFi 6 Full high définition 4K Native 1080p",
       "slug": "high-quality-mini-portable-android-tv-smart-projector-8000-a",
       "price": 238.58,
       "original_price": 568.04,
       "discount_pct": 58,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kVrK05Z3wvCnEk5e5d4sRGGIVwG7f2YgtiBVD8CSQOaMUSy5ltVH5Tkvz2ypY4KJ7TB40dy1ulPE5P50cAk4YWzTCTDwKSbXGatCCDqwI5Bot1UDfMCWV35HKbl4LeNZ9K59aUnNBJ7YeZ2oTvncSnPXUDsiw39QF6nmFIhjN9XU6rGHHjNUSF9tyadMao5mgA8xmAweWN7pFl3COw8BvHoMIq3WMh8807lomVvj4DNJOnwikMoScc3kj5S6rgQ1XGfJRdVDtMZo1hBkfNRglJ0goBi8VAXkMIYUcjY1Ws5StEyiFHvkgg4j4agY0qwwi0ZecRMr8YV3U01AXdzvDalDrls58LrYuwrfXjtCVuT98P3abDdLNCpGvSlRwjVIOc7USbVNgEW8dv7tbJrMCYw2FuBX6jtHKjwXXGzimVAa9ECBDU1poz2bwUJSSZWs1giDTGR0vSzFUegH9KkUJY1gPxKgq3EZgzmbV8oD2fL0Yi2PtM8zhwxgSNXtMTGvgKxwp1NHhIzbLOgOpoBVquTuhxhaTn3dOEfjAGrzccjMOX2UY0QlkJfehxuB8HsN1uZGAIpv4wfQw5b3WywYFrAFer97xl2MGP93QfcYcr1pfPQhsuY2ltqHIexD99fRRIFn4ZyDkrnVWTgBe68sL4VZsUMS5ukPWcmnPIcOtqGvrUJFKUAdGTm9ZAKYqL6ayHJBIy7YTVci5",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kVrK05Z3wvCnEk5e5d4sRGGIVwG7f2YgtiBVD8CSQOaMUSy5ltVH5Tkvz2ypY4KJ7TB40dy1ulPE5P50cAk4YWzTCTDwKSbXGatCCDqwI5Bot1UDfMCWV35HKbl4LeNZ9K59aUnNBJ7YeZ2oTvncSnPXUDsiw39QF6nmFIhjN9XU6rGHHjNUSF9tyadMao5mgA8xmAweWN7pFl3COw8BvHoMIq3WMh8807lomVvj4DNJOnwikMoScc3kj5S6rgQ1XGSDbZu38OBEdt6AeRvoz6wEkDw1VasgcoqaACJjSvstoKW7x2duNxXVkLkejU4kL7YZjr5DZQeNlJrsHp7wwTRMYAiDlLAAG5EMGLcxOqBys1L4qTOOkrfHdmSMAuh6Xwpk5VsCiItpJyc8TShtPnqRBB8nnZfen2gPcIzLqqf4rzsW9j3g1Yxnl5YqoxKjeE1mKhKzWmI2tLyRKbWBYEEIzZG1gsmDmmO12LHgZQWAWa1VM1zxZFYF8dzLxevmlqnZSS8MiCeWpRN74KkdMtxSlfoG5dwffS3Ks3HyGi1m3tLK98XGuF59kdgproCV0od2qhRBe6WVnaltfpPID0eacHvIASf2CW52BFu5KS2WH7ps67rLNx8v0XcWbQ6duiXNHpA0UQfy7hJoFwHYisZPG8rWjdkRgG2Sll22MWEcrviva0UJKT6dcNpVv2NqOFsJ2Dn7trBAp",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783333647/products/art-1005011978240206.webp",
       "category": "electronics",
       "rating": null,
@@ -90,17 +72,17 @@
       "sales_volume": 0,
       "score": 0.174,
       "price_history": [],
-      "fetched_at": "2026-08-23T02:24:45Z",
-      "updated_at": "2026-08-23T02:24:45Z"
+      "fetched_at": "2026-08-25T02:19:31Z",
+      "updated_at": "2026-08-25T02:19:31Z"
     },
     {
       "product_id": "1005012214825368",
-      "title": "YT200 Projecteur 1080P Portable LED Home Theater LCD Mini Cadeau pour enfants Téléphone mobile sans fil Même écran Projecteur de projection",
+      "title": "YT200 Projecteur 1080P Portable LED Home Theater LCD Mini Cadeau pour enfants Téléphone mobile sans fil Même écran Projecteur",
       "slug": "yt200-projector-1080p-portable-led-home-theater-lcd-mini-chi",
       "price": 20.54,
       "original_price": 45.66,
       "discount_pct": 55,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FcseqlwLk84JrNgdeCCUk7V0eQ3raBXJcHphV2y4C0gkGPv42kx7Ha8UrRKqBZekcNQpcWYKTnNjXrIX1PAw0cUXTcyZiUmByAcpnjg44PZfRIenkbaEZOZCxUpvi9vOMyEmcyjigBwATEIXRc8KIMVISi13Jl42RbFr9WirkoanELhOQ7beFf6A7ud5CXhbLtnKv0h14ZiSZ2H89fYSUrpoYM3RgTg3HUuqargH6DDS6OyUkVF1B1cajo83akJ6iLBGxNjgTny6qQi2vx7ul8BtfjpEIZV8ZSZ9uZHhOxbX1SvTd3IsUgjkIG1KxD1fuWsAsTS0c5n0CABWerKEM91Vypv8oCrhzYoOX9P0tYFlETFdVzQql1IYXQGjifkqam4o9lDRhTtR9TAPMSBz4PALH3MfVCfYC9OAWUlRROLg96zCDAhLv3NftUbygScIMm8aChk83GguVwEEJI29LUhDxMCR219aLWQVCsWzyBZ6FBOtSERtg1tza5Ef28wNOYEBAbhbW20uJk3A7FGQjtcUfNWMdxvmsXXO02c9BlONrTI9e5WjVJMSPo2Ydpk7kvcjkFZXCq7xX4U2zTBoL6QIXkaed9sB3M5iklWQApsQRt4CkruhsItRJKercrT0FZOxLpe6zJ6qFM7ghC6CXCg291nmxzivi6RICzcASAGQksie8cQzo5DBaRxtK7CianPluGeoWKJOk",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FcseqlwLk84JrNgdeCCUk7V0eQ3raBXJcHphV2y4C0gkGPv42kx7Ha8UrRKqBZekcNQpcWYKTnNjXrIX1PAw0cUXTcyZiUmByAcpnjg44PZfRIenkbaEZOZCxUpvi9vOMyEmcyjigBwATEIXRc8KIMVISi13Jl42RbFr9WirkoanELhOQ7beFf6A7ud5CXhbLtnKv0h14ZiSZ2H89fYSUrpoYM3RgTg3HUuqargH6DDS6OyUkVF1B1cajo83akJ6iLDYPLGr2kbqiilZIZhlfhswtzdld1xQG7tUn4AbQiMBL95DPPNTlh2Dm7sLO4gUfnDxvfqeiiorErWpUmXg9qCxukeP2V7GdsK3JME6dFaBH0PhBaXfx5BshcXeD4a0ZdYdX3DjIPEzElHqhD93L17b3icI2amlWzA1rCSr3FNOn9pxA99FNPdg1VqZ4KXOptyL6WKWFuBjCJbrWHfWMdaiOzgCxeYvz9pqAzJ6Lefl8uTBxf2Ts2Cq1X7O4psQOHf4RCC5fUYz396ksE13XkR6xm5CPkHcvKEr40g3kLMMJNgyLi1qvKrDargEs8It6fuUWXKeKSxXm0dOzP2LAUwUTEQI1MnLgmRqKDHCaeKTKpl5Ym5jjwVIqkJFKTqWlgTd4CzgwRXTY4DnnFOpn1KM5UU5dKBQ9DbFotkAPdfeNjKw4jFF1AHpvcw6pwKb89wA5GIEILMHA",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784888535/products/art-1005012214825368.webp",
       "category": "electronics",
       "rating": null,
@@ -108,8 +90,26 @@
       "sales_volume": 0,
       "score": 0.165,
       "price_history": [],
-      "fetched_at": "2026-08-23T02:24:45Z",
-      "updated_at": "2026-08-23T02:24:45Z"
+      "fetched_at": "2026-08-25T02:19:32Z",
+      "updated_at": "2026-08-25T02:19:32Z"
+    },
+    {
+      "product_id": "1005012215329325",
+      "title": "P10 Smart Mini Projector 300ANSI Lumen 4K Portable Home Theater avec WIFI BT 1080P Movie Theater Beamer pour iPhone Android",
+      "slug": "p10-smart-mini-projector-300ansi-lumen-4k-portable-home-thea",
+      "price": 75.01,
+      "original_price": 166.69,
+      "discount_pct": 55,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4obAoTk9EM01qKZHCVo2mKmlUxbNb7yJrpzi2qw2vewgaOrkyh0euAl1nPn5WmfSUEr1dXUEguoj0yM2kNixrK2YQDrq6nx2MtW14aVHaoCgNw0GoqVFMNswc2SSM5J9gowB2iATCpGABLkd7QkLl5StfVXBtWvnIubi1a380YYBkqDhuhqgQSFlg8hmqehm1GCOyjsGVNY1UXA4azWt7LANt80LJeakt1aoYedq2TWPOwfTgdDcxWQWkqyKhwm6ljM0JVj0Rz6AcmnJeJBAuRGbuJ3VTq0p200IY0F8VwtF2bhUA7ObrJPNDqTdeoniZLe5VUPGCoyPvpE1eAU5nJSuZXPDMNPhvgOzjfbVijQXUKpTW3op7fL2buBekNs4Thfmm6E3lXDQeMacon6iixl7sF1b2ox9qSzazHvcoEXQHRwHHizfQQusBGGQvT3xucD18FbrHCxSKIrMuhqBuz6UdJE0ZOxXgVzhnCd7gdn0nWk1NbgOD1XPjJbbgy6axHNjHIz8JXBRccUtKdVh7VUlG09TPCESzrfTMibUSsyvYGIZrTNHasKADgzDmF1IDMFt27NgQVjGpzBYJL5iLVK7YeAZWYybcfaZayCpPztUDRFA5yL4avfyJ7GGDYX5RkHTlmoI5XCeEhkhQwwoY2HRtsMgMBWfeKASRiAWMjeNo9o2ETAoI7ZIuoztkWWwMoIK025CJvCOGy",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1787624372/products/art-1005012215329325.webp",
+      "category": "electronics",
+      "rating": null,
+      "reviews_count": 0,
+      "sales_volume": 0,
+      "score": 0.165,
+      "price_history": [],
+      "fetched_at": "2026-08-25T02:19:32Z",
+      "updated_at": "2026-08-25T02:19:32Z"
     }
   ]
 }
