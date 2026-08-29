@@ -543,8 +543,8 @@
     "primary_keyword": "what to look for in a cheap water bottle",
     "category": "gadgets",
     "intent": "informational",
-    "used": false,
-    "used_at": null
+    "used": true,
+    "used_at": "2026-08-29"
   },
   {
     "topic": "Best mini flashlight for everyday carry in 2026",
