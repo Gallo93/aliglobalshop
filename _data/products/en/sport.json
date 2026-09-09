@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-09-08T20:49:49Z",
+  "updated_at": "2026-09-09T03:33:45Z",
   "products": [
     {
       "product_id": "1005005636474083",
@@ -18,7 +18,7 @@
       "score": 0.2816,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:29Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005010786413625",
@@ -36,14 +36,14 @@
       "score": 0.2711,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:29Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005010160889036",
       "title": "Eastinear Bicycle Helmet Ride Led Lights Front And Rear,Urban Road Cycling Helmet,Rechargeable Turn Signal Bicycle Accessories",
       "slug": "eastinear-bicycle-helmet-ride-led-lights-front-and-rearurban",
-      "price": "41.40",
-      "original_price": "86.25",
+      "price": "41.43",
+      "original_price": "86.31",
       "discount_pct": 52,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ol4gqF8F6GvONFxtzvkJWeYL0IYAsuUPQKtapVXGYuctclUk5Tw2QbTmRDVkhcMawx6h94rALXfstLIrl7LKDWe31RreYkY9aqvDkpXj91qR1U2mNM2ephqpLmDBWaNGe3e7Mvgbc9vKrHcqSexQYxREl2Vzz87Vl0W3bMjkdGaPsnU5yDHhkgwor0PMwNVHbha6uG3mOiVjcMqs0XVRNUvRIjDMupjD9S956kZ50mF4FNh5VXS3t3wAq4yjmGg3gKrxbakxhfF3k2T9BugCJ4UHH5WEoHslkjan9Bs5UUcKnUnaPB4SGy3MUFxPwy6v5G0ueLV4b1zHkeYyTdhz4oRJsLaFUV5ju0g72HNSRxYlnSO7KbQyW5Vfkwc2WcKDlD0qlNj0tZqMO0pWKrLlwdZGcmTu7MhWQTJJG07PXPDNlMsf1gC2yizB7GN2F0tux5nGC0OJ70f9qvYho7bHKYZYNPIv8aewYQ9nMzMXMBj3cjXb5n1EEdFKP88vzgADGG4jvEgs97vziaUfiO9IXKkTVNQW88xrOZQMPW87nQejER0684C30H0vKpGN7BS6sRgY4h4XcDYDU58jOi9Ep8IkJSZBTKNSxgjkYaZoEnQqKgcOYSwGJe55HdnRNE72KQIvxRbpC0z3TeycOIaIxggXfKjPDPUlo8MxABKrWafhMXFqnpa1msqWCj2ANEBGtZvtyxodQS88G",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784329277/products/1005010160889036.webp",
@@ -54,14 +54,14 @@
       "score": 0.2701,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:30Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005010448157767",
       "title": "For X.WED2/Pro WRL/XR2/R3R/VILIJORD Helmet Chin Brace Cycling Accessories for Gopro Insta360 Sports Camera Helmet Chin Stand",
       "slug": "for-xwed2pro-wrlxr2r3rvilijord-helmet-chin-brace-cycling-acc",
-      "price": "15.26",
-      "original_price": "34.84",
+      "price": "15.27",
+      "original_price": "34.86",
       "discount_pct": 56,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kIFIozRtT99QjQZd4sLkSDmuZtFgqXpCaajhwFBjiElSpj6OUASiezqECt7SIW0ezWf8wjWcg3hBq3LsGIkw3n56CGpsKsXN0ypK68kT15VAfhAqkrcZTm4ozkDdTORoxc97fLu3ymb2p6J7FeullOKsZhjZgqGQ8eQgVeUP61CLUizpUczPRsIEWWxP3Zcf3k5kZIn8iPzC15zKETOQimBhZbQKu5FlY80JCl0tMmfrmeBSFy10pULl8tCYj5Fj5bNbJvMli8EXxsgcll8MaZl3FocUO17Xi5IcI01YWyV9PxSnUqYTctYFdI8zJQh58LKRVoWftwdKzMbL6GaKsx0pOXYniYp26OXmb4pogQElQAEXgZR0CZLuUXSuGDFTmK3bclD46YN1KunETzJiJfrm4Nty1FSqUYGIWIDFeYeRsJiUZC57OkYLBCyMsZDsdktlHZVpWxDgxsQSHufm16knkWQEjVaJthN1WJUk4aLitiaxh99eS0aVriUwvpmD7RX7Z3JO8BTxaREIT0sn5crjre7TW2zN9oNCGJSNFhfzVGbNztKERG6tZ906EqLq2sdufpaWfNHTI1g8GQe99368a812f2qZLqd3KHyKqtoWHf5r72ErWPdo8J5vWO9gBeBuUweZ02CMJAS1D3BZBCxI3U4hKr4V5GAI5tEV0733fCwl4u2flj7YGkGRfAg3Fx7ykryQRcNda",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788759564/products/1005010448157767.webp",
@@ -72,14 +72,14 @@
       "score": 0.2699,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:30Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005007517245266",
       "title": "Build XT - Workout Supplement - Helps Promote Lean Muscle Growth, Strength Gains, Power Output and Endurance in The Gym",
       "slug": "build-xt-workout-supplement-helps-promote-lean-muscle-growth",
       "price": "7.59",
-      "original_price": "15.17",
+      "original_price": "15.18",
       "discount_pct": 58,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ocCiqCKC0FyTDCng4XaoifqCtuUs1Zrmsf7azl6tmMeQDs20SZNaeKwQjlsevH3H6YD6bkhcxLldl6ECJZQhjwr0Z1voS3p1zLB6H6OgEiSZhulnh9a91l3gDsx1NlMBSjoraFKGEiIJpluGHzdk2VPhKrWUrf6doxDLkBDEIccHw8kaMwzbk3hQayqSgpwGrtby1C3RcymNggjAseDj87sPwwT4vcazcLO8wmkKlZ8C4JWdPIplkP7uAncyvRVlSMKglOZH4hU5CLqRBgQQcky1Xn5nnTmkOWKzRWgoIp4OPSTc3qt7l8HJ93ebB6r8gsCaoFaYDDFB0lXkicfBA8gNRrtyv2WhzIWwnvK0ULLCkAre19vpsLJf8wd6hRoVW35mvFmr50lEQGrZnpdw0Nn3il911LdKKTPWnwtgQBJwDoUytTyifXuMVQ53HDQWYBX4quuqL5rZUynjmhBZuZr2JlESayHHdJdOlS6UlqXw72zR23YIBYQjDYXz2MkTH2YJO45hwtEdNaPvWKFCsQABHrk6aB6fcDl71evjC2CC19a4r0B8sSKHcWw5osKSBvnHHOiI5MhFgza1cphNDpcpGrsPYpyBAyhVX2nkfc8bYU1Xw6wVzEhoyahkSsJJxfEdXY280X8569YPbnSrD7AtmgOgzV0iKGN23dS299jYDxJxsG1FKBLRebWJXNCwIumY7xlBjZY0a",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1783572916/products/1005007517245266.webp",
@@ -90,7 +90,7 @@
       "score": 0.2699,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:31Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005008772408846",
@@ -108,7 +108,7 @@
       "score": 0.2633,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:31Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005006998978324",
@@ -126,7 +126,7 @@
       "score": 0.2603,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:32Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005012238195278",
@@ -144,14 +144,14 @@
       "score": 0.257,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:32Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005010382664758",
       "title": "BATFOX Mountain Bike Helmet Can Install a Sports Camera Electric Cycling Gear Safety Cap for Men Women Bat Fox MTB Bicycle Helme",
       "slug": "batfox-mountain-bike-helmet-can-install-a-sports-camera-elec",
-      "price": "38.87",
-      "original_price": "77.74",
+      "price": "38.90",
+      "original_price": "77.80",
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWUTA3n544Mq3HKH1lba8jVkChGTug2W57MfUoFILevGTootQw2Ds5PbGkOToKp4evBZ1jsrhEu0JS0DHjcdeH9qiT1YLfe3LeAnGfdho48Gje6LC6xIgrRNcuYKeExenhSmDwIpgLZbSYn48RAUCTB1T9tMTSOiaxNrqJ04KPTE4eRgmMdoAjdHfUC2N5vIYKnz8RIF2lrw2DgBslDor5cr6m6Y6d8bpWfQtVhajRlemPwdT7A3QX7q2MHBzoLeF2FEZaEz56Lvu20MUYMkdRpgsUn5uDPYmqjM2CstyGH6Urswl7GuDVaG9iAssdKbY0XobK1jmGtS3MAuC7rkxhjHoEMEneLXN8UwizNqjGskT81oR6r1N8X5apluaMZ06z3KIDJUoFVQyWUAaNBev2dJtn6OW8P1lejtpTJ6aubWdnSkVQ0xoEAolkr03biIaxBo6w4ar0gba8Ubvcvu1bLF24UNZlo8d1jDYdMk8eZM9i4VMuA8ytCMJFSUZHT1CFR17CBssfleSSjVXHNhu06o7Z37xpX26xyi89Huop6nfHWtUKf8NUgtbPHOroEysvgvrfZEqDCOKc36IWoej3ljHTyRRhhrBeET5lFS12c70WFRGrHWpqmrZBKWhAYydYgswVhIzRFJmr66rnDySBf2WD9TEpwRlKLxu7dvvnqZkVOaPQ7OYJGj4jAwy5VXkLFkFNqkwHmT2",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1786417389/products/1005010382664758.webp",
@@ -162,14 +162,14 @@
       "score": 0.2541,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:33Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005008070584133",
       "title": "Batfox Bike Helmet Men Women Skateboard Scooter Skating Child Safety Cap Kids Outdoor Sports Adult Cycling MTB Bicycle Helmets",
       "slug": "batfox-bike-helmet-men-women-skateboard-scooter-skating-chil",
-      "price": "46.43",
-      "original_price": "92.86",
+      "price": "46.47",
+      "original_price": "92.93",
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mEH3h7adDXFOwFVKRmx9H2owB36TnUvZXKfmpy8cbGohGkDpITewrjpis2o04nd64hngMbQ1RNebGHmYoxzlJEPVd01fPIiGGK3db96JF7iB3ShZKh3RE3hkq1s2yWjDTN0TWVjuXrl4pji3CxPLQdS3MsQanwoMIun8SNPDszyhdokiVvDGAXEZ5iqgJTG4SVDcALuRaSJJtgaTz1ClwK90D2bmqUzvUHKA7gGlSUbmcB8rSbW6UgisVWL4ognhX2QFGqcZY32KEyIeP0Np1PKbzOP17tJ8sTYfDCMeY0rpDke5hsZQedV5AqNrRtcj5a1tJO8IevBu6Dge1zhCMEz80iKtYORsnmFm3f8SSMhBwPTYStPHcu3aPpU4UOWpD4jY9fThG40o9POThBvW9DzXwg2OLhgJoVFvVTZiA2qiMhhBum5R5720rjrygdgrRg1Bjvo3YnWKwRlYp7udZHH8W7zIaiDb7Fwaam5z6HrOYb1p19ofOzh6XOMFb9BPlPlsONeufYAYTzI2F5YK4et4TqPuYbJZPtbbqW1WoRFyjEor7E7WiNaSMifijQGyYhqw6PbdfYkdok0Z3MfkxKxIF29EfazvGPxEXcfEsU1mzrTKAq1W9ENjA0vPJP482WUUZ5YyX0FJNAZ5nRk9sIwdE7y8Z5zbRk8kDHr8Tn5iZ41pDUMOfPGvkiWkmlclczc5VRZn9gSTE",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1787094078/products/1005008070584133.webp",
@@ -180,7 +180,7 @@
       "score": 0.2515,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:33Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005010051187117",
@@ -198,14 +198,14 @@
       "score": 0.2479,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:34Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005009049503829",
       "title": "BATFOX 3/4 MTB Bicycle Helmet Men Women Ear Protection Bike Off Road Speed Reduction Safely Cap Tight Breathable Cycling Helmets",
       "slug": "batfox-34-mtb-bicycle-helmet-men-women-ear-protection-bike-o",
-      "price": "60.48",
-      "original_price": "120.95",
+      "price": "60.52",
+      "original_price": "121.03",
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nxshwCuExanUAZfri8TjBvadSZMv5w9fxNDfuxsfJzQG3z8Ty5Q994zF4WjMEnijgEVTidHc0idlUC74TJgry1Yf4RHQarjCCPiuSzteK23MuPRYhN8s1ClcLKBKyvp03YnBuBM8UIWbZfpimNX95u75v4vsky2YxSdP6p0zMVWVo2GSN3q2kU4aT0U0rNg4J4jzdNj3FI0vToNTm1XhdmafUuzbcTbFi8bnJVNKCRZ24Zk13QQ5U3aCZWsELPSSRrqtcxSEts6hMwFDIf5NVVBny7wcCxem1OZJJnryr4lFUMnKHvAJa5BN6FY9RQLkWy9jbmFAPB0HvmHjqOE32L2Mwj4UVe45E8DE8ID3JJCErBuzoj4dgMGAYdAdhgwTWSJekolp7cSI18p38bd5MTnZ3US77d6LYwFj6kqHibJRITKVNKX5PZqDMmUHnTaRRVtDMRIpSTqDI49HYQ8iYFwb09BEkEtfHT6y8vQZDAyhBM44nDfFxdJltN5rdZ2E36P6PrrhJ2raTq3DwETPYbkGdKdkiAop0MvM8XG9UQL96lWceIxhNof2kSosd2mLdd8jyhXZ90vbrqIbLSTi7HANyX1TBNqYlKDyBIbbJyAaBMhFp4YJo55nETbRVPCJyC5TRxO7J03qPWsZeY8WWY1izQkQe5zzvCyyWu7OHNp0UDResa5lSSTTtGo7K0pOTHps1quITuCfB",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1786417393/products/1005009049503829.webp",
@@ -216,14 +216,14 @@
       "score": 0.2429,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:34Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005007802704747",
       "title": "BATFOX 3/4 Bike Helmet Ear Protection Off Road Cycling Safely Cap Capacete Ciclismo casco Mountain Men Women MTB Bicycle Helmets",
       "slug": "batfox-34-bike-helmet-ear-protection-off-road-cycling-safely",
-      "price": "60.48",
-      "original_price": "120.95",
+      "price": "60.52",
+      "original_price": "121.03",
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mnBZQtm5HtcClzJRbST3DCxopIlG9jqJgGBElZwjiTbiVz8QujRCZAAeY2dBzcG3Yn9fKJri76KJxwU8wbMq36OIl8QkgQXBVQDtXs8A6riWlqvUwpzrtRz0i8VNrRFJwWrS2sKF94tK3rMzOTEjk7JFcSXIxqrIH8vSASmJifCGEwWGmUC5ZxkMoqpO3MQX8QnXurBxnKsp4RrNru0OvDD6SzHXKAYChpxxseOZlXA8WC8HXrNVV0nqSSGfVR2jPDjCAtyjxA7W68zSMw1uXa9ZCm24T6F8tpEA3qo6YwX6WvS1IQSQiiA1Pu9XtT0rz1MS2Z8tYS24WFV2cTP0Q6mbbB0WFbfE0SH00wvK4sbXBIcoswiFzYMe2vdh7qymptMGsGlKZpVMkHH9AG0N4JSRxUTRkNShgYBWlGgLXtxn1kSPap0qQLyvK8OK4WBw75eNwB8rjiKQaIWUgN0EkmNAPyfOPRICXTYPeudsYDmUKDyPJSnd1paINuJxdhba83eLpL6dHP5ZeCILZmmWMR5nZvCjVAXyJLxpx5U98amlf0G0aZfcLnWxPCGhzb1pnAzlas26eOgMVanAozFg6ETAvI70j1aNSVZ60I7ENDdPPtrzs5mrNILqlzWcGg975HSG7DtuXb0Os6aOa2Of95WMTyitRfpB9jhFrfNdZ0TeHiyWvKJJnhVO8Sr6Lmzd0iHQS0xQQ9LJb",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1787278964/products/1005007802704747.webp",
@@ -234,7 +234,7 @@
       "score": 0.2374,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:34Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005003674465001",
@@ -252,14 +252,14 @@
       "score": 0.223,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:35Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005006588685488",
       "title": "Non-slip Extra Thick 15mm Yoga Mat  Men Women Fitness NBR Soft Mat Tasteless Gym Household Exercise Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
-      "price": "25.50",
-      "original_price": "42.51",
+      "price": "25.52",
+      "original_price": "42.54",
       "discount_pct": 40,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EAXtQ0v15kmvJjNUXLDjWSYsw2ESS1W9SXqaC4B6vyb3hkLO0TpsgmKH87k44LhO7WQYyxIloWybFe79qiq8MNTzaiSyULJDrNlFNxKUaOLuoXcbweFXflLH1QWvuWswzTWeJh1NXGDCSaSYFcHiNgBredwOy315Bcf5xqUqHlBbivtv7bhFjfFoAUQN24aLbMbQq2zVgDcS0gku4tBZr48memqH6eIYS1i8CgZ2jVYby3n9OB4QWlKxjdvVeRkfcHnhxAsi2F75040vtt55RKA7mH6qyXVOsHTTdPy2WfmIEczm39zwWc0Ds1xNDJnGMQZ39QepCdUxHgDkipRzA72whOlqpabEtAjTEvWhD5vX52I0FnhpdVSGIwhjw3Gm7xtlztjoFomEiouFb2VRvLCoKwNlH7Xj35puQdMm7XtJVt3yqaCaawPAaOjKOAuT6zua8wMcbKXgFh2jnjiP5A7BRLEZKu3iPXrEE9FSkhbC8UTzj2sikF84y40Pfk4RQob8G6UUGAQaKLGSAXFf2bXE0gU3Im0XjT0a9mH9oYN2XWxFdtP4fKnhdb4dRAQFl8W2tSgE8P6wxKRAAY91qQhZDyBl95djOLwYHbOUS9l5LiACABkvlj3mERq21WCcGFKYzc3BhUrxvE6NpBuswfMTfPnyLSWCNXwbjS5SlWVRcI6MG0HNB1Upebevu8AkjkYUpLvE4wNMo",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788759570/products/1005006588685488.webp",
@@ -270,7 +270,7 @@
       "score": 0.2211,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:35Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005005807293081",
@@ -288,14 +288,14 @@
       "score": 0.215,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:36Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005008284281885",
       "title": "BATFOX Bicycle Helmet MTB With goggles Adjustable Road Mountain Bike Helmet Sports Equipment Safety cap Men Women Cycling Helmet",
       "slug": "batfox-bicycle-helmet-mtb-with-goggles-adjustable-road-mount",
-      "price": "38.87",
-      "original_price": "77.74",
+      "price": "38.90",
+      "original_price": "77.80",
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ERr0abkwhAgJQc3YxUNtrCjRu94RyFQCXuGiJeGeq8geCHeN4vJs8cvxuTLzPUDY60KdACROqBkOQeBqZGMjqxD86bysaoAoHoLbnrMqsqNMjPS1zFmcIXL7I6hL2PxmQzBb1N7h6Xy40GRzcFqCVJxZYt5TuP5sj3oshMCpC0x48YTqXufmBvgVLBT0OqPVaw5vh0YULT4DHtlQIwXoczvtSYy4fc1f9OPZwTmr5gMuaaTomY1keBPIcWLestKknSmlJvdrO1Y9S1yL74YEm18r9GKBLxqYLf97kMhonraBVf7chXpr8LxxfWXkIdZ4US6aH93eRVrI5DGei5Jy0aCX69ttY8lsdPo4fw7px6qCTuugnGfLrJ54EYAMzRRRjU7PvyAv67xxvxi7Sbpwhk9VBa7pVcKpSBl8AtAe5hUkw0gdGFpcBBYr8Jc6W5T7UH2SMPydHCQVOcppqphbh7YPESCY1St5o6aQ2q1vIQFdpQj9XjpA7OBut31hUl4I2QZoTKvobbKMEharJjvk2RCscJ5ZRrrA7nig0Sa1S6HY4IDs65KVxAXlolgS0CihGM0yv1ow67UYQTWiSYFKHf9loFParCvs1l5p6w3xyTk7YAyW2fZh8HpaobUL4pOcKmsFzY2QO6RRMctqJnLrjllgMdLhm0oCrwAYzSU2037HfK2rrAOySFpys7W3tdkvdCqJOxGkRWW8y",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788759571/products/1005008284281885.webp",
@@ -306,13 +306,13 @@
       "score": 0.211,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:36Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005012402329427",
       "title": "Men's Multi-functional Elastic Band Pants Spring Autumn Crossover Sport Casual Tight Trousers Outdoor Running Gym Fitness Leggin",
       "slug": "mens-multi-functional-elastic-band-pants-spring-autumn-cross",
-      "price": "2.23",
+      "price": "2.22",
       "original_price": "7.41",
       "discount_pct": 70,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mkTUAviqaftb67Ah12XscYrGbMPI6K2TDrHSiI9ojmG0rXRgL8GSEEDjfTRSXE8jD4QDO2TYV8W6RGgY8wOlt6gncaV0FKABzULJRerZPJfg2tg8xNULmIxtIPtI7Bi529fNSr8CHRkBVZqgGdCfr5rLDfANHQJ9nAO37KRxY8GKOtpdj8uGr2VXXDHMQuXiDs1gXbVLwiVGbSqCEueCvz4miMVnRqSjbGnmKM8tphJ1JiPs7KdEFSM1K8MJRWdFvqQju58pWreQkOBHLrymqoSFG2CJf06knE4yC0scES3QM0C58NOybuA7jrENPZD069cR64MlxO3r6wNQt7LZaU70CNGys673lgzzX8vDbcBbC3EC2LBvLnfM28guSTSPNOn2Juzazqn20nBxWRKTFnu2uWuaCYr8O0yrQKk6Tk3gBnaLYVMm1olIUZPNU7VqnInXqvoRz0gDcdrBQYne4vfBBBxezw4aHka2Sx0LWlqLD53I4PTKWCzfg0LMtBr74HnYteNMMF9fYt9YtnwFTEqcgm0mll3Tko5KiUjRikHfOQUtfcoC0X0wj1GKoouAQKpSV4BakUksr9cwtYIji463OjF6aRW6WNlVBSx9oMEo9h67bNNmcGZheBwpYIygRJRv4M7NeZOR8SJ0vTWS8x9SPbQPjigKLkPX9ZrQAa30GDwTw2RNpn405v4CjKYey0gM2SGCQJMGo",
@@ -324,14 +324,14 @@
       "score": 0.2107,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:37Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005012140848646",
       "title": "ONEMIX Breathable Comfortable Mesh Summer Sports Men and Women Outdoor Jump Rope Fitness Running Casual Shoes",
       "slug": "onemix-breathable-comfortable-mesh-summer-sports-men-and-wom",
-      "price": "46.29",
-      "original_price": "92.58",
+      "price": "46.32",
+      "original_price": "92.64",
       "discount_pct": 66,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m1RLLucqzpmnMERYSePOo9TbH3rsLsxlTFFspkEZDyfxGtY7oSB71OOXrkpvQiCzWpVbaKpQl4ZKTZC7KoltbbWiE9SwIOBt4IbpEMTcdrFHxRYP0AdHM0ytahlPVCOXfuFd1oCDYv7Bxx7FRIwPJtLJlwMwm5RLDMSFYKa21xnxtzF6oZsxYAXAkxG5Skhga3yjK14pvLq7fsOGLR1D8JVn27nPeQskjbdU0DNirRlvfHwFNZSsLyzPxpgizIF8peKEStTovejUB3dI84QpKXyS8BfP8im6w3662hHhw6NNwQUPk2RCTQ5EqKvLaKLM1fqXRJcNYlnlJxN3p83SG6Rqj5Epid5TRRi0maGQZHnmsJUcNPw5wYK5SdnaTPKU1f7191rFAQ5M0asnH5AgyGAohS9TGyWoip4yhIi3gkuhttjhYKc6LfdKPlSqdMmTqe8PQZ9MAjd4yEi9WWA2caPVP1lstYlQ2pgtV0jzZyoeRJXh0wm1Vc76rmXa7njQkv07bzkmP3AmFmilycEzYh1rMvJh4zIRY7st8NBxbY0S9rD0qMWspa17x3MSDwtnJ4b5pPPQ5OGeTilDXOU8LyTMlSOrFW5lpc7mhOowLlGg7tjUIGz69HsjRgJGKlfzNYqoqPrFH4jhnUbbkeBhVMgaa1G5LmGRq1cwR4vTYuR2L39ZROwoRJcMmUpXUYz1Q2Na97fLi9sA0",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788326743/products/1005012140848646.webp",
@@ -342,7 +342,7 @@
       "score": 0.1993,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:37Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     },
     {
       "product_id": "1005005827785978",
@@ -360,7 +360,7 @@
       "score": 0.198,
       "price_history": [],
       "fetched_at": "2026-09-08T05:34:38Z",
-      "updated_at": "2026-09-08T20:49:49Z"
+      "updated_at": "2026-09-09T03:33:45Z"
     }
   ]
 }
