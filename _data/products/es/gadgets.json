@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-09-09T05:42:43Z",
+  "updated_at": "2026-09-10T05:33:39Z",
   "products": [
     {
       "product_id": "1005011540558054",
@@ -17,8 +17,8 @@
       "sales_volume": 39,
       "score": 0.2727,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:30Z",
-      "updated_at": "2026-09-09T05:42:30Z"
+      "fetched_at": "2026-09-10T05:33:29Z",
+      "updated_at": "2026-09-10T05:33:29Z"
     },
     {
       "product_id": "1005010253348075",
@@ -35,8 +35,8 @@
       "sales_volume": 25,
       "score": 0.259,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:30Z",
-      "updated_at": "2026-09-09T05:42:30Z"
+      "fetched_at": "2026-09-10T05:33:30Z",
+      "updated_at": "2026-09-10T05:33:30Z"
     },
     {
       "product_id": "1005012124060756",
@@ -53,12 +53,12 @@
       "sales_volume": 103,
       "score": 0.2588,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:31Z",
-      "updated_at": "2026-09-09T05:42:31Z"
+      "fetched_at": "2026-09-10T05:33:30Z",
+      "updated_at": "2026-09-10T05:33:30Z"
     },
     {
       "product_id": "1005008323500938",
-      "title": "Soporte de carga inalámbrico para Volvo XC60 XC90 S90 V90 V60 S60 Super de carga rápida USB Tipo-C",
+      "title": "Soporte de carga inalámbrico para Volvo XC60 XC90 S90 V90 V60 S60 Super Fast Charging Dock USB Tipo-C",
       "slug": "magnetic-adsorption-wireless-charging-holder-for-volvo-xc60-",
       "price": 41.9,
       "original_price": 91.08,
@@ -71,12 +71,12 @@
       "sales_volume": 31,
       "score": 0.2557,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:31Z",
-      "updated_at": "2026-09-09T05:42:31Z"
+      "fetched_at": "2026-09-10T05:33:31Z",
+      "updated_at": "2026-09-10T05:33:31Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
+      "title": "10000/20000mAh Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.76,
       "original_price": 41.52,
@@ -89,8 +89,8 @@
       "sales_volume": 57,
       "score": 0.2456,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:32Z",
-      "updated_at": "2026-09-09T05:42:32Z"
+      "fetched_at": "2026-09-10T05:33:31Z",
+      "updated_at": "2026-09-10T05:33:31Z"
     },
     {
       "product_id": "1005012408073378",
@@ -107,8 +107,8 @@
       "sales_volume": 12,
       "score": 0.2424,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:32Z",
-      "updated_at": "2026-09-09T05:42:32Z"
+      "fetched_at": "2026-09-10T05:33:31Z",
+      "updated_at": "2026-09-10T05:33:31Z"
     },
     {
       "product_id": "1005012259681107",
@@ -125,8 +125,8 @@
       "sales_volume": 16,
       "score": 0.2399,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:32Z",
-      "updated_at": "2026-09-09T05:42:32Z"
+      "fetched_at": "2026-09-10T05:33:32Z",
+      "updated_at": "2026-09-10T05:33:32Z"
     },
     {
       "product_id": "1005012706928990",
@@ -143,8 +143,8 @@
       "sales_volume": 3,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:33Z",
-      "updated_at": "2026-09-09T05:42:33Z"
+      "fetched_at": "2026-09-10T05:33:32Z",
+      "updated_at": "2026-09-10T05:33:32Z"
     },
     {
       "product_id": "1005009589681770",
@@ -161,8 +161,8 @@
       "sales_volume": 3,
       "score": 0.2234,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:33Z",
-      "updated_at": "2026-09-09T05:42:33Z"
+      "fetched_at": "2026-09-10T05:33:33Z",
+      "updated_at": "2026-09-10T05:33:33Z"
     },
     {
       "product_id": "1005004204383810",
@@ -179,8 +179,8 @@
       "sales_volume": 39,
       "score": 0.2048,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:34Z",
-      "updated_at": "2026-09-09T05:42:34Z"
+      "fetched_at": "2026-09-10T05:33:33Z",
+      "updated_at": "2026-09-10T05:33:33Z"
     },
     {
       "product_id": "1005012806888959",
@@ -197,8 +197,8 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:35Z",
-      "updated_at": "2026-09-09T05:42:35Z"
+      "fetched_at": "2026-09-10T05:33:34Z",
+      "updated_at": "2026-09-10T05:33:34Z"
     },
     {
       "product_id": "1005012648404171",
@@ -215,8 +215,8 @@
       "sales_volume": 13,
       "score": 0.1649,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:36Z",
-      "updated_at": "2026-09-09T05:42:36Z"
+      "fetched_at": "2026-09-10T05:33:35Z",
+      "updated_at": "2026-09-10T05:33:35Z"
     },
     {
       "product_id": "1005009503850484",
@@ -233,8 +233,8 @@
       "sales_volume": 51,
       "score": 0.1597,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:37Z",
-      "updated_at": "2026-09-09T05:42:37Z"
+      "fetched_at": "2026-09-10T05:33:35Z",
+      "updated_at": "2026-09-10T05:33:35Z"
     },
     {
       "product_id": "1005009055633802",
@@ -251,8 +251,8 @@
       "sales_volume": 4,
       "score": 0.1535,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:37Z",
-      "updated_at": "2026-09-09T05:42:37Z"
+      "fetched_at": "2026-09-10T05:33:36Z",
+      "updated_at": "2026-09-10T05:33:36Z"
     },
     {
       "product_id": "1005012363686476",
@@ -269,8 +269,8 @@
       "sales_volume": 3,
       "score": 0.1504,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:38Z",
-      "updated_at": "2026-09-09T05:42:38Z"
+      "fetched_at": "2026-09-10T05:33:36Z",
+      "updated_at": "2026-09-10T05:33:36Z"
     },
     {
       "product_id": "1005012941408837",
@@ -287,12 +287,12 @@
       "sales_volume": 2,
       "score": 0.1502,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:39Z",
-      "updated_at": "2026-09-09T05:42:39Z"
+      "fetched_at": "2026-09-10T05:33:37Z",
+      "updated_at": "2026-09-10T05:33:37Z"
     },
     {
       "product_id": "1005012985794626",
-      "title": "100W Super Fast Charging Power Bank 20000mAh Big Capacity Mobile Power Supply for Laptops Smartphones Tablets",
+      "title": "100W Super Fast Charging Power Bank 20000mAh Gran capacidad de suministro de energía móvil para portátiles Smartphones Tablets",
       "slug": "100w-super-fast-charging-power-bank-20000mah-large-capacity-",
       "price": 26.38,
       "original_price": 52.76,
@@ -305,12 +305,12 @@
       "sales_volume": 1,
       "score": 0.1501,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:40Z",
-      "updated_at": "2026-09-09T05:42:40Z"
+      "fetched_at": "2026-09-10T05:33:37Z",
+      "updated_at": "2026-09-10T05:33:37Z"
     },
     {
       "product_id": "1005013009251991",
-      "title": "66W True Capacity 20000mAh CCC Fast-Charging High‐Capacity Power Bank para IPhone Android Phone PowerBank Permitido en Aircraft",
+      "title": "66W True Capacity 20000mAh CCC Fast-Charging High-Capacity Power Bank para IPhone Android Phone PowerBank Permitido en aeronaves",
       "slug": "66w-true-capacity-20000mah-ccc-fastcharging-highcapacity-pow",
       "price": 33.07,
       "original_price": 66.16,
@@ -323,8 +323,8 @@
       "sales_volume": 1,
       "score": 0.1501,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:41Z",
-      "updated_at": "2026-09-09T05:42:41Z"
+      "fetched_at": "2026-09-10T05:33:38Z",
+      "updated_at": "2026-09-10T05:33:38Z"
     },
     {
       "product_id": "1005013071238806",
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.15,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:42Z",
-      "updated_at": "2026-09-09T05:42:42Z"
+      "fetched_at": "2026-09-10T05:33:38Z",
+      "updated_at": "2026-09-10T05:33:38Z"
     },
     {
       "product_id": "1005013113138131",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.15,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:42Z",
-      "updated_at": "2026-09-09T05:42:42Z"
+      "fetched_at": "2026-09-10T05:33:39Z",
+      "updated_at": "2026-09-10T05:33:39Z"
     }
   ]
 }

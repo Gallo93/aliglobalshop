@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-09-09T05:42:20Z",
+  "updated_at": "2026-09-10T05:33:26Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 4,
       "score": 0.3465,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:08Z",
-      "updated_at": "2026-09-09T05:42:08Z"
+      "fetched_at": "2026-09-10T05:33:17Z",
+      "updated_at": "2026-09-10T05:33:17Z"
     },
     {
       "product_id": "1005005477269418",
@@ -35,8 +35,8 @@
       "sales_volume": 1357,
       "score": 0.3025,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:09Z",
-      "updated_at": "2026-09-09T05:42:09Z"
+      "fetched_at": "2026-09-10T05:33:17Z",
+      "updated_at": "2026-09-10T05:33:17Z"
     },
     {
       "product_id": "1005010160889036",
@@ -53,12 +53,12 @@
       "sales_volume": 149,
       "score": 0.2702,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:10Z",
-      "updated_at": "2026-09-09T05:42:10Z"
+      "fetched_at": "2026-09-10T05:33:18Z",
+      "updated_at": "2026-09-10T05:33:18Z"
     },
     {
       "product_id": "1005005636474083",
-      "title": "Grupos de resistencia al deporte Yoga Pilates Formación Ejercicio de fitness Home Gimnasio Banda elástica Natural Caucho Latex Accesorios",
+      "title": "Grupos de resistencia del deporte de yoga Pilates Formación Ejercicio de fitness Home Gimnasio Banda elástica Natural Caucho Latex Accesorios",
       "slug": "yoga-sport-resistance-bands-pilates-training-fitness-exercis",
       "price": 5.88,
       "original_price": 13.99,
@@ -71,12 +71,12 @@
       "sales_volume": 23,
       "score": 0.2696,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:10Z",
-      "updated_at": "2026-09-09T05:42:10Z"
+      "fetched_at": "2026-09-10T05:33:18Z",
+      "updated_at": "2026-09-10T05:33:18Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "Botella de agua de ciclo X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
+      "title": "Botella de agua de bicicletas X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 13.3,
       "original_price": 29.57,
@@ -89,8 +89,8 @@
       "sales_volume": 1,
       "score": 0.2651,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:11Z",
-      "updated_at": "2026-09-09T05:42:11Z"
+      "fetched_at": "2026-09-10T05:33:19Z",
+      "updated_at": "2026-09-10T05:33:19Z"
     },
     {
       "product_id": "1005008772408846",
@@ -107,8 +107,8 @@
       "sales_volume": 36,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:11Z",
-      "updated_at": "2026-09-09T05:42:11Z"
+      "fetched_at": "2026-09-10T05:33:19Z",
+      "updated_at": "2026-09-10T05:33:19Z"
     },
     {
       "product_id": "1005010382664758",
@@ -125,8 +125,8 @@
       "sales_volume": 45,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:12Z",
-      "updated_at": "2026-09-09T05:42:12Z"
+      "fetched_at": "2026-09-10T05:33:20Z",
+      "updated_at": "2026-09-10T05:33:20Z"
     },
     {
       "product_id": "1005008070584133",
@@ -143,8 +143,8 @@
       "sales_volume": 41,
       "score": 0.2512,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:12Z",
-      "updated_at": "2026-09-09T05:42:12Z"
+      "fetched_at": "2026-09-10T05:33:20Z",
+      "updated_at": "2026-09-10T05:33:20Z"
     },
     {
       "product_id": "1005012273080683",
@@ -161,12 +161,12 @@
       "sales_volume": 5,
       "score": 0.2506,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:13Z",
-      "updated_at": "2026-09-09T05:42:13Z"
+      "fetched_at": "2026-09-10T05:33:21Z",
+      "updated_at": "2026-09-10T05:33:21Z"
     },
     {
       "product_id": "1005009049503829",
-      "title": "BATFOX 3/4 MTB Casco para bicicletas Hombre Mujeres Protección del oído Bicicleta fuera de carretera Reducción de la velocidad de la velocidad Cap Tight Cascos transpirables",
+      "title": "BATFOX 3/4 MTB Casco de bicicletas Hombre Mujeres Protección del oído Bicicleta fuera de carretera Reducción de la velocidad de la velocidad Cap Tight Cascos transpirables",
       "slug": "batfox-34-mtb-bicycle-helmet-men-women-ear-protection-bike-o",
       "price": 55.68,
       "original_price": 111.35,
@@ -179,8 +179,8 @@
       "sales_volume": 18,
       "score": 0.2429,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:14Z",
-      "updated_at": "2026-09-09T05:42:14Z"
+      "fetched_at": "2026-09-10T05:33:21Z",
+      "updated_at": "2026-09-10T05:33:21Z"
     },
     {
       "product_id": "1005007802704747",
@@ -197,8 +197,8 @@
       "sales_volume": 6,
       "score": 0.2374,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:14Z",
-      "updated_at": "2026-09-09T05:42:14Z"
+      "fetched_at": "2026-09-10T05:33:22Z",
+      "updated_at": "2026-09-10T05:33:22Z"
     },
     {
       "product_id": "1005010051187117",
@@ -215,12 +215,12 @@
       "sales_volume": 15,
       "score": 0.2285,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:14Z",
-      "updated_at": "2026-09-09T05:42:14Z"
+      "fetched_at": "2026-09-10T05:33:22Z",
+      "updated_at": "2026-09-10T05:33:22Z"
     },
     {
       "product_id": "1005005807293081",
-      "title": "ROCKBROS 670ML Bicicleta Agua Botella de agua de cilíndrilo aislado Gimnasio Running Sports Water Bottle MTB Road Bike Thermal Bottle",
+      "title": "ROCKBROS 670ML Bicicleta Agua Botella Aislante Ciclismo Agua Bicicleta Bicicleta Bicicleta Térmica Bicicleta Termal Botella",
       "slug": "rockbros-670ml-bicycle-water-bottle-insulated-cycling-water-",
       "price": 7.35,
       "original_price": 12.25,
@@ -233,8 +233,8 @@
       "sales_volume": 23,
       "score": 0.2153,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:15Z",
-      "updated_at": "2026-09-09T05:42:15Z"
+      "fetched_at": "2026-09-10T05:33:23Z",
+      "updated_at": "2026-09-10T05:33:23Z"
     },
     {
       "product_id": "1005003674465001",
@@ -251,12 +251,12 @@
       "sales_volume": 0,
       "score": 0.211,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:15Z",
-      "updated_at": "2026-09-09T05:42:15Z"
+      "fetched_at": "2026-09-10T05:33:23Z",
+      "updated_at": "2026-09-10T05:33:23Z"
     },
     {
       "product_id": "1005012402329427",
-      "title": "Pantalones de banda elástica multifuncional para hombre Primavera Otoño Crossover Sport Casual Tight Trousers Outdoor Run Gimnasio Fitness Leggin",
+      "title": "Pantalones de banda elástica multifuncional para hombres Primavera Otoño Crossover Sport Casual Tight Trousers Outdoor Run Gimnasio Fitness Leggin",
       "slug": "mens-multi-functional-elastic-band-pants-spring-autumn-cross",
       "price": 2.04,
       "original_price": 6.82,
@@ -269,8 +269,8 @@
       "sales_volume": 6,
       "score": 0.2107,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:16Z",
-      "updated_at": "2026-09-09T05:42:16Z"
+      "fetched_at": "2026-09-10T05:33:24Z",
+      "updated_at": "2026-09-10T05:33:24Z"
     },
     {
       "product_id": "1005008813902899",
@@ -287,12 +287,12 @@
       "sales_volume": 134,
       "score": 0.2022,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:17Z",
-      "updated_at": "2026-09-09T05:42:17Z"
+      "fetched_at": "2026-09-10T05:33:24Z",
+      "updated_at": "2026-09-10T05:33:24Z"
     },
     {
       "product_id": "1005010464486496",
-      "title": "15MM-20MM Thick Yoga Mats Anti-slip Sport Fitness Blanket Ejercicio Yoga y Pilates Gimnasia Mat Fitness Equipamiento 183×60cm",
+      "title": "15MM-20MM Thick Yoga Mats Anti-slip Sport Fitness Blanket Ejercicio Yoga y Pilates Gimnasia Mat Fitness Equipment 183×60cm",
       "slug": "15mm-20mm-thick-yoga-mats-anti-slip-sport-fitness-blanket-ex",
       "price": 26.27,
       "original_price": 39.2,
@@ -305,12 +305,12 @@
       "sales_volume": 11,
       "score": 0.2003,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:18Z",
-      "updated_at": "2026-09-09T05:42:18Z"
+      "fetched_at": "2026-09-10T05:33:25Z",
+      "updated_at": "2026-09-10T05:33:25Z"
     },
     {
       "product_id": "1005005827785978",
-      "title": "ROCKBROS Bike Helmet Rearview Mirror HD Ultraligero Aluminio 360° Rotación Ajustable Helmet Mirror Back Sight Cycling Accesorios",
+      "title": "ROCKBROS Bicicleta Helmet Rearview Mirror HD Ultraligero Aluminio 360° Rotación Mirror de casco ajustable retroceder Accesorios de cculación de la vista",
       "slug": "rockbros-bike-helmet-rearview-mirror-hd-ultralight-aluminum-",
       "price": 11.58,
       "original_price": 21.45,
@@ -323,12 +323,12 @@
       "sales_volume": 0,
       "score": 0.198,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:19Z",
-      "updated_at": "2026-09-09T05:42:19Z"
+      "fetched_at": "2026-09-10T05:33:25Z",
+      "updated_at": "2026-09-10T05:33:25Z"
     },
     {
       "product_id": "1005007541859728",
-      "title": "3pcs Bandas de pelo de color sólido elástico para mujer y hombre corren el pelo Fitness Deportes Yoga Headbands Girls Head Band Accesorios",
+      "title": "3pcs Elastic Solid Color Bandas de pelo para Mujer y Hombre Carrera de Peluquería Fitness Deportes Yoga Headbands Girls Head Band Accesorios",
       "slug": "3pcs-elastic-solid-color-hair-bands-for-women-and-men-hairba",
       "price": 3.28,
       "original_price": 3.45,
@@ -341,8 +341,8 @@
       "sales_volume": 588,
       "score": 0.1799,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:19Z",
-      "updated_at": "2026-09-09T05:42:19Z"
+      "fetched_at": "2026-09-10T05:33:26Z",
+      "updated_at": "2026-09-10T05:33:26Z"
     },
     {
       "product_id": "1005007585433148",
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:42:19Z",
-      "updated_at": "2026-09-09T05:42:19Z"
+      "fetched_at": "2026-09-10T05:33:26Z",
+      "updated_at": "2026-09-10T05:33:26Z"
     }
   ]
 }

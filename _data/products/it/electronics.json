@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-09-09T05:41:33Z",
+  "updated_at": "2026-09-10T05:33:02Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -17,8 +17,8 @@
       "sales_volume": 26,
       "score": 0.3221,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:22Z",
-      "updated_at": "2026-09-09T05:41:22Z"
+      "fetched_at": "2026-09-10T05:32:51Z",
+      "updated_at": "2026-09-10T05:32:51Z"
     },
     {
       "product_id": "1005012229118016",
@@ -35,8 +35,8 @@
       "sales_volume": 1008,
       "score": 0.3122,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:23Z",
-      "updated_at": "2026-09-09T05:41:23Z"
+      "fetched_at": "2026-09-10T05:32:51Z",
+      "updated_at": "2026-09-10T05:32:51Z"
     },
     {
       "product_id": "1005009369207724",
@@ -53,12 +53,12 @@
       "sales_volume": 21,
       "score": 0.2825,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:23Z",
-      "updated_at": "2026-09-09T05:41:23Z"
+      "fetched_at": "2026-09-10T05:32:52Z",
+      "updated_at": "2026-09-10T05:32:52Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holder Accessori",
+      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holding Accessori",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 43.72,
       "original_price": 91.08,
@@ -71,8 +71,8 @@
       "sales_volume": 25,
       "score": 0.259,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:23Z",
-      "updated_at": "2026-09-09T05:41:23Z"
+      "fetched_at": "2026-09-10T05:32:52Z",
+      "updated_at": "2026-09-10T05:32:52Z"
     },
     {
       "product_id": "1005009017398891",
@@ -89,8 +89,8 @@
       "sales_volume": 226,
       "score": 0.2585,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:24Z",
-      "updated_at": "2026-09-09T05:41:24Z"
+      "fetched_at": "2026-09-10T05:32:54Z",
+      "updated_at": "2026-09-10T05:32:54Z"
     },
     {
       "product_id": "1005012290442752",
@@ -107,8 +107,8 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:24Z",
-      "updated_at": "2026-09-09T05:41:24Z"
+      "fetched_at": "2026-09-10T05:32:55Z",
+      "updated_at": "2026-09-10T05:32:55Z"
     },
     {
       "product_id": "1005010660256913",
@@ -125,8 +125,8 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:25Z",
-      "updated_at": "2026-09-09T05:41:25Z"
+      "fetched_at": "2026-09-10T05:32:55Z",
+      "updated_at": "2026-09-10T05:32:55Z"
     },
     {
       "product_id": "1005012124170204",
@@ -143,8 +143,8 @@
       "sales_volume": 57,
       "score": 0.2456,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:25Z",
-      "updated_at": "2026-09-09T05:41:25Z"
+      "fetched_at": "2026-09-10T05:32:56Z",
+      "updated_at": "2026-09-10T05:32:56Z"
     },
     {
       "product_id": "1005012259681107",
@@ -161,8 +161,8 @@
       "sales_volume": 16,
       "score": 0.2399,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:26Z",
-      "updated_at": "2026-09-09T05:41:26Z"
+      "fetched_at": "2026-09-10T05:32:56Z",
+      "updated_at": "2026-09-10T05:32:56Z"
     },
     {
       "product_id": "1005007065066717",
@@ -179,12 +179,12 @@
       "sales_volume": 76,
       "score": 0.2171,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:26Z",
-      "updated_at": "2026-09-09T05:41:26Z"
+      "fetched_at": "2026-09-10T05:32:57Z",
+      "updated_at": "2026-09-10T05:32:57Z"
     },
     {
       "product_id": "1005011532019654",
-      "title": "Per pad di ricarica wireless XPENG G7, pad tazza in silicone di controllo centrale",
+      "title": "Per pad di ricarica wireless XPENG G7, pad tazza di silicone di controllo centrale",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
       "price": 11.79,
       "original_price": 39.3,
@@ -197,8 +197,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:27Z",
-      "updated_at": "2026-09-09T05:41:27Z"
+      "fetched_at": "2026-09-10T05:32:57Z",
+      "updated_at": "2026-09-10T05:32:57Z"
     },
     {
       "product_id": "1005009896941801",
@@ -215,8 +215,8 @@
       "sales_volume": 0,
       "score": 0.207,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:27Z",
-      "updated_at": "2026-09-09T05:41:27Z"
+      "fetched_at": "2026-09-10T05:32:58Z",
+      "updated_at": "2026-09-10T05:32:58Z"
     },
     {
       "product_id": "1005013092949181",
@@ -233,8 +233,8 @@
       "sales_volume": 0,
       "score": 0.207,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:28Z",
-      "updated_at": "2026-09-09T05:41:28Z"
+      "fetched_at": "2026-09-10T05:32:58Z",
+      "updated_at": "2026-09-10T05:32:58Z"
     },
     {
       "product_id": "1005009849333993",
@@ -251,8 +251,8 @@
       "sales_volume": 11,
       "score": 0.1913,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:29Z",
-      "updated_at": "2026-09-09T05:41:29Z"
+      "fetched_at": "2026-09-10T05:32:59Z",
+      "updated_at": "2026-09-10T05:32:59Z"
     },
     {
       "product_id": "1005007349250907",
@@ -269,8 +269,8 @@
       "sales_volume": 2,
       "score": 0.1782,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:30Z",
-      "updated_at": "2026-09-09T05:41:30Z"
+      "fetched_at": "2026-09-10T05:32:59Z",
+      "updated_at": "2026-09-10T05:32:59Z"
     },
     {
       "product_id": "1005012695796781",
@@ -287,12 +287,12 @@
       "sales_volume": 205,
       "score": 0.1776,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:30Z",
-      "updated_at": "2026-09-09T05:41:30Z"
+      "fetched_at": "2026-09-10T05:33:00Z",
+      "updated_at": "2026-09-10T05:33:00Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 LED WIFI Controller Smart Wireless 2.4GHz Gateway Telecontrollore rgb Wi-Fi vocale Tuya per Mi Boxer LED Bulb Strip Lampada luminosa",
+      "title": "WL-Box2 LED WIFI Controller Smart Wireless 2.4GHz Gateway Controllore rgb WiFi vocale Tuya per Mi Boxer LED Bulb Strip Light Lamp",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -305,8 +305,8 @@
       "sales_volume": 18,
       "score": 0.1772,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:31Z",
-      "updated_at": "2026-09-09T05:41:31Z"
+      "fetched_at": "2026-09-10T05:33:00Z",
+      "updated_at": "2026-09-10T05:33:00Z"
     },
     {
       "product_id": "1005012808856019",
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.1754,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:32Z",
-      "updated_at": "2026-09-09T05:41:32Z"
+      "fetched_at": "2026-09-10T05:33:01Z",
+      "updated_at": "2026-09-10T05:33:01Z"
     },
     {
       "product_id": "1005009251414102",
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.1751,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:33Z",
-      "updated_at": "2026-09-09T05:41:33Z"
+      "fetched_at": "2026-09-10T05:33:01Z",
+      "updated_at": "2026-09-10T05:33:01Z"
     },
     {
       "product_id": "1005012327079554",
@@ -359,8 +359,8 @@
       "sales_volume": 47,
       "score": 0.1656,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:33Z",
-      "updated_at": "2026-09-09T05:41:33Z"
+      "fetched_at": "2026-09-10T05:33:02Z",
+      "updated_at": "2026-09-10T05:33:02Z"
     }
   ]
 }

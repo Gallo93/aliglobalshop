@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-09-09T05:41:33Z",
+  "updated_at": "2026-09-10T05:33:02Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -17,8 +17,8 @@
       "sales_volume": 26,
       "score": 0.3221,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:22Z",
-      "updated_at": "2026-09-09T05:41:22Z"
+      "fetched_at": "2026-09-10T05:32:51Z",
+      "updated_at": "2026-09-10T05:32:51Z"
     },
     {
       "product_id": "1005012229118016",
@@ -35,12 +35,12 @@
       "sales_volume": 1008,
       "score": 0.3122,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:23Z",
-      "updated_at": "2026-09-09T05:41:23Z"
+      "fetched_at": "2026-09-10T05:32:51Z",
+      "updated_at": "2026-09-10T05:32:51Z"
     },
     {
       "product_id": "1005009369207724",
-      "title": "Pocket Power Bank Portable Fast Charge Type C Batterie externe pour iPhone Watch Samsung Xiaomi avec câble charge rapide Powerbank",
+      "title": "Pocket Power Bank Portable Fast Charge Type C Batterie externe pour iPhone Watch Samsung Xiaomi avec câble Quick Charge Powerbank",
       "slug": "pocket-power-bank-portable-fast-charge-type-c-external-batte",
       "price": 16.14,
       "original_price": 40.34,
@@ -53,12 +53,12 @@
       "sales_volume": 21,
       "score": 0.2825,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:23Z",
-      "updated_at": "2026-09-09T05:41:23Z"
+      "fetched_at": "2026-09-10T05:32:52Z",
+      "updated_at": "2026-09-10T05:32:52Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de téléphone mobile Accessoires",
+      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de charge pour téléphone portable",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 43.72,
       "original_price": 91.08,
@@ -71,12 +71,12 @@
       "sales_volume": 25,
       "score": 0.259,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:23Z",
-      "updated_at": "2026-09-09T05:41:23Z"
+      "fetched_at": "2026-09-10T05:32:52Z",
+      "updated_at": "2026-09-10T05:32:52Z"
     },
     {
       "product_id": "1005009017398891",
-      "title": "10000mAh Slim Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil magnétique 20W Batterie externe portable pour iPhone Samsung",
+      "title": "10000mAh Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil 20W pour iPhone Samsung",
       "slug": "10000mah-slim-mini-power-bank-for-magsafemagnetic-wireless-f",
       "price": 17.55,
       "original_price": 33.12,
@@ -89,8 +89,8 @@
       "sales_volume": 226,
       "score": 0.2585,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:24Z",
-      "updated_at": "2026-09-09T05:41:24Z"
+      "fetched_at": "2026-09-10T05:32:54Z",
+      "updated_at": "2026-09-10T05:32:54Z"
     },
     {
       "product_id": "1005012290442752",
@@ -107,12 +107,12 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:24Z",
-      "updated_at": "2026-09-09T05:41:24Z"
+      "fetched_at": "2026-09-10T05:32:55Z",
+      "updated_at": "2026-09-10T05:32:55Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "Centrale électrique portable haute capacité 400W 192Wh LiFePO4 batterie AC 220V générateur solaire rapide Banque de puissance pour le camping",
+      "title": "Haute capacité 400W Portable Power Station 192Wh LiFePO4 Batterie AC 220V Solar Generator Fast Charge Power Bank for Camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
       "price": 137.14,
       "original_price": 274.29,
@@ -125,12 +125,12 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:25Z",
-      "updated_at": "2026-09-09T05:41:25Z"
+      "fetched_at": "2026-09-10T05:32:55Z",
+      "updated_at": "2026-09-10T05:32:55Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Grande capacité Mobile Power Bank for IPhone Android Phone Shared Self - Cable Contained (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Large-capacité Mobile Power Bank for IPhone Android Phone Shared Self - Cable Contained (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.76,
       "original_price": 41.52,
@@ -143,12 +143,12 @@
       "sales_volume": 57,
       "score": 0.2456,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:25Z",
-      "updated_at": "2026-09-09T05:41:25Z"
+      "fetched_at": "2026-09-10T05:32:56Z",
+      "updated_at": "2026-09-10T05:32:56Z"
     },
     {
       "product_id": "1005012259681107",
-      "title": "20000mAh 5V Banque d'alimentation pour charge magnétique sans fil Banque d'alimentation de charge rapide portable avec câble intégré",
+      "title": "20000mAh 5V Banque d'alimentation pour charge sans fil Aspiration magnétique Portable Banque d'alimentation rapide avec câble intégré",
       "slug": "20000mah-5v-power-bank-for-wireless-charging-magnetic-suctio",
       "price": 26.38,
       "original_price": 52.76,
@@ -161,8 +161,8 @@
       "sales_volume": 16,
       "score": 0.2399,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:26Z",
-      "updated_at": "2026-09-09T05:41:26Z"
+      "fetched_at": "2026-09-10T05:32:56Z",
+      "updated_at": "2026-09-10T05:32:56Z"
     },
     {
       "product_id": "1005007065066717",
@@ -179,8 +179,8 @@
       "sales_volume": 76,
       "score": 0.2171,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:26Z",
-      "updated_at": "2026-09-09T05:41:26Z"
+      "fetched_at": "2026-09-10T05:32:57Z",
+      "updated_at": "2026-09-10T05:32:57Z"
     },
     {
       "product_id": "1005011532019654",
@@ -197,8 +197,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:27Z",
-      "updated_at": "2026-09-09T05:41:27Z"
+      "fetched_at": "2026-09-10T05:32:57Z",
+      "updated_at": "2026-09-10T05:32:57Z"
     },
     {
       "product_id": "1005009896941801",
@@ -215,12 +215,12 @@
       "sales_volume": 0,
       "score": 0.207,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:27Z",
-      "updated_at": "2026-09-09T05:41:27Z"
+      "fetched_at": "2026-09-10T05:32:58Z",
+      "updated_at": "2026-09-10T05:32:58Z"
     },
     {
       "product_id": "1005013092949181",
-      "title": "1PC Haut-parleurs portables Outdoor Riding Bracket fixe Subwoofer Portable Audio Card Téléphone portable Bluetooth Haut-parleur Équipement audio",
+      "title": "1PC Haut-parleurs portables Outdoor Riding Fixed Bracket Subwoofer Portable Audio Card Téléphone portable Bluetooth Speaker Audio Equipment",
       "slug": "1pc-portable-speakers-outdoor-riding-fixed-bracket-subwoofer",
       "price": 6.04,
       "original_price": 19.45,
@@ -233,8 +233,8 @@
       "sales_volume": 0,
       "score": 0.207,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:28Z",
-      "updated_at": "2026-09-09T05:41:28Z"
+      "fetched_at": "2026-09-10T05:32:58Z",
+      "updated_at": "2026-09-10T05:32:58Z"
     },
     {
       "product_id": "1005009849333993",
@@ -251,8 +251,8 @@
       "sales_volume": 11,
       "score": 0.1913,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:29Z",
-      "updated_at": "2026-09-09T05:41:29Z"
+      "fetched_at": "2026-09-10T05:32:59Z",
+      "updated_at": "2026-09-10T05:32:59Z"
     },
     {
       "product_id": "1005007349250907",
@@ -269,12 +269,12 @@
       "sales_volume": 2,
       "score": 0.1782,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:30Z",
-      "updated_at": "2026-09-09T05:41:30Z"
+      "fetched_at": "2026-09-10T05:32:59Z",
+      "updated_at": "2026-09-10T05:32:59Z"
     },
     {
       "product_id": "1005012695796781",
-      "title": "Rocoren 10000mAh Magnétique PowerBank Charge rapide 5000mAh Power Bank Chargeur sans fil portable batterie pour iPhone 18 17 Pro Max",
+      "title": "Rocoren 10000mAh Magnétique PowerBank Chargement rapide 5000mAh Power Bank Chargeur sans fil portable batterie pour iPhone 18 17 Pro Max",
       "slug": "rocoren-10000mah-magnetic-powerbank-fast-charging-5000mah-po",
       "price": 17.13,
       "original_price": 21.15,
@@ -287,12 +287,12 @@
       "sales_volume": 205,
       "score": 0.1776,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:30Z",
-      "updated_at": "2026-09-09T05:41:30Z"
+      "fetched_at": "2026-09-10T05:33:00Z",
+      "updated_at": "2026-09-10T05:33:00Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Contrôleur LED WIFI Smart Wireless 2.4GHz Passerelle Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe à bande",
+      "title": "WL-Box2 Contrôleur de LED WIFI Smart Wireless 2.4GHz Gateway Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe de bande",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -305,12 +305,12 @@
       "sales_volume": 18,
       "score": 0.1772,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:31Z",
-      "updated_at": "2026-09-09T05:41:31Z"
+      "fetched_at": "2026-09-10T05:33:00Z",
+      "updated_at": "2026-09-10T05:33:00Z"
     },
     {
       "product_id": "1005012808856019",
-      "title": "Rocoren PD 22.5W Banque de recharge rapide 10000mAh Chargeur magnétique sans fil pour iPhone 16 15 14 Câbles de recharge intégrés Powerbank",
+      "title": "Rocoren PD 22.5W Chargeur sans fil magnétique 10000mAh pour iPhone 16 15 14 Câbles de recharge intégrés Powerbank",
       "slug": "rocoren-pd-225w-fast-charging-power-bank-10000mah-magnetic-w",
       "price": 13.79,
       "original_price": 18.39,
@@ -323,12 +323,12 @@
       "sales_volume": 3,
       "score": 0.1754,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:32Z",
-      "updated_at": "2026-09-09T05:41:32Z"
+      "fetched_at": "2026-09-10T05:33:01Z",
+      "updated_at": "2026-09-10T05:33:01Z"
     },
     {
       "product_id": "1005009251414102",
-      "title": "3 Pcs Deuxième siège de ligne sans fil de recharge pour Denza N9 2025 Modification intérieure Produit Protection silicone",
+      "title": "3 Pcs Siège de deuxième rangée sans fil de recharge pour Denza N9 2025 Modification intérieure Produit Protection silicone",
       "slug": "3-pcs-second-row-seat-wireless-charging-pad-for-denza-n9-202",
       "price": 31.96,
       "original_price": 42.61,
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.1751,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:33Z",
-      "updated_at": "2026-09-09T05:41:33Z"
+      "fetched_at": "2026-09-10T05:33:01Z",
+      "updated_at": "2026-09-10T05:33:01Z"
     },
     {
       "product_id": "1005012327079554",
@@ -359,8 +359,8 @@
       "sales_volume": 47,
       "score": 0.1656,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:33Z",
-      "updated_at": "2026-09-09T05:41:33Z"
+      "fetched_at": "2026-09-10T05:33:02Z",
+      "updated_at": "2026-09-10T05:33:02Z"
     }
   ]
 }

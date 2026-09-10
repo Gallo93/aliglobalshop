@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-09-09T05:41:57Z",
+  "updated_at": "2026-09-10T05:33:14Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,12 +17,12 @@
       "sales_volume": 1627,
       "score": 0.3428,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:44Z",
-      "updated_at": "2026-09-09T05:41:44Z"
+      "fetched_at": "2026-09-10T05:33:05Z",
+      "updated_at": "2026-09-10T05:33:05Z"
     },
     {
       "product_id": "1005011666514308",
-      "title": "Batteria al litio originale per iRobot Roomba Cleaner 900 800 700 600 Serie 960 980 981 965 895 890 860 692 680 675 Parte",
+      "title": "Batteria originale agli iRobot Roomba Cleaner 900 800 700 600 Serie 960 980 981 965 895 890 860 692 680 675 Parte",
       "slug": "original-lithium-ion-battery-for-irobot-roomba-cleaner-900-8",
       "price": 32.58,
       "original_price": 66.48,
@@ -35,12 +35,12 @@
       "sales_volume": 11,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:45Z",
-      "updated_at": "2026-09-09T05:41:45Z"
+      "fetched_at": "2026-09-10T05:33:05Z",
+      "updated_at": "2026-09-10T05:33:05Z"
     },
     {
       "product_id": "1005009703653100",
-      "title": "1080P HD Camera Auto Tracking Baby Animali Monitor Smart Home Robot Telecamere WIFI Telecamera PTZ Protezione IP Sorveglianza",
+      "title": "1080P HD Camera Auto Tracking Baby Animali Monitor Smart Home Robot Telecamere WIFI telecamera PTZ Protezione IP Sorveglianza",
       "slug": "1080p-hd-camera-auto-tracking-baby-pets-monitor-smart-home-r",
       "price": 50.14,
       "original_price": 100.28,
@@ -53,8 +53,8 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:46Z",
-      "updated_at": "2026-09-09T05:41:46Z"
+      "fetched_at": "2026-09-10T05:33:06Z",
+      "updated_at": "2026-09-10T05:33:06Z"
     },
     {
       "product_id": "1005010374390737",
@@ -71,8 +71,8 @@
       "sales_volume": 87,
       "score": 0.2429,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:46Z",
-      "updated_at": "2026-09-09T05:41:46Z"
+      "fetched_at": "2026-09-10T05:33:06Z",
+      "updated_at": "2026-09-10T05:33:06Z"
     },
     {
       "product_id": "1005005807578430",
@@ -89,8 +89,8 @@
       "sales_volume": 5,
       "score": 0.2373,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:46Z",
-      "updated_at": "2026-09-09T05:41:46Z"
+      "fetched_at": "2026-09-10T05:33:07Z",
+      "updated_at": "2026-09-10T05:33:07Z"
     },
     {
       "product_id": "1005004296403927",
@@ -107,8 +107,8 @@
       "sales_volume": 3,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:47Z",
-      "updated_at": "2026-09-09T05:41:47Z"
+      "fetched_at": "2026-09-10T05:33:07Z",
+      "updated_at": "2026-09-10T05:33:07Z"
     },
     {
       "product_id": "4000143784956",
@@ -125,8 +125,8 @@
       "sales_volume": 350,
       "score": 0.2279,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:48Z",
-      "updated_at": "2026-09-09T05:41:48Z"
+      "fetched_at": "2026-09-10T05:33:08Z",
+      "updated_at": "2026-09-10T05:33:08Z"
     },
     {
       "product_id": "1005010463738860",
@@ -143,8 +143,8 @@
       "sales_volume": 53,
       "score": 0.2257,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:48Z",
-      "updated_at": "2026-09-09T05:41:48Z"
+      "fetched_at": "2026-09-10T05:33:08Z",
+      "updated_at": "2026-09-10T05:33:08Z"
     },
     {
       "product_id": "1005009992642757",
@@ -161,12 +161,12 @@
       "sales_volume": 1,
       "score": 0.2221,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:48Z",
-      "updated_at": "2026-09-09T05:41:48Z"
+      "fetched_at": "2026-09-10T05:33:09Z",
+      "updated_at": "2026-09-10T05:33:09Z"
     },
     {
       "product_id": "1005008090894761",
-      "title": "Telecamera HiEasy Robot 5MP Wifi Telecamera di sicurezza senza fili PTZ Interno IR Visione notturna Monitor auto a due vie",
+      "title": "Telecamera HiEasy Robot 5MP Wifi Indoor PTZ telecamera di sicurezza senza fili IR visione notturna Monitor auto a due vie Audio per il bambino",
       "slug": "hieasy-robot-camera-5mp-wifi-indoor-ptz-wireless-security-ca",
       "price": 29.1,
       "original_price": 51.06,
@@ -179,8 +179,8 @@
       "sales_volume": 23,
       "score": 0.2218,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:49Z",
-      "updated_at": "2026-09-09T05:41:49Z"
+      "fetched_at": "2026-09-10T05:33:09Z",
+      "updated_at": "2026-09-10T05:33:09Z"
     },
     {
       "product_id": "1005012750087339",
@@ -197,12 +197,12 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:51Z",
-      "updated_at": "2026-09-09T05:41:51Z"
+      "fetched_at": "2026-09-10T05:33:10Z",
+      "updated_at": "2026-09-10T05:33:10Z"
     },
     {
       "product_id": "1005012855264593",
-      "title": "Moes WIFI Video campanello telecamera wireless IR visione notturna Smart Home Sicurezza HD Porta Campanello a due vie interfono Voice Change Tuya",
+      "title": "Moes WIFI Video campanello fotocamera wireless IR visione notturna Smart Home Sicurezza HD Porta Campanello a due vie interfono Voice Change Tuya",
       "slug": "moes-wifi-video-doorbell-camera-wireless-ir-night-vision-sma",
       "price": 60.04,
       "original_price": 100.06,
@@ -215,8 +215,8 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:51Z",
-      "updated_at": "2026-09-09T05:41:51Z"
+      "fetched_at": "2026-09-10T05:33:10Z",
+      "updated_at": "2026-09-10T05:33:10Z"
     },
     {
       "product_id": "1005003462342443",
@@ -233,8 +233,8 @@
       "sales_volume": 370,
       "score": 0.2197,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:52Z",
-      "updated_at": "2026-09-09T05:41:52Z"
+      "fetched_at": "2026-09-10T05:33:10Z",
+      "updated_at": "2026-09-10T05:33:10Z"
     },
     {
       "product_id": "1005009425871992",
@@ -251,12 +251,12 @@
       "sales_volume": 36,
       "score": 0.2165,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:53Z",
-      "updated_at": "2026-09-09T05:41:53Z"
+      "fetched_at": "2026-09-10T05:33:11Z",
+      "updated_at": "2026-09-10T05:33:11Z"
     },
     {
       "product_id": "1005010449759552",
-      "title": "3MP Tuya Smart Life batteria alimentato esterna WIFI sorveglianza PIR Motion Detection Camera Notte Vision CCTV Mini fotocamera",
+      "title": "3MP Tuya Smart Life batteria alimentato esterna WIFI Sorveglianza Sicurezza PIR Motion Detection Camera Notte Vision CCTV Mini fotocamera",
       "slug": "3mp-tuya-smart-life-battery-powered-outdoor-wifi-surveillanc",
       "price": 49.09,
       "original_price": 79.18,
@@ -269,12 +269,12 @@
       "sales_volume": 4,
       "score": 0.212,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:53Z",
-      "updated_at": "2026-09-09T05:41:53Z"
+      "fetched_at": "2026-09-10T05:33:11Z",
+      "updated_at": "2026-09-10T05:33:11Z"
     },
     {
       "product_id": "1005004774956386",
-      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 Sensor funziona con Alexa Google Home Assistant",
+      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 sensore funziona con Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
       "price": 31.61,
       "original_price": 47.19,
@@ -287,12 +287,12 @@
       "sales_volume": 131,
       "score": 0.2112,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:54Z",
-      "updated_at": "2026-09-09T05:41:54Z"
+      "fetched_at": "2026-09-10T05:33:12Z",
+      "updated_at": "2026-09-10T05:33:12Z"
     },
     {
       "product_id": "1005010290854075",
-      "title": "OKAM PRO APP Casa Macchina fotografica HD 5MP Mini WiFi Telecamera interna con rilevamento umano 5X ZOOM Baby Monitor 24 ore su 24 Video Registrazione CCTV",
+      "title": "OKAM PRO APP Casa Fotocamera HD 5MP Mini WiFi Indoor Camera con rilevamento umano 5X ZOOM Baby Monitor 24 / 7 / 7 / 7 Video Record CCTV",
       "slug": "okam-pro-app-home-camera-hd-5mp-mini-wifi-indoor-camera-with",
       "price": 31.18,
       "original_price": 51.97,
@@ -305,8 +305,8 @@
       "sales_volume": 17,
       "score": 0.2038,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:55Z",
-      "updated_at": "2026-09-09T05:41:55Z"
+      "fetched_at": "2026-09-10T05:33:12Z",
+      "updated_at": "2026-09-10T05:33:12Z"
     },
     {
       "product_id": "1005009559994857",
@@ -323,8 +323,8 @@
       "sales_volume": 6,
       "score": 0.2037,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:56Z",
-      "updated_at": "2026-09-09T05:41:56Z"
+      "fetched_at": "2026-09-10T05:33:13Z",
+      "updated_at": "2026-09-10T05:33:13Z"
     },
     {
       "product_id": "1005004966987077",
@@ -341,12 +341,12 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:57Z",
-      "updated_at": "2026-09-09T05:41:57Z"
+      "fetched_at": "2026-09-10T05:33:13Z",
+      "updated_at": "2026-09-10T05:33:13Z"
     },
     {
       "product_id": "32898805107",
-      "title": "Mi luce dimmerabile 4W GU10/MR16 Led lampadina RGB CCT (2700-6500K) lampada Decorazione interna + 2.4G RF LED Remote Control Home Illuminazione",
+      "title": "Mi Light Dimmerable 4W GU10/MR16 Led Bulb RGB CCT (2700-6500K) Decorazione interna della lampada + 2.4G RF LED Remote Control Home Illuminazione",
       "slug": "mi-light-dimmable-4w-gu10mr16-led-bulb-rgb-cct-2700-6500k-la",
       "price": 13.31,
       "original_price": 19.02,
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.192,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:57Z",
-      "updated_at": "2026-09-09T05:41:57Z"
+      "fetched_at": "2026-09-10T05:33:14Z",
+      "updated_at": "2026-09-10T05:33:14Z"
     }
   ]
 }

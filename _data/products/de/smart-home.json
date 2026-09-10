@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-09-09T05:41:57Z",
+  "updated_at": "2026-09-10T05:33:14Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1627,
       "score": 0.3428,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:44Z",
-      "updated_at": "2026-09-09T05:41:44Z"
+      "fetched_at": "2026-09-10T05:33:05Z",
+      "updated_at": "2026-09-10T05:33:05Z"
     },
     {
       "product_id": "1005011666514308",
@@ -35,8 +35,8 @@
       "sales_volume": 11,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:45Z",
-      "updated_at": "2026-09-09T05:41:45Z"
+      "fetched_at": "2026-09-10T05:33:05Z",
+      "updated_at": "2026-09-10T05:33:05Z"
     },
     {
       "product_id": "1005009703653100",
@@ -53,8 +53,8 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:46Z",
-      "updated_at": "2026-09-09T05:41:46Z"
+      "fetched_at": "2026-09-10T05:33:06Z",
+      "updated_at": "2026-09-10T05:33:06Z"
     },
     {
       "product_id": "1005010374390737",
@@ -71,8 +71,8 @@
       "sales_volume": 87,
       "score": 0.2429,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:46Z",
-      "updated_at": "2026-09-09T05:41:46Z"
+      "fetched_at": "2026-09-10T05:33:06Z",
+      "updated_at": "2026-09-10T05:33:06Z"
     },
     {
       "product_id": "1005005807578430",
@@ -89,8 +89,8 @@
       "sales_volume": 5,
       "score": 0.2373,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:46Z",
-      "updated_at": "2026-09-09T05:41:46Z"
+      "fetched_at": "2026-09-10T05:33:07Z",
+      "updated_at": "2026-09-10T05:33:07Z"
     },
     {
       "product_id": "1005004296403927",
@@ -107,8 +107,8 @@
       "sales_volume": 3,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:47Z",
-      "updated_at": "2026-09-09T05:41:47Z"
+      "fetched_at": "2026-09-10T05:33:07Z",
+      "updated_at": "2026-09-10T05:33:07Z"
     },
     {
       "product_id": "4000143784956",
@@ -125,8 +125,8 @@
       "sales_volume": 350,
       "score": 0.2279,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:48Z",
-      "updated_at": "2026-09-09T05:41:48Z"
+      "fetched_at": "2026-09-10T05:33:08Z",
+      "updated_at": "2026-09-10T05:33:08Z"
     },
     {
       "product_id": "1005010463738860",
@@ -143,8 +143,8 @@
       "sales_volume": 53,
       "score": 0.2257,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:48Z",
-      "updated_at": "2026-09-09T05:41:48Z"
+      "fetched_at": "2026-09-10T05:33:08Z",
+      "updated_at": "2026-09-10T05:33:08Z"
     },
     {
       "product_id": "1005009992642757",
@@ -161,8 +161,8 @@
       "sales_volume": 1,
       "score": 0.2221,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:48Z",
-      "updated_at": "2026-09-09T05:41:48Z"
+      "fetched_at": "2026-09-10T05:33:09Z",
+      "updated_at": "2026-09-10T05:33:09Z"
     },
     {
       "product_id": "1005008090894761",
@@ -179,8 +179,8 @@
       "sales_volume": 23,
       "score": 0.2218,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:49Z",
-      "updated_at": "2026-09-09T05:41:49Z"
+      "fetched_at": "2026-09-10T05:33:09Z",
+      "updated_at": "2026-09-10T05:33:09Z"
     },
     {
       "product_id": "1005012750087339",
@@ -197,8 +197,8 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:51Z",
-      "updated_at": "2026-09-09T05:41:51Z"
+      "fetched_at": "2026-09-10T05:33:10Z",
+      "updated_at": "2026-09-10T05:33:10Z"
     },
     {
       "product_id": "1005012855264593",
@@ -215,12 +215,12 @@
       "sales_volume": 3,
       "score": 0.2204,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:51Z",
-      "updated_at": "2026-09-09T05:41:51Z"
+      "fetched_at": "2026-09-10T05:33:10Z",
+      "updated_at": "2026-09-10T05:33:10Z"
     },
     {
       "product_id": "1005003462342443",
-      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth betrieben Relais Niederspannungsunterstützung über Temperaturschutz",
+      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth Betriebene Relais Niederspannungsunterstützung über Temperaturschutz",
       "slug": "shelly-1-gen3-dry-contact-smart-switch-wifi-bluetooth-operat",
       "price": 17.2,
       "original_price": 23.25,
@@ -233,8 +233,8 @@
       "sales_volume": 370,
       "score": 0.2197,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:52Z",
-      "updated_at": "2026-09-09T05:41:52Z"
+      "fetched_at": "2026-09-10T05:33:10Z",
+      "updated_at": "2026-09-10T05:33:10Z"
     },
     {
       "product_id": "1005009425871992",
@@ -251,12 +251,12 @@
       "sales_volume": 36,
       "score": 0.2165,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:53Z",
-      "updated_at": "2026-09-09T05:41:53Z"
+      "fetched_at": "2026-09-10T05:33:11Z",
+      "updated_at": "2026-09-10T05:33:11Z"
     },
     {
       "product_id": "1005010449759552",
-      "title": "3MP Tuya Smart Life Battery Powered Outdoor WIFI Security PIR Motion Detection Camera Nachtsicht CCTV Mini Kamera",
+      "title": "3MP Tuya Smart Life Battery Powered Outdoor WIFI Security PIR Motion Detection Kamera Nachtsicht CCTV Mini Kamera",
       "slug": "3mp-tuya-smart-life-battery-powered-outdoor-wifi-surveillanc",
       "price": 49.09,
       "original_price": 79.18,
@@ -269,8 +269,8 @@
       "sales_volume": 4,
       "score": 0.212,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:53Z",
-      "updated_at": "2026-09-09T05:41:53Z"
+      "fetched_at": "2026-09-10T05:33:11Z",
+      "updated_at": "2026-09-10T05:33:11Z"
     },
     {
       "product_id": "1005004774956386",
@@ -287,8 +287,8 @@
       "sales_volume": 131,
       "score": 0.2112,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:54Z",
-      "updated_at": "2026-09-09T05:41:54Z"
+      "fetched_at": "2026-09-10T05:33:12Z",
+      "updated_at": "2026-09-10T05:33:12Z"
     },
     {
       "product_id": "1005010290854075",
@@ -305,8 +305,8 @@
       "sales_volume": 17,
       "score": 0.2038,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:55Z",
-      "updated_at": "2026-09-09T05:41:55Z"
+      "fetched_at": "2026-09-10T05:33:12Z",
+      "updated_at": "2026-09-10T05:33:12Z"
     },
     {
       "product_id": "1005009559994857",
@@ -323,8 +323,8 @@
       "sales_volume": 6,
       "score": 0.2037,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:56Z",
-      "updated_at": "2026-09-09T05:41:56Z"
+      "fetched_at": "2026-09-10T05:33:13Z",
+      "updated_at": "2026-09-10T05:33:13Z"
     },
     {
       "product_id": "1005004966987077",
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:57Z",
-      "updated_at": "2026-09-09T05:41:57Z"
+      "fetched_at": "2026-09-10T05:33:13Z",
+      "updated_at": "2026-09-10T05:33:13Z"
     },
     {
       "product_id": "32898805107",
@@ -359,8 +359,8 @@
       "sales_volume": 17,
       "score": 0.192,
       "price_history": [],
-      "fetched_at": "2026-09-09T05:41:57Z",
-      "updated_at": "2026-09-09T05:41:57Z"
+      "fetched_at": "2026-09-10T05:33:14Z",
+      "updated_at": "2026-09-10T05:33:14Z"
     }
   ]
 }
