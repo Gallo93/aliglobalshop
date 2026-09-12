@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-09-11T05:36:52Z",
+  "updated_at": "2026-09-12T05:22:14Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -17,8 +17,8 @@
       "sales_volume": 124,
       "score": 0.3129,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:40Z",
-      "updated_at": "2026-09-11T05:36:40Z"
+      "fetched_at": "2026-09-12T05:22:06Z",
+      "updated_at": "2026-09-12T05:22:06Z"
     },
     {
       "product_id": "1005011540558054",
@@ -35,12 +35,12 @@
       "sales_volume": 39,
       "score": 0.2727,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:40Z",
-      "updated_at": "2026-09-11T05:36:40Z"
+      "fetched_at": "2026-09-12T05:22:07Z",
+      "updated_at": "2026-09-12T05:22:07Z"
     },
     {
       "product_id": "1005008323500938",
-      "title": "Soporte de carga inalámbrico para Volvo XC60 XC90 S90 V90 V60 S60 Super de carga rápida USB Tipo-C",
+      "title": "Soporte de carga inalámbrico para Volvo XC60 XC90 S90 V90 V60 S60 Super Fast Charging Dock USB Tipo-C",
       "slug": "magnetic-adsorption-wireless-charging-holder-for-volvo-xc60-",
       "price": 41.9,
       "original_price": 91.08,
@@ -53,8 +53,8 @@
       "sales_volume": 31,
       "score": 0.2557,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:41Z",
-      "updated_at": "2026-09-11T05:36:41Z"
+      "fetched_at": "2026-09-12T05:22:07Z",
+      "updated_at": "2026-09-12T05:22:07Z"
     },
     {
       "product_id": "1005012718555903",
@@ -71,12 +71,12 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:41Z",
-      "updated_at": "2026-09-11T05:36:41Z"
+      "fetched_at": "2026-09-12T05:22:08Z",
+      "updated_at": "2026-09-12T05:22:08Z"
     },
     {
       "product_id": "1005012348679190",
-      "title": "22.5w 10000/20000mAh Power Bank para teléfonos móviles IPhone Huawei y Xiaomi Carga rápida Compacta y Portable PowerBank",
+      "title": "22.5w 10000/20000mAh Power Bank for IPhone Huawei and Xiaomi Mobile Phones Fast-charging Compact and Portable PowerBank",
       "slug": "225w-1000020000mah-power-bank-for-iphone-huawei-and-xiaomi-m",
       "price": 25.46,
       "original_price": 50.91,
@@ -89,12 +89,12 @@
       "sales_volume": 1,
       "score": 0.2501,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:42Z",
-      "updated_at": "2026-09-11T05:36:42Z"
+      "fetched_at": "2026-09-12T05:22:08Z",
+      "updated_at": "2026-09-12T05:22:08Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank Construido en 4 Cable Portable Cargador Cute Pet Cartoon maquillaje Espejo Powerbank Power Bank",
+      "title": "20000mAh Mini Power Bank Construido en 4 Cable Cargador portable Cute Pet Cartoon Espejo de maquillaje Powerbank Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.7,
       "original_price": 21.39,
@@ -107,8 +107,8 @@
       "sales_volume": 16,
       "score": 0.2479,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:43Z",
-      "updated_at": "2026-09-11T05:36:43Z"
+      "fetched_at": "2026-09-12T05:22:08Z",
+      "updated_at": "2026-09-12T05:22:08Z"
     },
     {
       "product_id": "1005012408073378",
@@ -125,8 +125,8 @@
       "sales_volume": 13,
       "score": 0.2426,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:43Z",
-      "updated_at": "2026-09-11T05:36:43Z"
+      "fetched_at": "2026-09-12T05:22:09Z",
+      "updated_at": "2026-09-12T05:22:09Z"
     },
     {
       "product_id": "1005012593025805",
@@ -143,8 +143,8 @@
       "sales_volume": 1,
       "score": 0.2321,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:44Z",
-      "updated_at": "2026-09-11T05:36:44Z"
+      "fetched_at": "2026-09-12T05:22:09Z",
+      "updated_at": "2026-09-12T05:22:09Z"
     },
     {
       "product_id": "1005009589681770",
@@ -161,8 +161,8 @@
       "sales_volume": 3,
       "score": 0.2234,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:44Z",
-      "updated_at": "2026-09-11T05:36:44Z"
+      "fetched_at": "2026-09-12T05:22:09Z",
+      "updated_at": "2026-09-12T05:22:09Z"
     },
     {
       "product_id": "1005007646050752",
@@ -179,8 +179,8 @@
       "sales_volume": 46,
       "score": 0.2175,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:45Z",
-      "updated_at": "2026-09-11T05:36:45Z"
+      "fetched_at": "2026-09-12T05:22:10Z",
+      "updated_at": "2026-09-12T05:22:10Z"
     },
     {
       "product_id": "1005004204383810",
@@ -197,8 +197,8 @@
       "sales_volume": 39,
       "score": 0.2046,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:45Z",
-      "updated_at": "2026-09-11T05:36:45Z"
+      "fetched_at": "2026-09-12T05:22:10Z",
+      "updated_at": "2026-09-12T05:22:10Z"
     },
     {
       "product_id": "1005005070548245",
@@ -215,8 +215,8 @@
       "sales_volume": 6,
       "score": 0.1907,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:46Z",
-      "updated_at": "2026-09-11T05:36:46Z"
+      "fetched_at": "2026-09-12T05:22:11Z",
+      "updated_at": "2026-09-12T05:22:11Z"
     },
     {
       "product_id": "1005012806888959",
@@ -233,8 +233,8 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:46Z",
-      "updated_at": "2026-09-11T05:36:46Z"
+      "fetched_at": "2026-09-12T05:22:11Z",
+      "updated_at": "2026-09-12T05:22:11Z"
     },
     {
       "product_id": "1005001506841352",
@@ -251,12 +251,12 @@
       "sales_volume": 38,
       "score": 0.1726,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:47Z",
-      "updated_at": "2026-09-11T05:36:47Z"
+      "fetched_at": "2026-09-12T05:22:11Z",
+      "updated_at": "2026-09-12T05:22:11Z"
     },
     {
       "product_id": "1005012492477479",
-      "title": "Power Bank 40000mAh 30000mAh 20000mAh para IPhone Samsung Solar Grande capacidad móvil carga rápida batería Dual USB 4 cables",
+      "title": "Power Bank 40000mAh 30000mAh 20000mAh para IPhone Samsung Solar Large Capacity Mobile Fast Charging Battery Dual USB 4 Cables",
       "slug": "power-bank-40000mah-30000mah-20000mah-for-iphone-samsung-sol",
       "price": 29.44,
       "original_price": 58.89,
@@ -269,8 +269,8 @@
       "sales_volume": 1,
       "score": 0.1701,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:48Z",
-      "updated_at": "2026-09-11T05:36:48Z"
+      "fetched_at": "2026-09-12T05:22:12Z",
+      "updated_at": "2026-09-12T05:22:12Z"
     },
     {
       "product_id": "1005009503850484",
@@ -287,8 +287,8 @@
       "sales_volume": 51,
       "score": 0.1597,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:49Z",
-      "updated_at": "2026-09-11T05:36:49Z"
+      "fetched_at": "2026-09-12T05:22:12Z",
+      "updated_at": "2026-09-12T05:22:12Z"
     },
     {
       "product_id": "1005009055633802",
@@ -305,12 +305,12 @@
       "sales_volume": 4,
       "score": 0.1535,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:49Z",
-      "updated_at": "2026-09-11T05:36:49Z"
+      "fetched_at": "2026-09-12T05:22:13Z",
+      "updated_at": "2026-09-12T05:22:13Z"
     },
     {
       "product_id": "1005012985794626",
-      "title": "100W Super Fast Charging Power Bank 20000mAh Big Capacity Mobile Power Supply for Laptops Smartphones Tablets",
+      "title": "100W Super Fast Charging Power Bank 20000mAh Gran capacidad de suministro de energía móvil para portátiles Smartphones Tablets",
       "slug": "100w-super-fast-charging-power-bank-20000mah-large-capacity-",
       "price": 26.36,
       "original_price": 52.73,
@@ -323,8 +323,8 @@
       "sales_volume": 1,
       "score": 0.1501,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:50Z",
-      "updated_at": "2026-09-11T05:36:50Z"
+      "fetched_at": "2026-09-12T05:22:13Z",
+      "updated_at": "2026-09-12T05:22:13Z"
     },
     {
       "product_id": "1005013080166822",
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.15,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:51Z",
-      "updated_at": "2026-09-11T05:36:51Z"
+      "fetched_at": "2026-09-12T05:22:13Z",
+      "updated_at": "2026-09-12T05:22:13Z"
     },
     {
       "product_id": "1005013110503671",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.15,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:51Z",
-      "updated_at": "2026-09-11T05:36:51Z"
+      "fetched_at": "2026-09-12T05:22:14Z",
+      "updated_at": "2026-09-12T05:22:14Z"
     }
   ]
 }

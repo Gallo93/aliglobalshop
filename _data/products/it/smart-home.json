@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-09-11T05:36:07Z",
+  "updated_at": "2026-09-12T05:21:53Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1624,
       "score": 0.3425,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:35:58Z",
-      "updated_at": "2026-09-11T05:35:58Z"
+      "fetched_at": "2026-09-12T05:21:45Z",
+      "updated_at": "2026-09-12T05:21:45Z"
     },
     {
       "product_id": "1005006593842093",
@@ -35,12 +35,12 @@
       "sales_volume": 147,
       "score": 0.2787,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:35:59Z",
-      "updated_at": "2026-09-11T05:35:59Z"
+      "fetched_at": "2026-09-12T05:21:45Z",
+      "updated_at": "2026-09-12T05:21:45Z"
     },
     {
       "product_id": "1005011666514308",
-      "title": "Batteria al litio originale per iRobot Roomba Cleaner 900 800 700 600 Serie 960 980 981 965 895 890 860 692 680 675 Parte",
+      "title": "Batteria originale agli iRobot Roomba Cleaner 900 800 700 600 Serie 960 980 981 965 895 890 860 692 680 675 Parte",
       "slug": "original-lithium-ion-battery-for-irobot-roomba-cleaner-900-8",
       "price": 32.55,
       "original_price": 66.43,
@@ -53,8 +53,8 @@
       "sales_volume": 11,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:35:59Z",
-      "updated_at": "2026-09-11T05:35:59Z"
+      "fetched_at": "2026-09-12T05:21:46Z",
+      "updated_at": "2026-09-12T05:21:46Z"
     },
     {
       "product_id": "1005001394925942",
@@ -71,8 +71,8 @@
       "sales_volume": 11,
       "score": 0.2513,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:35:59Z",
-      "updated_at": "2026-09-11T05:35:59Z"
+      "fetched_at": "2026-09-12T05:21:46Z",
+      "updated_at": "2026-09-12T05:21:46Z"
     },
     {
       "product_id": "1005010374390737",
@@ -89,8 +89,8 @@
       "sales_volume": 88,
       "score": 0.2431,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:00Z",
-      "updated_at": "2026-09-11T05:36:00Z"
+      "fetched_at": "2026-09-12T05:21:46Z",
+      "updated_at": "2026-09-12T05:21:46Z"
     },
     {
       "product_id": "1005005807578430",
@@ -107,8 +107,8 @@
       "sales_volume": 5,
       "score": 0.2373,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:00Z",
-      "updated_at": "2026-09-11T05:36:00Z"
+      "fetched_at": "2026-09-12T05:21:47Z",
+      "updated_at": "2026-09-12T05:21:47Z"
     },
     {
       "product_id": "1005005604363467",
@@ -125,8 +125,8 @@
       "sales_volume": 33,
       "score": 0.2373,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:01Z",
-      "updated_at": "2026-09-11T05:36:01Z"
+      "fetched_at": "2026-09-12T05:21:47Z",
+      "updated_at": "2026-09-12T05:21:47Z"
     },
     {
       "product_id": "1005004296403927",
@@ -143,8 +143,8 @@
       "sales_volume": 3,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:01Z",
-      "updated_at": "2026-09-11T05:36:01Z"
+      "fetched_at": "2026-09-12T05:21:48Z",
+      "updated_at": "2026-09-12T05:21:48Z"
     },
     {
       "product_id": "4000143784956",
@@ -161,8 +161,8 @@
       "sales_volume": 350,
       "score": 0.2279,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:02Z",
-      "updated_at": "2026-09-11T05:36:02Z"
+      "fetched_at": "2026-09-12T05:21:48Z",
+      "updated_at": "2026-09-12T05:21:48Z"
     },
     {
       "product_id": "1005010463738860",
@@ -179,8 +179,8 @@
       "sales_volume": 52,
       "score": 0.2255,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:02Z",
-      "updated_at": "2026-09-11T05:36:02Z"
+      "fetched_at": "2026-09-12T05:21:49Z",
+      "updated_at": "2026-09-12T05:21:49Z"
     },
     {
       "product_id": "1005011764540594",
@@ -197,8 +197,8 @@
       "sales_volume": 30,
       "score": 0.2236,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:03Z",
-      "updated_at": "2026-09-11T05:36:03Z"
+      "fetched_at": "2026-09-12T05:21:49Z",
+      "updated_at": "2026-09-12T05:21:49Z"
     },
     {
       "product_id": "1005009992642757",
@@ -215,8 +215,8 @@
       "sales_volume": 1,
       "score": 0.2221,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:03Z",
-      "updated_at": "2026-09-11T05:36:03Z"
+      "fetched_at": "2026-09-12T05:21:49Z",
+      "updated_at": "2026-09-12T05:21:49Z"
     },
     {
       "product_id": "1005003462342443",
@@ -233,8 +233,8 @@
       "sales_volume": 362,
       "score": 0.2187,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:03Z",
-      "updated_at": "2026-09-11T05:36:03Z"
+      "fetched_at": "2026-09-12T05:21:50Z",
+      "updated_at": "2026-09-12T05:21:50Z"
     },
     {
       "product_id": "1005009425871992",
@@ -251,12 +251,12 @@
       "sales_volume": 36,
       "score": 0.2165,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:04Z",
-      "updated_at": "2026-09-11T05:36:04Z"
+      "fetched_at": "2026-09-12T05:21:50Z",
+      "updated_at": "2026-09-12T05:21:50Z"
     },
     {
       "product_id": "1005004774956386",
-      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 Sensor funziona con Alexa Google Home Assistant",
+      "title": "BroadLink RM4 Pro IR WiFi interruttore universale telecomando Smart Controller HTS2 sensore funziona con Alexa Google Home Assistant",
       "slug": "broadlink-rm4-pro-ir-wifi-rf-switch-universal-remote-control",
       "price": 31.61,
       "original_price": 47.19,
@@ -269,8 +269,8 @@
       "sales_volume": 130,
       "score": 0.2111,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:04Z",
-      "updated_at": "2026-09-11T05:36:04Z"
+      "fetched_at": "2026-09-12T05:21:51Z",
+      "updated_at": "2026-09-12T05:21:51Z"
     },
     {
       "product_id": "1005009559994857",
@@ -287,8 +287,8 @@
       "sales_volume": 6,
       "score": 0.2037,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:05Z",
-      "updated_at": "2026-09-11T05:36:05Z"
+      "fetched_at": "2026-09-12T05:21:51Z",
+      "updated_at": "2026-09-12T05:21:51Z"
     },
     {
       "product_id": "1005004966987077",
@@ -305,12 +305,12 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:05Z",
-      "updated_at": "2026-09-11T05:36:05Z"
+      "fetched_at": "2026-09-12T05:21:52Z",
+      "updated_at": "2026-09-12T05:21:52Z"
     },
     {
       "product_id": "32898805107",
-      "title": "Mi luce dimmerabile 4W GU10/MR16 Led lampadina RGB CCT (2700-6500K) lampada Decorazione interna + 2.4G RF LED Remote Control Home Illuminazione",
+      "title": "Mi Light Dimmerable 4W GU10/MR16 Led Bulb RGB CCT (2700-6500K) Decorazione interna della lampada + 2.4G RF LED Remote Control Home Illuminazione",
       "slug": "mi-light-dimmable-4w-gu10mr16-led-bulb-rgb-cct-2700-6500k-la",
       "price": 13.31,
       "original_price": 19.02,
@@ -323,8 +323,8 @@
       "sales_volume": 17,
       "score": 0.192,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:05Z",
-      "updated_at": "2026-09-11T05:36:05Z"
+      "fetched_at": "2026-09-12T05:21:52Z",
+      "updated_at": "2026-09-12T05:21:52Z"
     },
     {
       "product_id": "1005007321083900",
@@ -341,12 +341,12 @@
       "sales_volume": 16,
       "score": 0.1859,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:06Z",
-      "updated_at": "2026-09-11T05:36:06Z"
+      "fetched_at": "2026-09-12T05:21:52Z",
+      "updated_at": "2026-09-12T05:21:52Z"
     },
     {
       "product_id": "1005003906939600",
-      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 serie 560 620 630 650 760 770 870 R3",
+      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Series 560 620 630 650 760 770 870 R3",
       "slug": "sparkole-53-ah-148v-li-ion-battery-with-brand-cells-for-irob",
       "price": 23.07,
       "original_price": 32.5,
@@ -359,8 +359,8 @@
       "sales_volume": 9,
       "score": 0.1848,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:07Z",
-      "updated_at": "2026-09-11T05:36:07Z"
+      "fetched_at": "2026-09-12T05:21:53Z",
+      "updated_at": "2026-09-12T05:21:53Z"
     }
   ]
 }

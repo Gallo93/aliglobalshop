@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-09-11T05:36:52Z",
+  "updated_at": "2026-09-12T05:22:14Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -17,12 +17,12 @@
       "sales_volume": 124,
       "score": 0.3129,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:40Z",
-      "updated_at": "2026-09-11T05:36:40Z"
+      "fetched_at": "2026-09-12T05:22:06Z",
+      "updated_at": "2026-09-12T05:22:06Z"
     },
     {
       "product_id": "1005011540558054",
-      "title": "MZX 8 en 1 USB C docking Station alliage d'aluminium 3.0 2.0 4K HDMI compatible PD100W Multiport Type 3 0 Adaptateur RJ45 100M dock Hubs",
+      "title": "MZX 8 en 1 USB C docking Station alliage d'aluminium 3.0 2.0 4K HDMI compatible PD100W Multiport Type 3 0 adaptateur RJ45 100M dock Hubs",
       "slug": "mzx-8-in-1-usb-c-docking-station-aluminum-alloy-30-20-4k-hdm",
       "price": 14.04,
       "original_price": 31.91,
@@ -35,8 +35,8 @@
       "sales_volume": 39,
       "score": 0.2727,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:40Z",
-      "updated_at": "2026-09-11T05:36:40Z"
+      "fetched_at": "2026-09-12T05:22:07Z",
+      "updated_at": "2026-09-12T05:22:07Z"
     },
     {
       "product_id": "1005008323500938",
@@ -53,12 +53,12 @@
       "sales_volume": 31,
       "score": 0.2557,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:41Z",
-      "updated_at": "2026-09-11T05:36:41Z"
+      "fetched_at": "2026-09-12T05:22:07Z",
+      "updated_at": "2026-09-12T05:22:07Z"
     },
     {
       "product_id": "1005012718555903",
-      "title": "100W Power Bank 20000mAh Chargeur portable de charge rapide bidirectionnel pour iPhone portable Android Power Bank",
+      "title": "100W Power Bank 20000mAh Chargeur portable de recharge rapide bidirectionnel pour iPhone portable Android Power Bank",
       "slug": "100w-power-bank-20000mah-bidirectional-fast-charging-portabl",
       "price": 58.87,
       "original_price": 117.73,
@@ -71,8 +71,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:41Z",
-      "updated_at": "2026-09-11T05:36:41Z"
+      "fetched_at": "2026-09-12T05:22:08Z",
+      "updated_at": "2026-09-12T05:22:08Z"
     },
     {
       "product_id": "1005012348679190",
@@ -89,12 +89,12 @@
       "sales_volume": 1,
       "score": 0.2501,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:42Z",
-      "updated_at": "2026-09-11T05:36:42Z"
+      "fetched_at": "2026-09-12T05:22:08Z",
+      "updated_at": "2026-09-12T05:22:08Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Banque de puissance construite en 4 câbles Portable Chargeur Cute Pet Cartoon Maquillage Miroir Banque de puissance de batterie externe",
+      "title": "20000mAh Mini Banque de Puissance Construite en 4 Câble Portable Chargeur Mignon Animaux Cartoon Maquillage Miroir Powerbank Batterie externe Banque de Puissance",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.7,
       "original_price": 21.39,
@@ -107,12 +107,12 @@
       "sales_volume": 16,
       "score": 0.2479,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:43Z",
-      "updated_at": "2026-09-11T05:36:43Z"
+      "fetched_at": "2026-09-12T05:22:08Z",
+      "updated_at": "2026-09-12T05:22:08Z"
     },
     {
       "product_id": "1005012408073378",
-      "title": "3M 5M 10M USB 3.0 Extendeur à grande vitesse 5GBPS Transmission 4 ports Station d'accueil HUB Hub multi port Type d'alimentation externe c",
+      "title": "3M 5M 10M USB 3.0 Extendeur Transmission haute vitesse 5GBPS Station d'accueil 4 ports Hub multi port Type d'alimentation externe c",
       "slug": "3m-5m-10m-usb-30-extender-high-speed-5gbps-transmission-4-po",
       "price": 14.18,
       "original_price": 27.26,
@@ -125,8 +125,8 @@
       "sales_volume": 13,
       "score": 0.2426,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:43Z",
-      "updated_at": "2026-09-11T05:36:43Z"
+      "fetched_at": "2026-09-12T05:22:09Z",
+      "updated_at": "2026-09-12T05:22:09Z"
     },
     {
       "product_id": "1005012593025805",
@@ -143,8 +143,8 @@
       "sales_volume": 1,
       "score": 0.2321,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:44Z",
-      "updated_at": "2026-09-11T05:36:44Z"
+      "fetched_at": "2026-09-12T05:22:09Z",
+      "updated_at": "2026-09-12T05:22:09Z"
     },
     {
       "product_id": "1005009589681770",
@@ -161,12 +161,12 @@
       "sales_volume": 3,
       "score": 0.2234,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:44Z",
-      "updated_at": "2026-09-11T05:36:44Z"
+      "fetched_at": "2026-09-12T05:22:09Z",
+      "updated_at": "2026-09-12T05:22:09Z"
     },
     {
       "product_id": "1005007646050752",
-      "title": "Hagibis USB C HUB Type-C Station d'accueil Interrupteurs individuels en marche/arrêt avec écran LED 10 Gbps USB C Splitter pour Macbook Pro Air",
+      "title": "Hagibis USB C HUB Type-C Station d'accueil Interrupteurs individuels en marche/arrêt avec affichage LED 10 Gbps USB C Splitter pour Macbook Pro Air",
       "slug": "hagibis-usb-c-hub-type-c-docking-station-individual-onoff-sw",
       "price": 27.59,
       "original_price": 45.99,
@@ -179,12 +179,12 @@
       "sales_volume": 46,
       "score": 0.2175,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:45Z",
-      "updated_at": "2026-09-11T05:36:45Z"
+      "fetched_at": "2026-09-12T05:22:10Z",
+      "updated_at": "2026-09-12T05:22:10Z"
     },
     {
       "product_id": "1005004204383810",
-      "title": "Universal Portable Mini Support de Section Flexible Tripod 2 pour Caméra de Projecteur Support de trépied pour Téléphone Mobile",
+      "title": "Universal Portable Mini Flexible Trépied 2 Support de Section pour Caméra de Projecteur Support de Trépied pour Téléphone Mobile",
       "slug": "universal-portable-mini-flexible-tripod-2-section-holder-for",
       "price": 1.53,
       "original_price": 2.39,
@@ -197,12 +197,12 @@
       "sales_volume": 39,
       "score": 0.2046,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:45Z",
-      "updated_at": "2026-09-11T05:36:45Z"
+      "fetched_at": "2026-09-12T05:22:10Z",
+      "updated_at": "2026-09-12T05:22:10Z"
     },
     {
       "product_id": "1005005070548245",
-      "title": "Station de recharge USB 10 ports 50W/10A Port Multi USB C Chargeur Hub pour tablette de téléphone cellulaire Prise d'extension pour appareils multiples",
+      "title": "Station de recharge USB 10 ports 50W/10A Port Multi USB C Chargeur Hub pour tablette de téléphone cellulaire",
       "slug": "usb-charging-station-10-ports-50w10a-multi-port-usb-c-hub-ch",
       "price": 9.19,
       "original_price": 13.13,
@@ -215,8 +215,8 @@
       "sales_volume": 6,
       "score": 0.1907,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:46Z",
-      "updated_at": "2026-09-11T05:36:46Z"
+      "fetched_at": "2026-09-12T05:22:11Z",
+      "updated_at": "2026-09-12T05:22:11Z"
     },
     {
       "product_id": "1005012806888959",
@@ -233,12 +233,12 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:46Z",
-      "updated_at": "2026-09-11T05:36:46Z"
+      "fetched_at": "2026-09-12T05:22:11Z",
+      "updated_at": "2026-09-12T05:22:11Z"
     },
     {
       "product_id": "1005001506841352",
-      "title": "Chargeur sans fil invisible Bureau QI Embeded charge rapide pour Pad Iphone 11 X Samsung Xiaomi Installation facile chargeur rapide",
+      "title": "Chargeur sans fil invisible Bureau QI Embeded charge rapide pour Pad Iphone 11 X Samsung Xiaomi Installation facile Chargeur rapide",
       "slug": "invisible-wireless-charger-qi-desk-embeded-fast-charging-for",
       "price": 10.33,
       "original_price": 14.35,
@@ -251,8 +251,8 @@
       "sales_volume": 38,
       "score": 0.1726,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:47Z",
-      "updated_at": "2026-09-11T05:36:47Z"
+      "fetched_at": "2026-09-12T05:22:11Z",
+      "updated_at": "2026-09-12T05:22:11Z"
     },
     {
       "product_id": "1005012492477479",
@@ -269,8 +269,8 @@
       "sales_volume": 1,
       "score": 0.1701,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:48Z",
-      "updated_at": "2026-09-11T05:36:48Z"
+      "fetched_at": "2026-09-12T05:22:12Z",
+      "updated_at": "2026-09-12T05:22:12Z"
     },
     {
       "product_id": "1005009503850484",
@@ -287,12 +287,12 @@
       "sales_volume": 51,
       "score": 0.1597,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:49Z",
-      "updated_at": "2026-09-11T05:36:49Z"
+      "fetched_at": "2026-09-12T05:22:12Z",
+      "updated_at": "2026-09-12T05:22:12Z"
     },
     {
       "product_id": "1005009055633802",
-      "title": "Chargeur rapide Dock pour Samsung Galaxy Watch 6/6 Classic/5/5 Pro/4 Classic 4/Active 1 2 câble de recharge sans fil USB de type C",
+      "title": "Chargeur rapide dock pour Samsung Galaxy Watch 6/6 Classic/5/5 Pro/4 Classic 4/Active 1 2 câble de recharge sans fil USB de type C",
       "slug": "fast-charger-dock-for-samsung-galaxy-watch-66-classic55-pro4",
       "price": 3.98,
       "original_price": 8.12,
@@ -305,12 +305,12 @@
       "sales_volume": 4,
       "score": 0.1535,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:49Z",
-      "updated_at": "2026-09-11T05:36:49Z"
+      "fetched_at": "2026-09-12T05:22:13Z",
+      "updated_at": "2026-09-12T05:22:13Z"
     },
     {
       "product_id": "1005012985794626",
-      "title": "100W Super rapide charge Power Bank 20000mAh grande capacité alimentation mobile pour ordinateurs portables Smartphones tablettes",
+      "title": "100W Super Fast Charging Power Bank 20000mAh Alimentation mobile de grande capacité pour ordinateurs portables Smartphones Tablettes",
       "slug": "100w-super-fast-charging-power-bank-20000mah-large-capacity-",
       "price": 26.36,
       "original_price": 52.73,
@@ -323,12 +323,12 @@
       "sales_volume": 1,
       "score": 0.1501,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:50Z",
-      "updated_at": "2026-09-11T05:36:50Z"
+      "fetched_at": "2026-09-12T05:22:13Z",
+      "updated_at": "2026-09-12T05:22:13Z"
     },
     {
       "product_id": "1005013080166822",
-      "title": "20000mAh Power Bank PD 20W charge rapide Chargeur Portable Affichage numérique Pack de batterie certifié 3C pour iPhone Samsung USB C",
+      "title": "20000mAh Power Bank PD 20W Chargeur portable rapide Affichage numérique Pack de batterie certifié 3C pour iPhone Samsung USB C",
       "slug": "20000mah-power-bank-pd-20w-fast-charging-portable-charger-di",
       "price": 30.35,
       "original_price": 60.7,
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.15,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:51Z",
-      "updated_at": "2026-09-11T05:36:51Z"
+      "fetched_at": "2026-09-12T05:22:13Z",
+      "updated_at": "2026-09-12T05:22:13Z"
     },
     {
       "product_id": "1005013110503671",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.15,
       "price_history": [],
-      "fetched_at": "2026-09-11T05:36:51Z",
-      "updated_at": "2026-09-11T05:36:51Z"
+      "fetched_at": "2026-09-12T05:22:14Z",
+      "updated_at": "2026-09-12T05:22:14Z"
     }
   ]
 }
