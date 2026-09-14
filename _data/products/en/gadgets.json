@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-09-14T12:03:22Z",
+  "updated_at": "2026-09-14T21:35:40Z",
   "products": [
     {
       "product_id": "1005011795391651",
@@ -18,7 +18,7 @@
       "score": 0.3187,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:41Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005007914306180",
@@ -36,7 +36,7 @@
       "score": 0.2855,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:41Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005011540558054",
@@ -54,7 +54,7 @@
       "score": 0.2724,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:42Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005008323500938",
@@ -72,14 +72,14 @@
       "score": 0.2557,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:42Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005010000531819",
       "title": "20000mAh Mini Power Bank Built in 4 Cable Portable Charger Cute Pet Cartoon Makeup Mirror Powerbank External Battery Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
-      "price": "11.63",
-      "original_price": "23.26",
+      "price": "11.31",
+      "original_price": "22.61",
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kYYwShQZcj6DvlDB0RPUSbhdurUnptuq8xyt9UduSeKKRHHOrgPR2HgqT9vxKamZxjSq7cEqigTrxVDstNskaekSl83QMxj31MFJmzfXVzEmU2mz1uxlxzBaF6BHzK3PzpfgYlXbN1SccosS9L7FPcgNXNu7TsLaaNwuG2y5y2zob43hBwY7mPRpzCqsvNENYFzUtOXdbsvaf9IPSD6rflHaTuokFORk1yB1y4aQ6xT6VlKTOIJdyLEYJk5GO4u89IVeRIcKNhGxQidJUHn6Oq6SinSEM4u51OKvCIgmLBDv60FjJRqOMWwH3hxNJnL4yXtubpMgWx9fOHOraaCFkj7CfrzUKY9Ii6qu9zmfp72OAwtu1ATxCu42rkAEKEaRvNgzbDcFZGyR5dzVVCxf8wLb5HX5viD8UTAaHrR8uTmGp6vnj4Biw6e0uTfvHbwB3jYCxbeVeXnjMBq9wBrI8xkgoghgpXYAyVZmDQJGyNlVFc2dR8lnvbVQ47HcmUYt3b2eR6GmGMG4h4MFjQvK7iqTO6zb3ixhjDuzRRSxKeaqi9ZnOrMqlouqNsPOSggUAnUYspBBtbFvfOnYVW8eeW8H1OpzRXXFhMFbhdf20ZwQyYImEf5u5EBL6UI3qnYoQp1993BJt0Wc8XxalNI6nckzJcov6lZbZuKg1Lvl2Akl5KlrIkh334jPE53zIScegQL2KtPXHDHo7",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782109655/products/1005010000531819.webp",
@@ -90,7 +90,7 @@
       "score": 0.2482,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:43Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005012408073378",
@@ -108,7 +108,7 @@
       "score": 0.2366,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:43Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005007646050752",
@@ -126,7 +126,7 @@
       "score": 0.2325,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:44Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005009133277403",
@@ -144,7 +144,7 @@
       "score": 0.2202,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:45Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "32872425924",
@@ -162,7 +162,7 @@
       "score": 0.209,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:45Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005004204383810",
@@ -180,7 +180,7 @@
       "score": 0.2047,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:45Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005012745139264",
@@ -198,7 +198,7 @@
       "score": 0.1916,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:46Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005009849333993",
@@ -216,7 +216,7 @@
       "score": 0.1913,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:47Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005005070548245",
@@ -234,7 +234,7 @@
       "score": 0.1907,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:47Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005012648404171",
@@ -252,7 +252,7 @@
       "score": 0.1829,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:48Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005009503850484",
@@ -270,7 +270,7 @@
       "score": 0.1597,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:48Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005013009251991",
@@ -288,7 +288,7 @@
       "score": 0.1561,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:49Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005013008339166",
@@ -306,7 +306,7 @@
       "score": 0.156,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:50Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005012206207969",
@@ -324,7 +324,7 @@
       "score": 0.156,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:51Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005013081974175",
@@ -342,7 +342,7 @@
       "score": 0.156,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:51Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     },
     {
       "product_id": "1005012585843797",
@@ -360,7 +360,7 @@
       "score": 0.156,
       "price_history": [],
       "fetched_at": "2026-09-14T05:45:52Z",
-      "updated_at": "2026-09-14T12:03:22Z"
+      "updated_at": "2026-09-14T21:35:40Z"
     }
   ]
 }
