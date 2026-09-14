@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-09-13T20:26:55Z",
+  "updated_at": "2026-09-14T03:49:38Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -18,7 +18,7 @@
       "score": 0.3387,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:08Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005002334218166",
@@ -36,14 +36,14 @@
       "score": 0.2737,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:09Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005011666514308",
       "title": "Original Lithium Ion Battery for iRobot Roomba Cleaner 900 800 700 600 Series 960 980 981 965 895 890 860 695 692 680 675 Part",
       "slug": "original-lithium-ion-battery-for-irobot-roomba-cleaner-900-8",
-      "price": "35.38",
-      "original_price": "72.21",
+      "price": "35.41",
+      "original_price": "72.26",
       "discount_pct": 51,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mOEhIeGd3OJZqEoC48BebJnC1r4iErBT0PvNoTyYlU3GhyWfSnrROX8HIkRyZjArKigzXYcE47B5RV85ywAIvA7gM22KxY1HbMqGIaFyGIw83sYjwYrjR9rb2BHXBrLBckASPHhOzVDFdvoW1rOlsXZehNzJ11DETmptsoboUsPGE8PLOHrvFfCJL6d2FcPY8AH3ilPO6OjQrnUONmGSZ4DcopWCmylxXi4drxBVbSNlvi8ZPubVit5MYIB1gEp55yrwwPrjdWUTr6P1NkW7uGNazbZx6J98NbkRweKEKBgBw89rmyDditOIKXLFarGont9n6sddhuXySQsYJau3d88G8NMJzP2LkLNawxxbPUGCGgwzisgBjMGNcCcXHGLbvdKtH0VCOX6ch9PyLA9YFnEhNkr3jD10hZqMJy3L2XZweKuYV1zLZ7q9WTdAe9yxNUTqVLviggpePikrRDpr7ypiW1LTfQONbUjRWfo6K3Qq86JYpa2RTAaoowscrRZsBXTKJL8lxMfpXpfPE9ku7lhzjAVjSQ6yj0Y9UAQZ6LdajSSAegI2OuxFyPqt2OJ4MHIpOwdsbyQfjswJu33tIAEpr5HFVH7rAep8O7hdeW5IpyGIxutwHkSkra68ywUgTon8oR6dScW5kaacOtnq6IfImnm11ebcIdq5l1sX6OvtAJeGmokM64rfBbB6MFEX7EpmICWqSdDOM",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788932504/products/1005011666514308.webp",
@@ -54,7 +54,7 @@
       "score": 0.2543,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:09Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005009306467710",
@@ -72,7 +72,7 @@
       "score": 0.2447,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:10Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005005604363467",
@@ -90,7 +90,7 @@
       "score": 0.2373,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:10Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005005807578430",
@@ -108,7 +108,7 @@
       "score": 0.2366,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:11Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "4000143784956",
@@ -126,7 +126,7 @@
       "score": 0.228,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:11Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005010463738860",
@@ -144,14 +144,14 @@
       "score": 0.2255,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:12Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005011764540594",
       "title": "OKAM PRO 4G HD 5MP Wifi Camera Mini Wireless Surveillance Camera 2400mAh Battery Powered PIR Human Detection Security Protection",
       "slug": "okam-pro-4g-hd-5mp-wifi-camera-mini-wireless-surveillance-ca",
-      "price": "41.07",
-      "original_price": "68.45",
+      "price": "41.10",
+      "original_price": "68.50",
       "discount_pct": 40,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nwDCJK74PQ7SgMWvfqluUvBsODhDf88NOSRK8JumTXql9rBwmnstA7odZRRJhMcgfqOQVQg6qnDt6vByEBuxUg6r70eNlNh9eMnxrYbRAU7hPZnFkKtmurcYWnzYa1mfNimEyPXRISSfrGT3P2RTfD3BOdraRSZJIhZw0H4wrPAYtoeL7pq3dC9qaIHGcEjbSSSISP5vKs2fzqiM0eunSKIZhCqZyWwJiFqIgxcjMBfLgbFRq6ZF8RcgR1AD2AlVMtOS6dQxWjdwvfqJ5pgok53x1sYnxB0chQGK9YkPB47U4VuBLlI56a1NWxEXP2OKE8awOnZL5WvWF9oJ7Ayj980YUsCkwoH11BpqxvlpEMVEbvdT493Ig3lKN9rUf6rVsamqRCVjwlUSHqLtX8nTM0HrJ0j9rTQECUkECIKcV8444VdhDirmQXUAKyURScR2dIXwdYFwMuW3K0BaElkuP3CHB6fOmFBfL8uykr78wMDLZye5ngvy3aDtXh0Voqh6NuFCmHKiDrBWRBEOJ5s3vwYNu2eiWosJmDWigYm5o8XHAxu9sArY18x97n0Wlbhmi3VgDlMHmObhrCNkxzQO6eYXv6yVT2RjgGNOEfinbtvMBKxZZNBml4D9ixaCGaDPJhREbN2KP1N3VCCHsBokC0hUobRa7ZayVo8P5czphER95HfcQfS4D4l5v0SJ2GAY6iZAFduRavhjW",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1786933107/products/1005011764540594.webp",
@@ -162,14 +162,14 @@
       "score": 0.2238,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:12Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005009992642757",
       "title": "JNTAFEV Type2 IEC62196-2 Portable Electric Vehicle Charger Type1/GBT 32A 7.2KW EV Charger Wallbox CEE Plug WIFI APP Control",
       "slug": "jntafev-type2-iec62196-2-portable-electric-vehicle-charger-t",
-      "price": "112.88",
-      "original_price": "250.84",
+      "price": "112.96",
+      "original_price": "251.01",
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oEKVddQA53vhACVNSsBGyLaUTPEc2j59T5TQFlgFm1N79ZMCF02Bg2jlb0VTtAkwkL23JqEOGczEAmkGGTpxC7BbcRY8NjqXNqjsStt2YWRe8dJRGUz11iJWx5eW8MNdbYtn2ueQwiajj4XUEf15GODKkvkyfngDn9arZ7QUUndB3GQRmv0E0qzSY8j9tsVr0SdRy1yqlRp2gsHrVeCY0CCn6DLWjBwLYy5bo0zMAlNJ49ucR5um7yy9cvd735Z1sR6dFxIyDBBmlan4fUElvqyatXfZMmRvQFY1KNHNTIPqqV5QA2KfpJmw7dyJdqqTa4NFiLIxrkZTCJY7mrft27PQCyNus7HmPl6lgKXfSNho08SDDXDynkSm88gxpD5iyh9fSwJ1rRSIfKVaJ43m2ODIzDGuWUNSULdMuQfRrJg4BHPB2rWFuWd4e6pyHJfiLuVMe3xgomZOqAAcEtD4DnC27VSAhe5ZAMpbwqMdyRkPwZvJvMMXuqehMoef9qRZqh1I0iCVf1zWR070F6P16RHBQVnIQB4GGSuxu0kJYB8WvAkjVALeR5TS6DDmsjjuvNZg9AnGJxxnWXSht5CuzdBO1qfz5meCmaslU1xz1j4L8gHmSdN4fI9mfi1UFhleqdg2NH1tJxqMSmA9Hyyd5aV665TmVldwXAUwNSK5DNYFuSQ1AKVpBApkCnMtFhqNnHvusmiFrTYvv",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788759547/products/1005009992642757.webp",
@@ -180,7 +180,7 @@
       "score": 0.2221,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:13Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005004352005250",
@@ -198,7 +198,7 @@
       "score": 0.221,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:13Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005003462342443",
@@ -216,7 +216,7 @@
       "score": 0.2183,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:13Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005004774956386",
@@ -234,7 +234,7 @@
       "score": 0.2112,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:14Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005009559994857",
@@ -252,7 +252,7 @@
       "score": 0.2017,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:15Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005004966987077",
@@ -270,7 +270,7 @@
       "score": 0.2001,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:15Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "32898805107",
@@ -288,7 +288,7 @@
       "score": 0.192,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:16Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005003065099697",
@@ -306,14 +306,14 @@
       "score": 0.1918,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:16Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005003906939600",
       "title": "Sparkole 5.3 Ah 14.8V Li-ion Battery With Brand Cells for iRobot Roomba 500 600 700 800 Series 560 620 630 650 760 770 870 R3",
       "slug": "sparkole-53-ah-148v-li-ion-battery-with-brand-cells-for-irob",
-      "price": "22.96",
-      "original_price": "35.33",
+      "price": "22.99",
+      "original_price": "35.36",
       "discount_pct": 29,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mU1J96Pn8cQ1jG1UaYrZUsesCz7mXUHHX8pbpgmzuFK1ZbQsqk3bYePkTwOkJVbwYmpJJTiy7r93t7o1y8ibdGvZrZ7KI7Xgi4FzI7GZaprxtQK8PRR1pvyDIu0GoXPV6coqcT2uO5Fr86e7NXkBGUpwVylHErztAe0xTmWUy8eLTitLsYvLMjkywRDhonehwDwhXNwNwheO9Ji1ofjNRSuTGXZHYZPJBV58HGJuw24Fgl0wBxoVGWJMLcsfr3FRZJkAXmZDVqcODNfTs5QBpWwTjqJSVZKoiwTTXpMMlgi3mvmZA4kmp3alHqfEhp0eZrQZVejpVkcKfsvdtVyDDTFw4or4Ueb1obbp6ShyYQyhVnHa88hiSkT4Zar3zw3KU44dyck3zQeT9SGU5Yuwpuv0cMXGFVmtSO3DWHk4Ykw2LSp1dt4uc9wGUpwLwo1IlSDgaBxFqBieSDpNpZm3aIifxYGZAvILXcAoF2ywNxYRPHjRhLijvopV1d187QuVd67kbUOqzL4FLi7LgffjylZujGMu1Em5UyyNIkRo6vr7QEnDORFhwWEyzkGimjmhfBUNIVQgcpMfklo2eI1rCiv2ONi3apRMc7QicloNznUF2symfsiResajam7MIZmsaWhpAMBKj9HWPiYPEY6u6bIr2rZh5DDuaD7QGg5hhZyKw8gSToS9op4F9wtFPInkvePeWV1Y5nPir",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788158265/products/1005003906939600.webp",
@@ -324,7 +324,7 @@
       "score": 0.1848,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:17Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005007374302567",
@@ -342,7 +342,7 @@
       "score": 0.1845,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:18Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     },
     {
       "product_id": "1005005632971536",
@@ -360,7 +360,7 @@
       "score": 0.1773,
       "price_history": [],
       "fetched_at": "2026-09-13T05:38:18Z",
-      "updated_at": "2026-09-13T20:26:55Z"
+      "updated_at": "2026-09-14T03:49:38Z"
     }
   ]
 }
