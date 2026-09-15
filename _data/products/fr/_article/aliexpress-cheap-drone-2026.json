@@ -1,34 +1,16 @@
 {
-  "timestamp": 1789364814.2221143,
+  "timestamp": 1789451274.3493414,
   "slug": "aliexpress-cheap-drone-2026",
-  "updated_at": "2026-09-14T05:46:54Z",
+  "updated_at": "2026-09-15T05:47:54Z",
   "products": [
-    {
-      "product_id": "1005006422335295",
-      "title": "Rcinpower Gts V3 0802 1s Micromoteur sans brosse 22000kv 25000kv 27000kv 1.0mm Diamètre de l'arbre Mini moteurs pour drones Fpv intérieurs",
-      "slug": "rcinpower-gts-v3-0802-1s-brushless-micro-motor-22000kv-25000",
-      "price": 11.75,
-      "original_price": 26.11,
-      "discount_pct": 55,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mnxPKMY0LdAljCr21UAYxbQ0v9f20khJuEOBk8MecZymKxSdM3nWtQg18kQTYdkGP8Cey1cEDsvLZ4H1OiN7IqeRN5dafFo05IN7mr1MGYMVXrtUKbeO9aQgGDYGIQRD7msU6o0zDJ2pR4aDzQdTmtbR7EE2aF2dYHVZJdqbpeeuyFY7f3BEolqUq2Q5XQu07I3aakz87klk4e8SoJ3GRe5rDKWwnad2YgndOc9hvgAUvSVAfm8ZRkbf842CjkIDJPzEM81TYS6pdfrbvDewYOhRplN8upHrIkhH4o0WttWMRdG5DmYwRqFbXn1uD7wwGhzzFc8XIp2QeZeeEflWIdDqEwQd3FdEuhX06ABJCajxv65yLgdbBiauIRwtEqKyWnTKHpH5tOwwUeQlYGgc638iyLp9Z4uaXAPpQGiY9pALk3H6535a6qWYoJzz8deoxADAUHtSjvC7hmpgQiVPZmuhlANdU7fmKWo2eWvaYKxz58RXRtF1ImYGxrb9MdqE3MxeBotQURp6qfZ9WkRW4RFOCvO1DnfsPsInR1hJiBoLqLlrQ6T8B8qfhJy5U6vZsUIpucCv8VJUxXCZ4R0KZRvEcdSvWkLuieZSCyX2RgVbIaecSRo9I4ISd0bDQ5rYyd0nNY8KG7WFeYpNu1P5zWNrjykhEYSkxD2mYiPHhhIUo33vwTezbEpnG7FrNBAXXgh2TO5pDNDWX",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1786834959/products/art-1005006422335295.webp",
-      "category": "electronics",
-      "rating": 4.8,
-      "reviews_count": 7,
-      "sales_volume": 7,
-      "score": 0.2618,
-      "price_history": [],
-      "fetched_at": "2026-09-14T05:46:51Z",
-      "updated_at": "2026-09-14T05:46:51Z"
-    },
     {
       "product_id": "1005006014442249",
       "title": "Nouvelle Assemblage Bricolage Avion Four Axis Mini HD Caméra Drone Experiment Télécommande Avion Modèle Formation Garçon Cadeau anniversaire",
       "slug": "new-assembly-diy-four-axis-aircraft-mini-hd-camera-drone-exp",
-      "price": 28.04,
-      "original_price": 40.06,
+      "price": 28.02,
+      "original_price": 40.03,
       "discount_pct": 30,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EuoRNcwM73yr9ducp44lTCTpqcA98Xdf0UOJog8WOzTXVAs6SycFeZmFPkSDilcPIgU3JaB6TlNlI8gtKpeYm54PYPzwsDKSqCtp5WdNCMNOUWsTE8x3850HyILo5WfMXNpQSbukdw4xyKWGpj62XiszQYCMBjTbJ4CTHaz3XYCgnG9s2Z7shlElk9jPxjaSnzaj8aBsbfXwG6vHSdGLIcOGHnnExmUgJAthP8ZjEsqpIuQwR7MoE0onViGRH15ht8d38CVfgrLIl3sjWj54sYWdcDXW4DFilUTeOcKcGwyDK1M966ekFjjOmxBURPqQZDRq5L13R07esa96OQkAvWEFRRdV7XDYMsjkEgMuEmnNZnrOMHtBE8UAJ6xmcHnAJI6u0sQvnYfbfkJGzm0XqknuAAvpNQOAxfelgHmNJIsFRUwx9pRLhePHyETeJHwiHNTb5Zq7qhlav8j3F20uNKnp8KHiGXJ2afCXOVOn8WQRgR50P4gnlpPLjdzFg1Jng2qmhbW7rTcojgHElNwu7OLX40EQ7DnNbnfUVgRbognVGOaEUEKKtItB0GBXwbKaEy7CxmfdkhcWMKZhKxy6mQQQR6sreo09SsGzxU4rf2aSjOLJNq0KrMsM9nKnbrcMoqDRjp115VSYvDMQbv8koZfsZaLmLdLzzlQ1lcRk67nBNanOxr13sMa4aQEhwPbkJnes4VtQYJXFv",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EuoRNcwM73yr9ducp44lTCTpqcA98Xdf0UOJog8WOzTXVAs6SycFeZmFPkSDilcPIgU3JaB6TlNlI8gtKpeYm54PYPzwsDKSqCtp5WdNCMNOUWsTE8x3850HyILo5WfMXNpQSbukdw4xyKWGpj62XiszQYCMBjTbJ4CTHaz3XYCgnG9s2Z7shlElk9jPxjaSnzaj8aBsbfXwG6vHSdGLIcOGHnnExmUgJAthP8bI0kK3Y5deGh5r3b586WpjPwehuUMHhfP8HS9U29H6rHMbEx8Zl5Wg1fCWripwh2f9G6KUjXc6ASxTLvsdM70MVWaVPlUASOxCmYpK6WHZInASgV1URklZRtcUNI0hmVMCDqjYFl0KC12gj2yZkh6oHsrpxodlelkyjyJDrx4EvdhIZiidN8FC0hsyfZWjbxzOh0KJqr2Yz4juqlh6kw6kOFYIthJeiEHOYNka6UXTMAnkn0ZuTY46n9ySXaoRwzK7beApMkM5Kdp6HefTNOsvgT681X0ZkA0xhl04TugbVbOfUyt6kLxH0HaG50A2JI8zqAVNQUYQWMHBuwCnC7CsknXBc9cwfPiF1zuyEN7kQM9KtvyZulL7fCqx1N1SBGcxTHwvwDFpczfmPjNNuDD44EzweeUoZGH6JbBpwJ7FLbnwa31pTUDK5ZKdKcGC8sDnDPrlYDJmYbCuXXZSyY5zMTWBw2H9BIuy8bgdZ",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784674975/products/art-1005006014442249.webp",
       "category": "electronics",
       "rating": 5.0,
@@ -36,17 +18,17 @@
       "sales_volume": 17,
       "score": 0.192,
       "price_history": [],
-      "fetched_at": "2026-09-14T05:46:52Z",
-      "updated_at": "2026-09-14T05:46:52Z"
+      "fetched_at": "2026-09-15T05:47:52Z",
+      "updated_at": "2026-09-15T05:47:52Z"
     },
     {
       "product_id": "1005007724346145",
       "title": "Original S2S Drone Aerial Photography Dual-Camera Obstacle Omnidirectionnel Brushless Evitance télécommande Quadcopter Toys",
       "slug": "original-s2s-drone-aerial-photography-dual-camera-omnidirect",
-      "price": 32.91,
-      "original_price": 65.82,
+      "price": 32.89,
+      "original_price": 65.77,
       "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k8bgSft8WvqRDvOObtF5OGCQcR3ACBuNahdwJPrZNW0Vj5qsmb59rt2b2fBu99S7xNSWp5jcglOA2ANHQjrAxgwMDz5HBKsCP3s5KLqDsbY3JIRHW4bcJMKtXX4OKuW7toGq9M3SZWq4xhwU3kNoKxuagYLlMg94p0Cx4hux4GHyEMqG2lFhCCaSuRyRYCJP5jasMaMOXKdCQyW3PLgADu3OAyfChQhXvC91Ptnd4CC7PXTzRaxFIS3F8kUXrzIFOIm51xQCO5Jw5sZcFTykI9gQeOVdoQKjj08tCYT4johZFyokAMd88MFTLIj28cZh3yp9JSzaqtyOFSYhImQiFNTLMIbODJqDz2T63vdP67oQ2em0Ll7mVGScUdLu5KMLgnS7kQkLuNIYDB54N4e3LHjFwLwD1qld3ihcF1dV3Macyz1xeu1Hh0WAGnOVQ35jopR7Ej3JVGfxHzCUNI0s6CAK7kY3AeJPm3kptAjl3xmVopFpiYaqCWWxXmhJz22B1q0rbOCnTGAnPfnmCZOlhjQ9DuvOVWOOVMp3eLbghXx1AizwaGAPTVkpXjjQD5AksF4tHAiBdrE6LFadgzhC9mmH4pFvKGaTt9hPulonTyFCirbb8EBOHV6NPOdUA6SgPhyW8HG59hIvJOUHPgX5DPWVnV23os4vh40hElAE5ijz4aouGKvkpMDw3K4FTQEpI9uwbCiKfqQ36",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k8bgSft8WvqRDvOObtF5OGCQcR3ACBuNahdwJPrZNW0Vj5qsmb59rt2b2fBu99S7xNSWp5jcglOA2ANHQjrAxgwMDz5HBKsCP3s5KLqDsbY3JIRHW4bcJMKtXX4OKuW7toGq9M3SZWq4xhwU3kNoKxuagYLlMg94p0Cx4hux4GHyEMqG2lFhCCaSuRyRYCJP5jasMaMOXKdCQyW3PLgADu3OAyfChQhXvC91Ptnd4CC7PXTzRaxFIS3F8kUXrzIFOI2pwY6WW10dijZwaFLhJ7boOR2ODaDn18pFz1xVonxaztkuTu4SUs1TB6hAiUFxLqmcEtHmYcj72DV2HL6Y2wmm3ktDwulrPg9QqYop8N4R8lDTk8loYDSB32VIpFRg55JtllRomg8296yDwQVvpu0HOEjtFNroyihj9Q7rMOUyWz1Jxr1r2DP3rayPhUPuHhlV1Vi3qknQYZBCCahAD8thssFdxdKPX8m3ImXqR4YlWwhSGzZLgDrREorwUsJN5SCrOEty2bwQnEJq1Yg7WQZPyPookhdIkQzQvtH9L0aHiJhAf2NrOFegZa49QRMWR1uEEBmfeLj6JcWQLnIvCfbuTCeJAadSHNqEProHQQLeXre9BSqWXgDMFqMrXJYKvQ3HvAhTMKJ89RQxOaaoJ3zT4fItGg7YDv1yHkVA82pJSwVzsYYFye2fCZyHqvYrchaIE5manvFCu",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784522178/products/art-1005007724346145.webp",
       "category": "electronics",
       "rating": 2.0,
@@ -54,8 +36,8 @@
       "sales_volume": 3,
       "score": 0.1904,
       "price_history": [],
-      "fetched_at": "2026-09-14T05:46:52Z",
-      "updated_at": "2026-09-14T05:46:52Z"
+      "fetched_at": "2026-09-15T05:47:52Z",
+      "updated_at": "2026-09-15T05:47:52Z"
     },
     {
       "product_id": "1005005107301532",
@@ -64,7 +46,7 @@
       "price": 15.29,
       "original_price": 19.31,
       "discount_pct": 20,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Ez5Znwx9nf5glxyzo4kSkCIXQjsZKNqAkYpjDAcFYADL2qcc9xkMMc9NOaUs4jB1GnzeX59MErGa41PcmcLFEOp8SLmRBXKpAFcJ169Q7xGAGgfcx02jLY10kDtHk8lg0kwD6p3LoaZfBdNjC587HiX1oHYNpfJOiYqznnU53luHvBmTJumVU82024PE9u7b1IB6yOgvGun9yi70pcO8UuFJab9jICgZoKTHpGIAnAK2sEl3leNqfIn2nOUQ4VGrNrwXJYlTrqJ9H504PkFgytOLp1HkFfPnA8WQcxJZ8jiIlYb3FWmAwyBZPQEtwCFMDVKrvROq8q4RcaF4bfV5FDELHcXNljL3QOBEIEjQ3T57frCRhNYGZiFFlgTQtezyJANSwGQCEM0LpmPfJVQ9Ywx43VtCMLmWNcYn8JgmpA4a4qI2dkNLim4Xiya50jVdXrmXjj91pbEUWSFH9wsrrvP2v65fSaR7RWrFgkLBtMgCh2i9PGf4xKS2irkhJDK1fVOucJzYEL5movqNKbFCCfMZRdnRWZ1DLTcGMsNiJj3AsQFrV6tBhrytWYfo1MrSJnaRpROgXGDxA1byeLTVY4MccMBz1roy6pMtq0woCJfgttgvGahSe7aVMtBnPJDPzlxG6nXndzGM3QgQcirQIwbSyU49YWfBC5gOLhIPmNt9CjbnTPPQsKIic6REkwqOGDFPIJfIiV3Ay",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Ez5Znwx9nf5glxyzo4kSkCIXQjsZKNqAkYpjDAcFYADL2qcc9xkMMc9NOaUs4jB1GnzeX59MErGa41PcmcLFEOp8SLmRBXKpAFcJ169Q7xGAGgfcx02jLY10kDtHk8lg0kwD6p3LoaZfBdNjC587HiX1oHYNpfJOiYqznnU53luHvBmTJumVU82024PE9u7b1IB6yOgvGun9yi70pcO8UuFJab9jICgZoKTHpGohVSO4DUpNakqNut4f4pRhyQVryoqumw2Iy5bes6SWP77A40qHvFdL60OYluspWNMEI3CtNy5FC0S3q1XTrlxVLccInWA7PKmoMscYzcHwgpeNCTAhxvIARx7CEBwIZLjNJJZ1cYWRNxH5WZMrfCEA6rUa3UInmtJ9yceNPPg26nDXpXGZ2LqfLR4guuVDVsMRuguh7R8PLaXFrk7V9OjHxOHL4dY41Hfy1p6MG1LiObMS3OTzejLNvx0czuGCQ3HEJ2rzCsiQBO6G61gpjDy7GuEC6kQ8uJHNM20Bhh0T1dyFqMCFcuyjotmXzFvJQVkD6yBLn4bkHtokMJQZ4guhdZPKsT7mmXOZqUyvAmrdnRS6mTxqkixzxlva7xFZbCAasPX0jxv3DJt141AjXk9FTiVVTNC9s71QmGcZO1vEqZyxuPGMIw5Cax5NpevUUQ9MslVMF0yBGDmWYM7sYLZOtbQGMI4hFBwcHjx9K",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1787094179/products/art-1005005107301532.webp",
       "category": "electronics",
       "rating": 5.0,
@@ -72,8 +54,8 @@
       "sales_volume": 12,
       "score": 0.1614,
       "price_history": [],
-      "fetched_at": "2026-09-14T05:46:52Z",
-      "updated_at": "2026-09-14T05:46:52Z"
+      "fetched_at": "2026-09-15T05:47:53Z",
+      "updated_at": "2026-09-15T05:47:53Z"
     },
     {
       "product_id": "32827252281",
@@ -82,16 +64,16 @@
       "price": 5.2,
       "original_price": 5.84,
       "discount_pct": 11,
-      "affiliate_url": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gW7rPDXztYww0hpUiD0BbGuwWR3fS8n2SMU9HDfrAbSd1r5A6Ns72GmBdiJs2TgZjuyMnd1V9WRnaiG27Sm2gVDGdmdb0O44OxFKGxC5t1Jq5kf31F3XcUpTvxE8F5p1ADy0kLDx2Bfdu28ja6D1jrHA8Dp6XMW1QKlLwh0MhlPrbDZqUhDomaxs4b9CjZKPBwWQSiF6dOO3do1EDbVXFWInJVD4cRDAlaUgOS2vb6qgdjwuLzwX59Q3MukfupEor8nS2eaIxk8h9lDoraxzsu9MPw1FZUAwKbWSJypPTbGdPYvzfbEF6iIPZ9po5NxMmuENly62HvE8MRGXBdzpR4tQYmctCJmxuFgyGuLcI1PWhHm27WJmJ8NZ03IFY628kQIIFGsWV1ZExJRr2segEmAx07h7Xdofixedp7z3X9WIUdfiZX2ECU5T0Qk4CDfIxltVTB0hRY3iNcOuF5Bc6Y0KYuZYcstWuOrrA4EdEpyr5c5wFVxtnYkqMcLtIVfm3f1Wi5YOerVt6I2OZCWiQtV7cZtRf5YnlonP2l1RAoMYdLgUa2IzWTqA0AdXJmFWoJDhLRGNzc4D67JpI47uGZapeVtkhCJkCmLKDJFGnxIueaJOl6MtAmZFg5H6U8bLdGXaUMY413e1542X4Ncw4cmL4yTAoDyK6Loe2jEAQVDyymGNdfd3GbVOEjVeWjxi39TWixV8KLhdizbd",
+      "affiliate_url": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gW7rPDXztYww0hpUiD0BbGuwWR3fS8n2SMU9HDfrAbSd1r5A6Ns72GmBdiJs2TgZjuyMnd1V9WRnaiG27Sm2gVDGdmdb0O44OxFKGxC5t1Jq5kf31F3XcUpTvxE8F5p1ADy0kLDx2Bfdu28ja6D1jrHA8Dp6XMW1QKlLwh0MhlPrbDZqUhDomaxs4b9CjZKPBwWQSiF6dOO3do1EDbVXFWInJVD4cRDAlaUgOS2vb6qgdjwuLzwX59Q3MukfupEor8nT9Mh9jNKyLd4gZ3ij1rEMKCQykztPHFfUbMew0KGefjvypcGUKkFSEcGAyVxfZiOGGNnl0yM00RWDcLkXTgpEptgnVb6vQpzeIEEMwSRlvVQgz8Mycgts6TL87QWIh72PXVuvNQbWcqN7rtqd8Km2Lnsnh2VzebZKLGXqJrtwSauyBQRmEqhj3KgENJWG7G4PkO9K5hdzGE2Zf8y1FqvAObvpOYnJUr0cEh5biyXIsEQ8OnlKGuVxzOE3s57NV1zgXkEXeeuPFUcs6DYYFDEuvpgPpqkayhlfOqbXT7QBLxPp4XIbAMWfZ7sljTaP6Hbg81l7tCg7sLgE0Qb3iLx2DRkuAa0aCFl0xjoqnjPvkdDTFdLYJJ4DiEKUfgxW2qeWeluiJeWmtlsI5QmAPbJuZEBPy1IzfjpG9feXyYaytMCD8pLyMODY1tVIbK52zIVvxvhfoN0rop7H",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1782039680/products/art-32827252281.webp",
       "category": "electronics",
       "rating": 4.7,
-      "reviews_count": 278,
-      "sales_volume": 278,
-      "score": 0.1596,
+      "reviews_count": 280,
+      "sales_volume": 280,
+      "score": 0.1598,
       "price_history": [],
-      "fetched_at": "2026-09-14T05:46:53Z",
-      "updated_at": "2026-09-14T05:46:53Z"
+      "fetched_at": "2026-09-15T05:47:53Z",
+      "updated_at": "2026-09-15T05:47:53Z"
     },
     {
       "product_id": "32818527353",
@@ -100,7 +82,7 @@
       "price": 7.12,
       "original_price": 7.84,
       "discount_pct": 9,
-      "affiliate_url": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gW7rPDXztYww0hpUiD0BbGuwWR3fS8phREDG68RuAkUoRvNDO1tYck5kk4PJly7kP6mD8EDrDHuytOKtIdbwjhwTUz8ivEuMrf4lWqf1vLAk1DsJq8riOD02jzLUsmvO52x2CJjVovD9W3be4kaUxCezmrmM4q8LuzoJEwNwkDNhJoX7cMZO7XBkMW34uOk4L3XX6oeOs19ZFkn25EiB6jnJzfl3hlU3sJhrmc7g8RwvVtrsez969r9FaBHa4vfYYuFsPXf8qlp7HxDjUrnyevuohFOS1OD9v1v7Y5JYrlpotD7l2Wi8h1XK3l4JuLC0OIb3cUAqk10jSm1KOG6KxyDyvNpHBoppspLFwhwtXyxgcMjWUvhx6V53Gzbl1pc8VLictZgYwe70jWz7TxtPwTKaqUFNmp9tO4e7OGfnG2euylklNcKpvFuPRx5NxpG2JT21euEV3XU2K0RFTyd6jG0BQLoNrl9c1R9TxoOrO8bjEEIzIXdGwAnwQFpFQOSI5Gke8AzpwegjrGaWBXkxlA68ISa8Siz8Ney99dVY8ms76VW1VxzyTOBGgQotOnTI6WggUAu5tiwhsxGgk0Nv9DyBkYT1OAbs1g9gNvQ4PXMYlZSoNIOaU0InK0gcsmJT8iXjF0kZxcbTpKK2etWHKWGWlYesCBY2o1zhAReAU0ZDwckepEWmn26AWIe6MbFPf3XgRdOqllVhR4jh",
+      "affiliate_url": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gW7rPDXztYww0hpUiD0BbGuwWR3fS8phREDG68RuAkUoRvNDO1tYck5kk4PJly7kP6mD8EDrDHuytOKtIdbwjhwTUz8ivEuMrf4lWqf1vLAk1DsJq8riOD02jzLUsmvO52x2CJjVovD9W3be4kaUxCezmrmM4q8LuzoJEwNwkDNhJoX7cMZO7XBkMW34uOk4L3XX6oeOs19ZFkn25EiB6jnJzfl3hlU3sJhrmc7g8RwvVtrsez969r9FaBHa4vfYYuFtwQ0TmNzITj55IYeins5o7ry5cIi3qAugd3ri6eO57DGLC8C0lXdwyiLiZdSEYUbvqd1St2UlcDMpALL1kWfzMsqUh1LkG8ManFUaHosruajMnb3DRUFUwAnBQnkvuA3u6ICQ5VFJRbQ6fEmOKBYl4ODCV64nxzYnEvNx4kOinDRcu5PuadCy5pmc3bslwtNtXlMkaKET1Ug4ENUpocvoqzJgF7sdQUfVzLaik7xDbOVbfHLIfQFss8b4vN4svJpBbWoYprqql4mhtFnoFrluXi9Ha3dkg53CSz5aU2C6EBpSvQB5w80Uy9vTF49MdKmbBfT8b3EiNECp4MfFQCEB5QxiwvRKVowxFj7rg5eppSOUZyFNq1jEOxKdaE4CGjUiejgGkJU2xMO6SMHqDiVJijtNFLkJKZjx8uFJw6SVa52otdp14NK14nC2qHFTwK2Eq4PkvuTJMtoP",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789364813/products/art-32818527353.webp",
       "category": "electronics",
       "rating": 5.0,
@@ -108,8 +90,26 @@
       "sales_volume": 20,
       "score": 0.1294,
       "price_history": [],
-      "fetched_at": "2026-09-14T05:46:54Z",
-      "updated_at": "2026-09-14T05:46:54Z"
+      "fetched_at": "2026-09-15T05:47:53Z",
+      "updated_at": "2026-09-15T05:47:53Z"
+    },
+    {
+      "product_id": "1005009198088398",
+      "title": "E99 Air Screen Control Drone Professional Wide RC Dron HD 4K Caméra pliable Hélicoptère Quadcopter Drone Jouets cadeaux pour enfants",
+      "slug": "e99-air-screen-control-drone-professional-wide-rc-dron-hd-4k",
+      "price": 19.41,
+      "original_price": 21.57,
+      "discount_pct": 10,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kHfXVTdWAY6XpO5MUehJ02qM0y8x8pEyFxbWa4jLbl2CwHwpscVKdVG5xeyvRzbscmNU3H0SziqBVb7ztsMPMdQ5atzqI1wEHuzdBs3sqAbGm7QZEB7NZYI5Q19cA6BFISj1AyjgjXHpHsPRa1ofSfAfX4hUs6DU09543F4VTrQiRsbv4NnkXn3MSM86UFFZZVCgNrex3xHRPgsj5h9JMGm08ExSYwBQ4dvCITgPhltzMMMmEp8kNGmh0LpoVlkzhy45r3Sy7GDC4Pi9EC3XxXv7oS2Yg3rWr3C2sCtqs3UfDY5fOTZtqCwMwqIWqZ9ULINYNDut3TqYuTujsKHQMohP7irAeRf6u8GeKJX4epNCpVFEjSYr2fcIidKBtkVOksGLAz5tNrnJGeeWh2QMgKCwn9ZB8jdSwLFzNlpqgTy84134lwhpqxmv6trzNvxY81mBDZXT4meMcaktk9OWk9c4yCxxT7WYmN27VUo7toq4N3lFc8O2dT8RK48Ev3OZAfNVNFxY9RaS5JNGf2HmjaaIVvk6lg3dYJoVhuIs3KuKxPTmSzOvBTai9TPHGmPlrYjZ3Zb3zhhFfeqme5TWHBgwFx3d7duWEm0McLKslnCaZSktSdojF6ehZIuFyJiIihleCiZUVQK3X5W2XWTibLAQBBdeLcVlYM5JB2xkyNh42mX9fTsDuolTlLg3aKEsY5cNNFWBgGNIG",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788932622/products/art-1005009198088398.webp",
+      "category": "electronics",
+      "rating": 3.7,
+      "reviews_count": 5,
+      "sales_volume": 5,
+      "score": 0.1044,
+      "price_history": [],
+      "fetched_at": "2026-09-15T05:47:54Z",
+      "updated_at": "2026-09-15T05:47:54Z"
     }
   ]
 }
