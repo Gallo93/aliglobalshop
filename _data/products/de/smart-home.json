@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-09-15T05:46:03Z",
+  "updated_at": "2026-09-16T05:36:28Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1587,
       "score": 0.3408,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:53Z",
-      "updated_at": "2026-09-15T05:45:53Z"
+      "fetched_at": "2026-09-16T05:36:19Z",
+      "updated_at": "2026-09-16T05:36:19Z"
     },
     {
       "product_id": "1005001280574861",
@@ -35,8 +35,8 @@
       "sales_volume": 15,
       "score": 0.3002,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:54Z",
-      "updated_at": "2026-09-15T05:45:54Z"
+      "fetched_at": "2026-09-16T05:36:19Z",
+      "updated_at": "2026-09-16T05:36:19Z"
     },
     {
       "product_id": "1005010374390737",
@@ -53,8 +53,8 @@
       "sales_volume": 82,
       "score": 0.2993,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:55Z",
-      "updated_at": "2026-09-15T05:45:55Z"
+      "fetched_at": "2026-09-16T05:36:19Z",
+      "updated_at": "2026-09-16T05:36:19Z"
     },
     {
       "product_id": "1005002334218166",
@@ -71,8 +71,8 @@
       "sales_volume": 237,
       "score": 0.2856,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:55Z",
-      "updated_at": "2026-09-15T05:45:55Z"
+      "fetched_at": "2026-09-16T05:36:20Z",
+      "updated_at": "2026-09-16T05:36:20Z"
     },
     {
       "product_id": "1005006593842093",
@@ -89,8 +89,8 @@
       "sales_volume": 133,
       "score": 0.2831,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:56Z",
-      "updated_at": "2026-09-15T05:45:56Z"
+      "fetched_at": "2026-09-16T05:36:20Z",
+      "updated_at": "2026-09-16T05:36:20Z"
     },
     {
       "product_id": "1005009306467710",
@@ -107,8 +107,8 @@
       "sales_volume": 335,
       "score": 0.258,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:57Z",
-      "updated_at": "2026-09-15T05:45:57Z"
+      "fetched_at": "2026-09-16T05:36:21Z",
+      "updated_at": "2026-09-16T05:36:21Z"
     },
     {
       "product_id": "1005011666514308",
@@ -125,12 +125,12 @@
       "sales_volume": 11,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:57Z",
-      "updated_at": "2026-09-15T05:45:57Z"
+      "fetched_at": "2026-09-16T05:36:21Z",
+      "updated_at": "2026-09-16T05:36:21Z"
     },
     {
       "product_id": "1005004352005250",
-      "title": "Motor-Vakuum-Modul für Roboter-Vakuumreiniger für iRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Ventilator-Reparaturteile",
+      "title": "Motor-Vakuum-Modul für Roboter-Vakuumreiniger für iRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Kühlventilator-Reparaturteile",
       "slug": "robot-vacuum-cleaner-fan-assembly-motor-vacuum-module-for-ir",
       "price": 25.82,
       "original_price": 38.54,
@@ -143,8 +143,8 @@
       "sales_volume": 475,
       "score": 0.2445,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:57Z",
-      "updated_at": "2026-09-15T05:45:57Z"
+      "fetched_at": "2026-09-16T05:36:22Z",
+      "updated_at": "2026-09-16T05:36:22Z"
     },
     {
       "product_id": "1005005604363467",
@@ -161,8 +161,8 @@
       "sales_volume": 33,
       "score": 0.2373,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:58Z",
-      "updated_at": "2026-09-15T05:45:58Z"
+      "fetched_at": "2026-09-16T05:36:22Z",
+      "updated_at": "2026-09-16T05:36:22Z"
     },
     {
       "product_id": "4000143784956",
@@ -179,8 +179,8 @@
       "sales_volume": 352,
       "score": 0.2371,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:58Z",
-      "updated_at": "2026-09-15T05:45:58Z"
+      "fetched_at": "2026-09-16T05:36:23Z",
+      "updated_at": "2026-09-16T05:36:23Z"
     },
     {
       "product_id": "1005005807578430",
@@ -197,8 +197,8 @@
       "sales_volume": 5,
       "score": 0.2366,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:59Z",
-      "updated_at": "2026-09-15T05:45:59Z"
+      "fetched_at": "2026-09-16T05:36:23Z",
+      "updated_at": "2026-09-16T05:36:23Z"
     },
     {
       "product_id": "1005010463738860",
@@ -215,12 +215,12 @@
       "sales_volume": 52,
       "score": 0.2345,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:59Z",
-      "updated_at": "2026-09-15T05:45:59Z"
+      "fetched_at": "2026-09-16T05:36:24Z",
+      "updated_at": "2026-09-16T05:36:24Z"
     },
     {
       "product_id": "1005003462342443",
-      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth Betriebene Relais Niederspannungsunterstützung über Temperaturschutz",
+      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth betrieben Relais Niederspannungsunterstützung über Temperaturschutz",
       "slug": "shelly-1-gen3-dry-contact-smart-switch-wifi-bluetooth-operat",
       "price": 16.5,
       "original_price": 23.25,
@@ -233,8 +233,8 @@
       "sales_volume": 351,
       "score": 0.2264,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:59Z",
-      "updated_at": "2026-09-15T05:45:59Z"
+      "fetched_at": "2026-09-16T05:36:24Z",
+      "updated_at": "2026-09-16T05:36:24Z"
     },
     {
       "product_id": "1005009992642757",
@@ -251,8 +251,8 @@
       "sales_volume": 1,
       "score": 0.2251,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:46:00Z",
-      "updated_at": "2026-09-15T05:46:00Z"
+      "fetched_at": "2026-09-16T05:36:25Z",
+      "updated_at": "2026-09-16T05:36:25Z"
     },
     {
       "product_id": "1005011764540594",
@@ -269,8 +269,8 @@
       "sales_volume": 33,
       "score": 0.224,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:46:00Z",
-      "updated_at": "2026-09-15T05:46:00Z"
+      "fetched_at": "2026-09-16T05:36:25Z",
+      "updated_at": "2026-09-16T05:36:25Z"
     },
     {
       "product_id": "1005009425871992",
@@ -287,8 +287,8 @@
       "sales_volume": 35,
       "score": 0.2164,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:46:01Z",
-      "updated_at": "2026-09-15T05:46:01Z"
+      "fetched_at": "2026-09-16T05:36:26Z",
+      "updated_at": "2026-09-16T05:36:26Z"
     },
     {
       "product_id": "1005003906939600",
@@ -305,8 +305,8 @@
       "sales_volume": 9,
       "score": 0.2028,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:46:01Z",
-      "updated_at": "2026-09-15T05:46:01Z"
+      "fetched_at": "2026-09-16T05:36:26Z",
+      "updated_at": "2026-09-16T05:36:26Z"
     },
     {
       "product_id": "1005003568997399",
@@ -323,8 +323,8 @@
       "sales_volume": 117,
       "score": 0.201,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:46:02Z",
-      "updated_at": "2026-09-15T05:46:02Z"
+      "fetched_at": "2026-09-16T05:36:27Z",
+      "updated_at": "2026-09-16T05:36:27Z"
     },
     {
       "product_id": "1005004556206576",
@@ -341,8 +341,8 @@
       "sales_volume": 35,
       "score": 0.201,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:46:03Z",
-      "updated_at": "2026-09-15T05:46:03Z"
+      "fetched_at": "2026-09-16T05:36:27Z",
+      "updated_at": "2026-09-16T05:36:27Z"
     },
     {
       "product_id": "1005003065099697",
@@ -359,8 +359,8 @@
       "sales_volume": 15,
       "score": 0.2008,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:46:03Z",
-      "updated_at": "2026-09-15T05:46:03Z"
+      "fetched_at": "2026-09-16T05:36:28Z",
+      "updated_at": "2026-09-16T05:36:28Z"
     }
   ]
 }

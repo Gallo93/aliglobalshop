@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-09-15T05:45:40Z",
+  "updated_at": "2026-09-16T05:36:16Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -17,8 +17,8 @@
       "sales_volume": 22,
       "score": 0.3216,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:31Z",
-      "updated_at": "2026-09-15T05:45:31Z"
+      "fetched_at": "2026-09-16T05:36:06Z",
+      "updated_at": "2026-09-16T05:36:06Z"
     },
     {
       "product_id": "1005009199894572",
@@ -35,8 +35,8 @@
       "sales_volume": 1469,
       "score": 0.3009,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:32Z",
-      "updated_at": "2026-09-15T05:45:32Z"
+      "fetched_at": "2026-09-16T05:36:07Z",
+      "updated_at": "2026-09-16T05:36:07Z"
     },
     {
       "product_id": "1005013005890661",
@@ -53,8 +53,8 @@
       "sales_volume": 4,
       "score": 0.2925,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:32Z",
-      "updated_at": "2026-09-15T05:45:32Z"
+      "fetched_at": "2026-09-16T05:36:07Z",
+      "updated_at": "2026-09-16T05:36:07Z"
     },
     {
       "product_id": "1005009369207724",
@@ -71,12 +71,12 @@
       "sales_volume": 21,
       "score": 0.2825,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:33Z",
-      "updated_at": "2026-09-15T05:45:33Z"
+      "fetched_at": "2026-09-16T05:36:08Z",
+      "updated_at": "2026-09-16T05:36:08Z"
     },
     {
       "product_id": "1005012272048246",
-      "title": "Altoparlante portatile del cantiere per Dewalt 20V Batteria 10W Bluetooth Wireless con USB Caricabatteria & TF Card per la costruzione del campeggio 100ft",
+      "title": "Altoparlante portatile per Dewalt 20V Batteria 10W Bluetooth Wireless con USB Charger & TF Card per la costruzione di campeggio 100ft",
       "slug": "portable-jobsite-speaker-for-dewalt-20v-battery-10w-bluetoot",
       "price": 39.91,
       "original_price": 89.43,
@@ -89,12 +89,12 @@
       "sales_volume": 10,
       "score": 0.2662,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:34Z",
-      "updated_at": "2026-09-15T05:45:34Z"
+      "fetched_at": "2026-09-16T05:36:08Z",
+      "updated_at": "2026-09-16T05:36:08Z"
     },
     {
       "product_id": "1005011812151458",
-      "title": "QOOVI Qi2 35W caricatore portatile 10000mah della banca di potere magnetica per la ricarica veloce wireless di MagSafe 15W per iPhone 17 16 15 iWatch",
+      "title": "QOOVI Qi2 35W caricatore portatile della banca di potere magnetico 10000mah per la ricarica veloce wireless di MagSafe 15W per iPhone 17 16 15 iWatch",
       "slug": "qoovi-qi2-35w-magnetic-power-bank-10000mah-portable-charger-",
       "price": 41.48,
       "original_price": 90.18,
@@ -107,12 +107,12 @@
       "sales_volume": 91,
       "score": 0.2647,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:34Z",
-      "updated_at": "2026-09-15T05:45:34Z"
+      "fetched_at": "2026-09-16T05:36:09Z",
+      "updated_at": "2026-09-16T05:36:09Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holding Accessori",
+      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holder Accessori",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 47.22,
       "original_price": 98.38,
@@ -125,8 +125,8 @@
       "sales_volume": 24,
       "score": 0.2589,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:35Z",
-      "updated_at": "2026-09-15T05:45:35Z"
+      "fetched_at": "2026-09-16T05:36:09Z",
+      "updated_at": "2026-09-16T05:36:09Z"
     },
     {
       "product_id": "1005009017398891",
@@ -143,8 +143,8 @@
       "sales_volume": 223,
       "score": 0.2582,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:35Z",
-      "updated_at": "2026-09-15T05:45:35Z"
+      "fetched_at": "2026-09-16T05:36:09Z",
+      "updated_at": "2026-09-16T05:36:09Z"
     },
     {
       "product_id": "1005006649437913",
@@ -161,8 +161,8 @@
       "sales_volume": 3,
       "score": 0.2564,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:36Z",
-      "updated_at": "2026-09-15T05:45:36Z"
+      "fetched_at": "2026-09-16T05:36:10Z",
+      "updated_at": "2026-09-16T05:36:10Z"
     },
     {
       "product_id": "1005012219557684",
@@ -179,12 +179,12 @@
       "sales_volume": 69,
       "score": 0.2544,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:36Z",
-      "updated_at": "2026-09-15T05:45:36Z"
+      "fetched_at": "2026-09-16T05:36:11Z",
+      "updated_at": "2026-09-16T05:36:11Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "High-Capacity 400W Portable Power Station 192Wh LiFePO4 Batteria AC 220V Solar Generator Fast Charge Power Bank per il campeggio",
+      "title": "High-Capacity 400W Portable Power Station 192Wh LiFePO4 batteria AC 220V Solar Generator Fast Charge Power Bank per il campeggio",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
       "price": 137.05,
       "original_price": 274.1,
@@ -197,12 +197,12 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:36Z",
-      "updated_at": "2026-09-15T05:45:36Z"
+      "fetched_at": "2026-09-16T05:36:11Z",
+      "updated_at": "2026-09-16T05:36:11Z"
     },
     {
       "product_id": "1005012975212799",
-      "title": "Nohon 5000/10000mAh per la maniglia della batteria di Insta360 Luna Ultra 22.5W Tipo-C Carica veloce con treppiede per la maniglia della batteria di Insta",
+      "title": "Nohon 5000/10000mAh per la maniglia della batteria di Insta360 Luna Ultra 22,5W Tipo-C Carica veloce con treppiede per la maniglia della batteria di Insta",
       "slug": "nohon-500010000mah-for-insta360-luna-ultra-battery-handle-22",
       "price": 32.73,
       "original_price": 61.89,
@@ -215,8 +215,8 @@
       "sales_volume": 24,
       "score": 0.2239,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:37Z",
-      "updated_at": "2026-09-15T05:45:37Z"
+      "fetched_at": "2026-09-16T05:36:11Z",
+      "updated_at": "2026-09-16T05:36:11Z"
     },
     {
       "product_id": "1005006779664431",
@@ -233,8 +233,8 @@
       "sales_volume": 12,
       "score": 0.2214,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:37Z",
-      "updated_at": "2026-09-15T05:45:37Z"
+      "fetched_at": "2026-09-16T05:36:12Z",
+      "updated_at": "2026-09-16T05:36:12Z"
     },
     {
       "product_id": "1005007065066717",
@@ -251,8 +251,8 @@
       "sales_volume": 83,
       "score": 0.218,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:38Z",
-      "updated_at": "2026-09-15T05:45:38Z"
+      "fetched_at": "2026-09-16T05:36:13Z",
+      "updated_at": "2026-09-16T05:36:13Z"
     },
     {
       "product_id": "1005009896941801",
@@ -269,12 +269,12 @@
       "sales_volume": 0,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:38Z",
-      "updated_at": "2026-09-15T05:45:38Z"
+      "fetched_at": "2026-09-16T05:36:13Z",
+      "updated_at": "2026-09-16T05:36:13Z"
     },
     {
       "product_id": "1005011532019654",
-      "title": "Per pad di ricarica wireless XPENG G7, pad tazza di silicone di controllo centrale",
+      "title": "Per pad di ricarica wireless XPENG G7, pad tazza in silicone di controllo centrale",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
       "price": 10.99,
       "original_price": 39.27,
@@ -287,8 +287,8 @@
       "sales_volume": 0,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:38Z",
-      "updated_at": "2026-09-15T05:45:38Z"
+      "fetched_at": "2026-09-16T05:36:13Z",
+      "updated_at": "2026-09-16T05:36:13Z"
     },
     {
       "product_id": "1005010512141911",
@@ -305,12 +305,12 @@
       "sales_volume": 7,
       "score": 0.2091,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:39Z",
-      "updated_at": "2026-09-15T05:45:39Z"
+      "fetched_at": "2026-09-16T05:36:14Z",
+      "updated_at": "2026-09-16T05:36:14Z"
     },
     {
       "product_id": "33007923484",
-      "title": "Borsa per diffusore di stoccaggio della custodia della scatola di trasporto portatile resistente EVA per accessori Bluetooth del diffusore di Stockwell di MARSHALL",
+      "title": "Borsa per diffusore di stoccaggio della custodia della scatola di trasporto portatile resistente EVA per accessori di altoparlante Bluetooth di Stockwell MARSHALL",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 10.51,
       "original_price": 16.42,
@@ -323,8 +323,8 @@
       "sales_volume": 18,
       "score": 0.2052,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:39Z",
-      "updated_at": "2026-09-15T05:45:39Z"
+      "fetched_at": "2026-09-16T05:36:15Z",
+      "updated_at": "2026-09-16T05:36:15Z"
     },
     {
       "product_id": "1005012745139264",
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.1916,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:40Z",
-      "updated_at": "2026-09-15T05:45:40Z"
+      "fetched_at": "2026-09-16T05:36:15Z",
+      "updated_at": "2026-09-16T05:36:15Z"
     },
     {
       "product_id": "1005012327079554",
@@ -359,8 +359,8 @@
       "sales_volume": 48,
       "score": 0.1868,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:40Z",
-      "updated_at": "2026-09-15T05:45:40Z"
+      "fetched_at": "2026-09-16T05:36:16Z",
+      "updated_at": "2026-09-16T05:36:16Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-09-15T05:45:40Z",
+  "updated_at": "2026-09-16T05:36:16Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -17,12 +17,12 @@
       "sales_volume": 22,
       "score": 0.3216,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:31Z",
-      "updated_at": "2026-09-15T05:45:31Z"
+      "fetched_at": "2026-09-16T05:36:06Z",
+      "updated_at": "2026-09-16T05:36:06Z"
     },
     {
       "product_id": "1005009199894572",
-      "title": "KUTOU 4 paires d'oreilles en silicone liquide Conseils pour les aéropodes Pro 1 2 tampon de réduction du bruit Bouchons d'oreille en boîte livré avec stylo de nettoyage",
+      "title": "KUTOU 4 paires d'oreilles en silicone liquide Conseils pour les aéropodes Pro 1 2 tampon de réduction du bruit Bouchons d'oreilles en boîte Livré avec stylo de nettoyage",
       "slug": "kutou-4-pairs-liquid-silicone-ear-tips-for-airpods-pro-1-2-n",
       "price": 4.51,
       "original_price": 5.02,
@@ -35,12 +35,12 @@
       "sales_volume": 1469,
       "score": 0.3009,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:32Z",
-      "updated_at": "2026-09-15T05:45:32Z"
+      "fetched_at": "2026-09-16T05:36:07Z",
+      "updated_at": "2026-09-16T05:36:07Z"
     },
     {
       "product_id": "1005013005890661",
-      "title": "Tapis de protection pour téléphone antidérapant antidérapant en silicone pour Tesla Modèle Y Standard RWD 2026",
+      "title": "Tapis de protection pour téléphone antidérapant antidérapant sans fil pour le modèle Tesla Y Standard RWD 2026",
       "slug": "silicone-nonslip-antidirt-phone-protective-mat-central-contr",
       "price": 7.66,
       "original_price": 21.29,
@@ -53,12 +53,12 @@
       "sales_volume": 4,
       "score": 0.2925,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:32Z",
-      "updated_at": "2026-09-15T05:45:32Z"
+      "fetched_at": "2026-09-16T05:36:07Z",
+      "updated_at": "2026-09-16T05:36:07Z"
     },
     {
       "product_id": "1005009369207724",
-      "title": "Pocket Power Bank Portable Fast Charge Type C Batterie externe pour iPhone Watch Samsung Xiaomi avec câble Quick Charge Powerbank",
+      "title": "Pocket Power Bank Portable Fast Charge Type C Batterie externe pour iPhone Watch Samsung Xiaomi avec câble charge rapide Powerbank",
       "slug": "pocket-power-bank-portable-fast-charge-type-c-external-batte",
       "price": 16.13,
       "original_price": 40.31,
@@ -71,8 +71,8 @@
       "sales_volume": 21,
       "score": 0.2825,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:33Z",
-      "updated_at": "2026-09-15T05:45:33Z"
+      "fetched_at": "2026-09-16T05:36:08Z",
+      "updated_at": "2026-09-16T05:36:08Z"
     },
     {
       "product_id": "1005012272048246",
@@ -89,8 +89,8 @@
       "sales_volume": 10,
       "score": 0.2662,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:34Z",
-      "updated_at": "2026-09-15T05:45:34Z"
+      "fetched_at": "2026-09-16T05:36:08Z",
+      "updated_at": "2026-09-16T05:36:08Z"
     },
     {
       "product_id": "1005011812151458",
@@ -107,12 +107,12 @@
       "sales_volume": 91,
       "score": 0.2647,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:34Z",
-      "updated_at": "2026-09-15T05:45:34Z"
+      "fetched_at": "2026-09-16T05:36:09Z",
+      "updated_at": "2026-09-16T05:36:09Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de charge pour téléphone portable",
+      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de téléphone mobile Accessoires",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 47.22,
       "original_price": 98.38,
@@ -125,12 +125,12 @@
       "sales_volume": 24,
       "score": 0.2589,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:35Z",
-      "updated_at": "2026-09-15T05:45:35Z"
+      "fetched_at": "2026-09-16T05:36:09Z",
+      "updated_at": "2026-09-16T05:36:09Z"
     },
     {
       "product_id": "1005009017398891",
-      "title": "10000mAh Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil 20W pour iPhone Samsung",
+      "title": "10000mAh Slim Mini Banque d'alimentation pour MagSafe, Support de chargeur rapide sans fil magnétique 20W Batterie externe portable pour iPhone Samsung",
       "slug": "10000mah-slim-mini-power-bank-for-magsafemagnetic-wireless-f",
       "price": 17.55,
       "original_price": 33.12,
@@ -143,8 +143,8 @@
       "sales_volume": 223,
       "score": 0.2582,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:35Z",
-      "updated_at": "2026-09-15T05:45:35Z"
+      "fetched_at": "2026-09-16T05:36:09Z",
+      "updated_at": "2026-09-16T05:36:09Z"
     },
     {
       "product_id": "1005006649437913",
@@ -161,8 +161,8 @@
       "sales_volume": 3,
       "score": 0.2564,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:36Z",
-      "updated_at": "2026-09-15T05:45:36Z"
+      "fetched_at": "2026-09-16T05:36:10Z",
+      "updated_at": "2026-09-16T05:36:10Z"
     },
     {
       "product_id": "1005012219557684",
@@ -179,12 +179,12 @@
       "sales_volume": 69,
       "score": 0.2544,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:36Z",
-      "updated_at": "2026-09-15T05:45:36Z"
+      "fetched_at": "2026-09-16T05:36:11Z",
+      "updated_at": "2026-09-16T05:36:11Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "Centrale portable haute capacité 400W 192Wh Batterie LiFePO4 Générateur solaire AC 220V Banque de puissance à charge rapide pour le camping",
+      "title": "Centrale électrique portable haute capacité 400W 192Wh LiFePO4 batterie AC 220V générateur solaire rapide banque de puissance pour le camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
       "price": 137.05,
       "original_price": 274.1,
@@ -197,12 +197,12 @@
       "sales_volume": 10,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:36Z",
-      "updated_at": "2026-09-15T05:45:36Z"
+      "fetched_at": "2026-09-16T05:36:11Z",
+      "updated_at": "2026-09-16T05:36:11Z"
     },
     {
       "product_id": "1005012975212799",
-      "title": "Nohon 5000/10000mAh pour la poignée de batterie Insta360 Luna Ultra 22.5W Type-C Charge rapide avec trépied pour la poignée de batterie Insta",
+      "title": "Nohon 5000/10000mAh pour la poignée de batterie Insta360 Luna Ultra 22.5W Type-C charge rapide avec trépied pour la poignée de batterie Insta",
       "slug": "nohon-500010000mah-for-insta360-luna-ultra-battery-handle-22",
       "price": 32.73,
       "original_price": 61.89,
@@ -215,8 +215,8 @@
       "sales_volume": 24,
       "score": 0.2239,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:37Z",
-      "updated_at": "2026-09-15T05:45:37Z"
+      "fetched_at": "2026-09-16T05:36:11Z",
+      "updated_at": "2026-09-16T05:36:11Z"
     },
     {
       "product_id": "1005006779664431",
@@ -233,8 +233,8 @@
       "sales_volume": 12,
       "score": 0.2214,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:37Z",
-      "updated_at": "2026-09-15T05:45:37Z"
+      "fetched_at": "2026-09-16T05:36:12Z",
+      "updated_at": "2026-09-16T05:36:12Z"
     },
     {
       "product_id": "1005007065066717",
@@ -251,8 +251,8 @@
       "sales_volume": 83,
       "score": 0.218,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:38Z",
-      "updated_at": "2026-09-15T05:45:38Z"
+      "fetched_at": "2026-09-16T05:36:13Z",
+      "updated_at": "2026-09-16T05:36:13Z"
     },
     {
       "product_id": "1005009896941801",
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:38Z",
-      "updated_at": "2026-09-15T05:45:38Z"
+      "fetched_at": "2026-09-16T05:36:13Z",
+      "updated_at": "2026-09-16T05:36:13Z"
     },
     {
       "product_id": "1005011532019654",
@@ -287,8 +287,8 @@
       "sales_volume": 0,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:38Z",
-      "updated_at": "2026-09-15T05:45:38Z"
+      "fetched_at": "2026-09-16T05:36:13Z",
+      "updated_at": "2026-09-16T05:36:13Z"
     },
     {
       "product_id": "1005010512141911",
@@ -305,12 +305,12 @@
       "sales_volume": 7,
       "score": 0.2091,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:39Z",
-      "updated_at": "2026-09-15T05:45:39Z"
+      "fetched_at": "2026-09-16T05:36:14Z",
+      "updated_at": "2026-09-16T05:36:14Z"
     },
     {
       "product_id": "33007923484",
-      "title": "Boîte de transport de protection EVA dur Portable Housse de rangement Haut-Parleur Sac pour MARSHALL Stockwell Bluetooth Haut-Parleur Accessoires",
+      "title": "EVA Coffret de rangement de protection portable rigide Sac de rangement pour haut-parleur MARSHALL Stockwell Bluetooth haut-parleur",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 10.51,
       "original_price": 16.42,
@@ -323,8 +323,8 @@
       "sales_volume": 18,
       "score": 0.2052,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:39Z",
-      "updated_at": "2026-09-15T05:45:39Z"
+      "fetched_at": "2026-09-16T05:36:15Z",
+      "updated_at": "2026-09-16T05:36:15Z"
     },
     {
       "product_id": "1005012745139264",
@@ -341,8 +341,8 @@
       "sales_volume": 5,
       "score": 0.1916,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:40Z",
-      "updated_at": "2026-09-15T05:45:40Z"
+      "fetched_at": "2026-09-16T05:36:15Z",
+      "updated_at": "2026-09-16T05:36:15Z"
     },
     {
       "product_id": "1005012327079554",
@@ -359,8 +359,8 @@
       "sales_volume": 48,
       "score": 0.1868,
       "price_history": [],
-      "fetched_at": "2026-09-15T05:45:40Z",
-      "updated_at": "2026-09-15T05:45:40Z"
+      "fetched_at": "2026-09-16T05:36:16Z",
+      "updated_at": "2026-09-16T05:36:16Z"
     }
   ]
 }
