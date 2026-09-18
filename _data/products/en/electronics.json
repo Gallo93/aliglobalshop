@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-09-18T15:58:54Z",
+  "updated_at": "2026-09-18T20:32:55Z",
   "products": [
     {
       "product_id": "4001142960865",
@@ -18,7 +18,7 @@
       "score": 0.3216,
       "price_history": [],
       "fetched_at": "2026-09-18T05:30:57Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005012272048246",
@@ -36,7 +36,7 @@
       "score": 0.2662,
       "price_history": [],
       "fetched_at": "2026-09-18T05:30:57Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005010253348075",
@@ -54,7 +54,7 @@
       "score": 0.2589,
       "price_history": [],
       "fetched_at": "2026-09-18T05:30:58Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005009017398891",
@@ -72,7 +72,7 @@
       "score": 0.2574,
       "price_history": [],
       "fetched_at": "2026-09-18T05:30:58Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005008505975865",
@@ -90,14 +90,14 @@
       "score": 0.2562,
       "price_history": [],
       "fetched_at": "2026-09-18T05:30:59Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005012219557684",
       "title": "Mini Metal Capsule 10000mAh Power Bank Foldable Direct Plug Fast Charging Portable Mobile Power Supply For IPhone Android",
       "slug": "mini-metal-capsule-10000mah-power-bank-foldable-direct-plug-",
-      "price": "22.63",
-      "original_price": "45.27",
+      "price": "23.27",
+      "original_price": "46.54",
       "discount_pct": 50,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kP0lZYPTi16K2JpYGDKYFtS53uBL0XeC4idFUiG7A4IS58l6TkcTc0WubYITSOjaRPFxDJtXdOWcV1iPmvoMbXtpOk7Qvrf6h5IK3jWSBq3n21G4WJXooqLkwEfGRcOKV35xcFQp5DPPWppIlf0KZ02HLtgRwVoVr6rS159K9FydtnhByxDFILmfwtzpvxd3rblIhUieHSJ6lmrHde9ZLayveY2EkQoZcivVYoUteyr5JqUUjDLOomrLLxl6sHI3844Jx8OzcopHTckzxQELkicp81dVonIQmnMxnspN9VA2LLlYVIFtxHPgMyzyzGy99yCPI8bvg2PHFWk5046rlEGdNTW8cdMV0hsZTrAjCqIy2zzfkXUD485TrpiUpF54la9lkHZ7cYXtpCfB8gZ400fXTjmAOJCQ84Esx6KfMM5jUA9AyrfdU9WEhtHadH2QH9TWee6jgEkKRvS5yzuJ1ajAfPDbFl8etq4RbXqD7I4I4R23xPhYkFTg4PBpOEsqxmyjp4KIYo4BVgnpuUvOmkoOhR4BhKatXK9M47apK7tvM7ngxWBlK7P1nutwDxpS37AY57XMlfmQ9rRoO3wZeVbvZI7RIm7H5FkQVryz8BICyETPTSRyr7fLUqC61JJBrDhvDAMBmpRQvsyvV5YgNukL9lRAmBDlODtocCkMD7tF9YkayRis36TAK75a3scCDl4gBm1GORmRK",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789364680/products/1005012219557684.webp",
@@ -108,7 +108,7 @@
       "score": 0.2554,
       "price_history": [],
       "fetched_at": "2026-09-18T05:30:59Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005012259681107",
@@ -126,7 +126,7 @@
       "score": 0.2459,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:00Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005008494630844",
@@ -144,14 +144,14 @@
       "score": 0.2454,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:01Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005012975212799",
       "title": "Nohon 5000/10000mAh for Insta360 Luna Ultra Battery Handle 22.5W Type-C Fast Charging With Tripod for Insta Battery Handle",
       "slug": "nohon-500010000mah-for-insta360-luna-ultra-battery-handle-22",
-      "price": "34.65",
-      "original_price": "65.51",
+      "price": "35.65",
+      "original_price": "67.41",
       "discount_pct": 47,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ms6FtnLsbAqFD3uFH67w8cdETs0PCTdztZCU8VbqAsLBbDSdHXsnlfnIXgkEBaXNZ0vyoGbY4Vix9T3roL5eunDdU4gxfDqzyzYMVULQOLZT56j8Py6gsgmjn7WFGCbL4z9z6ZtU7scweikQcDTwJQcLh4DEofHs1lmK63sOQcyEYKDq9n0yNjCTFtgPXxp4LfmyTLP6E5ZIL4awgLeZZhRvmHNDbqc5P7Ry9eyDLekN3ED7kQzZKMB9FraVNmjVB5dk4tMHultHj7YCYtCXNBalKadmEyV53zDuE9uXxeycB9z5qsELI7cxv3YC530GL1ZVvV1mNo1VOsMl9VuB35MfqZB5HT1XuN6fh353BFiu6ttX8tK8lbfFbA6Y34mO3uT50jRWQ5D6uODTVZVuyLF4jq0rwU89nw2kOlCMQNn1n8Jy5xrhULJvCQitqPpukq61snJBjWnSFa4b2rqv7zmYsIIK7VX1HyrYSxNmyPVX9lJ7I5ZSTLdtQK24RskzSu4yIUKoZJsPnn8oJzzIgk0MmWyTVENiQp7goWMOPTojYIAobIXXagWnZz88GP9iRIUaPjvPewRwSVnORCo2O5P4QDXE4t8EXuNzg5uBU0JxwygpnSTRhFBcbqE5shoNPqvZAVoohVqWzZjBRxscRHx9gUjTyAbZKb0SEJ6JGfYkGVn3fxbURhJeML3IzlyUT3tEtDhxtU9Fm",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789277874/products/1005012975212799.webp",
@@ -162,7 +162,7 @@
       "score": 0.2242,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:01Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005007065066717",
@@ -180,7 +180,7 @@
       "score": 0.2182,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:02Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005009896941801",
@@ -198,7 +198,7 @@
       "score": 0.216,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:02Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005011532019654",
@@ -216,7 +216,7 @@
       "score": 0.216,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:02Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005011532039236",
@@ -234,7 +234,7 @@
       "score": 0.216,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:03Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "33007923484",
@@ -252,7 +252,7 @@
       "score": 0.2052,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:03Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005008076066924",
@@ -270,7 +270,7 @@
       "score": 0.1906,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:04Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005012327079554",
@@ -288,7 +288,7 @@
       "score": 0.187,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:04Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005005632971536",
@@ -306,7 +306,7 @@
       "score": 0.1773,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:04Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005012307112361",
@@ -324,7 +324,7 @@
       "score": 0.177,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:05Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "4000996607768",
@@ -342,7 +342,7 @@
       "score": 0.1678,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:05Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     },
     {
       "product_id": "1005009750287611",
@@ -360,7 +360,7 @@
       "score": 0.1665,
       "price_history": [],
       "fetched_at": "2026-09-18T05:31:06Z",
-      "updated_at": "2026-09-18T15:58:54Z"
+      "updated_at": "2026-09-18T20:32:55Z"
     }
   ]
 }
