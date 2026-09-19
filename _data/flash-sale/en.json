@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-09-19T03:51:40Z",
-  "expires_at": "2026-09-19T04:51:35Z",
+  "updated_at": "2026-09-19T08:38:06Z",
+  "expires_at": "2026-09-19T09:38:02Z",
   "products": [
+    {
+      "product_id": "1005012967648410",
+      "title": "ECG High-end Health Smart Watch Men Body Analysis Blood Pressure Lipids Bloodoxygen Uric Acid Health Tracker Smartwatch Men Lady",
+      "slug": "ecg-high-end-health-smart-watch-men-body-analysis-blood-pres",
+      "price": "53.35",
+      "original_price": "837.56",
+      "discount_pct": 93,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kLpSRkcoCARwuBEdmBjzpOIs7FyEe2xoODJlLC1ty0g9DHnxgS9XXU6HenWyYXQsVV1Xs4HSjg6kgu5VxwtpgIIvHUu5HcdXvI8xYWPrJDJqQbrK9zu9Pq3XL74COQ81pdITULL20Mp80WrSzZdfkQMkCHZ9KM9EZOEyUCEUCJMUDfSx3xrFssP7CAGW692ZbNOAojAw5jH56ycd5an5IMDqYugoUVhQWtIduBPaTrxF5i8D3svMaeMtAlIKBzZ8zsCs5KNtRwXwcoHnYPiJWP2krV4HXhKhDTmcHjXzeH1Mv8zdGkMUA7I1A2eCnMZJ4vXdOi6dIBmmio1wVqRPDBpbX14eGISpp3Fau7AwlzE8xoaDSVmsNrlq3jBhTw2q4eSAFOZbIfXtd6WSzGIU3XOreUCN1zYZB7p1WaKmS2S9twM9NyTyluHBvCCbGBS2HBvCww61XDRgzytFZ5ENviD2nVaxEsKcraMOqZQ2wD6KhDgsgOI3W6p8nyaZ1nbS3ypnCl76CsPDFTAav44q4xY06VdBBvfKOtT9tnlRPs5xoI0WjlBjOv2AywRthIBuvhy9bHbtSfAheMC5XBB4ajdnzRmZOpQZ9mERXQJJqmehGkGDf6Su3Q3f1ojDGcLjU49Df4rux5M611zNIuOFypfoDhNb03SW2TE2PHGS4yN1UjSkpxEOzMoHHnT98o8aq81AS3wE176kG",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789290631/flash-sale/1005012967648410.webp",
+      "rating": 5.0,
+      "reviews_count": 6,
+      "expires_at": "2026-09-19T09:38:02Z"
+    },
     {
       "product_id": "1005012641739943",
       "title": "2026 New Screenless Fitness Tracker Health Smart Band ECG+PPG Uric Acid Blood Oxygen Body analysis Smart Bracelet For Men Women",
@@ -9,37 +22,24 @@
       "price": "58.87",
       "original_price": "735.81",
       "discount_pct": 92,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FCuIRDtYpFrUwNZinOjhUaqiyVFJXndlbLDPxMTMHZZ9Va9HzWqw2BMJYEuYTxFdM6IMW71it7ZcFPI4rEbvbUaNe5l3ZclINmdNBtbsNUNNtFLCyXV2kcrAtydZMDgJYv3SQZcXJ0YEuKF2S0um562qbFfu6BBw66v7oeK48Aqthu22pVkvNhFcCF2uKlpLGg3fDvZAPIl8xwuStpKwnUljEjBMLQlQt43V9gJkfO7f1W5sUHTZ4T60hpP2mpAtZOiWwmVkcbtWs4VEpT8nRSpJoNJK4dylZl2r2PvNJsJqTGhi0kcTwqP6aKVBpeEtz2c4dH0YgNTrG0YrbumZxeeQNs4zqqQuXMxq28K9T71DUyMVM5CRx96ZrDFKEiSKV75amfiHsUkVucnb2uhpB8nhPkGIb6LRFztpFvohQ6gpD0TAU3mF8zCFCqnkxmmEJqYADsXOtjGQw3bNYBajyrn1PrJWIurOw9qoCOKh5MArGyQgTNr0HTviXVwi723aXDsgdxa82GiZFIB21GFCmbeJcELqFFUwlOqPUcHF82GEtzGez9W13nXsol8iouVLz00Wt5rdo61T5L8lxy4U7oShgAMojo77KJ0nmNMfqa9XPkuqioMnsK7qrcanV0pLOTflJQAU6sUzEEujnJvNrXc3KCcoxLdB0vV0uIC6hoRPD0R4Xme5d6XqKA7KmyhM3by8BUaIc4yBw",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FCuIRDtYpFrUwNZinOjhUaqiyVFJXndlbLDPxMTMHZZ9Va9HzWqw2BMJYEuYTxFdM6IMW71it7ZcFPI4rEbvbUaNe5l3ZclINmdNBtbsNUNNtFLCyXV2kcrAtydZMDgJYv3SQZcXJ0YEuKF2S0um562qbFfu6BBw66v7oeK48Aqthu22pVkvNhFcCF2uKlpLGg3fDvZAPIl8xwuStpKwnUljEjBMLQlQt43V9gJkfO7f1W5sUHTZ4T60hpP2mpAtZOgCG57t2f6Q7x3M3B9RVBL3HpFJqEI3vLTfhbxj5B2TVZlcwtGDyBZZPfmIsH9wF4H8ZnuVpbmIJhmx5Jt89gQkZpz7kl8YotDdKEEdAEHn5soyD1iqwdv003kUodvkmOvA3i8xd0v8Se1S5odBxqohwZZeGWZqJ2MSwomxrK2ahawQoibiGqf1tOyemFPc0kJWOWjQRlJsOj1MDcOXeqTFzFRCHtKjfaFtrKMU2IORWzHkAN2ucbv7KlBsQRqatlXoZAN5HFz9rHJLyjLaxOfThWcxCLlbSXAwmlR7MLkvUW8IqMwE2Fnc5qAmTSbx5upPVrDVJtab9LfqHbsIYPGCmSaG9LzNlNWAT59MTlqUHQbpDgYKZWTRKQ3L8zHeSdqwk9xMrQ69O5GwcxuSzHKJw29a6UyjJbjPWhTQCqJLS9W3dre8rL3KuhWZJeicKdyTxBk7fBdA8",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789322245/flash-sale/1005012641739943.webp",
       "rating": 5.0,
       "reviews_count": 47,
-      "expires_at": "2026-09-19T04:51:35Z"
+      "expires_at": "2026-09-19T09:38:02Z"
     },
     {
-      "product_id": "1005012825121514",
-      "title": "For TINYL LOOP 3-Inch Vinyl Record Player, Portable Bluetooth Turntable Speaker with 2000mAh Battery",
-      "slug": "for-tinyl-loop-3-inch-vinyl-record-player-portable-bluetooth",
-      "price": "138.09",
-      "original_price": "300.20",
-      "discount_pct": 54,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EGv5MLUiYmqKjDYqXID5b5NyzPajGu9QMSaNgZkvuu1d869ags8irWK5b9643vlf0huC5fWDCwns4AMvzhcQy8mbd6pYe0BXYfK0DU4suXZj1IyBi1ado5e7v7Fcy48aYRlzMy53B5c20bNf0VMRekrIbUu3MrBtUaMYU8icWuQyLQf2bgYCvbJtHecJ01yfVTTKVfHPNv1cLjyYtP9zHx2DgpQtDWHbmn5aRufm2zRDviZi8GzHlLitPydwMD3ErRFgLzooTVY66lOvuRzD44iHtEgJQINO5OClczx8LutISCmShfwroxr9sYpQ8WlwRQODLJqmm21iFXa7EKcAju7LNbLqNInHIodydztKMPmjoj57qR7CfuculvXEEamcLvB17FBwDpe47hb0krvDwHhweQa4mBmu1rLb3fbEtY7qvnQb1rgCmEVyHMPWgdA27xFtIO9whGCvUAvMtMbF9SwI4hjowVimLr08W7xFQ9w6qX9VkaT6x3OqbxZQucoj80B0UXx66BQ0T8xMjyjN0RYooh6jnbo4pbOs4T5N6q4ZKYd8iCgMWR0aHt6BdZRg79yCMBFIEphPvb3cP6WESGYuXdvdlsH6q8zzWQcD1sf3dOeDWQgNVG3oQTXHM9Td2i2CD5Kzq3nKZCV3cOP8BiUuBDF6ohqx0YHcqaBSitc3skwqjS8O80xth3q4XvbRQkWOyQv85Z8Ex",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789572231/flash-sale/1005012825121514.webp",
-      "rating": 0.0,
-      "reviews_count": 0,
-      "expires_at": "2026-09-19T04:51:35Z"
-    },
-    {
-      "product_id": "1005006649437913",
-      "title": "Melkco Genuine Leather For AirPods Pro Case Bluetooth Earphone Case for Apple AirPods 3 2 Accessories Lychee Pattern Natural Cow",
-      "slug": "melkco-genuine-leather-for-airpods-pro-case-bluetooth-earpho",
-      "price": "19.74",
-      "original_price": "41.12",
-      "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EAFnsLaoECR4mLEx3kuiAYU7UbFITsQqC6jHj01dXyzZJWURAE0ln3dwU0KPsLYKgBXpLP0RDzD2GcPSlroazIXudlpNUke25gTN5rT6bFuMBxqfv6OS44zZQYWyNENPlWDfbW8hC2ioaLzSdM5B3GVeVlXDgM0TWIbu008ykXXtlvRFOmFrJFIP1zeLQt4OiikqmTfjT0WZ8akWQCDLWWqz89oMUJpuRgw1INnZh1oevvYLSSSwDj5FG0QxV6FZP9QOi6WlWzdpxel352gLmNjMq3vpichfRSvpvoqOh1cI4CrxEzZH339GS8FWmLyPAGSrvHxw4SdraC4UQCBHmpjUHb1B25J7d3uFYh9MZ26Y9gE2Qcsx8yRYy5OFgRVZecJ93u6flE8BR0tTCg2TtQ54mgl7fUyk8rs8Cmgrxmve2VCmllMQOEkJlt5q4FzdSwwcJMUSDPGYeyyYb9xogd0Kvb1VgqFUfwlIUruGJKFyrSvAim19z1vFaXi4TgGzuP2oEC0wJCkb1He7HTLkARFpd9km9YzGvEsLTmAsLaNtL5z5CDPIuwfT1dy9tlBs0oOQStijcxmvhfaWqE1hWTSbY86KW29sn6vqxV15UwMvaIr0qZ6W3qkFwKS3pnKYG6UNiDeatEcFLr21fs0E8JQNNq8DmhfwLFZhAcelPSlxNNPYgZq1QF49wv448UgMgOfSKJEpYe7lw",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789290634/flash-sale/1005006649437913.webp",
-      "rating": 5.0,
-      "reviews_count": 3,
-      "expires_at": "2026-09-19T04:51:35Z"
+      "product_id": "1005008264604373",
+      "title": "North Edge T-Rex Ultra GPS Smart Watch 5 ATM Waterproof Built-in Dual-band GNSS Compass Military Sport Smartwatch Men 2026 New",
+      "slug": "north-edge-t-rex-ultra-gps-smart-watch-5-atm-waterproof-buil",
+      "price": "35.36",
+      "original_price": "121.93",
+      "discount_pct": 71,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4otzrRxZiu9Yp2D39qXiUuBEeS8SXLIpZZq7QwZfWACS6VTzQtw6rTJJbA5j69YNFV1QNwIKz3p5etW6tBaJCMea6e9WQ3AcTe3lB03y35ObE8VHWg99FORTF7CPtfv7Bh1ogZKkVg67mj73K1QAz8d2PTlQAIdXB9TQSCE0knSsmpwS5BuPdqOdp6kURYMHBhWRx9YFKPHEWVfUZFfaCHhAsmDTBqwHrJGUx11SXcD2e1BUTfz32vUuTxVNUXat0IFRJgYwsgol5GVt8dh8NHyCybXl3GeeMaseeT759thorrguFj5mIgK3oWFdIAs6EtcKxvi12oeReWBWtDt9URkrTUnFvLUbvnu5yUv5Sc5KABTyfgyifvSFos40JpiuVdM8vgBfB7EhIIp6bODt7D5FfWfEOpm6evyWJI1b6yYnxhSpda3Z7AVO3oqXk6nBTzhTcJKoua0eLi4siu7vn5aRavO50o1NRx0P2CuQfgfWALu1UAVMo6H9eHzrP1b8WME7YcMTP0gJR4JzkQdrk5eY09atDoglUWqfofv0Ejei1xC1i40EXijO5J0O0BbViD6ceX0IYcQkIq4PeVF39N5d8dcnQ13L4GelJUUJ75k5fLUPuZDygtgwOYPgdG0nBDqnpqDXgPsOsHqFu9YBdPq69VVfz22mC65kh8HoqxRa8Gdb8f36srl0iBPxbqt4ZbNqle9ePePsK3",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789290632/flash-sale/1005008264604373.webp",
+      "rating": 4.2,
+      "reviews_count": 8,
+      "expires_at": "2026-09-19T09:38:02Z"
     },
     {
       "product_id": "1005009896941801",
@@ -48,11 +48,11 @@
       "price": "27.94",
       "original_price": "58.21",
       "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXIMl6MtBbvwsJTDGdznp9wEjW2XKaxCsoRIhsO6LwjNVcxGjPswntzYoQaRveKF5MDQUkL2wJYJnag9wpgHt5PvQpxnBDNjQRdAI5spJqq4m8DmnoOIA2goDM3s1BTZyZlHvhU7CKkkWuCBlF37TnUDtwW8SjucOFEgM3UusugAjQG47SEcVxDWbPXGdqd9vWYCgzDUuhHxubEbqBY5iBnjSaOkIwPzF5Ki6USxMALmKVziy4OdvDiIpCHUoux2qooCG2bW7gHZcWIohbG8qH507ZIy7W5iT3MIyspOR9j6dQUjo51QAfhQLnc2Hyw5ZtgGFQQ8kRDavGzulNqlgkW3cq1Ejuu9YNjyfB3EhsQ2UIGUVSMZp5T3ZNTrsko29UghnuZLnI4sZsMHZFLaqHW9iHIjwqJhmIYtVuADMRtgPbyc9rWhGuDYzbSGQGRNw0QEzoxh0JR29qZL4uasiD7nKt6lQFRaiTjoLIkrHPxCERmR5AHWME7yAW6vtMIGPoMOZCGDPLIVhbbeoy6i7vVjBMFOkg9V1cGiHHvPBrwptziwaGFZnPbTPVhiqD6ee4VevMR0FyLUerNK8LSwl1lYZuyNR9acQiXrs4CB6UsuphPepj8Wpgz6Plv4J4xPfI2Wa25pbHv3m9EZqdduYm9rFLd85tZx21Lk5MelEMw96RBwSNx0FCZUizT5Afo8H5JEKURsKQ9tE",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXIMl6MtBbvwsJTDGdznp9wEjW2XKaxCsoRIhsO6LwjNVcxGjPswntzYoQaRveKF5MDQUkL2wJYJnag9wpgHt5PvQpxnBDNjQRdAI5spJqq4m8DmnoOIA2goDM3s1BTZyZlHvhU7CKkkWuCBlF37TnUDtwW8SjucOFEgM3UusugAjQG47SEcVxDWbPXGdqd9vWYCgzDUuhHxubEbqBY5iBnjSaOkIwPzF5Ki6USxMALmKVziy4OdvDiIpCHUoux2qoodNtAyX22pIrC2K9SkaQZHxd0CngdZ08MDjS9RHuQTlOIHJI9KnNXBrcZfVj2KpoITluJcsTou635B228kV4kTMribc1ZNnMIawzf9UdCIqHIQ6jvLMN2VNN3XJZHzhs5J7jOZt3uJxFTlk7a1Io5cOEmmMw1N4Hu2daPSbzHRuBZBuFl1HF6zazXAfvSDNeZEUpUk5vVs0XpynBwTEvbWFsv8iutnnYS5Y7o3k5mITpRZdg3NgwJpglr32eAlED8xZ50SxudswnZgnptDUyTIIqbOr5zuKpJnVo4fmUYxa9urOBvtYmbK5CYDwwCSzaaPLIbWw6dffSoJCzoZE1s4dBoYqqmjjgUxIWRo1jo2q2f5to9uSkUauNWN4rhalYmERifQhnyYF2lW6WV66SYf1csxPZw3e4YIfm7FbJF7kC4IlXHjurkaAuopAA3rbaixnNbqUkR00",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784444430/flash-sale/1005009896941801.webp",
       "rating": 3.0,
       "reviews_count": 0,
-      "expires_at": "2026-09-19T04:51:35Z"
+      "expires_at": "2026-09-19T09:38:02Z"
     },
     {
       "product_id": "1005012339878698",
@@ -61,11 +61,11 @@
       "price": "47.51",
       "original_price": "98.97",
       "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FmsOqqY4LABgLnbhZfOj4qQDnYe023wZF6DbrZm40dhGadG6Crvti7PXXnYVjXgnyLhdvTT4ck0KhhaRP9zbCk9gK3aU03w3RPYBZXMNKGE9kMGLsM36Nzx608FQl8vuOa2xoC7JX6NlVtFyL7aePyUdNxDRGM5Ru5XDHECsOTjUqIuGfucA15bzFL3OV3uLYKKpgiftMgmuqd06fvUALaqJYyrMRdoH3yn1c1syo4dqhv7tNCw4zjOKUfDbge8w7NtCbYW4BPN420PVlhvbaz5G6c31XVD3fttMA8lqsCM5WJhkC33LZ59cnnpGVPcOlci3m1SOmqHE3x77bAfrkjPQRfLirKoTBZ8RDI7wq4z04xu6FcgVbaJxerGltQTJ12q2KT3HHmDkQnLCA2bfZoWNePeGk8sBkr4Oa9kDWW44iPZH3hIfHPWMKWizhCEeOD53D5fzk40RYS5ZITPxtrIbSwiL0dcsp5eUrQhYVLw02pS6faSYnWrp5BC0cRgerkQ248qxsh4LpuVfm4zYf8XE8oCQeenitOah3vnn9TwJUNX3ljKoeirGWsguyjuvTupaW5gVWHCu9Z0HqyP6unEeCUVEQ9MtRwEOr0lFhuPN5DagXJ2icCgyWD2n4y3i9ixhFKmoUQiEAVUSAwUzITexZUF7CaiZrql48Dtlfl8rU4ixUJcCjgZpzJ8LEg8bj1IZHjqYSZUsc",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FmsOqqY4LABgLnbhZfOj4qQDnYe023wZF6DbrZm40dhGadG6Crvti7PXXnYVjXgnyLhdvTT4ck0KhhaRP9zbCk9gK3aU03w3RPYBZXMNKGE9kMGLsM36Nzx608FQl8vuOa2xoC7JX6NlVtFyL7aePyUdNxDRGM5Ru5XDHECsOTjUqIuGfucA15bzFL3OV3uLYKKpgiftMgmuqd06fvUALaqJYyrMRdoH3yn1c1syo4dqhv7tNCw4zjOKUfDbge8w7NswyFOs5s4L52QhHrZnu4J2YKbfc3nS5ADMBj7B7zLPH8qvFYOPuhrmtAZPNfgRB2YkGsaejgwxATL1AnGDzzMW5wOMgxKMadFFHSgKkTOjnDsTaB3RSL8UZBzNEObmVd769ahLimwgSnrnDbCB29X8YAl7BYzCzQuSWVZVMERV6WKLs6veV2dm0eCkDXKGCd9KqzKm18CzSXUHzgJ5lG7Rpztld87m4t2QKwtVfKHEXvTbzF6DO5ruSLd1tgJ1f4eYxq16X1DUzgbqzLHVfy7cSiSJRIJ5jgkaitpgh6qrXoR7w1ga0brGnr5UjOufqfDIYEhVt1Nnd67bWmwkKl04RJmnOPDjUXb9u8G4S0JvHj3fP8yMENKffHD8ePXcU1AWJV9OxOBUOsdWacPlruhsJmz8H3cIzBwMahJZ6HCmyLcI626hvC8t86pLCrd7UZKy0h0QbancY",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788085110/flash-sale/1005012339878698.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-09-19T04:51:35Z"
+      "expires_at": "2026-09-19T09:38:02Z"
     },
     {
       "product_id": "1005012333523839",
@@ -74,11 +74,11 @@
       "price": "17.34",
       "original_price": "36.12",
       "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m7RPpPUS5lZ5TIBM9CEW5zndDMCz3zk9TTTIxvzXzpGTAOxMF4tjyeCBTPUXTQZXpMjJw7Sb0WR9YnnzkivwSiBjgkjYIpcOMgJMKuseang1gUDsc0gIc60qhwh1OsBGArLOP3Lzfu0k2PngaFmJBVELHHYNmDoCytPaqroFmsCbmhwomGAWkrwwrsHlyXhxH6UAJq1hGBRPSxwQgU9qvh7ZvxHo7sxvXbdlzJn0FcaFAuVU7JrSnCveldnSbrQrpjd9BsSxUWjPVFzh2VzlfJ7x2NnRaNlPN2g5QjgNJu1yKpGzgYUzj0yYBFoun2OY6lWISHYrncQ7T93SttytMovmlMBQd2nvahG57VLewmnTTjCPZJJGW6HqRrzDiDuTZzDVa4pJpD2ps2To3TMzRTjfs9a5aF8MJInZCX0b9xHmwFzDyueZNFWJJolzYSYWRufZakFTB9XLVUx3hsSx5pKYUh6y7NeL2v2wDlJDwKzfsEc3BaEFfjFocSc87PCQnzoV7BErizanGhQOlmb6qCk7eiSMn1hVCvwHRnU0vswBByhZtZ43wOeDdsu98JmWtCgJ8qGlWLauJqSNFBWC8Fx8jyhEQIJr6Q5ZLTYiMg7CnDMksWzlSIHAKzb8EuygM1VAHMRsXm3ItAZZJSjXnuew976sRxyAtntY1sS1Hdik8xHP4hrXm8O5ZH5uVP1VwwnCkm5BaI1M0",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m7RPpPUS5lZ5TIBM9CEW5zndDMCz3zk9TTTIxvzXzpGTAOxMF4tjyeCBTPUXTQZXpMjJw7Sb0WR9YnnzkivwSiBjgkjYIpcOMgJMKuseang1gUDsc0gIc60qhwh1OsBGArLOP3Lzfu0k2PngaFmJBVELHHYNmDoCytPaqroFmsCbmhwomGAWkrwwrsHlyXhxH6UAJq1hGBRPSxwQgU9qvh7ZvxHo7sxvXbdlzJn0FcaFAuVU7JrSnCveldnSbrQrpjDAZYUj67FCAHrALXUN5lNGMFIMRm1ABWOsoMPBD5ru2D5sqnfW1iq2riyYt0D8NjcgEtw4nWpxBB7x7P7sxVwWtZBZVNRZQmf6rIlNm1925xi9AoXwTxPu5t2iy9CT8ZvArNxq1ygzOauUmbQ0cgmD2qwExIbutqNaFwbTixc67S04kyORvtAelOTLT557oc2KxzKK5Kf2FpIElSams9SXdiOlqw9jARg9VmsZIM1B6wC0FVgPE2ukKJwe2TweEYLXcmXNto1eVaMfY78gpmR2GzjTGI57U1llKRWXEfIxixXzILOasECdyGEgIMhwvLXhp9IsNrAjvD7lWlj1gp8o7xEmbJL5Gca5U5ehUyBpzBFqAV8SdbhQEGM9p2jtNyQWpu8ox4tzZQsIQGfSjvllVvIoEkY5FCylATdOWIgOvvKI1HTKs6l2o7IGz7WEsUkZpMsdAu6wC",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789598488/flash-sale/1005012333523839.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-09-19T04:51:35Z"
+      "expires_at": "2026-09-19T09:38:02Z"
     },
     {
       "product_id": "1005012432428116",
@@ -87,11 +87,24 @@
       "price": "32.07",
       "original_price": "66.81",
       "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4o3YLcQfkDH0Aae71NCy3grXQLOsWyJH3y0kRljYYzOPTPe3ao3cqnz09fomyDcHWMXuEBTcndWX9kHJdoaCgeGsJxcecdQ2WnLIAxGZwV6C7YjMtP5NcCNaJaELU8BGJhWGqK7SIyYJ0bhiC4cKwzV3jIeeNLEhr9b111L4g34eodIRgU7e26i0OqFOBTceAeDDx69KsG49iAbejxDuNsxBg0R061nBBwk7S7hhqx8muegfam5zu7I0CKg6WwpPO5ytU1dCbaivIvcAIB3ofJvB7KnNIyoVnx5TWxwTwyhi7jW4Y3Eqf1Luwu8zlZXcEvfVkjLVpXwEmg9Psw51WkjI0GHLpKcgvhvKaWlBgXfHDOaYMsU9f4bkaBtLvqB12MBYrfKof0Yf4x96n1Y06PejGLvPkRG4BHWP2mYAjZCsLmtUj3ryjaPTCDqu85HPbO7X2cHYjIK1rwccT4rZ21PfJuhRiDEQM1yf0C9El8xlgySVR1C9oNf8w4grqz2MNYhYSiLV9EGK6udrrVnuDuKkMgrxCCKerYIAq03cZpkH16sc2JKFfbNoc3wY7wwqbwMoQbbPEOkc8EFxImWdy5skM3CHN9TsRGQlLuimMQ4My6F6qD10sdCgwTDnn8gtvzn3L9XvpBZSLY3L5xNf9pNaa5fQdBjsJDhlW4V0VZvfKNvUvMAYKymDUsZs5mq3vm045BX830BxJq",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4o3YLcQfkDH0Aae71NCy3grXQLOsWyJH3y0kRljYYzOPTPe3ao3cqnz09fomyDcHWMXuEBTcndWX9kHJdoaCgeGsJxcecdQ2WnLIAxGZwV6C7YjMtP5NcCNaJaELU8BGJhWGqK7SIyYJ0bhiC4cKwzV3jIeeNLEhr9b111L4g34eodIRgU7e26i0OqFOBTceAeDDx69KsG49iAbejxDuNsxBg0R061nBBwk7S7hhqx8muegfam5zu7I0CKg6WwpPO5yLOypi9QH8fjgTz1nHFyKOy964ZW78pHrrXYcrcdc86LC200ALaa3Hp0wTsb8jJVRkvia2g4qqDpwycp4De07SmTExDYX0X7XmnXmrAi4y9UFVSKFDbw9WipPGd1EFiLK9wq0ZJsIS3jwttDVKYSwm8vPKkS7kg247lwNffvym9uzZTvkWRdn0RP5vWvp6WrjwthqVQXZbMgReBhCXmfiZxBzzHwrSH8SnnIMs1DhSDdRdUhrIsJjufQGrpDQlbFaAP5JA2f8LFrLdT3R8yIYvKudzRmwHnqd1Fa3yY6DbLqPx8LgFJ5iY3rMPUjON3pJVD9Z1BtBrPuJK9WGAEkCYtgp6b7t9kUf1mXPrQ64WdiI9pegD9L9j4jS6u29b5QxhU5ZL8CgthKd1YQHzpd22tKfVBc1um1rp3LBSu4Ejdn6qp2oLCDuHdIZhhRk5N34RUwhVuPRzPm",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789516863/flash-sale/1005012432428116.webp",
       "rating": 0.0,
       "reviews_count": 0,
-      "expires_at": "2026-09-19T04:51:35Z"
+      "expires_at": "2026-09-19T09:38:02Z"
+    },
+    {
+      "product_id": "1005003816455175",
+      "title": "Fashion Magnetic Hematite Beads Bracelet Men Nature 4-20mm Reiki Healing Energy Stone Bracelets for Women Protect Health Jewelry",
+      "slug": "fashion-magnetic-hematite-beads-bracelet-men-nature-4-20mm-r",
+      "price": "2.68",
+      "original_price": "5.36",
+      "discount_pct": 50,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mYYdzR0eu12RqUIfNDW6Ruz05fDkM6pWBN02sMtN5Y167SXYkJN90aWRT3beI7jP5qkyyLVzs1rd58K4qQQCrHSdxfLFv4lnAxNvD93oEs1n1Sc61EVF2DesIhAEAizVojVPjLFyr8UzXcvggOIocW3hgaprgH9vp9ZFOiTNMsb7BhEF563LKvxekhduYyeNT2fyOAJNckGlIh1QetbDDJuu8N87aA4Fm7y3yjRXxiQz8PnvmWB7td9AU7n0Xsu5QJd8AEJg76UebzAIyZGggdr440NMaaqI2zbd1XqkVgoyFdt28JZ0ds2ihYDKgpzQoz84AuJMw3Qg8vvWvVHMjTWO7TaFXR3sQ91mO4GMopzOi1PrYeDWCDbzSMACWB0aGJr9xQdbym1SQoi2b4mh2KLCtOsuBsIXt8ZHL0uKtnTOLRzuhpyRRNdt7Zls9e3m0PoozVDehQXRJhao3bef9F1A94jAq3B89K6wwPCBbAWrSbt4mtETlKIfSgL64MEpeRO6qKYbSjrKtwhRYuYnE2Ik4MFAjVOO3aIkHjaLtnwO1AgrI8w3qXHLl70AQQedOsHq83D89eXF5zJrtbxZkzoyRabX5528a9wUwqrQB7LPxmb528YRmwEPBXAJxLzzMkGBNFGIIuQz0DlbP6KRjhSnt3iJL42AIstORp11jbR6NHSThZVcQI2zZ3eVXu2n7UzziXLWpB850",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788924867/flash-sale/1005003816455175.webp",
+      "rating": 4.4,
+      "reviews_count": 347,
+      "expires_at": "2026-09-19T09:38:02Z"
     },
     {
       "product_id": "1005003696509258",
@@ -100,24 +113,11 @@
       "price": "2.20",
       "original_price": "4.15",
       "discount_pct": 47,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ku8S6NDOw8Z0poapbxqjd9aH5HhtbQ8Y0V73GusyLziIOmfQapNXsuFxTVcNX3IWY2jHz0DHBeokkXaRB5TuN3hgSNssZK1ZeBvBWohYaR9SBZJQkGCssKm1AoQKcTSo8bLjnJK1oq8MtZD0sPSMWoz9bm0Wl0b2kLRvtrXWVaATXVyQzN8n60zwnbkSWQtuH3hniBd1ma3qaFirfz2MEZXOepsDzjPgXw75OoL4lxHwm1eniL4TwB6orNxIhkgEpcZNh5NLLXyE02qDfPZVsrmzUQT4tPX6ilByFA1lqkPSC4iOMQGW3lXFs2yiW4rWrOW5mnTbRgKVb0IlF6veAW8b644w8etk0VRg9vLq2oCPJbYvrF6CyvVERvNBL1MBMQR42jYcRTWSzn9d9TqdjTtFazcYk5y7A0qnVUyAplvmjo3PPyKmg7ovn3HmVMurLKE7rkFYjpmmZH6MabwmrLvZj5iPwym3DKubrzn4JCxZdbpLc5UvOffxktu4Qhy4bInRjEHnmSRE05zM7Vt751SUeVALFGcURJelf5J55uulynZAQPurfPVbE7Nk9NXedJGv9G32cVAffuhwwUIXRGcG7D1Dzrha7yamwPugGfODrRfalp7lVyRrsa6uRZNZ8TFpJHEKugQAdM6FBZq3oDMb3X2kmmWhriBMFLGIcHVFMziAtTUgYOybtKU0on5QaKYPVoNcgLheO",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ku8S6NDOw8Z0poapbxqjd9aH5HhtbQ8Y0V73GusyLziIOmfQapNXsuFxTVcNX3IWY2jHz0DHBeokkXaRB5TuN3hgSNssZK1ZeBvBWohYaR9SBZJQkGCssKm1AoQKcTSo8bLjnJK1oq8MtZD0sPSMWoz9bm0Wl0b2kLRvtrXWVaATXVyQzN8n60zwnbkSWQtuH3hniBd1ma3qaFirfz2MEZXOepsDzjPgXw75OolayTjkEqL6QUb7kvAOgApB89MgDAC4MuByWtwt2DZQULW8w7Wyq76TL7TYr6iKEDW35S6wNczfiYzWMLJmrccUKb3JYDqkNH9me4Fd6aZJMoQEn3HZTbJF98Qoc6V7bTV2QtExOd18lPbXpRSU0LwsrPqTHaZlnl19XRu07zc6vFIBDxNUD8auR5w4PPcSlpXwVrwWpw7LFVMDoGXrDhNNwlnXeh9qWjvNepaP0C1bWsFm8BpDAt0Dqhjz4le1KrCsPVKiSg74zpfFqDnUs6vy4kAf7bycxHyzSLwhBhlqyLcJxlKPB281JR7jvHZoVZehBEBwGChzXwgONGhKBZFy27hNvFOIz7NofzMljGitZchvaQA66zMVbNl0VdAipKdEQD7tbTmYm4aMrqbcR7V8YdF7QNLgq0XjMBLJkRIgzGKWErLUSRyCWGC0ZhD5NmhGv4MAqhYUzxLOWGuhbGCBcyQLnE6xgyXtxn3tk",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789239581/flash-sale/1005003696509258.webp",
       "rating": 4.7,
       "reviews_count": 15,
-      "expires_at": "2026-09-19T04:51:35Z"
-    },
-    {
-      "product_id": "1005011600062494",
-      "title": "KOSPET TANK T4C Smartwatch Men’s Outdoor Rugged Watch with Flashlight Dual‑Band GPS 50M Waterproof Fitness & Health Tracker",
-      "slug": "kospet-tank-t4c-smartwatch-mens-outdoor-rugged-watch-with-fl",
-      "price": "143.99",
-      "original_price": "266.65",
-      "discount_pct": 46,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mWSi7p817HbKTXk6kA1tAsbD51Gpyb07K7e34brQF88Z1iPLebgog0IL7IRaDwAt7t2xOS3V5WwJKppn1Kz7l0LTZQEPv2sRdbndY311iiRXCxJlS16ZsJOtx2RNcdyWpp1tCdQALdAkUyIyJtI9DlzRqy53TeoatAg6uGFHpWQiD4ada3cpUrhSgFgQxTwSAd2WrcKzbZPxyOAQzEXdjytL7Xu7Alk7nWQJWFOKtUxKGjyfss8ZEI0AlySndbp3FM0Vric7NsTIVl9xHZbS4Bz9P6YsiOMpYpywD4KiLFVokmNyJESOiss7adlUfZl4MHT1ZjuHo3Vg7H3nKLDRCPorn0XuuxDU2FJmqDDqYVgEWz3eQOTzmmWKisHhsYZ0eIXEn6DVW5QcPa1in5fJW5eUhaMkFvnc58FTFx30BZSkxVAPwH4sUTA4wVfPB7D1ssir4tv5ykZQc9IMTFJoCtYUwV6Z5gZtHC577sPpxLG61z7WAFgilS7YF3AXv5BxYWPdZoyb3ZzRxFP1dXtAzcTrQDyUjbiiHCTtlNYBIVphyH8AR9Cx9eUWmab8mWXSo1G2pHPt8KpHfl2A0mwFvHVorzlowiMLK9xR10Jr1d6II7mot6SuXQXOleeVR8zuK1XJ6VSSATpgV7oaJEBzIRJYWJh6iNEboyHvkv6i6IRjXhIOyrP8sFgLR11PzdPN0esdw9ZqnU5HR",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789331848/flash-sale/1005011600062494.webp",
-      "rating": 5.0,
-      "reviews_count": 4,
-      "expires_at": "2026-09-19T04:51:35Z"
+      "expires_at": "2026-09-19T09:38:02Z"
     },
     {
       "product_id": "1005012113585963",
@@ -126,11 +126,11 @@
       "price": "2.60",
       "original_price": "4.33",
       "discount_pct": 40,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4E9pXsZEzekIXfaDN68WADKDf0XFQccVmJJG8M3WuKFnzC1CoEigk2RJY58fLivGR8KBEHtDglGpkiK3gwZLGWb7U4h2ZWTlOzWn3m38Iu5wM86deZAMNh2iMK9foRhzHpmg9ZsocG3r4eg0t9CAl8o4nomCCYE5HtoKjZrCFpWO5SaolmykcZuKrQmGSXRL2AC5OBBVojW119r2XB1XeGrgeWJU6ICaALU6xSdV4Pb6Zxh94eu9khfIDkzpDD2dbgRmkLbK0Dt6DFaPikB8pn5PJX9DVJIClmzexsjy5JSpNqekVbXnOoa5QoCloa1dFMq14o3Io6Sj0SjSKmzS2OpOM8kY6j2oFvvX8xUw4JTgBiYzhAXqA1B5LAue3nRzZWHAkQwOU7tPB4sRpZNaN00kHTbpBcEZ6A61QVQW4rw0Yxke8z838FfEyz26T6o0JVJ7ASs99Ds2AUsAUTEAxPdN5kITn9g94zbPGoUthgCpryF6iMHoZid7AWZfKFU2FNcu7AUAbHmcQGhFzJbV0e8Ls2ezR0HPXGGXxkPwogIm3CuP2h9iJydymAH8scnaZQtWJN579F6sHqyzWX3X11QoyTBb4kHcCQQ4ycXwzmw8RfHCTRnGcxv0kPmlUPEk9CGr6NYUR5sbgLagLneJRKZlPHcLdMV1nqUglvBe6xgw6UTU20Su2cKa23WqsarZhd6tPENvPTCEIG",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4E9pXsZEzekIXfaDN68WADKDf0XFQccVmJJG8M3WuKFnzC1CoEigk2RJY58fLivGR8KBEHtDglGpkiK3gwZLGWb7U4h2ZWTlOzWn3m38Iu5wM86deZAMNh2iMK9foRhzHpmg9ZsocG3r4eg0t9CAl8o4nomCCYE5HtoKjZrCFpWO5SaolmykcZuKrQmGSXRL2AC5OBBVojW119r2XB1XeGrgeWJU6ICaALU6xSdV4Pb6Zxh94eu9khfIDkzpDD2dbgRkUqxLvTIB4lfaGGbjVXo31Jun3iJ7iv1rykmv2texXDSISvHNKZUxy7xIr3IlGKaRJJUXxEgoy4HYUGiYIjzYL4od7HKZ9lV3eUhQ41soGucGsW8f5JFjqjcZUXsdGhIAj0Sbaz2zdF3yESL0CPLoOYydNuyO54yL0p3Ke2lUlSeciQ8XXXKabzVpTPgdePy1WQxzBvEf7rMAgIfeR0XbSuWUtok6t5eD1UZ4yNfdMunk0gMD992QEON0AGduVcJlo06zurN8lWT7aiRqHoFqRGIHz0160yhlwlvfkZC1tQzpVYh3AvlWvZpHWAnaElQASMYclWLvqOCKKSZmGNcQQGIk3n4njrBEt2ud2jQpuNSkUdm9i5elX7foYedQucSNHhx0cFQZFKMijIpLHAhhZZKrB3Xo8BoMrhKLyABJLMdLJV9UErhSEYrpCsuUb6O8jyDjsWnnB6",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789789900/flash-sale/1005012113585963.webp",
       "rating": 4.0,
       "reviews_count": 75,
-      "expires_at": "2026-09-19T04:51:35Z"
+      "expires_at": "2026-09-19T09:38:02Z"
     }
   ]
 }
