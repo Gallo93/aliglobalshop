@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-09-21T05:51:59Z",
+  "updated_at": "2026-09-22T05:49:22Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,12 +17,12 @@
       "sales_volume": 1584,
       "score": 0.3375,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:47Z",
-      "updated_at": "2026-09-21T05:51:47Z"
+      "fetched_at": "2026-09-22T05:49:12Z",
+      "updated_at": "2026-09-22T05:49:12Z"
     },
     {
       "product_id": "1005001280574861",
-      "title": "BSEDE WIFI Wall Light Switches Pièces de panneau en verre Smart Touch Switches Pièces de fonction Sockets EU Pièces de sortie d'alimentation",
+      "title": "BSEDE WIFI Wall Light Switches Pièces de panneau en verre Commutateurs tactiles blancs Pièces de fonction Sockets EU Pièces de sortie d'alimentation",
       "slug": "bseed-wifi-wall-light-switches-glass-panel-parts-white-smart",
       "price": 3.26,
       "original_price": 9.31,
@@ -35,12 +35,12 @@
       "sales_volume": 13,
       "score": 0.2937,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:47Z",
-      "updated_at": "2026-09-21T05:51:47Z"
+      "fetched_at": "2026-09-22T05:49:13Z",
+      "updated_at": "2026-09-22T05:49:13Z"
     },
     {
       "product_id": "1005011666514308",
-      "title": "Batterie Lithium Ion originale pour nettoyant iRobot Roomba 900 800 700 600 Série 960 980 981 965 895 890 860 695 692 680 675 Partie",
+      "title": "Batterie Ion Lithium originale pour nettoyant iRobot Roomba 900 800 700 600 Série 960 980 981 965 895 890 860 695 692 680 675 Partie",
       "slug": "original-lithium-ion-battery-for-irobot-roomba-cleaner-900-8",
       "price": 32.63,
       "original_price": 66.61,
@@ -53,8 +53,8 @@
       "sales_volume": 11,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:47Z",
-      "updated_at": "2026-09-21T05:51:47Z"
+      "fetched_at": "2026-09-22T05:49:13Z",
+      "updated_at": "2026-09-22T05:49:13Z"
     },
     {
       "product_id": "1005005807578430",
@@ -71,12 +71,12 @@
       "sales_volume": 5,
       "score": 0.2366,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:48Z",
-      "updated_at": "2026-09-21T05:51:48Z"
+      "fetched_at": "2026-09-22T05:49:14Z",
+      "updated_at": "2026-09-22T05:49:14Z"
     },
     {
       "product_id": "1005005604363467",
-      "title": "Camnsmart Tuya 5MP Alexa Wifi Ampoule Caméra E27 Google Home Vidéosurveillance en plein air sans fil Surveillance de sécurité Support Onvif NVR",
+      "title": "Camnsmart Tuya 5MP Alexa Wifi Ampoule Caméra E27 Google Home Vidéosurveillance en plein air sans fil Surveillance vidéo Support de sécurité Onvif NVR",
       "slug": "camnsmart-tuya-5mp-alexa-wifi-bulb-camera-e27-google-home-wi",
       "price": 36.79,
       "original_price": 73.58,
@@ -89,12 +89,12 @@
       "sales_volume": 31,
       "score": 0.2361,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:49Z",
-      "updated_at": "2026-09-21T05:51:49Z"
+      "fetched_at": "2026-09-22T05:49:14Z",
+      "updated_at": "2026-09-22T05:49:14Z"
     },
     {
       "product_id": "4000143784956",
-      "title": "HEIMAN Zigbee détecteur de fumée – détecteur d'alarme d'incendie, haute sensibilité, Smart Home System, protection de sécurité, livraison gratuite",
+      "title": "Détecteur de fumée HEIMAN Zigbee – Capteur d'alarme incendie, haute sensibilité, Smart Home System, Protection de sécurité, Livraison gratuite",
       "slug": "heiman-zigbee-smoke-detector-fire-alarm-sensor-high-sensitiv",
       "price": 25.75,
       "original_price": 36.79,
@@ -107,8 +107,8 @@
       "sales_volume": 359,
       "score": 0.229,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:49Z",
-      "updated_at": "2026-09-21T05:51:49Z"
+      "fetched_at": "2026-09-22T05:49:15Z",
+      "updated_at": "2026-09-22T05:49:15Z"
     },
     {
       "product_id": "1005010463738860",
@@ -125,8 +125,8 @@
       "sales_volume": 52,
       "score": 0.2255,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:50Z",
-      "updated_at": "2026-09-21T05:51:50Z"
+      "fetched_at": "2026-09-22T05:49:15Z",
+      "updated_at": "2026-09-22T05:49:15Z"
     },
     {
       "product_id": "1005011764540594",
@@ -143,8 +143,8 @@
       "sales_volume": 36,
       "score": 0.2243,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:50Z",
-      "updated_at": "2026-09-21T05:51:50Z"
+      "fetched_at": "2026-09-22T05:49:16Z",
+      "updated_at": "2026-09-22T05:49:16Z"
     },
     {
       "product_id": "1005009992642757",
@@ -161,8 +161,8 @@
       "sales_volume": 1,
       "score": 0.2221,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:51Z",
-      "updated_at": "2026-09-21T05:51:51Z"
+      "fetched_at": "2026-09-22T05:49:17Z",
+      "updated_at": "2026-09-22T05:49:17Z"
     },
     {
       "product_id": "1005012750087339",
@@ -179,12 +179,12 @@
       "sales_volume": 10,
       "score": 0.2212,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:51Z",
-      "updated_at": "2026-09-21T05:51:51Z"
+      "fetched_at": "2026-09-22T05:49:17Z",
+      "updated_at": "2026-09-22T05:49:17Z"
     },
     {
       "product_id": "1005003568997399",
-      "title": "Shelly Pro 4PM Four Channels Relay LAN Wi-Fi Commutateur adapté pour l'automatisation d'installation à domicile avec télécommande",
+      "title": "Shelly Pro 4PM Four Channels Relay LAN Wi-Fi Commutateur approprié pour l'automatisation d'installation à domicile avec télécommande de mesure de puissance",
       "slug": "shelly-pro-4pm-four-channels-relay-lan-wifi-switch-suitable-",
       "price": 98.02,
       "original_price": 153.03,
@@ -197,12 +197,12 @@
       "sales_volume": 113,
       "score": 0.2186,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:52Z",
-      "updated_at": "2026-09-21T05:51:52Z"
+      "fetched_at": "2026-09-22T05:49:17Z",
+      "updated_at": "2026-09-22T05:49:17Z"
     },
     {
       "product_id": "1005004966987077",
-      "title": "Zigbee Smart Magnetic Track Lamp DC48V Tuya WiFi Dimmable LED Pendentif Light Smart Speaker Voice Control Rail Floodlight",
+      "title": "Zigbee Smart Magnetic Track Lamp DC48V Tuya WiFi Pendentif LED réglable Light Smart Speaker Voice Control Rail Floodlight",
       "slug": "zigbee-smart-magnetic-track-lamp-dc48v-tuya-wifi-dimmable-le",
       "price": 25.5,
       "original_price": 42.5,
@@ -215,12 +215,12 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:52Z",
-      "updated_at": "2026-09-21T05:51:52Z"
+      "fetched_at": "2026-09-22T05:49:18Z",
+      "updated_at": "2026-09-22T05:49:18Z"
     },
     {
       "product_id": "1005009559994857",
-      "title": "MOES Tuya ZigBee Smart Window Door Gate Detector Smart Home Security Alarm System Smart Life Tuya App Télécommande",
+      "title": "MOES Tuya ZigBee Smart Window Door Gate Detector Smart Home Security Alarm System Smart Life Application Tuya Télécommande",
       "slug": "moes-tuya-zigbee-smart-window-door-gate-sensor-detector-smar",
       "price": 12.55,
       "original_price": 19.92,
@@ -233,8 +233,8 @@
       "sales_volume": 6,
       "score": 0.1984,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:53Z",
-      "updated_at": "2026-09-21T05:51:53Z"
+      "fetched_at": "2026-09-22T05:49:18Z",
+      "updated_at": "2026-09-22T05:49:18Z"
     },
     {
       "product_id": "32898805107",
@@ -251,8 +251,8 @@
       "sales_volume": 13,
       "score": 0.1916,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:54Z",
-      "updated_at": "2026-09-21T05:51:54Z"
+      "fetched_at": "2026-09-22T05:49:19Z",
+      "updated_at": "2026-09-22T05:49:19Z"
     },
     {
       "product_id": "1005007469522071",
@@ -269,8 +269,8 @@
       "sales_volume": 17,
       "score": 0.186,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:55Z",
-      "updated_at": "2026-09-21T05:51:55Z"
+      "fetched_at": "2026-09-22T05:49:19Z",
+      "updated_at": "2026-09-22T05:49:19Z"
     },
     {
       "product_id": "1005003906939600",
@@ -287,12 +287,12 @@
       "sales_volume": 9,
       "score": 0.1848,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:56Z",
-      "updated_at": "2026-09-21T05:51:56Z"
+      "fetched_at": "2026-09-22T05:49:20Z",
+      "updated_at": "2026-09-22T05:49:20Z"
     },
     {
       "product_id": "1005007374302567",
-      "title": "MOES Tuya Zigbee Smart Light Sensor Détection de luminosité Maison Éclairage Automatisation Smart Home Detector Contrôle APP",
+      "title": "MOES Tuya Zigbee Smart Light Sensor Light Lightance Detection Home Lighting Automation Smart Home Detector Contrôle APP",
       "slug": "moes-tuya-zigbee-smart-light-sensor-illuminance-brightness-d",
       "price": 13.24,
       "original_price": 18.39,
@@ -305,12 +305,12 @@
       "sales_volume": 4,
       "score": 0.1845,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:57Z",
-      "updated_at": "2026-09-21T05:51:57Z"
+      "fetched_at": "2026-09-22T05:49:20Z",
+      "updated_at": "2026-09-22T05:49:20Z"
     },
     {
       "product_id": "1005004671523450",
-      "title": "2PCS surclassement de l'équipement moteur pour irobot 5 6 Série 7 Nettoyeur à vide côté brosse pièces robot",
+      "title": "2PCS Upgraded Motor Gear pour irobot 5 6 Série 7 Nettoyeur à vide side Brush Gear Pièces robot",
       "slug": "2pcs-upgraded-motor-gear-for-irobot-5-6-7-series-vacuum-clea",
       "price": 6.96,
       "original_price": 9.4,
@@ -323,12 +323,12 @@
       "sales_volume": 32,
       "score": 0.1789,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:57Z",
-      "updated_at": "2026-09-21T05:51:57Z"
+      "fetched_at": "2026-09-22T05:49:21Z",
+      "updated_at": "2026-09-22T05:49:21Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Contrôleur de LED WIFI Smart Wireless 2.4GHz Gateway Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe de bande",
+      "title": "WL-Box2 Contrôleur LED WIFI Smart Wireless 2.4GHz Gateway Voix WiFi rgb Contrôleur Tuya pour Mi Boxer LED Ampoule lampe de bande",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -341,12 +341,12 @@
       "sales_volume": 19,
       "score": 0.1773,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:58Z",
-      "updated_at": "2026-09-21T05:51:58Z"
+      "fetched_at": "2026-09-22T05:49:21Z",
+      "updated_at": "2026-09-22T05:49:21Z"
     },
     {
       "product_id": "4001041588925",
-      "title": "MoesHouse GU10 WiFi Ampoules LED intelligentes RGBW C+W Lampes Dimmable Blanc Life Tuya Ampoules de télécommande Travaillez avec Alexa/Google",
+      "title": "MoesHouse GU10 WiFi Ampoules LED intelligentes RGBW C+W Lampes Dimmables Blancs Ampoules de Télécommande Tuya Life Travaillez avec Alexa/Google",
       "slug": "moeshouse-gu10-wifi-smart-led-bulbs-rgbw-cw-white-dimmable-l",
       "price": 8.38,
       "original_price": 11.18,
@@ -359,8 +359,8 @@
       "sales_volume": 9,
       "score": 0.1761,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:58Z",
-      "updated_at": "2026-09-21T05:51:58Z"
+      "fetched_at": "2026-09-22T05:49:22Z",
+      "updated_at": "2026-09-22T05:49:22Z"
     }
   ]
 }

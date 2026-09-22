@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-09-21T05:51:59Z",
+  "updated_at": "2026-09-22T05:49:22Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1584,
       "score": 0.3375,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:47Z",
-      "updated_at": "2026-09-21T05:51:47Z"
+      "fetched_at": "2026-09-22T05:49:12Z",
+      "updated_at": "2026-09-22T05:49:12Z"
     },
     {
       "product_id": "1005001280574861",
@@ -35,8 +35,8 @@
       "sales_volume": 13,
       "score": 0.2937,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:47Z",
-      "updated_at": "2026-09-21T05:51:47Z"
+      "fetched_at": "2026-09-22T05:49:13Z",
+      "updated_at": "2026-09-22T05:49:13Z"
     },
     {
       "product_id": "1005011666514308",
@@ -53,8 +53,8 @@
       "sales_volume": 11,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:47Z",
-      "updated_at": "2026-09-21T05:51:47Z"
+      "fetched_at": "2026-09-22T05:49:13Z",
+      "updated_at": "2026-09-22T05:49:13Z"
     },
     {
       "product_id": "1005005807578430",
@@ -71,8 +71,8 @@
       "sales_volume": 5,
       "score": 0.2366,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:48Z",
-      "updated_at": "2026-09-21T05:51:48Z"
+      "fetched_at": "2026-09-22T05:49:14Z",
+      "updated_at": "2026-09-22T05:49:14Z"
     },
     {
       "product_id": "1005005604363467",
@@ -89,8 +89,8 @@
       "sales_volume": 31,
       "score": 0.2361,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:49Z",
-      "updated_at": "2026-09-21T05:51:49Z"
+      "fetched_at": "2026-09-22T05:49:14Z",
+      "updated_at": "2026-09-22T05:49:14Z"
     },
     {
       "product_id": "4000143784956",
@@ -107,12 +107,12 @@
       "sales_volume": 359,
       "score": 0.229,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:49Z",
-      "updated_at": "2026-09-21T05:51:49Z"
+      "fetched_at": "2026-09-22T05:49:15Z",
+      "updated_at": "2026-09-22T05:49:15Z"
     },
     {
       "product_id": "1005010463738860",
-      "title": "Yoosee 5MP WiFi Seguridad PTZ Interior Cámara IP 3MP Smart Home Seguridad Color Noche Visión Siren Alarma Humanoide Detection Ai Track",
+      "title": "Yoosee 5MP WiFi Seguridad PTZ Indoor IP Cámara 3MP Smart Home Seguridad Color Noche Visión Siren Alarm Humanoid Detection Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
       "price": 24.75,
       "original_price": 41.25,
@@ -125,12 +125,12 @@
       "sales_volume": 52,
       "score": 0.2255,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:50Z",
-      "updated_at": "2026-09-21T05:51:50Z"
+      "fetched_at": "2026-09-22T05:49:15Z",
+      "updated_at": "2026-09-22T05:49:15Z"
     },
     {
       "product_id": "1005011764540594",
-      "title": "OKAM PRO 4G HD 5MP Cámara de cable Mini cámara de vigilancia inalámbrica 2400mAh batería PIR detección humana protección de seguridad",
+      "title": "OKAM PRO 4G HD 5MP Cámara de cable Mini cámara de vigilancia inalámbrica 2400mAh batería potenciada PIR protección de seguridad",
       "slug": "okam-pro-4g-hd-5mp-wifi-camera-mini-wireless-surveillance-ca",
       "price": 37.89,
       "original_price": 63.14,
@@ -143,8 +143,8 @@
       "sales_volume": 36,
       "score": 0.2243,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:50Z",
-      "updated_at": "2026-09-21T05:51:50Z"
+      "fetched_at": "2026-09-22T05:49:16Z",
+      "updated_at": "2026-09-22T05:49:16Z"
     },
     {
       "product_id": "1005009992642757",
@@ -161,8 +161,8 @@
       "sales_volume": 1,
       "score": 0.2221,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:51Z",
-      "updated_at": "2026-09-21T05:51:51Z"
+      "fetched_at": "2026-09-22T05:49:17Z",
+      "updated_at": "2026-09-22T05:49:17Z"
     },
     {
       "product_id": "1005012750087339",
@@ -179,8 +179,8 @@
       "sales_volume": 10,
       "score": 0.2212,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:51Z",
-      "updated_at": "2026-09-21T05:51:51Z"
+      "fetched_at": "2026-09-22T05:49:17Z",
+      "updated_at": "2026-09-22T05:49:17Z"
     },
     {
       "product_id": "1005003568997399",
@@ -197,8 +197,8 @@
       "sales_volume": 113,
       "score": 0.2186,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:52Z",
-      "updated_at": "2026-09-21T05:51:52Z"
+      "fetched_at": "2026-09-22T05:49:17Z",
+      "updated_at": "2026-09-22T05:49:17Z"
     },
     {
       "product_id": "1005004966987077",
@@ -215,8 +215,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:52Z",
-      "updated_at": "2026-09-21T05:51:52Z"
+      "fetched_at": "2026-09-22T05:49:18Z",
+      "updated_at": "2026-09-22T05:49:18Z"
     },
     {
       "product_id": "1005009559994857",
@@ -233,8 +233,8 @@
       "sales_volume": 6,
       "score": 0.1984,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:53Z",
-      "updated_at": "2026-09-21T05:51:53Z"
+      "fetched_at": "2026-09-22T05:49:18Z",
+      "updated_at": "2026-09-22T05:49:18Z"
     },
     {
       "product_id": "32898805107",
@@ -251,8 +251,8 @@
       "sales_volume": 13,
       "score": 0.1916,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:54Z",
-      "updated_at": "2026-09-21T05:51:54Z"
+      "fetched_at": "2026-09-22T05:49:19Z",
+      "updated_at": "2026-09-22T05:49:19Z"
     },
     {
       "product_id": "1005007469522071",
@@ -269,8 +269,8 @@
       "sales_volume": 17,
       "score": 0.186,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:55Z",
-      "updated_at": "2026-09-21T05:51:55Z"
+      "fetched_at": "2026-09-22T05:49:19Z",
+      "updated_at": "2026-09-22T05:49:19Z"
     },
     {
       "product_id": "1005003906939600",
@@ -287,8 +287,8 @@
       "sales_volume": 9,
       "score": 0.1848,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:56Z",
-      "updated_at": "2026-09-21T05:51:56Z"
+      "fetched_at": "2026-09-22T05:49:20Z",
+      "updated_at": "2026-09-22T05:49:20Z"
     },
     {
       "product_id": "1005007374302567",
@@ -305,12 +305,12 @@
       "sales_volume": 4,
       "score": 0.1845,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:57Z",
-      "updated_at": "2026-09-21T05:51:57Z"
+      "fetched_at": "2026-09-22T05:49:20Z",
+      "updated_at": "2026-09-22T05:49:20Z"
     },
     {
       "product_id": "1005004671523450",
-      "title": "2PCS engranaje motorizado para irobot 5 6 7 serie limpiador de vacío lado piezas de acero",
+      "title": "2PCS engranaje motorizado para irobot 5 6 7 serie de vacío limpiador lateral piezas de acero",
       "slug": "2pcs-upgraded-motor-gear-for-irobot-5-6-7-series-vacuum-clea",
       "price": 6.96,
       "original_price": 9.4,
@@ -323,12 +323,12 @@
       "sales_volume": 32,
       "score": 0.1789,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:57Z",
-      "updated_at": "2026-09-21T05:51:57Z"
+      "fetched_at": "2026-09-22T05:49:21Z",
+      "updated_at": "2026-09-22T05:49:21Z"
     },
     {
       "product_id": "1005005632971536",
-      "title": "WL-Box2 Controlador de WIFI inteligente inalámbrico 2.4GHz Gateway Voz WiFi rgb Controller Tuya Para Mi Boxer Lámpara de luz de la tira LED",
+      "title": "WL-Box2 Controlador de WIFI inteligente inalámbrico 2.4GHz Gateway Voz WiFi rgb Controller Tuya Para Mi Boxer LED Bombilla de luz",
       "slug": "wl-box2-led-wifi-controller-smart-wireless-24ghz-gateway-voi",
       "price": 14.49,
       "original_price": 19.32,
@@ -341,12 +341,12 @@
       "sales_volume": 19,
       "score": 0.1773,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:58Z",
-      "updated_at": "2026-09-21T05:51:58Z"
+      "fetched_at": "2026-09-22T05:49:21Z",
+      "updated_at": "2026-09-22T05:49:21Z"
     },
     {
       "product_id": "4001041588925",
-      "title": "MoesHouse GU10 WiFi Smart LED Bulbs RGBW C+W Lámparas Dimmable blanco Tuya Bombillas de control remoto Trabaja con Alexa/Google",
+      "title": "MoesHouse GU10 WiFi Smart LED Bulbs RGBW C+W Lámparas Dimmable blanco Tuya Control remoto Bombillas de luz Trabaja con Alexa/Google",
       "slug": "moeshouse-gu10-wifi-smart-led-bulbs-rgbw-cw-white-dimmable-l",
       "price": 8.38,
       "original_price": 11.18,
@@ -359,8 +359,8 @@
       "sales_volume": 9,
       "score": 0.1761,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:51:58Z",
-      "updated_at": "2026-09-21T05:51:58Z"
+      "fetched_at": "2026-09-22T05:49:22Z",
+      "updated_at": "2026-09-22T05:49:22Z"
     }
   ]
 }
