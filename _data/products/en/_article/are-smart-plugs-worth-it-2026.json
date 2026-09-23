@@ -1,26 +1,8 @@
 {
-  "timestamp": 1789970086.9934819,
+  "timestamp": 1790141480.143664,
   "slug": "are-smart-plugs-worth-it-2026",
-  "updated_at": "2026-09-21T05:54:46Z",
+  "updated_at": "2026-09-23T05:31:20Z",
   "products": [
-    {
-      "product_id": "1005011861458134",
-      "title": "GIRIER Tuya WiFi Smart Power Plug 16A with Energy Monitoring 3520W Supports APP Remote Timing Functions Support Alexa Hey Google",
-      "slug": "girier-tuya-wifi-smart-power-plug-16a-with-energy-monitoring",
-      "price": 9.79,
-      "original_price": 13.99,
-      "discount_pct": 30,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kJhDugTiNd1a5gOa6RsCPtqpCsj5Jh7DJG3oF3r4Ag0jkA22Zx4FuTtfHQXB0XcbBf27v9KN7okAGeQuxH57pgOtI1p9stKXKyy1zJgnsspf4FaZGtufi4qwMnMfw3m6l4giGQHOE4ALibiWUoqzc2nPG3fdJQ8vJvM8l0ktk44w3X69bFD9fCCZkhYiwtJ1kZstrmK4VvOFOd3dyxnPcKQEmnLKNDw1QS1WinnaCncLAufkGV2xTre0arspqJhMJjDOerN4Q1kAUJH1Zd5AKbiN4f9qwjStO7txFnPvoOLQoP460oVDORoFX4nSgtMrGpjgS73LU94qW6fRUVIPnowaONho9XirpeKABn2kerjQHNSp2VfRneQM5amn8awDXFkeDbA8Y3w4v7e6rHAJLQV1vtoC72ET7QeWXfd8ZvoT2pAuvHtqjN6VU1K87zKFWvYbRE5ICrNQ2WA7zn2IZHFEyXSyQIvPLmtVfWgo9rpqhzMTSEMh88P5FWlYyd5KTSdJkFHWIMQ4FrdeWUtwBdrDkMI432NzSsHV4itk6CNeqhl6EzMmUnFpzdoqFwVX9rNpssxzWkBj1sGG5DnvHwAoiTZmHSn95qIQ2ATEUV8M7GkIQmhPl8KSKD3XL68RmDQWD3S55lm7hf9BxpjkaJwJLxwUI9j5asThgGwKlaQfy0HbiqMJtMA2m2jYTOxIuBpkFUQo0Me7C",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788672651/products/art-1005011861458134.webp",
-      "category": "smart-home",
-      "rating": 5.0,
-      "reviews_count": 21,
-      "sales_volume": 21,
-      "score": 0.1925,
-      "price_history": [],
-      "fetched_at": "2026-09-21T05:54:45Z",
-      "updated_at": "2026-09-21T05:54:45Z"
-    },
     {
       "product_id": "1005010304773110",
       "title": "Tuya WiFi Smart Led Night Light PIR Motion Sensor Light EU/US/UK Plug In Wall Lamp Warm White RGB Timer Light App Voice Control",
@@ -28,7 +10,7 @@
       "price": 17.9,
       "original_price": 25.57,
       "discount_pct": 30,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Exnb9pH7sxcDYUhxnuPkvguxbp1crxg2rVykMMTbcAQlo1Fvicyb3pjlwxw1y6dTfgXdZnnDMBNdvlUTVtSlFzTds3X0I0s9ufNoG47HB1ilNqvIXs4cdehkvjneEkHFKL5y7gNp4p4tBA4GkT9S7mw3IzvWBq6qyhAYG7yqll4tLlgQxtQoGx66W6MJq6OxlqOJKKH2reFopvGRTXWwEB8X6BjC5f54eBG8b8q3fl0KLP7WcTevODHTdJeK4lyUyZv3CiTqPndmqv2BQYCE4pE1Ond7bHhzaUZ5D11i87q1pY9cHc9M5vMrR2Up1UDrbwLMe5qeSScIBxKYgrR9KBDhvIKsLp7qxmLdZ3Ln2tcynZ21jNPAPkacfJMTQLtabYmUjUiP6yhWINjaxddZYeGvm28QI0c4EekPctHIzyadckcw4CBr5VDuUabRiDecEUshBMNE2Mg1wULu2uP6dvffDasnQuOirPHYEKLfUOEmvlF29BFnB5aWwpRxpL6JDAvxlwiVWpWqjkvM2DrKdqi3rwu2xZG5EeLh7kcqFDjaUrUwDHqSEqKaPlSt7KBzBpSkiQgqYgq6iCq0E2ERWyaUUbu4las2YrlueH6qzW7kEiSg6VSPj4N5cT7j87uCRSVGnZzmIO80WScX6EcLxW7LjhXTQFyCgNlhOpBlPIafuQ5LoixHStPsYfM6yBtGTXWlYiBepPr8C",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Exnb9pH7sxcDYUhxnuPkvguxbp1crxg2rVykMMTbcAQlo1Fvicyb3pjlwxw1y6dTfgXdZnnDMBNdvlUTVtSlFzTds3X0I0s9ufNoG47HB1ilNqvIXs4cdehkvjneEkHFKL5y7gNp4p4tBA4GkT9S7mw3IzvWBq6qyhAYG7yqll4tLlgQxtQoGx66W6MJq6OxlqOJKKH2reFopvGRTXWwEB8X6BjC5f54eBG8b8qAOyVGkMIwgjGGgcpUTxhoOOteyNuUHqGY4egRZgjv424xGriUTfCE4R3H28Yjnr47hc22n83Dv9ZL6EtqW4qPmbJ1rbdxjnqLCYMWi3lWSgvqvZM8QbIHhXgX8d0ve6nfwg8YgSmTBQKQcTO9VUNbGJdKsfLDe2Nt7Q9pD62faeIvbXjYdSZ6bDxtZaOGK4SAVTHsGAaUuWSoP4EWv1SyAAAd3MGsvmdd88if2lXTh430c6M49v1L7fCMQ2CluDUyqSrD5FiHSF4nLl0K7oFi9cfynH3WKpFRlqjSRSQ46PPHBzAif8vMrxTgc15Bc9lX74O3j5iJqA56FPzkPdFGDyouYt5r2OAfablspKTn64ycH1X8wRT9jDwlUTTbH2NcFxMcJRfP218Aa65IkUsO9vq5EK3yq6U7UAWlmxpypvJExgOZcbuBXH2vZEneMQoKVcgDL5uyFAeOx4N962nQc4MqkidZQ1hMVxHXW",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789970086/products/art-1005010304773110.webp",
       "category": "smart-home",
       "rating": null,
@@ -36,17 +18,17 @@
       "sales_volume": 1,
       "score": 0.0901,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:54:46Z",
-      "updated_at": "2026-09-21T05:54:46Z"
+      "fetched_at": "2026-09-23T05:31:19Z",
+      "updated_at": "2026-09-23T05:31:19Z"
     },
     {
       "product_id": "4001119305334",
       "title": "1Pcs 2.4G WIFI Power Plug With 1A 2A USB Port Tuya Intelligent Wireless App Control Wwitch Smart Home Power Energy Saving",
       "slug": "1pcs-24g-wifi-power-plug-with-1a-2a-usb-port-tuya-intelligen",
-      "price": 16.28,
-      "original_price": 16.28,
+      "price": 16.26,
+      "original_price": 16.26,
       "discount_pct": 0,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVGNvUgfIqw20dkv9ckKazo43NoJ6ltqWI1QwZ2oecldBYdXMMR4PHS84z5WiONtW0ztzA2OPblAp1UhSKc117tUavXPArR4rFj9ORdpctcmXrBmK0l6gnXjnEuuQEkSdujxgDcsEKhmAjjXQoIZP4Gc8AklzqqKhJj2YUo1mfM9Cfw3Av1Hb95hGGWyrthCzk4abe9v0U0E7DMoKToQ79Ve61O6wdaZj8PefKAnQlgj99Od2N0QPpraXda5L2VJtpJH5lmy43aDVovFrpEdWnXT7NUDmYUMywSOeA7JVKqtgNeg1dTysvN30jHH932TQyCWs5MiXtaQhqCNQFYMITuITLwwnYl59UpLGxX38e0SxrE95CSJSSswrG1ojPb8gPHVjUHAbd9jBzUFH95V3Ho2PtSjCyrf32G5VJAp0jeYDZADzLMlrE0JSmhHZa7aSPE8vv1NAhkzBYm7gDGWCsmTNrg1obg1APIdKA1vMAyDjPaFgBTKu2BakUOUqxDxmAayp641XoVGwLtrJ1wFoCGjWUsb86fF6RnxzRLdKA8WYKKRQqFOKpdq5xwVcLHBLh4y1vqdBTadXDHC3mmw1iUvAS6XyO7zYnkyTisnqSevysu5JVaVaK12AOuLZXAbfmMyT0f7zC66fiZ0Ak5EdoKLHLLHcW8mlscGu2EtZLWu5t4EcHpS4la4qKx9awRgQlSjMCbWEkJgf7SX3Ag2FvvT15vqHBTLPSnPBtzUheI",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVGNvUgfIqw20dkv9ckKazo43NoJ6ltqWI1QwZ2oecldBYdXMMR4PHS84z5WiONtW0ztzA2OPblAp1UhSKc117tUavXPArR4rFj9ORdpctcmXrBmK0l6gnXjnEuuQEkSdujxgDcsEKhmAjjXQoIZP4Gc8AklzqqKhJj2YUo1mfM9Cfw3Av1Hb95hGGWyrthCzk4abe9v0U0E7DMoKToQ79Ve61O6wdaZj8PefKAnQlgj99Od2N0QPpraXda5L2VJtpJHK5b6hig4E453yfZdlrdLsHFlpI7Q3s3IQKJemCX4824Zqy3CXgDFx8edZJVU5BsUOXJM5lr0XoclsEBMvh8a3o8WKKSc2cj2srk2QWZQnYVFxHkTDqJeFbzVHryn13l9VJmBLA3ZXUJG21ynTcWUfSiV1BtKjJY3llmdNv8M2SX08BovL8ZwRTuBPTa3Ds4CPQyjLDvTeU5alvEy7yQ9c2Wdb4WbC8zlnE0SUl4YuQl2biL8nYy54unV9FfuHYz1OMwuPmOMjk4hH7bj0IBiuWuWGsFcvPn7fHdBuSFQtnlZ84zACnw1RT448yHMK0AcAvpfbJx9LdmdermyNK87ASi6XY3ac7Du40hnlFb51456p2Tbtnj4sqBIHeexXSbMBH5m2zREn1vZ51uy20bwCfyoE19Ca04rvEzZJpxrOm1AEaY8RMSuT9aRxA8yGUJ7zWo6igHQCFqekHDc795kFehUEq5XG0jXjLQSHUa",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788158419/products/art-4001119305334.webp",
       "category": "smart-home",
       "rating": 4.2,
@@ -54,8 +36,8 @@
       "sales_volume": 16,
       "score": 0.0859,
       "price_history": [],
-      "fetched_at": "2026-09-21T05:54:46Z",
-      "updated_at": "2026-09-21T05:54:46Z"
+      "fetched_at": "2026-09-23T05:31:20Z",
+      "updated_at": "2026-09-23T05:31:20Z"
     }
   ]
 }
