@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-10-01T06:48:50Z",
+  "updated_at": "2026-10-02T06:39:20Z",
   "products": [
     {
       "product_id": "1005012229118016",
@@ -17,8 +17,8 @@
       "sales_volume": 1138,
       "score": 0.3274,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:40Z",
-      "updated_at": "2026-10-01T06:48:40Z"
+      "fetched_at": "2026-10-02T06:39:12Z",
+      "updated_at": "2026-10-02T06:39:12Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,8 +35,8 @@
       "sales_volume": 100,
       "score": 0.3101,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:40Z",
-      "updated_at": "2026-10-01T06:48:40Z"
+      "fetched_at": "2026-10-02T06:39:12Z",
+      "updated_at": "2026-10-02T06:39:12Z"
     },
     {
       "product_id": "1005007587741414",
@@ -53,12 +53,12 @@
       "sales_volume": 103,
       "score": 0.2736,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:41Z",
-      "updated_at": "2026-10-01T06:48:41Z"
+      "fetched_at": "2026-10-02T06:39:13Z",
+      "updated_at": "2026-10-02T06:39:13Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de charge pour téléphone portable",
+      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de téléphone mobile Accessoires",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 47.22,
       "original_price": 98.38,
@@ -71,8 +71,8 @@
       "sales_volume": 22,
       "score": 0.2586,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:41Z",
-      "updated_at": "2026-10-01T06:48:41Z"
+      "fetched_at": "2026-10-02T06:39:13Z",
+      "updated_at": "2026-10-02T06:39:13Z"
     },
     {
       "product_id": "1005008323500938",
@@ -89,8 +89,8 @@
       "sales_volume": 19,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:42Z",
-      "updated_at": "2026-10-01T06:48:42Z"
+      "fetched_at": "2026-10-02T06:39:14Z",
+      "updated_at": "2026-10-02T06:39:14Z"
     },
     {
       "product_id": "1005012290442752",
@@ -107,12 +107,12 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:42Z",
-      "updated_at": "2026-10-01T06:48:42Z"
+      "fetched_at": "2026-10-02T06:39:14Z",
+      "updated_at": "2026-10-02T06:39:14Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Large-capacité Mobile Power Bank for IPhone Android Phone Shared Self - Cable Contained (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Grande capacité Mobile Power Bank for IPhone Android Phone Shared Self - Cable Contained (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.07,
       "original_price": 40.16,
@@ -125,12 +125,12 @@
       "sales_volume": 59,
       "score": 0.2459,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:43Z",
-      "updated_at": "2026-10-01T06:48:43Z"
+      "fetched_at": "2026-10-02T06:39:14Z",
+      "updated_at": "2026-10-02T06:39:14Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Banque de Puissance Construite en 4 Câble Portable Chargeur Mignon Animaux Cartoon Maquillage Miroir Powerbank Batterie externe Banque de Puissance",
+      "title": "20000mAh Mini Banque de puissance construite en 4 câbles Portable Chargeur Cute Pet Cartoon Maquillage Miroir Banque de puissance de batterie externe",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.7,
       "original_price": 21.39,
@@ -143,12 +143,12 @@
       "sales_volume": 19,
       "score": 0.2456,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:43Z",
-      "updated_at": "2026-10-01T06:48:43Z"
+      "fetched_at": "2026-10-02T06:39:15Z",
+      "updated_at": "2026-10-02T06:39:15Z"
     },
     {
       "product_id": "1005012706928990",
-      "title": "10000/20000mAh Portable Chargeur Power Bank avec 4 câbles intégrés Affichage numérique Airline Carry-on pour iPhone Android Type-C",
+      "title": "10000/20000mAh Portable Chargeur Power Bank avec 4 câbles intégrés Airline Carry-on pour iPhone Android Type-C",
       "slug": "1000020000mah-portable-charger-power-bank-with-built-in-4-ca",
       "price": 19.56,
       "original_price": 42.52,
@@ -161,12 +161,12 @@
       "sales_volume": 3,
       "score": 0.2424,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:43Z",
-      "updated_at": "2026-10-01T06:48:43Z"
+      "fetched_at": "2026-10-02T06:39:15Z",
+      "updated_at": "2026-10-02T06:39:15Z"
     },
     {
       "product_id": "1005007646050752",
-      "title": "Hagibis USB C HUB Type-C Station d'accueil Interrupteurs individuels en marche/arrêt avec affichage LED 10 Gbps USB C Splitter pour Macbook Pro Air",
+      "title": "Hagibis USB C HUB Type-C Station d'accueil Interrupteurs individuels en marche/arrêt avec écran LED 10 Gbps USB C Splitter pour Macbook Pro Air",
       "slug": "hagibis-usb-c-hub-type-c-docking-station-individual-onoff-sw",
       "price": 25.29,
       "original_price": 45.99,
@@ -179,12 +179,12 @@
       "sales_volume": 40,
       "score": 0.2318,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:44Z",
-      "updated_at": "2026-10-01T06:48:44Z"
+      "fetched_at": "2026-10-02T06:39:16Z",
+      "updated_at": "2026-10-02T06:39:16Z"
     },
     {
       "product_id": "1005012408073378",
-      "title": "3M 5M 10M USB 3.0 Extendeur Transmission haute vitesse 5GBPS Station d'accueil 4 ports Hub multi port Type d'alimentation externe c",
+      "title": "3M 5M 10M USB 3.0 Extendeur à grande vitesse 5GBPS Transmission 4 ports Station d'accueil HUB Hub multi port Type d'alimentation externe c",
       "slug": "3m-5m-10m-usb-30-extender-high-speed-5gbps-transmission-4-po",
       "price": 15.54,
       "original_price": 27.26,
@@ -197,8 +197,8 @@
       "sales_volume": 18,
       "score": 0.2312,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:44Z",
-      "updated_at": "2026-10-01T06:48:44Z"
+      "fetched_at": "2026-10-02T06:39:16Z",
+      "updated_at": "2026-10-02T06:39:16Z"
     },
     {
       "product_id": "1005009589681770",
@@ -215,8 +215,8 @@
       "sales_volume": 3,
       "score": 0.2234,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:46Z",
-      "updated_at": "2026-10-01T06:48:46Z"
+      "fetched_at": "2026-10-02T06:39:17Z",
+      "updated_at": "2026-10-02T06:39:17Z"
     },
     {
       "product_id": "1005009133277403",
@@ -233,12 +233,12 @@
       "sales_volume": 1,
       "score": 0.2201,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:46Z",
-      "updated_at": "2026-10-01T06:48:46Z"
+      "fetched_at": "2026-10-02T06:39:17Z",
+      "updated_at": "2026-10-02T06:39:17Z"
     },
     {
       "product_id": "1005004204383810",
-      "title": "Universal Portable Mini Flexible Trépied 2 Support de Section pour Caméra de Projecteur Support de Trépied pour Téléphone Mobile",
+      "title": "Universal Portable Mini Support de Section Flexible Tripod 2 pour Caméra de Projecteur Support de trépied pour Téléphone Mobile",
       "slug": "universal-portable-mini-flexible-tripod-2-section-holder-for",
       "price": 1.53,
       "original_price": 2.39,
@@ -251,8 +251,8 @@
       "sales_volume": 36,
       "score": 0.2045,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:47Z",
-      "updated_at": "2026-10-01T06:48:47Z"
+      "fetched_at": "2026-10-02T06:39:17Z",
+      "updated_at": "2026-10-02T06:39:17Z"
     },
     {
       "product_id": "1005012745139264",
@@ -269,8 +269,8 @@
       "sales_volume": 7,
       "score": 0.1918,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:47Z",
-      "updated_at": "2026-10-01T06:48:47Z"
+      "fetched_at": "2026-10-02T06:39:18Z",
+      "updated_at": "2026-10-02T06:39:18Z"
     },
     {
       "product_id": "1005009849333993",
@@ -287,12 +287,12 @@
       "sales_volume": 11,
       "score": 0.1913,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:48Z",
-      "updated_at": "2026-10-01T06:48:48Z"
+      "fetched_at": "2026-10-02T06:39:18Z",
+      "updated_at": "2026-10-02T06:39:18Z"
     },
     {
       "product_id": "1005005070548245",
-      "title": "Station de recharge USB 10 ports 50W/10A Port Multi USB C Chargeur Hub pour tablette de téléphone cellulaire",
+      "title": "Station de recharge USB 10 ports 50W/10A Port Multi USB C Chargeur Hub pour tablette de téléphone cellulaire Prise d'extension pour appareils multiples",
       "slug": "usb-charging-station-10-ports-50w10a-multi-port-usb-c-hub-ch",
       "price": 9.19,
       "original_price": 13.13,
@@ -305,8 +305,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:48Z",
-      "updated_at": "2026-10-01T06:48:48Z"
+      "fetched_at": "2026-10-02T06:39:19Z",
+      "updated_at": "2026-10-02T06:39:19Z"
     },
     {
       "product_id": "1005012648404171",
@@ -323,8 +323,8 @@
       "sales_volume": 15,
       "score": 0.1831,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:49Z",
-      "updated_at": "2026-10-01T06:48:49Z"
+      "fetched_at": "2026-10-02T06:39:19Z",
+      "updated_at": "2026-10-02T06:39:19Z"
     },
     {
       "product_id": "1005012899690395",
@@ -341,12 +341,12 @@
       "sales_volume": 15,
       "score": 0.1648,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:50Z",
-      "updated_at": "2026-10-01T06:48:50Z"
+      "fetched_at": "2026-10-02T06:39:20Z",
+      "updated_at": "2026-10-02T06:39:20Z"
     },
     {
       "product_id": "1005013176687281",
-      "title": "120W bidirectionnelle Super charge rapide 20000mAh Slim Power Bank Batterie externe de grande capacité pour iPhone Samsung Xiaomi Oppo",
+      "title": "120W bidirectionnel Super charge rapide 20000mAh Slim Power Bank Batterie externe de grande capacité pour iPhone Samsung Xiaomi Oppo",
       "slug": "120w-bi-directional-super-fast-charging-20000mah-slim-power-",
       "price": 27.16,
       "original_price": 59.05,
@@ -359,8 +359,8 @@
       "sales_volume": 2,
       "score": 0.1622,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:48:50Z",
-      "updated_at": "2026-10-01T06:48:50Z"
+      "fetched_at": "2026-10-02T06:39:20Z",
+      "updated_at": "2026-10-02T06:39:20Z"
     }
   ]
 }
