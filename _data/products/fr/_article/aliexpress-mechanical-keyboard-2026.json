@@ -1,26 +1,8 @@
 {
-  "timestamp": 1790837389.092765,
+  "timestamp": 1791007341.4011593,
   "slug": "aliexpress-mechanical-keyboard-2026",
-  "updated_at": "2026-10-01T06:49:49Z",
+  "updated_at": "2026-10-03T06:02:21Z",
   "products": [
-    {
-      "product_id": "1005012640196800",
-      "title": "Clavier mécanique Mute - Magic Hand Fishing Adventure Anti-Drop Island Pure Physical Tapping Design for Silent Typing",
-      "slug": "mute-mechanical-keyboard-clicker-magic-hand-fishing-adventur",
-      "price": 35.37,
-      "original_price": 73.7,
-      "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mTkm2G1Db6VUAxaK4KHv5fqFZYZcimxNR5ozvUFgCm29xdqDwvgBsEOvu8ruhX91Xobb1KVlp2u6gpIpJkIwLjuuCP0H7DOZqGfThPQMZBVgSG9Ehyor2GdP24uirPcNkLFZSyEPyr7yqmgWDlJP8u3WWPtKVzcHk6ZF6TkMKyRSmO60kfbrdbnCW6rLjoIUpI3nfKEuVtro3rKpvmb23mdwxg6MCMmfcnKpbCZPRjYTfq0CgtYAtt9oB80JWIIzWoEfmtEKblGEuabNOdMi6IUUEb1tiiG8qpnMoo4o9KxoJfC6L8SDDTvzRryD4mw5wJoOkJPWqgdp9oH8zSR1SoaHuO8VEIy2256beotBRO5BP2OFJU1c7cr2viugKbmzPdyoYIh3V3cVjBYsEsSR4art2KvqWwgfqHZVRC2yDyjKSXa2USMLx2XFhyLKJ9T8Gdokfl9OcXjZ2PzSXWXFzK9w7VY5Hx8h0bbhB2XeJsgBEVK3tt0ZaJSvl5DG5mpI1D9iMMRHMa0SE8JLYRRjX6p1kLQkILHwNLv7q9ARH3hknioMlTKleBrzVK0ANanSTVPNGnN1Orzp2D2M2Bu7dD4fHovczLSQfb80aZfQ0o8DvSdWCupoEf72P1YC2Nd4O84L2Q0X7u6lGE8fY3jWhbIY7W8WMjA2n3EMKji6jkiizpX71M05bqiM88wtFawXByzl2HV3EZqQY",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788158368/products/art-1005012640196800.webp",
-      "category": "electronics",
-      "rating": null,
-      "reviews_count": 0,
-      "sales_volume": 0,
-      "score": 0.156,
-      "price_history": [],
-      "fetched_at": "2026-10-01T06:49:48Z",
-      "updated_at": "2026-10-01T06:49:48Z"
-    },
     {
       "product_id": "1005012541156975",
       "title": "[Véritable] miHoYo jeu Honkai Star Rail Cyrène sans fil 2.4G clavier mécanique Bluetooth 5.0 interface Typc-C Cosplay cadeau de Noël",
@@ -28,7 +10,7 @@
       "price": 202.27,
       "original_price": 412.79,
       "discount_pct": 51,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4o33aec0tHeLgcpwZeAtKmkWFwJTCaCFZToXUpoghy1bvKOSQbeganWpZcgXEL2njXzW4WuQ7wqzcWVQMypGs5dAINvWQJWP71laeGdtZNW4Ebw7qOxLlq3e1ZYdULkvNPxAEnkjBo7bJtHKO5rrk46amVMJUXBlrFGZ4IR0MBPIiSAM7mCcjHIfIV3Ga2bfH12CL6zqURD8oMEjumwJqSiCLVBYiO9m5encZ3fyMS8E4WlydLOvHluGZ4ppXXLVhG3tt4gIYSh36aFkwMv9UrfGz2KAu5u3L9hr8B3GjrRkEASGhb7askY3zKl4gsoYqjI15IGZEPZj9gtgSteVqJkhboi3HInZfrxfCsNQaccgVGN5Lbxv1WYOpeeqfs0SEZ3WRKxzYTVjwQpfJdgsoHjPxEB6PHWBj0ELvZzcFmNBjypihhgV31E8Jcu2IlbqYlcyQarkkpmUnxzG4CzyoK4UmvZRvN4S5v8a3dCwNvKQFUYItEEF7YcaKEHBprJhC2o0ZOIyHBf0DBG07xRxEBF1eNYpunBdN7LFlntA6OKWgqb4V8RLkAoSgveJLL8K7Q0KW7UsJ3ajrKJTMYilQ8hhrSLbdrs7TypZJXc9bTwqYpx7pSACYPDwaGuAsgHawK2KN5qeHs67j9dCgDEzAxO5Lz8i76Ln7f8OnvmdIrxbnJhhqmrRIsq6jYxDBoedaKUuym3SdGGu53",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4o33aec0tHeLgcpwZeAtKmkWFwJTCaCFZToXUpoghy1bvKOSQbeganWpZcgXEL2njXzW4WuQ7wqzcWVQMypGs5dAINvWQJWP71laeGdtZNW4Ebw7qOxLlq3e1ZYdULkvNPxAEnkjBo7bJtHKO5rrk46amVMJUXBlrFGZ4IR0MBPIiSAM7mCcjHIfIV3Ga2bfH12CL6zqURD8oMEjumwJqSiCLVBYiO9m5encZ3fVaZ3vr5WFNOPNy6Jok7hhrRNjxXcWTKLkCyeFAI3Xr5Szvqdozapqb1bXI8p8oohtETSLqed82SPOcvXRX3jMBJQK2Os4YJEzz6hu52uSz8zZtGpMDP0VJg19zpw5hKLAEgN3lAqYJPDmTwHjrYeRbLG4K20nW3YhVajRVskB22Aw48HaRipubgKWqPMx9eNsXv9tnCifSwTrmQf6g53gRMBOHjGxOr4qYKpr4My9nXrFHmDJEnc1BMp0eOLk1aO9vIeeGBVt07UYcL3UvA6NUr9hVo1wOWpUPU8t6nhJShonUAETQHEuJBNo70YBAHhvisq5NX7TQCTeuAXz9WC5baQ9hEXRBgBneNuMC8WZ73ZYRCXXbBrR7Ojg8ZiYSpMiwN2ZVCQnaFKev6Lg326Vnm2A7NskDrZf34pAaGC8Ly5oncwTNn0j2pjW25YeR7K0gaCE7I46rDcb9jKxPlK6QBsnV29hCVIEXyGsvL",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1790837388/products/art-1005012541156975.webp",
       "category": "electronics",
       "rating": null,
@@ -36,8 +18,8 @@
       "sales_volume": 3,
       "score": 0.1534,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:49:48Z",
-      "updated_at": "2026-10-01T06:49:48Z"
+      "fetched_at": "2026-10-03T06:02:20Z",
+      "updated_at": "2026-10-03T06:02:20Z"
     },
     {
       "product_id": "1005009717063164",
@@ -46,7 +28,7 @@
       "price": 20.7,
       "original_price": 20.7,
       "discount_pct": 0,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FlYqvJHIZfdMGRwB7HGHfB4l8w7fkKeulEswDzA6kcbhFyJwsmp1DYsHkmCnph97rOKYWtErf4woDZwVbKLooqrKvPUvr79DCRXTlSW3DlTlSZH5NNirNTWVeFT1vvKbPu95k1umwcc3ALotDfPHZQwrHKJ7SBg0q6NogrpfLX9yiZyLJV9hTtK9rzEadGusWwRkhnrXhVvUNqepSddWprlCLT7IMy2ktNPtQgQPyIxi6ndsxVnB5xDlk5SKSnUuhiNMgMbD2ZIY1SSU57eFyXPctQqsyYYz4IyB6tz2WTufswnklQuT8QbTFQEokK0m9ff9nHkC1ONMjTipVKaLFnElJXyGX8SEzfcOq5i9D557To712tyDT9UDfmBvR5zX43VGqORiQjW415EQ8xGEEIVIZrHixSJWFs6NR3EnPdHhU0Yuz22qwsZyGAWhmgT0zBCVtvRG4Kdz5rDMqTFijk9WOuk2U3OrsLHHYS8EV5lByBv2UX6OAUbZaQsKTwgHIR3BxP7x2M2p9CY00hoD0GiiFhxO4ckQAYpWQPhUdFttcoxQVeRQlAEdDRCKGcRsvY0GHA97y6b4sGv0dM93iuVFjcNySFwaXtFNUtimEvcICLuMGX5jhnEIS8Lurb9lLVsPIrfI6RbocdhCfQALwJ5OmSlNLNxiOGgWLPo2WeZvuIY5GJA1UfOCWKbpGyxrqvwlaEc7R8Hl2",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FlYqvJHIZfdMGRwB7HGHfB4l8w7fkKeulEswDzA6kcbhFyJwsmp1DYsHkmCnph97rOKYWtErf4woDZwVbKLooqrKvPUvr79DCRXTlSW3DlTlSZH5NNirNTWVeFT1vvKbPu95k1umwcc3ALotDfPHZQwrHKJ7SBg0q6NogrpfLX9yiZyLJV9hTtK9rzEadGusWwRkhnrXhVvUNqepSddWprlCLT7IMy2ktNPtQgXedO8HtX2gQVhmivSATIcEwpjcUTgwyWBh0RkDpBTJIyQA4glmkjYnckd71yjtBmZl3wTWpiWt4g5cCZQb5qXkNGZ3qawIFuvzNf3gvFIwNfpt5sGJnxLHiKBSpxKKEteCqi44WxoITcl9ZeHtTYSE8FZSoMEhIupX61YbFzJDzT9I2TeQlg20QQDbDWwJgzcEwQaKokAdaCE8huRP5RGSYylss2d54K6UDT00jfksE0eheWswpStTHI4mE08ly18l8iVXUVQQmRBQidIbauceHyResIy2VOSAFeB0KNWLADAYfTdn2QeJNUrYRSHoOiPV8lu809WZXFC6Fc4YgdXUdff3AKHsQDWXc5eMdpEvtPx396jm7UlGJKvjnSV9wJVDlaTnzru5c1PwiGiY00lkHqZ55Vr9ij0HrKhspX7BCfbGHGHu43hgqKhmhGv9sCBYRHtpti88Zkn4IeVoWZnGXOINipHUfadak2f5w",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788932616/products/art-1005009717063164.webp",
       "category": "electronics",
       "rating": 5.0,
@@ -54,8 +36,8 @@
       "sales_volume": 3,
       "score": 0.1004,
       "price_history": [],
-      "fetched_at": "2026-10-01T06:49:48Z",
-      "updated_at": "2026-10-01T06:49:48Z"
+      "fetched_at": "2026-10-03T06:02:21Z",
+      "updated_at": "2026-10-03T06:02:21Z"
     }
   ]
 }
