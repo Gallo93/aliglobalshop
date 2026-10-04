@@ -1,43 +1,6 @@
 {
-  "timestamp": 1791007341.4011593,
+  "timestamp": 1791095899.8953705,
   "slug": "aliexpress-mechanical-keyboard-2026",
-  "updated_at": "2026-10-03T06:02:21Z",
-  "products": [
-    {
-      "product_id": "1005012541156975",
-      "title": "[Genuine] miHoYo Game Honkai Star Rail Cyrene Wireless 2.4G Mechanical Keyboard Bluetooth 5.0 Typc-C interface Cosplay Xmas Gift",
-      "slug": "genuine-mihoyo-game-honkai-star-rail-cyrene-wireless-24g-mec",
-      "price": 219.86,
-      "original_price": 448.69,
-      "discount_pct": 51,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4o33aec0tHeLgcpwZeAtKmkWFwJTCaCFZToXUpoghy1bvKOSQbeganWpZcgXEL2njXzW4WuQ7wqzcWVQMypGs5dAINvWQJWP71laeGdtZNW4Ebw7qOxLlq3e1ZYdULkvNPxAEnkjBo7bJtHKO5rrk46amVMJUXBlrFGZ4IR0MBPIiSAM7mCcjHIfIV3Ga2bfH12CL6zqURD8oMEjumwJqSiCLVBYiO9m5encZ3fVaZ3vr5WFNOPNy6Jok7hhrRNjxXcWTKLkCyeFAI3Xr5Szvqdozapqb1bXI8p8oohtETSLqed82SPOcvXRX3jMBJQK2Os4YJEzz6hu52uSz8zZtGpMDP0VJg19zpw5hKLAEgN3lAqYJPDmTwHjrYeRbLG4K20nW3YhVajRVskB22Aw48HaRipubgKWqPMx9eNsXv9tnCifSwTrmQf6g53gRMBOHjGxOr4qYKpr4My9nXrFHmDJEnc1BMp0eOLk1aO9vIeeGBVt07UYcL3UvA6NUr9hVo1wOWpUPU8t6nhJShonUAETQHEuJBNo70YBAHhvisq5NX7TQCTeuAXz9WC5baQ9hEXRBgBneNuMC8WZ73ZYRCXXbBrR7Ojg8ZiYSpMiwN2ZVCQnaFKev6Lg326Vnm2A7NskDrZf34pAaGC8Ly5oncwTNn0j2pjW25YeR7K0gaCE7I46rDcb9jKxPlK6QBsnV29hCVIEXyGsvL",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1790837388/products/art-1005012541156975.webp",
-      "category": "electronics",
-      "rating": null,
-      "reviews_count": 3,
-      "sales_volume": 3,
-      "score": 0.1534,
-      "price_history": [],
-      "fetched_at": "2026-10-03T06:02:20Z",
-      "updated_at": "2026-10-03T06:02:20Z"
-    },
-    {
-      "product_id": "1005009717063164",
-      "title": "US/RU/SP/FR/TR/AR/NE Backlit Keyboard For MSI GT62 GT72 GE62 GE72 GS60 GS70 GL62 GL72 GP62 GP72 CX62 GS63VR GS73VR GT72VR GT83VR",
-      "slug": "usruspfrtrarne-backlit-keyboard-for-msi-gt62-gt72-ge62-ge72-",
-      "price": 22.5,
-      "original_price": 22.5,
-      "discount_pct": 0,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FlYqvJHIZfdMGRwB7HGHfB4l8w7fkKeulEswDzA6kcbhFyJwsmp1DYsHkmCnph97rOKYWtErf4woDZwVbKLooqrKvPUvr79DCRXTlSW3DlTlSZH5NNirNTWVeFT1vvKbPu95k1umwcc3ALotDfPHZQwrHKJ7SBg0q6NogrpfLX9yiZyLJV9hTtK9rzEadGusWwRkhnrXhVvUNqepSddWprlCLT7IMy2ktNPtQgXedO8HtX2gQVhmivSATIcEwpjcUTgwyWBh0RkDpBTJIyQA4glmkjYnckd71yjtBmZl3wTWpiWt4g5cCZQb5qXkNGZ3qawIFuvzNf3gvFIwNfpt5sGJnxLHiKBSpxKKEteCqi44WxoITcl9ZeHtTYSE8FZSoMEhIupX61YbFzJDzT9I2TeQlg20QQDbDWwJgzcEwQaKokAdaCE8huRP5RGSYylss2d54K6UDT00jfksE0eheWswpStTHI4mE08ly18l8iVXUVQQmRBQidIbauceHyResIy2VOSAFeB0KNWLADAYfTdn2QeJNUrYRSHoOiPV8lu809WZXFC6Fc4YgdXUdff3AKHsQDWXc5eMdpEvtPx396jm7UlGJKvjnSV9wJVDlaTnzru5c1PwiGiY00lkHqZ55Vr9ij0HrKhspX7BCfbGHGHu43hgqKhmhGv9sCBYRHtpti88Zkn4IeVoWZnGXOINipHUfadak2f5w",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788932616/products/art-1005009717063164.webp",
-      "category": "electronics",
-      "rating": 5.0,
-      "reviews_count": 3,
-      "sales_volume": 3,
-      "score": 0.1004,
-      "price_history": [],
-      "fetched_at": "2026-10-03T06:02:21Z",
-      "updated_at": "2026-10-03T06:02:21Z"
-    }
-  ]
+  "updated_at": "2026-10-04T06:38:19Z",
+  "products": []
 }
