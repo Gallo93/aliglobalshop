@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-10-06T07:09:32Z",
+  "updated_at": "2026-10-07T06:49:22Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1556,
       "score": 0.2981,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:21Z",
-      "updated_at": "2026-10-06T07:09:21Z"
+      "fetched_at": "2026-10-07T06:49:12Z",
+      "updated_at": "2026-10-07T06:49:12Z"
     },
     {
       "product_id": "1005002334218166",
@@ -35,8 +35,8 @@
       "sales_volume": 245,
       "score": 0.2867,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:22Z",
-      "updated_at": "2026-10-06T07:09:22Z"
+      "fetched_at": "2026-10-07T06:49:13Z",
+      "updated_at": "2026-10-07T06:49:13Z"
     },
     {
       "product_id": "1005009306467710",
@@ -53,12 +53,12 @@
       "sales_volume": 414,
       "score": 0.2655,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:23Z",
-      "updated_at": "2026-10-06T07:09:23Z"
+      "fetched_at": "2026-10-07T06:49:13Z",
+      "updated_at": "2026-10-07T06:49:13Z"
     },
     {
       "product_id": "1005010374390737",
-      "title": "Sectec 5MP Mini Solar 4G Cámara de vigilancia exterior Camuflaje Color WiFi Seguridad Cámara PIR Detección Auto Tracking UBox App",
+      "title": "Sectec 5MP Mini Solar 4G Cámara de vigilancia al aire libre Camuflaje Color WiFi Seguridad Cámara PIR Detección Auto Tracking UBox App",
       "slug": "sectec-5mp-mini-solar-4g-camera-outdoor-surveillance-camoufl",
       "price": 54.19,
       "original_price": 111.72,
@@ -71,8 +71,8 @@
       "sales_volume": 65,
       "score": 0.2553,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:23Z",
-      "updated_at": "2026-10-06T07:09:23Z"
+      "fetched_at": "2026-10-07T06:49:14Z",
+      "updated_at": "2026-10-07T06:49:14Z"
     },
     {
       "product_id": "1005011666514308",
@@ -89,8 +89,8 @@
       "sales_volume": 10,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:24Z",
-      "updated_at": "2026-10-06T07:09:24Z"
+      "fetched_at": "2026-10-07T06:49:14Z",
+      "updated_at": "2026-10-07T06:49:14Z"
     },
     {
       "product_id": "1005005604363467",
@@ -107,12 +107,12 @@
       "sales_volume": 30,
       "score": 0.242,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:24Z",
-      "updated_at": "2026-10-06T07:09:24Z"
+      "fetched_at": "2026-10-07T06:49:15Z",
+      "updated_at": "2026-10-07T06:49:15Z"
     },
     {
       "product_id": "1005004352005250",
-      "title": "Robot Abanico Abanico Abanico Abagado Motor Vacuum Módulo para IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Piezas de Reparación de Abanicos",
+      "title": "Robot Aparador de limpieza de vacío Montaje del motor del vacío para IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 piezas de reparación de ventiladores de refrigeración",
       "slug": "robot-vacuum-cleaner-fan-assembly-motor-vacuum-module-for-ir",
       "price": 26.59,
       "original_price": 38.54,
@@ -125,8 +125,8 @@
       "sales_volume": 435,
       "score": 0.2343,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:25Z",
-      "updated_at": "2026-10-06T07:09:25Z"
+      "fetched_at": "2026-10-07T06:49:15Z",
+      "updated_at": "2026-10-07T06:49:15Z"
     },
     {
       "product_id": "4000143784956",
@@ -143,12 +143,12 @@
       "sales_volume": 355,
       "score": 0.2287,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:25Z",
-      "updated_at": "2026-10-06T07:09:25Z"
+      "fetched_at": "2026-10-07T06:49:16Z",
+      "updated_at": "2026-10-07T06:49:16Z"
     },
     {
       "product_id": "1005010463738860",
-      "title": "Yoosee 5MP WiFi Seguridad PTZ Indoor IP Cámara 3MP Smart Home Seguridad Color Noche Visión Siren Alarm Humanoid Detection Ai Track",
+      "title": "Yoosee 5MP WiFi Seguridad PTZ Interior Cámara IP 3MP Smart Home Seguridad Color Noche Visión Siren Alarma Humanoide Detection Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
       "price": 24.75,
       "original_price": 41.25,
@@ -161,8 +161,8 @@
       "sales_volume": 52,
       "score": 0.2255,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:26Z",
-      "updated_at": "2026-10-06T07:09:26Z"
+      "fetched_at": "2026-10-07T06:49:16Z",
+      "updated_at": "2026-10-07T06:49:16Z"
     },
     {
       "product_id": "1005011764540594",
@@ -179,8 +179,8 @@
       "sales_volume": 39,
       "score": 0.2247,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:27Z",
-      "updated_at": "2026-10-06T07:09:27Z"
+      "fetched_at": "2026-10-07T06:49:17Z",
+      "updated_at": "2026-10-07T06:49:17Z"
     },
     {
       "product_id": "1005003462342443",
@@ -197,8 +197,8 @@
       "sales_volume": 301,
       "score": 0.2205,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:27Z",
-      "updated_at": "2026-10-06T07:09:27Z"
+      "fetched_at": "2026-10-07T06:49:17Z",
+      "updated_at": "2026-10-07T06:49:17Z"
     },
     {
       "product_id": "1005003568997399",
@@ -215,8 +215,8 @@
       "sales_volume": 121,
       "score": 0.2045,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:28Z",
-      "updated_at": "2026-10-06T07:09:28Z"
+      "fetched_at": "2026-10-07T06:49:18Z",
+      "updated_at": "2026-10-07T06:49:18Z"
     },
     {
       "product_id": "1005004966987077",
@@ -233,12 +233,12 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:28Z",
-      "updated_at": "2026-10-06T07:09:28Z"
+      "fetched_at": "2026-10-07T06:49:19Z",
+      "updated_at": "2026-10-07T06:49:19Z"
     },
     {
       "product_id": "4001041588925",
-      "title": "MoesHouse GU10 WiFi Bombillas LED inteligentes RGBW C+W Lámparas Dimmable blanco Tuya Control remoto Bombillas de luz Trabaja con Alexa/Google",
+      "title": "MoesHouse GU10 WiFi Smart LED Bulbs RGBW C+W Lámparas Dimmable blanco Tuya Bombillas de control remoto Trabaja con Alexa/Google",
       "slug": "moeshouse-gu10-wifi-smart-led-bulbs-rgbw-cw-white-dimmable-l",
       "price": 7.49,
       "original_price": 11.18,
@@ -251,8 +251,8 @@
       "sales_volume": 9,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:29Z",
-      "updated_at": "2026-10-06T07:09:29Z"
+      "fetched_at": "2026-10-07T06:49:19Z",
+      "updated_at": "2026-10-07T06:49:19Z"
     },
     {
       "product_id": "1005004556206576",
@@ -269,8 +269,8 @@
       "sales_volume": 26,
       "score": 0.1996,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:30Z",
-      "updated_at": "2026-10-06T07:09:30Z"
+      "fetched_at": "2026-10-07T06:49:20Z",
+      "updated_at": "2026-10-07T06:49:20Z"
     },
     {
       "product_id": "1005006118602003",
@@ -287,12 +287,12 @@
       "sales_volume": 4,
       "score": 0.1995,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:30Z",
-      "updated_at": "2026-10-06T07:09:30Z"
+      "fetched_at": "2026-10-07T06:49:20Z",
+      "updated_at": "2026-10-07T06:49:20Z"
     },
     {
       "product_id": "1005004671523450",
-      "title": "2PCS engranaje motorizado para irobot 5 6 7 serie limpiador de vacío piezas de acero inoxidable",
+      "title": "2PCS engranaje motorizado para irobot 5 6 7 serie limpiador de vacío lado piezas de acero",
       "slug": "2pcs-upgraded-motor-gear-for-irobot-5-6-7-series-vacuum-clea",
       "price": 6.39,
       "original_price": 9.4,
@@ -305,8 +305,8 @@
       "sales_volume": 32,
       "score": 0.1969,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:31Z",
-      "updated_at": "2026-10-06T07:09:31Z"
+      "fetched_at": "2026-10-07T06:49:20Z",
+      "updated_at": "2026-10-07T06:49:20Z"
     },
     {
       "product_id": "1005003906939600",
@@ -323,8 +323,8 @@
       "sales_volume": 9,
       "score": 0.1938,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:31Z",
-      "updated_at": "2026-10-06T07:09:31Z"
+      "fetched_at": "2026-10-07T06:49:21Z",
+      "updated_at": "2026-10-07T06:49:21Z"
     },
     {
       "product_id": "32898805107",
@@ -341,12 +341,12 @@
       "sales_volume": 11,
       "score": 0.1913,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:32Z",
-      "updated_at": "2026-10-06T07:09:32Z"
+      "fetched_at": "2026-10-07T06:49:21Z",
+      "updated_at": "2026-10-07T06:49:21Z"
     },
     {
       "product_id": "1005008283916283",
-      "title": "Ventilador de repuesto Motor Robot Repuestos de limpieza de vacío Fan Assembly Motor Vacuum Module for IRobot S9 Robot Limpiador de vacío",
+      "title": "Reemplazo ventilador de refrigeración Motor Robot piezas de limpieza de vacío Fan Assembly Motor Vacuum Módulo para IRobot S9 Robot Limpiador de vacío",
       "slug": "replacement-cooling-fan-motor-robot-vacuum-cleaner-parts-fan",
       "price": 46.36,
       "original_price": 64.38,
@@ -359,8 +359,8 @@
       "sales_volume": 20,
       "score": 0.1864,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:32Z",
-      "updated_at": "2026-10-06T07:09:32Z"
+      "fetched_at": "2026-10-07T06:49:22Z",
+      "updated_at": "2026-10-07T06:49:22Z"
     }
   ]
 }

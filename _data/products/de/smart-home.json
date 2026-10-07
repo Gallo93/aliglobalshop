@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-10-06T07:09:32Z",
+  "updated_at": "2026-10-07T06:49:22Z",
   "products": [
     {
       "product_id": "1005009654029579",
@@ -17,8 +17,8 @@
       "sales_volume": 1556,
       "score": 0.2981,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:21Z",
-      "updated_at": "2026-10-06T07:09:21Z"
+      "fetched_at": "2026-10-07T06:49:12Z",
+      "updated_at": "2026-10-07T06:49:12Z"
     },
     {
       "product_id": "1005002334218166",
@@ -35,8 +35,8 @@
       "sales_volume": 245,
       "score": 0.2867,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:22Z",
-      "updated_at": "2026-10-06T07:09:22Z"
+      "fetched_at": "2026-10-07T06:49:13Z",
+      "updated_at": "2026-10-07T06:49:13Z"
     },
     {
       "product_id": "1005009306467710",
@@ -53,8 +53,8 @@
       "sales_volume": 414,
       "score": 0.2655,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:23Z",
-      "updated_at": "2026-10-06T07:09:23Z"
+      "fetched_at": "2026-10-07T06:49:13Z",
+      "updated_at": "2026-10-07T06:49:13Z"
     },
     {
       "product_id": "1005010374390737",
@@ -71,8 +71,8 @@
       "sales_volume": 65,
       "score": 0.2553,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:23Z",
-      "updated_at": "2026-10-06T07:09:23Z"
+      "fetched_at": "2026-10-07T06:49:14Z",
+      "updated_at": "2026-10-07T06:49:14Z"
     },
     {
       "product_id": "1005011666514308",
@@ -89,8 +89,8 @@
       "sales_volume": 10,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:24Z",
-      "updated_at": "2026-10-06T07:09:24Z"
+      "fetched_at": "2026-10-07T06:49:14Z",
+      "updated_at": "2026-10-07T06:49:14Z"
     },
     {
       "product_id": "1005005604363467",
@@ -107,8 +107,8 @@
       "sales_volume": 30,
       "score": 0.242,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:24Z",
-      "updated_at": "2026-10-06T07:09:24Z"
+      "fetched_at": "2026-10-07T06:49:15Z",
+      "updated_at": "2026-10-07T06:49:15Z"
     },
     {
       "product_id": "1005004352005250",
@@ -125,8 +125,8 @@
       "sales_volume": 435,
       "score": 0.2343,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:25Z",
-      "updated_at": "2026-10-06T07:09:25Z"
+      "fetched_at": "2026-10-07T06:49:15Z",
+      "updated_at": "2026-10-07T06:49:15Z"
     },
     {
       "product_id": "4000143784956",
@@ -143,8 +143,8 @@
       "sales_volume": 355,
       "score": 0.2287,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:25Z",
-      "updated_at": "2026-10-06T07:09:25Z"
+      "fetched_at": "2026-10-07T06:49:16Z",
+      "updated_at": "2026-10-07T06:49:16Z"
     },
     {
       "product_id": "1005010463738860",
@@ -161,8 +161,8 @@
       "sales_volume": 52,
       "score": 0.2255,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:26Z",
-      "updated_at": "2026-10-06T07:09:26Z"
+      "fetched_at": "2026-10-07T06:49:16Z",
+      "updated_at": "2026-10-07T06:49:16Z"
     },
     {
       "product_id": "1005011764540594",
@@ -179,12 +179,12 @@
       "sales_volume": 39,
       "score": 0.2247,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:27Z",
-      "updated_at": "2026-10-06T07:09:27Z"
+      "fetched_at": "2026-10-07T06:49:17Z",
+      "updated_at": "2026-10-07T06:49:17Z"
     },
     {
       "product_id": "1005003462342443",
-      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth betrieben Relais Niederspannungsunterstützung über Temperaturschutz",
+      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth Betriebene Relais Niederspannungsunterstützung über Temperaturschutz",
       "slug": "shelly-1-gen3-dry-contact-smart-switch-wifi-bluetooth-operat",
       "price": 16.5,
       "original_price": 23.25,
@@ -197,8 +197,8 @@
       "sales_volume": 301,
       "score": 0.2205,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:27Z",
-      "updated_at": "2026-10-06T07:09:27Z"
+      "fetched_at": "2026-10-07T06:49:17Z",
+      "updated_at": "2026-10-07T06:49:17Z"
     },
     {
       "product_id": "1005003568997399",
@@ -215,8 +215,8 @@
       "sales_volume": 121,
       "score": 0.2045,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:28Z",
-      "updated_at": "2026-10-06T07:09:28Z"
+      "fetched_at": "2026-10-07T06:49:18Z",
+      "updated_at": "2026-10-07T06:49:18Z"
     },
     {
       "product_id": "1005004966987077",
@@ -233,12 +233,12 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:28Z",
-      "updated_at": "2026-10-06T07:09:28Z"
+      "fetched_at": "2026-10-07T06:49:19Z",
+      "updated_at": "2026-10-07T06:49:19Z"
     },
     {
       "product_id": "4001041588925",
-      "title": "MoesHouse GU10 WiFi Smart LED Lampen RGBW C+W Weiße dimmbare Lampen Life Tuya Fernbedienung Lichtlampen arbeiten mit Alexa / Google",
+      "title": "MoesHouse GU10 WiFi Smart LED Lampen RGBW C+W Weiße dimmbare Lampen Leben Tuya Fernbedienung Lichtlampen arbeiten mit Alexa / Google",
       "slug": "moeshouse-gu10-wifi-smart-led-bulbs-rgbw-cw-white-dimmable-l",
       "price": 7.49,
       "original_price": 11.18,
@@ -251,8 +251,8 @@
       "sales_volume": 9,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:29Z",
-      "updated_at": "2026-10-06T07:09:29Z"
+      "fetched_at": "2026-10-07T06:49:19Z",
+      "updated_at": "2026-10-07T06:49:19Z"
     },
     {
       "product_id": "1005004556206576",
@@ -269,8 +269,8 @@
       "sales_volume": 26,
       "score": 0.1996,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:30Z",
-      "updated_at": "2026-10-06T07:09:30Z"
+      "fetched_at": "2026-10-07T06:49:20Z",
+      "updated_at": "2026-10-07T06:49:20Z"
     },
     {
       "product_id": "1005006118602003",
@@ -287,8 +287,8 @@
       "sales_volume": 4,
       "score": 0.1995,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:30Z",
-      "updated_at": "2026-10-06T07:09:30Z"
+      "fetched_at": "2026-10-07T06:49:20Z",
+      "updated_at": "2026-10-07T06:49:20Z"
     },
     {
       "product_id": "1005004671523450",
@@ -305,8 +305,8 @@
       "sales_volume": 32,
       "score": 0.1969,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:31Z",
-      "updated_at": "2026-10-06T07:09:31Z"
+      "fetched_at": "2026-10-07T06:49:20Z",
+      "updated_at": "2026-10-07T06:49:20Z"
     },
     {
       "product_id": "1005003906939600",
@@ -323,8 +323,8 @@
       "sales_volume": 9,
       "score": 0.1938,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:31Z",
-      "updated_at": "2026-10-06T07:09:31Z"
+      "fetched_at": "2026-10-07T06:49:21Z",
+      "updated_at": "2026-10-07T06:49:21Z"
     },
     {
       "product_id": "32898805107",
@@ -341,8 +341,8 @@
       "sales_volume": 11,
       "score": 0.1913,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:32Z",
-      "updated_at": "2026-10-06T07:09:32Z"
+      "fetched_at": "2026-10-07T06:49:21Z",
+      "updated_at": "2026-10-07T06:49:21Z"
     },
     {
       "product_id": "1005008283916283",
@@ -359,8 +359,8 @@
       "sales_volume": 20,
       "score": 0.1864,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:32Z",
-      "updated_at": "2026-10-06T07:09:32Z"
+      "fetched_at": "2026-10-07T06:49:22Z",
+      "updated_at": "2026-10-07T06:49:22Z"
     }
   ]
 }

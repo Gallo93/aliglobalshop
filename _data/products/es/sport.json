@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-10-06T07:09:54Z",
+  "updated_at": "2026-10-07T06:49:35Z",
   "products": [
     {
       "product_id": "32286722941",
@@ -17,8 +17,8 @@
       "sales_volume": 20,
       "score": 0.2944,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:44Z",
-      "updated_at": "2026-10-06T07:09:44Z"
+      "fetched_at": "2026-10-07T06:49:25Z",
+      "updated_at": "2026-10-07T06:49:25Z"
     },
     {
       "product_id": "1005010160889036",
@@ -35,12 +35,12 @@
       "sales_volume": 204,
       "score": 0.2772,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:45Z",
-      "updated_at": "2026-10-06T07:09:45Z"
+      "fetched_at": "2026-10-07T06:49:26Z",
+      "updated_at": "2026-10-07T06:49:26Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "Botella de agua de ciclo X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
+      "title": "Botella de agua de bicicletas X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 12.71,
       "original_price": 29.57,
@@ -53,8 +53,8 @@
       "sales_volume": 0,
       "score": 0.271,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:45Z",
-      "updated_at": "2026-10-06T07:09:45Z"
+      "fetched_at": "2026-10-07T06:49:26Z",
+      "updated_at": "2026-10-07T06:49:26Z"
     },
     {
       "product_id": "1005008772408846",
@@ -71,8 +71,8 @@
       "sales_volume": 31,
       "score": 0.2537,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:46Z",
-      "updated_at": "2026-10-06T07:09:46Z"
+      "fetched_at": "2026-10-07T06:49:27Z",
+      "updated_at": "2026-10-07T06:49:27Z"
     },
     {
       "product_id": "1005010382664758",
@@ -89,12 +89,12 @@
       "sales_volume": 39,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:46Z",
-      "updated_at": "2026-10-06T07:09:46Z"
+      "fetched_at": "2026-10-07T06:49:27Z",
+      "updated_at": "2026-10-07T06:49:27Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Botella de agua deportiva de plástico libre 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
+      "title": "BPA Botella de agua deportiva de plástico gratis 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.89,
       "original_price": 15.79,
@@ -107,8 +107,8 @@
       "sales_volume": 64,
       "score": 0.2525,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:47Z",
-      "updated_at": "2026-10-06T07:09:47Z"
+      "fetched_at": "2026-10-07T06:49:28Z",
+      "updated_at": "2026-10-07T06:49:28Z"
     },
     {
       "product_id": "1005012273080683",
@@ -125,8 +125,8 @@
       "sales_volume": 5,
       "score": 0.2466,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:47Z",
-      "updated_at": "2026-10-06T07:09:47Z"
+      "fetched_at": "2026-10-07T06:49:29Z",
+      "updated_at": "2026-10-07T06:49:29Z"
     },
     {
       "product_id": "1005010051187117",
@@ -143,12 +143,12 @@
       "sales_volume": 20,
       "score": 0.2384,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:48Z",
-      "updated_at": "2026-10-06T07:09:48Z"
+      "fetched_at": "2026-10-07T06:49:29Z",
+      "updated_at": "2026-10-07T06:49:29Z"
     },
     {
       "product_id": "1005009402813403",
-      "title": "Zapatos de Danza Profesional de Danza Moderna para Mujeres Tango Waltz Competencia de Baile de ejercicios de práctica profesional damas tacones 137 SA",
+      "title": "Zapatos de baile profesional de baile moderno para mujeres Tango Waltz Competición de baile de ejercicios de ejercicio damas tacones 137 SA",
       "slug": "bd-dance-professional-modern-dance-shoes-for-women-tango-wal",
       "price": 53.83,
       "original_price": 97.35,
@@ -161,8 +161,8 @@
       "sales_volume": 7,
       "score": 0.2328,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:48Z",
-      "updated_at": "2026-10-06T07:09:48Z"
+      "fetched_at": "2026-10-07T06:49:30Z",
+      "updated_at": "2026-10-07T06:49:30Z"
     },
     {
       "product_id": "1005008804964629",
@@ -179,8 +179,8 @@
       "sales_volume": 6,
       "score": 0.2237,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:49Z",
-      "updated_at": "2026-10-06T07:09:49Z"
+      "fetched_at": "2026-10-07T06:49:30Z",
+      "updated_at": "2026-10-07T06:49:30Z"
     },
     {
       "product_id": "1005008682223950",
@@ -197,12 +197,12 @@
       "sales_volume": 6,
       "score": 0.2207,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:49Z",
-      "updated_at": "2026-10-06T07:09:49Z"
+      "fetched_at": "2026-10-07T06:49:30Z",
+      "updated_at": "2026-10-07T06:49:30Z"
     },
     {
       "product_id": "1005006588685488",
-      "title": "Extra Thick 15mm Hombres de Yoga Mujer Fitness NBR Soft Mat Sin gusto Gimnasio Ejercicio Pilates Yoga Mat",
+      "title": "Extra Thick 15mm Yoga Mat Hombres Mujer Fitness NBR Soft Mat Sin gusto Gimnasio Ejercicio Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
       "price": 23.5,
       "original_price": 39.16,
@@ -215,12 +215,12 @@
       "sales_volume": 5,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:50Z",
-      "updated_at": "2026-10-06T07:09:50Z"
+      "fetched_at": "2026-10-07T06:49:31Z",
+      "updated_at": "2026-10-07T06:49:31Z"
     },
     {
       "product_id": "1005005807293081",
-      "title": "ROCKBROS 670ML Bicicleta Agua Botella de agua de cilíndrilo aislado Gimnasio Running Sports Water Bottle MTB Road Bike Thermal Bottle",
+      "title": "ROCKBROS 670ML Bicicleta Agua Botella Aislante Ciclismo Agua Bicicleta Bicicleta Bicicleta Térmica Bicicleta Termal Botella",
       "slug": "rockbros-670ml-bicycle-water-bottle-insulated-cycling-water-",
       "price": 8.27,
       "original_price": 13.78,
@@ -233,12 +233,12 @@
       "sales_volume": 33,
       "score": 0.216,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:51Z",
-      "updated_at": "2026-10-06T07:09:51Z"
+      "fetched_at": "2026-10-07T06:49:31Z",
+      "updated_at": "2026-10-07T06:49:31Z"
     },
     {
       "product_id": "1005008896298252",
-      "title": "Almuerzo sin costuras Mujeres Pantalones deportivos sin costuras Banda baja Gimnasio Ropa Fitness Ejercicio Salto de ejercicio Peso Bum",
+      "title": "Almuerzos sin costuras Mujeres Deportes sin costuras Yoga Pantalones Banda baja Gimnasio Ropa de ejercicio Fitness Saltos de bum",
       "slug": "seamless-halleggings-women-seamless-sports-yoga-pants-low-ri",
       "price": 19.78,
       "original_price": 37.32,
@@ -251,8 +251,8 @@
       "sales_volume": 14,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:51Z",
-      "updated_at": "2026-10-06T07:09:51Z"
+      "fetched_at": "2026-10-07T06:49:32Z",
+      "updated_at": "2026-10-07T06:49:32Z"
     },
     {
       "product_id": "1005008813902899",
@@ -269,12 +269,12 @@
       "sales_volume": 104,
       "score": 0.2102,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:52Z",
-      "updated_at": "2026-10-06T07:09:52Z"
+      "fetched_at": "2026-10-07T06:49:32Z",
+      "updated_at": "2026-10-07T06:49:32Z"
     },
     {
       "product_id": "1005010464486496",
-      "title": "15MM-20MM Thick Yoga Mats Anti-slip Sport Fitness Blanket Ejercicio Yoga y Pilates Gimnasia Mat Fitness Equipamiento 183×60cm",
+      "title": "15MM-20MM Thick Yoga Mats Anti-slip Sport Fitness Blanket Ejercicio Yoga y Pilates Gimnasia Mat Fitness Equipment 183×60cm",
       "slug": "15mm-20mm-thick-yoga-mats-anti-slip-sport-fitness-blanket-ex",
       "price": 26.28,
       "original_price": 39.23,
@@ -287,8 +287,8 @@
       "sales_volume": 13,
       "score": 0.2006,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:53Z",
-      "updated_at": "2026-10-06T07:09:53Z"
+      "fetched_at": "2026-10-07T06:49:33Z",
+      "updated_at": "2026-10-07T06:49:33Z"
     },
     {
       "product_id": "1005007585433148",
@@ -305,12 +305,12 @@
       "sales_volume": 17,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:53Z",
-      "updated_at": "2026-10-06T07:09:53Z"
+      "fetched_at": "2026-10-07T06:49:33Z",
+      "updated_at": "2026-10-07T06:49:33Z"
     },
     {
       "product_id": "1005012924499264",
-      "title": "Conjunto de bandas de resistencia con anclas de puerta Bandas de ejercicio de látex natural para ejercicios domésticos entrenamiento de cuerpo",
+      "title": "Conjunto de bandas de resistencia con anclas de puerta Bandas de ejercicio de látex natural para ejercicios domésticos Entrenamiento del cuerpo",
       "slug": "resistance-band-set-with-door-anchors-natural-latex-exercise",
       "price": 4.26,
       "original_price": 9.7,
@@ -323,12 +323,12 @@
       "sales_volume": 0,
       "score": 0.168,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:53Z",
-      "updated_at": "2026-10-06T07:09:53Z"
+      "fetched_at": "2026-10-07T06:49:34Z",
+      "updated_at": "2026-10-07T06:49:34Z"
     },
     {
       "product_id": "1005013200670747",
-      "title": "Gran capacidad aislado agua de acero inoxidable botella de agua de los deportes al aire libre de los termos para hombres y mujeres bebé en el go",
+      "title": "Gran capacidad Aislamiento de agua de acero inoxidable botella de agua de los deportes al aire libre termos para hombres y mujeres bebé en el go",
       "slug": "large-capacity-insulated-stainless-steel-water-bottle-outdoo",
       "price": 26.66,
       "original_price": 59.24,
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.165,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:54Z",
-      "updated_at": "2026-10-06T07:09:54Z"
+      "fetched_at": "2026-10-07T06:49:34Z",
+      "updated_at": "2026-10-07T06:49:34Z"
     },
     {
       "product_id": "1005013190287086",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.165,
       "price_history": [],
-      "fetched_at": "2026-10-06T07:09:54Z",
-      "updated_at": "2026-10-06T07:09:54Z"
+      "fetched_at": "2026-10-07T06:49:35Z",
+      "updated_at": "2026-10-07T06:49:35Z"
     }
   ]
 }
