@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-10-09T07:07:47Z",
+  "updated_at": "2026-10-10T06:40:01Z",
   "products": [
     {
       "product_id": "1005007587741414",
@@ -17,8 +17,8 @@
       "sales_volume": 104,
       "score": 0.2767,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:36Z",
-      "updated_at": "2026-10-09T07:07:36Z"
+      "fetched_at": "2026-10-10T06:39:53Z",
+      "updated_at": "2026-10-10T06:39:53Z"
     },
     {
       "product_id": "1005012124060756",
@@ -35,8 +35,8 @@
       "sales_volume": 104,
       "score": 0.2589,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:37Z",
-      "updated_at": "2026-10-09T07:07:37Z"
+      "fetched_at": "2026-10-10T06:39:54Z",
+      "updated_at": "2026-10-10T06:39:54Z"
     },
     {
       "product_id": "1005010253348075",
@@ -53,8 +53,8 @@
       "sales_volume": 21,
       "score": 0.2585,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:37Z",
-      "updated_at": "2026-10-09T07:07:37Z"
+      "fetched_at": "2026-10-10T06:39:54Z",
+      "updated_at": "2026-10-10T06:39:54Z"
     },
     {
       "product_id": "1005012349888176",
@@ -71,8 +71,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:38Z",
-      "updated_at": "2026-10-09T07:07:38Z"
+      "fetched_at": "2026-10-10T06:39:54Z",
+      "updated_at": "2026-10-10T06:39:54Z"
     },
     {
       "product_id": "1005012290442752",
@@ -89,8 +89,8 @@
       "sales_volume": 3,
       "score": 0.2504,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:38Z",
-      "updated_at": "2026-10-09T07:07:38Z"
+      "fetched_at": "2026-10-10T06:39:55Z",
+      "updated_at": "2026-10-10T06:39:55Z"
     },
     {
       "product_id": "1005012117977728",
@@ -107,12 +107,12 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:39Z",
-      "updated_at": "2026-10-09T07:07:39Z"
+      "fetched_at": "2026-10-10T06:39:55Z",
+      "updated_at": "2026-10-10T06:39:55Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
+      "title": "10000/20000mAh Banco de potencia móvil de gran capacidad para IPhone Android Teléfono compartido - Cable Contenido (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.79,
       "original_price": 41.57,
@@ -125,12 +125,12 @@
       "sales_volume": 59,
       "score": 0.2465,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:39Z",
-      "updated_at": "2026-10-09T07:07:39Z"
+      "fetched_at": "2026-10-10T06:39:56Z",
+      "updated_at": "2026-10-10T06:39:56Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank Construido en 4 Cable Portable Charger Cute Pet Cartoon Espejo de maquillaje Powerbank Power Bank",
+      "title": "20000mAh Mini Power Bank Construido en 4 Cable Cargador portable Cute Pet Cartoon Espejo de maquillaje Powerbank Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.71,
       "original_price": 21.43,
@@ -143,8 +143,8 @@
       "sales_volume": 18,
       "score": 0.2455,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:40Z",
-      "updated_at": "2026-10-09T07:07:40Z"
+      "fetched_at": "2026-10-10T06:39:56Z",
+      "updated_at": "2026-10-10T06:39:56Z"
     },
     {
       "product_id": "1005012706928990",
@@ -161,12 +161,12 @@
       "sales_volume": 3,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:41Z",
-      "updated_at": "2026-10-09T07:07:41Z"
+      "fetched_at": "2026-10-10T06:39:56Z",
+      "updated_at": "2026-10-10T06:39:56Z"
     },
     {
       "product_id": "1005009589681770",
-      "title": "20000mAh Power Bank for Heated Vest Jacket Air Condition Clothes Powerbank con 7.4V DC Port Bateria para iphone Todos los teléfonos inteligentes",
+      "title": "20000mAh Power Bank for Heated Vest Jacket Air Condition Clothes Powerbank with 7.4V DC Port Bateria for iphone All Smartphones",
       "slug": "20000mah-power-bank-for-heated-vest-jacket-air-condition-clo",
       "price": 17.32,
       "original_price": 29.37,
@@ -179,8 +179,8 @@
       "sales_volume": 3,
       "score": 0.2234,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:42Z",
-      "updated_at": "2026-10-09T07:07:42Z"
+      "fetched_at": "2026-10-10T06:39:57Z",
+      "updated_at": "2026-10-10T06:39:57Z"
     },
     {
       "product_id": "1005012408073378",
@@ -197,8 +197,8 @@
       "sales_volume": 21,
       "score": 0.2225,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:42Z",
-      "updated_at": "2026-10-09T07:07:42Z"
+      "fetched_at": "2026-10-10T06:39:57Z",
+      "updated_at": "2026-10-10T06:39:57Z"
     },
     {
       "product_id": "1005009133277403",
@@ -215,8 +215,8 @@
       "sales_volume": 1,
       "score": 0.2201,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:42Z",
-      "updated_at": "2026-10-09T07:07:42Z"
+      "fetched_at": "2026-10-10T06:39:58Z",
+      "updated_at": "2026-10-10T06:39:58Z"
     },
     {
       "product_id": "1005004204383810",
@@ -233,12 +233,12 @@
       "sales_volume": 34,
       "score": 0.2131,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:43Z",
-      "updated_at": "2026-10-09T07:07:43Z"
+      "fetched_at": "2026-10-10T06:39:58Z",
+      "updated_at": "2026-10-10T06:39:58Z"
     },
     {
       "product_id": "1005005070548245",
-      "title": "Cargador USB de 10 puertos 50W/10A Cargador multi puerto USB C Hub para Tablet de Celular Socket de extensión de dispositivos",
+      "title": "Cargador USB de 10 puertos 50W/10A Cargador de Hub USB C para Tablet de Celular Socket de extensión de dispositivos",
       "slug": "usb-charging-station-10-ports-50w10a-multi-port-usb-c-hub-ch",
       "price": 9.21,
       "original_price": 13.16,
@@ -251,8 +251,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:44Z",
-      "updated_at": "2026-10-09T07:07:44Z"
+      "fetched_at": "2026-10-10T06:39:59Z",
+      "updated_at": "2026-10-10T06:39:59Z"
     },
     {
       "product_id": "1005009849333993",
@@ -269,8 +269,8 @@
       "sales_volume": 6,
       "score": 0.1907,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:44Z",
-      "updated_at": "2026-10-09T07:07:44Z"
+      "fetched_at": "2026-10-10T06:39:59Z",
+      "updated_at": "2026-10-10T06:39:59Z"
     },
     {
       "product_id": "1005006536808127",
@@ -287,8 +287,8 @@
       "sales_volume": 10,
       "score": 0.1868,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:45Z",
-      "updated_at": "2026-10-09T07:07:45Z"
+      "fetched_at": "2026-10-10T06:39:59Z",
+      "updated_at": "2026-10-10T06:39:59Z"
     },
     {
       "product_id": "1005009475992576",
@@ -305,8 +305,8 @@
       "sales_volume": 34,
       "score": 0.1609,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:45Z",
-      "updated_at": "2026-10-09T07:07:45Z"
+      "fetched_at": "2026-10-10T06:40:00Z",
+      "updated_at": "2026-10-10T06:40:00Z"
     },
     {
       "product_id": "1005009503850484",
@@ -323,8 +323,8 @@
       "sales_volume": 53,
       "score": 0.16,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:46Z",
-      "updated_at": "2026-10-09T07:07:46Z"
+      "fetched_at": "2026-10-10T06:40:00Z",
+      "updated_at": "2026-10-10T06:40:00Z"
     },
     {
       "product_id": "1005013176687281",
@@ -341,8 +341,8 @@
       "sales_volume": 2,
       "score": 0.1502,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:46Z",
-      "updated_at": "2026-10-09T07:07:46Z"
+      "fetched_at": "2026-10-10T06:40:01Z",
+      "updated_at": "2026-10-10T06:40:01Z"
     },
     {
       "product_id": "1005013196554725",
@@ -359,8 +359,8 @@
       "sales_volume": 2,
       "score": 0.1502,
       "price_history": [],
-      "fetched_at": "2026-10-09T07:07:46Z",
-      "updated_at": "2026-10-09T07:07:46Z"
+      "fetched_at": "2026-10-10T06:40:01Z",
+      "updated_at": "2026-10-10T06:40:01Z"
     }
   ]
 }
