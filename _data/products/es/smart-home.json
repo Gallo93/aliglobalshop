@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-10-13T07:20:12Z",
+  "updated_at": "2026-10-14T05:45:46Z",
   "products": [
     {
       "product_id": "1005002334218166",
@@ -17,8 +17,8 @@
       "sales_volume": 246,
       "score": 0.2868,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:19:59Z",
-      "updated_at": "2026-10-13T07:19:59Z"
+      "fetched_at": "2026-10-14T05:45:37Z",
+      "updated_at": "2026-10-14T05:45:37Z"
     },
     {
       "product_id": "1005009306467710",
@@ -35,8 +35,8 @@
       "sales_volume": 431,
       "score": 0.2678,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:00Z",
-      "updated_at": "2026-10-13T07:20:00Z"
+      "fetched_at": "2026-10-14T05:45:38Z",
+      "updated_at": "2026-10-14T05:45:38Z"
     },
     {
       "product_id": "1005008468554601",
@@ -53,8 +53,8 @@
       "sales_volume": 3,
       "score": 0.2624,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:01Z",
-      "updated_at": "2026-10-13T07:20:01Z"
+      "fetched_at": "2026-10-14T05:45:38Z",
+      "updated_at": "2026-10-14T05:45:38Z"
     },
     {
       "product_id": "1005012799658917",
@@ -71,8 +71,8 @@
       "sales_volume": 2,
       "score": 0.2622,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:02Z",
-      "updated_at": "2026-10-13T07:20:02Z"
+      "fetched_at": "2026-10-14T05:45:39Z",
+      "updated_at": "2026-10-14T05:45:39Z"
     },
     {
       "product_id": "1005001394925942",
@@ -89,8 +89,8 @@
       "sales_volume": 11,
       "score": 0.2573,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:03Z",
-      "updated_at": "2026-10-13T07:20:03Z"
+      "fetched_at": "2026-10-14T05:45:39Z",
+      "updated_at": "2026-10-14T05:45:39Z"
     },
     {
       "product_id": "1005010374390737",
@@ -107,8 +107,8 @@
       "sales_volume": 61,
       "score": 0.2548,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:03Z",
-      "updated_at": "2026-10-13T07:20:03Z"
+      "fetched_at": "2026-10-14T05:45:40Z",
+      "updated_at": "2026-10-14T05:45:40Z"
     },
     {
       "product_id": "1005011666514308",
@@ -125,8 +125,8 @@
       "sales_volume": 10,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:04Z",
-      "updated_at": "2026-10-13T07:20:04Z"
+      "fetched_at": "2026-10-14T05:45:40Z",
+      "updated_at": "2026-10-14T05:45:40Z"
     },
     {
       "product_id": "1005005604363467",
@@ -143,8 +143,8 @@
       "sales_volume": 28,
       "score": 0.2418,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:04Z",
-      "updated_at": "2026-10-13T07:20:04Z"
+      "fetched_at": "2026-10-14T05:45:40Z",
+      "updated_at": "2026-10-14T05:45:40Z"
     },
     {
       "product_id": "1005005807578430",
@@ -161,8 +161,8 @@
       "sales_volume": 3,
       "score": 0.2364,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:04Z",
-      "updated_at": "2026-10-13T07:20:04Z"
+      "fetched_at": "2026-10-14T05:45:41Z",
+      "updated_at": "2026-10-14T05:45:41Z"
     },
     {
       "product_id": "1005009195955688",
@@ -179,12 +179,12 @@
       "sales_volume": 8,
       "score": 0.235,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:05Z",
-      "updated_at": "2026-10-13T07:20:05Z"
+      "fetched_at": "2026-10-14T05:45:41Z",
+      "updated_at": "2026-10-14T05:45:41Z"
     },
     {
       "product_id": "1005004352005250",
-      "title": "Robot Abanico Abanico Abanico Abagado Motor Vacuum Módulo para IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Piezas de Reparación de Abanicos",
+      "title": "Robot Aparador Aparador Aparador Aparador Asamblea Motor Vacuum Módulo para IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Piezas de reparación de aficionados",
       "slug": "robot-vacuum-cleaner-fan-assembly-motor-vacuum-module-for-ir",
       "price": 26.59,
       "original_price": 38.54,
@@ -197,8 +197,8 @@
       "sales_volume": 421,
       "score": 0.2327,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:06Z",
-      "updated_at": "2026-10-13T07:20:06Z"
+      "fetched_at": "2026-10-14T05:45:42Z",
+      "updated_at": "2026-10-14T05:45:42Z"
     },
     {
       "product_id": "4000143784956",
@@ -215,12 +215,12 @@
       "sales_volume": 348,
       "score": 0.2279,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:07Z",
-      "updated_at": "2026-10-13T07:20:07Z"
+      "fetched_at": "2026-10-14T05:45:42Z",
+      "updated_at": "2026-10-14T05:45:42Z"
     },
     {
       "product_id": "1005011764540594",
-      "title": "OKAM PRO 4G HD 5MP Cámara de cable Mini cámara de vigilancia inalámbrica 2400mAh batería PIR detección humana protección de seguridad",
+      "title": "OKAM PRO 4G HD 5MP Cámara de cable Mini cámara de vigilancia inalámbrica 2400mAh batería potenciada PIR protección de seguridad",
       "slug": "okam-pro-4g-hd-5mp-wifi-camera-mini-wireless-surveillance-ca",
       "price": 37.89,
       "original_price": 63.14,
@@ -233,8 +233,8 @@
       "sales_volume": 38,
       "score": 0.2246,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:07Z",
-      "updated_at": "2026-10-13T07:20:07Z"
+      "fetched_at": "2026-10-14T05:45:43Z",
+      "updated_at": "2026-10-14T05:45:43Z"
     },
     {
       "product_id": "1005012750087339",
@@ -251,8 +251,8 @@
       "sales_volume": 10,
       "score": 0.2212,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:08Z",
-      "updated_at": "2026-10-13T07:20:08Z"
+      "fetched_at": "2026-10-14T05:45:43Z",
+      "updated_at": "2026-10-14T05:45:43Z"
     },
     {
       "product_id": "1005009425871992",
@@ -269,8 +269,8 @@
       "sales_volume": 40,
       "score": 0.217,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:08Z",
-      "updated_at": "2026-10-13T07:20:08Z"
+      "fetched_at": "2026-10-14T05:45:43Z",
+      "updated_at": "2026-10-14T05:45:43Z"
     },
     {
       "product_id": "1005004966987077",
@@ -287,12 +287,12 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:09Z",
-      "updated_at": "2026-10-13T07:20:09Z"
+      "fetched_at": "2026-10-14T05:45:44Z",
+      "updated_at": "2026-10-14T05:45:44Z"
     },
     {
       "product_id": "1005004671523450",
-      "title": "2PCS engranaje motorizado para irobot 5 6 7 serie limpiador de vacío piezas de acero inoxidable",
+      "title": "2PCS engranaje motorizado para irobot 5 6 7 serie de vacío limpiador lateral piezas de acero",
       "slug": "2pcs-upgraded-motor-gear-for-irobot-5-6-7-series-vacuum-clea",
       "price": 6.39,
       "original_price": 9.4,
@@ -305,8 +305,8 @@
       "sales_volume": 32,
       "score": 0.1973,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:09Z",
-      "updated_at": "2026-10-13T07:20:09Z"
+      "fetched_at": "2026-10-14T05:45:45Z",
+      "updated_at": "2026-10-14T05:45:45Z"
     },
     {
       "product_id": "1005003568997399",
@@ -323,8 +323,8 @@
       "sales_volume": 127,
       "score": 0.1932,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:10Z",
-      "updated_at": "2026-10-13T07:20:10Z"
+      "fetched_at": "2026-10-14T05:45:45Z",
+      "updated_at": "2026-10-14T05:45:45Z"
     },
     {
       "product_id": "32898805107",
@@ -341,8 +341,8 @@
       "sales_volume": 11,
       "score": 0.1913,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:10Z",
-      "updated_at": "2026-10-13T07:20:10Z"
+      "fetched_at": "2026-10-14T05:45:45Z",
+      "updated_at": "2026-10-14T05:45:45Z"
     },
     {
       "product_id": "1005007794432266",
@@ -359,8 +359,8 @@
       "sales_volume": 6,
       "score": 0.1887,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:11Z",
-      "updated_at": "2026-10-13T07:20:11Z"
+      "fetched_at": "2026-10-14T05:45:46Z",
+      "updated_at": "2026-10-14T05:45:46Z"
     }
   ]
 }

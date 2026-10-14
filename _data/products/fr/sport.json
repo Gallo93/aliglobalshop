@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-10-13T07:20:33Z",
+  "updated_at": "2026-10-14T05:45:58Z",
   "products": [
     {
       "product_id": "32286722941",
@@ -17,8 +17,8 @@
       "sales_volume": 20,
       "score": 0.2944,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:23Z",
-      "updated_at": "2026-10-13T07:20:23Z"
+      "fetched_at": "2026-10-14T05:45:49Z",
+      "updated_at": "2026-10-14T05:45:49Z"
     },
     {
       "product_id": "1005010160889036",
@@ -35,8 +35,8 @@
       "sales_volume": 216,
       "score": 0.2776,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:23Z",
-      "updated_at": "2026-10-13T07:20:23Z"
+      "fetched_at": "2026-10-14T05:45:49Z",
+      "updated_at": "2026-10-14T05:45:49Z"
     },
     {
       "product_id": "1005010786413625",
@@ -53,8 +53,8 @@
       "sales_volume": 0,
       "score": 0.271,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:24Z",
-      "updated_at": "2026-10-13T07:20:24Z"
+      "fetched_at": "2026-10-14T05:45:50Z",
+      "updated_at": "2026-10-14T05:45:50Z"
     },
     {
       "product_id": "1005009366357679",
@@ -71,8 +71,8 @@
       "sales_volume": 3,
       "score": 0.2624,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:24Z",
-      "updated_at": "2026-10-13T07:20:24Z"
+      "fetched_at": "2026-10-14T05:45:50Z",
+      "updated_at": "2026-10-14T05:45:50Z"
     },
     {
       "product_id": "1005007517245266",
@@ -89,8 +89,8 @@
       "sales_volume": 17,
       "score": 0.262,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:25Z",
-      "updated_at": "2026-10-13T07:20:25Z"
+      "fetched_at": "2026-10-14T05:45:51Z",
+      "updated_at": "2026-10-14T05:45:51Z"
     },
     {
       "product_id": "1005008772408846",
@@ -107,12 +107,12 @@
       "sales_volume": 30,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:25Z",
-      "updated_at": "2026-10-13T07:20:25Z"
+      "fetched_at": "2026-10-14T05:45:51Z",
+      "updated_at": "2026-10-14T05:45:51Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Sans plastique Sports bouteille d'eau 400/500/700/1000ml Portable étanche Bouteille de vélo",
+      "title": "BPA Bouteille d'eau de sport sans plastique 400/500/700/1000ml Portable étanche Bouteille de vélo",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.89,
       "original_price": 15.79,
@@ -125,8 +125,8 @@
       "sales_volume": 63,
       "score": 0.2524,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:26Z",
-      "updated_at": "2026-10-13T07:20:26Z"
+      "fetched_at": "2026-10-14T05:45:52Z",
+      "updated_at": "2026-10-14T05:45:52Z"
     },
     {
       "product_id": "1005012273080683",
@@ -143,8 +143,8 @@
       "sales_volume": 6,
       "score": 0.2467,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:26Z",
-      "updated_at": "2026-10-13T07:20:26Z"
+      "fetched_at": "2026-10-14T05:45:52Z",
+      "updated_at": "2026-10-14T05:45:52Z"
     },
     {
       "product_id": "1005009049503829",
@@ -161,8 +161,8 @@
       "sales_volume": 17,
       "score": 0.2403,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:27Z",
-      "updated_at": "2026-10-13T07:20:27Z"
+      "fetched_at": "2026-10-14T05:45:53Z",
+      "updated_at": "2026-10-14T05:45:53Z"
     },
     {
       "product_id": "1005010051187117",
@@ -179,12 +179,12 @@
       "sales_volume": 20,
       "score": 0.2384,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:27Z",
-      "updated_at": "2026-10-13T07:20:27Z"
+      "fetched_at": "2026-10-14T05:45:53Z",
+      "updated_at": "2026-10-14T05:45:53Z"
     },
     {
       "product_id": "1005008804964629",
-      "title": "Flash Inline Roller Patins Femmes Hommes Taille réglable 26-41 Pour Garçons Filles Débutant Sneakers de patinage extérieur 4 Roues Chaussures de Patinage",
+      "title": "Flash Inline Roller Patins Femmes Hommes Taille réglable 26-41 Pour Garçons Filles Débutant Sneakers de Patinage Extérieur 4 Roues Chaussures de Patinage",
       "slug": "flash-inline-roller-skates-women-men-adjustable-size-26-41-f",
       "price": 11.34,
       "original_price": 19.23,
@@ -197,12 +197,12 @@
       "sales_volume": 4,
       "score": 0.2235,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:28Z",
-      "updated_at": "2026-10-13T07:20:28Z"
+      "fetched_at": "2026-10-14T05:45:54Z",
+      "updated_at": "2026-10-14T05:45:54Z"
     },
     {
       "product_id": "1005008682223950",
-      "title": "ROCKBROS Sports bande de tête pour les hommes femmes Courant bande de sweat stretch élastique sport de plein air bande de sweat Gym Fitness Yoga Headwrap",
+      "title": "ROCKBROS Sport bande de tête pour les hommes femmes Courant bande de sweat stretch élastique sport de plein air bande de sweat Gym Fitness Yoga Headwrap",
       "slug": "rockbros-sports-headband-for-men-women-running-sweatband-str",
       "price": 4.59,
       "original_price": 7.65,
@@ -215,8 +215,8 @@
       "sales_volume": 6,
       "score": 0.2207,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:28Z",
-      "updated_at": "2026-10-13T07:20:28Z"
+      "fetched_at": "2026-10-14T05:45:54Z",
+      "updated_at": "2026-10-14T05:45:54Z"
     },
     {
       "product_id": "1005009402813403",
@@ -233,12 +233,12 @@
       "sales_volume": 8,
       "score": 0.218,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:29Z",
-      "updated_at": "2026-10-13T07:20:29Z"
+      "fetched_at": "2026-10-14T05:45:55Z",
+      "updated_at": "2026-10-14T05:45:55Z"
     },
     {
       "product_id": "1005005807293081",
-      "title": "ROCKBROS 670ML Bouteille d'eau de vélo Isolée Cyclisme Bouteille d'eau Gymnase Sports Bouteille d'eau MTB Road Bike Bouteille thermique",
+      "title": "ROCKBROS 670ML Bouteille d'eau à vélo Isolée à vélo Bouteille d'eau Gymnase Sports Bouteille d'eau MTB Road Bike Bouteille thermique",
       "slug": "rockbros-670ml-bicycle-water-bottle-insulated-cycling-water-",
       "price": 8.27,
       "original_price": 13.78,
@@ -251,8 +251,8 @@
       "sales_volume": 34,
       "score": 0.217,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:30Z",
-      "updated_at": "2026-10-13T07:20:30Z"
+      "fetched_at": "2026-10-14T05:45:55Z",
+      "updated_at": "2026-10-14T05:45:55Z"
     },
     {
       "product_id": "1005008996623976",
@@ -269,8 +269,8 @@
       "sales_volume": 15,
       "score": 0.2155,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:30Z",
-      "updated_at": "2026-10-13T07:20:30Z"
+      "fetched_at": "2026-10-14T05:45:56Z",
+      "updated_at": "2026-10-14T05:45:56Z"
     },
     {
       "product_id": "1005008896298252",
@@ -287,12 +287,12 @@
       "sales_volume": 14,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:31Z",
-      "updated_at": "2026-10-13T07:20:31Z"
+      "fetched_at": "2026-10-14T05:45:56Z",
+      "updated_at": "2026-10-14T05:45:56Z"
     },
     {
       "product_id": "1005008813902899",
-      "title": "1~10m Nature Latex caoutchouc Hoses ID 1.6~18mm Jaune Haute Résilient Aller Tube de pêche Slingshot Catapulte élastique bande de fitness",
+      "title": "1~10m Nature Latex caoutchouc Hoses ID 1.6~18mm Jaune Haute Résilient Go Tube de pêche Slingshot Catapulte élastique bande de fitness",
       "slug": "110m-nature-latex-rubber-hoses-id-1618mm-yellow-high-resilie",
       "price": 0.7,
       "original_price": 0.99,
@@ -305,8 +305,8 @@
       "sales_volume": 102,
       "score": 0.198,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:31Z",
-      "updated_at": "2026-10-13T07:20:31Z"
+      "fetched_at": "2026-10-14T05:45:56Z",
+      "updated_at": "2026-10-14T05:45:56Z"
     },
     {
       "product_id": "1005008637028033",
@@ -323,8 +323,8 @@
       "sales_volume": 124,
       "score": 0.1964,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:32Z",
-      "updated_at": "2026-10-13T07:20:32Z"
+      "fetched_at": "2026-10-14T05:45:57Z",
+      "updated_at": "2026-10-14T05:45:57Z"
     },
     {
       "product_id": "1005006588685488",
@@ -341,8 +341,8 @@
       "sales_volume": 6,
       "score": 0.194,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:33Z",
-      "updated_at": "2026-10-13T07:20:33Z"
+      "fetched_at": "2026-10-14T05:45:58Z",
+      "updated_at": "2026-10-14T05:45:58Z"
     },
     {
       "product_id": "1005007585433148",
@@ -359,8 +359,8 @@
       "sales_volume": 18,
       "score": 0.1772,
       "price_history": [],
-      "fetched_at": "2026-10-13T07:20:33Z",
-      "updated_at": "2026-10-13T07:20:33Z"
+      "fetched_at": "2026-10-14T05:45:58Z",
+      "updated_at": "2026-10-14T05:45:58Z"
     }
   ]
 }
