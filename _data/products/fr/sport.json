@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-10-19T05:41:12Z",
+  "updated_at": "2026-10-20T05:39:17Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3524,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:02Z",
-      "updated_at": "2026-10-19T05:41:02Z"
+      "fetched_at": "2026-10-20T05:39:08Z",
+      "updated_at": "2026-10-20T05:39:08Z"
     },
     {
       "product_id": "1005010160889036",
@@ -35,8 +35,8 @@
       "sales_volume": 225,
       "score": 0.2787,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:02Z",
-      "updated_at": "2026-10-19T05:41:02Z"
+      "fetched_at": "2026-10-20T05:39:08Z",
+      "updated_at": "2026-10-20T05:39:08Z"
     },
     {
       "product_id": "1005010786413625",
@@ -53,8 +53,8 @@
       "sales_volume": 0,
       "score": 0.265,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:03Z",
-      "updated_at": "2026-10-19T05:41:03Z"
+      "fetched_at": "2026-10-20T05:39:09Z",
+      "updated_at": "2026-10-20T05:39:09Z"
     },
     {
       "product_id": "1005009366357679",
@@ -71,8 +71,8 @@
       "sales_volume": 3,
       "score": 0.2594,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:03Z",
-      "updated_at": "2026-10-19T05:41:03Z"
+      "fetched_at": "2026-10-20T05:39:09Z",
+      "updated_at": "2026-10-20T05:39:09Z"
     },
     {
       "product_id": "32286722941",
@@ -89,8 +89,8 @@
       "sales_volume": 21,
       "score": 0.2585,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:04Z",
-      "updated_at": "2026-10-19T05:41:04Z"
+      "fetched_at": "2026-10-20T05:39:10Z",
+      "updated_at": "2026-10-20T05:39:10Z"
     },
     {
       "product_id": "1005008772408846",
@@ -107,8 +107,8 @@
       "sales_volume": 30,
       "score": 0.2536,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:04Z",
-      "updated_at": "2026-10-19T05:41:04Z"
+      "fetched_at": "2026-10-20T05:39:10Z",
+      "updated_at": "2026-10-20T05:39:10Z"
     },
     {
       "product_id": "1005010382664758",
@@ -125,12 +125,12 @@
       "sales_volume": 37,
       "score": 0.2533,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:04Z",
-      "updated_at": "2026-10-19T05:41:04Z"
+      "fetched_at": "2026-10-20T05:39:11Z",
+      "updated_at": "2026-10-20T05:39:11Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Sans plastique Sports bouteille d'eau 400/500/700/1000ml Portable étanche Bouteille de vélo",
+      "title": "BPA Bouteille d'eau de sport sans plastique 400/500/700/1000ml Portable étanche Bouteille de vélo",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.89,
       "original_price": 15.79,
@@ -143,12 +143,12 @@
       "sales_volume": 63,
       "score": 0.2524,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:05Z",
-      "updated_at": "2026-10-19T05:41:05Z"
+      "fetched_at": "2026-10-20T05:39:11Z",
+      "updated_at": "2026-10-20T05:39:11Z"
     },
     {
       "product_id": "1005012238195278",
-      "title": "Bouteille magnétique Sac de gymnastique Porte bouteille d'eau Fitness Accessoire Mains Sac de rangement gratuit pour l'entraînement de gymnastique Running Travel Sports Gear",
+      "title": "Bouteille magnétique Sac de gymnastique Porte bouteille d'eau Fitness Accessoire Mains Sac de rangement gratuit pour l'entraînement de gymnastique Courant Équipement de sport",
       "slug": "magnetic-gym-bottle-bag-water-bottle-holder-fitness-accessor",
       "price": 7.72,
       "original_price": 15.45,
@@ -161,8 +161,8 @@
       "sales_volume": 11,
       "score": 0.2513,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:05Z",
-      "updated_at": "2026-10-19T05:41:05Z"
+      "fetched_at": "2026-10-20T05:39:12Z",
+      "updated_at": "2026-10-20T05:39:12Z"
     },
     {
       "product_id": "1005007517245266",
@@ -179,8 +179,8 @@
       "sales_volume": 17,
       "score": 0.244,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:06Z",
-      "updated_at": "2026-10-19T05:41:06Z"
+      "fetched_at": "2026-10-20T05:39:12Z",
+      "updated_at": "2026-10-20T05:39:12Z"
     },
     {
       "product_id": "1005012273080683",
@@ -197,8 +197,8 @@
       "sales_volume": 6,
       "score": 0.2407,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:07Z",
-      "updated_at": "2026-10-19T05:41:07Z"
+      "fetched_at": "2026-10-20T05:39:13Z",
+      "updated_at": "2026-10-20T05:39:13Z"
     },
     {
       "product_id": "1005009049503829",
@@ -215,12 +215,12 @@
       "sales_volume": 17,
       "score": 0.2393,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:07Z",
-      "updated_at": "2026-10-19T05:41:07Z"
+      "fetched_at": "2026-10-20T05:39:13Z",
+      "updated_at": "2026-10-20T05:39:13Z"
     },
     {
       "product_id": "1005008682223950",
-      "title": "ROCKBROS Sports bande de tête pour les hommes femmes Courant bande de sweat stretch élastique sport de plein air bande de sweat Gym Fitness Yoga Headwrap",
+      "title": "ROCKBROS Sport bande de tête pour les hommes femmes Courant bande de sweat stretch élastique sport de plein air bande de sweat Gym Fitness Yoga Headwrap",
       "slug": "rockbros-sports-headband-for-men-women-running-sweatband-str",
       "price": 4.59,
       "original_price": 7.65,
@@ -233,8 +233,8 @@
       "sales_volume": 7,
       "score": 0.2208,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:08Z",
-      "updated_at": "2026-10-19T05:41:08Z"
+      "fetched_at": "2026-10-20T05:39:13Z",
+      "updated_at": "2026-10-20T05:39:13Z"
     },
     {
       "product_id": "1005009402813403",
@@ -251,8 +251,8 @@
       "sales_volume": 7,
       "score": 0.2178,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:08Z",
-      "updated_at": "2026-10-19T05:41:08Z"
+      "fetched_at": "2026-10-20T05:39:14Z",
+      "updated_at": "2026-10-20T05:39:14Z"
     },
     {
       "product_id": "1005008996623976",
@@ -269,8 +269,8 @@
       "sales_volume": 17,
       "score": 0.2095,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:09Z",
-      "updated_at": "2026-10-19T05:41:09Z"
+      "fetched_at": "2026-10-20T05:39:14Z",
+      "updated_at": "2026-10-20T05:39:14Z"
     },
     {
       "product_id": "1005008896298252",
@@ -287,12 +287,12 @@
       "sales_volume": 14,
       "score": 0.2076,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:09Z",
-      "updated_at": "2026-10-19T05:41:09Z"
+      "fetched_at": "2026-10-20T05:39:15Z",
+      "updated_at": "2026-10-20T05:39:15Z"
     },
     {
       "product_id": "1005008813902899",
-      "title": "1~10m Nature Latex caoutchouc Hoses ID 1.6~18mm Jaune Haute Résilient Aller Tube de pêche Slingshot Catapulte élastique bande de fitness",
+      "title": "1~10m Nature Latex caoutchouc Hoses ID 1.6~18mm Jaune Haute Résilient Go Tube de pêche Slingshot Catapulte élastique bande de fitness",
       "slug": "110m-nature-latex-rubber-hoses-id-1618mm-yellow-high-resilie",
       "price": 0.7,
       "original_price": 0.99,
@@ -305,8 +305,8 @@
       "sales_volume": 94,
       "score": 0.1978,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:10Z",
-      "updated_at": "2026-10-19T05:41:10Z"
+      "fetched_at": "2026-10-20T05:39:15Z",
+      "updated_at": "2026-10-20T05:39:15Z"
     },
     {
       "product_id": "1005006588685488",
@@ -323,8 +323,8 @@
       "sales_volume": 6,
       "score": 0.197,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:10Z",
-      "updated_at": "2026-10-19T05:41:10Z"
+      "fetched_at": "2026-10-20T05:39:16Z",
+      "updated_at": "2026-10-20T05:39:16Z"
     },
     {
       "product_id": "1005008637028033",
@@ -341,8 +341,8 @@
       "sales_volume": 120,
       "score": 0.1959,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:11Z",
-      "updated_at": "2026-10-19T05:41:11Z"
+      "fetched_at": "2026-10-20T05:39:16Z",
+      "updated_at": "2026-10-20T05:39:16Z"
     },
     {
       "product_id": "1005012993178781",
@@ -359,8 +359,8 @@
       "sales_volume": 27,
       "score": 0.1932,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:11Z",
-      "updated_at": "2026-10-19T05:41:11Z"
+      "fetched_at": "2026-10-20T05:39:17Z",
+      "updated_at": "2026-10-20T05:39:17Z"
     }
   ]
 }

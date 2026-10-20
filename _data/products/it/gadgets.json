@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-10-19T05:41:32Z",
+  "updated_at": "2026-10-20T05:39:29Z",
   "products": [
     {
       "product_id": "1005007914306180",
@@ -17,8 +17,8 @@
       "sales_volume": 21,
       "score": 0.2675,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:22Z",
-      "updated_at": "2026-10-19T05:41:22Z"
+      "fetched_at": "2026-10-20T05:39:20Z",
+      "updated_at": "2026-10-20T05:39:20Z"
     },
     {
       "product_id": "1005007587741414",
@@ -35,8 +35,8 @@
       "sales_volume": 101,
       "score": 0.2613,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:23Z",
-      "updated_at": "2026-10-19T05:41:23Z"
+      "fetched_at": "2026-10-20T05:39:20Z",
+      "updated_at": "2026-10-20T05:39:20Z"
     },
     {
       "product_id": "1005012124060756",
@@ -53,8 +53,8 @@
       "sales_volume": 104,
       "score": 0.2589,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:23Z",
-      "updated_at": "2026-10-19T05:41:23Z"
+      "fetched_at": "2026-10-20T05:39:21Z",
+      "updated_at": "2026-10-20T05:39:21Z"
     },
     {
       "product_id": "1005010253348075",
@@ -71,8 +71,8 @@
       "sales_volume": 18,
       "score": 0.2582,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:24Z",
-      "updated_at": "2026-10-19T05:41:24Z"
+      "fetched_at": "2026-10-20T05:39:21Z",
+      "updated_at": "2026-10-20T05:39:21Z"
     },
     {
       "product_id": "1005008323500938",
@@ -89,8 +89,8 @@
       "sales_volume": 11,
       "score": 0.2533,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:24Z",
-      "updated_at": "2026-10-19T05:41:24Z"
+      "fetched_at": "2026-10-20T05:39:22Z",
+      "updated_at": "2026-10-20T05:39:22Z"
     },
     {
       "product_id": "1005012349888176",
@@ -107,12 +107,12 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:25Z",
-      "updated_at": "2026-10-19T05:41:25Z"
+      "fetched_at": "2026-10-20T05:39:22Z",
+      "updated_at": "2026-10-20T05:39:22Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Large-capacity Mobile Power Bank for IPhone Android Phone Shared Self - cavo contenuto (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Large-capacity Mobile Power Bank per IPhone Android Phone Shared Self - cavo contenuto (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.83,
       "original_price": 41.66,
@@ -125,8 +125,8 @@
       "sales_volume": 59,
       "score": 0.2465,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:25Z",
-      "updated_at": "2026-10-19T05:41:25Z"
+      "fetched_at": "2026-10-20T05:39:22Z",
+      "updated_at": "2026-10-20T05:39:22Z"
     },
     {
       "product_id": "1005010000531819",
@@ -143,8 +143,8 @@
       "sales_volume": 16,
       "score": 0.2452,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:26Z",
-      "updated_at": "2026-10-19T05:41:26Z"
+      "fetched_at": "2026-10-20T05:39:23Z",
+      "updated_at": "2026-10-20T05:39:23Z"
     },
     {
       "product_id": "1005012829328169",
@@ -161,8 +161,8 @@
       "sales_volume": 34,
       "score": 0.2241,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:26Z",
-      "updated_at": "2026-10-19T05:41:26Z"
+      "fetched_at": "2026-10-20T05:39:23Z",
+      "updated_at": "2026-10-20T05:39:23Z"
     },
     {
       "product_id": "1005012408073378",
@@ -179,12 +179,12 @@
       "sales_volume": 24,
       "score": 0.2229,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:26Z",
-      "updated_at": "2026-10-19T05:41:26Z"
+      "fetched_at": "2026-10-20T05:39:24Z",
+      "updated_at": "2026-10-20T05:39:24Z"
     },
     {
       "product_id": "1005009133277403",
-      "title": "Per Magsafe Power Bank 20000mAh con caricatore della parete del cavo Magnetic Wireless 22.5W Caricabatterie veloce per iPhone 17 Samsung S25 Powerbank",
+      "title": "Per Magsafe Power Bank 20000mAh con caricatore a parete magnetico Wireless 22.5W Caricabatterie veloce per iPhone 17 Samsung S25 Powerbank",
       "slug": "for-magsafe-power-bank-20000mah-with-cable-wall-charger-magn",
       "price": 18.84,
       "original_price": 31.4,
@@ -197,12 +197,12 @@
       "sales_volume": 2,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:27Z",
-      "updated_at": "2026-10-19T05:41:27Z"
+      "fetched_at": "2026-10-20T05:39:24Z",
+      "updated_at": "2026-10-20T05:39:24Z"
     },
     {
       "product_id": "1005007646050752",
-      "title": "Hagibis USB C HUB Tipo-C Docking Station Interruttori singoli On/Off con display LED 10Gbps USB C Splitter per Macbook Pro Air",
+      "title": "Hagibis USB C HUB Tipo-C Docking Station Interruttori singoli su / off con display LED 10Gbps USB C Splitter per Macbook Pro Air",
       "slug": "hagibis-usb-c-hub-type-c-docking-station-individual-onoff-sw",
       "price": 27.59,
       "original_price": 45.99,
@@ -215,8 +215,8 @@
       "sales_volume": 41,
       "score": 0.2169,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:27Z",
-      "updated_at": "2026-10-19T05:41:27Z"
+      "fetched_at": "2026-10-20T05:39:25Z",
+      "updated_at": "2026-10-20T05:39:25Z"
     },
     {
       "product_id": "1005004204383810",
@@ -233,8 +233,8 @@
       "sales_volume": 31,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:28Z",
-      "updated_at": "2026-10-19T05:41:28Z"
+      "fetched_at": "2026-10-20T05:39:25Z",
+      "updated_at": "2026-10-20T05:39:25Z"
     },
     {
       "product_id": "32872425924",
@@ -251,8 +251,8 @@
       "sales_volume": 10,
       "score": 0.1912,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:28Z",
-      "updated_at": "2026-10-19T05:41:28Z"
+      "fetched_at": "2026-10-20T05:39:26Z",
+      "updated_at": "2026-10-20T05:39:26Z"
     },
     {
       "product_id": "1005005070548245",
@@ -269,8 +269,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:29Z",
-      "updated_at": "2026-10-19T05:41:29Z"
+      "fetched_at": "2026-10-20T05:39:26Z",
+      "updated_at": "2026-10-20T05:39:26Z"
     },
     {
       "product_id": "1005009849333993",
@@ -287,8 +287,8 @@
       "sales_volume": 6,
       "score": 0.1907,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:29Z",
-      "updated_at": "2026-10-19T05:41:29Z"
+      "fetched_at": "2026-10-20T05:39:27Z",
+      "updated_at": "2026-10-20T05:39:27Z"
     },
     {
       "product_id": "33007089707",
@@ -305,12 +305,12 @@
       "sales_volume": 4,
       "score": 0.1905,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:30Z",
-      "updated_at": "2026-10-19T05:41:30Z"
+      "fetched_at": "2026-10-20T05:39:27Z",
+      "updated_at": "2026-10-20T05:39:27Z"
     },
     {
       "product_id": "1005013163634531",
-      "title": "Portatile 8K cavo a molla ammortizzato a destra Angled Mini Micro Cavo Braided HDMI compatibile per DSLR Camera Field Monitor",
+      "title": "Portatile 8K a molla a spirale cavo a sinistra Angolo mini micro cavo interrato compatibile HDMI per DSLR Camera Field Monitor",
       "slug": "portable-8k-spring-coiled-cable-left-right-angled-mini-micro",
       "price": 3.64,
       "original_price": 9.83,
@@ -323,8 +323,8 @@
       "sales_volume": 11,
       "score": 0.1903,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:31Z",
-      "updated_at": "2026-10-19T05:41:31Z"
+      "fetched_at": "2026-10-20T05:39:28Z",
+      "updated_at": "2026-10-20T05:39:28Z"
     },
     {
       "product_id": "1005006536808127",
@@ -341,8 +341,8 @@
       "sales_volume": 11,
       "score": 0.1868,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:32Z",
-      "updated_at": "2026-10-19T05:41:32Z"
+      "fetched_at": "2026-10-20T05:39:28Z",
+      "updated_at": "2026-10-20T05:39:28Z"
     },
     {
       "product_id": "1005012745139264",
@@ -359,8 +359,8 @@
       "sales_volume": 8,
       "score": 0.184,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:32Z",
-      "updated_at": "2026-10-19T05:41:32Z"
+      "fetched_at": "2026-10-20T05:39:28Z",
+      "updated_at": "2026-10-20T05:39:28Z"
     }
   ]
 }

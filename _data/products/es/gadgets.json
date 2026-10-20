@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-10-19T05:41:32Z",
+  "updated_at": "2026-10-20T05:39:29Z",
   "products": [
     {
       "product_id": "1005007914306180",
@@ -17,8 +17,8 @@
       "sales_volume": 21,
       "score": 0.2675,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:22Z",
-      "updated_at": "2026-10-19T05:41:22Z"
+      "fetched_at": "2026-10-20T05:39:20Z",
+      "updated_at": "2026-10-20T05:39:20Z"
     },
     {
       "product_id": "1005007587741414",
@@ -35,8 +35,8 @@
       "sales_volume": 101,
       "score": 0.2613,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:23Z",
-      "updated_at": "2026-10-19T05:41:23Z"
+      "fetched_at": "2026-10-20T05:39:20Z",
+      "updated_at": "2026-10-20T05:39:20Z"
     },
     {
       "product_id": "1005012124060756",
@@ -53,8 +53,8 @@
       "sales_volume": 104,
       "score": 0.2589,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:23Z",
-      "updated_at": "2026-10-19T05:41:23Z"
+      "fetched_at": "2026-10-20T05:39:21Z",
+      "updated_at": "2026-10-20T05:39:21Z"
     },
     {
       "product_id": "1005010253348075",
@@ -71,8 +71,8 @@
       "sales_volume": 18,
       "score": 0.2582,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:24Z",
-      "updated_at": "2026-10-19T05:41:24Z"
+      "fetched_at": "2026-10-20T05:39:21Z",
+      "updated_at": "2026-10-20T05:39:21Z"
     },
     {
       "product_id": "1005008323500938",
@@ -89,8 +89,8 @@
       "sales_volume": 11,
       "score": 0.2533,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:24Z",
-      "updated_at": "2026-10-19T05:41:24Z"
+      "fetched_at": "2026-10-20T05:39:22Z",
+      "updated_at": "2026-10-20T05:39:22Z"
     },
     {
       "product_id": "1005012349888176",
@@ -107,8 +107,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:25Z",
-      "updated_at": "2026-10-19T05:41:25Z"
+      "fetched_at": "2026-10-20T05:39:22Z",
+      "updated_at": "2026-10-20T05:39:22Z"
     },
     {
       "product_id": "1005012124170204",
@@ -125,12 +125,12 @@
       "sales_volume": 59,
       "score": 0.2465,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:25Z",
-      "updated_at": "2026-10-19T05:41:25Z"
+      "fetched_at": "2026-10-20T05:39:22Z",
+      "updated_at": "2026-10-20T05:39:22Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank Construido en 4 Cable Portable Cargador Cute Pet Cartoon maquillaje Espejo Powerbank Power Bank",
+      "title": "20000mAh Mini Power Bank Construido en 4 Cable Portable Charger Cute Pet Cartoon Espejo de maquillaje Powerbank Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.74,
       "original_price": 21.47,
@@ -143,8 +143,8 @@
       "sales_volume": 16,
       "score": 0.2452,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:26Z",
-      "updated_at": "2026-10-19T05:41:26Z"
+      "fetched_at": "2026-10-20T05:39:23Z",
+      "updated_at": "2026-10-20T05:39:23Z"
     },
     {
       "product_id": "1005012829328169",
@@ -161,8 +161,8 @@
       "sales_volume": 34,
       "score": 0.2241,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:26Z",
-      "updated_at": "2026-10-19T05:41:26Z"
+      "fetched_at": "2026-10-20T05:39:23Z",
+      "updated_at": "2026-10-20T05:39:23Z"
     },
     {
       "product_id": "1005012408073378",
@@ -179,12 +179,12 @@
       "sales_volume": 24,
       "score": 0.2229,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:26Z",
-      "updated_at": "2026-10-19T05:41:26Z"
+      "fetched_at": "2026-10-20T05:39:24Z",
+      "updated_at": "2026-10-20T05:39:24Z"
     },
     {
       "product_id": "1005009133277403",
-      "title": "Para Magsafe Power Bank 20000mAh con Cable Wall Charger Magnetic Wireless 22.5W Fast Charger Para iPhone 17 Samsung S25 Powerbank",
+      "title": "Para Magsafe Power Bank 20000mAh con Cable Wall Charger Magnetic Wireless 22.5W Fast Charger para iPhone 17 Samsung S25 Powerbank",
       "slug": "for-magsafe-power-bank-20000mah-with-cable-wall-charger-magn",
       "price": 18.84,
       "original_price": 31.4,
@@ -197,8 +197,8 @@
       "sales_volume": 2,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:27Z",
-      "updated_at": "2026-10-19T05:41:27Z"
+      "fetched_at": "2026-10-20T05:39:24Z",
+      "updated_at": "2026-10-20T05:39:24Z"
     },
     {
       "product_id": "1005007646050752",
@@ -215,8 +215,8 @@
       "sales_volume": 41,
       "score": 0.2169,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:27Z",
-      "updated_at": "2026-10-19T05:41:27Z"
+      "fetched_at": "2026-10-20T05:39:25Z",
+      "updated_at": "2026-10-20T05:39:25Z"
     },
     {
       "product_id": "1005004204383810",
@@ -233,8 +233,8 @@
       "sales_volume": 31,
       "score": 0.2136,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:28Z",
-      "updated_at": "2026-10-19T05:41:28Z"
+      "fetched_at": "2026-10-20T05:39:25Z",
+      "updated_at": "2026-10-20T05:39:25Z"
     },
     {
       "product_id": "32872425924",
@@ -251,12 +251,12 @@
       "sales_volume": 10,
       "score": 0.1912,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:28Z",
-      "updated_at": "2026-10-19T05:41:28Z"
+      "fetched_at": "2026-10-20T05:39:26Z",
+      "updated_at": "2026-10-20T05:39:26Z"
     },
     {
       "product_id": "1005005070548245",
-      "title": "Cargador USB de 10 puertos 50W/10A Cargador de Hub USB C para Tablet de Celular Socket de extensión de dispositivos",
+      "title": "Cargador USB de 10 puertos 50W/10A Cargador multi puerto USB C Hub para Tablet de Celular Socket de extensión de dispositivos",
       "slug": "usb-charging-station-10-ports-50w10a-multi-port-usb-c-hub-ch",
       "price": 9.23,
       "original_price": 13.18,
@@ -269,8 +269,8 @@
       "sales_volume": 7,
       "score": 0.1908,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:29Z",
-      "updated_at": "2026-10-19T05:41:29Z"
+      "fetched_at": "2026-10-20T05:39:26Z",
+      "updated_at": "2026-10-20T05:39:26Z"
     },
     {
       "product_id": "1005009849333993",
@@ -287,8 +287,8 @@
       "sales_volume": 6,
       "score": 0.1907,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:29Z",
-      "updated_at": "2026-10-19T05:41:29Z"
+      "fetched_at": "2026-10-20T05:39:27Z",
+      "updated_at": "2026-10-20T05:39:27Z"
     },
     {
       "product_id": "33007089707",
@@ -305,8 +305,8 @@
       "sales_volume": 4,
       "score": 0.1905,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:30Z",
-      "updated_at": "2026-10-19T05:41:30Z"
+      "fetched_at": "2026-10-20T05:39:27Z",
+      "updated_at": "2026-10-20T05:39:27Z"
     },
     {
       "product_id": "1005013163634531",
@@ -323,8 +323,8 @@
       "sales_volume": 11,
       "score": 0.1903,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:31Z",
-      "updated_at": "2026-10-19T05:41:31Z"
+      "fetched_at": "2026-10-20T05:39:28Z",
+      "updated_at": "2026-10-20T05:39:28Z"
     },
     {
       "product_id": "1005006536808127",
@@ -341,8 +341,8 @@
       "sales_volume": 11,
       "score": 0.1868,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:32Z",
-      "updated_at": "2026-10-19T05:41:32Z"
+      "fetched_at": "2026-10-20T05:39:28Z",
+      "updated_at": "2026-10-20T05:39:28Z"
     },
     {
       "product_id": "1005012745139264",
@@ -359,8 +359,8 @@
       "sales_volume": 8,
       "score": 0.184,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:41:32Z",
-      "updated_at": "2026-10-19T05:41:32Z"
+      "fetched_at": "2026-10-20T05:39:28Z",
+      "updated_at": "2026-10-20T05:39:28Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-10-19T05:40:52Z",
+  "updated_at": "2026-10-20T05:39:05Z",
   "products": [
     {
       "product_id": "1005002334218166",
@@ -17,8 +17,8 @@
       "sales_volume": 248,
       "score": 0.2749,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:41Z",
-      "updated_at": "2026-10-19T05:40:41Z"
+      "fetched_at": "2026-10-20T05:38:55Z",
+      "updated_at": "2026-10-20T05:38:55Z"
     },
     {
       "product_id": "1005011666514308",
@@ -35,8 +35,8 @@
       "sales_volume": 8,
       "score": 0.254,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:42Z",
-      "updated_at": "2026-10-19T05:40:42Z"
+      "fetched_at": "2026-10-20T05:38:56Z",
+      "updated_at": "2026-10-20T05:38:56Z"
     },
     {
       "product_id": "1005010374390737",
@@ -53,8 +53,8 @@
       "sales_volume": 58,
       "score": 0.2391,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:42Z",
-      "updated_at": "2026-10-19T05:40:42Z"
+      "fetched_at": "2026-10-20T05:38:56Z",
+      "updated_at": "2026-10-20T05:38:56Z"
     },
     {
       "product_id": "1005005807578430",
@@ -71,12 +71,12 @@
       "sales_volume": 3,
       "score": 0.2364,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:43Z",
-      "updated_at": "2026-10-19T05:40:43Z"
+      "fetched_at": "2026-10-20T05:38:57Z",
+      "updated_at": "2026-10-20T05:38:57Z"
     },
     {
       "product_id": "1005005604363467",
-      "title": "Camnsmart Tuya 5MP Alexa Wifi Bulb Camera E27 Google Home Wireless CCTV Outdoor Videoüberwachung",
+      "title": "Camnsmart Tuya 5MP Alexa Wifi Bulb Kamera E27 Google Home Wireless CCTV Outdoor Videoüberwachung",
       "slug": "camnsmart-tuya-5mp-alexa-wifi-bulb-camera-e27-google-home-wi",
       "price": 36.79,
       "original_price": 73.58,
@@ -89,8 +89,8 @@
       "sales_volume": 28,
       "score": 0.2358,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:43Z",
-      "updated_at": "2026-10-19T05:40:43Z"
+      "fetched_at": "2026-10-20T05:38:58Z",
+      "updated_at": "2026-10-20T05:38:58Z"
     },
     {
       "product_id": "1005008468554601",
@@ -107,8 +107,8 @@
       "sales_volume": 4,
       "score": 0.2355,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:44Z",
-      "updated_at": "2026-10-19T05:40:44Z"
+      "fetched_at": "2026-10-20T05:38:58Z",
+      "updated_at": "2026-10-20T05:38:58Z"
     },
     {
       "product_id": "4000143784956",
@@ -125,12 +125,12 @@
       "sales_volume": 340,
       "score": 0.2269,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:44Z",
-      "updated_at": "2026-10-19T05:40:44Z"
+      "fetched_at": "2026-10-20T05:38:59Z",
+      "updated_at": "2026-10-20T05:38:59Z"
     },
     {
       "product_id": "1005010463738860",
-      "title": "Yoosee 5MP WiFi Security PTZ Indoor IP Kamera 3MP Smart Home Sicherheit Farbnachtsicht Siren Alarm Humanoid Detection Ai Track",
+      "title": "Yoosee 5MP WiFi Security PTZ Indoor IP Kamera 3MP Smart Home Sicherheit Farbnachtsicht Siren Alarm Humanoide Erkennung Ai Track",
       "slug": "yoosee-5mp-wifi-security-ptz-indoor-ip-camera-3mp-smart-home",
       "price": 24.75,
       "original_price": 41.25,
@@ -143,8 +143,8 @@
       "sales_volume": 48,
       "score": 0.2251,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:44Z",
-      "updated_at": "2026-10-19T05:40:44Z"
+      "fetched_at": "2026-10-20T05:38:59Z",
+      "updated_at": "2026-10-20T05:38:59Z"
     },
     {
       "product_id": "1005004296403927",
@@ -161,8 +161,8 @@
       "sales_volume": 5,
       "score": 0.2206,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:45Z",
-      "updated_at": "2026-10-19T05:40:45Z"
+      "fetched_at": "2026-10-20T05:39:00Z",
+      "updated_at": "2026-10-20T05:39:00Z"
     },
     {
       "product_id": "1005009425871992",
@@ -179,8 +179,8 @@
       "sales_volume": 37,
       "score": 0.2166,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:46Z",
-      "updated_at": "2026-10-19T05:40:46Z"
+      "fetched_at": "2026-10-20T05:39:00Z",
+      "updated_at": "2026-10-20T05:39:00Z"
     },
     {
       "product_id": "1005004352005250",
@@ -197,12 +197,12 @@
       "sales_volume": 406,
       "score": 0.2128,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:47Z",
-      "updated_at": "2026-10-19T05:40:47Z"
+      "fetched_at": "2026-10-20T05:39:01Z",
+      "updated_at": "2026-10-20T05:39:01Z"
     },
     {
       "product_id": "1005003462342443",
-      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth betrieben Relais Niederspannungsunterstützung über Temperaturschutz",
+      "title": "Shelly 1 Gen3 Trockenkontakt Smart Switch WiFi Bluetooth betrieben Relais Niederspannungsunterstützung über Temperaturschutzsteuerung",
       "slug": "shelly-1-gen3-dry-contact-smart-switch-wifi-bluetooth-operat",
       "price": 17.2,
       "original_price": 23.25,
@@ -215,8 +215,8 @@
       "sales_volume": 278,
       "score": 0.2088,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:47Z",
-      "updated_at": "2026-10-19T05:40:47Z"
+      "fetched_at": "2026-10-20T05:39:01Z",
+      "updated_at": "2026-10-20T05:39:01Z"
     },
     {
       "product_id": "1005010659622111",
@@ -233,8 +233,8 @@
       "sales_volume": 8,
       "score": 0.206,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:48Z",
-      "updated_at": "2026-10-19T05:40:48Z"
+      "fetched_at": "2026-10-20T05:39:02Z",
+      "updated_at": "2026-10-20T05:39:02Z"
     },
     {
       "product_id": "1005011695839392",
@@ -251,8 +251,8 @@
       "sales_volume": 4,
       "score": 0.2055,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:48Z",
-      "updated_at": "2026-10-19T05:40:48Z"
+      "fetched_at": "2026-10-20T05:39:02Z",
+      "updated_at": "2026-10-20T05:39:02Z"
     },
     {
       "product_id": "1005004966987077",
@@ -269,8 +269,8 @@
       "sales_volume": 1,
       "score": 0.2001,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:49Z",
-      "updated_at": "2026-10-19T05:40:49Z"
+      "fetched_at": "2026-10-20T05:39:03Z",
+      "updated_at": "2026-10-20T05:39:03Z"
     },
     {
       "product_id": "1005003568997399",
@@ -287,8 +287,8 @@
       "sales_volume": 127,
       "score": 0.1932,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:49Z",
-      "updated_at": "2026-10-19T05:40:49Z"
+      "fetched_at": "2026-10-20T05:39:03Z",
+      "updated_at": "2026-10-20T05:39:03Z"
     },
     {
       "product_id": "32898805107",
@@ -305,8 +305,8 @@
       "sales_volume": 10,
       "score": 0.1912,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:50Z",
-      "updated_at": "2026-10-19T05:40:50Z"
+      "fetched_at": "2026-10-20T05:39:04Z",
+      "updated_at": "2026-10-20T05:39:04Z"
     },
     {
       "product_id": "1005012261140351",
@@ -323,8 +323,8 @@
       "sales_volume": 2,
       "score": 0.1902,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:50Z",
-      "updated_at": "2026-10-19T05:40:50Z"
+      "fetched_at": "2026-10-20T05:39:04Z",
+      "updated_at": "2026-10-20T05:39:04Z"
     },
     {
       "product_id": "1005011766028756",
@@ -341,8 +341,8 @@
       "sales_volume": 10,
       "score": 0.1862,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:51Z",
-      "updated_at": "2026-10-19T05:40:51Z"
+      "fetched_at": "2026-10-20T05:39:04Z",
+      "updated_at": "2026-10-20T05:39:04Z"
     },
     {
       "product_id": "1005006257191017",
@@ -359,8 +359,8 @@
       "sales_volume": 8,
       "score": 0.1837,
       "price_history": [],
-      "fetched_at": "2026-10-19T05:40:51Z",
-      "updated_at": "2026-10-19T05:40:51Z"
+      "fetched_at": "2026-10-20T05:39:05Z",
+      "updated_at": "2026-10-20T05:39:05Z"
     }
   ]
 }
