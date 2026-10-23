@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-10-22T05:43:42Z",
+  "updated_at": "2026-10-23T05:42:19Z",
   "products": [
     {
       "product_id": "1005012229118016",
@@ -17,8 +17,8 @@
       "sales_volume": 1275,
       "score": 0.3433,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:32Z",
-      "updated_at": "2026-10-22T05:43:32Z"
+      "fetched_at": "2026-10-23T05:42:10Z",
+      "updated_at": "2026-10-23T05:42:10Z"
     },
     {
       "product_id": "1005009369207724",
@@ -35,8 +35,8 @@
       "sales_volume": 21,
       "score": 0.2825,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:32Z",
-      "updated_at": "2026-10-22T05:43:32Z"
+      "fetched_at": "2026-10-23T05:42:10Z",
+      "updated_at": "2026-10-23T05:42:10Z"
     },
     {
       "product_id": "1005012219557684",
@@ -53,8 +53,8 @@
       "sales_volume": 80,
       "score": 0.2569,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:33Z",
-      "updated_at": "2026-10-22T05:43:33Z"
+      "fetched_at": "2026-10-23T05:42:11Z",
+      "updated_at": "2026-10-23T05:42:11Z"
     },
     {
       "product_id": "1005012230439859",
@@ -71,8 +71,8 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:33Z",
-      "updated_at": "2026-10-22T05:43:33Z"
+      "fetched_at": "2026-10-23T05:42:11Z",
+      "updated_at": "2026-10-23T05:42:11Z"
     },
     {
       "product_id": "1005012349888176",
@@ -89,8 +89,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:34Z",
-      "updated_at": "2026-10-22T05:43:34Z"
+      "fetched_at": "2026-10-23T05:42:12Z",
+      "updated_at": "2026-10-23T05:42:12Z"
     },
     {
       "product_id": "32850984715",
@@ -107,8 +107,8 @@
       "sales_volume": 41,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:35Z",
-      "updated_at": "2026-10-22T05:43:35Z"
+      "fetched_at": "2026-10-23T05:42:12Z",
+      "updated_at": "2026-10-23T05:42:12Z"
     },
     {
       "product_id": "1005012375813811",
@@ -125,12 +125,12 @@
       "sales_volume": 25,
       "score": 0.2492,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:35Z",
-      "updated_at": "2026-10-22T05:43:35Z"
+      "fetched_at": "2026-10-23T05:42:13Z",
+      "updated_at": "2026-10-23T05:42:13Z"
     },
     {
       "product_id": "1005012124170204",
-      "title": "10000/20000mAh Outdoor Solar Large-capacity Mobile Power Bank per IPhone Android Phone Shared Self - cavo contenuto (CCC)",
+      "title": "10000/20000mAh Outdoor Solar Large-capacity Mobile Power Bank for IPhone Android Phone Shared Self - cavo contenuto (CCC)",
       "slug": "1000020000mah-outdoor-solar-large-capacity-mobile-power-bank",
       "price": 20.86,
       "original_price": 41.71,
@@ -143,8 +143,8 @@
       "sales_volume": 59,
       "score": 0.2465,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:36Z",
-      "updated_at": "2026-10-22T05:43:36Z"
+      "fetched_at": "2026-10-23T05:42:13Z",
+      "updated_at": "2026-10-23T05:42:13Z"
     },
     {
       "product_id": "1005012469010860",
@@ -161,8 +161,8 @@
       "sales_volume": 28,
       "score": 0.245,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:37Z",
-      "updated_at": "2026-10-22T05:43:37Z"
+      "fetched_at": "2026-10-23T05:42:14Z",
+      "updated_at": "2026-10-23T05:42:14Z"
     },
     {
       "product_id": "1005012492477479",
@@ -179,12 +179,12 @@
       "sales_volume": 7,
       "score": 0.2375,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:37Z",
-      "updated_at": "2026-10-22T05:43:37Z"
+      "fetched_at": "2026-10-23T05:42:14Z",
+      "updated_at": "2026-10-23T05:42:14Z"
     },
     {
       "product_id": "1005011812151458",
-      "title": "QOOVI Qi2 35W caricatore portatile della banca di potere magnetico 10000mah per la ricarica veloce wireless di MagSafe 15W per iPhone 17 16 15 iWatch",
+      "title": "QOOVI Qi2 35W caricatore portatile 10000mah della banca di potere magnetica per la ricarica veloce wireless di MagSafe 15W per iPhone 17 16 15 iWatch",
       "slug": "qoovi-qi2-35w-magnetic-power-bank-10000mah-portable-charger-",
       "price": 45.99,
       "original_price": 90.18,
@@ -197,8 +197,8 @@
       "sales_volume": 58,
       "score": 0.235,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:38Z",
-      "updated_at": "2026-10-22T05:43:38Z"
+      "fetched_at": "2026-10-23T05:42:15Z",
+      "updated_at": "2026-10-23T05:42:15Z"
     },
     {
       "product_id": "1005006779664431",
@@ -215,8 +215,8 @@
       "sales_volume": 14,
       "score": 0.2217,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:38Z",
-      "updated_at": "2026-10-22T05:43:38Z"
+      "fetched_at": "2026-10-23T05:42:15Z",
+      "updated_at": "2026-10-23T05:42:15Z"
     },
     {
       "product_id": "1005009849333993",
@@ -233,12 +233,12 @@
       "sales_volume": 6,
       "score": 0.2207,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:39Z",
-      "updated_at": "2026-10-22T05:43:39Z"
+      "fetched_at": "2026-10-23T05:42:16Z",
+      "updated_at": "2026-10-23T05:42:16Z"
     },
     {
       "product_id": "1005009133277403",
-      "title": "Per Magsafe Power Bank 20000mAh con caricatore a parete magnetico Wireless 22.5W Caricabatterie veloce per iPhone 17 Samsung S25 Powerbank",
+      "title": "Per Magsafe Power Bank 20000mAh con caricatore a parete magnetico Wireless 22.5W Caricabatteria veloce per iPhone 17 Samsung S25 Powerbank",
       "slug": "for-magsafe-power-bank-20000mah-with-cable-wall-charger-magn",
       "price": 18.86,
       "original_price": 31.44,
@@ -251,8 +251,8 @@
       "sales_volume": 2,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:39Z",
-      "updated_at": "2026-10-22T05:43:39Z"
+      "fetched_at": "2026-10-23T05:42:16Z",
+      "updated_at": "2026-10-23T05:42:16Z"
     },
     {
       "product_id": "1005009093766779",
@@ -269,12 +269,12 @@
       "sales_volume": 11,
       "score": 0.2153,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:39Z",
-      "updated_at": "2026-10-22T05:43:39Z"
+      "fetched_at": "2026-10-23T05:42:16Z",
+      "updated_at": "2026-10-23T05:42:16Z"
     },
     {
       "product_id": "1005011532019654",
-      "title": "Per pad di ricarica wireless XPENG G7, pad tazza in silicone di controllo centrale",
+      "title": "Per pad di ricarica wireless XPENG G7, pad tazza di silicone di controllo centrale",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
       "price": 11.85,
       "original_price": 39.49,
@@ -287,12 +287,12 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:40Z",
-      "updated_at": "2026-10-22T05:43:40Z"
+      "fetched_at": "2026-10-23T05:42:17Z",
+      "updated_at": "2026-10-23T05:42:17Z"
     },
     {
       "product_id": "1005011531921275",
-      "title": "Per 26 pad di ricarica wireless in silicone Avita 07, central control phone antiscivolo",
+      "title": "Per 26 pad di ricarica wireless in silicone Avita 07, centralino antiscivolo",
       "slug": "for-26-avita-07-silicone-wireless-charging-pads-central-cont",
       "price": 8.47,
       "original_price": 28.25,
@@ -305,8 +305,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:40Z",
-      "updated_at": "2026-10-22T05:43:40Z"
+      "fetched_at": "2026-10-23T05:42:17Z",
+      "updated_at": "2026-10-23T05:42:17Z"
     },
     {
       "product_id": "1005010512141911",
@@ -323,12 +323,12 @@
       "sales_volume": 4,
       "score": 0.2088,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:41Z",
-      "updated_at": "2026-10-22T05:43:41Z"
+      "fetched_at": "2026-10-23T05:42:18Z",
+      "updated_at": "2026-10-23T05:42:18Z"
     },
     {
       "product_id": "1005007065066717",
-      "title": "10set/Lot OEM nuovo telefono Seal Box adesivi per Apqle 17 16 15 14 Pro Max 17Air Airpods Pro 3 Etichette di sigillatura di imballaggio esterna",
+      "title": "10set/Lot OEM nuovo telefono Seal Box adesivi per Apqle 17 16 15 14 Pro Max 17Air Airpods Pro 3 Etichette di tenuta di imballaggio esterna",
       "slug": "10setlot-oem-new-phone-seal-box-stickers-for-apqle-17-16-15-",
       "price": 3.29,
       "original_price": 4.28,
@@ -341,8 +341,8 @@
       "sales_volume": 73,
       "score": 0.1716,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:41Z",
-      "updated_at": "2026-10-22T05:43:41Z"
+      "fetched_at": "2026-10-23T05:42:18Z",
+      "updated_at": "2026-10-23T05:42:18Z"
     },
     {
       "product_id": "1005012327079554",
@@ -359,8 +359,8 @@
       "sales_volume": 64,
       "score": 0.1677,
       "price_history": [],
-      "fetched_at": "2026-10-22T05:43:42Z",
-      "updated_at": "2026-10-22T05:43:42Z"
+      "fetched_at": "2026-10-23T05:42:19Z",
+      "updated_at": "2026-10-23T05:42:19Z"
     }
   ]
 }
