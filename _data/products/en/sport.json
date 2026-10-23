@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-10-23T11:09:26Z",
+  "updated_at": "2026-10-23T16:37:27Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -18,7 +18,7 @@
       "score": 0.3524,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:35Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005010160889036",
@@ -36,7 +36,7 @@
       "score": 0.2785,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:35Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005010786413625",
@@ -54,7 +54,7 @@
       "score": 0.265,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:36Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005009366357679",
@@ -72,7 +72,7 @@
       "score": 0.2594,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:36Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "32286722941",
@@ -90,7 +90,7 @@
       "score": 0.2586,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:36Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005008772408846",
@@ -108,7 +108,7 @@
       "score": 0.2536,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:37Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005010382664758",
@@ -126,7 +126,7 @@
       "score": 0.2533,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:37Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005012789843658",
@@ -144,7 +144,7 @@
       "score": 0.2526,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:38Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005003472116469",
@@ -162,7 +162,7 @@
       "score": 0.2524,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:38Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005012238195278",
@@ -180,7 +180,7 @@
       "score": 0.2513,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:39Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005012273080683",
@@ -198,7 +198,7 @@
       "score": 0.2407,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:39Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005009049503829",
@@ -216,7 +216,7 @@
       "score": 0.2392,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:40Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005008682223950",
@@ -234,7 +234,7 @@
       "score": 0.2208,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:40Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005009402813403",
@@ -252,13 +252,13 @@
       "score": 0.2178,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:41Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005008896298252",
       "title": "Seamless Halleggings Women Seamless Sports Yoga Pants Low Ribbed Band Gym Clothes Fitness Workout Wear Scrunch Bum Tights",
       "slug": "seamless-halleggings-women-seamless-sports-yoga-pants-low-ri",
-      "price": "22.41",
+      "price": "24.45",
       "original_price": "40.75",
       "discount_pct": 45,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nxfvt0TMUiPdAn1xXza1pvTu5xpuCf7MoeDtgBMWJ14U9SLxIqSfThPFnsXjMmYQRfY38lPZa5j5WUUifk5eAp3AaGe9kBodGbjF2plYpde1rPZG1qdtbopmR20ihG4A2zBPDCZpPPOYgDrwXhSuzXehvbLa8rE2m9MHi8LXUkECrcXBXyBIoZRsiiZvWuTpGZcDSbo9CC3fz5WhHzy8LA2VOP8ueA6O6BPCOpjWJ9wlE4fPTdxf5ZBPm9h12Bpwu3msOr1AnWDfIXSlKeQjiBGsSd74dlYRn0sH6odWb9ZYiMZbE4yku9UNjracmRXrObtZ0LjNKgqXFrOond1RCWZV768Ol6eYUyRMiBHickCOTObKhF0dPPqnNOkKannRMfsswCBLg0Ihutox8bUygQkOs4TwCHBER3ieLKuXnCdtQx2i71XDP1dJkTXHPL7kVEmW3ESEdDO8wqZnUCsclaqhrydRW9kqtNhRMtYuyzYyR0SLPD28D1GukaWklJIIGboHgyz0qjY9Q25vucEZG1q4AgfJe3LhhECoO12SJM9La8Hy6COrkIODYZUah2ybuLgxMjdSIbOpD7HHSt4Rwb8XvYNybpsrVLRvt6YjfruqOKY65q1Ud4ltFa3IVbedM6IH8iWNWl9q9405QryRBsKnB7lYtrK34WigIowbrIRcEixsSDvnY2Jsxzfu1GTt0BJ4mG9zLIi04",
@@ -270,7 +270,7 @@
       "score": 0.2075,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:41Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005008804964629",
@@ -288,7 +288,7 @@
       "score": 0.2055,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:42Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005006588685488",
@@ -306,7 +306,7 @@
       "score": 0.197,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:42Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005008637028033",
@@ -324,7 +324,7 @@
       "score": 0.1939,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:43Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005010247138834",
@@ -342,7 +342,7 @@
       "score": 0.1604,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:43Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     },
     {
       "product_id": "1005012924499264",
@@ -360,7 +360,7 @@
       "score": 0.156,
       "price_history": [],
       "fetched_at": "2026-10-23T05:42:44Z",
-      "updated_at": "2026-10-23T11:09:26Z"
+      "updated_at": "2026-10-23T16:37:27Z"
     }
   ]
 }
