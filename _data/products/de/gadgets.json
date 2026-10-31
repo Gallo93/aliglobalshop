@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-10-30T06:46:03Z",
+  "updated_at": "2026-10-31T06:36:09Z",
   "products": [
     {
       "product_id": "1005007480971055",
@@ -17,8 +17,8 @@
       "sales_volume": 250,
       "score": 0.2802,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:54Z",
-      "updated_at": "2026-10-30T06:45:54Z"
+      "fetched_at": "2026-10-31T06:36:00Z",
+      "updated_at": "2026-10-31T06:36:00Z"
     },
     {
       "product_id": "1005002653094153",
@@ -35,12 +35,12 @@
       "sales_volume": 10,
       "score": 0.2745,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:54Z",
-      "updated_at": "2026-10-30T06:45:54Z"
+      "fetched_at": "2026-10-31T06:36:01Z",
+      "updated_at": "2026-10-31T06:36:01Z"
     },
     {
       "product_id": "1005007587741414",
-      "title": "BYINTEK Full HD Mini Projektor U4 LOVE 1 1080P 4K Video WIFI Android Auto Focus Portable Smart Projektor Heimkino",
+      "title": "BYINTEK Full HD Mini Projektor U4 LOVE 1 1080P 4K Video WIFI Android Auto Focus Portable Smart Projektor Home Kino",
       "slug": "byintek-full-hd-mini-projector-u4-love-1-1080p-4k-video-wifi",
       "price": 138.4,
       "original_price": 276.82,
@@ -53,8 +53,8 @@
       "sales_volume": 101,
       "score": 0.2613,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:55Z",
-      "updated_at": "2026-10-30T06:45:55Z"
+      "fetched_at": "2026-10-31T06:36:01Z",
+      "updated_at": "2026-10-31T06:36:01Z"
     },
     {
       "product_id": "1005010253348075",
@@ -71,12 +71,12 @@
       "sales_volume": 17,
       "score": 0.258,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:55Z",
-      "updated_at": "2026-10-30T06:45:55Z"
+      "fetched_at": "2026-10-31T06:36:02Z",
+      "updated_at": "2026-10-31T06:36:02Z"
     },
     {
       "product_id": "1005008323500938",
-      "title": "Drahtloser Magnetadsorptions-Ladehalter für Volvo XC60 XC90 S90 V90 V60 S60 Superschnelles Ladegerät USB Type-C",
+      "title": "Drahtloser Magnetadsorptions-Ladehalter für Volvo XC60 XC90 S90 V90 V60 S60 Superschnelles Ladegerät USB Typ-C",
       "slug": "magnetic-adsorption-wireless-charging-holder-for-volvo-xc60-",
       "price": 45.64,
       "original_price": 99.22,
@@ -89,8 +89,8 @@
       "sales_volume": 9,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:56Z",
-      "updated_at": "2026-10-30T06:45:56Z"
+      "fetched_at": "2026-10-31T06:36:02Z",
+      "updated_at": "2026-10-31T06:36:02Z"
     },
     {
       "product_id": "1005012349888176",
@@ -107,8 +107,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:56Z",
-      "updated_at": "2026-10-30T06:45:56Z"
+      "fetched_at": "2026-10-31T06:36:03Z",
+      "updated_at": "2026-10-31T06:36:03Z"
     },
     {
       "product_id": "1005013322429837",
@@ -125,8 +125,8 @@
       "sales_volume": 5,
       "score": 0.2506,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:57Z",
-      "updated_at": "2026-10-30T06:45:57Z"
+      "fetched_at": "2026-10-31T06:36:03Z",
+      "updated_at": "2026-10-31T06:36:03Z"
     },
     {
       "product_id": "1005013215025078",
@@ -143,8 +143,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:57Z",
-      "updated_at": "2026-10-30T06:45:57Z"
+      "fetched_at": "2026-10-31T06:36:04Z",
+      "updated_at": "2026-10-31T06:36:04Z"
     },
     {
       "product_id": "1005013344460872",
@@ -161,8 +161,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:57Z",
-      "updated_at": "2026-10-30T06:45:57Z"
+      "fetched_at": "2026-10-31T06:36:04Z",
+      "updated_at": "2026-10-31T06:36:04Z"
     },
     {
       "product_id": "1005013325118538",
@@ -179,8 +179,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:58Z",
-      "updated_at": "2026-10-30T06:45:58Z"
+      "fetched_at": "2026-10-31T06:36:05Z",
+      "updated_at": "2026-10-31T06:36:05Z"
     },
     {
       "product_id": "1005012561422530",
@@ -197,8 +197,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:58Z",
-      "updated_at": "2026-10-30T06:45:58Z"
+      "fetched_at": "2026-10-31T06:36:05Z",
+      "updated_at": "2026-10-31T06:36:05Z"
     },
     {
       "product_id": "1005013295698728",
@@ -215,8 +215,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:59Z",
-      "updated_at": "2026-10-30T06:45:59Z"
+      "fetched_at": "2026-10-31T06:36:06Z",
+      "updated_at": "2026-10-31T06:36:06Z"
     },
     {
       "product_id": "1005013367382846",
@@ -233,12 +233,12 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:59Z",
-      "updated_at": "2026-10-30T06:45:59Z"
+      "fetched_at": "2026-10-31T06:36:06Z",
+      "updated_at": "2026-10-31T06:36:06Z"
     },
     {
       "product_id": "1005013358075835",
-      "title": "20000mAh Power Bank Compact Portable Selbstversorger Kabel Große Kapazität Backup Batterie Mobile Stromversorgung für Telefon",
+      "title": "20000mAh Power Bank Compact Portable Selbstständiges Kabel Große Kapazität Backup Batterie Mobile Stromversorgung für Telefon",
       "slug": "20000mah-power-bank-compact-portable-self-contained-cable-la",
       "price": 16.27,
       "original_price": 32.52,
@@ -251,8 +251,8 @@
       "sales_volume": 1,
       "score": 0.2501,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:00Z",
-      "updated_at": "2026-10-30T06:46:00Z"
+      "fetched_at": "2026-10-31T06:36:06Z",
+      "updated_at": "2026-10-31T06:36:06Z"
     },
     {
       "product_id": "1005012124170204",
@@ -269,12 +269,12 @@
       "sales_volume": 60,
       "score": 0.2466,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:00Z",
-      "updated_at": "2026-10-30T06:46:00Z"
+      "fetched_at": "2026-10-31T06:36:07Z",
+      "updated_at": "2026-10-31T06:36:07Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank in 4 Kabel tragbaren Ladegerät niedlich Pet Cartoon Make-up Spiegel Powerbank externe Batterie Power Bank",
+      "title": "20000mAh Mini Power Bank in 4 Kabel tragbaren Ladegerät niedlich Pet Cartoon Make-up Spiegel Powerbank Externe Batterie Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.79,
       "original_price": 21.57,
@@ -287,8 +287,8 @@
       "sales_volume": 20,
       "score": 0.2457,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:01Z",
-      "updated_at": "2026-10-30T06:46:01Z"
+      "fetched_at": "2026-10-31T06:36:07Z",
+      "updated_at": "2026-10-31T06:36:07Z"
     },
     {
       "product_id": "1005012492477479",
@@ -305,8 +305,8 @@
       "sales_volume": 7,
       "score": 0.2375,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:01Z",
-      "updated_at": "2026-10-30T06:46:01Z"
+      "fetched_at": "2026-10-31T06:36:08Z",
+      "updated_at": "2026-10-31T06:36:08Z"
     },
     {
       "product_id": "1005013196554725",
@@ -323,8 +323,8 @@
       "sales_volume": 2,
       "score": 0.2302,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:02Z",
-      "updated_at": "2026-10-30T06:46:02Z"
+      "fetched_at": "2026-10-31T06:36:08Z",
+      "updated_at": "2026-10-31T06:36:08Z"
     },
     {
       "product_id": "1005012408073378",
@@ -341,8 +341,8 @@
       "sales_volume": 29,
       "score": 0.2235,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:02Z",
-      "updated_at": "2026-10-30T06:46:02Z"
+      "fetched_at": "2026-10-31T06:36:09Z",
+      "updated_at": "2026-10-31T06:36:09Z"
     },
     {
       "product_id": "1005009849333993",
@@ -359,8 +359,8 @@
       "sales_volume": 6,
       "score": 0.2207,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:03Z",
-      "updated_at": "2026-10-30T06:46:03Z"
+      "fetched_at": "2026-10-31T06:36:09Z",
+      "updated_at": "2026-10-31T06:36:09Z"
     }
   ]
 }

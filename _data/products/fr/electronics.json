@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-10-30T06:45:04Z",
+  "updated_at": "2026-10-31T06:35:34Z",
   "products": [
     {
       "product_id": "1005012229118016",
@@ -17,12 +17,12 @@
       "sales_volume": 1321,
       "score": 0.3484,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:55Z",
-      "updated_at": "2026-10-30T06:44:55Z"
+      "fetched_at": "2026-10-31T06:35:25Z",
+      "updated_at": "2026-10-31T06:35:25Z"
     },
     {
       "product_id": "4001142960865",
-      "title": "LED Strip Light ,RGB 5050/SMD3535, Ruban flexible, DIY Led Light Strip RGB Tape Diode DC 12V bluetooth lumières de Noël",
+      "title": "LED Strip Light ,RGB 5050/SMD3535, Ruban flexible, DIY LED Light Strip RGB Tape Diode DC 12V bluetooth lumières de Noël",
       "slug": "led-strip-light-rgb-5050smd3535-flexible-ribbon-diy-led-ligh",
       "price": 11.56,
       "original_price": 42.8,
@@ -35,8 +35,8 @@
       "sales_volume": 23,
       "score": 0.3218,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:55Z",
-      "updated_at": "2026-10-30T06:44:55Z"
+      "fetched_at": "2026-10-31T06:35:25Z",
+      "updated_at": "2026-10-31T06:35:25Z"
     },
     {
       "product_id": "1005013005890661",
@@ -53,8 +53,8 @@
       "sales_volume": 4,
       "score": 0.2835,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:56Z",
-      "updated_at": "2026-10-30T06:44:56Z"
+      "fetched_at": "2026-10-31T06:35:26Z",
+      "updated_at": "2026-10-31T06:35:26Z"
     },
     {
       "product_id": "1005007480971055",
@@ -71,12 +71,12 @@
       "sales_volume": 250,
       "score": 0.2802,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:56Z",
-      "updated_at": "2026-10-30T06:44:56Z"
+      "fetched_at": "2026-10-31T06:35:26Z",
+      "updated_at": "2026-10-31T06:35:26Z"
     },
     {
       "product_id": "1005012219557684",
-      "title": "Mini Capsule en métal 10000mAh Power Bank pliable Plug direct charge rapide Portable Alimentation Mobile pour iPhone Android",
+      "title": "Mini Capsule en métal 10000mAh Power Bank Foldable Direct Plug Charge rapide Portable Mobile Alimentation pour iPhone Android",
       "slug": "mini-metal-capsule-10000mah-power-bank-foldable-direct-plug-",
       "price": 21.56,
       "original_price": 43.14,
@@ -89,8 +89,8 @@
       "sales_volume": 83,
       "score": 0.2573,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:57Z",
-      "updated_at": "2026-10-30T06:44:57Z"
+      "fetched_at": "2026-10-31T06:35:27Z",
+      "updated_at": "2026-10-31T06:35:27Z"
     },
     {
       "product_id": "1005009017398891",
@@ -107,8 +107,8 @@
       "sales_volume": 191,
       "score": 0.2556,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:57Z",
-      "updated_at": "2026-10-30T06:44:57Z"
+      "fetched_at": "2026-10-31T06:35:27Z",
+      "updated_at": "2026-10-31T06:35:27Z"
     },
     {
       "product_id": "1005012272048246",
@@ -125,8 +125,8 @@
       "sales_volume": 11,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:58Z",
-      "updated_at": "2026-10-30T06:44:58Z"
+      "fetched_at": "2026-10-31T06:35:28Z",
+      "updated_at": "2026-10-31T06:35:28Z"
     },
     {
       "product_id": "1005012230439859",
@@ -143,8 +143,8 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:58Z",
-      "updated_at": "2026-10-30T06:44:58Z"
+      "fetched_at": "2026-10-31T06:35:28Z",
+      "updated_at": "2026-10-31T06:35:28Z"
     },
     {
       "product_id": "1005013325118538",
@@ -161,12 +161,12 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:59Z",
-      "updated_at": "2026-10-30T06:44:59Z"
+      "fetched_at": "2026-10-31T06:35:28Z",
+      "updated_at": "2026-10-31T06:35:28Z"
     },
     {
       "product_id": "1005012968512484",
-      "title": "Nouveau 50000mAh Power Bank PD 20W recharge rapide Portable Outdoor Powerstation Multifonctionnelle USB Powerbank pour Camping Home",
+      "title": "Nouveau 50000mAh Power Bank PD 20W Charge rapide Portable Powerstation Outdoor Multifonctionnelle USB Powerbank pour Camping Home",
       "slug": "new-50000mah-power-bank-pd-20w-fast-charging-portable-outdoo",
       "price": 28.08,
       "original_price": 56.16,
@@ -179,8 +179,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:59Z",
-      "updated_at": "2026-10-30T06:44:59Z"
+      "fetched_at": "2026-10-31T06:35:29Z",
+      "updated_at": "2026-10-31T06:35:29Z"
     },
     {
       "product_id": "1005013023318187",
@@ -197,8 +197,8 @@
       "sales_volume": 65,
       "score": 0.2378,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:44:59Z",
-      "updated_at": "2026-10-30T06:44:59Z"
+      "fetched_at": "2026-10-31T06:35:29Z",
+      "updated_at": "2026-10-31T06:35:29Z"
     },
     {
       "product_id": "1005011812151458",
@@ -215,8 +215,8 @@
       "sales_volume": 53,
       "score": 0.2352,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:00Z",
-      "updated_at": "2026-10-30T06:45:00Z"
+      "fetched_at": "2026-10-31T06:35:30Z",
+      "updated_at": "2026-10-31T06:35:30Z"
     },
     {
       "product_id": "1005012963724641",
@@ -233,8 +233,8 @@
       "sales_volume": 18,
       "score": 0.2322,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:00Z",
-      "updated_at": "2026-10-30T06:45:00Z"
+      "fetched_at": "2026-10-31T06:35:30Z",
+      "updated_at": "2026-10-31T06:35:30Z"
     },
     {
       "product_id": "1005012975212799",
@@ -251,12 +251,12 @@
       "sales_volume": 61,
       "score": 0.2274,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:01Z",
-      "updated_at": "2026-10-30T06:45:01Z"
+      "fetched_at": "2026-10-31T06:35:31Z",
+      "updated_at": "2026-10-31T06:35:31Z"
     },
     {
       "product_id": "1005009849333993",
-      "title": "Chargeur sans fil Magsafe 15W avec support de câble PD 22.5W charge rapide Power Bank 20000mAh pour iPhone 16 Samsung Xiaomi Powerbank",
+      "title": "Chargeur sans fil 15W Magsafe avec support de câble PD 22.5W charge rapide Power Bank 20000mAh pour iPhone 16 Samsung Xiaomi Powerbank",
       "slug": "15w-magsafe-wireless-charger-with-cable-stand-pd-225w-fast-c",
       "price": 15.2,
       "original_price": 25.33,
@@ -269,12 +269,12 @@
       "sales_volume": 6,
       "score": 0.2207,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:01Z",
-      "updated_at": "2026-10-30T06:45:01Z"
+      "fetched_at": "2026-10-31T06:35:31Z",
+      "updated_at": "2026-10-31T06:35:31Z"
     },
     {
       "product_id": "1005009093766779",
-      "title": "Banque de puissance magnétique sans fil 6 en 1 15W 22,5W Chargeur mural pour iPhone iwatch Samsung Powerbank avec câble de prise AC",
+      "title": "Banque d'énergie sans fil magnétique 6 en 1 15W 22,5W Chargeur mural pour iPhone iwatch Samsung Powerbank avec câble de prise AC",
       "slug": "6-in-1-15w-magnetic-wireless-power-bank-225w-fast-charging-w",
       "price": 23.11,
       "original_price": 37.28,
@@ -287,8 +287,8 @@
       "sales_volume": 12,
       "score": 0.2154,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:02Z",
-      "updated_at": "2026-10-30T06:45:02Z"
+      "fetched_at": "2026-10-31T06:35:32Z",
+      "updated_at": "2026-10-31T06:35:32Z"
     },
     {
       "product_id": "1005011532039236",
@@ -305,8 +305,8 @@
       "sales_volume": 1,
       "score": 0.2101,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:02Z",
-      "updated_at": "2026-10-30T06:45:02Z"
+      "fetched_at": "2026-10-31T06:35:32Z",
+      "updated_at": "2026-10-31T06:35:32Z"
     },
     {
       "product_id": "1005011532019654",
@@ -323,12 +323,12 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:03Z",
-      "updated_at": "2026-10-30T06:45:03Z"
+      "fetched_at": "2026-10-31T06:35:33Z",
+      "updated_at": "2026-10-31T06:35:33Z"
     },
     {
       "product_id": "1005013012406453",
-      "title": "Tapis de recharge sans fil en silicone pour 2024-2026 Geely EX2 Xingyuan, Console centrale Protection antidérapante Accessoires intérieurs",
+      "title": "Tapis de recharge sans fil en silicone pour 2024-2026 Geely EX2 Xingyuan, Console centrale Protection antidérapante Accessoires d'intérieur",
       "slug": "silicone-wireless-charging-mat-for-2024-2026-geely-ex2-xingy",
       "price": 10.75,
       "original_price": 35.86,
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:03Z",
-      "updated_at": "2026-10-30T06:45:03Z"
+      "fetched_at": "2026-10-31T06:35:33Z",
+      "updated_at": "2026-10-31T06:35:33Z"
     },
     {
       "product_id": "1005011531921275",
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:04Z",
-      "updated_at": "2026-10-30T06:45:04Z"
+      "fetched_at": "2026-10-31T06:35:34Z",
+      "updated_at": "2026-10-31T06:35:34Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-10-30T06:45:44Z",
+  "updated_at": "2026-10-31T06:35:57Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3524,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:35Z",
-      "updated_at": "2026-10-30T06:45:35Z"
+      "fetched_at": "2026-10-31T06:35:49Z",
+      "updated_at": "2026-10-31T06:35:49Z"
     },
     {
       "product_id": "1005010160889036",
@@ -35,12 +35,12 @@
       "sales_volume": 239,
       "score": 0.2803,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:35Z",
-      "updated_at": "2026-10-30T06:45:35Z"
+      "fetched_at": "2026-10-31T06:35:49Z",
+      "updated_at": "2026-10-31T06:35:49Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "Botella de agua de ciclo X-TIGER 620ml Agua fría aislada Botella de agua al aire libre MTB Bicicleta Ciclismo Agua Botella",
+      "title": "Botella de agua de ciclo X-TIGER 620ml de agua fría aislado hervidor térmico al aire libre MTB Bicicleta Ciclismo Agua Botella",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 13.3,
       "original_price": 29.57,
@@ -53,8 +53,8 @@
       "sales_volume": 0,
       "score": 0.265,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:36Z",
-      "updated_at": "2026-10-30T06:45:36Z"
+      "fetched_at": "2026-10-31T06:35:50Z",
+      "updated_at": "2026-10-31T06:35:50Z"
     },
     {
       "product_id": "1005005489527499",
@@ -71,8 +71,8 @@
       "sales_volume": 247,
       "score": 0.2644,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:36Z",
-      "updated_at": "2026-10-30T06:45:36Z"
+      "fetched_at": "2026-10-31T06:35:50Z",
+      "updated_at": "2026-10-31T06:35:50Z"
     },
     {
       "product_id": "1005009366357679",
@@ -89,8 +89,8 @@
       "sales_volume": 3,
       "score": 0.2594,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:37Z",
-      "updated_at": "2026-10-30T06:45:37Z"
+      "fetched_at": "2026-10-31T06:35:50Z",
+      "updated_at": "2026-10-31T06:35:50Z"
     },
     {
       "product_id": "32286722941",
@@ -107,8 +107,8 @@
       "sales_volume": 22,
       "score": 0.2586,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:37Z",
-      "updated_at": "2026-10-30T06:45:37Z"
+      "fetched_at": "2026-10-31T06:35:51Z",
+      "updated_at": "2026-10-31T06:35:51Z"
     },
     {
       "product_id": "1005010382664758",
@@ -125,12 +125,12 @@
       "sales_volume": 36,
       "score": 0.2532,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:38Z",
-      "updated_at": "2026-10-30T06:45:38Z"
+      "fetched_at": "2026-10-31T06:35:51Z",
+      "updated_at": "2026-10-31T06:35:51Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Botella de agua deportiva de plástico libre 400/500/700/1000ml Bicicleta de botella de agua a prueba de leak",
+      "title": "BPA Botella de agua deportiva de plástico libre 400/500/700/1000ml Bicicleta de botella a prueba de vacío",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.89,
       "original_price": 15.79,
@@ -143,8 +143,8 @@
       "sales_volume": 64,
       "score": 0.2525,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:38Z",
-      "updated_at": "2026-10-30T06:45:38Z"
+      "fetched_at": "2026-10-31T06:35:52Z",
+      "updated_at": "2026-10-31T06:35:52Z"
     },
     {
       "product_id": "1005008772408846",
@@ -161,12 +161,12 @@
       "sales_volume": 30,
       "score": 0.2489,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:39Z",
-      "updated_at": "2026-10-30T06:45:39Z"
+      "fetched_at": "2026-10-31T06:35:52Z",
+      "updated_at": "2026-10-31T06:35:52Z"
     },
     {
       "product_id": "1005007517245266",
-      "title": "Construir XT - Suplemento de entrenamiento - Ayuda a promover el crecimiento del músculo magro, las ganancias de fuerza, potencia y resistencia en el gimnasio",
+      "title": "Construir XT - Suplemento de entrenamiento - Ayuda a promover el crecimiento del músculo magro, las ganancias de fuerza, la potencia y la resistencia en el gimnasio",
       "slug": "build-xt-workout-supplement-helps-promote-lean-muscle-growth",
       "price": 7.04,
       "original_price": 14.08,
@@ -179,12 +179,12 @@
       "sales_volume": 18,
       "score": 0.2442,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:39Z",
-      "updated_at": "2026-10-30T06:45:39Z"
+      "fetched_at": "2026-10-31T06:35:53Z",
+      "updated_at": "2026-10-31T06:35:53Z"
     },
     {
       "product_id": "1005009049503829",
-      "title": "BATFOX 3/4 MTB Casco para bicicletas Hombre Mujeres Protección del oído Bicicleta fuera de carretera Reducción de la velocidad de la velocidad Cap Tight Cascos transpirables",
+      "title": "BATFOX 3/4 MTB Casco de bicicletas Hombre Mujeres Protección del oído Bicicleta fuera de carretera Reducción de la velocidad de la velocidad Cap Tight Cascos transpirables",
       "slug": "batfox-34-mtb-bicycle-helmet-men-women-ear-protection-bike-o",
       "price": 56.12,
       "original_price": 112.24,
@@ -197,12 +197,12 @@
       "sales_volume": 16,
       "score": 0.2392,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:40Z",
-      "updated_at": "2026-10-30T06:45:40Z"
+      "fetched_at": "2026-10-31T06:35:53Z",
+      "updated_at": "2026-10-31T06:35:53Z"
     },
     {
       "product_id": "1005009402813403",
-      "title": "Zapatos de Danza Profesional de Danza Moderna para Mujeres Tango Waltz Competencia de Baile de ejercicios de práctica profesional damas tacones 137 SA",
+      "title": "BD Dance Professional Zapatos de baile modernos para mujeres Tango Waltz Competencia de baile de ejercicios de práctica profesional damas tacones 137 SA",
       "slug": "bd-dance-professional-modern-dance-shoes-for-women-tango-wal",
       "price": 58.98,
       "original_price": 98.07,
@@ -215,8 +215,8 @@
       "sales_volume": 8,
       "score": 0.218,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:40Z",
-      "updated_at": "2026-10-30T06:45:40Z"
+      "fetched_at": "2026-10-31T06:35:54Z",
+      "updated_at": "2026-10-31T06:35:54Z"
     },
     {
       "product_id": "1005012943475168",
@@ -233,12 +233,12 @@
       "sales_volume": 1,
       "score": 0.2141,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:41Z",
-      "updated_at": "2026-10-30T06:45:41Z"
+      "fetched_at": "2026-10-31T06:35:54Z",
+      "updated_at": "2026-10-31T06:35:54Z"
     },
     {
       "product_id": "1005008996623976",
-      "title": "Hombre Mujer Cold-Proof Thermal Scarf Invierno Sombrero de esquí Balaclava Full Face Mask Ski Cycling Caza Cabeza de Caza Cubierta Casco",
+      "title": "Hombre Mujer Cold-Proof Thermal Scarf Invierno Sombrero de esquí Balaclava Full Face Mask Ski Cycling cabeza de caza Cubierta cubierta de techo",
       "slug": "men-women-cold-proof-thermal-scarf-winter-ski-hat-balaclava-",
       "price": 1.52,
       "original_price": 2.44,
@@ -251,8 +251,8 @@
       "sales_volume": 24,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:41Z",
-      "updated_at": "2026-10-30T06:45:41Z"
+      "fetched_at": "2026-10-31T06:35:55Z",
+      "updated_at": "2026-10-31T06:35:55Z"
     },
     {
       "product_id": "1005006588685488",
@@ -269,8 +269,8 @@
       "sales_volume": 6,
       "score": 0.197,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:42Z",
-      "updated_at": "2026-10-30T06:45:42Z"
+      "fetched_at": "2026-10-31T06:35:55Z",
+      "updated_at": "2026-10-31T06:35:55Z"
     },
     {
       "product_id": "1005013450497930",
@@ -287,8 +287,8 @@
       "sales_volume": 0,
       "score": 0.195,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:42Z",
-      "updated_at": "2026-10-30T06:45:42Z"
+      "fetched_at": "2026-10-31T06:35:55Z",
+      "updated_at": "2026-10-31T06:35:55Z"
     },
     {
       "product_id": "1005013199506486",
@@ -305,8 +305,8 @@
       "sales_volume": 0,
       "score": 0.195,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:43Z",
-      "updated_at": "2026-10-30T06:45:43Z"
+      "fetched_at": "2026-10-31T06:35:56Z",
+      "updated_at": "2026-10-31T06:35:56Z"
     },
     {
       "product_id": "1005003568008959",
@@ -323,8 +323,8 @@
       "sales_volume": 0,
       "score": 0.18,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:43Z",
-      "updated_at": "2026-10-30T06:45:43Z"
+      "fetched_at": "2026-10-31T06:35:56Z",
+      "updated_at": "2026-10-31T06:35:56Z"
     },
     {
       "product_id": "1005013093082866",
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.159,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:44Z",
-      "updated_at": "2026-10-30T06:45:44Z"
+      "fetched_at": "2026-10-31T06:35:57Z",
+      "updated_at": "2026-10-31T06:35:57Z"
     },
     {
       "product_id": "1005005807293081",
@@ -359,8 +359,8 @@
       "sales_volume": 38,
       "score": 0.1589,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:44Z",
-      "updated_at": "2026-10-30T06:45:44Z"
+      "fetched_at": "2026-10-31T06:35:57Z",
+      "updated_at": "2026-10-31T06:35:57Z"
     }
   ]
 }

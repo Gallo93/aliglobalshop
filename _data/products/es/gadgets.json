@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-10-30T06:46:03Z",
+  "updated_at": "2026-10-31T06:36:09Z",
   "products": [
     {
       "product_id": "1005007480971055",
@@ -17,12 +17,12 @@
       "sales_volume": 250,
       "score": 0.2802,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:54Z",
-      "updated_at": "2026-10-30T06:45:54Z"
+      "fetched_at": "2026-10-31T06:36:00Z",
+      "updated_at": "2026-10-31T06:36:00Z"
     },
     {
       "product_id": "1005002653094153",
-      "title": "Proyectador Tripod Proyector Tripod Proyector Tripod Proyector Proyector Tripod Proyector Tripod Proyector Proyector Tripod Proyector de la Cámara de Beamer profesional",
+      "title": "Proyector Tripod Proyector Tripod Proyector Tripod Proyector Tripod Proyector Tripod Proyector de alta resistencia para DLP",
       "slug": "professional-portable-tripod-projector-tripod-holder-stretch",
       "price": 1.3,
       "original_price": 3.25,
@@ -35,8 +35,8 @@
       "sales_volume": 10,
       "score": 0.2745,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:54Z",
-      "updated_at": "2026-10-30T06:45:54Z"
+      "fetched_at": "2026-10-31T06:36:01Z",
+      "updated_at": "2026-10-31T06:36:01Z"
     },
     {
       "product_id": "1005007587741414",
@@ -53,8 +53,8 @@
       "sales_volume": 101,
       "score": 0.2613,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:55Z",
-      "updated_at": "2026-10-30T06:45:55Z"
+      "fetched_at": "2026-10-31T06:36:01Z",
+      "updated_at": "2026-10-31T06:36:01Z"
     },
     {
       "product_id": "1005010253348075",
@@ -71,8 +71,8 @@
       "sales_volume": 17,
       "score": 0.258,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:55Z",
-      "updated_at": "2026-10-30T06:45:55Z"
+      "fetched_at": "2026-10-31T06:36:02Z",
+      "updated_at": "2026-10-31T06:36:02Z"
     },
     {
       "product_id": "1005008323500938",
@@ -89,8 +89,8 @@
       "sales_volume": 9,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:56Z",
-      "updated_at": "2026-10-30T06:45:56Z"
+      "fetched_at": "2026-10-31T06:36:02Z",
+      "updated_at": "2026-10-31T06:36:02Z"
     },
     {
       "product_id": "1005012349888176",
@@ -107,8 +107,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:56Z",
-      "updated_at": "2026-10-30T06:45:56Z"
+      "fetched_at": "2026-10-31T06:36:03Z",
+      "updated_at": "2026-10-31T06:36:03Z"
     },
     {
       "product_id": "1005013322429837",
@@ -125,8 +125,8 @@
       "sales_volume": 5,
       "score": 0.2506,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:57Z",
-      "updated_at": "2026-10-30T06:45:57Z"
+      "fetched_at": "2026-10-31T06:36:03Z",
+      "updated_at": "2026-10-31T06:36:03Z"
     },
     {
       "product_id": "1005013215025078",
@@ -143,8 +143,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:57Z",
-      "updated_at": "2026-10-30T06:45:57Z"
+      "fetched_at": "2026-10-31T06:36:04Z",
+      "updated_at": "2026-10-31T06:36:04Z"
     },
     {
       "product_id": "1005013344460872",
@@ -161,8 +161,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:57Z",
-      "updated_at": "2026-10-30T06:45:57Z"
+      "fetched_at": "2026-10-31T06:36:04Z",
+      "updated_at": "2026-10-31T06:36:04Z"
     },
     {
       "product_id": "1005013325118538",
@@ -179,12 +179,12 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:58Z",
-      "updated_at": "2026-10-30T06:45:58Z"
+      "fetched_at": "2026-10-31T06:36:05Z",
+      "updated_at": "2026-10-31T06:36:05Z"
     },
     {
       "product_id": "1005012561422530",
-      "title": "Marca Nuevo 50000M 20000mAh 7.4V Banco de alimentación para ropa calentada Vest batería especial móvil Power Bank con puerto USB",
+      "title": "Marca Nuevo 50000M 20000mAh 7.4V Banco de energía para ropa calentada Vest batería especial móvil Power Bank con puerto USB",
       "slug": "brand-new-50000m-20000mah-74v-power-bank-for-heated-clothing",
       "price": 36.65,
       "original_price": 73.31,
@@ -197,8 +197,8 @@
       "sales_volume": 4,
       "score": 0.2505,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:58Z",
-      "updated_at": "2026-10-30T06:45:58Z"
+      "fetched_at": "2026-10-31T06:36:05Z",
+      "updated_at": "2026-10-31T06:36:05Z"
     },
     {
       "product_id": "1005013295698728",
@@ -215,8 +215,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:59Z",
-      "updated_at": "2026-10-30T06:45:59Z"
+      "fetched_at": "2026-10-31T06:36:06Z",
+      "updated_at": "2026-10-31T06:36:06Z"
     },
     {
       "product_id": "1005013367382846",
@@ -233,8 +233,8 @@
       "sales_volume": 2,
       "score": 0.2502,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:45:59Z",
-      "updated_at": "2026-10-30T06:45:59Z"
+      "fetched_at": "2026-10-31T06:36:06Z",
+      "updated_at": "2026-10-31T06:36:06Z"
     },
     {
       "product_id": "1005013358075835",
@@ -251,8 +251,8 @@
       "sales_volume": 1,
       "score": 0.2501,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:00Z",
-      "updated_at": "2026-10-30T06:46:00Z"
+      "fetched_at": "2026-10-31T06:36:06Z",
+      "updated_at": "2026-10-31T06:36:06Z"
     },
     {
       "product_id": "1005012124170204",
@@ -269,12 +269,12 @@
       "sales_volume": 60,
       "score": 0.2466,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:00Z",
-      "updated_at": "2026-10-30T06:46:00Z"
+      "fetched_at": "2026-10-31T06:36:07Z",
+      "updated_at": "2026-10-31T06:36:07Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank Construido en 4 Cable Portable Cargador Cute Pet Cartoon maquillaje Espejo Powerbank Power Bank",
+      "title": "20000mAh Mini Power Bank Construido en 4 Cable Portable Charger Cute Pet Cartoon Espejo de maquillaje Powerbank Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 10.79,
       "original_price": 21.57,
@@ -287,8 +287,8 @@
       "sales_volume": 20,
       "score": 0.2457,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:01Z",
-      "updated_at": "2026-10-30T06:46:01Z"
+      "fetched_at": "2026-10-31T06:36:07Z",
+      "updated_at": "2026-10-31T06:36:07Z"
     },
     {
       "product_id": "1005012492477479",
@@ -305,8 +305,8 @@
       "sales_volume": 7,
       "score": 0.2375,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:01Z",
-      "updated_at": "2026-10-30T06:46:01Z"
+      "fetched_at": "2026-10-31T06:36:08Z",
+      "updated_at": "2026-10-31T06:36:08Z"
     },
     {
       "product_id": "1005013196554725",
@@ -323,8 +323,8 @@
       "sales_volume": 2,
       "score": 0.2302,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:02Z",
-      "updated_at": "2026-10-30T06:46:02Z"
+      "fetched_at": "2026-10-31T06:36:08Z",
+      "updated_at": "2026-10-31T06:36:08Z"
     },
     {
       "product_id": "1005012408073378",
@@ -341,8 +341,8 @@
       "sales_volume": 29,
       "score": 0.2235,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:02Z",
-      "updated_at": "2026-10-30T06:46:02Z"
+      "fetched_at": "2026-10-31T06:36:09Z",
+      "updated_at": "2026-10-31T06:36:09Z"
     },
     {
       "product_id": "1005009849333993",
@@ -359,8 +359,8 @@
       "sales_volume": 6,
       "score": 0.2207,
       "price_history": [],
-      "fetched_at": "2026-10-30T06:46:03Z",
-      "updated_at": "2026-10-30T06:46:03Z"
+      "fetched_at": "2026-10-31T06:36:09Z",
+      "updated_at": "2026-10-31T06:36:09Z"
     }
   ]
 }
