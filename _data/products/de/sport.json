@@ -1,25 +1,7 @@
 {
   "niche": "sport",
-  "updated_at": "2026-11-01T07:06:42Z",
+  "updated_at": "2026-11-02T07:11:17Z",
   "products": [
-    {
-      "product_id": "1005007606996171",
-      "title": "Lezyan Eco-friendly Premium Natural Rubber Workout Hersteller Design Custom Print Gymnastik Übung Dick Gym Yoga Mat",
-      "slug": "lezyan-eco-friendly-premium-natural-rubber-workout-manufactu",
-      "price": 18.7,
-      "original_price": 116.89,
-      "discount_pct": 84,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nzvzdXJqgRpOy30fCu7N5VvMMLvDnkozIwvIwq17jfg15CWOhl8a5k7e6x5S3HKym9UrwTL9DBg3LHWfZ687e57tgXTAQo1dRx9VSEvkJ3yndww2UEMUTmLWXDwsToOjmwfW39Vl4XwJU16s6oh4vE6GjwyfjSGIbxoX27CuXQMMmTKEDDUDJ0EZv58G16mKQfphq3I6ZgqQq7JUeFhqwjn8EL1yGzNMnD5r9jURQm8tyYOrbqwRM6pYOXnXD1k553R7sOcy24cRop65gH1ZYjXQzAvPxGihc2tPSGDIuVRWkLToeq86gUcb96JN54IDez2eWIWb2nGYceW0wxoONYu1fz62jOpnbbDaEsHQQ9uC7CW8Sj2JAViACrBeBSZ6CL2lNK5BQOjoGdCAWa64pND5NsyosKjFnmw5NAAan07wJNbTPiCyXY9jXObcSZoyN1QkF64YeIvBTER0J1FivpZU5KKPlpokMYAdlgLvMOTAxqVHgIelSXwb3AeLXCMgY1Q3aGF85WxLsmDuiCGj25X2TBVGLgWyRYRsiDGTxtrAERTOJvwhQwfjMpt178eDCzKnHjtEaBw2GL4gdfszuEwze6JVmnjfcqgrECz5ajf7Ud1oKqhHDVeH8J13HT5XhfTaiJI1FeJPzrm8QN2EEHCQSrWrz2wz3s03mtr32qpxrgwB0SX9ugd8yIllpuzZNUO6TxlS1Tnep",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1792042320/products/1005007606996171.webp",
-      "category": "sport",
-      "rating": 5.0,
-      "reviews_count": 3,
-      "sales_volume": 3,
-      "score": 0.3524,
-      "price_history": [],
-      "fetched_at": "2026-11-01T07:06:32Z",
-      "updated_at": "2026-11-01T07:06:32Z"
-    },
     {
       "product_id": "32286722941",
       "title": "Crossfit Speed Jump Seil tragbare Fitnessgeräte zum Überspringen",
@@ -27,7 +9,7 @@
       "price": 10.93,
       "original_price": 33.12,
       "discount_pct": 67,
-      "affiliate_url": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gWqhxjuKwHqWmu4DytyPTC2OcUy0e3nukhPGyUwts8bQWvfyKvHeSOV2x9PjwjkSoJQDr5hLyyNr6X8L9XNxs3v9Edy0sawfl52LWmtBYmZ3kCKc4rbzH2C65AhcEyK2CpA0yHFwBrIQCl47AcZVWEizL8Am11ckJO3f30rod7iAjsUIvmpDDarQQNk0h4OyWFHxWv4OdqNifDu7jAQGLm5m337QW3UgRrGCodsI4kXSG8JV2uO65YHTOxWxz7KR83kt695xVlsMok4LGLTkbyVLtTus94sgy0tKNIN53bWajleT5FGOUQV7Ta35Jrgyyu8dnt47XbkAbusZN81cgtO7vAe64y1W6E4zek6RHx6pdqMaDnKi7woHlCxwQeuvPHR33kasiJaj66CHxScOoLHU7HUudGspUiw9grS7QnjkkbJKM5uKYxEEVAdgFOAhnHRW5ky8QuYTVyK9yxfjH5F8OdwbVjiF8KGgNVbUffjIH6l8tUy8uMNtj9u1hg6BHV1cK0HYe3zco4SGQH2i09edddLRpBd8ExrBBFhNSgBfTxBx6cWrPRcLRUqJLxcGHTNFqhSO2CdfP76NxsHcNXx0TSlcxGqvsbWGNCIzA4SiggWlZPfBWaDmJS2XnV2XsQ7iauQj8xob3zYGFjSa1bykQUTsOlIU569JlSpnipHXVRT2EzaDaCshtNgV1gFN8ZPaO6N8kLowq2kj",
+      "affiliate_url": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gWqhxjuKwHqWmu4DytyPTC2OcUy0e3nukhPGyUwts8bQWvfyKvHeSOV2x9PjwjkSoJQDr5hLyyNr6X8L9XNxs3v9Edy0sawfl52LWmtBYmZ3kCKc4rbzH2C65AhcEyK2CpA0yHFwBrIQCl47AcZVWEizL8Am11ckJO3f30rod7iAjsUIvmpDDarQQNk0h4OyWFHxWv4OdqNifDu7jAQGLm5m337QW3UgRrGCodsI4kXSG8JV2uO65YHTOxWxz7KR83kKJhI8sqnvbFxY6nL6OUgMA7DZnPd9ylEGL2xkLDZRtH7v2wFBVSO3uyJPY2BU10tkZKymPcjEtc3mprpoCvERuOLbQKeUQW6TBgmotALZc2OCposdT8nVTJ3grXkfWhJDB1jjB5iKc8vnC609NkiFXfhvkuvJtXVAcnbroHDA56xrppweggGo3d2WewN5wKHftoAdjWEIjV5tj1AXVF0ahLS0BJJ2YiRcbHnaG3M1JtYIPlN7tWuuL9FGxcbcpCVTiaJwJ5kdkmGu0nCIinwbi3CAezHHvNpN8qJhlinCFjtvK4EKCm4jyjzd5QchKg6atImmBEkImCX57bkw3pC0Q9LrwvB6y1IARlYEdePd2q18A9801o8lVOSF3rynUXdSTrfDnOrris6vBDrDQdkbfduobXDsnyw2BY63X1cg6PDAN7O5lBDIGASiRxNI38qvVaoYWny2ogjt",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1791270584/products/32286722941.webp",
       "category": "sport",
       "rating": 5.0,
@@ -35,35 +17,35 @@
       "sales_volume": 21,
       "score": 0.3035,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:33Z",
-      "updated_at": "2026-11-01T07:06:33Z"
+      "fetched_at": "2026-11-02T07:11:08Z",
+      "updated_at": "2026-11-02T07:11:08Z"
     },
     {
       "product_id": "1005010160889036",
-      "title": "Eastinear Bicycle Helmet Ride Led Lights vorne und hinten, Urban Road Cycling Helmet, wiederaufladbares Blinksignal Fahrradzubehör",
+      "title": "Eastinear Bicycle Helmet Ride Led Lights vorne und hinten, Urban Road Cycling Helmet, Wiederaufladbares Blinksignal Fahrradzubehör",
       "slug": "eastinear-bicycle-helmet-ride-led-lights-front-and-rearurban",
       "price": 38.42,
       "original_price": 80.04,
       "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ol4gqF8F6GvONFxtzvkJWeYL0IYAsuUPQKtapVXGYuctclUk5Tw2QbTmRDVkhcMawx6h94rALXfstLIrl7LKDWe31RreYkY9aqvDkpXj91qR1U2mNM2ephqpLmDBWaNGe3e7Mvgbc9vKrHcqSexQYxREl2Vzz87Vl0W3bMjkdGaPsnU5yDHhkgwor0PMwNVHbha6uG3mOiVjcMqs0XVRNUvRIjDMupjD9S956kKX5blfFHsxpzpnOch6jItf57OqupqMTig8CWL0lqFD6pftEQxJEdx7Yv3IUZZeho1Hr3XxhcsnM3PAAdv5C1QOn1pwIL8oKIRmaHTvhTeIqhNjeA9cypaWmD2HwclrT9GC39QjTm0QOnI8LgzDUGpMuCWvJNxxA3N3o7cBMMfSleqIL4lFy6FtTmWWxPwhaiRLksTPmESL473sNpU4ZweEpknb6nuINSb8o0gIWh07ZUZjmuPguHs1BmhSHZzfw8cYrEQfj7PYaMbzihsxkJKLDgtxg0Rgz8CrLJte9LE3JK3zMrrmoVczuaZFUNDXnzCqN0GKC4dngjDo83JbqH9p0kHfHj3e8xJApAEfa3J9TYuPZkkJH3xhOVCEnzGLw08i99EnJZvkIgdKLTfWSxhK4vLudGKeefYMsGu0lqSfDHyohWfT0FHP7DLHqgNklIpipKItbp6VSBEK0WOyC1MM8glw5Em76YSTMME4y",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ol4gqF8F6GvONFxtzvkJWeYL0IYAsuUPQKtapVXGYuctclUk5Tw2QbTmRDVkhcMawx6h94rALXfstLIrl7LKDWe31RreYkY9aqvDkpXj91qR1U2mNM2ephqpLmDBWaNGe3e7Mvgbc9vKrHcqSexQYxREl2Vzz87Vl0W3bMjkdGaPsnU5yDHhkgwor0PMwNVHbha6uG3mOiVjcMqs0XVRNUvRIjDMupjD9S956kKX5blfFHsxpzpnOch6jItf57OqupsdHOtFCpDQNOmyYr3xXGsmg4UrUZVm36u8NjhAAPqL5lKlokVExhLWjXloj1eVgctTX6b3ILGtLleKwO3KrXHk7WRhAmcHKbc5ofRxUz7GIBsSqPFERAIMvngkCwlbK3shphUyaQ8B0rTsqKNfuKGkXE66B0f8A3FNpzyyqlPNUD7uOUcnS3xVYUBrWdH2XOtItQ8Zwc2QTuiKN2L3LG6MxFaY8crhtutlE8HABDkYefKYWScEca3nROYwAvu1JNDhl6VDoD3JLO0oaGYEcIB0Ec9dx3TeqP02FM5kOlkskslmimJfikTWZ9bYzyLvdQqmh9ltMGSixMzjX8jUR3xP8c9hZtMhhA7VU4kGq9ja2rYYGLsngybUlFBv7fGFisHg1emlm9Xfwn1AbduOGzS1MbalfZxWG42KqXaB71UgXdGPbaCJwYmP9hf0XLPLZGr2KmCw4Bzac",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1784329277/products/1005010160889036.webp",
       "category": "sport",
       "rating": 4.8,
-      "reviews_count": 241,
-      "sales_volume": 241,
-      "score": 0.2806,
+      "reviews_count": 242,
+      "sales_volume": 242,
+      "score": 0.2807,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:33Z",
-      "updated_at": "2026-11-01T07:06:33Z"
+      "fetched_at": "2026-11-02T07:11:08Z",
+      "updated_at": "2026-11-02T07:11:08Z"
     },
     {
       "product_id": "1005010786413625",
-      "title": "X-TIGER Fahrrad Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenrad Fahrrad Wasserflasche",
+      "title": "X-TIGER Fahrrad-Wasserflasche 620ml Kaltwasser isolierte Thermalflasche Outdoor Sport MTB Straßenrad Radfahren Wasserflasche",
       "slug": "x-tiger-bicycle-water-bottle-620ml-cold-water-insulated-ther",
       "price": 11.83,
       "original_price": 29.57,
       "discount_pct": 60,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FCVjJaG3eZEb93aEDBQdx615wt41CUgAEtkUvGRNF0shLlK0KqtZCL2sfEkVVUn1yDaseRfeK4xK3iHtdzeH0tEK3o1yLQfpWzHmnrnj7ZWKojhnzT2rYf6NSbivqnxN8sqODfhdUBmZSIEG1KXzja6vviDoBH6L4P3THcEE8KnosUlDEGInuRw9dzZuqATQGbeDHANMe92jf9CJXU89x4kiR3JbeLmXOcdiyDSlLXKCLrlAiISJmknLpSMvPA15fegBI3F6Zkm3foYm3oE7hTEydLZtCSNcyhivjtyRVCbb9hmLYW8WlYiDQv4bN9SYkLj2nypNmlkPooSIQHQcQfBn5PWUAc1LaVrN34SILBjcHLNy38T3eDKpeYXR1kOXO8SwTwvXDRiyMHv0ofmsRJwHqLhNlODGgZABFq2h836VRjw7l0rV2jyY0m2NAHB9BQeaEV1fUkHQAZXNhucAaGvoM4cb2gzPEqguuDmArR98lIGHWz3A5oNk6IzYIy32w1kqflrTf3iTD1kXzLiDFjYHut7sU5W1r6ZPR9q6PlVSiWTSmSOkEu9B5xNag80EhZDDzYJ0MTT3syIZBhZ5zNn27KjRfnW7fxwN1gakT7fMBKL88ZuhjFY1wHoKXrOlQEUboHpNCiJ7daHTMR6VjtZCc8ytS34i6TgTiR428LUYf5HUQ4qkTtPu2oZXau575PihNcbVlqp3e",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FCVjJaG3eZEb93aEDBQdx615wt41CUgAEtkUvGRNF0shLlK0KqtZCL2sfEkVVUn1yDaseRfeK4xK3iHtdzeH0tEK3o1yLQfpWzHmnrnj7ZWKojhnzT2rYf6NSbivqnxN8sqODfhdUBmZSIEG1KXzja6vviDoBH6L4P3THcEE8KnosUlDEGInuRw9dzZuqATQGbeDHANMe92jf9CJXU89x4kiR3JbeLmXOcdiyDG9en4z7jLL4vKUALUtvsJDARowvE4NpicHOcShy3t1yP4kgIoGf4PheKM3332Y5K9cYuCdpbRam7vuJ69Kv2cqEoov5yAUIsAedyCUO2QeIrRPFQW5NotSGoPCHgygahd0LvTXrWbsLkmpp8UVMQSkhpQkPHdyyumqJouFyjtkXluYrfDK5fpLN5Ec65AoImmVqQvFqt3M6PjPa78V7xhanvUCfqnDeBhJc5SWwXOMb5RaJrMQ6KMRBTj1UMwJfrdHR0pcJU2TdyrQlSpyx3aLLNx5PBHGPPtRTs6CdmFrWrD0CgwCm1jhRYRRxlxZ4zlTqyViEh1P8OZodijjFqrDUOC8Pjfx7tmJ3Go29IAwXXnOyO6EVVU1s8TDfqhsIvjTUyA0xbzlviHan1yrXfnZ1piVa6IKkF7NclOheTlQSCxUzVfQfPCxXyz7Q1xglyfr1wSGqs8toBF4pGyviI3k1u9UfiNdg4MTczcNq",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1779192178/products/1005010786413625.webp",
       "category": "sport",
       "rating": 5.0,
@@ -71,8 +53,8 @@
       "sales_volume": 0,
       "score": 0.28,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:34Z",
-      "updated_at": "2026-11-01T07:06:34Z"
+      "fetched_at": "2026-11-02T07:11:08Z",
+      "updated_at": "2026-11-02T07:11:08Z"
     },
     {
       "product_id": "1005007517245266",
@@ -81,7 +63,7 @@
       "price": 5.92,
       "original_price": 14.08,
       "discount_pct": 58,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ocCiqCKC0FyTDCng4XaoifqCtuUs1Zrmsf7azl6tmMeQDs20SZNaeKwQjlsevH3H6YD6bkhcxLldl6ECJZQhjwr0Z1voS3p1zLB6H6OgEiSZhulnh9a91l3gDsx1NlMBSjoraFKGEiIJpluGHzdk2VPhKrWUrf6doxDLkBDEIccHw8kaMwzbk3hQayqSgpwGrtby1C3RcymNggjAseDj87sPwwT4vcazcLO8wlx8aOAT5pl7klQDpoSHlgPvaI3o63qOSIj6wdgHcgh9oMp7hBSMnYxC9ymjIcwcMR06lOvFzuq7p6EbdimLl4nZacwyIBlhJkIwG2kGtdfaOItD49dxB677Oy4W5zYorzE1GvOr2r7UPXqqFqalW3GN6VgCicULpI0A4SOtv5gU9zmQpq7fguadn0A7Xna884laUEtDCSl7YDtdhEWr0MyVt8hOnHjyrMSekqrjdpCSMUlPj4c10tOqpU1y8PcSL4KekidBx4F1gZkHRNPUfO51yOPh4REp1s0M2bHNsIoKOe8WPYPr9T3EXwen5ZhpCzT66tdmbRILvEIJ0jY8MzAimvhYcrxu5f2Kpk2c72r79dXlQMnxFcCM0GEzBUBUad1HSABzTxe9AnBqHRWCIXO0VzgxRM8OOuKE0VgQKPAFMgBeCiIPd9dNeQt1BCIDw8K9ZkTAAw3KoZVOn2YZHvPgNSLqHlVeJpv4QLwoK",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ocCiqCKC0FyTDCng4XaoifqCtuUs1Zrmsf7azl6tmMeQDs20SZNaeKwQjlsevH3H6YD6bkhcxLldl6ECJZQhjwr0Z1voS3p1zLB6H6OgEiSZhulnh9a91l3gDsx1NlMBSjoraFKGEiIJpluGHzdk2VPhKrWUrf6doxDLkBDEIccHw8kaMwzbk3hQayqSgpwGrtby1C3RcymNggjAseDj87sPwwT4vcazcLO8wlx8aOAT5pl7klQDpoSHlgPvaI3o63s4UzjQgMPBM640RKSvb8LlVu9Itu3dBCCJRBfM9OWjg1fSpWbgBwylembeqgH8IKCR8kwZZxLtwqWAg0m37f8tynJnuWiWPvdOLIQJbMglFZOf2ed6Ld3xMAaJL9mggv3osXutYuOAXBss29re6QVU1xPlhQOGqOcxBZjhBfxGPBRrmFiw5g6KVXCyzbpnPZ3elWKvcx0BIcINjXJ1hlIbLEZAE8caxUrSEHkarx43FvahycgLivsuC2SAywwqk7eRTr1KtfZMJk95W70LNfjnC7viPJCdtRmYcnwM7My7etsNxcH6ycdcMzGB3cmGXgBX6nACsrxKtp7BeC7wf5Oyz9C94JgC2xBkRg47sl1v0LZTEvuWjADOltyWaum8QCk2PougV2P5d4AXMt2WksprUqKNrpEh9AcFtYX5Y57QYcET5mZywhjmkAg2pbMMtb3OWbmLF9YXg",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1792993513/products/1005007517245266.webp",
       "category": "sport",
       "rating": 4.6,
@@ -89,8 +71,8 @@
       "sales_volume": 18,
       "score": 0.2682,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:34Z",
-      "updated_at": "2026-11-01T07:06:34Z"
+      "fetched_at": "2026-11-02T07:11:09Z",
+      "updated_at": "2026-11-02T07:11:09Z"
     },
     {
       "product_id": "1005008772408846",
@@ -99,7 +81,7 @@
       "price": 12.24,
       "original_price": 27.2,
       "discount_pct": 55,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oDSKhJUFFegRXYL1g3xw8PrMC67Q6l6K7LEdvijIfGN4xyhyotLtSancbyLAxyy72GttYhQcwmiyFMTGIiPU1J7OnRtfwtFpJQJ03xiZA0kGx2fcLRtf7UYko2TEQnjAg2leV52lJjLX6hxO58vDhNXEXquoJvjTJKWrOzsICYeWXNhSBUlSqw3f835pIf5MFfdozeOS3OO6IqRQCrELWZlxH6XUHHbdgLUHgIL5TvxE8eZudZ2dgJoTnJ4RPJzlMBsp52C16f75huk8eepgjfu8IMwJbFtZnyjcGFVPGL4l6d3qcHucNgtWhxFAPVzNFq44tyGNPRS7rK6zGWvmKQuLqAWGyYHqrIwfBd2W6ZLqUck9kPRPeWSs7CCqgcIhtH0P6UlEkDs7ukCwFlGZaVggYyAxorDXhqUbNHmyFN7kxEitg4L2620xUHWxUnuEqbZkDKjUoBTv12709tom0BJCH7QBJ4V4IhvnHrcE6RDK81FHGyt0ykxk2jEpVkH0qwQrLllkwtdgpnJdZ1wy4wmyXNIn5LWiC59j0HrvVm8BQBQsZZHf5XnXkstROBIX0OZsxP4w70mupVyOd5jGdl0V2emfeyhvCjx57pWYmVeKDXXL9eK2bCcAv88O6oymBjPGWvqSN73EIYlkpbwOVexXHmXPjVDIvhC3rbdQvoIeWQWURUIh1IZisEMLzIFtNnKjGKzCi0mmY",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oDSKhJUFFegRXYL1g3xw8PrMC67Q6l6K7LEdvijIfGN4xyhyotLtSancbyLAxyy72GttYhQcwmiyFMTGIiPU1J7OnRtfwtFpJQJ03xiZA0kGx2fcLRtf7UYko2TEQnjAg2leV52lJjLX6hxO58vDhNXEXquoJvjTJKWrOzsICYeWXNhSBUlSqw3f835pIf5MFfdozeOS3OO6IqRQCrELWZlxH6XUHHbdgLUHgI9Hm1HRySJUV8Dh3CV1J9fnfE8iWEJ5bAoEM2rLkNQz75ZMbSLS60dMnKNB2jCdg2mVMDDa4cT58rDPs9RUyOokzjLNURBrWWd6UVizLI5s99gBvvXgVLDBjAqLLM68wWvVHjOJ3hJ1C5FXweO1cgfuz9aK5M2xN98hXp81cmjNjElgeZ3PBJby3DSpu71t1IoYDfKhSzAwzJp6zCBWcRGx4J7Xo1XUmrXkxbxrcAF81MHpyo9mARPMFXoMVZz31lOXvzFGOS11SsYnXQYAIKHAF7kfkMiCyAzwdoCS7Kh4o31Mla2kLqFWpOGHdaNiUIM6AV4UAJ7nJCxfqv3fW2hyIJpXJcaB7jJX04FV8RhtRVXrjvcg0xII9uzhZwc4KaT2Jmn0QvFTAK3GcF1EwXEYRGviC1OIgMTGMcX04MTS8Yruos8c9W8ArZ5BgvqNyRU0Ni1eD3u1HgqUWrZbV4xZjq1jGuBforcZGuRW4",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1780268478/products/1005008772408846.webp",
       "category": "sport",
       "rating": 4.8,
@@ -107,8 +89,8 @@
       "sales_volume": 30,
       "score": 0.2639,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:35Z",
-      "updated_at": "2026-11-01T07:06:35Z"
+      "fetched_at": "2026-11-02T07:11:09Z",
+      "updated_at": "2026-11-02T07:11:09Z"
     },
     {
       "product_id": "1005009366357679",
@@ -117,7 +99,7 @@
       "price": 1.64,
       "original_price": 3.56,
       "discount_pct": 54,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oErAu8LMke2S1xZCm4w7pXDBJRldwLKjkiQFiRw89Vh09hIVlQafrjjYuKFkpcWTZ59ocXWqK02vpxTkpGY2jyH81tperefb7wQc643emdKADDX2Nu9CQTbfICY0NfYTQsNsUvCIDL4UmX3LUiWGCTgKaAJTDcut07eTpYCf7gzysckUgt9jOpHPUWaYhvrcE661z2rlDsqvmBNPGy31WW3lAvUz49JtwRlbsp6eFwiHi4SYV8TQQhECbjCYe1ISOneRBtBVxiDC0WFLk1LovjkNiiRJxFx8v3nE75Sy7xx4KuqDmezUgOp9OioAHdB3xTcLXzfeNSzXHuRYJ1RfbhCd27niTko8QSD1HysJBz1jLfjbJy3JzZb1rRxYU9Z31AnK7bRcgBmxpRPZu3mDlf5IY9KkUUTGClhdPcdm78Ho1nuB18ys6OmAW1utJVG232KyDogwKy1n67AxsyG1rkHd4cFfdbt2hb4tKT6ksJmKrxxXeP04EcYYLmTqyIyUGZ2C1xVSL84iiWa1g1e79oHyZFGJaabnrgJEefZB94K8jSfQCttT5WnswwMHs0NOk98scdbXpb0TEGLuFEPGV1UuoEbWSmFAQ3L0kORBKTF6fhgVIXXXejXgY8yaV0DkwNVklReRYjIUUUkWTU1l1ZeXI02OPoAc9NawSpO6jEBofjIUrrbVyfSJITzH9z6F2hHJqqWDWEWpc",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oErAu8LMke2S1xZCm4w7pXDBJRldwLKjkiQFiRw89Vh09hIVlQafrjjYuKFkpcWTZ59ocXWqK02vpxTkpGY2jyH81tperefb7wQc643emdKADDX2Nu9CQTbfICY0NfYTQsNsUvCIDL4UmX3LUiWGCTgKaAJTDcut07eTpYCf7gzysckUgt9jOpHPUWaYhvrcE661z2rlDsqvmBNPGy31WW3lAvUz49JtwRlbspyVGS99cgg5BfL81aPe7ZSI5iWDY2SEVgKq4r3BPeROeVSS5DSgi2tmHMNA8OeyObC3UxNjabPPavtY7HgopMGLYHupm5HaiVc7uAo8U3ioeCg53HGP7rcMO2K3YmkK7Ts4xxAzP0ymrSMDx449FDTczAUHJiiIkpwTHdq8fyzZBatz893sZRxBNOaywvvjuvX7fP3CsfOGlssQZ6hFsxbTZ0SlaR7ZsLkhUP4Iz9FUvAQXHu7wn8xHV01y5UUw6yPuu07ZHv0DFOIG0SMKroAI8gC5xOgE4nUe1vXNo2kGjxIt7zkS4ZkEvWNDwcrb48AuKhVKmHU1Lmn61N7fx1gYHGvwjHIMRqX2NgGJnJqXyLAsP9uY53yRM1831207FkTtopFdpCD2M898XW0ejtgRP0nz2p1ly41lsUqz9NULoSROcPBkegtSu10mDv3pwy9tJ3hO9L8gni2CaGt3G6bTmlwPc2NC7JmCSPGlk",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1791529637/products/1005009366357679.webp",
       "category": "sport",
       "rating": 5.0,
@@ -125,17 +107,17 @@
       "sales_volume": 3,
       "score": 0.2624,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:35Z",
-      "updated_at": "2026-11-01T07:06:35Z"
+      "fetched_at": "2026-11-02T07:11:10Z",
+      "updated_at": "2026-11-02T07:11:10Z"
     },
     {
       "product_id": "1005010382664758",
-      "title": "BATFOX Mountain Bike Helmet kann eine Sportkamera Elektrofahrrad-Sicherheitskappe für Männer Bat Fox MTB Fahrradhelm installieren",
+      "title": "BATFOX Mountain Bike Helm kann eine Sportkamera Elektrofahrrad-Sicherheitskappe für Männer Bat Fox MTB Fahrradhelm installieren",
       "slug": "batfox-mountain-bike-helmet-can-install-a-sports-camera-elec",
       "price": 34.63,
       "original_price": 72.15,
       "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWUTA3n544Mq3HKH1lba8jVkChGTug2W57MfUoFILevGTootQw2Ds5PbGkOToKp4evBZ1jsrhEu0JS0DHjcdeH9qiT1YLfe3LeAnGfdho48Gje6LC6xIgrRNcuYKeExenhSmDwIpgLZbSYn48RAUCTB1T9tMTSOiaxNrqJ04KPTE4eRgmMdoAjdHfUC2N5vIYKnz8RIF2lrw2DgBslDor5cr6m6Y6d8bpWfQtVS4YGn1mJ17obNodsS2fQ2ceBDD3DdqPdESYmtYoe4IVm4SsJWQFUO61HfZG7mOarS2pRn5e7xHAb3If8SM0JkuTPO5lJgu3Hm0HRDCrCgWvtIWborr9L6XZz6nPnRDIRWyG1Czg34DfvQ2wKvgCmhVtzXAW7sXXhF7GwkWffiBX19xxdbxdws05t6GpblXv1a40MC51eR5VGmcsmRkBhHvwzQFnlsJJioeo733q1On1B4TlCGXu3469rrGNV9QTDtCPidhDmZ2P1wk5Wz96Nkcjw88xFTAE7s9MZI8HDAzevt9KIUvHYi0bHlpPwF2c90Dz3zlO7OXfBNFZNGrC0UdQk2mp8is0MTm0yQXVTLeiue7BATl9qMskysuYP2IX8v6nSvoG3svAZ98xnO7MjcwDlvjEeKl6AD8DaSs4a7LgHYChCA5XW6JvzDh5l0qFAFvBFaRGnYnezsdLNcKSrfGGKZvtbFhHMdM9OMVI",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWUTA3n544Mq3HKH1lba8jVkChGTug2W57MfUoFILevGTootQw2Ds5PbGkOToKp4evBZ1jsrhEu0JS0DHjcdeH9qiT1YLfe3LeAnGfdho48Gje6LC6xIgrRNcuYKeExenhSmDwIpgLZbSYn48RAUCTB1T9tMTSOiaxNrqJ04KPTE4eRgmMdoAjdHfUC2N5vIYKnz8RIF2lrw2DgBslDor5cr6m6Y6d8bpWfQtVS4YGn1mJ17obNodsS2fQ2ceBDD3DDSyQnCjCjDME6QvbH9fUzk4FUEXec74bah6gPNoVsZAlH0G4qWnu5h4ZI92ztZCSdNH3LxZCGx0a5FjFAKYxERl7XrONVoWQ1eyV2ZfgfovTM8Q4bBZTJhIomKH5y4n5FgUuxYn5tP5gKdlIdwxDZTOU57zO7p9SuUvhGKaMWNUFvOS5LiQRC8Q8GUJ6Bl7wAIly6V5W9M7bMY34G2y55fmoMTDT1VdqiEWjXk5VaxXPTiEDhxsQHSqqYKYuI71wKkOQDsmkOXWS0Z4eUWHhrAfH1YRvyJyChwjXkN1Y4CSSVNwvMpoW4BHlkqugiOQehqQV2h0sPU7YxHzj6wpdIHyx9952XyA88giYlIOvjX1MuR8vwFAY0QGhkgYDSattHhXZ1sRqwOoW0TdW9A4fh6iJ9HiIVohjko7O24BrSs1LW5AXbmszkL8XkvR06O33kqtZqZm4oM4",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1792214277/products/1005010382664758.webp",
       "category": "sport",
       "rating": 4.9,
@@ -143,17 +125,17 @@
       "sales_volume": 36,
       "score": 0.2592,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:36Z",
-      "updated_at": "2026-11-01T07:06:36Z"
+      "fetched_at": "2026-11-02T07:11:10Z",
+      "updated_at": "2026-11-02T07:11:10Z"
     },
     {
       "product_id": "1005009402813403",
-      "title": "BD Dance Professional Moderne Tanzschuhe für Frauen Tango Waltz Tanzwettbewerb Fitness Praxis Sneakers Damen Heels 137 SA",
+      "title": "BD Dance Professionelle moderne Tanzschuhe für Frauen Tango Waltz Tanzwettbewerb Fitness Praxis Sneakers Damen Heels 137 SA",
       "slug": "bd-dance-professional-modern-dance-shoes-for-women-tango-wal",
       "price": 46.15,
       "original_price": 98.07,
       "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FmtWMBFGQn9qtIsXeNGIOjepLmWbehDi58W04ARwWeR4Xui6T44M278OmTT5mo3gYoc7tUbnkakDf8pGjRlS8KI4xNfifZ8OvnTwQJtdx3H1pZx6VYX9zFxXOzFkHt7cMOUOkeW8VMMBbOn99nZH8DyKzqMiRH5wk85VPN3dShVfY9oUesnjzvG21D8vBGuqdO1KeGPnU2qfLhyjfMcr7Hm5zri4e0bxvNxNEemkSAlwI4gKVOQpfZjqBqwzzLX7nlndVVnfRmjnHr4iarX05cY3ixFTaIEw25EH6CL1T03INtgyBkAiPgRACRW85SWb1iqRRr9tZW566LatwQ8BuEjaDqeuKBQSLsoo1OLePWZlIx2vF2db7OvaUiLxIp3MdbIty9rwhrMQlUoCnZBK32OzoVcQTFf3KBMmqwueqfCbDSGCryQkBZ0Oy81y3cr1TNqf5DyHxnLXBeVz8rb5IyZgR40H6NT3R2WVFFXcM9j1iGtfJt2yHP4cCAtOYjlObdduMVSNUNWKxDENTBa1ad66LzcNqC5ZRdJVdjjbmnDOe1MWa673Utb3Cxyf0n73TYMgzbQ0rCjtz23wycprYMRmIt4AB7RKj4V8eqycNQ5B8apxhdBAP5cDDU3RVSGWrNl61WABZviXkaY77FTtoH2dTO9DslyChaJQG9g8GiNOVBqGUvcNDF8XmcvpSApmBobku8BjV48JX",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FmtWMBFGQn9qtIsXeNGIOjepLmWbehDi58W04ARwWeR4Xui6T44M278OmTT5mo3gYoc7tUbnkakDf8pGjRlS8KI4xNfifZ8OvnTwQJtdx3H1pZx6VYX9zFxXOzFkHt7cMOUOkeW8VMMBbOn99nZH8DyKzqMiRH5wk85VPN3dShVfY9oUesnjzvG21D8vBGuqdO1KeGPnU2qfLhyjfMcr7Hm5zri4e0bxvNxNEemkSAlwI4gKVOQpfZjqBqwzzLX7nlk7DNVL47ciFa29qxjyPUpEUfUElK51NmePssz6gp1zWMfg4k9yMhGN7JeLyhG4FDmkvaZDpyuSvtylYZ4VdALirEA9bXm8XrxJu6Ne9R7NiREBJkAlcHiRCPNJ2TKhlqGNzoCO9EuDAFyOIjbG7Szv3sNwVQ6GUfunyZJaY5Py6jGXT5Q4gD0IaIeWi2WzUwP2bQjVfW7NxUPmXPpzG73dhwT4bB4036MTa1qzefQDTkf5iWe8ta07pmLUHq4iUDREoJtTGo8bF3WyzBvKKZAlmOLwfLmyQC4nF1eIhgzKgKzVZx7gzyABsZnoIekf43hTk8Ya8QqJPFzaoh7wAjYRCX0uSRDGp8MTvJwxfgSPXvViJV79Glex5rfIMWiXLtB9i67LlkFFXmiRuNH35e45B0Le9DGSF889419YtoNFhSshZHzsd3FN1GPvNliCaJBJFxtntkRCz",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1789969935/products/1005009402813403.webp",
       "category": "sport",
       "rating": 5.0,
@@ -161,8 +143,8 @@
       "sales_volume": 8,
       "score": 0.257,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:36Z",
-      "updated_at": "2026-11-01T07:06:36Z"
+      "fetched_at": "2026-11-02T07:11:11Z",
+      "updated_at": "2026-11-02T07:11:11Z"
     },
     {
       "product_id": "1005003472116469",
@@ -171,43 +153,25 @@
       "price": 7.89,
       "original_price": 15.79,
       "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Ez4NkkHOBSeeYr9gRedPBONgxn2do8hk3FSe7pggMzjRPzzBvMBD1uBjLp2n9x9ui4VG6AvXuyyOG69te3mCIxSjgafNXwNUin4zx5MZfCToGfqsdnmnT4DEXlMZiDCvoHyAS4zTNfEDgr2jwyq8g5fjnNhAA8p8SMPEt4DftMmzzy1Cf5cN4yMmHjXehBezC4yv4RqPJSvWkUrWqfsMPJs3LTPp1L2tLSnmi8prJFAHVjDKCE259IS5JNPMrwSzebxL3zndMbNQ7C0c7JYiwLSfo0gfcZJbiwCiRZmnVrOZDwEd57OqvGUC70da3pyNezP2J04kbZlCmrtAtX4MAm2pAQOtj7mU8qyD3gmF5JuUiE91hkDyURo1ewucFYX5mtDSLMKO0O51XjGiWdME3zQeGePTRpA9rBwaHg3uUNNSJTXLckMMGeMDOEVGU6J1dppwwWaIGP3mPOoBaLsbAnurRYpNWpKPqrrOWUF3t6P5MMLFzA1owrNOMnx8PkKx2HyyHOnk6qF0pKTD9xRcouFSxdwAnrRALkTOQKCMhC3oNBzlfiHkyZ6VWzcGHRitLStf0lGMGLeoUTDmp2NR2DTLJOjuSdHqzn5qZ4QGePo1ewCmEuWLhhwPiq6NnIDvjBQuItAxYaDyHsKG2RW31YFCieop34s7OyccUjotvhbMyxEf8LZFL76q8KRmWCMmSqqIMVv7q9Gsi",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Ez4NkkHOBSeeYr9gRedPBONgxn2do8hk3FSe7pggMzjRPzzBvMBD1uBjLp2n9x9ui4VG6AvXuyyOG69te3mCIxSjgafNXwNUin4zx5MZfCToGfqsdnmnT4DEXlMZiDCvoHyAS4zTNfEDgr2jwyq8g5fjnNhAA8p8SMPEt4DftMmzzy1Cf5cN4yMmHjXehBezC4yv4RqPJSvWkUrWqfsMPJs3LTPp1L2tLSnmi8TJ1hZ8IpreYlEboBJ413v6Xl2UoBMbtRTtA37YVr8GwfDx93FSs4nmFReMQjEu2mgLqoxh29YzPCvFf1YliqjpPL8OWSJkGNKnwcGb0uVGD6rTNBfssu1G04K1UwzSOW3vEoUYE1DD514jX0fpvaiYqG3zNPKj0sPRALjS9yLPS8jiRUw9ckU6uQMJ8EKRh7B46XBEpE7eeHQybIOBvDqO8QAwL3ESHvv9ljUX9pwhe4m1qHZIZ6qmqKPk780Dsan1oarf5oH76Bw1RjM6tFg0qDwTYb6n53IWnAcCFDF21NcXIvMX5ggUwTtV5tmWWvQPtE3MRu9iXTlMxfMYfAoZTv5fPLNOnumFV2P28mNamthCT1XhBNKOeUaWiRXrjn0H9Oagp17MBtmcm1pDl8pqPtzVLuB9LEJeKOLVG11lN78Lob43WiTiVxEGzFs8C9Ms7l4miVRL8JoMEQgtB9pRqjXWnWt08GKcTKsSA",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1790489409/products/1005003472116469.webp",
       "category": "sport",
-      "rating": 4.7,
+      "rating": 4.8,
       "reviews_count": 64,
       "sales_volume": 64,
-      "score": 0.2525,
+      "score": 0.2527,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:37Z",
-      "updated_at": "2026-11-01T07:06:37Z"
-    },
-    {
-      "product_id": "1005012993178781",
-      "title": "710ml Snoopy Style Insulated Cup 304 Edelstahl-Handheld-Sportflasche mit Stroh schönen Alltag Trinkgeschenk",
-      "slug": "710ml-snoopy-style-insulated-cup-304-stainless-steel-handhel",
-      "price": 23.99,
-      "original_price": 48.96,
-      "discount_pct": 51,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mTpW8IiuiDuFXsY98MyQSkicg2zptp0bPwin147zgHFcEl3Cquq1j42pDxjtGw5eWSkItZDGFudHvxn0YhPEL89Wdn9285nF2fRVoqT1AQAlNy5XCQgzKOsasSB8vdag34jU37qdAU7M9ts1zUByjkmYoQmeIOx7mlJtD7ikVo1ub83JWoFSzBSQDvLRjujJujPDu2kG9Bvv1eny1c643oLMonNYJ4E5qrgmnSjJ8VrjvNMfC6uEF3afC2TPIQlFLhOzlVVqnG0g1S5rEjJ4UsQbJWYADryjYdlYqv6VxxO2uJOGkB9rfpjlSkrBFirbWdWZcnXNPF3pkpJV8gvTAXbQzNjjDrCJH6QSrj2fh6ui542krMiBaoOnrMWym8mJDbmTJBnaIyObTYL9XvIrKGRu7dW7QAh3JxmS2z35vaHFyI05hML20l8PveLZ5NByTyEzIW72NAJ0LJ1mu4Lf099GUouNxfxSo882HOSLSRgZlXkIrktddTaEGIOmLTbx3XlEZGW6nQZPIeSn5j5ql7acZKuuohCIsRr5f4JRjsaR3oI5AuKIlXNExmxA4lL6WTfigqBslKjyrVIDehlpkeRVVFNsc2DVff2F08uAJzvqWTikewD8z0IWPFjako7MwX8bzLFkb43aoQSawSitthA1yAiUO7dqnZVsHSWWlu5Cq2ShV35FkuBhf8iJUGTDpSdWurMJWCpw8",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793256261/products/1005012993178781.webp",
-      "category": "sport",
-      "rating": 4.5,
-      "reviews_count": 28,
-      "sales_volume": 28,
-      "score": 0.2455,
-      "price_history": [],
-      "fetched_at": "2026-11-01T07:06:37Z",
-      "updated_at": "2026-11-01T07:06:37Z"
+      "fetched_at": "2026-11-02T07:11:11Z",
+      "updated_at": "2026-11-02T07:11:11Z"
     },
     {
       "product_id": "1005009049503829",
-      "title": "BATFOX 3/4 MTB Fahrradhelm Männer Ohrenschutz Bike Off Road Geschwindigkeitsreduzierung sicher Kappe dicht atmungsaktiv Radhelme",
+      "title": "BATFOX 3/4 MTB Fahrradhelm Männer Ear Protection Bike Off Road Speed Reduction Sicher Kappe Tight Breathable Cycling Helme",
       "slug": "batfox-34-mtb-bicycle-helmet-men-women-ear-protection-bike-o",
       "price": 53.88,
       "original_price": 112.24,
       "discount_pct": 52,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nxshwCuExanUAZfri8TjBvadSZMv5w9fxNDfuxsfJzQG3z8Ty5Q994zF4WjMEnijgEVTidHc0idlUC74TJgry1Yf4RHQarjCCPiuSzteK23MuPRYhN8s1ClcLKBKyvp03YnBuBM8UIWbZfpimNX95u75v4vsky2YxSdP6p0zMVWVo2GSN3q2kU4aT0U0rNg4J4jzdNj3FI0vToNTm1XhdmafUuzbcTbFi8bnJVm7xG795aiCQq9pZbJdDDjeSqoWDm2KuvLN5rqt2PiBEzsFmrn0iMAx02GnHU4c9mV6Y65LkbhhkaRHekC0Rb5yZ5mV4lilStVEJBJqxWKASy7MGsNkrlGNUeVd5dXpMHqsAsPpQP0SUxzJ2gkG6QEImwl6aAh15znLrewUl9YS9fqzZSYmW57WaesOKbcpA1ZgMNgT3pivMOZIQCbbCnwfRc5FupFeYStdKcPXkI42FxvNuKfW99FOCIepKa1DJrZcn9LU7yhFabv38UqibstBYzAy6DzQlq3ufQeBKIScTFufdedGAeLdHyZOx4VSMlsQJTEEiQW6kgbNoo92CeT6TqP7cogukE8URLzatcJhXkoIRa4tVOXYptvhpnHz5rhp3vYWn1cbZS8PUyFaoziQxWoI7G5BY80SIQhQW9GI1RwhF1L0tHwIRtTErVDM4ohwJGmF7CFx7zgrTpjGXxPwhiBEt0d0bvC7kwSLr",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nxshwCuExanUAZfri8TjBvadSZMv5w9fxNDfuxsfJzQG3z8Ty5Q994zF4WjMEnijgEVTidHc0idlUC74TJgry1Yf4RHQarjCCPiuSzteK23MuPRYhN8s1ClcLKBKyvp03YnBuBM8UIWbZfpimNX95u75v4vsky2YxSdP6p0zMVWVo2GSN3q2kU4aT0U0rNg4J4jzdNj3FI0vToNTm1XhdmafUuzbcTbFi8bnJVm7xG795aiCQq9pZbJdDDjeSqoWDm45necU3FVfTg0WL9ApjU1SK2sT2JIXQAG4Hu9UsTEhKmNQCZy7GdoMU7lebCP20F9huynZWiRT2Tnhd7g8lCTPKScYZXjHaMou47OB1i4HCDj8CYMJkJBofldfcJ8dmF7gPMPqGvYWulHb6iGpQHQmR5XBCtPvY4WiUltrpKpMrNYw76BZh9W0wSW48Jm8geIZTu5KAfx6UuOlVsn8urCq7StQIYMv41KmwLEksRVpfQ1TQkUzCAHVwoT6SHmIbkqh3bYFS615A9QqV8x2ei0oTspA7vwaA9Rs1BkZrBza4spoCFpl8YeI25pobE8IhOzvBf76Pnn9HNeKzm5QKYC3gezCGInFqqIPo4Wkg74Kw8gY8Xf6IgNQJ3Tw3vk7fqmIbv2zgtdbNCLuMDC3UCDnlNSlzZn0lVhtyGNDqsHViwzCUo6hA0Qw7knaaPKkLjttpf5s9ZwoZ",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1791701243/products/1005009049503829.webp",
       "category": "sport",
       "rating": 4.4,
@@ -215,8 +179,8 @@
       "sales_volume": 16,
       "score": 0.2452,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:37Z",
-      "updated_at": "2026-11-01T07:06:37Z"
+      "fetched_at": "2026-11-02T07:11:12Z",
+      "updated_at": "2026-11-02T07:11:12Z"
     },
     {
       "product_id": "1005012943475168",
@@ -225,7 +189,7 @@
       "price": 0.92,
       "original_price": 1.76,
       "discount_pct": 48,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kXiQA8QR6bMd5hWWjevkluVjyM42jl3hfnczsPQN3Dp5xxZ5dyHA8VThwPyjZh8AxAA6ew0zJVxz5bj5DVQaKIb7mnj9Y5Ka1LuS1WMBSTt807UBlttyXLQCwNcEq1Swm2SMDOx3eQFz16b5tMxbxTqzqYTFnsc2WrSYuiCN6x1ZoEoqwB2jrNbeUkXqRxKBxTGuYV7kzIgmAUWQByq3lctz6YHqeDLukGF7GmVffDFpiLHhMyTyDnSJ8ZajB53cEohThGLHHZAMW1uY3kRdgzQqfIJFxpU5fGcklhIUpsho16gUUFm02eF6DDDnRTrurzVU2RICORhntECygB9Zja5qeNW3BkMODALsrjHozhCsk6PYkiH0Yb4TZKQmPtdqmbmsrid8UlSvQMA5Yjusa9OKS0j13FSAut0kRd5dPTaV1pZXYO2acNynbMlCAZ6FF3b2Xa61BVGihlrxfeNvg1jF0wn4QpalytSAWm0aoeoMAnk00aElVKXmJhSE8WnNW9p4em7ZCNFnyUQCHTTvISY4Tx7wUk2rczHMNOGwq0nENJKxOmw3h5d0M2xBgQgijtSrxKsRsmrDQW7e1IdtbpU8huhpb6F2MhKPSbgqdeADuRAQtGH2TQaUPzjRoJzdxrn2tTdOLzs6y6frg3QyKhyP0u8ZDeXT4zkEWGJzkL4CK5zHKxtuXkzqUzIHayNpIYf9vHkwMGr7c",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kXiQA8QR6bMd5hWWjevkluVjyM42jl3hfnczsPQN3Dp5xxZ5dyHA8VThwPyjZh8AxAA6ew0zJVxz5bj5DVQaKIb7mnj9Y5Ka1LuS1WMBSTt807UBlttyXLQCwNcEq1Swm2SMDOx3eQFz16b5tMxbxTqzqYTFnsc2WrSYuiCN6x1ZoEoqwB2jrNbeUkXqRxKBxTGuYV7kzIgmAUWQByq3lctz6YHqeDLukGF7GmVffDFpiLHhMyTyDnSJ8ZajB53cEo96wSRbHd5QVJjNfNoPGBbHqICBmlcgdVGZfIla5FNBQ3WLc3qD5bNqv1DuDDgZ6FEJZMAV6UaU501OHBHmfEoBlpfQJr9zzuoxam741djjDAGIy0Ryc2S6Ai4RJOXtoHyBytKfLXtsceyJbUjrqaHzZi90UbriTBXC7oYsKB3lYqA8kcweEWGfLKRnkMmJFkh1IPzSlVmHe5Q3eQL9VhBXeInh024C56SFONlNjXAVTEhcfAtuGWNdCvkrTxJ4MhDvifbsLo7Gid51npXeM8F6hPaUg4twv3DDEXrhGXgGN7ulzMK8DbQVly9iI1zcMdtg6rBoA9Q5KVcsvPEWotYEblfkvt78ePMZSb4BIFc6kvCIsyZXEqsdkPfS6Y2fvN2boHQgtNH4t2pXRaoXXclVm9zmHBgNKYeOXe0vUGraMsY4WqY836cIyJyCq3JefveCaLFSa4vrG",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793080678/products/1005012943475168.webp",
       "category": "sport",
       "rating": 5.0,
@@ -233,8 +197,8 @@
       "sales_volume": 1,
       "score": 0.2441,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:38Z",
-      "updated_at": "2026-11-01T07:06:38Z"
+      "fetched_at": "2026-11-02T07:11:12Z",
+      "updated_at": "2026-11-02T07:11:12Z"
     },
     {
       "product_id": "1005008996623976",
@@ -243,16 +207,16 @@
       "price": 1.34,
       "original_price": 2.44,
       "discount_pct": 45,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mMcRr1dFHGfZGVEe9u6PsNBmc888TlUkvuUu6PKcsx94Nqh6haDVpSYDkxV567zE0NZRwY14ogh2kaRQVfSpr2CMcx05Xdl3Bv7Fu06TVvAPzho5xy5aAsMV0XGIdlRxFI7oT194ilydcnDjxKNwpgmnpwWrhSjgZtnvwWeWJl5WUIMoKMXqkDExqyxHjjYCS7eOFN3vVK70IEdx8IQsINR4lR0R0IAlAwCAMi1eABBfNatQ2xU9BJSROSzRCR81xGO5Bpyjb6MQb6L8WIuPxQmKeOkFWjdG8W9Ct81p0dW8Kn2kcbwiOk3NubqpzFarDZIHH6jmoqgXPLN7RRrH57BLoaHKEG4R7NWSsHZNLqbkd8pVyveVN2WrwGhUzt52gDQ8pGbVj10bKi0asgOaFApubGnQ5wj7qAwGR2rl7lTdBWNN9fQMm6Oo1fr6o6SisXKk95BjvPFnQP59FVpFZ3PTSJhON7IX74VADm5bF1d6Ynjo8KwkXcACi3ZEQ04mwJVQolkt3XWKLXZeVqdWwTZfVE6kJ7uTSMOUCa11ntEixZ0dWcpfsN5ERcK6w2SpxFvFX0NeJ9Lb2Enh31pmIxSLqLvIiJFlbujLbajsnthJkWV9rX9TvrDsKlHiPU3FGTr2C0V9ul0sAldrs6l3Ox1UYywKoZllP9RfH0cPAfsktXmk87yLEvCnV3TGM2F3IB5FlR2eM3kLC",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mMcRr1dFHGfZGVEe9u6PsNBmc888TlUkvuUu6PKcsx94Nqh6haDVpSYDkxV567zE0NZRwY14ogh2kaRQVfSpr2CMcx05Xdl3Bv7Fu06TVvAPzho5xy5aAsMV0XGIdlRxFI7oT194ilydcnDjxKNwpgmnpwWrhSjgZtnvwWeWJl5WUIMoKMXqkDExqyxHjjYCS7eOFN3vVK70IEdx8IQsINR4lR0R0IAlAwCAMi1eABBfNatQ2xU9BJSROSzRCR81xG0FwV9gI0tVMyC2c2QtViubcQ1pvT7Qom1CLm1Nq5j0C100c0Eox6MzLE8Jjq9uOBnF9IDkfomyQpRfa4pxAbTjMzD0ntzihgmtbCGh8LRZy8lzLnDgUJT6bb5hWHXRcJpCfGo2wxIfa2Vg5rHprvLWFRenQmswNLMPnf8VZhH2z8407xCG27qDHShu1eSEjtqyc5yeKGIXeJD0vqHoyQAK5gtZB4WXnGJgblWg74JTjk4N4jWZCrqgUEQ7NVYtfa15ZSB9cCiQlbK6lxbIIYyPLRU2zdF2GsDhRbg4tD1a9VoQUwVG031XPG5zYCmtG4E3PVfdsc2Wm4r9IfyDoutsvpsAPpcA9L88upL7nZCfuzNm5Y7rGZuaXD9nLjr6m9SPvSRNfsvbiFdkU5FDuYxOSx3yT20P96gIcubq2yaezcfoGl7HrJFSkM1B7jMLZqogt6mv9dkCa",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1791442736/products/1005008996623976.webp",
       "category": "sport",
-      "rating": 4.7,
+      "rating": 4.6,
       "reviews_count": 25,
       "sales_volume": 25,
-      "score": 0.231,
+      "score": 0.2309,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:38Z",
-      "updated_at": "2026-11-01T07:06:38Z"
+      "fetched_at": "2026-11-02T07:11:13Z",
+      "updated_at": "2026-11-02T07:11:13Z"
     },
     {
       "product_id": "1005013199506486",
@@ -261,7 +225,7 @@
       "price": 7.51,
       "original_price": 26.15,
       "discount_pct": 71,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mOnEUeazeFOjJObFWPnrg5VYzyB9M9PXiPHT7U4jrYPoaQ8QqQ0Uq4ACXUhZvJUfYm9oeNbD2MREM9v5u8onkFDJp80PEnJ6mJvaco10KGFmKYVacG3LYfHHX2zTddiCVAETqIejrI6gEhS2S4xxxVTgALQc1wpmn4nM2MqIKqYxyiehSL4KJ2ScmcOGlCvJqHG3KBOk1GbyHb4KdsZtV7tIlZkovlyBiDRYkTC1UFtjRtuyFdECymA62RyWUkjrE6y9eA1lKT8vEHA9RdEZN4JaevbCOmtZBiX59TNEeqSvk6bWQwsaGXX26TL0V2ppNThNrVEr38Mx6PYkW6PptUhKpVFd1P5iuoyufETpdY90GdIoghSkMUmnYgdc0PgW3T61l7hBaiMnGwNuq1xbWV7YNc18JlEL6B6c4qas5IZJdw40pjNWQI1UgDbETAqpFVtyuSkh7N4M2jPXyS4KaEpYhjWIsmZkIwQyV3mcOkxSwat12JI7jRjzJ5l8TsC4ghI4IyWW1mIIsOLd49PSsitp5tiYXLtzQwTcFtsiyTA3RhTChlv99QTHQxu46HBv6JskgLdfI3R9g9h284CdhcK0jyx9EE7V6l3XKF2N1ZLTqRyBsEk7WCi4V789Qkaklv50MPtJKLsMd60GZR6iVy3tmpi9iv31epAWMN9rDj96TXkRhSZEvBkMJOpIGNJChKlgywWdevibg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mOnEUeazeFOjJObFWPnrg5VYzyB9M9PXiPHT7U4jrYPoaQ8QqQ0Uq4ACXUhZvJUfYm9oeNbD2MREM9v5u8onkFDJp80PEnJ6mJvaco10KGFmKYVacG3LYfHHX2zTddiCVAETqIejrI6gEhS2S4xxxVTgALQc1wpmn4nM2MqIKqYxyiehSL4KJ2ScmcOGlCvJqHG3KBOk1GbyHb4KdsZtV7tIlZkovlyBiDRYkTC1UFtjRtuyFdECymA62RyWUkjrE6v5BZT4AKlaIVElCHori9Ua06xrDQQ8eYcpjVGhlBXR3X33NQOJzljyz3aFsKyA20pLKWnNUUe0UL3CdpacRUfimNHbs3MgUZ3GBhN4pi0t3B5Ft6OUx5kOhvrRfqtgVI4MyUFBIusibICtGNlYD4oJOrjphB3X8tDP6D8Pzft9omIANnvVpro2OwhogLesST21T81a4rPGRbbefi5sNP07hR9bWkkBiaWDkGGR5QYt6CURLPEM6i1cl4Gyk1VtnwAatwIb8RsV9mEiiUEct3yN6pJezNkYC6uieSkSqfwTUQKGMDYCGY9ZhDl8DFDZGQp8wM7HQfL1cQDqJdo7lnUHlmx3hp4H9uvXzi4o1hpMrRjKL04lLvA3VC0o8PvK4rr0goTeav38vxutwWILYilsvLRFASsT1tK1sC1tgzNGf0T1l3eEFQUhtlrlPDVy9sf4IIR5Bh4FY",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793080681/products/1005013199506486.webp",
       "category": "sport",
       "rating": null,
@@ -269,17 +233,17 @@
       "sales_volume": 0,
       "score": 0.213,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:39Z",
-      "updated_at": "2026-11-01T07:06:39Z"
+      "fetched_at": "2026-11-02T07:11:13Z",
+      "updated_at": "2026-11-02T07:11:13Z"
     },
     {
       "product_id": "1005006588685488",
-      "title": "Non-Slip Extra dick 15mm Yoga Mat Männer Frauen Fitness NBR Soft Mat Geschmacklose Gym Haus Übung Pilates Yoga Mat",
+      "title": "Non-Slip Extra Dick 15mm Yoga Mat Männer Frauen Fitness NBR Soft Mat Geschmacklose Gym Haus Übung Pilates Yoga Mat",
       "slug": "non-slip-extra-thick-15mm-yoga-mat-men-women-fitness-nbr-sof",
       "price": 19.72,
       "original_price": 39.45,
       "discount_pct": 50,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EAXtQ0v15kmvJjNUXLDjWSYsw2ESS1W9SXqaC4B6vyb3hkLO0TpsgmKH87k44LhO7WQYyxIloWybFe79qiq8MNTzaiSyULJDrNlFNxKUaOLuoXcbweFXflLH1QWvuWswzTWeJh1NXGDCSaSYFcHiNgBredwOy315Bcf5xqUqHlBbivtv7bhFjfFoAUQN24aLbMbQq2zVgDcS0gku4tBZr48memqH6eIYS1i8CgKUYK6Oy6H5ENbw6ypu2Xq1lHuik8DAXHEkmT2ccewLwbnR0iqozF1XARfRMIPDrfWHOrUTAMLCLpLeocelTD0riyjzt68zsSAf3TWJWy0VitnyRHDDwbbjZf3VSiqBkCbiZMPHvcGELITXuk3YnhzTfnTQr6cCQdsGKfH4FD7NWu4XqjCRcSpUSDtuawp7Xzlahn3GHzlDnkAQG1NsgBKZQir33tPtqCqEkcnQyvEdfNKlX0HUbMm3MimlDFkJ11Nf1kzOSrbVSkMAYMFtvNogLp8Aw4cUCH1l37LbRlDmVGnkqtM1zeH2BRNf1WbKhk3qqhyOZoPuqBxUhG9vliT9cvYjNNkWokR5r5gIeJSRXojFPICzqeOwXNV6VmzfCszb12nWe71bGDoApf8gp0qcG9nCeH6qQbU3bPAJJqNHTFQkM1DdLOj0cz1IaIkocP3GjppQGTuKFWVPOAcAc34oqcOP2E8bxbOJG2W3w",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EAXtQ0v15kmvJjNUXLDjWSYsw2ESS1W9SXqaC4B6vyb3hkLO0TpsgmKH87k44LhO7WQYyxIloWybFe79qiq8MNTzaiSyULJDrNlFNxKUaOLuoXcbweFXflLH1QWvuWswzTWeJh1NXGDCSaSYFcHiNgBredwOy315Bcf5xqUqHlBbivtv7bhFjfFoAUQN24aLbMbQq2zVgDcS0gku4tBZr48memqH6eIYS1i8CgKUYK6Oy6H5ENbw6ypu2Xq1lHuik8Bz5wY2fvTO2cZ37xgt3tqyVqpwW74YH1zmke9hz2nTTTvpuTvqG3Fweb02quxoidDz4yYycskCgmLzbJliqFyTlmynuQxAes58KWeJRrMTnAkRYg6qiryek58Z2wFnRoHRvTYrB6MQHFtAIewdmkdtaQNX7M0XuAqhoHeB4tg2jv6OpcS2RT0bgDFnq4OuDKmhgq3Iuwl5fYxRXIWUFA7xYNAA7vbHiuiLvInKh3BVUOt2QNnmVdpaVGUqiIF05S0bSchp4RsAA5B6GxHJsvOoNU1ywDgSzJWmdioSxtXAsIyqg782bdqFClGCnmwyktuyvaYEAqFwnOCl66gKuaOHmaHeChtkZFs4ssoIkL4pkqnjwWvCPM28CflSStZM8L3Dswvfk2GsXYbdURvRyXuGvfeGWqUuV9NSYrOEwcRh3YDRPotejYeXPnIh0sxJW0KhX6zq8QRz6",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788759570/products/1005006588685488.webp",
       "category": "sport",
       "rating": 3.0,
@@ -287,17 +251,35 @@
       "sales_volume": 6,
       "score": 0.2107,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:39Z",
-      "updated_at": "2026-11-01T07:06:39Z"
+      "fetched_at": "2026-11-02T07:11:13Z",
+      "updated_at": "2026-11-02T07:11:13Z"
+    },
+    {
+      "product_id": "1005007309850404",
+      "title": "WRELS Sports Headband Sweatband Elastic Absorbent Sweat Fitness Breathable Basketball Cycling Jog Tennis Yoga Gym Head Band",
+      "slug": "wrels-sports-headband-sweatband-elastic-absorbent-sweat-fitn",
+      "price": 3.64,
+      "original_price": 4.2,
+      "discount_pct": 13,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FBfXaNcdT5SKpY0e7q8VnYRz8dfEva6C7DnaGcKVeKwSe1qA9PMbBwrGRcsnqtrdi9hwxlnvHz04LRcIAfvViJsebLOEqC64U2dOb0Jk5QQIGDiZQ0yXsYIdey564GsfqspWOOhEaz12W8vR9qhwd5HFNc60FojqLX0WYl5tedc18DCjwhaYvFcf7qyUURHsrTpZSLIbjXZ8MQcVoAs2HRVn9aTkA057Qp3SnD9mq13q5CO76A6tqCDlZXbdt45CQsllcoVANkRE8E2k4kDJetZsFNahRJgaKdaMfcNhg3b97aS19HbfJgTCNh2MZ4keIF9hJewnXdFLpGWmP3OW48diZKcUAEtTlrGdxvSiBnigNsmgm9oBkVKBVJWYKpYfSBX4BoJbvdK88VSG2pCCwplQRNvHtHY5IhlPM1ZhIQ0FdqhiikaKExoZopiMNZIKbq3jvAHooM7joUnZfr1AG1XYDx3ZvynSizVy26iWCj47OwvMQbiOzc5R8AHLy5LjA7gctnlGuybXCTG6jzmgzed3IgI24jq3ij5kasnfp9lhp4xI4cqvOwECnPTfojbKVjxrbaBcv8CKB9hVeTW1ZYfkTTuycPq3c7AzYIxa39oeU2EOyW0fu4y8VoZvbtizr4XTS4zU3GwGRKih4CEZROUSi5KzRVAFwoJQB5qmR91wxXuqz7jnZDvuaCSpEpKfHeZpYpC9ABxuy",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793603474/products/1005007309850404.webp",
+      "category": "sport",
+      "rating": 4.8,
+      "reviews_count": 384,
+      "sales_volume": 384,
+      "score": 0.1807,
+      "price_history": [],
+      "fetched_at": "2026-11-02T07:11:14Z",
+      "updated_at": "2026-11-02T07:11:14Z"
     },
     {
       "product_id": "1005012924499264",
-      "title": "Widerstand Band Set mit Türveranker Natural Latex Übung Bands für Home Body Workouts Krafttraining Fitness Equipment",
+      "title": "Widerstand Band Set mit Tür verankert Natural Latex Übung Bands für Home Body Workouts Krafttraining Fitnessgeräte",
       "slug": "resistance-band-set-with-door-anchors-natural-latex-exercise",
       "price": 3.91,
       "original_price": 9.77,
       "discount_pct": 60,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Eg6NfMWp0pKf7NoxXWRKrpCxyJaDNpO5AUp3TnvluOjH3VF1ZSnQ770OrdNQPjvVop92BP7zyPOZ6RB5SUrohJqCbIzPV270LCWmu0lnQzHyvHaAYFGLUtuFk0LEPFyMRKQEowxJDGhOJYdMkGYg2S4rkDHEuv70gy9tXRPRa6LNCi8A928bEohHF4Ob6DU1SiU2rVpkgUq42IjKibJKcawSV0q6xp6Um4zWd64QEKzoVyDmcdiVmAtGM8y7L1vh0f0JUbpl9PqNHFHRtuCu6UEUCfvfPn2g9zMpFVikMHK6WGF509QKle00nvjMy5d7B0ZlUluVjHmOvuUZbebbGjuikfwtnB70p4x7tFXChE0JbUNp1pkngfyBkH2DLgpxXYUfIKgA4Nne5J4AtxUMyOynuu2ekDJUaYmEBjsPRnHgTUba1MB8oCRnKj0M6iMhhMh8lmBKiqzCEpfmlV5VvFlHI6i2pxtBjFMPn35zSSFNFCzvQCIHsBVeBoRok1hb6MVSxd95T5IDwYZWMdqxmp1zP56xtZ7lpU9L2Z17TYaeEvFc90R5UT6KwCTwAFwNz31mgqwEVAGsfXp4pep6U3hWFY94MAIUoCDXFWjozAc7vuq6g5oYagEkm0pXSpBDBSHtrfiZ76ggUijYBEhO9xuoQcIQDXvZUziXLwqBbIlySEtyb7NIo3G7XTZKjdQNIKMuHh8bgy0xK",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Eg6NfMWp0pKf7NoxXWRKrpCxyJaDNpO5AUp3TnvluOjH3VF1ZSnQ770OrdNQPjvVop92BP7zyPOZ6RB5SUrohJqCbIzPV270LCWmu0lnQzHyvHaAYFGLUtuFk0LEPFyMRKQEowxJDGhOJYdMkGYg2S4rkDHEuv70gy9tXRPRa6LNCi8A928bEohHF4Ob6DU1SiU2rVpkgUq42IjKibJKcawSV0q6xp6Um4zWd64QEKzoVyDmcdiVmAtGM8y7L1vh0f1eqZGm70vyfsinX8PVR6aKWNBl4U17cGGSloj5OLf3qeC3HhDkBHAhZzIivDdkPKHQ9nGuXVZjlnxWktaRZTXPmIGe75liU837aABOmEOuC66G8U5ZUrNm37N5kgqzeCyvbfKoVCWzyRYeuiRGnVmmhSS3aDpKPPXWsfSbVGbZpSKOxsPNyVHoMqfL8iJBQc44pYN2MNL60M1cyWIJr0uEeiwgCUBqCTT2DOEaMIuBnN9Nq1rULQ96Ld2K8oX3Qw1NWaHTnzYf7BAjoZGiJbjiLPccxZwPwrEAwb0E3QjfUiSxIl9yedVw9dDib3x896lmWxfUIlGmK4KBFl3hzLZqyIZZgdHZv2ioL8dZZofL6N5bBKfCRzA4sJObkGNq8STTTWtMWRFUVwq3bDE5amCjfGjrLiwPDiUey7rTvy9c8kIMrp88XLJDbVDh44u9oYRTV0ucSlegG",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1792647867/products/1005012924499264.webp",
       "category": "sport",
       "rating": null,
@@ -305,8 +287,8 @@
       "sales_volume": 0,
       "score": 0.18,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:40Z",
-      "updated_at": "2026-11-01T07:06:40Z"
+      "fetched_at": "2026-11-02T07:11:15Z",
+      "updated_at": "2026-11-02T07:11:15Z"
     },
     {
       "product_id": "1005003568008959",
@@ -315,7 +297,7 @@
       "price": 21.82,
       "original_price": 54.56,
       "discount_pct": 60,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FB71cP1CeDFF8NxWhN2be9tplxf67kHOqP1hHT1SbQnqv0jpAmYK1ptPUgFrVRf9dOBrImwEQS0bKB3BiKI3Yn7Q7NB1b7U7jdGi6qp07mXSYVDwEteh9LbV8YM4SAn8d8roi9uC4KL8uH5dJ03KsdcevUEQL6bw4NZJaJILLk1cyPrtVKTikKnyLKmUM3zFVYpYVlDi2BWTdaHWdhcduiJG6WLVqWn3PAooP5hMW8iwq3oBOoHHEVCbuvyQ0A2m87J2tWoHy3CNJQjxmVRy2EwbnOByWfzx4ChaMbTP4m1BwEgbTwxkeOetHAopFgvBbkAztVGLn1vjHu56wovsvrvkSZTE2yRRaxoTHlGF2P2Gky0Z9p6XqqhUC8UbQdIyKuidVE5sAJiFRikrEtZrY91C1m6tce43SM0CJZxXLC839rVD3Rh6C7FVoLECJfXXWqgvycxQwYNkkNCxp9JJId4D0Yzko4o2vu5jzKKzH8ZuBHqSTugZwFIGp2znbAYzV2Fe4JUNUWiSm9oShpGhveGKDL5BgHmoU118qQiL5CePdhsOeERtI1hdw9899eDc3bnE7uDbBfjHAwmqRD5N48jUvlHdwGTJqiwLzC1X1iBQ8Ny3IdLlFT1K0yZ5c4681wFTNITBswgAPVVTZ02fAX9R0ZWFx8UYRepWkzAB67AfsY4Ios06ykVy7qA02dM4gMoINKnMkmXzi",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FB71cP1CeDFF8NxWhN2be9tplxf67kHOqP1hHT1SbQnqv0jpAmYK1ptPUgFrVRf9dOBrImwEQS0bKB3BiKI3Yn7Q7NB1b7U7jdGi6qp07mXSYVDwEteh9LbV8YM4SAn8d8roi9uC4KL8uH5dJ03KsdcevUEQL6bw4NZJaJILLk1cyPrtVKTikKnyLKmUM3zFVYpYVlDi2BWTdaHWdhcduiJG6WLVqWn3PAooPqdyp49hWfNhQ39S6GNaSgtmfQRjIfr9bIk3JaNqWTysALqieERHgPdQN8BqWllWgFSA53f2k7sCB4ngO70s6TigKSUVbTP8yGCbmjqP87DJ0vNDcWLQH3uW1HO6pBDNEnORM4R7Og9G2Tjm5Q4467QXwWZqyQFv4GLnYjn1sqPE3d4kEWspQcfwZ6MpUrt9kw1XJUUqgCOICU4gYnONxH5jArLraoQ3vU6qyW5BTqmA4LSQnupKm5oGGn1TZpcE3sNIpsR5XSfCv6E7PrB80An9EJtxP7FnPwBL1VaymyWEOvM2du5aGBjDp9LMYzSn87TyGXsZREmjILnsbZ6FgjSwqmxLcmgOf3Ym4XZWfG2R7oNrdzdXxq0Npyq8VTctNEfrDeEPvnsrMMc1RsnNEgqDyPGyTZgUtdCOqEOIs6EfDrzZC8EiLt3BFkUBYVgD6nhc8oBtjvh1vA2OiLzl80kfDGN4ckd4tx8rFRoPE",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793169391/products/1005003568008959.webp",
       "category": "sport",
       "rating": null,
@@ -323,8 +305,8 @@
       "sales_volume": 0,
       "score": 0.18,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:40Z",
-      "updated_at": "2026-11-01T07:06:40Z"
+      "fetched_at": "2026-11-02T07:11:15Z",
+      "updated_at": "2026-11-02T07:11:15Z"
     },
     {
       "product_id": "1005012948127937",
@@ -333,7 +315,7 @@
       "price": 20.8,
       "original_price": 50.74,
       "discount_pct": 59,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4omE7PKa8nURfwQMmGnbYRT6o546bfmY8V9vdMRQwltIIFcCzJLLqiyiIhwS7rRnKhcK1sokHVnOJEkhSaL6KyxRoD9Wma7EvxrPUBtADyqE40svr2MSgXl5N8pkB8AdPu8ogahBycRYjO9AuyyrHTPkeE9x9SvL9RUjgQFDs1pimlvD6RuXRIRWHyRfSnDN7yRk5R0sFNfexVe1mM4s0Ki1hiQzP2XIZoxItDshZEjZqhLWEIRhkrrYjg8RoPiVvFibB3j5kpQUtyktD9VrRPIjv1hxnEOm6Tutd8FoTFUVJ5KQ8tqeIcQC5MBnnKtUEeajjwSCOsIVviQyuhDmbsp7dNqyuFf5qUwtRAnTkv2OFjHacsky4CSswXJ6nyQ2FGjUcoBs7EwrQikECRpKZVxqC5R4q3I9Tgz9wGLsFd90ZQSigakCp9MhPyJO1W1zlNu5iE7SWxyl1cCYS7pYnh3NNmua1iTEI5BcmCBfVjsDRHJWvg9vODaBzzHpvOAQsuPkwxbrLA9N0qsRtLRcUfv4PdKKf1BvjOa5cjCH7WqoD6Ja3G8WUrGqGt32hTFAzZFzN2j0iuzGMpdaTLfHb9kTVgBP8KxrQnBv35Gg0qAL3xNI3MSJslO0FefMT04q6QAfpHBROat3Bx4oRGBGBktxDRvE37GKQM6SbzrqZyldhu1OmEWpa3b05U5UOtkZTfy0DwHPDrS0de",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4omE7PKa8nURfwQMmGnbYRT6o546bfmY8V9vdMRQwltIIFcCzJLLqiyiIhwS7rRnKhcK1sokHVnOJEkhSaL6KyxRoD9Wma7EvxrPUBtADyqE40svr2MSgXl5N8pkB8AdPu8ogahBycRYjO9AuyyrHTPkeE9x9SvL9RUjgQFDs1pimlvD6RuXRIRWHyRfSnDN7yRk5R0sFNfexVe1mM4s0Ki1hiQzP2XIZoxItDshZEjZqhLWEIRhkrrYjg8RoPiVvFiDk68zhlPwoHMfkSziTm5nUZSZstIU4RWMBQT8OLAZUPZ0RgfbH9PLgg3ltBSdJboSnfxqy1FB8R1mgvOEamJPcHWFpZbw7LWRYHFqmdhe2Xs2NHogN9JFndsAgL7O95gMVEyv74B6B5hUT5r7J0pWZNc1cNEQrDkdBRkjuWSfyataj9KQ4meFswmzOgbulA5Aq0UqpFpxXszaonSyQ97vQmPvuyCef5hIXfScg3m3r98Kke2Jy7VRX790OYifPshQcW1c8ZCvSA0SsrvjBxNgNgHCPH7yxV6rcWypy2qE0k8Eqz2uZhYGsxynCvdOtjkuQvOCQyDgCeOKVdWPE7YqwemA1zuwygoco7rMPmF5k76sN8T7K506bXaVKTbY87xhqyKRwBPvEykUPfJIxC5yiC3iJdZN3n6svDn7xIFBXULWQsdJzxxqA7S4v21p8nFNiLRAz5ie48",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1792993518/products/1005012948127937.webp",
       "category": "sport",
       "rating": null,
@@ -341,8 +323,8 @@
       "sales_volume": 1,
       "score": 0.1771,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:41Z",
-      "updated_at": "2026-11-01T07:06:41Z"
+      "fetched_at": "2026-11-02T07:11:15Z",
+      "updated_at": "2026-11-02T07:11:15Z"
     },
     {
       "product_id": "1005013190287086",
@@ -351,7 +333,7 @@
       "price": 29.4,
       "original_price": 71.7,
       "discount_pct": 59,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUPn4ZDT946mtUyooAF4eDoNdbenr9gJw6KVgLgnQceSrRmSxAu7vAh4IZdj3BApTNO59VKPxPyRZUKNJYECcxIlCltdM9HPHp77CvWF0F6O9UUL66P9YPnxiB5pi8PtkFVJRfmaFTmClb6NNNxgRthvLrkRIqkVkRoSJdSPxX3cfFHpwg9mZSGBakqnS2oBrA80Bwlm0UmTBEm3y7mIakP9kdz9LREBlZuKb7waMUDbCK28cECl1hGU8dECkvWjpvkv3SMXS9yBQkK5kc9wFcyInktSigOiSGbxjjI2nOAUpAEHEZk9FFFNC0fR8UoElxr4iYIlzTlQrZDLStnj18HvC3oG7QWkkcFiIm1YxtBPcQyH7kMj6ne0LlmuoPFGRL404ZWoieOUh7S8vW2fNXYrnAg6tp296hwak3RyONCBETaGYd0LgNt2Kybs2l3TljUrcV9rW25jiVp788LPaizIKwnEUG8ghidFNn0iGKjb8grQ1Gbx3AmYlAOE89wk2IJ5eGpbsOcbBblrKk2H7uH6gU9GfvI2GHyZ5BEA0aRIGnW0rYGpFLJii6ru0XCU7CAYuzQQYXGrn7ZOguT7jpkPq303H3WkRbF0ClFfZORw2TFAZ377NSAolP0mmLC4dmcVLDBQuggs7BznOD56YeqKmptzkXoGGzmQdGe5lfjabxVBZ4aCXGZHOIAPzW78H10sgAkLKf3cg",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUPn4ZDT946mtUyooAF4eDoNdbenr9gJw6KVgLgnQceSrRmSxAu7vAh4IZdj3BApTNO59VKPxPyRZUKNJYECcxIlCltdM9HPHp77CvWF0F6O9UUL66P9YPnxiB5pi8PtkFVJRfmaFTmClb6NNNxgRthvLrkRIqkVkRoSJdSPxX3cfFHpwg9mZSGBakqnS2oBrA80Bwlm0UmTBEm3y7mIakP9kdz9LREBlZuKb7waMUDbCK28cECl1hGU8dECkvWjpvpF6Hw2xsWdQbMclaqUmoocoTH02D0E08NMevdvcPQuqnImfj9F1mMa57uGifvbviatLycIcYHfBas6AtCqjgpGTqlTLgHR4tFLgYLAS19qIqyzLEyhHhpuSl8CTDyIqVeQVxyP5JQ165oUdwVSok2ArS5M64cdBwpF2hstgzBktA2rRH9jbj2XdTNQfwCpiqem96bPc8JksoQY8EV7U2U938aH88ixu1y1kyzjeHIVIM7Wegn50W0Ax9QLvfVSapF0GwrQSLJMlYgYw8t8Gk1DpOK4FCtrtpHYI4otqnoLtWMHC0o8Si2gk3d3FYIQzQ6tJUDmg29aGRQH9eto98SrxYvbJ0OySSQiWfU9KjWNqG3wD0s3sJcNDYAKDao7vxLtvVgEtIK6rEM1FSsZ5CKDF4qmiVfnR4vXYYYTES1Y9XfaN0a4oteP6x7OmLhktV7Sg4xxqJfSy",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793516801/products/1005013190287086.webp",
       "category": "sport",
       "rating": null,
@@ -359,8 +341,26 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-11-01T07:06:42Z",
-      "updated_at": "2026-11-01T07:06:42Z"
+      "fetched_at": "2026-11-02T07:11:16Z",
+      "updated_at": "2026-11-02T07:11:16Z"
+    },
+    {
+      "product_id": "1005013214098688",
+      "title": "Personalisierte Wasserflasche Custom Name Logo Edelstahl isolierte Vakuumflasche Reisesportflasche Geschenk für Männer Frauen Büro",
+      "slug": "personalized-water-bottle-custom-name-logo-stainless-steel-i",
+      "price": 16.98,
+      "original_price": 40.44,
+      "discount_pct": 58,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4orOlXeeog2tESERBre5CISFttQn61WsMQbrNQJQFbTlM00ugdbY8sHj8FF21mFMrUmDbHAXHro9MlvEVQWAl1Xf8yRfrnKRnWNigWoHgtGhHZCH36yjtk2lcfJfuox0fisGdfa4qHwYNVnBUEWA52nghirovwGXxQCE87rKr5dKDu7qhpOewbUzqh5t8YKG4VJYQaWH3XJXpVtaDdUaXRp74BkiaOmBBOyvw1wOFXByOIYpl3DTm4QBoTKa1K0w2nfQpZtVZepzd9YZjY6uELEfgNxeIHCnR1OdDbrA3GI3Eb6BrMcmyo6maTyxeO3IjsVGRVeAT5FdOr8GOjG9dync4yrHeypjc8k4ri9i4woWgeQy02sL3X6s3oesAjcIiyA1Yg3y6Hc1xg69XtlOHDXv1aDsSxA9PRUdsQiucffrVqbUYm9QsxqBPC9uiRdRxoifXJhvYsFPWxaf5p3prKYTDt7jsS3UBHanqCSZul7tofWFv1DmVNZalexBf9aEbH2K90hckZIrLfuBptPL96ULt8qFnwEHMTXnqotG7ZiwZ7T2g8xH9MR3S1eHj7sK7A7MWhEMplR3oEJf5yUOAubtZaJT379McgCgb2myyEJymEWo9cglq6IdNLHjOAFD2B26Ay0Cldk8zhhsXU0DTrCsysxJABM5PmukIQ3qrL3z6mNdPbchbgOKc5FzlHGpRl6591EBBxbRu0",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793603476/products/1005013214098688.webp",
+      "category": "sport",
+      "rating": null,
+      "reviews_count": 4,
+      "sales_volume": 4,
+      "score": 0.1745,
+      "price_history": [],
+      "fetched_at": "2026-11-02T07:11:17Z",
+      "updated_at": "2026-11-02T07:11:17Z"
     }
   ]
 }
