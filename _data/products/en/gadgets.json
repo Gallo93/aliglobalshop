@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-11-05T14:09:53Z",
+  "updated_at": "2026-11-06T05:31:34Z",
   "products": [
     {
       "product_id": "1005007785029246",
@@ -18,7 +18,7 @@
       "score": 0.3097,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:09Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005007480971055",
@@ -36,7 +36,7 @@
       "score": 0.3076,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:09Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005010253348075",
@@ -54,7 +54,7 @@
       "score": 0.2817,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:10Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005012561422530",
@@ -72,7 +72,7 @@
       "score": 0.2746,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:10Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005002653094153",
@@ -90,7 +90,7 @@
       "score": 0.2745,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:11Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005012349888176",
@@ -108,7 +108,7 @@
       "score": 0.2517,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:11Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005006247048063",
@@ -126,7 +126,7 @@
       "score": 0.2489,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:12Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005012124170204",
@@ -144,7 +144,7 @@
       "score": 0.2465,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:13Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005013163634531",
@@ -162,7 +162,7 @@
       "score": 0.2424,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:13Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005009879452578",
@@ -180,7 +180,7 @@
       "score": 0.237,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:14Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005003419846388",
@@ -198,7 +198,7 @@
       "score": 0.2291,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:15Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005013273281150",
@@ -216,7 +216,7 @@
       "score": 0.2177,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:16Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005004204383810",
@@ -234,7 +234,7 @@
       "score": 0.2124,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:17Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005013140456257",
@@ -252,13 +252,13 @@
       "score": 0.2058,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:17Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005009503850484",
       "title": "Mini Projector Wifi6 and BT5.4 Native 1080P, 4K Decoding Android 14 Auto Keystone 180° Flexible Portable Beamer for Home Theater",
       "slug": "mini-projector-wifi6-and-bt54-native-1080p-4k-decoding-andro",
-      "price": "36.41",
+      "price": "37.93",
       "original_price": "50.57",
       "discount_pct": 28,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mkuYGnBewXIzGsPpVkuvA0GgGsC1UUCvDAFc5p0upg0j2cRcpQzRni1ILIqFoNbWbNt61z2gKuHQPZCsSxTUQzeDZPqVrjo2TJsYiWRLfQO4V27XViLjhM6HzY8ZZsAgV7uC0P1r6HtA2uWoXqay2oloHTwwcqEytqJMGG7f0ZrZ10Vma6xxpVMqVWLcTL2xgG7wLgUDKeiEV0UFPOU9uQnWyXkzvGKiu9zx1EoFix07ZiYVH2kmEqaHTrTfcpuDBTVrNCWd9PkMSdMjpSiWqL77N4CQODJ5FcFV0X0lxWVQk20JfnFTMRLiC36n4S7nCKbznV7tbLaGvhkOwuY50ML2tRLoMaGFWCJf6siQZj0iVoqtm0KyMCOXff3JxUjPyeDc3IviuO0BR1lcHE8kq5NaQkOPVkEcfTdqrx1cTRBHMWd0DW2fUUJaCudjmuMoltW1EONUfAOiOatDWZO93dV9ZHDRMOYD2s572xCP851bFQF3vP3T8125DBFM3KByI0XeWV5obo0EyNHqT3vQCkR7xkA6WX29zZ1af5SsHkvbS935zdsXBAQ8ktwpHSJj28n1NSQk7uZomHV6VLEurAUmfh6ekX5rdPsgeoWH8LcZQDrII1HgOd3Q2Ueb3H6MC23mLUl85F6p1xdUOG9hOZb8KOddlkIQsW6smGxZ4OHZ9FpEX14E5Z3QpZZ4h0oLlkgFcIIMkU6Uy",
@@ -270,7 +270,7 @@
       "score": 0.1841,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:18Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005013206568774",
@@ -288,7 +288,7 @@
       "score": 0.177,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:19Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005013175736611",
@@ -306,7 +306,7 @@
       "score": 0.177,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:19Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005009553107526",
@@ -324,7 +324,7 @@
       "score": 0.172,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:20Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005007710000628",
@@ -342,7 +342,7 @@
       "score": 0.1711,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:21Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     },
     {
       "product_id": "1005012803350649",
@@ -360,7 +360,7 @@
       "score": 0.1652,
       "price_history": [],
       "fetched_at": "2026-11-05T07:41:22Z",
-      "updated_at": "2026-11-05T14:09:53Z"
+      "updated_at": "2026-11-06T05:31:34Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-05T14:09:55Z",
+  "updated_at": "2026-11-06T05:31:36Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -18,7 +18,7 @@
       "score": 0.7469,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:18Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005008819108266",
@@ -36,7 +36,7 @@
       "score": 0.3749,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:19Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005009654029579",
@@ -54,7 +54,7 @@
       "score": 0.339,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:20Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012799658917",
@@ -72,7 +72,7 @@
       "score": 0.2744,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:20Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012744589654",
@@ -90,7 +90,7 @@
       "score": 0.2744,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:21Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005005132056199",
@@ -108,7 +108,7 @@
       "score": 0.2621,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:22Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005010400096298",
@@ -126,7 +126,7 @@
       "score": 0.2595,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:23Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012746211090",
@@ -144,7 +144,7 @@
       "score": 0.2506,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:24Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012751875432",
@@ -162,7 +162,7 @@
       "score": 0.2412,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:24Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005008232432768",
@@ -180,7 +180,7 @@
       "score": 0.2405,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:25Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005009682073618",
@@ -198,7 +198,7 @@
       "score": 0.2348,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:26Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005006112632512",
@@ -216,7 +216,7 @@
       "score": 0.2304,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:27Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012327803644",
@@ -234,7 +234,7 @@
       "score": 0.2192,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:27Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012582262268",
@@ -252,13 +252,13 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:28Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012510580573",
       "title": "IP65 Tuya Zigbee WiFi Door Window Magnetic Sensor Wireless Connection Smart Home Protection Waterproof Door Detectors Automation",
       "slug": "ip65-tuya-zigbee-wifi-door-window-magnetic-sensor-wireless-c",
-      "price": "7.43",
+      "price": "7.68",
       "original_price": "8.93",
       "discount_pct": 16,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ocz4I0CeJVbTtEIhag47ZvlWDV8UScA627iXzeKROkDzkNNB0TDaBPzLVPg3xS9KQMXSqnkN1nVE8MWMwurcQS36MJjkYgVDmGUTK0P1J6MuF8Rzh5aIZTEUhMpurEoGPdHQt1hsNAgPBmYJcRtdybwEDtBbkdc11bGWzhWZXuHJcfJp5BDNfPiRRMyzGsElw8vbTOcMnp3NHfm0zDq3vJscR4EKck9UKF1rQLKgFVe8IITeGSttXxeLiFbXQZsxwVnGNRNX96xNBIwezs8Pq2Tv7RVwOoDZMyqpA1nnkuL8HfphOqNJcYDjdmp3BJVylsPd2s01E0XJtvuVXjRzB8PumkAnC0Ojmpo9H7UANDp9JiVdRfM2N4dTMKBe0tJy4Y7jOJrSprWruHjNCb9SdIfNdX60G5blC60yKLvp7dnJtrZUYlC8qhu3J7Blc8onciityp79sYkfpBtwy4CHMQIOvktG1smG9w3qTTNlr5ODsJwLzyykbzAb4eqU9GvEvDlHrBNGKamhn7LCOYgu9O35ghP9HgPFxSnLx0fa074JzWHcqwNMe1yZQVUzwMlBGr6d3k4Ngvdu3joIcZeBVTA3atg26Fl3mPRySQFnY3OaNFSZGygD4G4ZRCkwuQKZtKmyDbFtk9OfLdRK9J3LvqjIk1H83SIJbPpYhZotI2YDsYRI2lv3zxYVRX9sFXxf3iesNLFa9pXpQ",
@@ -270,7 +270,7 @@
       "score": 0.207,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:29Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005009911393115",
@@ -288,7 +288,7 @@
       "score": 0.188,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:30Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005009570920455",
@@ -306,7 +306,7 @@
       "score": 0.1879,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:31Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012756746022",
@@ -324,7 +324,7 @@
       "score": 0.1744,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:31Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005012730710465",
@@ -342,7 +342,7 @@
       "score": 0.1742,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:32Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     },
     {
       "product_id": "1005010288594147",
@@ -360,7 +360,7 @@
       "score": 0.1678,
       "price_history": [],
       "fetched_at": "2026-11-05T07:40:33Z",
-      "updated_at": "2026-11-05T14:09:55Z"
+      "updated_at": "2026-11-06T05:31:36Z"
     }
   ]
 }
