@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-11-05T07:41:22Z",
+  "updated_at": "2026-11-06T07:38:16Z",
   "products": [
     {
       "product_id": "1005007785029246",
@@ -17,8 +17,8 @@
       "sales_volume": 532,
       "score": 0.3097,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:09Z",
-      "updated_at": "2026-11-05T07:41:09Z"
+      "fetched_at": "2026-11-06T07:38:06Z",
+      "updated_at": "2026-11-06T07:38:06Z"
     },
     {
       "product_id": "1005007480971055",
@@ -35,8 +35,8 @@
       "sales_volume": 307,
       "score": 0.3076,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:09Z",
-      "updated_at": "2026-11-05T07:41:09Z"
+      "fetched_at": "2026-11-06T07:38:07Z",
+      "updated_at": "2026-11-06T07:38:07Z"
     },
     {
       "product_id": "1005010253348075",
@@ -53,8 +53,8 @@
       "sales_volume": 14,
       "score": 0.2817,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:10Z",
-      "updated_at": "2026-11-05T07:41:10Z"
+      "fetched_at": "2026-11-06T07:38:07Z",
+      "updated_at": "2026-11-06T07:38:07Z"
     },
     {
       "product_id": "1005012561422530",
@@ -71,8 +71,8 @@
       "sales_volume": 5,
       "score": 0.2746,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:10Z",
-      "updated_at": "2026-11-05T07:41:10Z"
+      "fetched_at": "2026-11-06T07:38:08Z",
+      "updated_at": "2026-11-06T07:38:08Z"
     },
     {
       "product_id": "1005002653094153",
@@ -89,8 +89,8 @@
       "sales_volume": 10,
       "score": 0.2745,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:11Z",
-      "updated_at": "2026-11-05T07:41:11Z"
+      "fetched_at": "2026-11-06T07:38:08Z",
+      "updated_at": "2026-11-06T07:38:08Z"
     },
     {
       "product_id": "1005012349888176",
@@ -107,8 +107,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:11Z",
-      "updated_at": "2026-11-05T07:41:11Z"
+      "fetched_at": "2026-11-06T07:38:09Z",
+      "updated_at": "2026-11-06T07:38:09Z"
     },
     {
       "product_id": "1005006247048063",
@@ -125,8 +125,8 @@
       "sales_volume": 18,
       "score": 0.2489,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:12Z",
-      "updated_at": "2026-11-05T07:41:12Z"
+      "fetched_at": "2026-11-06T07:38:09Z",
+      "updated_at": "2026-11-06T07:38:09Z"
     },
     {
       "product_id": "1005012124170204",
@@ -143,8 +143,8 @@
       "sales_volume": 59,
       "score": 0.2465,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:13Z",
-      "updated_at": "2026-11-05T07:41:13Z"
+      "fetched_at": "2026-11-06T07:38:10Z",
+      "updated_at": "2026-11-06T07:38:10Z"
     },
     {
       "product_id": "1005013163634531",
@@ -161,12 +161,12 @@
       "sales_volume": 20,
       "score": 0.2424,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:13Z",
-      "updated_at": "2026-11-05T07:41:13Z"
+      "fetched_at": "2026-11-06T07:38:10Z",
+      "updated_at": "2026-11-06T07:38:10Z"
     },
     {
       "product_id": "1005009879452578",
-      "title": "Für Tesla Cybertruck 2024 in 1 Wireless Charger Station Qi2 Fast Charging Pad 15W für iPhone Samsung Desktop Accessories Holder",
+      "title": "Für Tesla Cybertruck 2024 in 1 Wireless Charger Station Qi2 Fast Charging Pad 15W für iPhone Samsung Desktop Zubehör",
       "slug": "for-tesla-cybertruck-2024-in-1-wireless-charger-station-qi2-",
       "price": 39.24,
       "original_price": 95.71,
@@ -179,12 +179,12 @@
       "sales_volume": 0,
       "score": 0.237,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:14Z",
-      "updated_at": "2026-11-05T07:41:14Z"
+      "fetched_at": "2026-11-06T07:38:11Z",
+      "updated_at": "2026-11-06T07:38:11Z"
     },
     {
       "product_id": "1005003419846388",
-      "title": "6 in 1 Schnelles drahtloses Ladegerät 15W für iPhone Smart Watch TWS Bluetooth Ohrhörer Qi Schnellladepad für Samsung Xiaomi Mi Huawei",
+      "title": "6 in 1 Schnelles drahtloses Ladegerät 15W für iPhone Smart Watch TWS Bluetooth Earphone Qi Schnellladepad für Samsung Xiaomi Mi Huawei",
       "slug": "6-in-1-fast-wireless-charger-15w-for-iphone-smart-watch-tws-",
       "price": 34.79,
       "original_price": 61.04,
@@ -197,8 +197,8 @@
       "sales_volume": 1,
       "score": 0.2291,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:15Z",
-      "updated_at": "2026-11-05T07:41:15Z"
+      "fetched_at": "2026-11-06T07:38:11Z",
+      "updated_at": "2026-11-06T07:38:11Z"
     },
     {
       "product_id": "1005013273281150",
@@ -215,8 +215,8 @@
       "sales_volume": 64,
       "score": 0.2177,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:16Z",
-      "updated_at": "2026-11-05T07:41:16Z"
+      "fetched_at": "2026-11-06T07:38:12Z",
+      "updated_at": "2026-11-06T07:38:12Z"
     },
     {
       "product_id": "1005004204383810",
@@ -233,12 +233,12 @@
       "sales_volume": 25,
       "score": 0.2124,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:17Z",
-      "updated_at": "2026-11-05T07:41:17Z"
+      "fetched_at": "2026-11-06T07:38:12Z",
+      "updated_at": "2026-11-06T07:38:12Z"
     },
     {
       "product_id": "1005013140456257",
-      "title": "Xiaomi 20000mAh 45W PD Schnellladen Power Bank Drei-Port USB-C Portable externe Batterie für iPhone Xiaomi Laptops Smartphones",
+      "title": "Xiaomi 20000mAh 45W PD Schnelllade Power Bank Drei-Port USB-C Portable externe Batterie für iPhone Xiaomi Laptops Smartphones",
       "slug": "xiaomi-20000mah-45w-pd-fast-charging-power-bank-three-port-u",
       "price": 41.31,
       "original_price": 63.54,
@@ -251,8 +251,8 @@
       "sales_volume": 7,
       "score": 0.2058,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:17Z",
-      "updated_at": "2026-11-05T07:41:17Z"
+      "fetched_at": "2026-11-06T07:38:13Z",
+      "updated_at": "2026-11-06T07:38:13Z"
     },
     {
       "product_id": "1005009503850484",
@@ -269,8 +269,8 @@
       "sales_volume": 53,
       "score": 0.1841,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:18Z",
-      "updated_at": "2026-11-05T07:41:18Z"
+      "fetched_at": "2026-11-06T07:38:13Z",
+      "updated_at": "2026-11-06T07:38:13Z"
     },
     {
       "product_id": "1005013206568774",
@@ -287,8 +287,8 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:19Z",
-      "updated_at": "2026-11-05T07:41:19Z"
+      "fetched_at": "2026-11-06T07:38:14Z",
+      "updated_at": "2026-11-06T07:38:14Z"
     },
     {
       "product_id": "1005013175736611",
@@ -305,12 +305,12 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:19Z",
-      "updated_at": "2026-11-05T07:41:19Z"
+      "fetched_at": "2026-11-06T07:38:14Z",
+      "updated_at": "2026-11-06T07:38:14Z"
     },
     {
       "product_id": "1005009553107526",
-      "title": "Mini-Projektor Native 1080P, 4K Decodierung, WiFi 6 & BT 5.4, Android TV Short Throw Portable Beamer für Home Theater Outdoor Film",
+      "title": "Mini-Projektor Native 1080P, 4K Decodierung, WiFi 6 & BT 5.4, Android TV Short Throw Portable Beamer für Home Theater Outdoor Movie",
       "slug": "mini-projector-native-1080p-4k-decoding-wifi-6-bt-54-android",
       "price": 41.8,
       "original_price": 54.3,
@@ -323,8 +323,8 @@
       "sales_volume": 78,
       "score": 0.172,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:20Z",
-      "updated_at": "2026-11-05T07:41:20Z"
+      "fetched_at": "2026-11-06T07:38:14Z",
+      "updated_at": "2026-11-06T07:38:14Z"
     },
     {
       "product_id": "1005007710000628",
@@ -341,8 +341,8 @@
       "sales_volume": 1,
       "score": 0.1711,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:21Z",
-      "updated_at": "2026-11-05T07:41:21Z"
+      "fetched_at": "2026-11-06T07:38:15Z",
+      "updated_at": "2026-11-06T07:38:15Z"
     },
     {
       "product_id": "1005012803350649",
@@ -359,8 +359,8 @@
       "sales_volume": 2,
       "score": 0.1652,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:41:22Z",
-      "updated_at": "2026-11-05T07:41:22Z"
+      "fetched_at": "2026-11-06T07:38:15Z",
+      "updated_at": "2026-11-06T07:38:15Z"
     }
   ]
 }

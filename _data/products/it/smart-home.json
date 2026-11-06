@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-05T07:40:33Z",
+  "updated_at": "2026-11-06T07:37:50Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -17,8 +17,8 @@
       "sales_volume": 3785,
       "score": 0.7469,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:18Z",
-      "updated_at": "2026-11-05T07:40:18Z"
+      "fetched_at": "2026-11-06T07:37:39Z",
+      "updated_at": "2026-11-06T07:37:39Z"
     },
     {
       "product_id": "1005008819108266",
@@ -35,8 +35,8 @@
       "sales_volume": 281,
       "score": 0.3749,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:19Z",
-      "updated_at": "2026-11-05T07:40:19Z"
+      "fetched_at": "2026-11-06T07:37:40Z",
+      "updated_at": "2026-11-06T07:37:40Z"
     },
     {
       "product_id": "1005009654029579",
@@ -53,12 +53,12 @@
       "sales_volume": 1497,
       "score": 0.339,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:20Z",
-      "updated_at": "2026-11-05T07:40:20Z"
+      "fetched_at": "2026-11-06T07:37:41Z",
+      "updated_at": "2026-11-06T07:37:41Z"
     },
     {
       "product_id": "1005012799658917",
-      "title": "Telecamera di sicurezza solare 2K Wireless Outdoor WiFi Camera 2.4G/5G Home Sicurezza CCTV fisso pannello solare a due vie conversazione sorveglianza",
+      "title": "Telecamera di sicurezza solare 2K Wireless WiFi telecamera esterna 2.4G/5G Home Sicurezza CCTV fisso pannello solare a due vie conversazione sorveglianza",
       "slug": "2k-solar-security-camera-wireless-outdoor-wifi-camera-24g5g-",
       "price": 39.04,
       "original_price": 92.93,
@@ -71,8 +71,8 @@
       "sales_volume": 3,
       "score": 0.2744,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:20Z",
-      "updated_at": "2026-11-05T07:40:20Z"
+      "fetched_at": "2026-11-06T07:37:41Z",
+      "updated_at": "2026-11-06T07:37:41Z"
     },
     {
       "product_id": "1005012744589654",
@@ -89,8 +89,8 @@
       "sales_volume": 3,
       "score": 0.2744,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:21Z",
-      "updated_at": "2026-11-05T07:40:21Z"
+      "fetched_at": "2026-11-06T07:37:42Z",
+      "updated_at": "2026-11-06T07:37:42Z"
     },
     {
       "product_id": "1005005132056199",
@@ -107,8 +107,8 @@
       "sales_volume": 1,
       "score": 0.2621,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:22Z",
-      "updated_at": "2026-11-05T07:40:22Z"
+      "fetched_at": "2026-11-06T07:37:42Z",
+      "updated_at": "2026-11-06T07:37:42Z"
     },
     {
       "product_id": "1005010400096298",
@@ -125,8 +125,8 @@
       "sales_volume": 29,
       "score": 0.2595,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:23Z",
-      "updated_at": "2026-11-05T07:40:23Z"
+      "fetched_at": "2026-11-06T07:37:43Z",
+      "updated_at": "2026-11-06T07:37:43Z"
     },
     {
       "product_id": "1005012746211090",
@@ -143,8 +143,8 @@
       "sales_volume": 5,
       "score": 0.2506,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:24Z",
-      "updated_at": "2026-11-05T07:40:24Z"
+      "fetched_at": "2026-11-06T07:37:43Z",
+      "updated_at": "2026-11-06T07:37:43Z"
     },
     {
       "product_id": "1005012751875432",
@@ -161,8 +161,8 @@
       "sales_volume": 2,
       "score": 0.2412,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:24Z",
-      "updated_at": "2026-11-05T07:40:24Z"
+      "fetched_at": "2026-11-06T07:37:44Z",
+      "updated_at": "2026-11-06T07:37:44Z"
     },
     {
       "product_id": "1005008232432768",
@@ -179,8 +179,8 @@
       "sales_volume": 25,
       "score": 0.2405,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:25Z",
-      "updated_at": "2026-11-05T07:40:25Z"
+      "fetched_at": "2026-11-06T07:37:44Z",
+      "updated_at": "2026-11-06T07:37:44Z"
     },
     {
       "product_id": "1005009682073618",
@@ -197,12 +197,12 @@
       "sales_volume": 763,
       "score": 0.2348,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:26Z",
-      "updated_at": "2026-11-05T07:40:26Z"
+      "fetched_at": "2026-11-06T07:37:45Z",
+      "updated_at": "2026-11-06T07:37:45Z"
     },
     {
       "product_id": "1005006112632512",
-      "title": "Shelly 1 Mini Gen3 WiFi Smart Switch Matter 8A Automate Lights Garage Door Irrigation System Small Electrical Appliance Home",
+      "title": "Shelly 1 Mini Gen3 WiFi Smart Switch Matter 8A luci automatiche Garage Door Irrigation System Piccola Appliance elettrica Home",
       "slug": "shelly-1-mini-gen3-wifi-smart-switch-matter-8a-automate-ligh",
       "price": 13.36,
       "original_price": 22.47,
@@ -215,12 +215,12 @@
       "sales_volume": 120,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:27Z",
-      "updated_at": "2026-11-05T07:40:27Z"
+      "fetched_at": "2026-11-06T07:37:45Z",
+      "updated_at": "2026-11-06T07:37:45Z"
     },
     {
       "product_id": "1005012327803644",
-      "title": "Dekco 3K/5MP UHD Wall Light Camera Wireless Wifi Floodlight Telecamera Outdoor 360 ° Vista Colore Notte Visione 2 vie Audio Security Cam",
+      "title": "Dekco 3K/5MP UHD Wall Light Camera Wireless Wifi Floodlight Telecamera Outdoor 360 ° Vista Colore Night Vision 2 vie Audio Security Cam",
       "slug": "dekco-3k5mp-uhd-wall-light-camera-wireless-wifi-floodlight-c",
       "price": 81.07,
       "original_price": 300.23,
@@ -233,12 +233,12 @@
       "sales_volume": 2,
       "score": 0.2192,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:27Z",
-      "updated_at": "2026-11-05T07:40:27Z"
+      "fetched_at": "2026-11-06T07:37:46Z",
+      "updated_at": "2026-11-06T07:37:46Z"
     },
     {
       "product_id": "1005012582262268",
-      "title": "Smart Thermostat Plug EU Socket WiFi &amp; Bluetooth Dual Mode App Timing Cooling Modalità riscaldamento per aria Cooer Fan Greenhouse Pet Room",
+      "title": "Smart Thermostat Plug EU Socket WiFi & Bluetooth Doppio modo App di raffreddamento Modalità di riscaldamento per aria Cooer Fan Camera per animali domestici",
       "slug": "smart-thermostat-plug-eu-socket-wifi-bluetooth-dual-mode-app",
       "price": 37.04,
       "original_price": 123.47,
@@ -251,8 +251,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:28Z",
-      "updated_at": "2026-11-05T07:40:28Z"
+      "fetched_at": "2026-11-06T07:37:46Z",
+      "updated_at": "2026-11-06T07:37:46Z"
     },
     {
       "product_id": "1005012510580573",
@@ -269,8 +269,8 @@
       "sales_volume": 536,
       "score": 0.207,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:29Z",
-      "updated_at": "2026-11-05T07:40:29Z"
+      "fetched_at": "2026-11-06T07:37:47Z",
+      "updated_at": "2026-11-06T07:37:47Z"
     },
     {
       "product_id": "1005009911393115",
@@ -287,12 +287,12 @@
       "sales_volume": 395,
       "score": 0.188,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:30Z",
-      "updated_at": "2026-11-05T07:40:30Z"
+      "fetched_at": "2026-11-06T07:37:47Z",
+      "updated_at": "2026-11-06T07:37:47Z"
     },
     {
       "product_id": "1005009570920455",
-      "title": "390EYES 12MP 4MP Wifi PTZ all'aperto Triple Lens Tre schermi AI Rilevamento umano Auto Tracking Color Night Vision telecamera di sicurezza",
+      "title": "390EYES 12MP 4MP Wifi PTZ all'aperto Triple Lens tre schermi AI Rilevamento umano Auto Tracking Color Night Vision telecamera di sicurezza",
       "slug": "390eyes-12mp-4mp-wifi-ptz-outdoor-triple-lens-three-screens-",
       "price": 30.71,
       "original_price": 43.87,
@@ -305,8 +305,8 @@
       "sales_volume": 24,
       "score": 0.1879,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:31Z",
-      "updated_at": "2026-11-05T07:40:31Z"
+      "fetched_at": "2026-11-06T07:37:48Z",
+      "updated_at": "2026-11-06T07:37:48Z"
     },
     {
       "product_id": "1005012756746022",
@@ -323,8 +323,8 @@
       "sales_volume": 3,
       "score": 0.1744,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:31Z",
-      "updated_at": "2026-11-05T07:40:31Z"
+      "fetched_at": "2026-11-06T07:37:48Z",
+      "updated_at": "2026-11-06T07:37:48Z"
     },
     {
       "product_id": "1005012730710465",
@@ -341,8 +341,8 @@
       "sales_volume": 2,
       "score": 0.1742,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:32Z",
-      "updated_at": "2026-11-05T07:40:32Z"
+      "fetched_at": "2026-11-06T07:37:49Z",
+      "updated_at": "2026-11-06T07:37:49Z"
     },
     {
       "product_id": "1005010288594147",
@@ -359,8 +359,8 @@
       "sales_volume": 175,
       "score": 0.1678,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:33Z",
-      "updated_at": "2026-11-05T07:40:33Z"
+      "fetched_at": "2026-11-06T07:37:49Z",
+      "updated_at": "2026-11-06T07:37:49Z"
     }
   ]
 }

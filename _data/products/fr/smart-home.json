@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-05T07:40:33Z",
+  "updated_at": "2026-11-06T07:37:50Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -17,12 +17,12 @@
       "sales_volume": 3785,
       "score": 0.7469,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:18Z",
-      "updated_at": "2026-11-05T07:40:18Z"
+      "fetched_at": "2026-11-06T07:37:39Z",
+      "updated_at": "2026-11-06T07:37:39Z"
     },
     {
       "product_id": "1005008819108266",
-      "title": "Caméras 3MP YI 2K 2/3/4Pack Home Cams IP Système de sécurité avec vision nocturne pour le bureau / bébé / nounou / moniteur de bébé Wifi CCTV",
+      "title": "YI 2K 3MP Caméras 2/3/4Pack Home Cams IP Système de sécurité avec vision nocturne pour bureau/baby/nanny/Pet Monitor Wifi CCTV",
       "slug": "yi-2k-3mp-cameras-234pack-home-ip-cams-security-system-with-",
       "price": 13.8,
       "original_price": 91.99,
@@ -35,8 +35,8 @@
       "sales_volume": 281,
       "score": 0.3749,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:19Z",
-      "updated_at": "2026-11-05T07:40:19Z"
+      "fetched_at": "2026-11-06T07:37:40Z",
+      "updated_at": "2026-11-06T07:37:40Z"
     },
     {
       "product_id": "1005009654029579",
@@ -53,12 +53,12 @@
       "sales_volume": 1497,
       "score": 0.339,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:20Z",
-      "updated_at": "2026-11-05T07:40:20Z"
+      "fetched_at": "2026-11-06T07:37:41Z",
+      "updated_at": "2026-11-06T07:37:41Z"
     },
     {
       "product_id": "1005012799658917",
-      "title": "Caméra de sécurité solaire 2K sans fil WiFi caméra 2.4G/5G Maison Sécurité CCTV Panneau solaire fixe à deux voies Talk Surveillance",
+      "title": "Caméra de sécurité solaire 2K sans fil Wi-Fi Caméra 2.4G/5G Home Sécurité CCTV Panneau solaire fixe à deux voies Talk Surveillance",
       "slug": "2k-solar-security-camera-wireless-outdoor-wifi-camera-24g5g-",
       "price": 39.04,
       "original_price": 92.93,
@@ -71,12 +71,12 @@
       "sales_volume": 3,
       "score": 0.2744,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:20Z",
-      "updated_at": "2026-11-05T07:40:20Z"
+      "fetched_at": "2026-11-06T07:37:41Z",
+      "updated_at": "2026-11-06T07:37:41Z"
     },
     {
       "product_id": "1005012744589654",
-      "title": "Caméra de sécurité WiFi Tuya 6MP - Cam 5G avec suivi automatique - Baby Monitor, IR Night Vision et Zoom 6X pour Smart Home",
+      "title": "Caméra de sécurité WiFi Tuya 6MP - Cam intérieur 5G avec suivi automatique - Baby Monitor, IR Night Vision et Zoom 6X pour Smart Home",
       "slug": "tuya-6mp-wifi-security-camera-5g-indoor-cam-with-auto-tracki",
       "price": 24.3,
       "original_price": 57.84,
@@ -89,8 +89,8 @@
       "sales_volume": 3,
       "score": 0.2744,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:21Z",
-      "updated_at": "2026-11-05T07:40:21Z"
+      "fetched_at": "2026-11-06T07:37:42Z",
+      "updated_at": "2026-11-06T07:37:42Z"
     },
     {
       "product_id": "1005005132056199",
@@ -107,8 +107,8 @@
       "sales_volume": 1,
       "score": 0.2621,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:22Z",
-      "updated_at": "2026-11-05T07:40:22Z"
+      "fetched_at": "2026-11-06T07:37:42Z",
+      "updated_at": "2026-11-06T07:37:42Z"
     },
     {
       "product_id": "1005010400096298",
@@ -125,12 +125,12 @@
       "sales_volume": 29,
       "score": 0.2595,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:23Z",
-      "updated_at": "2026-11-05T07:40:23Z"
+      "fetched_at": "2026-11-06T07:37:43Z",
+      "updated_at": "2026-11-06T07:37:43Z"
     },
     {
       "product_id": "1005012746211090",
-      "title": "OKAM PRO 10MP Caméra de fenêtre double objectif 10X Zoom 5G WiFi Caméra de sécurité Double vision de nuit Détection humaine Vidéosurveillance IP à deux voies",
+      "title": "OKAM PRO 10MP Caméra de fenêtre double objectif 10X Zoom 5G WiFi Caméra de sécurité Double vision de nuit Détection de l'être humain Vidéosurveillance IP à deux voies",
       "slug": "okam-pro-10mp-dual-lens-window-camera-10x-zoom-5g-wifi-secur",
       "price": 31.57,
       "original_price": 63.14,
@@ -143,12 +143,12 @@
       "sales_volume": 5,
       "score": 0.2506,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:24Z",
-      "updated_at": "2026-11-05T07:40:24Z"
+      "fetched_at": "2026-11-06T07:37:43Z",
+      "updated_at": "2026-11-06T07:37:43Z"
     },
     {
       "product_id": "1005012751875432",
-      "title": "4G Wifi 6MP 3 Lens PTZ Caméra de sécurité d'extérieur IP66 Imperméable à deux voies Audio et vision nocturne",
+      "title": "4G Wifi 6MP 3 Lens PTZ Caméra de sécurité d'extérieur IP66 Imperméable avec deux bras Audio et vision nocturne",
       "slug": "4g-wifi-6mp-3-lens-ptz-outdoor-security-camera-ip66-waterpro",
       "price": 26.92,
       "original_price": 51.38,
@@ -161,8 +161,8 @@
       "sales_volume": 2,
       "score": 0.2412,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:24Z",
-      "updated_at": "2026-11-05T07:40:24Z"
+      "fetched_at": "2026-11-06T07:37:44Z",
+      "updated_at": "2026-11-06T07:37:44Z"
     },
     {
       "product_id": "1005008232432768",
@@ -179,12 +179,12 @@
       "sales_volume": 25,
       "score": 0.2405,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:25Z",
-      "updated_at": "2026-11-05T07:40:25Z"
+      "fetched_at": "2026-11-06T07:37:44Z",
+      "updated_at": "2026-11-06T07:37:44Z"
     },
     {
       "product_id": "1005009682073618",
-      "title": "Capteur intelligent de fuite d'eau Tiny ZigBee Détecteur de fuite intelligent Supporte l'alarme Tuya/Home Assistant/eWeLink pour Smart Home Security",
+      "title": "Capteur intelligent de fuites d'eau minuscules Détecteur de fuites intelligent ZigBee Supporte l'alarme Tuya/Home Assistant/eWeLink pour Smart Home Security",
       "slug": "tiny-water-leakage-smart-sensor-zigbee-smart-leakage-detecto",
       "price": 5.85,
       "original_price": 6.99,
@@ -197,8 +197,8 @@
       "sales_volume": 763,
       "score": 0.2348,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:26Z",
-      "updated_at": "2026-11-05T07:40:26Z"
+      "fetched_at": "2026-11-06T07:37:45Z",
+      "updated_at": "2026-11-06T07:37:45Z"
     },
     {
       "product_id": "1005006112632512",
@@ -215,12 +215,12 @@
       "sales_volume": 120,
       "score": 0.2304,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:27Z",
-      "updated_at": "2026-11-05T07:40:27Z"
+      "fetched_at": "2026-11-06T07:37:45Z",
+      "updated_at": "2026-11-06T07:37:45Z"
     },
     {
       "product_id": "1005012327803644",
-      "title": "Dekco 3K/5MP Caméra de lumière murale UHD Wifi sans fil Caméra de lumière extérieure 360° Affichage Couleur Nuit Vision 2 voies Audio Sécurité Cam",
+      "title": "Dekco 3K/5MP Caméra de lumière murale UHD Wi-Fi sans fil Projecteur Caméra Extérieur 360° Affichage Couleur Nuit Vision 2 voies Audio Sécurité Cam",
       "slug": "dekco-3k5mp-uhd-wall-light-camera-wireless-wifi-floodlight-c",
       "price": 81.07,
       "original_price": 300.23,
@@ -233,12 +233,12 @@
       "sales_volume": 2,
       "score": 0.2192,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:27Z",
-      "updated_at": "2026-11-05T07:40:27Z"
+      "fetched_at": "2026-11-06T07:37:46Z",
+      "updated_at": "2026-11-06T07:37:46Z"
     },
     {
       "product_id": "1005012582262268",
-      "title": "Smart Thermostat Plug EU Socket WiFi & Bluetooth Dual Mode App Timing Cooling Mode de chauffage pour Air Cooer Fan Greenhouse Pet Room",
+      "title": "Smart Thermostat Plug EU Socket WiFi & Bluetooth Dual Mode App Timing Mode de chauffage de refroidissement pour Air Cooer Fan Greenhouse Pet Room",
       "slug": "smart-thermostat-plug-eu-socket-wifi-bluetooth-dual-mode-app",
       "price": 37.04,
       "original_price": 123.47,
@@ -251,8 +251,8 @@
       "sales_volume": 0,
       "score": 0.21,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:28Z",
-      "updated_at": "2026-11-05T07:40:28Z"
+      "fetched_at": "2026-11-06T07:37:46Z",
+      "updated_at": "2026-11-06T07:37:46Z"
     },
     {
       "product_id": "1005012510580573",
@@ -269,12 +269,12 @@
       "sales_volume": 536,
       "score": 0.207,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:29Z",
-      "updated_at": "2026-11-05T07:40:29Z"
+      "fetched_at": "2026-11-06T07:37:47Z",
+      "updated_at": "2026-11-06T07:37:47Z"
     },
     {
       "product_id": "1005009911393115",
-      "title": "Tuya ZigBee 2in1 PIR Motion Smart Sensor Détecteur de mouvement humain Capteur de lumière intégré fonctionne avec Home Assistant",
+      "title": "Tuya ZigBee 2in1 PIR Motion Luminosité Smart Capteur de mouvement humain Capteur de lumière intégré fonctionne avec l'assistant à domicile",
       "slug": "tuya-zigbee-2in1-pir-motion-brightness-smart-sensor-human-mo",
       "price": 9.11,
       "original_price": 10.84,
@@ -287,8 +287,8 @@
       "sales_volume": 395,
       "score": 0.188,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:30Z",
-      "updated_at": "2026-11-05T07:40:30Z"
+      "fetched_at": "2026-11-06T07:37:47Z",
+      "updated_at": "2026-11-06T07:37:47Z"
     },
     {
       "product_id": "1005009570920455",
@@ -305,8 +305,8 @@
       "sales_volume": 24,
       "score": 0.1879,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:31Z",
-      "updated_at": "2026-11-05T07:40:31Z"
+      "fetched_at": "2026-11-06T07:37:48Z",
+      "updated_at": "2026-11-06T07:37:48Z"
     },
     {
       "product_id": "1005012756746022",
@@ -323,12 +323,12 @@
       "sales_volume": 3,
       "score": 0.1744,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:31Z",
-      "updated_at": "2026-11-05T07:40:31Z"
+      "fetched_at": "2026-11-06T07:37:48Z",
+      "updated_at": "2026-11-06T07:37:48Z"
     },
     {
       "product_id": "1005012730710465",
-      "title": "Caméra de sécurité Tuya Dual-Lens Dual-Screen 4K 8MP PTZ Outdoor WiFi Caméra IP avec AI Human Auto Tracking Surveillance CCTV pour la maison",
+      "title": "Caméra de sécurité Tuya Dual-Lens Dual-Screen 4K 8MP PTZ Outdoor WiFi IP Cam avec AI Human Auto Tracking Surveillance CCTV pour la maison",
       "slug": "tuya-dual-lens-dual-screen-security-camera-4k-8mp-ptz-outdoo",
       "price": 34.92,
       "original_price": 83.15,
@@ -341,8 +341,8 @@
       "sales_volume": 2,
       "score": 0.1742,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:32Z",
-      "updated_at": "2026-11-05T07:40:32Z"
+      "fetched_at": "2026-11-06T07:37:49Z",
+      "updated_at": "2026-11-06T07:37:49Z"
     },
     {
       "product_id": "1005010288594147",
@@ -359,8 +359,8 @@
       "sales_volume": 175,
       "score": 0.1678,
       "price_history": [],
-      "fetched_at": "2026-11-05T07:40:33Z",
-      "updated_at": "2026-11-05T07:40:33Z"
+      "fetched_at": "2026-11-06T07:37:49Z",
+      "updated_at": "2026-11-06T07:37:49Z"
     }
   ]
 }
