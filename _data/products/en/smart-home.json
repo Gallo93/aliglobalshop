@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-06T22:47:43Z",
+  "updated_at": "2026-11-07T04:59:54Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -18,7 +18,7 @@
       "score": 0.7469,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:39Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005008819108266",
@@ -36,7 +36,7 @@
       "score": 0.3749,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:40Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005009654029579",
@@ -54,7 +54,7 @@
       "score": 0.339,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:41Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012799658917",
@@ -72,7 +72,7 @@
       "score": 0.2744,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:41Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012744589654",
@@ -90,7 +90,7 @@
       "score": 0.2744,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:42Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005005132056199",
@@ -108,7 +108,7 @@
       "score": 0.2621,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:42Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005010400096298",
@@ -126,7 +126,7 @@
       "score": 0.2595,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:43Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012746211090",
@@ -144,7 +144,7 @@
       "score": 0.2506,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:43Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012751875432",
@@ -162,7 +162,7 @@
       "score": 0.2412,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:44Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005008232432768",
@@ -180,7 +180,7 @@
       "score": 0.2405,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:44Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005009682073618",
@@ -198,7 +198,7 @@
       "score": 0.2348,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:45Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005006112632512",
@@ -216,7 +216,7 @@
       "score": 0.2304,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:45Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012327803644",
@@ -234,7 +234,7 @@
       "score": 0.2192,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:46Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012582262268",
@@ -252,7 +252,7 @@
       "score": 0.21,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:46Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012510580573",
@@ -270,13 +270,13 @@
       "score": 0.207,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:47Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005009911393115",
       "title": "Tuya ZigBee 2in1 PIR Motion Brightness Smart Sensor Human Movement Detector Built-in Light Sensor Works with Home Assistant",
       "slug": "tuya-zigbee-2in1-pir-motion-brightness-smart-sensor-human-mo",
-      "price": "9.68",
+      "price": "9.58",
       "original_price": "11.78",
       "discount_pct": 15,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Eh0Wo7EulNcqql74c3LtCFrAdK99jCTnEEFEMwKunS4EbgcKffVxYT2lrZkujI2SvkjFAKYJQzzOt3voKte5X25GKAr8yFr5rpZUCQD8AtiAA2GidqozG3l7YhG3OfIUKXPNnnJTNugor1SUVpkFGjuzxpXVIIggzamgQ05m8sI6LmXqkCraNpndD8FYLHsGzHICzrSzJlFZkRAxxnL1vHTB6PnDLWVDUXanVOSqrpuymBiKAwgbKo0OBwuJouQkAERfMPNt7tt7L1cLxGyymFBZNCa67MwQLPTFgygV4jus9gV74STONzNo2ARt1OelcJOa3IA6y7nJxz3cdntxSlCcq8cYylOWp9wxyuQSSR4DvR2ImLlwhu1nSn6HZgnLEhImUBFFkrmJhA56iY7BKNE2IumoxksOdqjiz771b063XX51PejEYOqGp6pFEewL2VmnkqJajb5XF4MHthNrjhxu7534WlfMjb4uI9bLyufAXyYv9d4S0Gilpcu8L5NB21SAuK8eu0SnNFb3kheKSpsWGpDyr4JaKwFylR7c4z4uGr5CSwa6mqux2g0cMFGy9JTwUVF6xMCZL09oj7o8UkqwvASjIsY69wf0t69uMrvrD8OCn27tu7N9GlImR00HNilmqAeEdYxTp3V7h9g037Xlay94N1nV5TmMD7jhJRqbXVNOosB9bHQHEVFhWUAfcwqIP5Ra6X6CU",
@@ -288,7 +288,7 @@
       "score": 0.188,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:47Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005009570920455",
@@ -306,7 +306,7 @@
       "score": 0.1879,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:48Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012756746022",
@@ -324,7 +324,7 @@
       "score": 0.1744,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:48Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005012730710465",
@@ -342,13 +342,13 @@
       "score": 0.1742,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:49Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     },
     {
       "product_id": "1005010288594147",
       "title": "LINCUKOO Home Assistant Smart PIR Motion Sensor Detector Home Security Burglar Wireless EWeLink ZigBee Lighting Linkage",
       "slug": "lincukoo-home-assistant-smart-pir-motion-sensor-detector-hom",
-      "price": "9.59",
+      "price": "9.49",
       "original_price": "11.68",
       "discount_pct": 17,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EyIMWBiaTVcKXTeFebCPKbH5C4v2U0t267a3hSfdc2LcG4DCzKBlCyMc6tAEPSKx3dP7oWlirAp3jvCvGqXlo3EMCDXvThXxtZFzBemvvxajWHeRzz0DWwI8WokbYxiZmzHoJPzppjxcb91FXWdyq6MivYlOG1WbxRXuezIaW4zReSyONWtZIBnDtFZ6LS1CfM5YeoDb37sGM6Ic0w0Avs4n7d8j0OuynVtxlICVhUIobr4FyEJ0Xick2bWV9c5yncpqFzmhlSSdA64ILfzlk2myOkFacea2ybZoOHPkPpgwQDDRSjtz9xUKgaF6Ks6mVC3c2gbSEhZkdwzTx80pbKlOENuv57NGXkMtVLak8DY930Q67iM3DcqpfzedRqbn37COPgO39ZxYcxlqNmxUHvLGYEZu8QUrJYSHZWkRsirlhxOzU5nSxCpfTmAjdGrPQ1XQBqz7LYeMA6x4k0b3U0qvBbZyWZQ2g4XELC3xBfYz6oJoJQFSEH5TAfoeIeU0firT0zNpYDJTo3Wpqkf0Yo7SfYfZZJHqez5YSOms8tbOYuSQUiUF2bGxL465D1obRPWzGYnBLIg7vT1DpflcxnqX3tBOvqetqxiUY1QlV1AL6w2xzPwPrWzMa0ArH9Di03DGuM5ZnvNMU9ky5XUWWsCpQK2bPLfe6LREbiU8FVHsvLWtV5LwH38iFdBJY48tSpJEp9O7TQTyg",
@@ -360,7 +360,7 @@
       "score": 0.1678,
       "price_history": [],
       "fetched_at": "2026-11-06T07:37:49Z",
-      "updated_at": "2026-11-06T13:51:42Z"
+      "updated_at": "2026-11-07T04:59:54Z"
     }
   ]
 }
