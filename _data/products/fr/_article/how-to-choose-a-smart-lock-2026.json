@@ -1,34 +1,16 @@
 {
-  "timestamp": 1794121022.7880714,
+  "timestamp": 1794209973.017107,
   "slug": "how-to-choose-a-smart-lock-2026",
-  "updated_at": "2026-11-08T06:57:02Z",
+  "updated_at": "2026-11-09T07:39:33Z",
   "products": [
     {
-      "product_id": "1005012725111185",
-      "title": "Tuya Smart Lock étanche Wifi Ttlock APP Fingerprint Lock Double Smart Card Code numérique Verrouillage de porte électronique pour la maison",
-      "slug": "tuya-smart-lock-waterproof-wifi-ttlock-app-fingerprint-lock-",
-      "price": 91.29,
-      "original_price": 104.45,
-      "discount_pct": 12,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oELujSiGzVi3BCivk5XpaFZtdMNttEGVMvXho1sdYkUPTsK4XiI49XkEEuHlfafESTZQPplq70bB1GEH6YVrjlqp6xUaiICZfjufzHRpDRbzJ8OY1gU0CimnKUdWDkzuZdAkFWDluK3Ul8hxpjvysflLVdCByKVhuwTy6mYUZi6ojxluB3p0NGbfqM6j7UsRgd5qEutBWcy8a7e4fFIw317ganih3ZTbtGIM2obFvCv3oyKPSmi8Y6mHND4E24RhajN59ZTSaLfTF5ZQxnXmlHxy1HT3Cr0qjsudYtQOJvHj7u5PnY72iosg8MkX0WLwjQWQCMQj4Sz1d9xNkMXUftssyrOG6RPHtKwGOoKp1g4GF4ljOeb7GoPY52WPnSBwqGXYhvsvChfDdVp39mZHDnoNhWYHv0EVXqrB6nrZWyctxPXs3oQqx2ntMOJZOb5ftRiayGb0YGHxwMU0aE2VVeN2EszoPbQEveBtOLgFEhWQ6dsQamnfrIrqHrNHvMA74NZHM39JF9lqVYyE28LXkxxDOVyu1TNctKQbMtkFPaWcIKYB593NUX8DFoNffqqvC4XzWOjKZI6ht164k8ehHwsStLmEW6II4Z5p24R0Jpuqy3VoJMQr30CXkhcNFl6BfteNtH2let5sNIJdvY3XZnDNe9WYGSK1tGLU7ZKnVVcQsQKQ6VZNMXZttrB5Iltll1nx0Zy2CBdXA",
-      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1794121021/products/art-1005012725111185.webp",
-      "category": "smart-home",
-      "rating": 3.7,
-      "reviews_count": 10,
-      "sales_volume": 10,
-      "score": 0.1105,
-      "price_history": [],
-      "fetched_at": "2026-11-08T06:57:01Z",
-      "updated_at": "2026-11-08T06:57:01Z"
-    },
-    {
       "product_id": "1005007096634813",
-      "title": "Tuya BLE Keyless Smart Lock Cylindre prend en charge M1 Tuya Gateway Clé mécanique et alimentation d'urgence USB Empreinte/ code PIN",
+      "title": "Tuya BLE Keyless Smart Lock Cylindre prend en charge M1 Tuya Gateway Clé mécanique et alimentation d'urgence USB Empreinte digitale / code PIN",
       "slug": "tuya-ble-keyless-smart-lock-cylinder-supports-m1-tuya-gatewa",
       "price": 90.46,
       "original_price": 90.46,
       "discount_pct": 0,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k6gIB149pdhwMfN76JW3msJr1d3BEntfCpKpDtHMnHpVa2xTR9RXhnf0DhloYE8c4fttauvbnEpc19ZXHXzIqWJ7ZkKaXCq4qwjTSlRLUnFUNvnYIaFsleRAAdiNcpkoxkMXBXzQ420iwRIiBaFALqTxYpSaMAxYKnD8UOsszatX9i1qTRcKa1uWtIhCiegpVzzDAWxQEWAjFqWpeIX9dHTlJAnCSag3MtLGTccsJeVT6aGpJPeWmehh2mwws9ZUF5NrDzGEkHbRPqV1PfqtCyN7ETr80PbZj1JZSWrnQsMLJkhtVc8TwDPJnT4PCnqfDx5TS5FYSreFPEhdAXDoZg9nwGlkSJDnuXIQfKn0DaSrZa0xzff9y0JtJq1kX1wxgmzaj7n6tfl3S6PPC6Gx4x5ZNvvo32LPt26ywTHImoIBI5lfXCBW7eL4nu8nCuaUOCr49BGEE0PXT2MYGjgZUi8O8vEf6iNfQqVXAvXpLS4JbxFioyR13wb0yx5KtLSApEnTEnVNYvErWMB5vu2x0lmAte3bJ8KBzHF6jCp4wchTyrpXAluG6WZGqiiQuc9YyA0Bp7zhzlOMutuJm5vAddwPM5mY6nrW4YEWHDlzkcwJQYuIKciw5mhrKskkQXnoaMPCOs48CYeV2WYNq2RAR16MnYUthCwJ5xQnSB86LW6vMpGgt4Q8cJ71VxzGVwQVLTrUXVHscmyu4",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k6gIB149pdhwMfN76JW3msJr1d3BEntfCpKpDtHMnHpVa2xTR9RXhnf0DhloYE8c4fttauvbnEpc19ZXHXzIqWJ7ZkKaXCq4qwjTSlRLUnFUNvnYIaFsleRAAdiNcpkoxkMXBXzQ420iwRIiBaFALqTxYpSaMAxYKnD8UOsszatX9i1qTRcKa1uWtIhCiegpVzzDAWxQEWAjFqWpeIX9dHTlJAnCSag3MtLGTbuWbPtMSTXMhjA7jzE7g7o0heal70yZRNWRRpVZN6ae8yNKB0AabCLF1Q8LdYfOumT9nbRs8R30AHKqI3kFqCXEONvMX6SrRKoSjrGLwUItMtpeUGGlUkqnkAGPVrLPIkgFQdMvDxoj7I9F4Ym3LpElT5v0Oqsk9CqbupXqvf8b2fQwYQDL0c2rQiYzhTkiFJftTaFCGhnoUg4mKg8yOfCvvwsqHlmiWapmoxYpLaIzbzw4CP0ZuYS2dMNAqnlq52zpxEDhjVvg33bMQ6K6JzkacxlF2MG3KAaXd88hf1GQeDypAPfrjAqCNW9iNbEO5e37R6CrwxyMHV75uQKFmfJAPWIlQdkT52x8PoYH08OPgOClQl8mBh0mtRrkQixJBvqTFp9Hrf0iMIIf8HxAqE8mYrMgeXdzZ3iGCXpMHNbXVSOsMoI8bIWNGy7WI4GrUklM5e3MJW9MuD3S16UQwRH22wrw0yPHEfIbv9a6Y",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793864618/products/art-1005007096634813.webp",
       "category": "smart-home",
       "rating": 4.6,
@@ -36,17 +18,35 @@
       "sales_volume": 13,
       "score": 0.0936,
       "price_history": [],
-      "fetched_at": "2026-11-08T06:57:02Z",
-      "updated_at": "2026-11-08T06:57:02Z"
+      "fetched_at": "2026-11-09T07:39:31Z",
+      "updated_at": "2026-11-09T07:39:31Z"
+    },
+    {
+      "product_id": "1005012680222228",
+      "title": "Smart Home Electronique Clavier numérique Verrouillage de porte Deadbolt avec l'application WiFi, l'empreinte digitale, le code et la fonction de carte M1",
+      "slug": "smart-home-electronic-digital-keypad-deadbolt-door-lock-with",
+      "price": 121.77,
+      "original_price": 135.3,
+      "discount_pct": 10,
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kPvTsbIHQDrmvtJlDucrDnDKJ6dmfTFlq3sIFoIrnEqAQNEONzkBM59oMAfUsX0CNNIbIJXCyNfHGr0bTLuqEYcZAov3PGaV0NnZK51a2pbUJkwNJ2jIyfrWDAFYKKUbZd77o82CNULkgH4wAySnWqwUW1bBqwY97zxnBXoEwiIOBdW0A7AODGbdkszDjL3t3jK4L0lYnzBWGKi5xs1fcX2vKXuhUGioY1VEIS04DE7uMYew248hckaSiML6HyKzsfxy4zDsNCrxm6yTzvvgXE7aD3NK7viMrd1TSjKIUnqS5jYkbW9VnTmSonm5mSGK3LZ2NhHTzlznbhIiAo2oRXZihYlHAAFp4bq40mkwVBcvpwIKWT55VL3kpcl5y5fW5VqImFwIsQgNhjKSxlgiJsOsmGngjcQ3LoZcXaxQvYvkIUyIJW57QUwpaQJC1k8ZVkTM5AhLL48feNRcBVdUhMxUpq2IamxKzv7CmRqdeBWxtzZIyG0YzUswAyxJkBNWYLa2y5k6aoAwWZWWDoAg3YtH9basXyzXn8Zq2qLmVNHI8j5VaMykJlKchsffMPWdEvx5RbEt655uh5HMiHGR5F5nHE4V0iLSqWm0lqIsdulxEQbdGk6nujArbwDVXXgRpsXHcpC4CayFsKZVMh084BKhwvxQjv86n3OmMQ3zZX3uYVYrQw3L4e6A5lmnU5XzDeyE5lKly1Mg4",
+      "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1794209972/products/art-1005012680222228.webp",
+      "category": "smart-home",
+      "rating": null,
+      "reviews_count": 0,
+      "sales_volume": 0,
+      "score": 0.03,
+      "price_history": [],
+      "fetched_at": "2026-11-09T07:39:32Z",
+      "updated_at": "2026-11-09T07:39:32Z"
     },
     {
       "product_id": "1005012680048797",
-      "title": "Tediton Hotseller Wifi APP Deadbolt Lock clavier Empreinte de doigt sans fil Smart Door Lock Deadbolt",
+      "title": "Tediton Hotseller Wifi APP Deadbolt Lock Clavier sans fil Empreinte digitale Smart Door Lock Deadbolt",
       "slug": "tediton-hotselling-wifi-app-deadbolt-lock-keypad-wireless-fi",
-      "price": 128.34,
-      "original_price": 142.6,
+      "price": 128.17,
+      "original_price": 142.42,
       "discount_pct": 10,
-      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUvK0H4HeRanQa7a2VDo6XT0Tj5lSWAle9iw3yRur9WtnLubVLNJzgcmpsDgiST7Kj3KbssI8myPOC8fyohJcTy6qdkMkayZGbIKx9K2XeFDgKXG0Q7raGRGcVQMoLJFBj2zAz98Q9x64eoCQhV1Bc2CphgUhM5T1g9dmvRSEckekT07henIDiCoomp8vchMa8YCrjEx92Ld6rqrxZvrM4tM1YlQLa5EqlOehSVTiyVb0wU2ZYzbmHX4oImHscdIM1DMIP9imfzp8OCfHlxtsdTC1mDfgEMi6KfPaZieoNlOOBdLgw5yLHUxcly9hBMSVBvSANDJ0Mj25AuXBNTFoCuIG3d5hC0dzqIPqLsCjuPtjjtILiZLQCdPiR19wQNxTc767LpmWJOIg6RjGZHceufxlBIXrjmN6w3s6fzE7XuxpHkx4YmSWVk19X0Ozt3CdFhbRBM5eaCDxbDZb0eQ2KWnC8BTPrFQotrzuhfneGPhVlTonHxCYNjnngwp5ahzH40jUqp2rT6VbB2vva3tgztLeDUwbUujgXCDsOr7W0XlC46RNN29ZP9qijeYPJsvgHWZYRjR4jIY7IGPjniDw8kecI6i75q2WaspMvu4DIhfi8jnElHNo3bFwZy9yUegUM6E8qPKoW9bi4GTFZYMNT8Z7t0ip4SmbZXpHWZAy8nxSg4azMJVpTAgr1PeaQodZ77DhNCRWth5l",
+      "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUvK0H4HeRanQa7a2VDo6XT0Tj5lSWAle9iw3yRur9WtnLubVLNJzgcmpsDgiST7Kj3KbssI8myPOC8fyohJcTy6qdkMkayZGbIKx9K2XeFDgKXG0Q7raGRGcVQMoLJFBj2zAz98Q9x64eoCQhV1Bc2CphgUhM5T1g9dmvRSEckekT07henIDiCoomp8vchMa8YCrjEx92Ld6rqrxZvrM4tM1YlQLa5EqlOehSVTiyVb0wU2ZYzbmHX4oImHscdIM1DsVmzQTESi9G5vdnNVYAhCZweDFSk5EiwyUxMpOKTAYi25FJnmDzJb6bJdy5iGNbDZP4kdCJgjeBxMOkkH0hfTKQ7lYDLxqNroZaNvPKUNquskp3nWR2OmGeCoSq2z2CYmDXlZWk8yPGMtwmaSNJ54Q3eW9IE0uJupb9X6KICeJq2SfOrspQFbA6400evyM0H2IZBfAh8i4rWeoxY4NQ5c2tWo8XuntZjUjEt7I24ChPhynne3dsB3YUgHUKrvzt1yT2UNCoiAzN0cgrwyHU4VRagfw6zl9NvKdrHaWZi3oB9wKV2js43I9q83UqKQGCHB7FwdroQKZHOs3ZrocZsnEcXg7fhYqoVI6wXSCliaMXeoTY7hLv5ycLPMdvmGtQl1ZZHktBBnL4Gn4sOVJte5E73FX9vxgz0PhrlibtjYjPChxuwWpt7YR3b0670DdMEUuOmGIknv5",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793864620/products/art-1005012680048797.webp",
       "category": "smart-home",
       "rating": null,
@@ -54,8 +54,8 @@
       "sales_volume": 0,
       "score": 0.03,
       "price_history": [],
-      "fetched_at": "2026-11-08T06:57:02Z",
-      "updated_at": "2026-11-08T06:57:02Z"
+      "fetched_at": "2026-11-09T07:39:32Z",
+      "updated_at": "2026-11-09T07:39:32Z"
     }
   ]
 }
