@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-08T21:46:37Z",
+  "updated_at": "2026-11-09T05:01:57Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -18,7 +18,7 @@
       "score": 0.7734,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:32Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005012905290601",
@@ -36,7 +36,7 @@
       "score": 0.4929,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:32Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005006174205414",
@@ -54,7 +54,7 @@
       "score": 0.448,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:33Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005006979844970",
@@ -72,14 +72,14 @@
       "score": 0.3237,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:33Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005009654029579",
       "title": "Tuya Zigbee Wireless Door Windows Sensor Mini Smart Home Wireless Door Detector Door Open Closed Alarm System for Alexa",
       "slug": "tuya-zigbee-wireless-door-windows-sensor-mini-smart-home-wir",
-      "price": "5.94",
-      "original_price": "7.55",
+      "price": "5.93",
+      "original_price": "7.54",
       "discount_pct": 16,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWUEi7aR7l3u78m9slEUOKaKdUybMQxr15UiOv2C9nVdiNQzKn1ZA606mEPBPUros68uUWzs29qU78m2JVbdZWEaFb3ypc2ekRbq0eBsnCBeHXEkByUiuEipT9vfrF3rOn1d3PXEB2J0cclI4VW3fHBRLJ0h0wUFCq5VcUNrSEwSbjdP4of4D1NPNLqDuEI6NmWTNmt3mV558YveJbJXuVw6lth0LQTWHivkooC2s2t9bGhE2w2fXdpfgHO93LZ0DcOsjiVL03tPAa8uUSoxHzNRphXBQatiRwPV5lqE8xtBrKOOvWkdlG36j25OoDL77tN8dAiiPT4MQZctMuut25cCW6yMcZwrUmra8tWGhfummcb8egr1TrXO3a6LQ5UfqGR2UR5a2h1Mt35kTwv6SF7k09aqRyWvC4OW1xwRmms31tKG9WDPqFbiXfcgEc3csWpnbPmHVBSrNnUcWv1QvcSEfjNfqwnVWhkk2SR8FDml0QNEHP0s1PpXWKph02dgc9HoX1VycF2ZU7eF4ZaQpqt7X7IBQQzDTGvMKtCNnskWgzrfRsOb5is3o1KZZCE7WkLDNnkEF1tPLOQG7eqkDhT0ddnHHISPNf2UlW7ifJ6PRlyKpQbWswOdeUHzFgWIqsgFr3ejNSmEfWGngd1UWWzG8iUukZHpoe0PAACi8ihK4DZrcRpihm5ZbxSEEk4Grx8uAJTvyzlcM",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793516770/products/1005009654029579.webp",
@@ -90,7 +90,7 @@
       "score": 0.3225,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:34Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005002334218166",
@@ -108,14 +108,14 @@
       "score": 0.2749,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:34Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005012799658917",
       "title": "2K Solar Security Camera Wireless Outdoor WiFi Camera 2.4G/5G Home Security CCTV Fixed Solar Panel Two Way Talk Surveillance",
       "slug": "2k-solar-security-camera-wireless-outdoor-wifi-camera-24g5g-",
-      "price": "42.43",
-      "original_price": "101.01",
+      "price": "42.36",
+      "original_price": "100.87",
       "discount_pct": 58,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Ez5INNK8Kxpq2ikSMQ5Te0wNOCDA26zgJjoIwc9tdDc7WsZ8D6OZmDpwpL7iICaI575fqHbXFPruCeUekBVlgnZF097yPOjh8Zq4MFpCGaYdLDhpdszegh5Je13frtuZseZbMWz0n8NtiKiFzWcL32dtHUC5tAozeP9kMLFnitziTlXLQFqSiAaJVE255tAZ8M5a6wyIxj7IHEBb50HKXqFAMuYyqWj9qg5XH7ixs4M3TDaCpk2PVwEoZeJGIl44B5K7nflFtyWpI0AEG8Ua13ChC7HGg8TjAdNMoNKceq1VYgyBW1roRPWsXDCtp4e4uyTVTxBCfIezC54AVpqs7rrulEuRHVVLwmy3n5RSVdd6pVmIlItZO4q0JlwD8ifXB7ThtnLIzVnAefHoI71I8MNSOA5aPigpwJIkW06bAD3DH9SExjLmFf4eitcVZvdQ6ufYx5r6fEy9D7Sda8AImQG8IIAvPSfVaGF71wSvsY8syXfgtXkbPl3ZuYH6HzPZnfs1uEQBGu3loPLpriJmilqvc0Uf43tFkL7WlT9N6CdjiDB3SGoZ33EXIJfLeGIyuVMMD6eq3raGvNp4qJKOL3n1BggQraemlVjHnk6UcFXm4MRlokvFjxL7yfdtfS0PMwf3Z6anwSEJ4z4hAySFB3edHsgDRKAwxbAW0D4CXX60D3Ew1iNWKsLBswPv7RGAqNAmLHLg6dpQv",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793516772/products/1005012799658917.webp",
@@ -126,14 +126,14 @@
       "score": 0.2744,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:35Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005010017915273",
       "title": "JNTAFEV 16A 3.6KW EV Portable Charger Type2/Type1/GBT Electric Vehicle Charger EU Plug Connector EVSE Wallbox WIFI APP Control",
       "slug": "jntafev-16a-36kw-ev-portable-charger-type2type1gbt-electric-",
-      "price": "85.34",
-      "original_price": "185.51",
+      "price": "85.22",
+      "original_price": "185.26",
       "discount_pct": 54,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kMvfg4PN9eVLyRFSTeXdkL8jOQbGHXwFaIRkI56ruVdeqQiakE8RM5fmauHJYiTjYHDcDFkqY4vla9LRsncXgf5VetUxmyGXScAVLWU5PkVbABQsOPzahfhv4mbwAofIM7GTR3CzQSAbtcdSUOetu1gVqBT3Oge17Ay0KQZqTpAVFxyOv6YZkBsrojjy3FHq4jSvGH5Cw9nV6OPJpveudrpTof2MmooMsIZoSa5KdYAdLNyNpjvhe94AGq1yp3Ge9vTGf6OW6y7E7d8O0ApBwwNeVArmO1tZRKDgJGxrA7wfPSLiBaLdrhFY5uSIo981wo161ScElBjEHckLHtJwmXmDEEvGwyuV47SAInaSrbKDvn02CJD9y6DDtzcOELWoPZeZe0NywdAvEJpzW3Sv7STsSSoCXKabxkhdf6LyrZkPdrMAUetu8lwJ91b8dAbCryIFZySQZK8WiE07SaTxW8Ge60iU9GqN8lrHpFkA83RfSBxxUgAQuUA3LS0WettDmepbeQdJDW8ilk4nOOSdPQH2DnWDbhNJXvaJnHxv2feQtCJk0kkHxn5k1igzqC363fubfIwn6EezVT2E1ArGagPdwprhuno4BZc6V32FJVSHUqpiwW5OvE5Jok8xGsafbm4jZgk9029aPwzRnz3b488LqAgUbaLkDTlTKbiVXbHopekFSMwXOAt7n6MLeQD0gdcvfP3xTPc1q",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1794034126/products/1005010017915273.webp",
@@ -144,7 +144,7 @@
       "score": 0.2631,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:35Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005003786235731",
@@ -162,14 +162,14 @@
       "score": 0.257,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:36Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005011666514308",
       "title": "Original Lithium Ion Battery for iRobot Roomba Cleaner 900 800 700 600 Series 960 980 981 965 895 890 860 695 692 680 675 Part",
       "slug": "original-lithium-ion-battery-for-irobot-roomba-cleaner-900-8",
-      "price": "35.62",
-      "original_price": "72.69",
+      "price": "35.58",
+      "original_price": "72.60",
       "discount_pct": 51,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mOEhIeGd3OJZqEoC48BebJnC1r4iErBT0PvNoTyYlU3GhyWfSnrROX8HIkRyZjArKigzXYcE47B5RV85ywAIvA7gM22KxY1HbMqGIaFyGIw83sYjwYrjR9rb2BHXBrLBckASPHhOzVDFdvoW1rOlsXZehNzJ11DETmptsoboUsPGE8PLOHrvFfCJL6d2FcPY8AH3ilPO6OjQrnUONmGSZ4DcopWCmylxXi4drxFZRZbKXhWFYo2VYDnCpiSnESyiCw0B0bY4fSonwIvW2RuH0x9R3pwTbCiksdLGfnCQ60U4A3C9fQqAueWiRgYDV03mIGWNwhIcdgb57gdrvKzouES35Jm0RIk24A0gBJVb2phA09Nu0ZRnMcVcySpYRhivuFZkVasLP3F5NEEZapoYmtlzryllCtAH68y8BouCT0sWehprXLaHDuHMk16Sbypx0W6Z9OyjqEBfi3GpUxP18pbcROjmXul2LwIu74oINSiOQNQA7N2PZc67SgY9hkveJw3vM3XEj6ZEsLjhK78LoJWMj8DA7Spfv1wKVxlKgrP63T6LVqfWp1VUGPO9w8tx7bO3SxbmOAprfHrF5MH8HmgxgqgY19Sq9YgCQ2cIdgHXVPcqc8AXZtXVSPQxlRNN6zPMUA4BC0rCnXfzqg0ZC4SEYogmOUOAatzljYzBIsdKGziKwmxcLmZ80LYmQZZjaXf3rml0dSqlQ",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1788932504/products/1005011666514308.webp",
@@ -180,7 +180,7 @@
       "score": 0.2543,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:36Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005004352005250",
@@ -198,14 +198,14 @@
       "score": 0.2428,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:37Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005011985048323",
       "title": "Hidden Camera Signal Detector/WiFi Scanner Hidden Device Detector/Anti-Spy Camera Finder/GPS Tracker/Multiple Modes for Hotel",
       "slug": "hidden-camera-signal-detectorwifi-scanner-hidden-device-dete",
-      "price": "14.26",
-      "original_price": "26.41",
+      "price": "14.24",
+      "original_price": "26.37",
       "discount_pct": 46,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EITAUfHypOAbW04PCzOQiQ0qAqOpAY0QZKFBtdNpVmNpgamcEy4xafTC3KEiDpFWCOuSfBYyjVvX1K7frEvg6XGkCE0y3cUk55YNNZT5PLfgbsAqToo1FfzneUa3AfqrFi6y7aNbQ0C2MMuDwQeMoMzUeMv93iMbrYi05v9SD14S4xXzRs3ia2grMr2r2J2y8vST4iUYEM4hUBgmmGeIYEEFF4rPSWbD3DCK288X5iNKmoT4aRfNNXTEtFPoeaa8Yrm1DVVMjka2JAqfVucfCboMp8OaVIuChSXlHqXbjDFqmBzqqf6PIclfN9yU079rLWVQo4w2aiIuyEFWEZ8RC40MLeELTwPKx5aaBS1Pmjm7blZLmAqyDMy4pL7Cbbn9fSimrwo81D8Jh0VLAh8EMYxQyDxP5Tx0UeAuzYd8zS3xIzuqSPtpPSGmTdAGCbJ1W9YzSHf2mrErkOUoiPPDogZWmE7Ly2GkLMiGpNxT8GjJQwlnF0NCrYTAekG5qdlNvOWCgesXnTCt7Ok7ODYuchQQxku3AsX0g6ZEAGNJeyzzkZHH7JiueTZYLabGZgXOgSYHebMIIjiHuTl1lthOJlexwRLWbTjLJF6Ftl8ENl6PLaqDq9mMfXtTx4TJfp5fYYFfN6sA9kBksWZWnuMccBUl30QAnfOUq2k5YMu47JKOdrl7dRDVhpXlw0zWRCCVyNSlXBVjgA21p",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1794034130/products/1005011985048323.webp",
@@ -216,14 +216,14 @@
       "score": 0.2422,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:37Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005012751875432",
       "title": "4G Wifi 6MP 3 Lens PTZ Outdoor Security Camera IP66 Waterproof with Two-Way Audio And Night Vision",
       "slug": "4g-wifi-6mp-3-lens-ptz-outdoor-security-camera-ip66-waterpro",
-      "price": "29.26",
-      "original_price": "55.85",
+      "price": "29.22",
+      "original_price": "55.77",
       "discount_pct": 47,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oBxhVlzEc11LPiG9Fga3mS4FxgTQZsCbjzPEmRVtfmkXZuippTS9nIlCw57q2B3p51z4bx1Yc3QFwusmrHarEhYkTwpz9Wzm60wHHcMQhdPUrhW6XKgQIokYlUykAg60PppI1Ew3eba51KoUnB79hW4m1tzmmjBqLu7STflCANcSeYBfYahkwURiAh5vckDvqHVqzw93Pd8kqNmzkcrSQ3PX9aZlfcYh0lhBa8JxTA1wjmM8HnaltdXGmHDmOIdP3EyldyGORKinsWC5uNebhXDc2NN1n3QnNI4IUabRJhdVaEwqQVMOunAxqLHGk0fGfHRdvg9nwZGkpJEDB2oLKFt8Ci1ESUMVdLpKw7aQLyMofzXykFr2sXphctTOd9OUv6LS3STTfQZWU4SJSDsHQm4YS7JNJHTSLBAfqSqxWRtDXtmH87KWf1japZP0yACUQi7mja3EtLAqmJTWVHMT9M7YztnpsLbbwyRzQpTrwL40hR5aiUKvPacCBsdh9IW5axGrt0il8jHAdKHUq21hcQjsMjkHTWLIVj4xb1C1djh4qOsuh4yHhVQQsaIdiUcY4yywaRaSXsifzAoHJnCYXPEB4ISy4PJ4IArDTaJgdTTO5ev5wVA7bHKWEVQlCGpHFJHa6YxNAKB3mhHARDBZ35DObUUVmRKPQxJMVMdrc50PsDJYQTbqpXzTdlHmJFxoESbBrCVLGva8G",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793864424/products/1005012751875432.webp",
@@ -234,14 +234,14 @@
       "score": 0.2412,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:37Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005002110146903",
       "title": "Broadlink LB27 R1 1/2/3/4 PCS Smart cc E27 10W 220V RGB LED Bulb Lamp For Smart Home Compatible with Alexa Google",
       "slug": "broadlink-lb27-r1-1234-pcs-smart-cc-e27-10w-220v-rgb-led-bul",
-      "price": "4.01",
-      "original_price": "20.08",
+      "price": "4.02",
+      "original_price": "20.06",
       "discount_pct": 80,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FCSQDePCeYD1UVgnr3luzX9aboOa21ilAGzroGNhKY1uYPaq3U5qVkltKJMwQKeIL8pYeC6Exek1TksvRwyk98YvCBg12ujZ8qBnCKZoH84MW45geuYYw7Vv4EHeTfAquVcYgXpHc9divcUamcLbx5Mx8q31OjkBJV2nQZMumZQ7vffuFFJgfpiaUcYfq0GbMtnrUoudWKCJkq0fom41mWNfSaBFBfFyjclmu1QQwBY2mFwQUpCZwcVX8jlQJ42v7skdrujjtgBWGCCzPjh0CFeJgOL5L4v5Eba1Hqeded2cP9yoIDtovWhl4iDB8KZRpg6abcFxgb9RukL3FbOvJM6l0EC2fSaVG76r4UhjZyO3wmN2ygR5dBuZ28BhLGPrGPdUkmE5qesfQDXzAACeAlFygKovzW8eDDHJvvBnfRpuXu6iKVVtrI2Aug3zsuf9pzNpWcXYcwkfxtpahT4VsMrNkZ3vaHnm63jCNQkMOjbA9dByB0PiPk4xatJSIGo5IQyLJXgYDNH1lFkzgBJDihTGXtSQdkyF1TX8P4BHwYN9xfJr5xuiuhMOZILyFmlhNhP40rqbVhLB6QVLMuQdS9nymZ3nmhIBkTrWvh5bp6JP9Km6boMv2ufnv1LoaHf92N3ggAy5F6sfNm8b5YJw2O2PJQP1k9TOq7QtZZPmYZGqzDPwthMCL7lewNLqEekMjlzHOxScwWnMg",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1794034132/products/1005002110146903.webp",
@@ -252,14 +252,14 @@
       "score": 0.24,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:38Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005009682073618",
       "title": "Tiny Water Leakage Smart Sensor ZigBee Smart Leakage Detector Alarm Supports Tuya/Home Assistant/eWeLink for Smart Home Security",
       "slug": "tiny-water-leakage-smart-sensor-zigbee-smart-leakage-detecto",
       "price": "6.22",
-      "original_price": "7.60",
+      "original_price": "7.59",
       "discount_pct": 18,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUvRQSNpEu1tKvJyXp1OZdnMsuN2ShNUCVX7P53qBJhHi0PtpyVEeYM8wX5COGWsWVgsNF5K9cftfTnOZPoXy0ZVJqhcnGREjbUGBtcXC4Qlt8b0UezO6ckQSnMBP048oerJWB1RTpOpN2QzX4d7UeFgGScKyqwJDOkQe6vmL5fZqbo1z4DNYhNWXxEx6mdj7o1bpxOJpl8nVBbKzgyViNDCQ7kcU6tQQY4X92I6dJpOnfvbCabUh2dlvFqZZ8tFyc2bH3cSsaK7ltXWLoXBwYFB3V7T2mLF5TvPYR9Bw7VN73vC9d3pN2Hc4mUPfCx9GNlYIGFjYTqUm0bKkQOToksnNmNwvP7DBfAt6f6G4e8MSzOATLmAtlvmFxVp0bFDwMwzIiviRByFxIEPBdnyQS4UIHEDVlWMwkOChBDHhruR4EeSKsR5bhP2jH4hLRzGva8CU6AzqXkURo49qY2bxGfJSqJusOMpPRfKlwjDkxbyiYZnzO5g9JJoQxD0B0EJx9rW0EkPAhsFxeLBlnMOggEDFvA6UfcoTmMLc7iZX7yQAPrM6DxLg3qnLlFsJmg0PT0VqAybdoaIXJqRNsWsIn94htpE7mF3zbODXz9DeNi9YWCGJvWNOGPjU8kbvZbZdn8lpEgA2GxKWly2THGRshUjgMdBpcKlNkXQwD1IeIvW3SxnCwkH28PzfSjIaVsSpWKXuPD6M2cE4",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793864426/products/1005009682073618.webp",
@@ -270,7 +270,7 @@
       "score": 0.2391,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:38Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005006112632512",
@@ -288,14 +288,14 @@
       "score": 0.2309,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:39Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005012327803644",
       "title": "Dekco 3K/5MP UHD Wall Light Camera Wireless Wifi Floodlight Camera Outdoor 360° View Color Night Vision 2-way Audio Security Cam",
       "slug": "dekco-3k5mp-uhd-wall-light-camera-wireless-wifi-floodlight-c",
-      "price": "88.12",
-      "original_price": "326.34",
+      "price": "87.99",
+      "original_price": "325.90",
       "discount_pct": 73,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kHruYURddaA1hg5GD2cGeLeAiiNMKFKk4td1eTD2cerUKZ6XlzzrFuOczbEB7U3PrPG7hk9k5g40CPRIRveUejkceUJHzf7ePczVen93bFWK4VXN36mAUdDFR6Gg6hWhGQPAU6TZqS66elc1M9KghjpMOUd8bJA8r1xnri73VSqFGQE4yZ5ZE7jPDWXREqjjXfyCvgqD9ympFaCEngWwWtA0clYI8a31IjxmCaOb4zNETPR6lUR4kzC3qf0zWEA4MtqU3ZyEvNsUA6nu6eySaJrF1UVzbL6duKmIa4mJN5MCV4YRCJSxxtDsyX2dFickU08HDtvE8Bhe2NxLYfm3012QTvd54ZgD2QYbqTdOkfdCutPVZXybs8H6Emh6fect16LhLHo512JTEjEWtQ3xJGlSYvKmUhbGASEm5td59MjDfTYomIzJmnUXZPSudTaikRQ2msSXE9ehtQLGAB6rmfEp75OwED2xrECwzZ8B3hSIp9F79Gu2oLgTxM1eQq37sCz4RSMN9242VwepzOT7vmrJCivN5jUrX5y2eGKoikSrI0CwSDSkboMScZF191KOfhX9dqWnvsaXIBRrG5uuvHlCpnrrJHDXEcDO6YpZI2rA78Df1wYRTAUMWqzH28tuiUZybQXbUw9DblnDlEhohORUK3d7I98oAm4k7OEsqTB14oNwV7UWNQb3x8Pj41XVzhGEcpM5l6qeo",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1793864427/products/1005012327803644.webp",
@@ -306,7 +306,7 @@
       "score": 0.2192,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:39Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005004671523450",
@@ -324,7 +324,7 @@
       "score": 0.2174,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:40Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005008960437105",
@@ -342,7 +342,7 @@
       "score": 0.2152,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:40Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     },
     {
       "product_id": "1005008283916283",
@@ -360,7 +360,7 @@
       "score": 0.2144,
       "price_history": [],
       "fetched_at": "2026-11-08T06:54:40Z",
-      "updated_at": "2026-11-08T21:46:37Z"
+      "updated_at": "2026-11-09T05:01:57Z"
     }
   ]
 }
