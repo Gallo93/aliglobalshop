@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-11-10T07:59:28Z",
+  "updated_at": "2026-11-11T07:28:45Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -17,8 +17,8 @@
       "sales_volume": 3,
       "score": 0.3524,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:19Z",
-      "updated_at": "2026-11-10T07:59:19Z"
+      "fetched_at": "2026-11-11T07:28:36Z",
+      "updated_at": "2026-11-11T07:28:36Z"
     },
     {
       "product_id": "32286722941",
@@ -35,8 +35,8 @@
       "sales_volume": 20,
       "score": 0.3034,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:20Z",
-      "updated_at": "2026-11-10T07:59:20Z"
+      "fetched_at": "2026-11-11T07:28:37Z",
+      "updated_at": "2026-11-11T07:28:37Z"
     },
     {
       "product_id": "1005010160889036",
@@ -53,8 +53,8 @@
       "sales_volume": 250,
       "score": 0.2816,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:20Z",
-      "updated_at": "2026-11-10T07:59:20Z"
+      "fetched_at": "2026-11-11T07:28:38Z",
+      "updated_at": "2026-11-11T07:28:38Z"
     },
     {
       "product_id": "1005010786413625",
@@ -71,8 +71,8 @@
       "sales_volume": 0,
       "score": 0.28,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:21Z",
-      "updated_at": "2026-11-10T07:59:21Z"
+      "fetched_at": "2026-11-11T07:28:38Z",
+      "updated_at": "2026-11-11T07:28:38Z"
     },
     {
       "product_id": "1005008099905053",
@@ -89,12 +89,12 @@
       "sales_volume": 2,
       "score": 0.2742,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:21Z",
-      "updated_at": "2026-11-10T07:59:21Z"
+      "fetched_at": "2026-11-11T07:28:38Z",
+      "updated_at": "2026-11-11T07:28:38Z"
     },
     {
       "product_id": "1005008088518121",
-      "title": "Szie 26-41 réglable en ligne Roller Skate Chaussures Flashing 4 Roues Patins Pour Femmes Hommes Baskets de patinage extérieur Garçons Cadeau filles",
+      "title": "Szie 26-41 réglable en ligne Roller Skate Chaussures Flashing 4 Roues Patins Pour Femmes Hommes Baskets de patinage extérieur Garçons Filles Cadeau",
       "slug": "szie-26-41-adjustable-inline-roller-skate-shoes-flashing-4-w",
       "price": 25.53,
       "original_price": 56.74,
@@ -107,8 +107,8 @@
       "sales_volume": 4,
       "score": 0.2655,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:22Z",
-      "updated_at": "2026-11-10T07:59:22Z"
+      "fetched_at": "2026-11-11T07:28:39Z",
+      "updated_at": "2026-11-11T07:28:39Z"
     },
     {
       "product_id": "1005005489527499",
@@ -125,8 +125,8 @@
       "sales_volume": 221,
       "score": 0.2619,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:22Z",
-      "updated_at": "2026-11-10T07:59:22Z"
+      "fetched_at": "2026-11-11T07:28:39Z",
+      "updated_at": "2026-11-11T07:28:39Z"
     },
     {
       "product_id": "1005010382664758",
@@ -143,8 +143,8 @@
       "sales_volume": 32,
       "score": 0.2587,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:22Z",
-      "updated_at": "2026-11-10T07:59:22Z"
+      "fetched_at": "2026-11-11T07:28:40Z",
+      "updated_at": "2026-11-11T07:28:40Z"
     },
     {
       "product_id": "1005009402813403",
@@ -161,12 +161,12 @@
       "sales_volume": 9,
       "score": 0.2571,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:23Z",
-      "updated_at": "2026-11-10T07:59:23Z"
+      "fetched_at": "2026-11-11T07:28:40Z",
+      "updated_at": "2026-11-11T07:28:40Z"
     },
     {
       "product_id": "1005003472116469",
-      "title": "BPA Sans plastique Sports bouteille d'eau 400/500/700/1000ml Portable étanche Bouteille de vélo",
+      "title": "BPA Bouteille d'eau de sport sans plastique 400/500/700/1000ml Portable étanche Bouteille de vélo",
       "slug": "bpa-free-plastic-sports-water-bottle-4005007001000ml-portabl",
       "price": 7.89,
       "original_price": 15.79,
@@ -179,8 +179,8 @@
       "sales_volume": 63,
       "score": 0.2524,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:24Z",
-      "updated_at": "2026-11-10T07:59:24Z"
+      "fetched_at": "2026-11-11T07:28:41Z",
+      "updated_at": "2026-11-11T07:28:41Z"
     },
     {
       "product_id": "1005012943475168",
@@ -197,8 +197,8 @@
       "sales_volume": 1,
       "score": 0.2441,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:24Z",
-      "updated_at": "2026-11-10T07:59:24Z"
+      "fetched_at": "2026-11-11T07:28:41Z",
+      "updated_at": "2026-11-11T07:28:41Z"
     },
     {
       "product_id": "1005009049503829",
@@ -215,8 +215,8 @@
       "sales_volume": 17,
       "score": 0.244,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:25Z",
-      "updated_at": "2026-11-10T07:59:25Z"
+      "fetched_at": "2026-11-11T07:28:41Z",
+      "updated_at": "2026-11-11T07:28:41Z"
     },
     {
       "product_id": "1005008996623976",
@@ -233,12 +233,12 @@
       "sales_volume": 23,
       "score": 0.2301,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:25Z",
-      "updated_at": "2026-11-10T07:59:25Z"
+      "fetched_at": "2026-11-11T07:28:42Z",
+      "updated_at": "2026-11-11T07:28:42Z"
     },
     {
       "product_id": "1005008813902899",
-      "title": "1~10m Nature Latex caoutchouc Hoses ID 1.6~18mm Jaune Haute Résilient Aller Tube de pêche Slingshot Catapulte élastique bande de fitness",
+      "title": "1~10m Nature Latex caoutchouc Hoses ID 1.6~18mm Jaune Haute Résilient Go Tube de pêche Slingshot Catapulte élastique bande de fitness",
       "slug": "110m-nature-latex-rubber-hoses-id-1618mm-yellow-high-resilie",
       "price": 0.58,
       "original_price": 0.99,
@@ -251,8 +251,8 @@
       "sales_volume": 70,
       "score": 0.2279,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:25Z",
-      "updated_at": "2026-11-10T07:59:25Z"
+      "fetched_at": "2026-11-11T07:28:42Z",
+      "updated_at": "2026-11-11T07:28:42Z"
     },
     {
       "product_id": "1005013199506486",
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.213,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:26Z",
-      "updated_at": "2026-11-10T07:59:26Z"
+      "fetched_at": "2026-11-11T07:28:43Z",
+      "updated_at": "2026-11-11T07:28:43Z"
     },
     {
       "product_id": "1005006588685488",
@@ -287,8 +287,8 @@
       "sales_volume": 6,
       "score": 0.2107,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:26Z",
-      "updated_at": "2026-11-10T07:59:26Z"
+      "fetched_at": "2026-11-11T07:28:43Z",
+      "updated_at": "2026-11-11T07:28:43Z"
     },
     {
       "product_id": "1005008896298252",
@@ -305,8 +305,8 @@
       "sales_volume": 13,
       "score": 0.2075,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:27Z",
-      "updated_at": "2026-11-10T07:59:27Z"
+      "fetched_at": "2026-11-11T07:28:44Z",
+      "updated_at": "2026-11-11T07:28:44Z"
     },
     {
       "product_id": "1005008637028033",
@@ -323,12 +323,12 @@
       "sales_volume": 113,
       "score": 0.1928,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:27Z",
-      "updated_at": "2026-11-10T07:59:27Z"
+      "fetched_at": "2026-11-11T07:28:44Z",
+      "updated_at": "2026-11-11T07:28:44Z"
     },
     {
       "product_id": "1005003568008959",
-      "title": "800ml Portable coupe à vide isolante en acier inoxydable Thermos bouteille d'eau de sport extérieur",
+      "title": "800ml Portable coupe à vide isolante en acier inoxydable Thermos bouteille d'eau de sport de plein air",
       "slug": "800ml-portable-insulated-vacuum-cup-stainless-steel-thermos-",
       "price": 21.82,
       "original_price": 54.56,
@@ -341,12 +341,12 @@
       "sales_volume": 0,
       "score": 0.18,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:28Z",
-      "updated_at": "2026-11-10T07:59:28Z"
+      "fetched_at": "2026-11-11T07:28:45Z",
+      "updated_at": "2026-11-11T07:28:45Z"
     },
     {
       "product_id": "1005013190287086",
-      "title": "Bouteille d'eau isotherme en acier inoxydable Ideus 750ml - bouchon de bouton à fuites",
+      "title": "Ideus 750ml Bouteille d'eau isotherme en acier inoxydable - bouchon de bouton à fuites",
       "slug": "ideus-750ml-stainless-steel-insulated-water-bottle-leak-proo",
       "price": 29.32,
       "original_price": 71.51,
@@ -359,8 +359,8 @@
       "sales_volume": 0,
       "score": 0.177,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:28Z",
-      "updated_at": "2026-11-10T07:59:28Z"
+      "fetched_at": "2026-11-11T07:28:45Z",
+      "updated_at": "2026-11-11T07:28:45Z"
     }
   ]
 }

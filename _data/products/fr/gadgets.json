@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-11-10T07:59:49Z",
+  "updated_at": "2026-11-11T07:28:57Z",
   "products": [
     {
       "product_id": "1005006893229555",
@@ -17,8 +17,8 @@
       "sales_volume": 2788,
       "score": 0.4718,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:40Z",
-      "updated_at": "2026-11-10T07:59:40Z"
+      "fetched_at": "2026-11-11T07:28:48Z",
+      "updated_at": "2026-11-11T07:28:48Z"
     },
     {
       "product_id": "1005007480971055",
@@ -35,8 +35,8 @@
       "sales_volume": 356,
       "score": 0.3136,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:41Z",
-      "updated_at": "2026-11-10T07:59:41Z"
+      "fetched_at": "2026-11-11T07:28:48Z",
+      "updated_at": "2026-11-11T07:28:48Z"
     },
     {
       "product_id": "1005011795391651",
@@ -53,12 +53,12 @@
       "sales_volume": 61,
       "score": 0.3054,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:41Z",
-      "updated_at": "2026-11-10T07:59:41Z"
+      "fetched_at": "2026-11-11T07:28:49Z",
+      "updated_at": "2026-11-11T07:28:49Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de téléphone mobile Accessoires",
+      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double Type-C 65W Plaque de recharge rapide Support pour téléphone mobile Accessoires",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 39.59,
       "original_price": 98.96,
@@ -71,8 +71,8 @@
       "sales_volume": 13,
       "score": 0.2816,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:41Z",
-      "updated_at": "2026-11-10T07:59:41Z"
+      "fetched_at": "2026-11-11T07:28:49Z",
+      "updated_at": "2026-11-11T07:28:49Z"
     },
     {
       "product_id": "1005008323500938",
@@ -89,8 +89,8 @@
       "sales_volume": 10,
       "score": 0.2772,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:42Z",
-      "updated_at": "2026-11-10T07:59:42Z"
+      "fetched_at": "2026-11-11T07:28:50Z",
+      "updated_at": "2026-11-11T07:28:50Z"
     },
     {
       "product_id": "1005002653094153",
@@ -107,8 +107,8 @@
       "sales_volume": 10,
       "score": 0.2745,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:42Z",
-      "updated_at": "2026-11-10T07:59:42Z"
+      "fetched_at": "2026-11-11T07:28:50Z",
+      "updated_at": "2026-11-11T07:28:50Z"
     },
     {
       "product_id": "1005010000531819",
@@ -125,8 +125,8 @@
       "sales_volume": 21,
       "score": 0.255,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:43Z",
-      "updated_at": "2026-11-10T07:59:43Z"
+      "fetched_at": "2026-11-11T07:28:50Z",
+      "updated_at": "2026-11-11T07:28:50Z"
     },
     {
       "product_id": "1005013196554725",
@@ -143,8 +143,8 @@
       "sales_volume": 2,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:43Z",
-      "updated_at": "2026-11-10T07:59:43Z"
+      "fetched_at": "2026-11-11T07:28:51Z",
+      "updated_at": "2026-11-11T07:28:51Z"
     },
     {
       "product_id": "1005012394969983",
@@ -161,8 +161,8 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:44Z",
-      "updated_at": "2026-11-10T07:59:44Z"
+      "fetched_at": "2026-11-11T07:28:51Z",
+      "updated_at": "2026-11-11T07:28:51Z"
     },
     {
       "product_id": "1005007390539177",
@@ -179,8 +179,8 @@
       "sales_volume": 6,
       "score": 0.2514,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:44Z",
-      "updated_at": "2026-11-10T07:59:44Z"
+      "fetched_at": "2026-11-11T07:28:52Z",
+      "updated_at": "2026-11-11T07:28:52Z"
     },
     {
       "product_id": "1005012124170204",
@@ -197,8 +197,8 @@
       "sales_volume": 59,
       "score": 0.2465,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:44Z",
-      "updated_at": "2026-11-10T07:59:44Z"
+      "fetched_at": "2026-11-11T07:28:52Z",
+      "updated_at": "2026-11-11T07:28:52Z"
     },
     {
       "product_id": "1005013163634531",
@@ -215,8 +215,8 @@
       "sales_volume": 22,
       "score": 0.2426,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:45Z",
-      "updated_at": "2026-11-10T07:59:45Z"
+      "fetched_at": "2026-11-11T07:28:53Z",
+      "updated_at": "2026-11-11T07:28:53Z"
     },
     {
       "product_id": "1005012408073378",
@@ -233,8 +233,8 @@
       "sales_volume": 30,
       "score": 0.2416,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:45Z",
-      "updated_at": "2026-11-10T07:59:45Z"
+      "fetched_at": "2026-11-11T07:28:53Z",
+      "updated_at": "2026-11-11T07:28:53Z"
     },
     {
       "product_id": "1005007593946212",
@@ -251,8 +251,8 @@
       "sales_volume": 8,
       "score": 0.23,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:46Z",
-      "updated_at": "2026-11-10T07:59:46Z"
+      "fetched_at": "2026-11-11T07:28:53Z",
+      "updated_at": "2026-11-11T07:28:53Z"
     },
     {
       "product_id": "32872425924",
@@ -269,8 +269,8 @@
       "sales_volume": 13,
       "score": 0.2276,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:47Z",
-      "updated_at": "2026-11-10T07:59:47Z"
+      "fetched_at": "2026-11-11T07:28:54Z",
+      "updated_at": "2026-11-11T07:28:54Z"
     },
     {
       "product_id": "1005013273281150",
@@ -287,8 +287,8 @@
       "sales_volume": 64,
       "score": 0.2177,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:47Z",
-      "updated_at": "2026-11-10T07:59:47Z"
+      "fetched_at": "2026-11-11T07:28:54Z",
+      "updated_at": "2026-11-11T07:28:54Z"
     },
     {
       "product_id": "1005004204383810",
@@ -305,12 +305,12 @@
       "sales_volume": 24,
       "score": 0.2119,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:47Z",
-      "updated_at": "2026-11-10T07:59:47Z"
+      "fetched_at": "2026-11-11T07:28:55Z",
+      "updated_at": "2026-11-11T07:28:55Z"
     },
     {
       "product_id": "1005012648404171",
-      "title": "1200W GaN 12 Port Desktop Chargeur rapide PD3.1 USB Type C Adaptateur de station de recharge rapide pour Mobile & Tablettes Multi Port USB Hub",
+      "title": "1200W GaN 12-Port Bureau Chargeur rapide PD3.1 USB Type C Adaptateur de station de recharge rapide pour Mobile & Tablettes Multi Port USB Hub",
       "slug": "1200w-gan-12-port-desktop-fast-charger-pd31-usb-type-c-fast-",
       "price": 21.04,
       "original_price": 36.28,
@@ -323,8 +323,8 @@
       "sales_volume": 20,
       "score": 0.2017,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:48Z",
-      "updated_at": "2026-11-10T07:59:48Z"
+      "fetched_at": "2026-11-11T07:28:55Z",
+      "updated_at": "2026-11-11T07:28:55Z"
     },
     {
       "product_id": "1005005070548245",
@@ -341,8 +341,8 @@
       "sales_volume": 10,
       "score": 0.1912,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:48Z",
-      "updated_at": "2026-11-10T07:59:48Z"
+      "fetched_at": "2026-11-11T07:28:56Z",
+      "updated_at": "2026-11-11T07:28:56Z"
     },
     {
       "product_id": "1005009475992576",
@@ -359,8 +359,8 @@
       "sales_volume": 28,
       "score": 0.1832,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:59:49Z",
-      "updated_at": "2026-11-10T07:59:49Z"
+      "fetched_at": "2026-11-11T07:28:56Z",
+      "updated_at": "2026-11-11T07:28:56Z"
     }
   ]
 }

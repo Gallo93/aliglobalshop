@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-11-10T07:58:46Z",
+  "updated_at": "2026-11-11T07:28:22Z",
   "products": [
     {
       "product_id": "1005009199894572",
@@ -17,8 +17,8 @@
       "sales_volume": 1645,
       "score": 0.3379,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:35Z",
-      "updated_at": "2026-11-10T07:58:35Z"
+      "fetched_at": "2026-11-11T07:28:14Z",
+      "updated_at": "2026-11-11T07:28:14Z"
     },
     {
       "product_id": "1005007480971055",
@@ -35,12 +35,12 @@
       "sales_volume": 356,
       "score": 0.3136,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:35Z",
-      "updated_at": "2026-11-10T07:58:35Z"
+      "fetched_at": "2026-11-11T07:28:14Z",
+      "updated_at": "2026-11-11T07:28:14Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double type-C 65W Plaque de recharge rapide Support de téléphone mobile Accessoires",
+      "title": "Pour Audi A6L A7 C7 Plaque de recharge sans fil 2012-2018 Double Type-C 65W Plaque de recharge rapide Support pour téléphone mobile Accessoires",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 39.59,
       "original_price": 98.96,
@@ -53,8 +53,8 @@
       "sales_volume": 13,
       "score": 0.2816,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:36Z",
-      "updated_at": "2026-11-10T07:58:36Z"
+      "fetched_at": "2026-11-11T07:28:14Z",
+      "updated_at": "2026-11-11T07:28:14Z"
     },
     {
       "product_id": "1005006460425214",
@@ -71,8 +71,8 @@
       "sales_volume": 5,
       "score": 0.2806,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:37Z",
-      "updated_at": "2026-11-10T07:58:37Z"
+      "fetched_at": "2026-11-11T07:28:15Z",
+      "updated_at": "2026-11-11T07:28:15Z"
     },
     {
       "product_id": "1005012230439859",
@@ -89,8 +89,8 @@
       "sales_volume": 1,
       "score": 0.2771,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:37Z",
-      "updated_at": "2026-11-10T07:58:37Z"
+      "fetched_at": "2026-11-11T07:28:15Z",
+      "updated_at": "2026-11-11T07:28:15Z"
     },
     {
       "product_id": "1005010660256913",
@@ -107,8 +107,8 @@
       "sales_volume": 5,
       "score": 0.2726,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:37Z",
-      "updated_at": "2026-11-10T07:58:37Z"
+      "fetched_at": "2026-11-11T07:28:16Z",
+      "updated_at": "2026-11-11T07:28:16Z"
     },
     {
       "product_id": "1005011812151458",
@@ -125,8 +125,8 @@
       "sales_volume": 51,
       "score": 0.2679,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:38Z",
-      "updated_at": "2026-11-10T07:58:38Z"
+      "fetched_at": "2026-11-11T07:28:16Z",
+      "updated_at": "2026-11-11T07:28:16Z"
     },
     {
       "product_id": "1005012375813811",
@@ -143,8 +143,8 @@
       "sales_volume": 26,
       "score": 0.2645,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:39Z",
-      "updated_at": "2026-11-10T07:58:39Z"
+      "fetched_at": "2026-11-11T07:28:17Z",
+      "updated_at": "2026-11-11T07:28:17Z"
     },
     {
       "product_id": "1005007392476628",
@@ -161,8 +161,8 @@
       "sales_volume": 2,
       "score": 0.2622,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:39Z",
-      "updated_at": "2026-11-10T07:58:39Z"
+      "fetched_at": "2026-11-11T07:28:17Z",
+      "updated_at": "2026-11-11T07:28:17Z"
     },
     {
       "product_id": "1005006801718157",
@@ -179,8 +179,8 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:40Z",
-      "updated_at": "2026-11-10T07:58:40Z"
+      "fetched_at": "2026-11-11T07:28:18Z",
+      "updated_at": "2026-11-11T07:28:18Z"
     },
     {
       "product_id": "1005013002818072",
@@ -197,8 +197,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:40Z",
-      "updated_at": "2026-11-10T07:58:40Z"
+      "fetched_at": "2026-11-11T07:28:18Z",
+      "updated_at": "2026-11-11T07:28:18Z"
     },
     {
       "product_id": "33032242352",
@@ -215,12 +215,12 @@
       "sales_volume": 81,
       "score": 0.2328,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:41Z",
-      "updated_at": "2026-11-10T07:58:41Z"
+      "fetched_at": "2026-11-11T07:28:19Z",
+      "updated_at": "2026-11-11T07:28:19Z"
     },
     {
       "product_id": "1005012978577070",
-      "title": "Nouvelle batterie externe de charge rapide sans fil pour iPhone Xiaomi Samsung",
+      "title": "New Wireless Power Bank Magnetic Type-C 15W 10000mAh Portable Fast Charger Batterie externe pour iPhone Xiaomi Samsung",
       "slug": "new-wireless-power-bank-magnetic-type-c-15w-10000mah-portabl",
       "price": 23.69,
       "original_price": 40.84,
@@ -233,8 +233,8 @@
       "sales_volume": 10,
       "score": 0.2272,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:43Z",
-      "updated_at": "2026-11-10T07:58:43Z"
+      "fetched_at": "2026-11-11T07:28:19Z",
+      "updated_at": "2026-11-11T07:28:19Z"
     },
     {
       "product_id": "1005011532039236",
@@ -251,12 +251,12 @@
       "sales_volume": 1,
       "score": 0.2251,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:43Z",
-      "updated_at": "2026-11-10T07:58:43Z"
+      "fetched_at": "2026-11-11T07:28:20Z",
+      "updated_at": "2026-11-11T07:28:20Z"
     },
     {
       "product_id": "1005013012406453",
-      "title": "Tapis de recharge sans fil en silicone pour 2024-2026 Geely EX2 Xingyuan, Console centrale Protection antidérapante Accessoires intérieurs",
+      "title": "Tapis de recharge sans fil en silicone pour 2024-2026 Geely EX2 Xingyuan, Console centrale Protection antidérapante Accessoires d'intérieur",
       "slug": "silicone-wireless-charging-mat-for-2024-2026-geely-ex2-xingy",
       "price": 8.85,
       "original_price": 35.77,
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:44Z",
-      "updated_at": "2026-11-10T07:58:44Z"
+      "fetched_at": "2026-11-11T07:28:20Z",
+      "updated_at": "2026-11-11T07:28:20Z"
     },
     {
       "product_id": "33007923484",
@@ -287,8 +287,8 @@
       "sales_volume": 17,
       "score": 0.224,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:44Z",
-      "updated_at": "2026-11-10T07:58:44Z"
+      "fetched_at": "2026-11-11T07:28:20Z",
+      "updated_at": "2026-11-11T07:28:20Z"
     },
     {
       "product_id": "1005011532019654",
@@ -305,8 +305,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:45Z",
-      "updated_at": "2026-11-10T07:58:45Z"
+      "fetched_at": "2026-11-11T07:28:21Z",
+      "updated_at": "2026-11-11T07:28:21Z"
     },
     {
       "product_id": "1005011531921275",
@@ -323,8 +323,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:45Z",
-      "updated_at": "2026-11-10T07:58:45Z"
+      "fetched_at": "2026-11-11T07:28:21Z",
+      "updated_at": "2026-11-11T07:28:21Z"
     },
     {
       "product_id": "1005012327079554",
@@ -341,8 +341,8 @@
       "sales_volume": 83,
       "score": 0.209,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:45Z",
-      "updated_at": "2026-11-10T07:58:45Z"
+      "fetched_at": "2026-11-11T07:28:22Z",
+      "updated_at": "2026-11-11T07:28:22Z"
     },
     {
       "product_id": "32337440906",
@@ -359,8 +359,8 @@
       "sales_volume": 16,
       "score": 0.2039,
       "price_history": [],
-      "fetched_at": "2026-11-10T07:58:46Z",
-      "updated_at": "2026-11-10T07:58:46Z"
+      "fetched_at": "2026-11-11T07:28:22Z",
+      "updated_at": "2026-11-11T07:28:22Z"
     }
   ]
 }
