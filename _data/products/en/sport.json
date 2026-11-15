@@ -1,6 +1,6 @@
 {
   "niche": "sport",
-  "updated_at": "2026-11-14T22:03:06Z",
+  "updated_at": "2026-11-15T05:17:38Z",
   "products": [
     {
       "product_id": "1005007606996171",
@@ -18,7 +18,7 @@
       "score": 0.3524,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:34Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "32286722941",
@@ -36,7 +36,7 @@
       "score": 0.3032,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:34Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005010160889036",
@@ -54,7 +54,7 @@
       "score": 0.2828,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:34Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005010786413625",
@@ -72,7 +72,7 @@
       "score": 0.28,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:35Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005008099905053",
@@ -90,7 +90,7 @@
       "score": 0.2741,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:35Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005008062932682",
@@ -108,7 +108,7 @@
       "score": 0.2655,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:36Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005008088518121",
@@ -126,7 +126,7 @@
       "score": 0.2654,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:37Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005008772408846",
@@ -144,7 +144,7 @@
       "score": 0.264,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:38Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005005489527499",
@@ -162,7 +162,7 @@
       "score": 0.26,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:39Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005010382664758",
@@ -180,7 +180,7 @@
       "score": 0.2587,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:39Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005009402813403",
@@ -198,7 +198,7 @@
       "score": 0.2571,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:39Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005012238195278",
@@ -216,7 +216,7 @@
       "score": 0.2544,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:40Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005003472116469",
@@ -234,7 +234,7 @@
       "score": 0.2524,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:41Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005009049503829",
@@ -252,14 +252,14 @@
       "score": 0.2424,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:41Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005008996623976",
       "title": "Men Women Cold-Proof Thermal Scarf Winter Ski Hat Balaclava Full Face Mask Ski Cycling Hunting Head Neck Cover Helmet Liner Cap",
       "slug": "men-women-cold-proof-thermal-scarf-winter-ski-hat-balaclava-",
       "price": "1.43",
-      "original_price": "2.64",
+      "original_price": "2.63",
       "discount_pct": 45,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mMcRr1dFHGfZGVEe9u6PsNBmc888TlUkvuUu6PKcsx94Nqh6haDVpSYDkxV567zE0NZRwY14ogh2kaRQVfSpr2CMcx05Xdl3Bv7Fu06TVvAPzho5xy5aAsMV0XGIdlRxFI7oT194ilydcnDjxKNwpgmnpwWrhSjgZtnvwWeWJl5WUIMoKMXqkDExqyxHjjYCS7eOFN3vVK70IEdx8IQsINR4lR0R0IAlAwCAMJHP493Udr5dYYtDncPdiy46EU8IRJpfRRBjY2xCjFo5D2fTpvx99357QLeWEjVNtUAd3Xz217jDZdTBj9gOXTUva6DQI8lBOIqHT4VeKahw4Y2Xi82EXQPrbP79bOyZrRcRT5pc42SsKh4hysMLvBwPq4KHHSvZOwXtMHDZe1B6hDAGXRoUQ03YxZJAmxbJuLeUOCUhmeJB4agIbtgLPWYusGsAulP3gmXrypo1s64fwvDLEWstDYPItrScRrTdc5iVRoTboLhalLvrU4znB4CCIUbGjhhBC3AigUH0NF7ndgCw7YoI0uMH8Zf0Y3Q2cn9jrAu93Nzho5k9CIcgl9I9CD8REmDvC0uoREYjFTmxctslFs2JEC1TYhYlbl8bL9RYzl3h3arQlIFVV0WsO6qicpLcPsPvQq0MZ1zRRytFpaZjFych6m7gJP9trsu0ZJHlQ0skqKde7Gmvg6w2r2RkXQBsOhwihueAVikj0",
       "image_url": "https://res.cloudinary.com/drqhad1h1/image/upload/v1791442736/products/1005008996623976.webp",
@@ -270,13 +270,13 @@
       "score": 0.2302,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:41Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005008813902899",
       "title": "1~10m Nature Latex Rubber Hoses ID 1.6~18mm Yellow High Resilient Go Fishing Tube Slingshot Catapult Elastic Fitness Band",
       "slug": "110m-nature-latex-rubber-hoses-id-1618mm-yellow-high-resilie",
-      "price": "0.63",
+      "price": "0.68",
       "original_price": "1.08",
       "discount_pct": 41,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kGOBufezlRd64qym8cQAHwcmyERCmk2SmQVWJ3F3fdwb3qg2vqhNp6UHabSFSj92uVe0SQuPXtRFIiACRGdhmQBlBnFM1q2RH5q7xtVGUMbCeLMSyt4J4Aeumq0A0howrc7nCtJVNZukSAkBIWfV4niA7NEChfUKHxo8eRvlUJjAX88KOlbfxwMHN6cT2g8FdD0CzDGTBVlCmyPjlwaLgpZaU1PxRsTOieFXda7uxn7TqyIcVrgaXUSz9WBSNR7xfuHcYGvvcK5mr7nE4IeT3SP8hf4f1Vv493zhj0b2coS1WWV3iMcpxIzEkYwRAX7Fs9Za816Jizg4r8VDU3W65nfcaMpKsiLhOOV3shWxvtnu06ExAPIQqM5lfrmJ9szCAJ4TeEl6munICglAlG6BLNjxDbtHgZhe3Yp06tXZbygcXYOe8QNbEIeBhq4iHyLAFox3dSVA4tqo7BfaWHni5FJKVivnK7cge9AnUAqnVDRILHPs9Nb4IMulhQj3dMA5l7oDvfRO6VxwxLhrHtA4eRJJlQyJJlKIxl93ISVmQZxHC1PtrcbmrAKJZrtRqQdSclP8bPI3FuazD57Sh6hx3Rewbwaaws4HnhsQwvMc0FDDHGyqFfOtKgvlPixawjt3ySaQ1NV0nJYfF2XhM9p7sY7yEOWmcdLvxikWZPHffGwU2y7l6cLkU2DEXyHipDZIuXY3Ymb4ghKw2",
@@ -288,7 +288,7 @@
       "score": 0.2273,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:42Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005013199506486",
@@ -306,7 +306,7 @@
       "score": 0.213,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:42Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005006588685488",
@@ -324,7 +324,7 @@
       "score": 0.2107,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:43Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005008896298252",
@@ -342,7 +342,7 @@
       "score": 0.2076,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:43Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     },
     {
       "product_id": "1005003568008959",
@@ -360,7 +360,7 @@
       "score": 0.18,
       "price_history": [],
       "fetched_at": "2026-11-14T07:19:44Z",
-      "updated_at": "2026-11-14T13:05:40Z"
+      "updated_at": "2026-11-15T05:17:38Z"
     }
   ]
 }
