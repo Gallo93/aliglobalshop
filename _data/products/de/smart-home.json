@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-17T08:46:59Z",
+  "updated_at": "2026-11-18T08:10:46Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -17,8 +17,8 @@
       "sales_volume": 4712,
       "score": 0.858,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:49Z",
-      "updated_at": "2026-11-17T08:46:49Z"
+      "fetched_at": "2026-11-18T08:10:35Z",
+      "updated_at": "2026-11-18T08:10:35Z"
     },
     {
       "product_id": "1005012617976872",
@@ -35,8 +35,8 @@
       "sales_volume": 1502,
       "score": 0.4616,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:50Z",
-      "updated_at": "2026-11-17T08:46:50Z"
+      "fetched_at": "2026-11-18T08:10:36Z",
+      "updated_at": "2026-11-18T08:10:36Z"
     },
     {
       "product_id": "1005006174205414",
@@ -53,12 +53,12 @@
       "sales_volume": 863,
       "score": 0.4614,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:50Z",
-      "updated_at": "2026-11-17T08:46:50Z"
+      "fetched_at": "2026-11-18T08:10:36Z",
+      "updated_at": "2026-11-18T08:10:36Z"
     },
     {
       "product_id": "1005006979844970",
-      "title": "ESP32 C3 Entwicklungsboard für Arduino Seeed Studio XIAO ESP32C3 Dev Board Antenne WiFi Bluetooth 5.0 Ble Modul RISC-V",
+      "title": "ESP32 C3 Development Board für Arduino Seeed Studio XIAO ESP32C3 Dev Board Antenne WiFi Bluetooth 5.0 Ble Module RISC-V",
       "slug": "esp32-c3-development-board-for-arduino-seeed-studio-xiao-esp",
       "price": 0.39,
       "original_price": 1.0,
@@ -71,8 +71,8 @@
       "sales_volume": 396,
       "score": 0.3276,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:51Z",
-      "updated_at": "2026-11-17T08:46:51Z"
+      "fetched_at": "2026-11-18T08:10:37Z",
+      "updated_at": "2026-11-18T08:10:37Z"
     },
     {
       "product_id": "1005004374550143",
@@ -89,8 +89,8 @@
       "sales_volume": 420,
       "score": 0.2935,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:52Z",
-      "updated_at": "2026-11-17T08:46:52Z"
+      "fetched_at": "2026-11-18T08:10:37Z",
+      "updated_at": "2026-11-18T08:10:37Z"
     },
     {
       "product_id": "1005012799658917",
@@ -107,8 +107,8 @@
       "sales_volume": 4,
       "score": 0.2745,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:52Z",
-      "updated_at": "2026-11-17T08:46:52Z"
+      "fetched_at": "2026-11-18T08:10:38Z",
+      "updated_at": "2026-11-18T08:10:38Z"
     },
     {
       "product_id": "1005002334218166",
@@ -125,8 +125,8 @@
       "sales_volume": 228,
       "score": 0.2729,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:53Z",
-      "updated_at": "2026-11-17T08:46:53Z"
+      "fetched_at": "2026-11-18T08:10:38Z",
+      "updated_at": "2026-11-18T08:10:38Z"
     },
     {
       "product_id": "1005010017915273",
@@ -143,8 +143,8 @@
       "sales_volume": 10,
       "score": 0.2632,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:53Z",
-      "updated_at": "2026-11-17T08:46:53Z"
+      "fetched_at": "2026-11-18T08:10:39Z",
+      "updated_at": "2026-11-18T08:10:39Z"
     },
     {
       "product_id": "1005005132056199",
@@ -161,8 +161,8 @@
       "sales_volume": 1,
       "score": 0.2621,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:53Z",
-      "updated_at": "2026-11-17T08:46:53Z"
+      "fetched_at": "2026-11-18T08:10:39Z",
+      "updated_at": "2026-11-18T08:10:39Z"
     },
     {
       "product_id": "1005011666514308",
@@ -179,8 +179,8 @@
       "sales_volume": 12,
       "score": 0.2544,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:54Z",
-      "updated_at": "2026-11-17T08:46:54Z"
+      "fetched_at": "2026-11-18T08:10:40Z",
+      "updated_at": "2026-11-18T08:10:40Z"
     },
     {
       "product_id": "1005011985048323",
@@ -197,8 +197,8 @@
       "sales_volume": 57,
       "score": 0.243,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:54Z",
-      "updated_at": "2026-11-17T08:46:54Z"
+      "fetched_at": "2026-11-18T08:10:41Z",
+      "updated_at": "2026-11-18T08:10:41Z"
     },
     {
       "product_id": "1005012751875432",
@@ -215,8 +215,8 @@
       "sales_volume": 3,
       "score": 0.2414,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:55Z",
-      "updated_at": "2026-11-17T08:46:55Z"
+      "fetched_at": "2026-11-18T08:10:41Z",
+      "updated_at": "2026-11-18T08:10:41Z"
     },
     {
       "product_id": "1005002110146903",
@@ -233,8 +233,8 @@
       "sales_volume": 0,
       "score": 0.24,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:56Z",
-      "updated_at": "2026-11-17T08:46:56Z"
+      "fetched_at": "2026-11-18T08:10:42Z",
+      "updated_at": "2026-11-18T08:10:42Z"
     },
     {
       "product_id": "1005004352005250",
@@ -251,8 +251,8 @@
       "sales_volume": 319,
       "score": 0.2389,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:56Z",
-      "updated_at": "2026-11-17T08:46:56Z"
+      "fetched_at": "2026-11-18T08:10:42Z",
+      "updated_at": "2026-11-18T08:10:42Z"
     },
     {
       "product_id": "1005009682073618",
@@ -269,12 +269,12 @@
       "sales_volume": 741,
       "score": 0.235,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:57Z",
-      "updated_at": "2026-11-17T08:46:57Z"
+      "fetched_at": "2026-11-18T08:10:43Z",
+      "updated_at": "2026-11-18T08:10:43Z"
     },
     {
       "product_id": "1005006112632512",
-      "title": "Shelly 1 Mini Gen3 WiFi Smart Switch Matter 8A automatisch Lichter Garage Tür Bewässerung System Kleine Elektrische Geräte Home",
+      "title": "Shelly 1 Mini Gen3 WiFi Smart Switch Matter 8A automatisch beleuchtet Garagentürbewässerungssystem Kleine elektrische Geräte zu Hause",
       "slug": "shelly-1-mini-gen3-wifi-smart-switch-matter-8a-automate-ligh",
       "price": 13.36,
       "original_price": 22.47,
@@ -287,8 +287,8 @@
       "sales_volume": 152,
       "score": 0.2347,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:57Z",
-      "updated_at": "2026-11-17T08:46:57Z"
+      "fetched_at": "2026-11-18T08:10:44Z",
+      "updated_at": "2026-11-18T08:10:44Z"
     },
     {
       "product_id": "1005003906939600",
@@ -305,12 +305,12 @@
       "sales_volume": 11,
       "score": 0.2203,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:58Z",
-      "updated_at": "2026-11-17T08:46:58Z"
+      "fetched_at": "2026-11-18T08:10:44Z",
+      "updated_at": "2026-11-18T08:10:44Z"
     },
     {
       "product_id": "1005012327803644",
-      "title": "Dekco 3K/5MP UHD Wandlichtkamera Wireless Wifi Floodlight Kamera Außen 360° Ansicht Farbe Nachtsicht 2-Wege-Audio-Sicherheitskamera",
+      "title": "Dekco 3K/5MP UHD Wandlichtkamera Wireless Wifi Floodlight Kamera Außen 360° Ansicht Farbe Nachtsicht 2-Wege Audio Security Cam",
       "slug": "dekco-3k5mp-uhd-wall-light-camera-wireless-wifi-floodlight-c",
       "price": 81.07,
       "original_price": 300.23,
@@ -323,8 +323,8 @@
       "sales_volume": 2,
       "score": 0.2192,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:58Z",
-      "updated_at": "2026-11-17T08:46:58Z"
+      "fetched_at": "2026-11-18T08:10:45Z",
+      "updated_at": "2026-11-18T08:10:45Z"
     },
     {
       "product_id": "1005004671523450",
@@ -341,8 +341,8 @@
       "sales_volume": 27,
       "score": 0.2172,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:59Z",
-      "updated_at": "2026-11-17T08:46:59Z"
+      "fetched_at": "2026-11-18T08:10:45Z",
+      "updated_at": "2026-11-18T08:10:45Z"
     },
     {
       "product_id": "1005008283916283",
@@ -359,8 +359,8 @@
       "sales_volume": 29,
       "score": 0.2145,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:59Z",
-      "updated_at": "2026-11-17T08:46:59Z"
+      "fetched_at": "2026-11-18T08:10:46Z",
+      "updated_at": "2026-11-18T08:10:46Z"
     }
   ]
 }

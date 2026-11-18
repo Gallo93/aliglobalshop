@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-17T08:46:59Z",
+  "updated_at": "2026-11-18T08:10:46Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -17,12 +17,12 @@
       "sales_volume": 4712,
       "score": 0.858,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:49Z",
-      "updated_at": "2026-11-17T08:46:49Z"
+      "fetched_at": "2026-11-18T08:10:35Z",
+      "updated_at": "2026-11-18T08:10:35Z"
     },
     {
       "product_id": "1005012617976872",
-      "title": "SONOFF BASIC-ZB1GSP Basic DIN Rail Zigbee 3.0 Smart Switch 32A High-Load Circuit Energy Monitoring Double-Pole Safety Switching",
+      "title": "SONOFF BASIC-ZB1GSP Basic DIN Rail Zigbee 3.0 Interrupteur intelligent 32A Surveillance de l'énergie sur circuit à haute charge Interrupteur de sécurité double-polaire",
       "slug": "sonoff-basic-zb1gsp-basic-din-rail-zigbee-30-smart-switch-32",
       "price": 12.71,
       "original_price": 33.12,
@@ -35,12 +35,12 @@
       "sales_volume": 1502,
       "score": 0.4616,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:50Z",
-      "updated_at": "2026-11-17T08:46:50Z"
+      "fetched_at": "2026-11-18T08:10:36Z",
+      "updated_at": "2026-11-18T08:10:36Z"
     },
     {
       "product_id": "1005006174205414",
-      "title": "YI Pro 3pc Kits 2K Home Caméra Wi-Fi IP Surveillance Système intelligent avec Night Vision Baby Monitor sur iOS, Android App",
+      "title": "YI Pro 3pc Kits 2K Home Caméra Wi-Fi IP Sécurité Surveillance Système intelligent avec Night Vision Baby Monitor sur iOS, Android App",
       "slug": "yi-pro-3pc-kits-2k-home-camera-wi-fi-ip-security-surveillanc",
       "price": 18.56,
       "original_price": 183.99,
@@ -53,12 +53,12 @@
       "sales_volume": 863,
       "score": 0.4614,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:50Z",
-      "updated_at": "2026-11-17T08:46:50Z"
+      "fetched_at": "2026-11-18T08:10:36Z",
+      "updated_at": "2026-11-18T08:10:36Z"
     },
     {
       "product_id": "1005006979844970",
-      "title": "ESP32 C3 Conseil de développement pour Arduino Seed Studio XIAO ESP32C3 Conseil de Dev Antenne WiFi Bluetooth 5.0 Module Ble RISC-V",
+      "title": "ESP32 C3 Conseil de développement pour Arduino Seeed Studio XIAO ESP32C3 Conseil de Dev Antenne WiFi Bluetooth 5.0 Ble Module RISC-V",
       "slug": "esp32-c3-development-board-for-arduino-seeed-studio-xiao-esp",
       "price": 0.39,
       "original_price": 1.0,
@@ -71,8 +71,8 @@
       "sales_volume": 396,
       "score": 0.3276,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:51Z",
-      "updated_at": "2026-11-17T08:46:51Z"
+      "fetched_at": "2026-11-18T08:10:37Z",
+      "updated_at": "2026-11-18T08:10:37Z"
     },
     {
       "product_id": "1005004374550143",
@@ -89,12 +89,12 @@
       "sales_volume": 420,
       "score": 0.2935,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:52Z",
-      "updated_at": "2026-11-17T08:46:52Z"
+      "fetched_at": "2026-11-18T08:10:37Z",
+      "updated_at": "2026-11-18T08:10:37Z"
     },
     {
       "product_id": "1005012799658917",
-      "title": "Caméra de sécurité solaire 2K sans fil WiFi caméra 2.4G/5G Maison Sécurité CCTV Panneau solaire fixe à deux voies Talk Surveillance",
+      "title": "Caméra de sécurité solaire 2K sans fil Wi-Fi Caméra 2.4G/5G Home Sécurité CCTV Panneau solaire fixe à deux voies Talk Surveillance",
       "slug": "2k-solar-security-camera-wireless-outdoor-wifi-camera-24g5g-",
       "price": 39.04,
       "original_price": 92.93,
@@ -107,12 +107,12 @@
       "sales_volume": 4,
       "score": 0.2745,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:52Z",
-      "updated_at": "2026-11-17T08:46:52Z"
+      "fetched_at": "2026-11-18T08:10:38Z",
+      "updated_at": "2026-11-18T08:10:38Z"
     },
     {
       "product_id": "1005002334218166",
-      "title": "Module d'assemblage du cadre de brosse principal Pièces pour irobot Roomba 800 900 Série 870 880 980 Module de tête de nettoyage",
+      "title": "Module d'assemblage du cadre de brosse principal Composants pour irobot Roomba 800 900 Series 870 880 980 Module de tête de nettoyage",
       "slug": "main-brush-frame-assembly-module-components-parts-for-irobot",
       "price": 23.44,
       "original_price": 46.88,
@@ -125,8 +125,8 @@
       "sales_volume": 228,
       "score": 0.2729,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:53Z",
-      "updated_at": "2026-11-17T08:46:53Z"
+      "fetched_at": "2026-11-18T08:10:38Z",
+      "updated_at": "2026-11-18T08:10:38Z"
     },
     {
       "product_id": "1005010017915273",
@@ -143,8 +143,8 @@
       "sales_volume": 10,
       "score": 0.2632,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:53Z",
-      "updated_at": "2026-11-17T08:46:53Z"
+      "fetched_at": "2026-11-18T08:10:39Z",
+      "updated_at": "2026-11-18T08:10:39Z"
     },
     {
       "product_id": "1005005132056199",
@@ -161,12 +161,12 @@
       "sales_volume": 1,
       "score": 0.2621,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:53Z",
-      "updated_at": "2026-11-17T08:46:53Z"
+      "fetched_at": "2026-11-18T08:10:39Z",
+      "updated_at": "2026-11-18T08:10:39Z"
     },
     {
       "product_id": "1005011666514308",
-      "title": "Batterie Lithium Ion originale pour nettoyant iRobot Roomba 900 800 700 600 Série 960 980 981 965 895 890 860 695 692 680 675 Partie",
+      "title": "Batterie Ion Lithium originale pour nettoyant iRobot Roomba 900 800 700 600 Série 960 980 981 965 895 890 860 695 692 680 675 Partie",
       "slug": "original-lithium-ion-battery-for-irobot-roomba-cleaner-900-8",
       "price": 32.77,
       "original_price": 66.87,
@@ -179,12 +179,12 @@
       "sales_volume": 12,
       "score": 0.2544,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:54Z",
-      "updated_at": "2026-11-17T08:46:54Z"
+      "fetched_at": "2026-11-18T08:10:40Z",
+      "updated_at": "2026-11-18T08:10:40Z"
     },
     {
       "product_id": "1005011985048323",
-      "title": "Détecteur de signal de caméra cachée/Scanner WiFi Détecteur de périphérique caché/Détecteur de caméra anti-espion/Stracker GPS/Modes multiples pour l'hôtel",
+      "title": "Détecteur de signaux d'une caméra cachée/Scanner WiFi Détecteur de périphériques cachés/Détecteur de caméras anti-spy/GPS Tracker/Modes multiples pour l'hôtel",
       "slug": "hidden-camera-signal-detectorwifi-scanner-hidden-device-dete",
       "price": 13.12,
       "original_price": 24.3,
@@ -197,12 +197,12 @@
       "sales_volume": 57,
       "score": 0.243,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:54Z",
-      "updated_at": "2026-11-17T08:46:54Z"
+      "fetched_at": "2026-11-18T08:10:41Z",
+      "updated_at": "2026-11-18T08:10:41Z"
     },
     {
       "product_id": "1005012751875432",
-      "title": "4G Wifi 6MP 3 Lens PTZ Caméra de sécurité d'extérieur IP66 Imperméable à deux voies Audio et vision nocturne",
+      "title": "4G Wifi 6MP 3 Lens PTZ Caméra de sécurité d'extérieur IP66 Imperméable avec deux bras Audio et vision nocturne",
       "slug": "4g-wifi-6mp-3-lens-ptz-outdoor-security-camera-ip66-waterpro",
       "price": 26.92,
       "original_price": 51.38,
@@ -215,8 +215,8 @@
       "sales_volume": 3,
       "score": 0.2414,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:55Z",
-      "updated_at": "2026-11-17T08:46:55Z"
+      "fetched_at": "2026-11-18T08:10:41Z",
+      "updated_at": "2026-11-18T08:10:41Z"
     },
     {
       "product_id": "1005002110146903",
@@ -233,12 +233,12 @@
       "sales_volume": 0,
       "score": 0.24,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:56Z",
-      "updated_at": "2026-11-17T08:46:56Z"
+      "fetched_at": "2026-11-18T08:10:42Z",
+      "updated_at": "2026-11-18T08:10:42Z"
     },
     {
       "product_id": "1005004352005250",
-      "title": "Module d'aspirateur pour moteur d'assemblage d'aspirateur robot pour pièces de rechange pour ventilateur de refroidissement IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8",
+      "title": "Module d'aspirateur à vide robot pour IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 pièces de rechange pour ventilateur de refroidissement",
       "slug": "robot-vacuum-cleaner-fan-assembly-motor-vacuum-module-for-ir",
       "price": 24.28,
       "original_price": 38.54,
@@ -251,12 +251,12 @@
       "sales_volume": 319,
       "score": 0.2389,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:56Z",
-      "updated_at": "2026-11-17T08:46:56Z"
+      "fetched_at": "2026-11-18T08:10:42Z",
+      "updated_at": "2026-11-18T08:10:42Z"
     },
     {
       "product_id": "1005009682073618",
-      "title": "Capteur intelligent de fuite d'eau Tiny ZigBee Détecteur de fuite intelligent Supporte l'alarme Tuya/Home Assistant/eWeLink pour Smart Home Security",
+      "title": "Capteur intelligent de fuites d'eau minuscules Détecteur de fuites intelligent ZigBee Supporte l'alarme Tuya/Home Assistant/eWeLink pour Smart Home Security",
       "slug": "tiny-water-leakage-smart-sensor-zigbee-smart-leakage-detecto",
       "price": 5.79,
       "original_price": 6.99,
@@ -269,8 +269,8 @@
       "sales_volume": 741,
       "score": 0.235,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:57Z",
-      "updated_at": "2026-11-17T08:46:57Z"
+      "fetched_at": "2026-11-18T08:10:43Z",
+      "updated_at": "2026-11-18T08:10:43Z"
     },
     {
       "product_id": "1005006112632512",
@@ -287,8 +287,8 @@
       "sales_volume": 152,
       "score": 0.2347,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:57Z",
-      "updated_at": "2026-11-17T08:46:57Z"
+      "fetched_at": "2026-11-18T08:10:44Z",
+      "updated_at": "2026-11-18T08:10:44Z"
     },
     {
       "product_id": "1005003906939600",
@@ -305,12 +305,12 @@
       "sales_volume": 11,
       "score": 0.2203,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:58Z",
-      "updated_at": "2026-11-17T08:46:58Z"
+      "fetched_at": "2026-11-18T08:10:44Z",
+      "updated_at": "2026-11-18T08:10:44Z"
     },
     {
       "product_id": "1005012327803644",
-      "title": "Dekco 3K/5MP Caméra de lumière murale UHD Wifi sans fil Caméra de lumière extérieure 360° Affichage Couleur Nuit Vision 2 voies Audio Sécurité Cam",
+      "title": "Dekco 3K/5MP Caméra de lumière murale UHD Wi-Fi sans fil Projecteur Caméra Extérieur 360° Affichage Couleur Nuit Vision 2 voies Audio Sécurité Cam",
       "slug": "dekco-3k5mp-uhd-wall-light-camera-wireless-wifi-floodlight-c",
       "price": 81.07,
       "original_price": 300.23,
@@ -323,12 +323,12 @@
       "sales_volume": 2,
       "score": 0.2192,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:58Z",
-      "updated_at": "2026-11-17T08:46:58Z"
+      "fetched_at": "2026-11-18T08:10:45Z",
+      "updated_at": "2026-11-18T08:10:45Z"
     },
     {
       "product_id": "1005004671523450",
-      "title": "2PCS surclassement de l'équipement moteur pour irobot 5 6 Série 7 Nettoyeur à vide côté brosse pièces robot",
+      "title": "2PCS Upgraded Motor Gear pour irobot 5 6 Série 7 Nettoyeur à vide side Brush Gear Pièces robot",
       "slug": "2pcs-upgraded-motor-gear-for-irobot-5-6-7-series-vacuum-clea",
       "price": 5.83,
       "original_price": 9.4,
@@ -341,12 +341,12 @@
       "sales_volume": 27,
       "score": 0.2172,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:59Z",
-      "updated_at": "2026-11-17T08:46:59Z"
+      "fetched_at": "2026-11-18T08:10:45Z",
+      "updated_at": "2026-11-18T08:10:45Z"
     },
     {
       "product_id": "1005008283916283",
-      "title": "Replacement Ventilateur de refroidissement Moteur Robot Aspirateur Pièces Ventilateur Assemblage Moteur Aspirateur Module pour IRobot S9 Robot Aspirateur",
+      "title": "Replacement ventilateur de refroidissement moteur robot Aspirateur pièces ventilateur Assemblage moteur Aspirateur module pour IRobot S9 robot Aspirateur",
       "slug": "replacement-cooling-fan-motor-robot-vacuum-cleaner-parts-fan",
       "price": 40.56,
       "original_price": 64.38,
@@ -359,8 +359,8 @@
       "sales_volume": 29,
       "score": 0.2145,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:59Z",
-      "updated_at": "2026-11-17T08:46:59Z"
+      "fetched_at": "2026-11-18T08:10:46Z",
+      "updated_at": "2026-11-18T08:10:46Z"
     }
   ]
 }

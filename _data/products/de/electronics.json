@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-11-17T08:46:39Z",
+  "updated_at": "2026-11-18T08:10:32Z",
   "products": [
     {
       "product_id": "1005009664862363",
@@ -17,8 +17,8 @@
       "sales_volume": 1962,
       "score": 0.5005,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:28Z",
-      "updated_at": "2026-11-17T08:46:28Z"
+      "fetched_at": "2026-11-18T08:10:22Z",
+      "updated_at": "2026-11-18T08:10:22Z"
     },
     {
       "product_id": "1005009199894572",
@@ -35,8 +35,8 @@
       "sales_volume": 1704,
       "score": 0.3422,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:29Z",
-      "updated_at": "2026-11-17T08:46:29Z"
+      "fetched_at": "2026-11-18T08:10:23Z",
+      "updated_at": "2026-11-18T08:10:23Z"
     },
     {
       "product_id": "1005007480971055",
@@ -53,8 +53,8 @@
       "sales_volume": 426,
       "score": 0.3221,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:29Z",
-      "updated_at": "2026-11-17T08:46:29Z"
+      "fetched_at": "2026-11-18T08:10:23Z",
+      "updated_at": "2026-11-18T08:10:23Z"
     },
     {
       "product_id": "1005011795391651",
@@ -71,8 +71,8 @@
       "sales_volume": 58,
       "score": 0.3051,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:30Z",
-      "updated_at": "2026-11-17T08:46:30Z"
+      "fetched_at": "2026-11-18T08:10:24Z",
+      "updated_at": "2026-11-18T08:10:24Z"
     },
     {
       "product_id": "1005010253348075",
@@ -89,12 +89,12 @@
       "sales_volume": 14,
       "score": 0.2817,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:30Z",
-      "updated_at": "2026-11-17T08:46:30Z"
+      "fetched_at": "2026-11-18T08:10:24Z",
+      "updated_at": "2026-11-18T08:10:24Z"
     },
     {
       "product_id": "1005006460425214",
-      "title": "ZEALOT-S1 Portable Bluetooth Lautsprecher Wireless Fahrrad Lautsprecher Outdoor Wasserdichte Boombox Support TF Card, AUX, Flashlight",
+      "title": "ZEALOT-S1 Tragbarer Bluetooth-Lautsprecher Wireless Bicycle Lautsprecher Outdoor Wasserdichte Boombox Unterstützung TF Card, AUX, Flashlight",
       "slug": "zealot-s1-portable-bluetooth-speaker-wireless-bicycle-speake",
       "price": 16.03,
       "original_price": 40.46,
@@ -107,8 +107,8 @@
       "sales_volume": 7,
       "score": 0.2808,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:31Z",
-      "updated_at": "2026-11-17T08:46:31Z"
+      "fetched_at": "2026-11-18T08:10:25Z",
+      "updated_at": "2026-11-18T08:10:25Z"
     },
     {
       "product_id": "1005012230439859",
@@ -125,8 +125,8 @@
       "sales_volume": 1,
       "score": 0.2771,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:31Z",
-      "updated_at": "2026-11-17T08:46:31Z"
+      "fetched_at": "2026-11-18T08:10:25Z",
+      "updated_at": "2026-11-18T08:10:25Z"
     },
     {
       "product_id": "1005010660256913",
@@ -143,12 +143,12 @@
       "sales_volume": 7,
       "score": 0.2728,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:32Z",
-      "updated_at": "2026-11-17T08:46:32Z"
+      "fetched_at": "2026-11-18T08:10:26Z",
+      "updated_at": "2026-11-18T08:10:26Z"
     },
     {
       "product_id": "1005012852071783",
-      "title": "2026 Jahre Original Player Speaker Batter für JBL Xtreme Boombox Clip Charge Flip Pulse 6 5 4 3 2 1 G03 Link 10 20 Bateria",
+      "title": "2026 Jahre Original Player Speaker Batterie für JBL Xtreme Boombox Clip Charge Flip Pulse 6 5 4 3 2 1 G03 Link 10 20 Bateria",
       "slug": "2026-years-original-player-speaker-battery-for-jbl-xtreme-bo",
       "price": 10.49,
       "original_price": 23.29,
@@ -161,12 +161,12 @@
       "sales_volume": 9,
       "score": 0.2661,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:33Z",
-      "updated_at": "2026-11-17T08:46:33Z"
+      "fetched_at": "2026-11-18T08:10:26Z",
+      "updated_at": "2026-11-18T08:10:26Z"
     },
     {
       "product_id": "1005012219557684",
-      "title": "Mini-Metal-Kapsel 10000mAh Power Bank Faltbare Direktstecker Schnelles Aufladen Mobiles Netzteil Für IPhone Android",
+      "title": "Mini-Metal-Kapsel 10000mAh Power Bank Faltbare Direktstecker Schnelles Laden Portable Mobile Stromversorgung für iPhone Android",
       "slug": "mini-metal-capsule-10000mah-power-bank-foldable-direct-plug-",
       "price": 21.53,
       "original_price": 43.06,
@@ -179,8 +179,8 @@
       "sales_volume": 86,
       "score": 0.2576,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:33Z",
-      "updated_at": "2026-11-17T08:46:33Z"
+      "fetched_at": "2026-11-18T08:10:27Z",
+      "updated_at": "2026-11-18T08:10:27Z"
     },
     {
       "product_id": "1005009017398891",
@@ -197,8 +197,8 @@
       "sales_volume": 189,
       "score": 0.2566,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:34Z",
-      "updated_at": "2026-11-17T08:46:34Z"
+      "fetched_at": "2026-11-18T08:10:27Z",
+      "updated_at": "2026-11-18T08:10:27Z"
     },
     {
       "product_id": "1005006801718157",
@@ -215,8 +215,8 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:34Z",
-      "updated_at": "2026-11-17T08:46:34Z"
+      "fetched_at": "2026-11-18T08:10:28Z",
+      "updated_at": "2026-11-18T08:10:28Z"
     },
     {
       "product_id": "1005009648323164",
@@ -233,12 +233,12 @@
       "sales_volume": 2,
       "score": 0.2452,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:35Z",
-      "updated_at": "2026-11-17T08:46:35Z"
+      "fetched_at": "2026-11-18T08:10:28Z",
+      "updated_at": "2026-11-18T08:10:28Z"
     },
     {
       "product_id": "1005006779664431",
-      "title": "5000mAh Mini Power Bank eingebaut in Kabelstecker 22,5W Schnellaufladung für Apple Typ C Powerbank für iPhone 15 X Samsung Huawei Xiaomi",
+      "title": "5000mAh Mini Power Bank eingebaut Kabelstecker 22,5W Schnellaufladung für Apple Typ C Powerbank für iPhone 15 X Samsung Huawei Xiaomi",
       "slug": "5000mah-mini-power-bank-built-in-cable-plug-225w-fast-chargi",
       "price": 9.93,
       "original_price": 18.38,
@@ -251,8 +251,8 @@
       "sales_volume": 15,
       "score": 0.2398,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:36Z",
-      "updated_at": "2026-11-17T08:46:36Z"
+      "fetched_at": "2026-11-18T08:10:29Z",
+      "updated_at": "2026-11-18T08:10:29Z"
     },
     {
       "product_id": "1005012327079554",
@@ -269,8 +269,8 @@
       "sales_volume": 91,
       "score": 0.2279,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:36Z",
-      "updated_at": "2026-11-17T08:46:36Z"
+      "fetched_at": "2026-11-18T08:10:30Z",
+      "updated_at": "2026-11-18T08:10:30Z"
     },
     {
       "product_id": "1005011532039236",
@@ -287,8 +287,8 @@
       "sales_volume": 1,
       "score": 0.2251,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:37Z",
-      "updated_at": "2026-11-17T08:46:37Z"
+      "fetched_at": "2026-11-18T08:10:30Z",
+      "updated_at": "2026-11-18T08:10:30Z"
     },
     {
       "product_id": "1005013012406453",
@@ -305,12 +305,12 @@
       "sales_volume": 0,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:37Z",
-      "updated_at": "2026-11-17T08:46:37Z"
+      "fetched_at": "2026-11-18T08:10:31Z",
+      "updated_at": "2026-11-18T08:10:31Z"
     },
     {
       "product_id": "1005011532019654",
-      "title": "Für XPENG G7 Wireless Ladepad, zentrale Steuerung Silikon Cup Pad",
+      "title": "Für XPENG G7 Wireless-Ladepad, zentrale Steuerung Silicon Cup Pad",
       "slug": "for-xpeng-g7-wireless-charging-pad-central-control-silicone-",
       "price": 10.68,
       "original_price": 39.54,
@@ -323,8 +323,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:38Z",
-      "updated_at": "2026-11-17T08:46:38Z"
+      "fetched_at": "2026-11-18T08:10:31Z",
+      "updated_at": "2026-11-18T08:10:31Z"
     },
     {
       "product_id": "1005011531921275",
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:38Z",
-      "updated_at": "2026-11-17T08:46:38Z"
+      "fetched_at": "2026-11-18T08:10:32Z",
+      "updated_at": "2026-11-18T08:10:32Z"
     },
     {
       "product_id": "32337440906",
@@ -359,8 +359,8 @@
       "sales_volume": 16,
       "score": 0.2039,
       "price_history": [],
-      "fetched_at": "2026-11-17T08:46:39Z",
-      "updated_at": "2026-11-17T08:46:39Z"
+      "fetched_at": "2026-11-18T08:10:32Z",
+      "updated_at": "2026-11-18T08:10:32Z"
     }
   ]
 }
