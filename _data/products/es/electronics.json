@@ -1,6 +1,6 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-11-19T08:21:46Z",
+  "updated_at": "2026-11-20T08:01:31Z",
   "products": [
     {
       "product_id": "1005009664862363",
@@ -17,8 +17,8 @@
       "sales_volume": 2062,
       "score": 0.4915,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:36Z",
-      "updated_at": "2026-11-19T08:21:36Z"
+      "fetched_at": "2026-11-20T08:01:19Z",
+      "updated_at": "2026-11-20T08:01:19Z"
     },
     {
       "product_id": "1005009199894572",
@@ -35,12 +35,12 @@
       "sales_volume": 1717,
       "score": 0.3225,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:36Z",
-      "updated_at": "2026-11-19T08:21:36Z"
+      "fetched_at": "2026-11-20T08:01:19Z",
+      "updated_at": "2026-11-20T08:01:19Z"
     },
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Cargador rápido Powerbank portátil para iPhone portátil Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Carga rápida Powerbank portátil para iPhone portátil Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 30.73,
       "original_price": 72.14,
@@ -53,8 +53,8 @@
       "sales_volume": 440,
       "score": 0.315,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:36Z",
-      "updated_at": "2026-11-19T08:21:36Z"
+      "fetched_at": "2026-11-20T08:01:20Z",
+      "updated_at": "2026-11-20T08:01:20Z"
     },
     {
       "product_id": "1005010617533509",
@@ -71,12 +71,12 @@
       "sales_volume": 66,
       "score": 0.3071,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:37Z",
-      "updated_at": "2026-11-19T08:21:37Z"
+      "fetched_at": "2026-11-20T08:01:21Z",
+      "updated_at": "2026-11-20T08:01:21Z"
     },
     {
       "product_id": "1005006460425214",
-      "title": "ZEALOT-S1 Altavoz Bluetooth portátil inalámbrico de bicicletas Altavoz al aire libre impermeable Boombox Soporte TF Card,AUX,Flashlight",
+      "title": "ZEALOT-S1 Portable Bluetooth altavoz inalámbrico de bicicletas Altavoz al aire libre impermeable Boombox Soporte TF Card,AUX,Flashlight",
       "slug": "zealot-s1-portable-bluetooth-speaker-wireless-bicycle-speake",
       "price": 15.81,
       "original_price": 40.46,
@@ -89,8 +89,8 @@
       "sales_volume": 7,
       "score": 0.2808,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:38Z",
-      "updated_at": "2026-11-19T08:21:38Z"
+      "fetched_at": "2026-11-20T08:01:21Z",
+      "updated_at": "2026-11-20T08:01:21Z"
     },
     {
       "product_id": "1005012230439859",
@@ -107,12 +107,12 @@
       "sales_volume": 1,
       "score": 0.2771,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:38Z",
-      "updated_at": "2026-11-19T08:21:38Z"
+      "fetched_at": "2026-11-20T08:01:22Z",
+      "updated_at": "2026-11-20T08:01:22Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "Estación de alimentación portátil de 400W de alta velocidad 192Wh LiFePO4 batería AC 220V generador solar de carga rápida Banco de alimentación para el camping",
+      "title": "Estación de alimentación portátil de 400W de alta capacidad 192Wh LiFePO4 batería AC 220V generador solar de carga rápida Banco de alimentación para el camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
       "price": 115.89,
       "original_price": 275.94,
@@ -125,8 +125,8 @@
       "sales_volume": 6,
       "score": 0.2727,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:39Z",
-      "updated_at": "2026-11-19T08:21:39Z"
+      "fetched_at": "2026-11-20T08:01:22Z",
+      "updated_at": "2026-11-20T08:01:22Z"
     },
     {
       "product_id": "1005012852071783",
@@ -143,8 +143,8 @@
       "sales_volume": 10,
       "score": 0.2662,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:39Z",
-      "updated_at": "2026-11-19T08:21:39Z"
+      "fetched_at": "2026-11-20T08:01:22Z",
+      "updated_at": "2026-11-20T08:01:22Z"
     },
     {
       "product_id": "1005012219557684",
@@ -161,8 +161,8 @@
       "sales_volume": 85,
       "score": 0.2575,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:39Z",
-      "updated_at": "2026-11-19T08:21:39Z"
+      "fetched_at": "2026-11-20T08:01:23Z",
+      "updated_at": "2026-11-20T08:01:23Z"
     },
     {
       "product_id": "1005009017398891",
@@ -179,8 +179,8 @@
       "sales_volume": 188,
       "score": 0.2563,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:40Z",
-      "updated_at": "2026-11-19T08:21:40Z"
+      "fetched_at": "2026-11-20T08:01:24Z",
+      "updated_at": "2026-11-20T08:01:24Z"
     },
     {
       "product_id": "1005006801718157",
@@ -197,12 +197,12 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:40Z",
-      "updated_at": "2026-11-19T08:21:40Z"
+      "fetched_at": "2026-11-20T08:01:24Z",
+      "updated_at": "2026-11-20T08:01:24Z"
     },
     {
       "product_id": "1005012975212799",
-      "title": "Nohon 5000/10000mAh para Insta360 Luna Ultra Battery Handle 22.5W Tipo-C Fast Charging Con Tripod para Insta Battery Handle",
+      "title": "Nohon 5000/10000mAh para Insta360 Luna Ultra Battery Handle 22.5W Tipo-C Fast Charging Con Tripod for Insta Battery Handle",
       "slug": "nohon-500010000mah-for-insta360-luna-ultra-battery-handle-22",
       "price": 33.02,
       "original_price": 62.3,
@@ -215,8 +215,8 @@
       "sales_volume": 68,
       "score": 0.2442,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:41Z",
-      "updated_at": "2026-11-19T08:21:41Z"
+      "fetched_at": "2026-11-20T08:01:25Z",
+      "updated_at": "2026-11-20T08:01:25Z"
     },
     {
       "product_id": "1005006779664431",
@@ -233,12 +233,12 @@
       "sales_volume": 16,
       "score": 0.2399,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:41Z",
-      "updated_at": "2026-11-19T08:21:41Z"
+      "fetched_at": "2026-11-20T08:01:25Z",
+      "updated_at": "2026-11-20T08:01:25Z"
     },
     {
       "product_id": "1005012327079554",
-      "title": "BIGTREETECH Panda Status P2 Smart LED Light Strip Para Bambu Lab P2S/X2D Impresora 3D RGB Light Bar en tiempo real Imprimir estado Advertencia",
+      "title": "BIGTREETECH Panda Status P2 Smart LED Light Strip For Bambu Lab P2S/X2D 3D Printer RGB Light Bar en tiempo real Imprimir estado Advertencia",
       "slug": "bigtreetech-panda-status-p2-smart-led-light-strip-for-bambu-",
       "price": 22.98,
       "original_price": 37.94,
@@ -251,8 +251,8 @@
       "sales_volume": 92,
       "score": 0.228,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:42Z",
-      "updated_at": "2026-11-19T08:21:42Z"
+      "fetched_at": "2026-11-20T08:01:26Z",
+      "updated_at": "2026-11-20T08:01:26Z"
     },
     {
       "product_id": "1005013167640051",
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.228,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:43Z",
-      "updated_at": "2026-11-19T08:21:43Z"
+      "fetched_at": "2026-11-20T08:01:27Z",
+      "updated_at": "2026-11-20T08:01:27Z"
     },
     {
       "product_id": "1005011532039236",
@@ -287,8 +287,8 @@
       "sales_volume": 1,
       "score": 0.2251,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:43Z",
-      "updated_at": "2026-11-19T08:21:43Z"
+      "fetched_at": "2026-11-20T08:01:28Z",
+      "updated_at": "2026-11-20T08:01:28Z"
     },
     {
       "product_id": "1005011532019654",
@@ -305,12 +305,12 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:44Z",
-      "updated_at": "2026-11-19T08:21:44Z"
+      "fetched_at": "2026-11-20T08:01:29Z",
+      "updated_at": "2026-11-20T08:01:29Z"
     },
     {
       "product_id": "1005011531921275",
-      "title": "Para 26 Avita 07 almohadillas de carga inalámbrica de silicona, teléfono de control central anti almohadillas de deslizamiento",
+      "title": "Para 26 Almohadillas de carga inalámbrica Avita 07 silicona, almohadillas de control central anti deslizamiento",
       "slug": "for-26-avita-07-silicone-wireless-charging-pads-central-cont",
       "price": 7.64,
       "original_price": 28.29,
@@ -323,8 +323,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:44Z",
-      "updated_at": "2026-11-19T08:21:44Z"
+      "fetched_at": "2026-11-20T08:01:29Z",
+      "updated_at": "2026-11-20T08:01:29Z"
     },
     {
       "product_id": "32337440906",
@@ -341,12 +341,12 @@
       "sales_volume": 17,
       "score": 0.204,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:45Z",
-      "updated_at": "2026-11-19T08:21:45Z"
+      "fetched_at": "2026-11-20T08:01:30Z",
+      "updated_at": "2026-11-20T08:01:30Z"
     },
     {
       "product_id": "1005010636569001",
-      "title": "DC5V WS2812B Luces de LED de forma individual Direccionable Led Strip Light Smart Pixels WS2812 RGB Magic Light Negro PCB IP30 65 67",
+      "title": "DC5V WS2812B Luces LED de forma individual Direccionable Led Strip Light Smart Pixels WS2812 RGB Magic Light Negro PCB IP30 65 67",
       "slug": "dc5v-ws2812b-led-lights-individually-addressable-led-strip-l",
       "price": 3.05,
       "original_price": 4.73,
@@ -359,8 +359,8 @@
       "sales_volume": 12,
       "score": 0.2005,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:46Z",
-      "updated_at": "2026-11-19T08:21:46Z"
+      "fetched_at": "2026-11-20T08:01:30Z",
+      "updated_at": "2026-11-20T08:01:30Z"
     }
   ]
 }

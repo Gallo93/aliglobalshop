@@ -1,10 +1,10 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-19T08:22:06Z",
+  "updated_at": "2026-11-20T08:01:45Z",
   "products": [
     {
       "product_id": "1005012571302422",
-      "title": "SONOFF Zigbee Temperatura y Humidity Sensor Smart Home Airguard TH Lite SNZB-02B Ewelink APP Control Work With Alexa Google",
+      "title": "SONOFF Zigbee Temperatura y Humidity Sensor Smart Home Airguard TH Lite SNZB-02B Ewelink APP Control Work with Alexa Google",
       "slug": "sonoff-zigbee-temperature-and-humidity-sensor-smart-home-air",
       "price": 5.2,
       "original_price": 15.18,
@@ -17,8 +17,8 @@
       "sales_volume": 4811,
       "score": 0.8699,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:57Z",
-      "updated_at": "2026-11-19T08:21:57Z"
+      "fetched_at": "2026-11-20T08:01:33Z",
+      "updated_at": "2026-11-20T08:01:33Z"
     },
     {
       "product_id": "1005011619469027",
@@ -35,8 +35,8 @@
       "sales_volume": 3613,
       "score": 0.7123,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:58Z",
-      "updated_at": "2026-11-19T08:21:58Z"
+      "fetched_at": "2026-11-20T08:01:35Z",
+      "updated_at": "2026-11-20T08:01:35Z"
     },
     {
       "product_id": "1005012905290601",
@@ -53,8 +53,8 @@
       "sales_volume": 1995,
       "score": 0.5278,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:58Z",
-      "updated_at": "2026-11-19T08:21:58Z"
+      "fetched_at": "2026-11-20T08:01:35Z",
+      "updated_at": "2026-11-20T08:01:35Z"
     },
     {
       "product_id": "1005012617976872",
@@ -71,8 +71,8 @@
       "sales_volume": 1561,
       "score": 0.4688,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:59Z",
-      "updated_at": "2026-11-19T08:21:59Z"
+      "fetched_at": "2026-11-20T08:01:36Z",
+      "updated_at": "2026-11-20T08:01:36Z"
     },
     {
       "product_id": "1005012334011529",
@@ -89,12 +89,12 @@
       "sales_volume": 1260,
       "score": 0.4314,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:21:59Z",
-      "updated_at": "2026-11-19T08:21:59Z"
+      "fetched_at": "2026-11-20T08:01:36Z",
+      "updated_at": "2026-11-20T08:01:36Z"
     },
     {
       "product_id": "1005006979844970",
-      "title": "ESP32 C3 Consejo de Desarrollo para Arduino Seeed Studio XIAO ESP32C3 Dev Board Antenna Bluetooth 5.0 Ble Module RISC-V",
+      "title": "ESP32 C3 Consejo de Desarrollo para Arduino Vered Studio XIAO ESP32C3 Dev Board Antenna Bluetooth 5.0 Ble Module RISC-V",
       "slug": "esp32-c3-development-board-for-arduino-seeed-studio-xiao-esp",
       "price": 0.38,
       "original_price": 1.0,
@@ -107,8 +107,8 @@
       "sales_volume": 397,
       "score": 0.3307,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:00Z",
-      "updated_at": "2026-11-19T08:22:00Z"
+      "fetched_at": "2026-11-20T08:01:37Z",
+      "updated_at": "2026-11-20T08:01:37Z"
     },
     {
       "product_id": "1005009654029579",
@@ -125,8 +125,8 @@
       "sales_volume": 1419,
       "score": 0.2968,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:00Z",
-      "updated_at": "2026-11-19T08:22:00Z"
+      "fetched_at": "2026-11-20T08:01:37Z",
+      "updated_at": "2026-11-20T08:01:37Z"
     },
     {
       "product_id": "1005002334218166",
@@ -143,12 +143,12 @@
       "sales_volume": 228,
       "score": 0.2879,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:01Z",
-      "updated_at": "2026-11-19T08:22:01Z"
+      "fetched_at": "2026-11-20T08:01:38Z",
+      "updated_at": "2026-11-20T08:01:38Z"
     },
     {
       "product_id": "1005012799658917",
-      "title": "Cámara de seguridad solar 2K Wi-Fi al aire libre Cámara 2.4G/5G Inicio Seguridad CCTV Panel solar fijo de dos formas",
+      "title": "Cámara de seguridad solar 2K inalámbrica WiFi al aire libre Cámara 2.4G/5G Inicio Seguridad CCTV Panel solar fijo de dos formas",
       "slug": "2k-solar-security-camera-wireless-outdoor-wifi-camera-24g5g-",
       "price": 39.04,
       "original_price": 92.93,
@@ -161,12 +161,12 @@
       "sales_volume": 4,
       "score": 0.2745,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:01Z",
-      "updated_at": "2026-11-19T08:22:01Z"
+      "fetched_at": "2026-11-20T08:01:38Z",
+      "updated_at": "2026-11-20T08:01:38Z"
     },
     {
       "product_id": "1005012845791732",
-      "title": "PCB placa madre para iRobot Roomba 500 600 serie de repuesto de limpieza de vacío PCB Circuito placa de dirección con función de instalación",
+      "title": "PCB placa base para iRobot Roomba 500 600 serie de repuesto de limpieza de vacío PCB placa de circuito con función de montaje",
       "slug": "pcb-motherboard-for-irobot-roomba-500-600-series-vacuum-clea",
       "price": 12.73,
       "original_price": 30.32,
@@ -179,8 +179,8 @@
       "sales_volume": 38,
       "score": 0.2686,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:02Z",
-      "updated_at": "2026-11-19T08:22:02Z"
+      "fetched_at": "2026-11-20T08:01:39Z",
+      "updated_at": "2026-11-20T08:01:39Z"
     },
     {
       "product_id": "1005010017915273",
@@ -197,12 +197,12 @@
       "sales_volume": 9,
       "score": 0.2631,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:02Z",
-      "updated_at": "2026-11-19T08:22:02Z"
+      "fetched_at": "2026-11-20T08:01:40Z",
+      "updated_at": "2026-11-20T08:01:40Z"
     },
     {
       "product_id": "1005003786235731",
-      "title": "AZDOME M300S 4K Dash Cam Front and Rear, incorporado ADAS WiFi GPS Dash Camera for Cars, tarjeta de 64 GB, control de voz, Night Visio",
+      "title": "AZDOME M300S 4K Dash Cam Front and Rear, incorporado ADAS WiFi GPS Dash Camera for Cars, Tarjeta de 64 GB, Control de voz, Night Visio",
       "slug": "azdome-m300s-4k-dash-cam-front-and-rear-built-in-adas-wifi-g",
       "price": 57.34,
       "original_price": 99.88,
@@ -215,8 +215,8 @@
       "sales_volume": 385,
       "score": 0.257,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:02Z",
-      "updated_at": "2026-11-19T08:22:02Z"
+      "fetched_at": "2026-11-20T08:01:40Z",
+      "updated_at": "2026-11-20T08:01:40Z"
     },
     {
       "product_id": "1005011666514308",
@@ -233,8 +233,8 @@
       "sales_volume": 12,
       "score": 0.2544,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:03Z",
-      "updated_at": "2026-11-19T08:22:03Z"
+      "fetched_at": "2026-11-20T08:01:41Z",
+      "updated_at": "2026-11-20T08:01:41Z"
     },
     {
       "product_id": "1005011985048323",
@@ -251,12 +251,12 @@
       "sales_volume": 56,
       "score": 0.2429,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:03Z",
-      "updated_at": "2026-11-19T08:22:03Z"
+      "fetched_at": "2026-11-20T08:01:42Z",
+      "updated_at": "2026-11-20T08:01:42Z"
     },
     {
       "product_id": "1005002110146903",
-      "title": "Broadlink LB27 R1 1/2/3/4 PCS Smart cc E27 10W 220V Lámpara LED para hogar inteligente compatible con Alexa Google",
+      "title": "Broadlink LB27 R1 1/2/3/4 PCS Smart cc E27 10W 220V RGB Lámpara LED para casa inteligente Compatible con Alexa Google",
       "slug": "broadlink-lb27-r1-1234-pcs-smart-cc-e27-10w-220v-rgb-led-bul",
       "price": 3.69,
       "original_price": 18.47,
@@ -269,12 +269,12 @@
       "sales_volume": 0,
       "score": 0.24,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:04Z",
-      "updated_at": "2026-11-19T08:22:04Z"
+      "fetched_at": "2026-11-20T08:01:42Z",
+      "updated_at": "2026-11-20T08:01:42Z"
     },
     {
       "product_id": "1005004352005250",
-      "title": "Robot Aparador de limpieza de vacío Montaje del motor del vacío para IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 piezas de reparación de ventiladores de refrigeración",
+      "title": "Robot Abanico Abanico Abanico Abagado Motor Vacuum Módulo para IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i6/i7/i8 Piezas de Reparación de Abanicos",
       "slug": "robot-vacuum-cleaner-fan-assembly-motor-vacuum-module-for-ir",
       "price": 24.28,
       "original_price": 38.54,
@@ -287,8 +287,8 @@
       "sales_volume": 312,
       "score": 0.238,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:04Z",
-      "updated_at": "2026-11-19T08:22:04Z"
+      "fetched_at": "2026-11-20T08:01:43Z",
+      "updated_at": "2026-11-20T08:01:43Z"
     },
     {
       "product_id": "1005006112632512",
@@ -305,12 +305,12 @@
       "sales_volume": 158,
       "score": 0.2355,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:05Z",
-      "updated_at": "2026-11-19T08:22:05Z"
+      "fetched_at": "2026-11-20T08:01:43Z",
+      "updated_at": "2026-11-20T08:01:43Z"
     },
     {
       "product_id": "1005012510580573",
-      "title": "IP65 Tuya Zigbee WiFi Door Window Sensor magnético Conexión inalámbrica Smart Home Protection Detectores de puertas resistentes al agua Automatización",
+      "title": "IP65 Tuya Zigbee WiFi Door Window Sensor magnético Conexión inalámbrica Smart Home Protection Detectores de puertas impermeables Automatización",
       "slug": "ip65-tuya-zigbee-wifi-door-window-magnetic-sensor-wireless-c",
       "price": 6.61,
       "original_price": 8.22,
@@ -323,8 +323,8 @@
       "sales_volume": 600,
       "score": 0.2232,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:05Z",
-      "updated_at": "2026-11-19T08:22:05Z"
+      "fetched_at": "2026-11-20T08:01:43Z",
+      "updated_at": "2026-11-20T08:01:43Z"
     },
     {
       "product_id": "1005003906939600",
@@ -341,8 +341,8 @@
       "sales_volume": 10,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:06Z",
-      "updated_at": "2026-11-19T08:22:06Z"
+      "fetched_at": "2026-11-20T08:01:44Z",
+      "updated_at": "2026-11-20T08:01:44Z"
     },
     {
       "product_id": "1005012327803644",
@@ -359,8 +359,8 @@
       "sales_volume": 2,
       "score": 0.2192,
       "price_history": [],
-      "fetched_at": "2026-11-19T08:22:06Z",
-      "updated_at": "2026-11-19T08:22:06Z"
+      "fetched_at": "2026-11-20T08:01:45Z",
+      "updated_at": "2026-11-20T08:01:45Z"
     }
   ]
 }
