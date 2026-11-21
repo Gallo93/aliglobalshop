@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-20T19:41:49Z",
+  "updated_at": "2026-11-21T05:58:11Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -18,7 +18,7 @@
       "score": 0.8699,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:33Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005011619469027",
@@ -36,7 +36,7 @@
       "score": 0.7123,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:35Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005012905290601",
@@ -54,13 +54,13 @@
       "score": 0.5278,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:35Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005012617976872",
       "title": "SONOFF BASIC-ZB1GSP Basic DIN Rail Zigbee 3.0 Smart Switch 32A High-Load Circuit Energy Monitoring Double-Pole Safety Switching",
       "slug": "sonoff-basic-zb1gsp-basic-din-rail-zigbee-30-smart-switch-32",
-      "price": "13.82",
+      "price": "13.80",
       "original_price": "36.00",
       "discount_pct": 61,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mk0XZ7lyJ9YJFttEzgjpX1ibl6Z6I12DkEuW9SSNbegwD5asvG7SWcjbqbo5shlF7FFJ8lXWLMAv09RlmBqYhMLY6N6tV4uQOL8FQMoPnXe1ZTRQqwwoGcxzjY7QjicQxz696etU3uVLtgYDznKmByjJ9KrE0Uuqmy8yH1Jq1ZdvDipBxQyCdd9lm27T9XRhNJdXxPyWFjLibLpNHajLrMDFBJ56lorLu7xnuFgXefEh5yYXRMAqFJsOaVRSVAA756YblN2sGRpYLz3D0I8Y12ITA3HuWproGygqWcD4QIQ3iYf4ZRSVKe6xcEXUWSgQhHeSC0BUvhxEophzDxT6taQCJUrDVG2zdx7lh2K3lasaa9xKKYLuguoRBTkGZQOtqFHyG4OmJK1eeCGo2mpks3Wrlgu1akcXJ0bwjILQIoj3cJwmXaq3x2BUcZH1UGg0xqiH2OhzVPX1Fdw6cBd7jPEvC7SQ64wknhRbB2sn0w0gPDpXZ8bS0Gq9B6aCsyKNBXA23ql9dLaPUJHjt68w9LuQlMLdpKpor6JlSJPCihm1VNFfGZpyyF81rfg4BImy3phRrlYCRsmw1wt0T0shMTm5coDYOFauT9fmjbf49xi6Sa8X6Gl0myWaz6ZOc8P83vLG9PlOdQexV9ZjDkVuK7TI6lH0k1zU1HPHHyQYL7vBn7c4frBCVPpSoCWj63P2SjaqXNgK8S34o",
@@ -72,13 +72,13 @@
       "score": 0.4688,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:36Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005012334011529",
       "title": "SONOFF BASIC-1GSP Basic Single-Channel DIN Rail Switch Matter WiFi Energy Consumption Monitoring Overload Protection Up to 32A",
       "slug": "sonoff-basic-1gsp-basic-single-channel-din-rail-switch-matte",
-      "price": "13.82",
+      "price": "13.80",
       "original_price": "36.00",
       "discount_pct": 61,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nwCeuNTvVpjxK70AtMIPnj88LPxg0whUWrxGjddX5GI2xKopZpTMwI6NZrxNdBqhfi6qq1EMBqpRxHt5rDlAqbHfkJ6e8nGbs56zr3zHVY3DjZFgitFnFIYKQ12x04O4pB1LLUzBd1iP25DUeqeJYUB9yGAlP09LFx5IvLjDv1mVLu1Gh7kyLgC2SN9vFUmRUZVTSab1NSOKOMQBRGogsH9BXBLgUK4Y2SbsG8ohQyvukE4wnfGV3kUWzDI5ce5qtcGqQLeLxeR8ZbP4PqiBF8CClAwCandgNjF51d47j0sQBkXIIY1OV3tBjzG7FNpgrJL4Co8iQmUpS3UKF3YEQf2zcZ7Kip0HzNmpeOJJoCyzLMugrhldLr53LQCn9mBIw9nZm1GNowbCjVgAQOq8UFSfTWD4r1qjU7pU4alAi6FEnaLHadYvKEcxmx2JujsWjZnbwAL8aEMzF4RENuSoZrjFgbbvlTE8cZ8myyyMWKCRLyt5hFl3RTBIKIzCDOuvgs4oTDMzbo3DhbnkLOgJCSrZ7zZnmhSKpQPwsAsGqsMiMjL2OD3TF3V2G7DKVPOWNUcmJ54S2qB0u9yPJxyvhJF8Ih2Qd7bSwYcJ45nrjiMBswZp8GLZaHdB5X3AQ6vmrCbsY5SxUDm9nLRKfBEzdy7cHRqtqQKtcxjuy5KPBiiicGx9GFaGNT2Tdbi1V9MxKy1wxobi1h6Ri",
@@ -90,7 +90,7 @@
       "score": 0.4314,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:36Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005006979844970",
@@ -108,13 +108,13 @@
       "score": 0.3307,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:37Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005009654029579",
       "title": "Tuya Zigbee Wireless Door Windows Sensor Mini Smart Home Wireless Door Detector Door Open Closed Alarm System for Alexa",
       "slug": "tuya-zigbee-wireless-door-windows-sensor-mini-smart-home-wir",
-      "price": "6.74",
+      "price": "7.41",
       "original_price": "7.54",
       "discount_pct": 10,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kWUEi7aR7l3u78m9slEUOKaKdUybMQxr15UiOv2C9nVdiNQzKn1ZA606mEPBPUros68uUWzs29qU78m2JVbdZWEaFb3ypc2ekRbq0eBsnCBeHXEkByUiuEipT9vfrF3rOn1d3PXEB2J0cclI4VW3fHBRLJ0h0wUFCq5VcUNrSEwSbjdP4of4D1NPNLqDuEI6NmWTNmt3mV558YveJbJXuVw6lth0LQTWHivkoEB30uOTIN5nRfHgjqlFfNYfVRju1lsNDyzAzhkClCTRsgWO4F1pz8lcZpm4qz0iWIzIL4FwxvC4hztw1WBGyP0GJ9OErO9GOIKreLwQNjMMJhIk1DGsNJ8SbgY0q2ynFhBCXQQ9Y1yRnXZCoZ0b6OiCPHcwO29qtQt6UMyPrDWmFAO9AFVJ7ZVX2FPe71NUHVakbr0lwCoiyT60402qhMdNps8LcVlf5THEvmKixdXh7G1dgb2OqM1EVxptqfjfxuO93F6hzoyaSQFntdwvNSbLg1PqJlIJN2VRI2q3qYu93KTw7SLINbEWm5VDmQzHgyI4ZEzmMEZqn4AZfpxOzbH2cPjmkF0z9eUMkEFN15LyUsUv0FtkCTDt2IKZyXPVHPe2dFteJui2uI4ehQHmKx3HHCoWzpVRfluK2TgoAWM5vta7G16vnw4LVXHUxIk5xhCW1G944qatWPAjJFlo42qSzGhgsc1kdvPchlBLi",
@@ -126,7 +126,7 @@
       "score": 0.2968,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:37Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005002334218166",
@@ -144,7 +144,7 @@
       "score": 0.2879,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:38Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005012799658917",
@@ -162,7 +162,7 @@
       "score": 0.2745,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:38Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005012845791732",
@@ -180,7 +180,7 @@
       "score": 0.2686,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:39Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005010017915273",
@@ -198,7 +198,7 @@
       "score": 0.2631,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:40Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005003786235731",
@@ -216,7 +216,7 @@
       "score": 0.257,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:40Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005011666514308",
@@ -234,7 +234,7 @@
       "score": 0.2544,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:41Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005011985048323",
@@ -252,7 +252,7 @@
       "score": 0.2429,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:42Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005002110146903",
@@ -270,7 +270,7 @@
       "score": 0.24,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:42Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005004352005250",
@@ -288,7 +288,7 @@
       "score": 0.238,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:43Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005006112632512",
@@ -306,13 +306,13 @@
       "score": 0.2355,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:43Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005012510580573",
       "title": "IP65 Tuya Zigbee WiFi Door Window Magnetic Sensor Wireless Connection Smart Home Protection Waterproof Door Detectors Automation",
       "slug": "ip65-tuya-zigbee-wifi-door-window-magnetic-sensor-wireless-c",
-      "price": "7.18",
+      "price": "8.25",
       "original_price": "8.92",
       "discount_pct": 19,
       "affiliate_url": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ocz4I0CeJVbTtEIhag47ZvlWDV8UScA627iXzeKROkDzkNNB0TDaBPzLVPg3xS9KQMXSqnkN1nVE8MWMwurcQS36MJjkYgVDmGUTK0P1J6MuF8Rzh5aIZTEUhMpurEoGPdHQt1hsNAgPBmYJcRtdybwEDtBbkdc11bGWzhWZXuHJcfJp5BDNfPiRRMyzGsElw8vbTOcMnp3NHfm0zDq3vJscR4EKck9UKF1rQKAFujrs3GapvcgGxsxwBkS54iT7sgjE3uCkfgVz2vnLycpKhGFLNMyrXjykEHclCgmM1l2hy5LQLysgo7WhRqjwFL08aBQeckrenYNUEod9skqDvj6Zu0A0CnbVAB0WBhuQJ7eBhYFIa1MfWECZTKk5uh3TypiSRUGTRxyTfI02w8xVNTGgArtDtwNgcVuwYhlYoAlYBMxi46oWCgUFgIAalfHNNX4Ul2oT2EZN5lGJSySg5cFpseUG8l13jhVcatrnlOymrjb7lSGQLa6S3xGA5ZNiO664ndnyblgQKRUrZkAQt34fs8kLUjPlEWgwMhGhbOyn7lNd6uxLS0gWNyPQUoLK7osXvIbQK5Wse9IfnW2g36dshjLirWDzxwrapj03MY5DJeCwXop35c4HfTGenRMFSFLkzztmeIK4y82R95CIJWX1IqHQ5HVRpLXSVms9IAs5O0c71nVLXEC97JNP0GzJtSSCDAldagWmc",
@@ -324,7 +324,7 @@
       "score": 0.2232,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:43Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005003906939600",
@@ -342,7 +342,7 @@
       "score": 0.2202,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:44Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     },
     {
       "product_id": "1005012327803644",
@@ -360,7 +360,7 @@
       "score": 0.2192,
       "price_history": [],
       "fetched_at": "2026-11-20T08:01:45Z",
-      "updated_at": "2026-11-20T19:41:49Z"
+      "updated_at": "2026-11-21T05:58:11Z"
     }
   ]
 }
