@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-11-21T07:57:59Z",
+  "updated_at": "2026-11-22T07:44:35Z",
   "products": [
     {
       "product_id": "1005006893229555",
@@ -17,8 +17,8 @@
       "sales_volume": 2723,
       "score": 0.434,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:51Z",
-      "updated_at": "2026-11-21T07:57:51Z"
+      "fetched_at": "2026-11-22T07:44:26Z",
+      "updated_at": "2026-11-22T07:44:26Z"
     },
     {
       "product_id": "1005007480971055",
@@ -35,8 +35,8 @@
       "sales_volume": 445,
       "score": 0.3155,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:51Z",
-      "updated_at": "2026-11-21T07:57:51Z"
+      "fetched_at": "2026-11-22T07:44:27Z",
+      "updated_at": "2026-11-22T07:44:27Z"
     },
     {
       "product_id": "1005011795391651",
@@ -53,8 +53,8 @@
       "sales_volume": 53,
       "score": 0.3045,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:52Z",
-      "updated_at": "2026-11-21T07:57:52Z"
+      "fetched_at": "2026-11-22T07:44:27Z",
+      "updated_at": "2026-11-22T07:44:27Z"
     },
     {
       "product_id": "1005010253348075",
@@ -71,12 +71,12 @@
       "sales_volume": 14,
       "score": 0.2817,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:52Z",
-      "updated_at": "2026-11-21T07:57:52Z"
+      "fetched_at": "2026-11-22T07:44:27Z",
+      "updated_at": "2026-11-22T07:44:27Z"
     },
     {
       "product_id": "1005008323500938",
-      "title": "Drahtloser Magnetadsorptions-Ladehalter für Volvo XC60 XC90 S90 V90 V60 S60 Superschnelles Ladegerät USB Typ-C",
+      "title": "Drahtloser Magnetadsorptions-Ladehalter für Volvo XC60 XC90 S90 V90 V60 S60 Superschnelles Ladegerät USB Type-C",
       "slug": "magnetic-adsorption-wireless-charging-holder-for-volvo-xc60-",
       "price": 37.58,
       "original_price": 98.9,
@@ -89,8 +89,8 @@
       "sales_volume": 12,
       "score": 0.2794,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:52Z",
-      "updated_at": "2026-11-21T07:57:52Z"
+      "fetched_at": "2026-11-22T07:44:28Z",
+      "updated_at": "2026-11-22T07:44:28Z"
     },
     {
       "product_id": "1005005586127984",
@@ -107,8 +107,8 @@
       "sales_volume": 21,
       "score": 0.2765,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:53Z",
-      "updated_at": "2026-11-21T07:57:53Z"
+      "fetched_at": "2026-11-22T07:44:28Z",
+      "updated_at": "2026-11-22T07:44:28Z"
     },
     {
       "product_id": "1005002653094153",
@@ -125,8 +125,8 @@
       "sales_volume": 9,
       "score": 0.2744,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:54Z",
-      "updated_at": "2026-11-21T07:57:54Z"
+      "fetched_at": "2026-11-22T07:44:29Z",
+      "updated_at": "2026-11-22T07:44:29Z"
     },
     {
       "product_id": "1005009013097462",
@@ -143,12 +143,12 @@
       "sales_volume": 8,
       "score": 0.274,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:54Z",
-      "updated_at": "2026-11-21T07:57:54Z"
+      "fetched_at": "2026-11-22T07:44:29Z",
+      "updated_at": "2026-11-22T07:44:29Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank in 4 Kabel tragbaren Ladegerät niedlich Pet Cartoon Make-up Spiegel Powerbank Externe Batterie Power Bank",
+      "title": "20000mAh Mini Power Bank in 4 Kabel tragbaren Ladegerät niedlich Pet Cartoon Make-up Spiegel Powerbank externe Batterie Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 9.68,
       "original_price": 21.5,
@@ -161,8 +161,8 @@
       "sales_volume": 20,
       "score": 0.2549,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:55Z",
-      "updated_at": "2026-11-21T07:57:55Z"
+      "fetched_at": "2026-11-22T07:44:30Z",
+      "updated_at": "2026-11-22T07:44:30Z"
     },
     {
       "product_id": "1005013196554725",
@@ -179,8 +179,8 @@
       "sales_volume": 2,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:55Z",
-      "updated_at": "2026-11-21T07:57:55Z"
+      "fetched_at": "2026-11-22T07:44:30Z",
+      "updated_at": "2026-11-22T07:44:30Z"
     },
     {
       "product_id": "1005012394969983",
@@ -197,8 +197,8 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:55Z",
-      "updated_at": "2026-11-21T07:57:55Z"
+      "fetched_at": "2026-11-22T07:44:31Z",
+      "updated_at": "2026-11-22T07:44:31Z"
     },
     {
       "product_id": "1005012349888176",
@@ -215,8 +215,8 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:56Z",
-      "updated_at": "2026-11-21T07:57:56Z"
+      "fetched_at": "2026-11-22T07:44:31Z",
+      "updated_at": "2026-11-22T07:44:31Z"
     },
     {
       "product_id": "1005013163634531",
@@ -233,12 +233,12 @@
       "sales_volume": 25,
       "score": 0.243,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:56Z",
-      "updated_at": "2026-11-21T07:57:56Z"
+      "fetched_at": "2026-11-22T07:44:31Z",
+      "updated_at": "2026-11-22T07:44:31Z"
     },
     {
       "product_id": "1005012408073378",
-      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Transmission 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
+      "title": "3M 5M 10M USB 3.0 Extender High-Speed 5GBPS Übertragung 4-Port HUB Docking Station Multi Port Hub Externes Netzteil Typ-c",
       "slug": "3m-5m-10m-usb-30-extender-high-speed-5gbps-transmission-4-po",
       "price": 14.8,
       "original_price": 27.41,
@@ -251,8 +251,8 @@
       "sales_volume": 31,
       "score": 0.2417,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:56Z",
-      "updated_at": "2026-11-21T07:57:56Z"
+      "fetched_at": "2026-11-22T07:44:32Z",
+      "updated_at": "2026-11-22T07:44:32Z"
     },
     {
       "product_id": "1005007593946212",
@@ -269,8 +269,8 @@
       "sales_volume": 8,
       "score": 0.239,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:57Z",
-      "updated_at": "2026-11-21T07:57:57Z"
+      "fetched_at": "2026-11-22T07:44:32Z",
+      "updated_at": "2026-11-22T07:44:32Z"
     },
     {
       "product_id": "1005009133277403",
@@ -287,8 +287,8 @@
       "sales_volume": 2,
       "score": 0.2382,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:57Z",
-      "updated_at": "2026-11-21T07:57:57Z"
+      "fetched_at": "2026-11-22T07:44:33Z",
+      "updated_at": "2026-11-22T07:44:33Z"
     },
     {
       "product_id": "1005013273281150",
@@ -305,8 +305,8 @@
       "sales_volume": 63,
       "score": 0.2286,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:58Z",
-      "updated_at": "2026-11-21T07:57:58Z"
+      "fetched_at": "2026-11-22T07:44:33Z",
+      "updated_at": "2026-11-22T07:44:33Z"
     },
     {
       "product_id": "32872425924",
@@ -323,8 +323,8 @@
       "sales_volume": 14,
       "score": 0.2277,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:58Z",
-      "updated_at": "2026-11-21T07:57:58Z"
+      "fetched_at": "2026-11-22T07:44:34Z",
+      "updated_at": "2026-11-22T07:44:34Z"
     },
     {
       "product_id": "1005013630391459",
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:58Z",
-      "updated_at": "2026-11-21T07:57:58Z"
+      "fetched_at": "2026-11-22T07:44:34Z",
+      "updated_at": "2026-11-22T07:44:34Z"
     },
     {
       "product_id": "1005004204383810",
@@ -359,8 +359,8 @@
       "sales_volume": 22,
       "score": 0.2117,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:59Z",
-      "updated_at": "2026-11-21T07:57:59Z"
+      "fetched_at": "2026-11-22T07:44:34Z",
+      "updated_at": "2026-11-22T07:44:34Z"
     }
   ]
 }

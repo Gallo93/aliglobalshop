@@ -1,10 +1,10 @@
 {
   "niche": "electronics",
-  "updated_at": "2026-11-21T07:56:58Z",
+  "updated_at": "2026-11-22T07:44:01Z",
   "products": [
     {
       "product_id": "1005007480971055",
-      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Carga rápida Powerbank portátil para iPhone portátil Samsung",
+      "title": "QOOVI PD 100W Power Bank 20000mAh Capacidad de batería externa Cargador rápido Powerbank portátil para iPhone portátil Samsung",
       "slug": "qoovi-pd-100w-power-bank-20000mah-external-battery-capacity-",
       "price": 30.54,
       "original_price": 72.14,
@@ -17,8 +17,8 @@
       "sales_volume": 445,
       "score": 0.3155,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:48Z",
-      "updated_at": "2026-11-21T07:56:48Z"
+      "fetched_at": "2026-11-22T07:43:53Z",
+      "updated_at": "2026-11-22T07:43:53Z"
     },
     {
       "product_id": "1005011795391651",
@@ -35,12 +35,12 @@
       "sales_volume": 53,
       "score": 0.3045,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:48Z",
-      "updated_at": "2026-11-21T07:56:48Z"
+      "fetched_at": "2026-11-22T07:43:53Z",
+      "updated_at": "2026-11-22T07:43:53Z"
     },
     {
       "product_id": "1005009369207724",
-      "title": "Pocket Power Bank Portable Fast Charge Tipo C batería externa para iPhone Watch Samsung Xiaomi con cable de carga rápida Powerbank",
+      "title": "Pocket Power Bank Carga rápida portátil Tipo C Batería externa para iPhone Watch Samsung Xiaomi con cable de carga rápida Powerbank",
       "slug": "pocket-power-bank-portable-fast-charge-type-c-external-batte",
       "price": 16.21,
       "original_price": 40.53,
@@ -53,8 +53,8 @@
       "sales_volume": 20,
       "score": 0.2824,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:49Z",
-      "updated_at": "2026-11-21T07:56:49Z"
+      "fetched_at": "2026-11-22T07:43:53Z",
+      "updated_at": "2026-11-22T07:43:53Z"
     },
     {
       "product_id": "1005010253348075",
@@ -71,12 +71,12 @@
       "sales_volume": 14,
       "score": 0.2817,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:49Z",
-      "updated_at": "2026-11-21T07:56:49Z"
+      "fetched_at": "2026-11-22T07:43:54Z",
+      "updated_at": "2026-11-22T07:43:54Z"
     },
     {
       "product_id": "1005006460425214",
-      "title": "ZEALOT-S1 Portable Bluetooth altavoz inalámbrico de bicicletas Altavoz al aire libre impermeable Boombox Soporte TF Card,AUX,Flashlight",
+      "title": "ZEALOT-S1 Altavoz Bluetooth portátil inalámbrico de bicicletas Altavoz al aire libre impermeable Boombox Soporte TF Card,AUX,Flashlight",
       "slug": "zealot-s1-portable-bluetooth-speaker-wireless-bicycle-speake",
       "price": 15.79,
       "original_price": 40.46,
@@ -89,8 +89,8 @@
       "sales_volume": 7,
       "score": 0.2808,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:50Z",
-      "updated_at": "2026-11-21T07:56:50Z"
+      "fetched_at": "2026-11-22T07:43:54Z",
+      "updated_at": "2026-11-22T07:43:54Z"
     },
     {
       "product_id": "1005012641246048",
@@ -107,12 +107,12 @@
       "sales_volume": 15,
       "score": 0.2788,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:50Z",
-      "updated_at": "2026-11-21T07:56:50Z"
+      "fetched_at": "2026-11-22T07:43:55Z",
+      "updated_at": "2026-11-22T07:43:55Z"
     },
     {
       "product_id": "1005010660256913",
-      "title": "Estación de alimentación portátil de 400W de alta capacidad 192Wh LiFePO4 batería AC 220V generador solar de carga rápida Banco de alimentación para el camping",
+      "title": "Estación de alimentación portátil de 400W de alta velocidad 192Wh LiFePO4 batería AC 220V generador solar de carga rápida Banco de alimentación para el camping",
       "slug": "high-capacity-400w-portable-power-station-192wh-lifepo4-batt",
       "price": 115.74,
       "original_price": 275.57,
@@ -125,8 +125,8 @@
       "sales_volume": 6,
       "score": 0.2727,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:51Z",
-      "updated_at": "2026-11-21T07:56:51Z"
+      "fetched_at": "2026-11-22T07:43:55Z",
+      "updated_at": "2026-11-22T07:43:55Z"
     },
     {
       "product_id": "1005012375813811",
@@ -143,8 +143,8 @@
       "sales_volume": 26,
       "score": 0.2648,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:51Z",
-      "updated_at": "2026-11-21T07:56:51Z"
+      "fetched_at": "2026-11-22T07:43:56Z",
+      "updated_at": "2026-11-22T07:43:56Z"
     },
     {
       "product_id": "1005012219557684",
@@ -161,8 +161,8 @@
       "sales_volume": 85,
       "score": 0.2575,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:52Z",
-      "updated_at": "2026-11-21T07:56:52Z"
+      "fetched_at": "2026-11-22T07:43:56Z",
+      "updated_at": "2026-11-22T07:43:56Z"
     },
     {
       "product_id": "1005006801718157",
@@ -179,8 +179,8 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:52Z",
-      "updated_at": "2026-11-21T07:56:52Z"
+      "fetched_at": "2026-11-22T07:43:56Z",
+      "updated_at": "2026-11-22T07:43:56Z"
     },
     {
       "product_id": "1005009648323164",
@@ -197,12 +197,12 @@
       "sales_volume": 2,
       "score": 0.2452,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:52Z",
-      "updated_at": "2026-11-21T07:56:52Z"
+      "fetched_at": "2026-11-22T07:43:57Z",
+      "updated_at": "2026-11-22T07:43:57Z"
     },
     {
       "product_id": "1005012975212799",
-      "title": "Nohon 5000/10000mAh para Insta360 Luna Ultra Battery Handle 22.5W Tipo-C Fast Charging Con Tripod for Insta Battery Handle",
+      "title": "Nohon 5000/10000mAh para Insta360 Luna Ultra Battery Handle 22.5W Tipo-C Fast Charging Con Tripod para Insta Battery Handle",
       "slug": "nohon-500010000mah-for-insta360-luna-ultra-battery-handle-22",
       "price": 32.97,
       "original_price": 62.22,
@@ -215,12 +215,12 @@
       "sales_volume": 69,
       "score": 0.2443,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:53Z",
-      "updated_at": "2026-11-21T07:56:53Z"
+      "fetched_at": "2026-11-22T07:43:57Z",
+      "updated_at": "2026-11-22T07:43:57Z"
     },
     {
       "product_id": "1005012327079554",
-      "title": "BIGTREETECH Panda Status P2 Smart LED Light Strip Para Bambu Lab P2S/X2D 3D Printer RGB Light Bar en tiempo real Imprimir estado Advertencia",
+      "title": "BIGTREETECH Panda Status P2 Smart LED Light Strip Para Bambu Lab P2S/X2D Impresora 3D RGB Light Bar en tiempo real Imprimir estado Advertencia",
       "slug": "bigtreetech-panda-status-p2-smart-led-light-strip-for-bambu-",
       "price": 23.03,
       "original_price": 37.94,
@@ -233,12 +233,12 @@
       "sales_volume": 93,
       "score": 0.2282,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:53Z",
-      "updated_at": "2026-11-21T07:56:53Z"
+      "fetched_at": "2026-11-22T07:43:58Z",
+      "updated_at": "2026-11-22T07:43:58Z"
     },
     {
       "product_id": "1005013588863907",
-      "title": "Para Lexus GX550h Wireless Charging Pad Central Consola Protector no deslizante Accesorios Silicona Gratis",
+      "title": "Para Lexus GX550h Wireless Charging Pad Central Consola Protector no deslizante Mat Interior Accesorios Silicona Gratis",
       "slug": "for-lexus-gx550h-wireless-charging-pad-central-console-prote",
       "price": 4.93,
       "original_price": 20.76,
@@ -251,8 +251,8 @@
       "sales_volume": 0,
       "score": 0.228,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:54Z",
-      "updated_at": "2026-11-21T07:56:54Z"
+      "fetched_at": "2026-11-22T07:43:58Z",
+      "updated_at": "2026-11-22T07:43:58Z"
     },
     {
       "product_id": "1005013167640051",
@@ -269,8 +269,8 @@
       "sales_volume": 0,
       "score": 0.228,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:55Z",
-      "updated_at": "2026-11-21T07:56:55Z"
+      "fetched_at": "2026-11-22T07:43:58Z",
+      "updated_at": "2026-11-22T07:43:58Z"
     },
     {
       "product_id": "1005011532039236",
@@ -287,12 +287,12 @@
       "sales_volume": 1,
       "score": 0.2251,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:55Z",
-      "updated_at": "2026-11-21T07:56:55Z"
+      "fetched_at": "2026-11-22T07:43:59Z",
+      "updated_at": "2026-11-22T07:43:59Z"
     },
     {
       "product_id": "33007923484",
-      "title": "Caja de carga protectora portátil resistente EVA Bolsa de altavoz caja de almacenamiento para accesorios de altavoz Bluetooth MARSHALL Stockwell",
+      "title": "Caja de carga protectora portátil resistente EVA Bolsa de altavoz caja de almacenamiento para MARSHALL Stockwell Bluetooth Accesorios de altavoz",
       "slug": "eva-hard-portable-protective-carrying-box-cover-storage-spea",
       "price": 9.52,
       "original_price": 16.42,
@@ -305,8 +305,8 @@
       "sales_volume": 18,
       "score": 0.2249,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:56Z",
-      "updated_at": "2026-11-21T07:56:56Z"
+      "fetched_at": "2026-11-22T07:44:00Z",
+      "updated_at": "2026-11-22T07:44:00Z"
     },
     {
       "product_id": "1005011532019654",
@@ -323,12 +323,12 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:56Z",
-      "updated_at": "2026-11-21T07:56:56Z"
+      "fetched_at": "2026-11-22T07:44:00Z",
+      "updated_at": "2026-11-22T07:44:00Z"
     },
     {
       "product_id": "1005011531921275",
-      "title": "Para 26 Almohadillas de carga inalámbrica Avita 07 silicona, almohadillas de control central anti deslizamiento",
+      "title": "Para 26 Avita 07 almohadillas de carga inalámbrica de silicona, teléfono de control central anti almohadillas de deslizamiento",
       "slug": "for-26-avita-07-silicone-wireless-charging-pads-central-cont",
       "price": 7.63,
       "original_price": 28.25,
@@ -341,8 +341,8 @@
       "sales_volume": 0,
       "score": 0.219,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:57Z",
-      "updated_at": "2026-11-21T07:56:57Z"
+      "fetched_at": "2026-11-22T07:44:01Z",
+      "updated_at": "2026-11-22T07:44:01Z"
     },
     {
       "product_id": "1005009093766779",
@@ -359,8 +359,8 @@
       "sales_volume": 13,
       "score": 0.2156,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:56:57Z",
-      "updated_at": "2026-11-21T07:56:57Z"
+      "fetched_at": "2026-11-22T07:44:01Z",
+      "updated_at": "2026-11-22T07:44:01Z"
     }
   ]
 }

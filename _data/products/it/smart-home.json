@@ -1,6 +1,6 @@
 {
   "niche": "smart-home",
-  "updated_at": "2026-11-21T07:57:19Z",
+  "updated_at": "2026-11-22T07:44:12Z",
   "products": [
     {
       "product_id": "1005012571302422",
@@ -17,8 +17,8 @@
       "sales_volume": 4915,
       "score": 0.8825,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:09Z",
-      "updated_at": "2026-11-21T07:57:09Z"
+      "fetched_at": "2026-11-22T07:44:04Z",
+      "updated_at": "2026-11-22T07:44:04Z"
     },
     {
       "product_id": "1005012617976872",
@@ -35,8 +35,8 @@
       "sales_volume": 1627,
       "score": 0.4767,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:09Z",
-      "updated_at": "2026-11-21T07:57:09Z"
+      "fetched_at": "2026-11-22T07:44:04Z",
+      "updated_at": "2026-11-22T07:44:04Z"
     },
     {
       "product_id": "1005002334218166",
@@ -53,12 +53,12 @@
       "sales_volume": 225,
       "score": 0.2875,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:10Z",
-      "updated_at": "2026-11-21T07:57:10Z"
+      "fetched_at": "2026-11-22T07:44:05Z",
+      "updated_at": "2026-11-22T07:44:05Z"
     },
     {
       "product_id": "1005012799658917",
-      "title": "Telecamera di sicurezza solare 2K Wireless WiFi telecamera esterna 2.4G/5G Home Sicurezza CCTV fisso pannello solare a due vie conversazione sorveglianza",
+      "title": "Telecamera di sicurezza solare 2K Wireless Outdoor WiFi Camera 2.4G/5G Home Sicurezza CCTV fisso pannello solare a due vie conversazione sorveglianza",
       "slug": "2k-solar-security-camera-wireless-outdoor-wifi-camera-24g5g-",
       "price": 38.97,
       "original_price": 92.8,
@@ -71,8 +71,8 @@
       "sales_volume": 4,
       "score": 0.2745,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:10Z",
-      "updated_at": "2026-11-21T07:57:10Z"
+      "fetched_at": "2026-11-22T07:44:05Z",
+      "updated_at": "2026-11-22T07:44:05Z"
     },
     {
       "product_id": "1005010017915273",
@@ -89,8 +89,8 @@
       "sales_volume": 9,
       "score": 0.2631,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:11Z",
-      "updated_at": "2026-11-21T07:57:11Z"
+      "fetched_at": "2026-11-22T07:44:05Z",
+      "updated_at": "2026-11-22T07:44:05Z"
     },
     {
       "product_id": "1005009761464668",
@@ -107,12 +107,12 @@
       "sales_volume": 23,
       "score": 0.2568,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:11Z",
-      "updated_at": "2026-11-21T07:57:11Z"
+      "fetched_at": "2026-11-22T07:44:06Z",
+      "updated_at": "2026-11-22T07:44:06Z"
     },
     {
       "product_id": "1005011666514308",
-      "title": "Batteria al litio originale per iRobot Roomba Cleaner 900 800 700 600 Serie 960 980 981 965 895 890 860 692 680 675 Parte",
+      "title": "Batteria originale agli iRobot Roomba Cleaner 900 800 700 600 Serie 960 980 981 965 895 890 860 692 680 675 Parte",
       "slug": "original-lithium-ion-battery-for-irobot-roomba-cleaner-900-8",
       "price": 32.73,
       "original_price": 66.79,
@@ -125,8 +125,8 @@
       "sales_volume": 11,
       "score": 0.2543,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:12Z",
-      "updated_at": "2026-11-21T07:57:12Z"
+      "fetched_at": "2026-11-22T07:44:06Z",
+      "updated_at": "2026-11-22T07:44:06Z"
     },
     {
       "product_id": "1005011985048323",
@@ -143,8 +143,8 @@
       "sales_volume": 55,
       "score": 0.2431,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:12Z",
-      "updated_at": "2026-11-21T07:57:12Z"
+      "fetched_at": "2026-11-22T07:44:07Z",
+      "updated_at": "2026-11-22T07:44:07Z"
     },
     {
       "product_id": "1005002110146903",
@@ -161,12 +161,12 @@
       "sales_volume": 0,
       "score": 0.24,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:13Z",
-      "updated_at": "2026-11-21T07:57:13Z"
+      "fetched_at": "2026-11-22T07:44:07Z",
+      "updated_at": "2026-11-22T07:44:07Z"
     },
     {
       "product_id": "1005004352005250",
-      "title": "Modulo di vuoto del motore dell'assemblaggio del ventilatore del vuoto del robot per IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i7/i8 parti di riparazione del ventilatore di raffreddamento",
+      "title": "Modulo sottovuoto del motore di assemblaggio del ventilatore del vuoto del robot per IRobot Roomba i7/i3+/i4+/i3/i4/E5/E6/i7/i8 parti di riparazione del ventilatore di raffreddamento",
       "slug": "robot-vacuum-cleaner-fan-assembly-motor-vacuum-module-for-ir",
       "price": 24.28,
       "original_price": 38.54,
@@ -179,12 +179,12 @@
       "sales_volume": 308,
       "score": 0.2375,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:13Z",
-      "updated_at": "2026-11-21T07:57:13Z"
+      "fetched_at": "2026-11-22T07:44:08Z",
+      "updated_at": "2026-11-22T07:44:08Z"
     },
     {
       "product_id": "1005006112632512",
-      "title": "Shelly 1 Mini Gen3 WiFi Smart Switch Matter 8A luci automatiche Garage Door Irrigation System Piccola Appliance elettrica Home",
+      "title": "Shelly 1 Mini Gen3 WiFi Smart Switch Matter 8A Automate Lights Garage Door Irrigation System Small Electrical Appliance Home",
       "slug": "shelly-1-mini-gen3-wifi-smart-switch-matter-8a-automate-ligh",
       "price": 13.36,
       "original_price": 22.47,
@@ -197,12 +197,12 @@
       "sales_volume": 163,
       "score": 0.2361,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:13Z",
-      "updated_at": "2026-11-21T07:57:13Z"
+      "fetched_at": "2026-11-22T07:44:08Z",
+      "updated_at": "2026-11-22T07:44:08Z"
     },
     {
       "product_id": "1005003906939600",
-      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Serie 560 620 650 760 770 870 R3",
+      "title": "Batteria agli ioni di litio con celle di marca per iRobot Roomba 500 600 700 800 Series 560 620 630 650 760 770 870 R3",
       "slug": "sparkole-53-ah-148v-li-ion-battery-with-brand-cells-for-irob",
       "price": 19.28,
       "original_price": 32.68,
@@ -215,12 +215,12 @@
       "sales_volume": 10,
       "score": 0.2202,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:14Z",
-      "updated_at": "2026-11-21T07:57:14Z"
+      "fetched_at": "2026-11-22T07:44:08Z",
+      "updated_at": "2026-11-22T07:44:08Z"
     },
     {
       "product_id": "1005012327803644",
-      "title": "Dekco 3K/5MP UHD Wall Light Camera Wireless Wifi Floodlight Telecamera Outdoor 360 ° Vista Colore Night Vision 2 vie Audio Security Cam",
+      "title": "Dekco 3K/5MP UHD Wall Light Camera Wireless Wifi Floodlight Telecamera Outdoor 360 ° Vista Colore Notte Visione 2 vie Audio Security Cam",
       "slug": "dekco-3k5mp-uhd-wall-light-camera-wireless-wifi-floodlight-c",
       "price": 80.95,
       "original_price": 299.83,
@@ -233,8 +233,8 @@
       "sales_volume": 2,
       "score": 0.2192,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:14Z",
-      "updated_at": "2026-11-21T07:57:14Z"
+      "fetched_at": "2026-11-22T07:44:09Z",
+      "updated_at": "2026-11-22T07:44:09Z"
     },
     {
       "product_id": "1005004671523450",
@@ -251,8 +251,8 @@
       "sales_volume": 29,
       "score": 0.2175,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:15Z",
-      "updated_at": "2026-11-21T07:57:15Z"
+      "fetched_at": "2026-11-22T07:44:09Z",
+      "updated_at": "2026-11-22T07:44:09Z"
     },
     {
       "product_id": "1005012518751560",
@@ -269,12 +269,12 @@
       "sales_volume": 4,
       "score": 0.2145,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:15Z",
-      "updated_at": "2026-11-21T07:57:15Z"
+      "fetched_at": "2026-11-22T07:44:10Z",
+      "updated_at": "2026-11-22T07:44:10Z"
     },
     {
       "product_id": "1005008283916283",
-      "title": "Modulo di vuoto del motore di assemblaggio del motore del ventilatore di raffreddamento di ricambio per il pulitore del vuoto del motore di assemblaggio del ventilatore per il pulitore del robot di IRobot S9",
+      "title": "Modulo di vuoto del motore di assemblaggio del motore del ventilatore di raffreddamento di ricambio per l'aspirapolvere del robot di raffreddamento per il pulitore del vuoto del robot di IRobot S9",
       "slug": "replacement-cooling-fan-motor-robot-vacuum-cleaner-parts-fan",
       "price": 40.56,
       "original_price": 64.38,
@@ -287,8 +287,8 @@
       "sales_volume": 28,
       "score": 0.2144,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:16Z",
-      "updated_at": "2026-11-21T07:57:16Z"
+      "fetched_at": "2026-11-22T07:44:10Z",
+      "updated_at": "2026-11-22T07:44:10Z"
     },
     {
       "product_id": "1005008960437105",
@@ -305,12 +305,12 @@
       "sales_volume": 9,
       "score": 0.2111,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:16Z",
-      "updated_at": "2026-11-21T07:57:16Z"
+      "fetched_at": "2026-11-22T07:44:11Z",
+      "updated_at": "2026-11-22T07:44:11Z"
     },
     {
       "product_id": "1005012717523729",
-      "title": "WiFi 360 Fotocamera a lampadina panoramica con E27 Socket & 6 pz Luce di inondazione & IR Led Supporto 4x Digital Zoom Dual Lenz",
+      "title": "WiFi 360 Fotocamera a lampadina panoramica con E27 Socket & 6 pz Luce di inondazione & IR Supporto a led 4x Digital Zoom Dual Lenz",
       "slug": "wifi-360-panoramic-light-bulb-camera-with-e27-socket-6-pcs-f",
       "price": 13.09,
       "original_price": 21.41,
@@ -323,8 +323,8 @@
       "sales_volume": 31,
       "score": 0.2077,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:17Z",
-      "updated_at": "2026-11-21T07:57:17Z"
+      "fetched_at": "2026-11-22T07:44:11Z",
+      "updated_at": "2026-11-22T07:44:11Z"
     },
     {
       "product_id": "1005012788438002",
@@ -341,12 +341,12 @@
       "sales_volume": 20,
       "score": 0.2044,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:18Z",
-      "updated_at": "2026-11-21T07:57:18Z"
+      "fetched_at": "2026-11-22T07:44:12Z",
+      "updated_at": "2026-11-22T07:44:12Z"
     },
     {
       "product_id": "1005008468643815",
-      "title": "2026 Nuovo adattatore di alimentazione 5V 9V 12V 24V Adattatore spina UE 0.5A 1A 2A 3A 4A 5.5mm*2.5mm Alimentazione elettrica per CCTV WiFi LED",
+      "title": "2026 Nuovo adattatore di alimentazione 5V 9V 12V 24V EU spina adattatore 0.5A 1A 2A 3A 4A 5.5mm*2.5mm Alimentazione elettrica per CCTV WiFi LED",
       "slug": "2026-newest-power-adapter-5v-9v-12v-24v-eu-plug-adapter-05a-",
       "price": 6.82,
       "original_price": 7.97,
@@ -359,8 +359,8 @@
       "sales_volume": 566,
       "score": 0.2041,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:19Z",
-      "updated_at": "2026-11-21T07:57:19Z"
+      "fetched_at": "2026-11-22T07:44:12Z",
+      "updated_at": "2026-11-22T07:44:12Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "niche": "gadgets",
-  "updated_at": "2026-11-21T07:57:59Z",
+  "updated_at": "2026-11-22T07:44:35Z",
   "products": [
     {
       "product_id": "1005006893229555",
@@ -17,8 +17,8 @@
       "sales_volume": 2723,
       "score": 0.434,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:51Z",
-      "updated_at": "2026-11-21T07:57:51Z"
+      "fetched_at": "2026-11-22T07:44:26Z",
+      "updated_at": "2026-11-22T07:44:26Z"
     },
     {
       "product_id": "1005007480971055",
@@ -35,8 +35,8 @@
       "sales_volume": 445,
       "score": 0.3155,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:51Z",
-      "updated_at": "2026-11-21T07:57:51Z"
+      "fetched_at": "2026-11-22T07:44:27Z",
+      "updated_at": "2026-11-22T07:44:27Z"
     },
     {
       "product_id": "1005011795391651",
@@ -53,12 +53,12 @@
       "sales_volume": 53,
       "score": 0.3045,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:52Z",
-      "updated_at": "2026-11-21T07:57:52Z"
+      "fetched_at": "2026-11-22T07:44:27Z",
+      "updated_at": "2026-11-22T07:44:27Z"
     },
     {
       "product_id": "1005010253348075",
-      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holder Accessori",
+      "title": "Per Audi A6L A7 C7 Piastra di ricarica wireless 2012-2018 Doppio tipo-C 65W Fast Charging Pad Mobile Phone Charge Holding Accessori",
       "slug": "for-audi-a6l-a7-c7-wireless-charging-plate-2012-2018-double-",
       "price": 39.56,
       "original_price": 98.9,
@@ -71,12 +71,12 @@
       "sales_volume": 14,
       "score": 0.2817,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:52Z",
-      "updated_at": "2026-11-21T07:57:52Z"
+      "fetched_at": "2026-11-22T07:44:27Z",
+      "updated_at": "2026-11-22T07:44:27Z"
     },
     {
       "product_id": "1005008323500938",
-      "title": "Supporto di ricarica senza fili ad assorbimento magnetico per Volvo XC60 XC90 S90 V60 S60 Super Fast Charging Dock USB Tipo-C",
+      "title": "Supporto di ricarica senza fili per Volvo XC60 XC90 S90 V90 V60 S60 Super Fast Charging Dock USB Tipo-C",
       "slug": "magnetic-adsorption-wireless-charging-holder-for-volvo-xc60-",
       "price": 37.58,
       "original_price": 98.9,
@@ -89,12 +89,12 @@
       "sales_volume": 12,
       "score": 0.2794,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:52Z",
-      "updated_at": "2026-11-21T07:57:52Z"
+      "fetched_at": "2026-11-22T07:44:28Z",
+      "updated_at": "2026-11-22T07:44:28Z"
     },
     {
       "product_id": "1005005586127984",
-      "title": "Schermo proiettore Veidadz 250 pollici portatile pieghevole ad alta densità morbido bianco senza rughe all'aperto film Scree",
+      "title": "Schermo del proiettore di Veidadz 250 pollici portatile pieghevole ad alta densità morbido bianco senza rughe all'aperto film Scree",
       "slug": "veidadz-projector-screen-250-inch-portable-foldable-soft-hig",
       "price": 78.17,
       "original_price": 186.13,
@@ -107,12 +107,12 @@
       "sales_volume": 21,
       "score": 0.2765,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:53Z",
-      "updated_at": "2026-11-21T07:57:53Z"
+      "fetched_at": "2026-11-22T07:44:28Z",
+      "updated_at": "2026-11-22T07:44:28Z"
     },
     {
       "product_id": "1005002653094153",
-      "title": "Portatile professionale del proiettore del cavalletto del cavalletto del cavalletto del cavalletto del selfie Stick per il proiettore della macchina fotografica di DLP Beamer Mini",
+      "title": "Portatile professionale del proiettore del treppiede del proiettore del cavalletto del cavalletto del selfie Stick per il proiettore della macchina fotografica del bevente DLP Mini",
       "slug": "professional-portable-tripod-projector-tripod-holder-stretch",
       "price": 1.3,
       "original_price": 3.25,
@@ -125,12 +125,12 @@
       "sales_volume": 9,
       "score": 0.2744,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:54Z",
-      "updated_at": "2026-11-21T07:57:54Z"
+      "fetched_at": "2026-11-22T07:44:29Z",
+      "updated_at": "2026-11-22T07:44:29Z"
     },
     {
       "product_id": "1005009013097462",
-      "title": "144LED 10000LM Luce solare ricaricabile dell'inondazione esterna portatile del proiettore del riflettore del LED dell'inondazione della lampada di costruzione del proiettore",
+      "title": "144LED 10000LM Luce solare ricaricabile dell'inondazione esterna portatile del proiettore del riflettore del LED dell'inondazione della lampada di costruzione dell'inondazione",
       "slug": "144led-10000lm-rechargeable-solar-flood-light-outdoor-portab",
       "price": 16.91,
       "original_price": 44.44,
@@ -143,12 +143,12 @@
       "sales_volume": 8,
       "score": 0.274,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:54Z",
-      "updated_at": "2026-11-21T07:57:54Z"
+      "fetched_at": "2026-11-22T07:44:29Z",
+      "updated_at": "2026-11-22T07:44:29Z"
     },
     {
       "product_id": "1005010000531819",
-      "title": "20000mAh Mini Power Bank Costruito in 4 cavi Portable Charger Cute Pet Cartoon Makeup Mirror Powerbank Batteria esterna Power Bank",
+      "title": "20000mAh Mini Power Bank Costruito in 4 Cavo Caricabatteria portatile Cute Pet Cartoon Makeup Mirror Powerbank Batteria esterna Power Bank",
       "slug": "20000mah-mini-power-bank-built-in-4-cable-portable-charger-c",
       "price": 9.68,
       "original_price": 21.5,
@@ -161,8 +161,8 @@
       "sales_volume": 20,
       "score": 0.2549,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:55Z",
-      "updated_at": "2026-11-21T07:57:55Z"
+      "fetched_at": "2026-11-22T07:44:30Z",
+      "updated_at": "2026-11-22T07:44:30Z"
     },
     {
       "product_id": "1005013196554725",
@@ -179,12 +179,12 @@
       "sales_volume": 2,
       "score": 0.2542,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:55Z",
-      "updated_at": "2026-11-21T07:57:55Z"
+      "fetched_at": "2026-11-22T07:44:30Z",
+      "updated_at": "2026-11-22T07:44:30Z"
     },
     {
       "product_id": "1005012394969983",
-      "title": "20000mAh Power Bank, ricarica doppia veloce 35W/20W, cavi incorporati, display digitale, portatile per tutti i telefoni",
+      "title": "Banca di potere 20000mAh, carica doppia veloce 35W/20W, cavi incorporati, display digitale, portatile per tutti i telefoni",
       "slug": "20000mah-power-bank-35w20w-dual-fast-charge-built-in-cables-",
       "price": 46.9,
       "original_price": 95.73,
@@ -197,8 +197,8 @@
       "sales_volume": 1,
       "score": 0.2531,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:55Z",
-      "updated_at": "2026-11-21T07:57:55Z"
+      "fetched_at": "2026-11-22T07:44:31Z",
+      "updated_at": "2026-11-22T07:44:31Z"
     },
     {
       "product_id": "1005012349888176",
@@ -215,12 +215,12 @@
       "sales_volume": 14,
       "score": 0.2517,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:56Z",
-      "updated_at": "2026-11-21T07:57:56Z"
+      "fetched_at": "2026-11-22T07:44:31Z",
+      "updated_at": "2026-11-22T07:44:31Z"
     },
     {
       "product_id": "1005013163634531",
-      "title": "Portatile 8K a molla a spirale cavo a sinistra Angolo mini micro cavo interrato compatibile HDMI per DSLR Camera Field Monitor",
+      "title": "Portatile 8K cavo a molla ammortizzato a destra Angled Mini Micro Cavo Braided HDMI compatibile per DSLR Camera Field Monitor",
       "slug": "portable-8k-spring-coiled-cable-left-right-angled-mini-micro",
       "price": 4.92,
       "original_price": 9.84,
@@ -233,8 +233,8 @@
       "sales_volume": 25,
       "score": 0.243,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:56Z",
-      "updated_at": "2026-11-21T07:57:56Z"
+      "fetched_at": "2026-11-22T07:44:31Z",
+      "updated_at": "2026-11-22T07:44:31Z"
     },
     {
       "product_id": "1005012408073378",
@@ -251,8 +251,8 @@
       "sales_volume": 31,
       "score": 0.2417,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:56Z",
-      "updated_at": "2026-11-21T07:57:56Z"
+      "fetched_at": "2026-11-22T07:44:32Z",
+      "updated_at": "2026-11-22T07:44:32Z"
     },
     {
       "product_id": "1005007593946212",
@@ -269,12 +269,12 @@
       "sales_volume": 8,
       "score": 0.239,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:57Z",
-      "updated_at": "2026-11-21T07:57:57Z"
+      "fetched_at": "2026-11-22T07:44:32Z",
+      "updated_at": "2026-11-22T07:44:32Z"
     },
     {
       "product_id": "1005009133277403",
-      "title": "Per Magsafe Power Bank 20000mAh con caricatore a parete magnetico Wireless 22.5W Caricabatterie veloce per iPhone 17 Samsung S25 Powerbank",
+      "title": "Per Magsafe Power Bank 20000mAh con caricatore a parete magnetico Wireless 22.5W Caricabatteria veloce per iPhone 17 Samsung S25 Powerbank",
       "slug": "for-magsafe-power-bank-20000mah-with-cable-wall-charger-magn",
       "price": 16.97,
       "original_price": 31.44,
@@ -287,8 +287,8 @@
       "sales_volume": 2,
       "score": 0.2382,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:57Z",
-      "updated_at": "2026-11-21T07:57:57Z"
+      "fetched_at": "2026-11-22T07:44:33Z",
+      "updated_at": "2026-11-22T07:44:33Z"
     },
     {
       "product_id": "1005013273281150",
@@ -305,8 +305,8 @@
       "sales_volume": 63,
       "score": 0.2286,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:58Z",
-      "updated_at": "2026-11-21T07:57:58Z"
+      "fetched_at": "2026-11-22T07:44:33Z",
+      "updated_at": "2026-11-22T07:44:33Z"
     },
     {
       "product_id": "32872425924",
@@ -323,8 +323,8 @@
       "sales_volume": 14,
       "score": 0.2277,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:58Z",
-      "updated_at": "2026-11-21T07:57:58Z"
+      "fetched_at": "2026-11-22T07:44:34Z",
+      "updated_at": "2026-11-22T07:44:34Z"
     },
     {
       "product_id": "1005013630391459",
@@ -341,12 +341,12 @@
       "sales_volume": 0,
       "score": 0.225,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:58Z",
-      "updated_at": "2026-11-21T07:57:58Z"
+      "fetched_at": "2026-11-22T07:44:34Z",
+      "updated_at": "2026-11-22T07:44:34Z"
     },
     {
       "product_id": "1005004204383810",
-      "title": "Supporto universale portatile mini flessibile del treppiede 2 della sezione per il supporto del cavalletto desktop della macchina fotografica del proiettore per il telefono cellulare",
+      "title": "Supporto universale portatile mini flessibile di treppiede 2 sezione per proiettore fotocamera desktop treppiede supporto per telefono cellulare",
       "slug": "universal-portable-mini-flexible-tripod-2-section-holder-for",
       "price": 1.46,
       "original_price": 2.39,
@@ -359,8 +359,8 @@
       "sales_volume": 22,
       "score": 0.2117,
       "price_history": [],
-      "fetched_at": "2026-11-21T07:57:59Z",
-      "updated_at": "2026-11-21T07:57:59Z"
+      "fetched_at": "2026-11-22T07:44:34Z",
+      "updated_at": "2026-11-22T07:44:34Z"
     }
   ]
 }
