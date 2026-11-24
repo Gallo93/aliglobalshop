@@ -89,7 +89,7 @@
 
     <section class="price-drop" aria-labelledby="pd">
       <h2 id="pd" class="section__title">{{p_price_drop_title}}</h2>
-      <form class="price-drop__form" action="https://aliglobalshop-production.up.railway.app/webhook/price-alert" method="post">
+      <form class="price-drop__form" action="https://n8n.aliglobalshop.net/webhook/price-alert" method="post">
         <input type="hidden" name="product_id" value="{{product_id}}">
         <input type="hidden" name="product_url" value="{{site_url}}/{{lang}}/{{category_slug}}/{{slug}}/">
         <label class="sr-only" for="pd-email">{{p_form_email_label}}</label>
